@@ -48,7 +48,7 @@
                                 <legend>Add hero to team</legend>
                                 <div class='form-group'>
                                     <div class='col-sm-12'>
-                                        <select class="form-control selectpicker" id="team-hero-name" name="team-hero-name" required title="Hero name" data-live-search="true">
+                                        <select class="form-control selectpicker" id="team-hero-name" name="name" required title="Hero name" data-live-search="true">
                                             <optgroup label="Fire">
                                                 <option>Hero 1</option>
                                                 <option>Hero 2</option>
@@ -61,13 +61,12 @@
                                                 <option>Hero 3</option>
                                                 <option>Hero 4</option>
                                             </optgroup>
-
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-4">
-                                        <input type="text" class="form-control" id="team-hero-attack" name="attack" required placeholder="Attak"/>
+                                        <input type="text" class="form-control" id="team-hero-attack" name="attack" required placeholder="Attack"/>
                                     </div>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" id="team-hero-recovery" name="recovery" required placeholder="Recovery"/>
@@ -76,7 +75,8 @@
                                         <input type="text" class="form-control" id="team-hero-health" name="health" required placeholder="Health"/>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary">Add to team</button>
+                                <button id="add-to-team" class="btn btn-primary">Add to team</button>
+                                <button id="clear-team-form" class="btn btn-default">Clear</button>
                             </fieldset>
                         </form>
                     </div>
@@ -92,19 +92,89 @@
                     </div>
                     <div class="tab-content" id="team-content">
                         <div class="tab-pane fade active in" role="tabpanel" id="team-fire-affinity" aria-labelledby="team-fire-affinity-tab">
-                            <p>fire</p>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Attack</th>
+                                        <th>Recovery</th>
+                                        <th>Health</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="team-water-affinity" aria-labelledby="team-water-affinity-tab">
-                            <p>water</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="team-earth-affinity" aria-labelledby="eam-earth-affinity-tab">
-                            <p>earth</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="team-light-affinity" aria-labelledby="team-light-affinity-tab">
-                            <p>light</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="team-dark-affinity" aria-labelledby="team-dark-affinity">
-                            <p>dark</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 
@@ -131,8 +201,8 @@
                                 <div class='col-sm-8'>
                                     <input type="text" class="form-control" id="hero-name" name="name" required placeholder="Hero name"/>
                                 </div>
-                                <div class='col-sm-4' style="font-size: 25px; color: #FFB404;">
-                                    <input class="rating text-center" data-max="6" data-min="1" id="hero-stars" name="stars" type="number" required />
+                                <div class='col-sm-4 rarities-container'>
+                                    <input class="rating text-center" data-max="6" data-min="1" id="hero-rarities" name="rarities" type="number" required />
                                 </div>
                             </div>
 
@@ -174,7 +244,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" id="hero-attack" name="attack" required placeholder="Attak"/>
+                                    <input type="text" class="form-control" id="hero-attack" name="attack" required placeholder="Attack"/>
                                 </div>
                                 <div class="col-sm-4">
                                     <input type="text" class="form-control" id="hero-recovery" name="recovery" required placeholder="Recovery"/>
@@ -318,7 +388,7 @@
                         <div class="form-group">
                             <label for="contact-message" class="col-sm-2 control-label">Message</label>
                             <div class="col-sm-10">
-                                <textarea class="form-control" rows="4" name="contact-message"></textarea>
+                                <textarea class="form-control" rows="4" id="contact-message" name="message"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
@@ -343,9 +413,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rating-input/0.4.0/bootstrap-rating-input.js"></script>
 
 <script src="main.js"></script>
-<!--<script src="hero.js"></script>-->
-<!--<script src="team.js"></script>-->
-<script src="hero_creator.js"></script>
 </body>
 </html>
 

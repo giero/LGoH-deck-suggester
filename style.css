@@ -20,3 +20,8 @@ body {
 #team-navbar .nav-tabs {
 	margin-bottom: 15px;
 }
+
+#hero-creator .rarities-container {
+	font-size: 25px;
+	color: #FFB404;
+}
