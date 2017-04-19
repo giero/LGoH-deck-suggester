@@ -1,0 +1,36 @@
+id
+name
+
+affinity
+type
+species
+
+attack
+recovery
+health
+
+rarity (stars)
+max_level
+
+defender_skill
+counter_skill
+
+leader_ability
+combat_ability
+
+evolve_from
+evolve_to
+
+
+
+
+----- STARS -----
+1 Star - Common
+2 Stars - Uncommon
+3 Stars - Rare
+4 Stars - Ultra Rare
+5 Stars - Epic
+6 Stars - Legendary
+
+
+PWR = round(ATT/3 + REC + HP/5)
