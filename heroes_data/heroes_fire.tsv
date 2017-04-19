@@ -1,0 +1,109 @@
+number	affinity	name	stars	power level	class	race	evolve from number	evolve into number	leader ability	combat ability	defender skill	counter skill	Art
+365	fire	Firebrand Hannibal	*****	15	Balanced	Human			Balanced Armor V: 180% HP for all Balanced Heroes	Flaming Battle Axe: Attack all enemies for 260% of HP and Convert 3 Water Gems into Fire Gems	Armor	Cure Blind	
+366	fire	Hannibal The Destroyer	******	30	Balanced	Human			Balanced Armor VI: 200% HP for all Balanced Heroes	Conqueror's Stampede: Attack all enemies for 300% of HP and Convert 3 Water Gems into Fire Gems	Armor	Cure Blind	
+329	fire	Katrina The Scandalous	*****	15	Mage	Corrupt			Corrupt Might V: 180% Damage for all Corrupt Heroes	Curse of Flames: Attack all enemies for 250% of ATK and 800% of REC for 2 turns	Panic	Cure Panic	
+332	fire	Spirit Of Vengeance	*****	15	Mage	Corrupt			Corrupt Might V: 180% Damage for all Corrupt Heroes	Dark Rider: Attack all enemies for 250% of ATK and 800% of REC for 2 turns	Panic	Cure Panic	
+330	fire	Katrina, Mistres Of Flame	******	30	Mage	Corrupt			Corrupt Might VI: 200% Damage for all Corrupt Heroes	Curse of Spirit: Attack all enemies for 300% of ATK and 900% of REC for 2 turns	Panic	Cure Panic	
+333	fire	Spirit Of Vengeance	******	30	Mage	Corrupt			Corrupt Might VI: 200% Damage for all Corrupt Heroes	Spirit of Vengeance: Attack all enemies for 300% of ATK and 900% of REC for 2 turns	Panic	Cure Panic	
+299	fire	Hellfire Manticore	*****	15	Warrior	Creature			Creature Might V: 180% Damage for all Creature Heroes	Piercing Tail: Attack an enemy for 320% of HP for 2 turns	Weaken	Cure Blind	
+300	fire	Fyrion the Ashen	******	30	Warrior	Creature			Creature Might VI: 200% Damage for all Creature Heroes	Mane of Flames: Attack an enemy for 380% of HP for 2 turns	Weaken	Cure Blind	
+359	fire	Arthur Of The Round	*****	15	Attacker	Fable			Demigod Might V: 180% Damage for all Demigod Heroes	King's Blade: Attack an enemy for 650% of ATK, ignoring Armor	Judgement	Cure Poison	
+360	fire	King Arthur	******	30	Attacker	Fable			Demigod Might VI: 200% Damage for all Demigod Heroes	Sword of the Stone: Attack an enemy for 750% of ATK, ignoring Armor	Judgement	Cure Poison	
+344	fire	Korinth, The Molten	*****	15	Mage	God			Dragon Might V: 180% Damage for all Dragon Heroes	River of Magma: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK	Blind	Dispel Absorb	
+345	fire	Empyrean Korinth	******	30	Mage	God			Dragon Might VI: 200% Damage for all Dragon Heroes	Empyrean Flames: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK	Blind	Dispel Absorb	
+81	fire	Arkhend	*****	15	Warrior	Dragon			Fire Armor V: 180% HP for all Fire Heroes	Charred Flesh: Attack all enemies for 260% of HP for 3 turns	Poison	Dispel Drain	
+386	fire	Generous Pixie	*****	15	Balanced	Spirit			Fire Armor V: 180% HP for all Fire Heroes	Pixie Glamour: Attack all enemies for 300% of ATK and 180% of HP for 2 turns	Drain	Dispel Thorns	
+395	fire	Faust, The Necromancer	*****	15	Defender	Fable			Fire Armor V: 180% HP for all Fire Heroes	Mephisto's Hand: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+82	fire	Arkhend the Immortal	******	30	Warrior	Dragon			Fire Armor VI: 260% HP for all Fire Heroes	Immortal Flames: Attack all enemies for 260% of HP for 5 turns	Poison	Dispel Drain	
+396	fire	Doctor Faust	******	30	Defender	Fable			Fire Armor VI: 260% HP for all Fire Heroes	Mephisto's Fire: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+387	fire	Spirit of Giving	******	30	Balanced	Spirit			Fire Armor VI: 260% HP for all Fire Heroes	Power of Giving: Attack all enemies for 350% of ATK and 220% of HP for 2 turns	Drain	Dispel Thorns	
+253	fire	Yessa, the Absolver	*****	15	Healer	Human			Fire Blessing V: 180% REC for all Fire Heroes	Flames of Absolution: Attack all enemies for 1000% of REC and Convert 3 Fire Gems into Health Gems	Absorb	Cleanse II	
+254	fire	Yessa, the Purifier	******	30	Healer	Human			Fire Blessing VI: 160% REC for all Fire Heroes	Cleansing Inferno: Attack all enemies for 1200% of REC and Convert 3 Fire Gems into Health Gems	Absorb	Cleanse III	
+182	fire	Vulcan Fireshaper	*****	15	Attacker	God			Fire Might V: 180% damage for all Fire Heroes	Forge of Gods: Attack all Earth enemies for 500% of ATK and Attack an enemy for 500% of ATK	Judgement	Cure Zombie	
+278	fire	Rei, Dragonkin	*****	15	Balanced	Legend			Fire Might V: 180% damage for all Fire Heroes	Cone of Hellfire: Attack all enemies for 500% of ATK	Might	Unknown	
+279	fire	Rei and Quarl	******	30	Balanced	Legend			Fire Might VI: 200% damage for all Fire Heroes	Wrath of Quarl: Attack all enemies for 600% of ATK	Might	Unknown	
+183	fire	Vulcan Flamebound	******	30	Attacker	God			Fire Might VI: 200% damage for all Fire Heroes	Urspark: Attack all Earth enemies for 600% of ATK and Attack an enemy for 600% of ATK	Judgement	Cure Zombie	
+171	fire	Magma Golem	*****	15	Defender	Giant			Giant Armor V: 180% HP for all Giant Heroes	Armor of Dharmir: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns	Weaken	Cure Poison	
+208	fire	Arkenhold Troll	*****	15	Guardian	Giant			Giant Armor V: 180% HP for all Giant Heroes	Molten Spew: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+209	fire	Grak Na'Gar	******	30	Guardian	Giant			Giant Armor VI: 200% HP for all Giant Heroes	Magma Drinker: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+407	fire	Ji, Fire Rooster	*****	15	Balanced	God			God Might V: 180% Damage for all God Heroes	Flaming Stars: Increase self ATK by 25% for 2 turns. Charges extremely fast.	Blind	Cure Panic	
+408	fire	Ji, King of Birds	******	30	Balanced	God			God Might VI: 200% Damage for all God Heroes	10,000 Suns: Increase self ATK by 50% for 2 turns. Charges extremely fast.	Blind	Cure Panic	
+320	fire	Chevallier Osimo	*****	15	Balanced	Human			Human Armor V: 180% HP for all Human Heroes	Empyrean Fire: Attack all enemies for 180% of HP and 600% of REC	Regen	Cure Poison	
+321	fire	Sir Osimo Of Brin	******	30	Balanced	Human			Human Armor VI: 200% HP for all Human Heroes	Cosmic Flames: Attack all enemies for 220% of HP and 700% of REC	Regen	Cure Poison	
+193	fire	Sum Il Tek, Flamewalker	*****	15	Attacker	Demigod			Human Might V: 180% Damage for all Human Heroes	Dragon Bash: Attack an enemy for 850% of ATK	Dodge	Cure Siphon	
+368	fire	Celestial Sum Il Tek *****	*****	15	Attacker	Demigod			Human Might V: 180% Damage for all Human Heroes	Solar Flare: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 700% of ATK	Dodge	Cure Siphon	
+369	fire	Celestial Sum Il Tek ******	******	30	Attacker	Demigod			Human Might VI: 200% Damage for all Human Heroes	Red Dwarf: Reduce all enemy DEF by 75% for 3 turns and Attack an enemy for 900% of ATK	Dodge	Cure Siphon	
+194	fire	Sum Il Tek, Fire Legend	******	30	Attacker	Demigod			Human Might VI: 200% Damage for all Human Heroes	Wrath of Dragons: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK	Dodge	Cure Siphon	
+223	fire	Pyre Ifrit	*****	15	Mage	Spirit			Mage Might V: 180% Damage for all Mage Heroes	Final Blaze: Attack all enemies for 400% of ATK and Convert 5 Water Gems into Fire Gems	Siphon	Dispel Armor	
+224	fire	The Unburnt	******	30	Mage	Spirit			Mage Might VI: 200% Damage for all Mage Heroes	Path of Ashes: Attack all enemies for 400% of ATK and Convert 6 Water Gems into Fire Gems	Siphon	Dispel Armor	
+372	fire	Heavenly Venus *****	*****	15	Mage	God			Power of Love III: 225% Damage for all God Heroes	Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 15% of ATK	Vessel	None	
+373	fire	Heavenly Venus ******	******	30	Mage	God			Power of Love IV: 300% Damage for all God Heroes	Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 25% of ATK	Vessel	None	
+311	fire	Muramasa, Thirsty Blade	*****	15	Attacker	Spirit			Spirit Armor V: 180% HP for all Spirit Heroes	Savior and Destroyer: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+368	fire	Mecha Muramasa	*****	15	Attacker	Spirit			Spirit Armor V: 180% HP for all Spirit Heroes	Repulser Beam: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+369	fire	Mecha Muramasa	******	30	Attacker	Spirit			Spirit Armor VI: 200% HP for all Spirit Heroes	Plasma Grenade: Attack an enemy for 850% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+312	fire	Muramasa, Soul Drinker	******	30	Attacker	Spirit			Spirit Armor VI: 200% HP for all Spirit Heroes	Drink Souls: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+250	fire	Rage Ifrit	*****	15	Balanced	Spirit			Spirit Might V: 180% Damage for all Spirit Heroes	Rage: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+251	fire	Avatar of Rage	******	30	Balanced	Spirit			Spirit Might VI: 200% Damage for all Spirit Heroes	Flames of Rage: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+169	fire	Alteran Mander	*****	15	Warrior	Dragon			Warrior Might V: 180% Damage for all Warrior Heroes	Altera's Rage: Attack all enemies for 500% of ATK, ignoring Armor	Armor	Cure Siphon	
+26	fire	Flamebound General	****	9	Attacker	Corrupt			Fire Armor IV: 160% HP for all Fire Heroes	Flames of Mirscend: Attack an enemy for 450% of ATK, ignoring armor	Weaken	Cure Poison	
+31	fire	Varg	****	9	Defender	Creature			Defender Armor IV: 160% HP for all Defender Heroes	Rend Flesh: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP	Blind	Dispel Regen	
+80	fire	Dharmir Dragon	****	9	Warrior	Dragon			Fire Armor IV: 160% HP for all Fire Heroes	Flames of Dharmir: Attack all enemies for 240% of HP for 2 turns	Poison	Dispel Drain	
+98	fire	Dharmir Tusk	****	9	Guardian	Creature			Guardian Blessing IV: 160% REC for all Guardian Heroes	Flame Tongue: Heal for 400% of REC and Team is immune to damage this turn	Poison	Cure Weaken	
+161	fire	Wreckless Powderhound	****	9	Mage	Dwarf			Mage Might IV: 160% Damage for all Mage Heroes	Wildfire: Attack all enemies for 400% of ATK and Upgrade 1 Fire Gem	Zombie	Cure Blind	
+167	fire	Alteran Orc Enforcer	****	9	Attacker	Giant			Fire Might IV: 160% damage for all Fire Heroes	Rage of Dharmir: Attack an enemy for 400% of ATK and Convert 5 Water Gems into Fire Gems	Regen	Cure Zombie	
+168	fire	Alteran Manderling	****	9	Warrior	Dragon			Warrior Might IV: 160% Damage for all Warrior Heroes	Altera's Flames: Attack all enemies for 400% of ATK, ignoring Armor	Armor	Cure Siphon	
+170	fire	Volcanic Golem	****	9	Defender	Giant			Giant Armor IV: 160% HP for all Giant Heroes	Volcanic Armor: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns	Weaken	Cure Poison	
+179	fire	Alteran Handmaiden	****	9	Healer	Human			Fire Blessing IV: 160% REC for all Fire Heroes	Burning Touch: Attack an enemy for 800% of REC and Heal for 200% of REC	Siphon	Unknown	
+192	fire	Sum Il Tek, the Ferocious	****	9	Attacker	Demigod			Human Might IV: 160% Damage for all Human Heroes	God-King's Rite: Attack an enemy for 650% of ATK	Dodge	Cure Siphon	
+207	fire	Arkenhold Trog	****	9	Guardian	Giant			Giant Armor IV: 160% HP for all Giant Heroes	Lava Punch: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+222	fire	Pyre Spirit	****	9	Mage	Spirit			Mage Might IV: 160% Damage for all Mage Heroes	Immolation: Attack all enemies for 300% of ATK and Convert 4 Water Gems into Fire Gems	Siphon	Dispel Armor	
+249	fire	Rage Spirit	****	9	Balanced	Spirit			Spirit Might IV: 160% Damage for all Spirit Heroes	???: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+252	fire	Yessa Fairwing	****	9	Healer	Human			Fire Blessing IV: 160% REC for all Fire Heroes	Pure Flame: Attack all enemies for 800% of REC and Convert 3 Fire Gems into Health Gems	Absorb	Cleanse I	
+277	fire	Rei, Dragontalker	****	9	Balanced	Legend			Fire Might IV: 160% damage for all Fire Heroes	Cone of Flames: Attack all enemies for 400% of ATK	Might	Unknown	
+298	fire	Hellfire Cub	****	9	Warrior	Creature			Creature Might IV: 160% Damage for all Creature Heroes	Ember Claw: Attack an enemy for 260% of HP for 2 turns	Weaken	Cure Blind	
+310	fire	Muramasa, Nightmare Bane	****	9	Attacker	Spirit			Spirit Armor IV: 160% HP for all Spirit Heroes	Demon Blade: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+319	fire	Squire Osimo	****	9	Balanced	Human			Human Armor IV: 160% HP for all Human Heroes	Flaming Mace: Attack all enemies for 140% of HP and 500% of REC	Regen	Cure Poison	
+328	fire	Katrina The Chaste	****	9	Mage	Corrupt			Corrupt Might IV: 160% Damage for all Corrupt Heroes	Curse of Famine: Attack all enemies for 200% of ATK and 600% of REC for 2 turns	Panic	Cure Panic	
+331	fire	Spirit Of Vengeance	****	9	Mage	Corrupt			Corrupt Might IV: 160% Damage for all Corrupt Heroes	Pumpkin Bomb: Attack all enemies for 200% of ATK and 600% of REC for 2 turns	Panic	Cure Panic	
+343	fire	Korinth, The Ember	****	9	Mage	God			Dragon Might IV: 160% Damage for all Dragon Heroes	Empyrean Ember: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK	Blind	Dispel Absorb	
+358	fire	Arthur Pendragon	****	9	Attacker	Fable			Demigod Might IV: 160% Damage for all Demigod Heroes	Pendragon's Blade: Attack all enemies for 500% of ATK, ignoring armor	Judgement	Cure Poison	
+364	fire	Upstart Hannibal	****	9	Balanced	Human			Balanced Armor IV: 160% HP for all Balanced Heroes	Cruel Battle Axe: Attack all enemies for 200% of HP and Convert 3 Water Gems into Fire Gems	Armor	Cure Blind	
+367	fire	Mecha Muramasa	****	9	Attacker	Spirit			Spirit Armor IV: 160% HP for all Spirit Heroes	Micro Missiles: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+367	fire	Celestial Sum Il Tek ****	****	9	Attacker	Demigod			Human Might IV: 160% Damage for all Human Heroes	Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK	Dodge	Cure Siphon	
+371	fire	Heavenly Venus ****	****	9	Mage	God			Power of Love II: 200% Damage for all God Heroes	Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 10% of ATK	Vessel	None	
+385	fire	Cheerful Pixie	****	9	Balanced	Spirit			Fire Armor IV: 160% HP for all Fire Heroes	Pixie Dust: Attack all enemies for 250% of ATK and 140% of HP for 2 turns	Drain	Dispel Thorns	
+394	fire	Faust, The Scientist	****	9	Defender	Fable			Fire Armor IV: 160% HP for all Fire Heroes	Devil's Bargain: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+406	fire	Ji, Sun Born	****	9	Balanced	God			God Might IV: 160% Damage for all God Heroes	Zodiac Strike: Increase self ATK by 10% for 2 turns. Charges extremely fast.	Blind	Cure Panic	
+25	fire	Flamebound Captain	***	6	Attacker	Corrupt			Fire Armor III: 140% HP for all Fire Heroes	Embers of Mirscend: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Cure Poison	
+29	fire	Flamebound Ascetic	***	6	Healer	Human			Fire Blessing III: 140% REC for all Fire Heroes	Cauterize: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems	Regen	Cure Poison	
+30	fire	Varg Pup	***	6	Defender	Creature			Defender Armor III: 140% HP for all Defender Heroes	Vicious Bite: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP	Blind	Dispel Regen	
+59	fire	Fell Clan Sapper	***	6	Warrior	Dwarf			Warrior Armor III: 140% HP for all Warrior Heroes	Fragment Grenade: Attack an enemy for 260% of HP and Slow for 2 turns	Might	Dispel Dodge	
+61	fire	Arkenhold Dancer	***	6	Balanced	Human			Attacker Might III: 140% Damage for all Attacker Heroes	Fire Spinner: Attack an enemy for 350% of ATK and Upgrade 1 Fire Gem	Dodge	Cure Siphon	
+64	fire	Flameguard Avenger	***	6	Guardian	Corrupt			Guardian Armor III: 140% HP for all Guardian Heroes	Lava Wave: Attack all enemies for 240% of HP	Armor	Cure Weaken	
+79	fire	Dharmir Dragonling	***	6	Warrior	Dragon			Fire Armor III: 140% HP for all Fire Heroes	Fire Breath: Attack all enemies for 220% of HP	Poison	Dispel Drain	
+84	fire	Alteran Magi	***	6	Attacker	Human			Human Might III: 140% Damage for all Human Heroes	Fire Starter: Attack all enemies for 300% of ATK and Convert 5 Water Gems into Fire Gems	Poison	Cure Zombie	
+115	fire	Flamebound Mistress	***	6	Mage	Human			Fire Might III: 140% damage for all Fire Heroes	Chant of Flames: Attack all enemies for 400% of ATK	Drain	Dispel Armor	
+160	fire	Powderhound	***	6	Mage	Dwarf			Mage Might III: 140% Damage for all Mage Heroes	Powder Keg: Attack all enemies for 300% of ATK and Upgrade 1 Fire Gem	Zombie	Cure Blind	
+166	fire	Alteran Orc	***	6	Attacker	Giant			Fire Might III: 140% damage for all Fire Heroes	Axe of Dharmir: Attack an enemy for 350% of ATK and Convert 4 Water Gems into Fire Gems	Regen	Cure Zombie	
+276	fire	Rei, The Bonded	***	6	Balanced	Legend			Fire Might III: 140% damage for all Fire Heroes	Cone of Embers: Attack all enemies for 300% of ATK	Might	Unknown	
+366	fire	Mecha Muramasa	***	6	Attacker	Spirit			Spirit Armor III: 140% HP for all Spirit Heroes	Micro Missiles: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+366	fire	Celestial Sum Il Tek ***	***	6	Attacker	Demigod			Human Might III: 140% Damage for all Human Heroes	Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK	Dodge	Cure Siphon	
+370	fire	Heavenly Venus ***	***	6	Mage	God			Power of Love I: 175% Damage for all God Heroes	Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 5% of ATK	Vessel	None	
+24	fire	Flamebound Knight	**	4	Attacker	Corrupt			Fire Armor II: 120% HP for all Fire Heroes	Flame Bash: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Cure Poison	
+28	fire	Flamebound Seer	**	4	Healer	Human			Fire Blessing II: 120% REC for all Fire Heroes	Healing Flame: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems	Regen	Cure Poison	
+58	fire	Fell Clan Bomber	**	4	Warrior	Dwarf			Warrior Armor II: 120% HP for all Warrior Heroes	Stun Grenade: Attack an enemy for 260% of HP and Slow for 2 turns	Might	Dispel Dodge	
+60	fire	Arkenhold Seductress	**	4	Balanced	Human			Attacker Might II: 120% Damage for all Attacker Heroes	Flame Dancer: Attack an enemy for 300% of ATK and Upgrade 1 Fire Gem	Dodge	Cure Siphon	
+63	fire	Flameguard Specter	**	4	Guardian	Corrupt			Guardian Armor II: 120% HP for all Guardian Heroes	Molten Tongue: Attack all enemies for 180% of HP	Armor	Cure Weaken	
+83	fire	Alteran Cultist	**	4	Attacker	Human			Human Might II: 120% Damage for all Human Heroes	Kindling: Attack all enemies for 250% of ATK and Convert 4 Water Gems into Fire Gems	Poison	Cure Zombie	
+112	fire	Arkenhold Huntress	**	4	Balanced	Human			Balanced Might II: 120% Damage for all Balanced Heroes	Flaming Bolt: Attack all enemies for 250% of ATK for 2 turns	Poison	Dispel Dodge	
+114	fire	Flamebound Maiden	**	4	Mage	Human			Fire Might II: 120% damage for all Fire Heroes	Chant of Embers: Attack all enemies for 300% of ATK	Drain	Dispel Armor	
+275	fire	Rei Dragonstone	**	4	Balanced	Legend			Fire Might II: 120% damage for all Fire Heroes	Staff of Flames: Attack all enemies for 200% of ATK	Might	Unknown	
+365	fire	Mecha Muramasa	**	4	Attacker	Spirit			Spirit Armor II: 120% HP for all Spirit Heroes	Micro Missiles: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+365	fire	Celestial Sum Il Tek **	**	4	Attacker	Demigod			Human Might II: 120% Damage for all Human Heroes	Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK	Dodge	Cure Siphon	
+23	fire	Flamebound Initiate	*	2	Attacker	Corrupt			Fire Armor I: 110% HP for all Fire Heroes	Flame Punch: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Unknown	
+27	fire	Flamebound Monk	*	2	Healer	Human			Fire Blessing I: 110% REC for all Fire Heroes	Healing Touch: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems	Regen	Unknown	
+62	fire	Flameguard Spirit	*	2	Defender	Spirit			Fire Armor I: 110% HP for all Fire Heroes	Molten Touch: Attack all enemies for 180% of HP	Armor	Unknown	
+111	fire	Arkenhold Stalker	*	2	Balanced	Human			Balanced Might I: 110% Damage for all Balanced Heroes	Flaming Dagger: Attack all enemies for 200% of ATK for 2 turns	Poison	Unknown	
+113	fire	Flamebound Daughter	*	2	Mage	Human			Fire Might I: 110% damage for all Fire Heroes	Chant of Coals: Attack all enemies for 300% of ATK	Drain	Unknown	
+364	fire	Mecha Muramasa	*	2	Attacker	Spirit			Spirit Armor I: 110% HP for all Spirit Heroes	Micro Missiles: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Unknown	
+364	fire	Celestial Sum Il Tek *	*	2	Attacker	Demigod			Human Might I: 110% Damage for all Human Heroes	Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK	Dodge	Unknown	
