@@ -1,0 +1,417 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Legendary: Game of Heroes deck suggester</title>
+    <meta name="description" content="Legendary: Game of Heroes deck suggester">
+    <meta name="author" content="Giero">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Legendary: Game of Heroes deck suggester</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul id="page-nav" class="nav navbar-nav pull-right">
+                <li role="presentation" class="active"><a href="#team">Your team</a></li>
+                <li role="presentation"><a href="#decks">Suggested decks</a></li>
+                <li role="presentation"><a href="#creator">Add missing hero</a></li>
+                <li role="presentation"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container" role="main">
+    <div class="row">
+        <div class="tab-content" id="page-content">
+            <div class="tab-pane fade active in" role="tabpanel" id="team" aria-labelledby="team-tab">
+
+                <div class="col-sm-offset-2 col-sm-8">
+
+                    <div class="jumbotron">
+                        <form id="team-adding" role="form" method="post" class="form-horizontal">
+                            <fieldset>
+                                <legend>Add hero to team</legend>
+                                <div class='form-group'>
+                                    <div class='col-sm-12'>
+                                        <select class="form-control selectpicker" id="team-hero-name" name="name" required title="Hero name" data-live-search="true">
+                                            <optgroup label="Fire">
+                                                <option>Hero 1</option>
+                                                <option>Hero 2</option>
+                                                <option>Hero 3</option>
+                                                <option>Hero 4</option>
+                                            </optgroup>
+                                            <optgroup label="Water">
+                                                <option>Hero 1</option>
+                                                <option>Hero 2</option>
+                                                <option>Hero 3</option>
+                                                <option>Hero 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4">
+                                        <input type="number" class="form-control" id="team-hero-attack" name="attack" required placeholder="Attack"/>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="number" class="form-control" id="team-hero-recovery" name="recovery" required placeholder="Recovery"/>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="number" class="form-control" id="team-hero-health" name="health" required placeholder="Health"/>
+                                    </div>
+                                </div>
+                                <button id="add-to-team" class="btn btn-primary">Add to team</button>
+                                <button id="clear-team-form" class="btn btn-default">Clear</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div id="team-navbar">
+                        <ul id="team-nav" class="nav nav-tabs " role="tablist">
+                            <li role="presentation" class="active"><a href="#team-fire-affinity">Fire</a></li>
+                            <li role="presentation"><a href="#team-water-affinity">Water</a></li>
+                            <li role="presentation"><a href="#team-earth-affinity">Earth</a></li>
+                            <li role="presentation"><a href="#team-light-affinity">Light</a></li>
+                            <li role="presentation"><a href="#team-dark-affinity">Dark</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="team-content">
+                        <div class="tab-pane fade active in" role="tabpanel" id="team-fire-affinity" aria-labelledby="team-fire-affinity-tab">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Attack</th>
+                                        <th>Recovery</th>
+                                        <th>Health</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="team-water-affinity" aria-labelledby="team-water-affinity-tab">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="team-earth-affinity" aria-labelledby="eam-earth-affinity-tab">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="team-light-affinity" aria-labelledby="team-light-affinity-tab">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="team-dark-affinity" aria-labelledby="team-dark-affinity">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Attack</th>
+                                    <th>Recovery</th>
+                                    <th>Health</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="decks" aria-labelledby="decks-tab">
+                <p>Food truck fixie locavore,
+                    accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR
+                    leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress,
+                    commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                    labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore
+                    stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa
+                    terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus
+                    tattooed echo park.
+                </p>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="creator" aria-labelledby="creator-tab">
+                <div class="col-sm-offset-3 col-sm-6">
+                    <form id="hero-creator" role="form" method="post" class="form-horizontal">
+                        <fieldset>
+                            <legend>Add new hero</legend>
+                            <div class='form-group'>
+                                <div class='col-sm-8'>
+                                    <input type="text" class="form-control" id="hero-name" name="name" required placeholder="Hero name"/>
+                                </div>
+                                <div class='col-sm-4 rarities-container'>
+                                    <input class="rating text-center" data-max="6" data-min="1" id="hero-rarities" name="rarities" type="number" required />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-affinity" name="affinity" required title="Affinity">
+                                        <option>Fire</option>
+                                        <option>Water</option>
+                                        <option>Earth</option>
+                                        <option>Light</option>
+                                        <option>Dark</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-type" name="type" required title="Type">
+                                        <option>Attacker</option>
+                                        <option>Balanced</option>
+                                        <option>Defender</option>
+                                        <option>Guardian</option>
+                                        <option>Healer</option>
+                                        <option>Mage</option>
+                                        <option>Warrior</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-race" name="race" required title="Race">
+                                        <option>Corrupt</option>
+                                        <option>Creature</option>
+                                        <option>Demigod</option>
+                                        <option>Dragon</option>
+                                        <option>Fable</option>
+                                        <option>Giant</option>
+                                        <option>God</option>
+                                        <option>Human</option>
+                                        <option>Legend</option>
+                                        <option>Spirit</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control" id="hero-attack" name="attack" required placeholder="Attack"/>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control" id="hero-recovery" name="recovery" required placeholder="Recovery"/>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control" id="hero-health" name="health" required placeholder="Health"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-lbv" name="leader_bonus_value" required title="Leader Bonus Value">
+                                        <option>110%</option>
+                                        <option>120%</option>
+                                        <option>140%</option>
+                                        <option>160%</option>
+                                        <option>175%</option>
+                                        <option>180%</option>
+                                        <option>200%</option>
+                                        <option>225%</option>
+                                        <option>300%</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-lbs" name="leader_bonus_stat" required title="Leader Bonus Stat">
+                                        <option>Damage</option>
+                                        <option>HP</option>
+                                        <option>REC</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    <select class="form-control selectpicker" id="hero-lbt" name="leader_bonus_type" required title="Leader Bonus Type" data-size="10">
+                                        <optgroup label="Affinity">
+                                            <option>Fire</option>
+                                            <option>Water</option>
+                                            <option>Earth</option>
+                                            <option>Light</option>
+                                            <option>Dark</option>
+                                        </optgroup>
+                                        <optgroup label="Type">
+                                            <option>Attacker</option>
+                                            <option>Balanced</option>
+                                            <option>Defender</option>
+                                            <option>Guardian</option>
+                                            <option>Healer</option>
+                                            <option>Mage</option>
+                                            <option>Warrior</option>
+                                        </optgroup>
+                                        <optgroup label="Race">
+                                            <option>Corrupt</option>
+                                            <option>Creature</option>
+                                            <option>Demigod</option>
+                                            <option>Dragon</option>
+                                            <option>Fable</option>
+                                            <option>Giant</option>
+                                            <option>God</option>
+                                            <option>Human</option>
+                                            <option>Legend</option>
+                                            <option>Spirit</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <select class="form-control selectpicker" id="hero-defense-skill" name="defense_skill" required title="Defense skill" data-size="10">
+                                        <option>Absorb</option>
+                                        <option>Armor</option>
+                                        <option>Autoheal</option>
+                                        <option>Blind</option>
+                                        <option>Dodge</option>
+                                        <option>Drain</option>
+                                        <option>Judgement</option>
+                                        <option>Might</option>
+                                        <option>Panic</option>
+                                        <option>Poison</option>
+                                        <option>Regen</option>
+                                        <option>Siphon</option>
+                                        <option>Thorns</option>
+                                        <option>Vessel</option>
+                                        <option>Weaken</option>
+                                        <option>Zombie</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select class="form-control selectpicker" id="hero-counter-skill" name="counter_skill" required title="Counter skill" data-size="10">
+                                        <option>None</option>
+                                        <option>Cleanse I</option>
+                                        <option>Cleanse II</option>
+                                        <option>Cleanse III</option>
+                                        <option>Cure Blind</option>
+                                        <option>Cure Panic</option>
+                                        <option>Cure Poison</option>
+                                        <option>Cure Siphon</option>
+                                        <option>Cure Traitor</option>
+                                        <option>Cure Vessel</option>
+                                        <option>Cure Weaken</option>
+                                        <option>Cure Zombie</option>
+                                        <option>Dispel Absorb</option>
+                                        <option>Dispel Armor</option>
+                                        <option>Dispel Dodge</option>
+                                        <option>Dispel Drain</option>
+                                        <option>Dispel Judgment</option>
+                                        <option>Dispel Might</option>
+                                        <option>Dispel Regen</option>
+                                        <option>Dispel Thorns</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <select class="form-control selectpicker" id="hero-evolves-from" name="evolves_from" title="Evolves from" data-size="10">
+                                        <option>-- TODO --</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select class="form-control selectpicker" id="hero-evolves-to" name="evolves_to" title="Evolves to" data-size="10">
+                                        <option>-- TODO --</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary">Add hero</button>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="contact" aria-labelledby="contact-tab">
+                <div class="col-sm-offset-3 col-sm-6">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="contact-name" name="name" placeholder="First & Last Name" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="contact-email" name="email" placeholder="example@domain.com" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="4" id="contact-message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <! Will be used to display an alert to the user>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rating-input/0.4.0/bootstrap-rating-input.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.2.0/vue.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
+
