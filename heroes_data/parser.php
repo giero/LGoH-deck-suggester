@@ -1,11 +1,16 @@
 <?php
 /**
  * @link http://gist.github.com/385876
+ *
+ * @param $filename
+ * @param $delimiter
+ *
+ * @return array|bool
  */
-function csv_to_array($filename = '', $delimiter = ',')
+function csvToArray($filename = '', $delimiter = ',')
 {
     if (!file_exists($filename) || !is_readable($filename)) {
-        return false;
+        die('Cannot read the file!');
     }
 
     $header = null;
@@ -16,7 +21,8 @@ function csv_to_array($filename = '', $delimiter = ',')
                 $header = $row;
             } else {
                 if (count($header) != count($row)) {
-                    var_dump($header, $row);die();
+                    var_dump('Mismatched columns!', $header, $row);
+                    die();
                 }
                 $data[] = array_combine($header, $row);
             }
@@ -25,18 +31,31 @@ function csv_to_array($filename = '', $delimiter = ',')
     }
 
     $dbData = [];
-
+    $legendMap = [
+        4 => 2,
+        5 => 3,
+        6 => 4,
+    ];
 
     foreach ($data as $row) {
+        $rarity = strlen($row['stars']);
+        $affinity = ucfirst($row['affinity']);
         $dbData[] = [
             'name' => $row['name'],
-            'affinity' => ucfirst($row['affinity']),
+            'affinity' => $affinity,
             'type' => $row['class'],
             'species' => $row['race'],
             'attack' => '',
             'recovery' => '',
             'health' => '',
-            'rarity' => strlen($row['stars']),
+            'rarity' => $rarity,
+            'eventSkills' => $row['race'] == 'Legend' && $rarity > 3
+                ? [
+                    $legendMap[$rarity].'x Slayer',
+                    $legendMap[$rarity].'x Bounty Hunter',
+                    $legendMap[$rarity].'x '.$affinity.' Commander',
+                ]
+                : [],
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],
             'leaderAbility' => $row['leader ability'],
@@ -49,4 +68,4 @@ function csv_to_array($filename = '', $delimiter = ',')
     return $dbData;
 }
 
-echo json_encode(csv_to_array('heroes_all.tsv', "\t"));
+echo json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT);
