@@ -8,16 +8,10 @@ Team.prototype.addHero = function (hero) {
     }
 
     this.heroes.push(hero);
-    this.heroes.sort(function (h1, h2) {
-        if (h1.name < h2.name )
-            return -1;
-        if (h1.name > h2.name )
-            return 1;
-        return 0;
-    });
 };
 
 Team.prototype.getHeroes = function (filters) {
+
     if (filters) {
         return this.heroes.filter(function (hero) {
             for(var filter in filters){

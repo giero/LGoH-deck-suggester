@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -26,59 +26,62 @@
             <ul id="page-nav" class="nav navbar-nav pull-right">
                 <li role="presentation"><a href="#team">Your team</a></li>
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
-                <li role="presentation" class="active"><a href="#heroes">Heroes list</a></li>
+                <li role="presentation" class="active"><a href="#heroes">List of heroes</a></li>
                 <li role="presentation"><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div class="container" role="main">
+<div id="app" class="container" role="main">
     <div class="row">
         <div class="tab-content" id="page-content">
-            <div class="tab-pane fade " role="tabpanel" id="team" aria-labelledby="team-tab"></div>
-            <div class="tab-pane fade" role="tabpanel" id="decks" aria-labelledby="decks-tab"></div>
-            <div class="tab-pane fade active in" role="tabpanel" id="heroes" aria-labelledby="heroes-tab">
-
-                <div id="team-navbar">
-                    <ul id="team-nav" class="nav nav-tabs " role="tablist">
-                        <li role="presentation" class="active"><a href="#team-fire-affinity">Fire</a></li>
-                        <li role="presentation"><a href="#team-water-affinity">Water</a></li>
-                        <li role="presentation"><a href="#team-earth-affinity">Earth</a></li>
-                        <li role="presentation"><a href="#team-light-affinity">Light</a></li>
-                        <li role="presentation"><a href="#team-dark-affinity">Dark</a></li>
-
-                        <li class="pull-right">
-                            <button id="add-to-list" class="btn btn-primary">Add missing hero</button>
-                        </li>
-                    </ul>
-
-
-                </div>
-
-                <div class="tab-content" id="team-content">
-                    <div class="tab-pane fade active in" role="tabpanel" id="team-fire-affinity" aria-labelledby="team-fire-affinity-tab">
-                        <hero-list affinity="Fire"></hero-list>
-                    </div>
-                    <div class="tab-pane fade" role="tabpanel" id="team-water-affinity" aria-labelledby="team-water-affinity-tab">
-                        <hero-list affinity="Water"></hero-list>
-                    </div>
-                    <div class="tab-pane fade" role="tabpanel" id="team-earth-affinity" aria-labelledby="team-earth-affinity-tab">
-                        <hero-list affinity="Earth"></hero-list>
-                    </div>
-                    <div class="tab-pane fade" role="tabpanel" id="team-light-affinity" aria-labelledby="team-light-affinity-tab">
-                        <hero-list affinity="Light"></hero-list>
-                    </div>
-                    <div class="tab-pane fade" role="tabpanel" id="team-dark-affinity" aria-labelledby="team-dark-affinity-tab">
-                        <hero-list affinity="Dark"></hero-list>
-                    </div>
+            <div class="tab-pane fade" role="tabpanel" id="team">
+                <p>Lorem ipsum - team heroes</p>
+                <team-heroes-list></team-heroes-list>
             </div>
-            <div class="tab-pane fade" role="tabpanel" id="contact" aria-labelledby="contact-tab"></div>
+            <div class="tab-pane fade" role="tabpanel" id="decks"></div>
+            <div class="tab-pane fade active in" role="tabpanel" id="heroes">
+                <all-heroes-list></all-heroes-list>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="contact"></div>
         </div>
     </div>
 </div>
 
-<template id="hero-list">
+<template id="heroes-list">
+    <section>
+        <div>
+            <ul :id="listId" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-water'">Water</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-earth'">Earth</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-light'">Light</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-dark'">Dark</a></li>
+            </ul>
+        </div>
+
+        <div class="tab-content" :id="listId + '-content'">
+            <div class="tab-pane fade active in" role="tabpanel" :id="listId + '-fire'">
+                <heroes-table affinity="Fire"></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-water'">
+                <heroes-table affinity="Water"></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-earth'">
+                <heroes-table affinity="Earth"></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-light'">
+                <heroes-table affinity="Light"></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-dark'">
+                <heroes-table affinity="Dark"></heroes-table>
+            </div>
+        </div>
+    </section>
+</template>
+
+<template id="heroes-table">
     <section>
         <div class="filters row">
             <div class="form-group col-sm-3">
@@ -98,8 +101,7 @@
             </thead>
             <tbody>
             <tr v-for="hero in filteredHeroes">
-
-                <td>{{ hero.name }} <span style="color: #FFB404;" class="glyphicon glyphicon-star" aria-hidden="true" v-for="n in hero.rarity "></span></td>
+                <td>{{ hero.name }} <span style="color: #FFB404;" class="glyphicon glyphicon-star" v-for="n in hero.rarity "></span></td>
                 <td>{{ hero.attack }}</td>
                 <td>{{ hero.recovery }}</td>
                 <td>{{ hero.health }}</td>
@@ -120,4 +122,3 @@
 <script src="js/main.js"></script>
 </body>
 </html>
-
