@@ -11,9 +11,19 @@ Team.prototype.addHero = function (hero) {
 };
 
 Team.prototype.getHeroes = function (filters) {
+    var heroes = this.heroes.slice();
+
+    heroes.sort(function (a, b) {
+        if ( a.name < b.name ) {
+            return -1;
+        } else if ( a.name > b.name ) {
+            return 1;
+        }
+        return 0;
+    });
 
     if (filters) {
-        return this.heroes.filter(function (hero) {
+        return heroes.filter(function (hero) {
             for(var filter in filters){
                 if (filters.hasOwnProperty(filter)) {
                     if (!hero.hasOwnProperty(filter)) {
@@ -26,7 +36,7 @@ Team.prototype.getHeroes = function (filters) {
         });
     }
 
-    return this.heroes;
+    return heroes;
 };
 
 Team.prototype.getUniqueHeroesProperties = function (property) {

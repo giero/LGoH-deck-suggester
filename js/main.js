@@ -66,6 +66,41 @@ Vue.component('all-heroes-list', {
     }
 });
 
+Vue.component('team-adding-form', {
+    template: '#team-adding-form',
+    props: ['affinity'],
+    data: function () {
+        return {
+            allHeroes: allHeroes,
+            teamHeroes: teamHeroes
+        };
+    },
+    computed : {
+        heroes: function () {
+            return allHeroes.getHeroes();
+        },
+        affinities: function () {
+            return ['Fire', 'Water', 'Earth', 'Light', 'Dark'];
+        }
+    },
+    updated: function () {
+        $('#team-adding').find('select').selectpicker('refresh');
+    },
+    methods: {
+        addHeroToTeam: function (e) {
+            e.preventDefault();
+
+            var formParams = {};
+            $.each($(e.target).serializeArray(), function(_, kv) {
+                formParams[kv.name] = kv.value;
+            });
+
+            var hero = $.extend({}, allHeroes.heroes[formParams.id], formParams);
+            teamHeroes.addHero(hero);
+        }
+    }
+});
+
 new Vue({
     el: '#app',
     mounted: function () {
@@ -75,4 +110,3 @@ new Vue({
         });
     }
 });
-

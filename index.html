@@ -24,9 +24,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="page-nav" class="nav navbar-nav pull-right">
-                <li role="presentation"><a href="#team">Your team</a></li>
+                <li role="presentation" class="active"><a href="#team">Your team</a></li>
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
-                <li role="presentation" class="active"><a href="#heroes">List of heroes</a></li>
+                <li role="presentation"><a href="#heroes">List of heroes</a></li>
                 <li role="presentation"><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -36,12 +36,12 @@
 <div id="app" class="container" role="main">
     <div class="row">
         <div class="tab-content" id="page-content">
-            <div class="tab-pane fade" role="tabpanel" id="team">
-                <p>Lorem ipsum - team heroes</p>
+            <div class="tab-pane fade active in" role="tabpanel" id="team">
+                <team-adding-form></team-adding-form>
                 <team-heroes-list></team-heroes-list>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="decks"></div>
-            <div class="tab-pane fade active in" role="tabpanel" id="heroes">
+            <div class="tab-pane fade" role="tabpanel" id="heroes">
                 <all-heroes-list></all-heroes-list>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="contact"></div>
@@ -109,6 +109,38 @@
             </tbody>
         </table>
     </section>
+</template>
+
+<template id="team-adding-form">
+    <div class="jumbotron">
+        <form id="team-adding" role="form" method="post" class="form-horizontal" v-on:submit="addHeroToTeam">
+            <fieldset>
+                <legend>Add hero to team</legend>
+                <div class='form-group'>
+                    <div class='col-sm-12'>
+                        <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true">
+                            <optgroup v-for="affinity in affinities" :label="affinity">
+                                <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id">{{ hero.name }}</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="team-hero-attack" name="attack" required placeholder="Attack"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="team-hero-recovery" name="recovery" required placeholder="Recovery"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="team-hero-health" name="health" required placeholder="Health"/>
+                    </div>
+                </div>
+                <button id="add-to-team" class="btn btn-primary">Add to team</button>
+                <button id="clear-team-form" class="btn btn-default">Clear</button>
+            </fieldset>
+        </form>
+    </div>
 </template>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
