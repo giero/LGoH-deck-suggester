@@ -1,7 +1,5 @@
 <?php
 /**
- * @link http://gist.github.com/385876
- *
  * @param $filename
  * @param $delimiter
  *
@@ -19,11 +17,10 @@ function csvToArray($filename = '', $delimiter = ',')
         while (($row = fgetcsv($handle, 1000, $delimiter)) !== false) {
             if (!$header) {
                 $header = $row;
+            } elseif (count($header) != count($row)) {
+                var_dump('Mismatched columns!', $header, $row);
+                die();
             } else {
-                if (count($header) != count($row)) {
-                    var_dump('Mismatched columns!', $header, $row);
-                    die();
-                }
                 $data[] = array_combine($header, $row);
             }
         }
@@ -37,10 +34,19 @@ function csvToArray($filename = '', $delimiter = ',')
         6 => 4,
     ];
 
-    foreach ($data as $row) {
+    foreach ($data as $index => $row) {
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
+
+        if (!preg_match('/([\w ]+): (\d+)% (\w+) for all (\w+( \w+)*) Heroes/',
+            $row['leader ability'],
+            $leaderAbilityMatches)
+        ) {
+            die('Invalid leader ability format for '.$row['name'].'('.$row['leader ability'].')');
+        }
+
         $dbData[] = [
+            'id' => $index + 1,
             'name' => $row['name'],
             'affinity' => $affinity,
             'type' => $row['class'],
@@ -58,8 +64,17 @@ function csvToArray($filename = '', $delimiter = ',')
                 : [],
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],
-            'leaderAbility' => $row['leader ability'],
-            'combatAbility' => $row['combat ability'],
+            'leaderAbility' => [
+                'fullName' => $row['leader ability'],
+                'name' => $leaderAbilityMatches[1],
+                'value' => $leaderAbilityMatches[2],
+                'stat' => $leaderAbilityMatches[3],
+                'target' => strpos(' ', $leaderAbilityMatches[4]) !== false
+                    ? array_map(function ($target) {
+                        return ucfirst($target);
+                    }, explode(' ', $leaderAbilityMatches[4]))
+                    : ucfirst($leaderAbilityMatches[4]),
+            ],
             'evolveFrom' => '',
             'evolveTo' => '',
         ];
