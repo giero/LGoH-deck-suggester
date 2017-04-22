@@ -3,7 +3,7 @@ function Team() {
 }
 
 Team.prototype.addHero = function (hero) {
-    if (!hero instanceof Hero) {
+    if (!(hero instanceof Hero)) {
         hero = new Hero(hero);
     }
 

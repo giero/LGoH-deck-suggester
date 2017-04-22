@@ -40,7 +40,14 @@
                 <team-adding-form></team-adding-form>
                 <team-heroes-list></team-heroes-list>
             </div>
-            <div class="tab-pane fade" role="tabpanel" id="decks"></div>
+            <div class="tab-pane fade" role="tabpanel" id="decks">
+                <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks</button>
+
+                <p>score: {{ bestDeck.value.format(0, 3) }} after {{ bestDeck.calc.format(0, 3) }} calculations </p>
+                <ul>
+                    <li v-for="hero in bestDeck.heroes">{{ hero.name }} ({{ hero.attack }} - {{ hero.recovery }} - {{ hero.health }})</li>
+                </ul>
+            </div>
             <div class="tab-pane fade" role="tabpanel" id="heroes">
                 <all-heroes-list></all-heroes-list>
             </div>
@@ -53,11 +60,11 @@
     <section>
         <div>
             <ul :id="listId" class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-water'">Water</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-earth'">Earth</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-light'">Light</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-dark'">Dark</a></li>
+                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire ({{ counter.fire }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-water'">Water ({{ counter.water }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-earth'">Earth ({{ counter.earth }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-light'">Light ({{ counter.light }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-dark'">Dark ({{ counter.dark }})</a></li>
             </ul>
         </div>
 
@@ -137,7 +144,6 @@
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
-                <button id="clear-team-form" class="btn btn-default">Clear</button>
             </fieldset>
         </form>
     </div>
@@ -151,6 +157,8 @@
 
 <script src="js/hero.js"></script>
 <script src="js/team.js"></script>
+<script src="js/deck.js"></script>
+<script src="js/deck_generator.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

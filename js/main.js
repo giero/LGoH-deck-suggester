@@ -1,10 +1,28 @@
 var teamHeroes = new Team();
 var allHeroes = new Team();
 
+Number.prototype.format = function(n, x) {
+    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
+};
+
 $.getJSON("data/heroes_all.json", function(json) {
     json.forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
+
+    for (var i = 0; i < 40; i++) {
+        var hero = $.extend(
+            {},
+            allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
+            {
+                attack: Math.floor(Math.random() * 1000),
+                recovery: Math.floor(Math.random() * 300),
+                health: Math.floor(Math.random() * 1000)
+            }
+        );
+        teamHeroes.addHero(hero);
+    }
 });
 
 function getHeroesTableComponent(team) {
@@ -17,7 +35,7 @@ function getHeroesTableComponent(team) {
         computed : {
             filteredHeroes: function () {
                 var self = this;
-                return self.team.getHeroes({'affinity': this.affinity}).filter(function (hero) {
+                return self.team.getHeroes(!!this.affinity ? {'affinity': this.affinity} : {}).filter(function (hero) {
                     return hero.name.toLowerCase().indexOf(self.searchKey.toLowerCase()) !== -1;
                 });
             }
@@ -40,6 +58,17 @@ Vue.component('team-heroes-list', {
     components: {
         'heroes-table': getHeroesTableComponent(teamHeroes)
     },
+    computed: {
+        counter: function () {
+            return {
+                fire: teamHeroes.getHeroes({'affinity': 'Fire'}).length,
+                water: teamHeroes.getHeroes({'affinity': 'Water'}).length,
+                earth: teamHeroes.getHeroes({'affinity': 'Earth'}).length,
+                light: teamHeroes.getHeroes({'affinity': 'Light'}).length,
+                dark: teamHeroes.getHeroes({'affinity': 'Dark'}).length
+            }
+        }
+    },
     mounted: function () {
         $('#team-heroes-list a').click(function (e) {
             e.preventDefault();
@@ -58,6 +87,17 @@ Vue.component('all-heroes-list', {
     components: {
         'heroes-table': getHeroesTableComponent(allHeroes)
     },
+    computed: {
+        counter: function () {
+            return {
+                fire: allHeroes.getHeroes({'affinity': 'Fire'}).length,
+                water: allHeroes.getHeroes({'affinity': 'Water'}).length,
+                earth: allHeroes.getHeroes({'affinity': 'Earth'}).length,
+                light: allHeroes.getHeroes({'affinity': 'Light'}).length,
+                dark: allHeroes.getHeroes({'affinity': 'Dark'}).length
+            }
+        }
+    },
     mounted: function () {
         $('#all-heroes-list a').click(function (e) {
             e.preventDefault();
@@ -68,7 +108,6 @@ Vue.component('all-heroes-list', {
 
 Vue.component('team-adding-form', {
     template: '#team-adding-form',
-    props: ['affinity'],
     data: function () {
         return {
             allHeroes: allHeroes,
@@ -84,25 +123,49 @@ Vue.component('team-adding-form', {
         }
     },
     updated: function () {
-        $('#team-adding').find('select').selectpicker('refresh');
+        this.refreshSelect();
     },
     methods: {
+        refreshSelect: function () {
+            $('#team-adding').find('select').selectpicker('refresh');
+        },
         addHeroToTeam: function (e) {
             e.preventDefault();
 
-            var formParams = {};
-            $.each($(e.target).serializeArray(), function(_, kv) {
+            var $form = $(e.target),
+                formParams = {};
+
+            $.each($form.serializeArray(), function(_, kv) {
                 formParams[kv.name] = kv.value;
             });
 
-            var hero = $.extend({}, allHeroes.heroes[formParams.id], formParams);
-            teamHeroes.addHero(hero);
+            teamHeroes.addHero(
+                $.extend({}, allHeroes.heroes[formParams.id], formParams)
+            );
+
+            $form[0].reset();
+            this.refreshSelect();
         }
     }
 });
 
 new Vue({
     el: '#app',
+    data: function () {
+        return {
+            bestDeck: {
+                value: 0,
+                heroes: [],
+                calc: 0
+            }
+        };
+    },
+    methods: {
+        calculateDecks: function () {
+            var dg = new DeckGenerator(teamHeroes.getHeroes());
+            this.bestDeck = dg.generate();
+        }
+    },
     mounted: function () {
         $('#page-nav a').click(function (e) {
             e.preventDefault();
