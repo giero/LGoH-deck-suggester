@@ -1,5 +1,6 @@
 var teamHeroes = new Team();
 var allHeroes = new Team();
+var affinities = ['Fire', 'Water', 'Earth', 'Light', 'Dark'];
 
 Number.prototype.format = function (n, x) {
     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
@@ -100,15 +101,13 @@ Vue.component('team-adding-form', {
     data: function () {
         return {
             allHeroes: allHeroes,
-            teamHeroes: teamHeroes
+            teamHeroes: teamHeroes,
+            affinities: affinities
         };
     },
     computed: {
         heroes: function () {
             return allHeroes.getHeroes();
-        },
-        affinities: function () {
-            return ['Fire', 'Water', 'Earth', 'Light', 'Dark'];
         }
     },
     updated: function () {
@@ -160,37 +159,79 @@ new Vue({
     el: '#app',
     data: {
         teamHeroes: teamHeroes,
-        bestDecks: {},
-        progress: -1
+        bestDecks: {
+            'Fire': {},
+            'Earth': {},
+            'Water': {},
+            'Light': {},
+            'Dark': {}
+        },
+        workersProgress: {
+            'Fire': -1,
+            'Earth': -1,
+            'Water': -1,
+            'Light': -1,
+            'Dark': -1
+        },
+        progressClass: {
+            'Fire': 'progress-bar progress-bar-danger',
+            'Earth': 'progress-bar progress-bar-success',
+            'Water': 'progress-bar progress-bar-info',
+            'Light': 'progress-bar progress-bar-warning',
+            'Dark': 'progress-bar progress-bar-active'
+        }
     },
     computed: {
-        dg: function () {
-            return new DeckGenerator(this.teamHeroes.getHeroes());
-        },
         possibilities: function () {
-            return this.dg.countPossibilities();
+            var dg = new DeckGenerator(this.teamHeroes.getHeroes());
+            return dg.countPossibilities();
         },
-        worker: function () {
+        workers: function () {
             var self = this;
-            var worker = new Worker('js/deck_worker.js');
+            var workers = {};
 
-            worker.addEventListener('message', function(e) {
-                if (e.data.hasOwnProperty('progress')) {
-                    self.progress = e.data.progress;
-                } else if (e.data.hasOwnProperty('Fire')){
-                    self.bestDecks = e.data;
-                } else {
-                    console.log(e.data);
-                }
-            }, false);
+            $.each(affinities, function (index, affinity){
+                workers[affinity] = new Worker('js/deck_worker.js');
+                workers[affinity].addEventListener('message', function(e) {
+                    if (e.data.hasOwnProperty('affinity')) {
+                        if (e.data.hasOwnProperty('deck')) {
+                            self.bestDecks[e.data.affinity] = e.data.deck;
+                        } else if (e.data.hasOwnProperty('progress')) {
+                            self.workersProgress[e.data.affinity] = e.data.progress;
+                        }
+                    } else {
+                        console.log('error?', e.data);
+                    }
+                }, false);
+            });
 
-            return worker;
+            return workers;
         }
     },
     methods: {
         calculateDecks: function () {
-            this.bestDecks = {};
-            this.worker.postMessage(this.teamHeroes.getHeroes());
+            this.bestDecks =  {
+                'Fire': {},
+                'Earth': {},
+                'Water': {},
+                'Light': {},
+                'Dark': {}
+            };
+            this.workersProgress = {
+                'Fire': -1,
+                'Earth': -1,
+                'Water': -1,
+                'Light': -1,
+                'Dark': -1
+            };
+            for (var affinity in this.workers) {
+                if (this.workers.hasOwnProperty(affinity)) {
+                    this.workers[affinity].postMessage({
+                        affinity: affinity,
+                        heroes: this.teamHeroes.getHeroes()
+                    });
+                }
+            }
         }
     },
     mounted: function () {

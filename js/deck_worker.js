@@ -9,7 +9,7 @@ function Deck(heroes) {
     };
 
     this.affinityStrongCounterMap = {
-        'Fire': 'Earth,',
+        'Fire': 'Earth',
         'Earth': 'Water',
         'Water': 'Fire',
         'Light': 'Dark',
@@ -19,9 +19,7 @@ function Deck(heroes) {
     this.affinityWeakCounterMap = {
         'Earth': 'Fire',
         'Water': 'Earth',
-        'Fire': 'Water',
-        'Dark': 'Light',
-        'Light': 'Dark'
+        'Fire': 'Water'
     };
 
 }
@@ -59,29 +57,13 @@ function DeckGenerator(heroes) {
     this.heroes = heroes;
 }
 
-DeckGenerator.prototype.generate = function () {
-    console.log('GENERATOR STARTED');
+DeckGenerator.prototype.generate = function (affinity) {
+    console.log('GENERATOR STARTED for ' + affinity);
     var result = new Array(5);
     var possibilities = this.countPossibilities();
     var counter = 0;
-    var bestDecks = {
-        'Fire': {
-            value: 0,
-            heroes: []
-        },
-        'Water': {
-            value: 0,
-            heroes: []
-        },
-        'Earth': {
-            value: 0,
-            heroes: []
-        },
-        'Light': {
-            value: 0,
-            heroes: []
-        },
-        'Dark': {
+    var bestDeck = {
+        deck: {
             value: 0,
             heroes: []
         }
@@ -89,18 +71,21 @@ DeckGenerator.prototype.generate = function () {
 
     function combinations(heroes, len, offset, result) {
         if (len === 0) {
-            this.postMessage({progress: (++counter / possibilities) * 100});
+            this.postMessage({
+                affinity: affinity,
+                progress: (++counter / possibilities) * 100
+            });
 
             var d = new Deck(result);
-            for (var affinity in bestDecks) {
-                var value = d.calculate('attack', affinity);
+            var value = d.calculate('attack', affinity);
 
-                if (value > bestDecks[affinity].value) {
-                    bestDecks[affinity] = {
+            if (value > bestDeck.deck.value) {
+                bestDeck = {
+                    deck: {
                         value: value,
                         heroes: JSON.parse(JSON.stringify(result))
-                    };
-                }
+                    }
+                };
             }
 
             return;
@@ -114,9 +99,11 @@ DeckGenerator.prototype.generate = function () {
 
     combinations(this.heroes, 5, 0, result);
 
-    console.log('GENERATOR ENDED');
+    bestDeck['affinity'] = affinity;
 
-    return bestDecks;
+    console.log('GENERATOR ENDED for ' + affinity);
+
+    return bestDeck;
 };
 
 DeckGenerator.prototype.countPossibilities = function () {
@@ -131,7 +118,7 @@ DeckGenerator.prototype.countPossibilities = function () {
 };
 
 this.addEventListener('message', function(e) {
-    var dg = new DeckGenerator(e.data);
-    var generated = dg.generate();
+    var dg = new DeckGenerator(e.data.heroes);
+    var generated = dg.generate(e.data.affinity);
     this.postMessage(generated);
 }, false);
