@@ -2,7 +2,7 @@ function Deck(heroes) {
     this.heroes = heroes;
 }
 
-Deck.prototype.calculate = function (property) {
+Deck.prototype.calculate = function (property, affinity) {
     var result = 0;
 
     for (var i = 0; i < this.heroes.length; i++) {

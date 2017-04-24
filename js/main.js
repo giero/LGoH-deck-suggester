@@ -1,17 +1,17 @@
 var teamHeroes = new Team();
 var allHeroes = new Team();
 
-Number.prototype.format = function(n, x) {
+Number.prototype.format = function (n, x) {
     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
     return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
 };
 
-$.getJSON("data/heroes_all.json", function(json) {
+$.getJSON("data/heroes_all.json", function (json) {
     json.forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
 
-    for (var i = 0; i < 40; i++) {
+    for (var i = 0; i < 20; i++) {
         var hero = $.extend(
             {},
             allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
@@ -30,9 +30,9 @@ function getHeroesTableComponent(team) {
         template: '#heroes-table',
         props: ['affinity'],
         data: function () {
-            return { team: team, searchKey: ''};
+            return {team: team, searchKey: ''};
         },
-        computed : {
+        computed: {
             filteredHeroes: function () {
                 var self = this;
                 return self.team.getHeroes(!!this.affinity ? {'affinity': this.affinity} : {}).filter(function (hero) {
@@ -50,7 +50,7 @@ Vue.component('heroes-table', {
 
 Vue.component('team-heroes-list', {
     template: '#heroes-list',
-    data: function (){
+    data: function () {
         return {
             listId: 'team-heroes-list'
         };
@@ -114,7 +114,7 @@ Vue.component('team-adding-form', {
             teamHeroes: teamHeroes
         };
     },
-    computed : {
+    computed: {
         heroes: function () {
             return allHeroes.getHeroes();
         },
@@ -135,7 +135,7 @@ Vue.component('team-adding-form', {
             var $form = $(e.target),
                 formParams = {};
 
-            $.each($form.serializeArray(), function(_, kv) {
+            $.each($form.serializeArray(), function (_, kv) {
                 formParams[kv.name] = kv.value;
             });
 
@@ -151,19 +151,21 @@ Vue.component('team-adding-form', {
 
 new Vue({
     el: '#app',
-    data: function () {
-        return {
-            bestDeck: {
-                value: 0,
-                heroes: [],
-                calc: 0
-            }
-        };
+    data: {
+        teamHeroes: teamHeroes,
+        bestDecks: {}
+    },
+    computed: {
+        dg: function () {
+            return new DeckGenerator(this.teamHeroes.getHeroes());
+        },
+        possibilities: function () {
+            return this.dg.countPossibilities();
+        }
     },
     methods: {
         calculateDecks: function () {
-            var dg = new DeckGenerator(teamHeroes.getHeroes());
-            this.bestDeck = dg.generate();
+            this.bestDecks = this.dg.generate();
         }
     },
     mounted: function () {

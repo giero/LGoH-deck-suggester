@@ -3,55 +3,63 @@ function DeckGenerator(heroes) {
 }
 
 DeckGenerator.prototype.generate = function () {
-    var combination = [];
     var result = new Array(5);
-    var best = {
-        value: 0,
-        heroes: [],
-        calc: 0
+    var bestDecks = {
+        'Fire': {
+            value: 0,
+            heroes: []
+        },
+        'Water': {
+            value: 0,
+            heroes: []
+        },
+        'Earth': {
+            value: 0,
+            heroes: []
+        },
+        'Light': {
+            value: 0,
+            heroes: []
+        },
+        'Dark': {
+            value: 0,
+            heroes: []
+        }
     };
 
     function combinations(heroes, len, offset, result) {
         if (len === 0) {
             var d = new Deck(result);
-            var value = d.calculate('power');
-            best['calc']++;
-            if (value > best.value) {
-                best['value'] = value;
-                best['heroes'] = JSON.parse(JSON.stringify(d.heroes));
+            for (var affinity in bestDecks) {
+                var value = d.calculate('power', affinity);
+
+                if (value > bestDecks[affinity].value) {
+                    bestDecks[affinity]['value'] = value;
+                    bestDecks[affinity]['heroes'] = JSON.parse(JSON.stringify(d.heroes));
+                }
             }
 
             return;
         }
 
-        for (var i = offset; i <= heroes.length - len; i++){
+        for (var i = offset; i <= heroes.length - len; i++) {
             result[result.length - len] = heroes[i];
-            combinations(heroes, len-1, i+1, result);
+            combinations(heroes, len - 1, i + 1, result);
         }
     }
 
     combinations(this.heroes, 5, 0, result);
 
-    return best;
+    return bestDecks;
 };
 
+DeckGenerator.prototype.countPossibilities = function () {
+    var result = 1;
+    var heroesCount = this.heroes.length;
 
-/*
-public class Combination {
-    public static void main(String[] args){
-    String[] arr = {"A","B","C","D","E","F"};
-    combinations2(arr, 3, 0, new String[3]);
-}
+    for (var i = 1; i <= 5; ++i) {
+        result *= (heroesCount - i + 1) / i;
+    }
 
-static void combinations2(String[] arr, int len, int startPosition, String[] result){
-    if (len == 0){
-        System.out.println(Arrays.toString(result));
-        return;
-    }
-    for (int i = startPosition; i <= arr.length-len; i++){
-        result[result.length - len] = arr[i];
-        combinations2(arr, len-1, i+1, result);
-    }
-}
-}
-    */
+    return result;
+};
