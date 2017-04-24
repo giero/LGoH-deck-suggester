@@ -43,8 +43,8 @@
             <div class="tab-pane fade" role="tabpanel" id="decks">
                 <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks - possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity)</button>
                 <div v-if="progress > -1" class="progress">
-                    <div class="progress-bar" role="progressbar" :style="'width: ' + progress + '%'">
-                        {{ progress }}%
+                    <div class="progress-bar" role="progressbar" :style="'width: ' + Math.round(progress) + '%'">
+                        {{ progress.toFixed(2) }}%
                     </div>
                 </div>
                 <fieldset v-for="(deck, affinity) in bestDecks">

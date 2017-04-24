@@ -8,27 +8,42 @@ function Deck(heroes) {
         'HP': 'health'
     };
 
-    this.affinityCounterMap = {
+    this.affinityStrongCounterMap = {
         'Fire': 'Earth,',
         'Earth': 'Water',
         'Water': 'Fire',
         'Light': 'Dark',
         'Dark': 'Light'
     };
+
+    this.affinityWeakCounterMap = {
+        'Earth': 'Fire',
+        'Water': 'Earth',
+        'Fire': 'Water',
+        'Dark': 'Light',
+        'Light': 'Dark'
+    };
+
 }
 
 Deck.prototype.calculate = function (property, affinity) {
     var result = 0;
+    var leaderTarget = this.leaderAblility.target;
+    var leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat];
 
     for (var i = 0; i < this.heroes.length; i++) {
-        var hero = JSON.parse(JSON.stringify(this.heroes[i]));
+        var hero = {
+            affinity: this.heroes[i].affinity,
+            attack: this.heroes[i].attack,
+            recovery: this.heroes[i].recovery,
+            health: this.heroes[i].health,
+            type: this.heroes[i].type,
+            species: this.heroes[i].species
+        };
 
-        var leaderTarget = this.leaderAblility.target;
-        var leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat];
-
-        if (this.affinityCounterMap[hero.affinity] === affinity) {
+        if (this.affinityStrongCounterMap[hero.affinity] === affinity) {
             hero.attack = Math.round(hero.attack * 1.5);
-        } else if (this.affinityCounterMap[affinity] === hero.affinity) {
+        } else if (this.affinityWeakCounterMap[affinity] === hero.affinity) {
             hero.attack = Math.round(hero.attack * 0.5);
         }
 
@@ -74,15 +89,17 @@ DeckGenerator.prototype.generate = function () {
 
     function combinations(heroes, len, offset, result) {
         if (len === 0) {
-            this.postMessage({progress: Math.round(++counter / possibilities * 100)});
+            this.postMessage({progress: (++counter / possibilities) * 100});
 
             var d = new Deck(result);
             for (var affinity in bestDecks) {
                 var value = d.calculate('attack', affinity);
 
                 if (value > bestDecks[affinity].value) {
-                    bestDecks[affinity]['value'] = value;
-                    bestDecks[affinity]['heroes'] = d.heroes;
+                    bestDecks[affinity] = {
+                        value: value,
+                        heroes: JSON.parse(JSON.stringify(result))
+                    };
                 }
             }
 
