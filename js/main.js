@@ -145,9 +145,9 @@ Vue.component('team-adding-form', {
                     {},
                     allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
                     {
-                        attack: Math.floor(Math.random() * 1000),
-                        recovery: Math.floor(Math.random() * 300),
-                        health: Math.floor(Math.random() * 1000)
+                        attack: Math.floor(Math.random() * 1200) + 100,
+                        recovery:Math.floor(Math.random() * 900) + 100,
+                        health: Math.floor(Math.random() * 2400) + 100
                     }
                 );
                 teamHeroes.addHero(hero);
@@ -160,7 +160,8 @@ new Vue({
     el: '#app',
     data: {
         teamHeroes: teamHeroes,
-        bestDecks: {}
+        bestDecks: {},
+        progress: -1
     },
     computed: {
         dg: function () {
@@ -168,11 +169,28 @@ new Vue({
         },
         possibilities: function () {
             return this.dg.countPossibilities();
+        },
+        worker: function () {
+            var self = this;
+            var worker = new Worker('js/deck_worker.js');
+
+            worker.addEventListener('message', function(e) {
+                if (e.data.hasOwnProperty('progress')) {
+                    self.progress = e.data.progress;
+                } else if (e.data.hasOwnProperty('Fire')){
+                    self.bestDecks = e.data;
+                } else {
+                    console.log(e.data);
+                }
+            }, false);
+
+            return worker;
         }
     },
     methods: {
         calculateDecks: function () {
-            this.bestDecks = this.dg.generate();
+            this.bestDecks = {};
+            this.worker.postMessage(this.teamHeroes.getHeroes());
         }
     },
     mounted: function () {

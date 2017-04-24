@@ -32,7 +32,7 @@ Deck.prototype.calculate = function (property, affinity) {
         }
 
         if ($.inArray(leaderTarget, [hero.affinity, hero.type, hero.species]) > -1) {
-            hero[leaderStat] = Math.round(hero[leaderStat] * this.leaderAblility.value / 100);
+            hero[leaderStat] = Math.round(hero[leaderStat] * (this.leaderAblility.value / 100));
         }
         result += hero[property];
     }
