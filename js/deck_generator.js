@@ -31,7 +31,7 @@ DeckGenerator.prototype.generate = function () {
         if (len === 0) {
             var d = new Deck(result);
             for (var affinity in bestDecks) {
-                var value = d.calculate('power', affinity);
+                var value = d.calculate('attack', affinity);
 
                 if (value > bestDecks[affinity].value) {
                     bestDecks[affinity]['value'] = value;

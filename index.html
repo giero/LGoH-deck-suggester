@@ -46,9 +46,14 @@
                 <p>Possible {{ possibilities.format(0, 3) }} configurations</p>
                 <fieldset v-for="(deck, affinity) in bestDecks">
                     <legend>Against: {{ affinity }}</legend>
-                    <p>score: {{ deck.value.format(0, 3) }}</p>
+                    <p>attack score: {{ deck.value.format(0, 3) }}</p>
                     <ul>
-                        <li v-for="hero in deck.heroes">{{ hero.name }} ({{ hero.attack }} - {{ hero.recovery }} - {{ hero.health }})</li>
+                        <li v-for="(hero, key) in deck.heroes">
+                            <span v-bind:class="key === 0 ? 'text-danger': ''">
+                                {{ hero.name }} ({{ hero.affinity }} {{ hero.type }} {{ hero.species }} :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
+                                <span v-if="key === 0">(leader ability:&nbsp;{{ hero.leaderAbility.fullName }})</span>
+                            </span>
+                        </li>
                     </ul>
                 </fieldset>
             </div>

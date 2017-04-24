@@ -11,7 +11,7 @@ $.getJSON("data/heroes_all.json", function (json) {
         allHeroes.addHero(heroStat);
     });
 
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 25; i++) {
         var hero = $.extend(
             {},
             allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
