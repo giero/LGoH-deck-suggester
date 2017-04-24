@@ -10,19 +10,6 @@ $.getJSON("data/heroes_all.json", function (json) {
     json.forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
-
-    for (var i = 0; i < 25; i++) {
-        var hero = $.extend(
-            {},
-            allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
-            {
-                attack: Math.floor(Math.random() * 1000),
-                recovery: Math.floor(Math.random() * 300),
-                health: Math.floor(Math.random() * 1000)
-            }
-        );
-        teamHeroes.addHero(hero);
-    }
 });
 
 function getHeroesTableComponent(team) {
@@ -65,7 +52,8 @@ Vue.component('team-heroes-list', {
                 water: teamHeroes.getHeroes({'affinity': 'Water'}).length,
                 earth: teamHeroes.getHeroes({'affinity': 'Earth'}).length,
                 light: teamHeroes.getHeroes({'affinity': 'Light'}).length,
-                dark: teamHeroes.getHeroes({'affinity': 'Dark'}).length
+                dark: teamHeroes.getHeroes({'affinity': 'Dark'}).length,
+                all: teamHeroes.getHeroes().length
             }
         }
     },
@@ -94,7 +82,8 @@ Vue.component('all-heroes-list', {
                 water: allHeroes.getHeroes({'affinity': 'Water'}).length,
                 earth: allHeroes.getHeroes({'affinity': 'Earth'}).length,
                 light: allHeroes.getHeroes({'affinity': 'Light'}).length,
-                dark: allHeroes.getHeroes({'affinity': 'Dark'}).length
+                dark: allHeroes.getHeroes({'affinity': 'Dark'}).length,
+                all: allHeroes.getHeroes().length
             }
         }
     },
@@ -145,6 +134,24 @@ Vue.component('team-adding-form', {
 
             $form[0].reset();
             this.refreshSelect();
+        },
+        addRandomHeroToTeam: function (e) {
+            e.preventDefault();
+
+            var n = e.shiftKey ? 10 : 1;
+
+            for (var i = 0; i < n; i++) {
+                var hero = $.extend(
+                    {},
+                    allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
+                    {
+                        attack: Math.floor(Math.random() * 1000),
+                        recovery: Math.floor(Math.random() * 300),
+                        health: Math.floor(Math.random() * 1000)
+                    }
+                );
+                teamHeroes.addHero(hero);
+            }
         }
     }
 });

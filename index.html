@@ -74,6 +74,7 @@
                 <li role="presentation"><a :href="'#' + listId + '-earth'">Earth ({{ counter.earth }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-light'">Light ({{ counter.light }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-dark'">Dark ({{ counter.dark }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-all'">All ({{ counter.all }})</a></li>
             </ul>
         </div>
 
@@ -92,6 +93,9 @@
             </div>
             <div class="tab-pane fade" role="tabpanel" :id="listId + '-dark'">
                 <heroes-table affinity="Dark"></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-all'">
+                <heroes-table></heroes-table>
             </div>
         </div>
     </section>
@@ -153,6 +157,7 @@
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
+                <button id="add-random-to-team" v-on:click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">Add random to team</button>
             </fieldset>
         </form>
     </div>
