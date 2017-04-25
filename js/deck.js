@@ -38,9 +38,7 @@ Deck.prototype.calculate = function (property, affinity) {
         if (this.affinityCounterMap[hero.affinity] === affinity) {
             debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 1.5));
             hero.attack = Math.round(hero.attack * 1.5);
-        }
-
-        if (this.affinityCounterMap[affinity] === hero.affinity) {
+        } else if (this.affinityCounterMap[affinity] === hero.affinity) {
             debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 0.5));
             hero.attack = Math.round(hero.attack * 0.5);
         }
