@@ -164,33 +164,35 @@ new Vue({
         progress: -1
     },
     computed: {
-        dg: function () {
-            return new DeckGenerator(this.teamHeroes.getHeroes());
-        },
         possibilities: function () {
-            return this.dg.countPossibilities();
+            var dg = new DeckGenerator(this.teamHeroes.getHeroes());
+            return dg.countPossibilities();
         },
-        worker: function () {
+        deckWorker: function () {
             var self = this;
-            var worker = new Worker('js/deck_worker.js');
+            var deckWorker = new Worker('js/deck_worker.js');
 
-            worker.addEventListener('message', function(e) {
-                if (e.data.hasOwnProperty('progress')) {
-                    self.progress = e.data.progress;
-                } else if (e.data.hasOwnProperty('Fire')){
-                    self.bestDecks = e.data;
+            deckWorker.onmessage = function(e) {
+                var data = JSON.parse(e.data);
+                if (data.hasOwnProperty('progress')) {
+                    self.progress = data.progress;
+                } else if (data.hasOwnProperty('Fire')){
+                    self.bestDecks = data;
                 } else {
-                    console.log(e.data);
+                    console.log('error?', e.data);
                 }
-            }, false);
+            };
 
-            return worker;
+            return deckWorker;
         }
+    },
+    updated: function() {
+        $('[data-toggle="popover"]').popover();
     },
     methods: {
         calculateDecks: function () {
             this.bestDecks = {};
-            this.worker.postMessage(this.teamHeroes.getHeroes());
+            this.deckWorker.postMessage(this.teamHeroes.getHeroes());
         }
     },
     mounted: function () {

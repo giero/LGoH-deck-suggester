@@ -9,32 +9,50 @@ function Deck(heroes) {
     };
 
     this.affinityCounterMap = {
-        'Fire': 'Earth,',
+        'Fire': 'Earth',
         'Earth': 'Water',
         'Water': 'Fire',
         'Light': 'Dark',
         'Dark': 'Light'
     };
+
 }
 
 Deck.prototype.calculate = function (property, affinity) {
     var result = 0;
-
+    var leaderTarget = this.leaderAblility.target;
+    var leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat];
+    var debug = [];
     for (var i = 0; i < this.heroes.length; i++) {
-        var hero = $.extend({}, this.heroes[i]);
-        var leaderTarget = this.leaderAblility.target;
-        var leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat];
+        var hero = {
+            name: this.heroes[i].name,
+            affinity: this.heroes[i].affinity,
+            attack: this.heroes[i].attack,
+            recovery: this.heroes[i].recovery,
+            health: this.heroes[i].health,
+            type: this.heroes[i].type,
+            species: this.heroes[i].species
+        };
 
+        debug.push(hero.name + ': ' + hero.affinity + ' vs ' + affinity + '(' + (this.affinityCounterMap[hero.affinity] === affinity) + ', ' + (this.affinityCounterMap[affinity] === hero.affinity) + ')');
         if (this.affinityCounterMap[hero.affinity] === affinity) {
+            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 1.5));
             hero.attack = Math.round(hero.attack * 1.5);
-        } else if (this.affinityCounterMap[affinity] === hero.affinity) {
+        }
+
+        if (this.affinityCounterMap[affinity] === hero.affinity) {
+            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 0.5));
             hero.attack = Math.round(hero.attack * 0.5);
         }
 
-        if ($.inArray(leaderTarget, [hero.affinity, hero.type, hero.species]) > -1) {
+        if ([hero.affinity, hero.type, hero.species].indexOf(leaderTarget) > -1) {
+            debug.push(hero.name + ': ' + leaderStat + ' ' + hero[leaderStat] + ' -> ' + Math.round(hero[leaderStat] * (this.leaderAblility.value / 100)) + ' by leaders ' + leaderStat + ' x'+ (this.leaderAblility.value / 100));
             hero[leaderStat] = Math.round(hero[leaderStat] * (this.leaderAblility.value / 100));
         }
         result += hero[property];
     }
-    return result;
+    return {
+        result: result,
+        debug: debug
+    };
 };

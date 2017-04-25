@@ -3,39 +3,27 @@ function DeckGenerator(heroes) {
 }
 
 DeckGenerator.prototype.generate = function () {
-    var result = new Array(5);
-    var bestDecks = {
-        'Fire': {
-            value: 0,
-            heroes: []
-        },
-        'Water': {
-            value: 0,
-            heroes: []
-        },
-        'Earth': {
-            value: 0,
-            heroes: []
-        },
-        'Light': {
-            value: 0,
-            heroes: []
-        },
-        'Dark': {
-            value: 0,
-            heroes: []
-        }
-    };
-
-    function combinations(heroes, len, offset, result) {
+    console.log('GENERATOR STARTED');
+    var possibilities = this.countPossibilities();
+    var counter = 0;
+    var bestDeck = {};
+    var affinities = {'Fire': null, 'Water': null, 'Earth': null, 'Light': null, 'Dark': null};
+    var combinations = function (heroes, len, offset, result) {
         if (len === 0) {
-            var d = new Deck(result);
-            for (var affinity in bestDecks) {
-                var value = d.calculate('attack', affinity);
+            if (!(++counter % 100) || counter === possibilities) {
+                this.postMessage(JSON.stringify({progress: Math.round(counter / possibilities * 100)}));
+            }
 
-                if (value > bestDecks[affinity].value) {
-                    bestDecks[affinity]['value'] = value;
-                    bestDecks[affinity]['heroes'] = JSON.parse(JSON.stringify(d.heroes));
+            var d = new Deck(result);
+            for (var affinity in affinities) {
+                var calculated = d.calculate('attack', affinity);
+
+                if (!bestDeck.hasOwnProperty(affinity) || calculated.result > bestDeck[affinity].value) {
+                    bestDeck[affinity] = {
+                        value: calculated.result,
+                        heroes: JSON.parse(JSON.stringify(result)),
+                        debug: calculated.debug
+                    };
                 }
             }
 
@@ -46,11 +34,13 @@ DeckGenerator.prototype.generate = function () {
             result[result.length - len] = heroes[i];
             combinations(heroes, len - 1, i + 1, result);
         }
-    }
+    };
 
-    combinations(this.heroes, 5, 0, result);
+    combinations(this.heroes, 5, 0, new Array(5));
 
-    return bestDecks;
+    console.log('GENERATOR ENDED');
+
+    return bestDeck;
 };
 
 DeckGenerator.prototype.countPossibilities = function () {
