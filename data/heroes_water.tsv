@@ -1,0 +1,89 @@
+number	affinity	name	stars	power level	class	race	evolve from number		evolve into number	leader ability	defender skill	counter skill	Art
+43	water	Frostvein Cultist	*	2	Mage	Corrupt				Water Might I: 110% Damage for all Water Heroes	Drain	Unknown	
+44	water	Frostvein Devout	**	4	Mage	Corrupt				Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor	
+45	water	Frostvein Enforcer	***	6	Mage	Corrupt				Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor	
+46	water	Sharhein Clansman	*	2	Balanced	Human				Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown	
+47	water	Sharhein Raider	**	4	Balanced	Human				Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge	
+48	water	Sharhein Recruit	*	2	Attacker	Human				Water Armor I: 110% HP for all Water Heroes	Weaken	Unknown	
+49	water	Sharhein Warrior	**	4	Attacker	Human				Water Armor II: 120% HP for all Water Heroes	Weaken	Cure Poison	
+50	water	Sharhein Taskmaster	***	6	Attacker	Human				Water Armor III: 140% HP for all Water Heroes	Weaken	Cure Poison	
+51	water	Sharhein Crusher	****	9	Attacker	Human				Water Armor IV: 160% HP for all Water Heroes	Weaken	Cure Poison	
+67	water	Staj Harbor Brute	**	4	Warrior	Dwarf				Warrior Armor II: 120% HP for all Warrior Heroes	Might	Dispel Dodge	
+68	water	Staj Harbor Heavy	***	6	Warrior	Dwarf				Warrior Armor III: 140% HP for all Warrior Heroes	Might	Dispel Dodge	
+69	water	Steel Sea Nyad	***	6	Defender	Spirit				Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen	
+70	water	Steel Sea Siren	****	9	Defender	Spirit				Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen	
+87	water	Frostvein Mage	**	4	Attacker	Corrupt				Human Might II: 120% Damage for all Human Heroes	Poison	Cure Zombie	
+88	water	Frostvein Elder	***	6	Attacker	Corrupt				Human Might III: 140% Damage for all Human Heroes	Poison	Cure Zombie	
+104	water	Wavestrom Crab	****	9	Guardian	Creature				Guardian Blessing IV: 160% REC for all Guardian Heroes	Poison	Cure Weaken	
+105	water	Wavestrom Orc	***	6	Attacker	Giant				Water Might III: 140% Damage for all Water Heroes	Regen	Cure Zombie	
+106	water	Wavestrom Orc Elder	****	9	Attacker	Giant				Water Might IV: 160% Damage for all Water Heroes	Regen	Cure Zombie	
+107	water	Sharhein Serpent	****	9	Warrior	Dragon				Warrior Might IV: 160% Damage for all Warrior Heroes	Armor	Cure Siphon	
+296	water	Aequorus, Extinguisher	*****	15	Mage	God				Dragon Might V: 180% Damage for all Dragon Heroes	Blind	Dispel Absorb	
+119	water	Sharhein Healer	*	2	Healer	Human				Water Blessing I: 110% REC for all Water Heroes	Regen	Unknown	
+120	water	Sharhein Cleric	**	4	Healer	Human				Water Blessing II: 120% REC for all Water Heroes	Regen	Cure Poison	
+121	water	Sharhein Monk	***	6	Healer	Human				Water Blessing III: 140% REC for all Water Heroes	Regen	Cure Poison	
+130	water	Wavestrom Cutthroat	**	4	Balanced	Human				Attacker Might II: 120% Damage for all Attacker Heroes	Dodge	Cure Siphon	
+131	water	Wavestrom Assassin	***	6	Balanced	Human				Attacker Might III: 140% Damage for all Attacker Heroes	Dodge	Cure Siphon	
+134	water	Urther Damned	**	4	Guardian	Corrupt				Guardian Armor II: 120% HP for all Guardian Heroes	Armor	Cure Weaken	
+135	water	Urther Accursed	***	6	Guardian	Corrupt				Guardian Armor III: 140% HP for all Guardian Heroes	Armor	Cure Weaken	
+152	water	Urther Dragonling	***	6	Warrior	Dragon				Water Armor III: 140% HP for all Water Heroes	Poison	Dispel Drain	
+153	water	Urther Dragon	****	9	Warrior	Dragon				Water Armor IV: 160% HP for all Water Heroes	Poison	Dispel Drain	
+269	water	Avatar of Despair	******	30	Balanced	Spirit				Spirit Might VI: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge	
+248	water	Baird, The Still One	******	30	Healer	Human				Water Blessing VI: 200% REC for all Water Heroes	Absorb	Cleanse III	
+164	water	Steel Sea Vagrant	***	6	Mage	Dwarf				Mage Might III: 140% Damage for all Mage Heroes	Zombie	Cure Blind	
+165	water	Steel Sea Vagabond	****	9	Mage	Dwarf				Mage Might IV: 160% Damage for all Mage Heroes	Zombie	Cure Blind	
+175	water	Urther Terror	****	9	Defender	Giant				Giant Armor IV: 160% HP for all Giant Heroes	Weaken	Cure Poison	
+247	water	Baird, The Wizened	*****	15	Healer	Human				Water Blessing V: 180% REC for all Water Heroes	Absorb	Cleanse II	
+181	water	Redeemer's Acolyte	****	9	Healer	Spirit				Water Blessing IV: 160% REC for all Water Heroes	Siphon	Unknown	
+212	water	Braknark Bonegrinder	******	30	Guardian	Giant				Giant Armor VI: 200% HP for all Giant Heroes	Armor	Cure Vessel	
+326	water	Brom The Reanimated	*****	15	Mage	Corrupt				Corrupt Might V: 180% Damage for all Corrupt Heroes	Panic	Cure Panic	
+195	water	Drosh, the Scoundrel	****	9	Attacker	Demigod				Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon	
+390	water	Cankiri, The Pestilent	******	30	Warrior	Creature				Creature Might VI: 200% Damage for all Creature Heroes	Weaken	Cure Blind	
+315	water	Cthulhu Resurrected	******	30	Balanced	Corrupt				Corrupt Blessing VI: 200% REC for all Corrupt Heroes	Zombie	Dispel Might	
+210	water	Wavestrom Clops	****	9	Guardian	Giant				Giant Armor IV: 160% HP for all Giant Heroes	Armor	Cure Vessel	
+314	water	Cthulhu, High Priest	*****	15	Balanced	Corrupt				Corrupt Blessing V: 180% REC for all Corrupt Heroes	Zombie	Dispel Might	
+268	water	Despair Ifrit	*****	15	Balanced	Spirit				Spirit Might V: 180% Damage for all Spirit Heroes	Drain	Dispel Dodge	
+225	water	Steel Sea Witch	****	9	Mage	Human				Mage Might IV: 160% Damage for all Mage Heroes	Siphon	Dispel Armor	
+197	water	Drosh Wavestrom	******	30	Attacker	Demigod				Human Might VI: 200% Damage for all Human Heroes	Dodge	Cure Siphon	
+196	water	Drosh, the Stormchaser	*****	15	Attacker	Demigod				Human Might V: 180% Damage for all Human Heroes	Dodge	Cure Siphon	
+246	water	Baird, The Seeker	****	9	Healer	Human				Water Blessing IV: 160% REC for all Water Heroes	Absorb	Cleanse I	
+297	water	Empyrean Aequorus	******	30	Mage	God				Dragon Might VI: 200% Damage for all Dragon Heroes	Blind	Dispel Absorb	
+428	water	Eversharp	*****	15	Attacker	Spirit				Spirit Armor V: 180% HP for all Spirit Heroes	Dodge	Cure Traitor	
+267	water	Despair Spirit	****	9	Balanced	Spirit				Spirit Might IV: 160% Damage for all Spirit Heroes	Drain	Dispel Dodge	
+371	water	General Dreav	*****	15	Warrior	Corrupt				Water Might V: 180% Damage for all Water Heroes	Vessel	Cure Poison	
+399	water	Gretchen, Heaven-Saved	******	30	Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison	
+280	water	Keta, The Pirate	**	4	Balanced	Legend				Water Might II: 120% Damage for all Water Heroes	Might	Unknown	
+281	water	Keta, The Bold	***	6	Balanced	Legend				Water Might III: 140% Damage for all Water Heroes	Might	Unknown	
+282	water	Keta, The Schemer	****	9	Balanced	Legend				Water Might IV: 160% Damage for all Water Heroes	Might	Unknown	
+398	water	Gretchen, The Ruined	*****	15	Attacker	Fable				Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	
+357	water	Harvester Of Souls	******	30	Balanced	Creature				Creature Armor VI: 200% HP for all Creature Heroes	Siphon	Dispel Drain	
+295	water	Aequorus, Hatchling	****	9	Mage	God				Dragon Might IV: 160% Damage for all Dragon Heroes	Blind	Dispel Absorb	
+356	water	Harvester Of Spirits	*****	15	Balanced	Creature				Creature Armor V: 180% HP for all Creature Heroes	Siphon	Dispel Drain	
+389	water	Infernal Crustacean	*****	15	Warrior	Creature				Creature Might V: 180% Damage for all Creature Heroes	Weaken	Cure Blind	
+313	water	Dreaming Cthulhu	****	9	Balanced	Corrupt				Corrupt Blessing IV: 160% REC for all Corrupt Heroes	Zombie	Dispel Might	
+369	water	Joan Of Arc	******	30	Balanced	Human				Balanced Armor VI: 200% HP for all Balanced Heroes	Armor	Cure Blind	
+368	water	Joan, Visionary	*****	15	Balanced	Human				Balanced Armor V: 180% HP for all Balanced Heroes	Armor	Cure Blind	
+325	water	Brom The Cursed	****	9	Mage	Corrupt				Corrupt Might IV: 160% Damage for all Corrupt Heroes	Panic	Cure Panic	
+284	water	Keta Frostbow	******	30	Balanced	Legend				Water Might VI: 200% Damage for all Water Heroes	Might	Unknown	
+283	water	Keta, The Wily	*****	15	Balanced	Legend				Water Might V: 180% Damage for all Water Heroes	Might	Unknown	
+355	water	Harvest King	****	9	Balanced	Creature				Creature Armor IV: 160% HP for all Creature Heroes	Siphon	Dispel Drain	
+372	water	Lord Dreav	******	30	Warrior	Corrupt				Water Might VI: 200% Damage for all Water Heroes	Vessel	Cure Poison	
+413	water	Sapphire Titan	*****	15	Warrior	Giant				Giant Might V: 180% Damage for all Giant Heroes	Thorns	Dispel Regen	
+367	water	Defiant Joan	****	9	Balanced	Human				Balanced Armor IV: 160% HP for all Balanced Heroes	Armor	Cure Blind	
+184	water	Scylla The Temptress	*****	15	Attacker	God				Water Might V: 180% Damage for all Water Heroes	Judgement	Cure Zombie	
+185	water	Scylla, The Huntress	******	30	Attacker	God				Water Might VI: 200% Damage for all Water Heroes	Judgement	Cure Zombie	
+370	water	Commander Dreav	****	9	Warrior	Corrupt				Water Might IV: 160% Damage for all Water Heroes	Vessel	Cure Poison	
+108	water	Sharhein Warbeast	*****	15	Warrior	Dragon				Warrior Might V: 180% Damage for all Warrior Heroes	Armor	Cure Siphon	
+227	water	Sherilah, Tide Bringer	******	30	Mage	Human				Mage Might VI: 200% Damage for all Mage Heroes	Siphon	Dispel Armor	
+388	water	Brackish Monster	****	9	Warrior	Creature				Creature Might IV: 160% Damage for all Creature Heroes	Weaken	Cure Blind	
+226	water	Steel Sea Seductress	*****	15	Mage	Human				Mage Might V: 180% Damage for all Mage Heroes	Siphon	Dispel Armor	
+154	water	Tarken	*****	15	Warrior	Dragon				Water Armor V: 180% HP for all Water Heroes	Poison	Dispel Drain	
+397	water	Gretchen, Innocent Child	****	9	Attacker	Fable				Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison	
+155	water	Tarken, the Frozen	******	30	Warrior	Dragon				Water Armor VI: 200% HP for all Water Heroes	Poison	Dispel Drain	
+327	water	The Headless Horseman	******	30	Mage	Corrupt				Corrupt Might VI: 200% Damage for all Corrupt Heroes	Panic	Cure Panic	
+412	water	Sapphire Giant	****	9	Warrior	Giant				Giant Might IV: 160% Damage for all Giant Heroes	Thorns	Dispel Regen	
+429	water	The Vorpal Blade	******	30	Attacker	Spirit				Spirit Armor VI: 200% HP for all Spirit Heroes	Dodge	Cure Traitor	
+414	water	Tzara, Divine Titan	******	30	Warrior	Giant				Giant Might VI: 200% Damage for all Giant Heroes	Thorns	Dispel Regen	
+427	water	Sword of Piercing	****	9	Attacker	Spirit				Spirit Armor IV: 160% HP for all Spirit Heroes	Dodge	Cure Traitor	
+176	water	Urther Nightmare	*****	15	Defender	Giant				Giant Armor V: 180% HP for all Giant Heroes	Weaken	Cure Poison	
+211	water	Wavestrom Biclops	*****	15	Guardian	Giant				Giant Armor V: 180% HP for all Giant Heroes	Armor	Cure Vessel	

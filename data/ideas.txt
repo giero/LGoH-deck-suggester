@@ -1,0 +1,684 @@
+id
+name
+
+affinity
+type
+species
+
+attack
+recovery
+health
+
+rarity (stars)
+
+event_skills
+defender_skill
+counter_skill
+
+leader_ability
+combat_ability
+
+evolve_from
+evolve_to
+
+
+
+
+----- STARS -----
+1 Star - Common
+2 Stars - Uncommon
+3 Stars - Rare
+4 Stars - Ultra Rare
+5 Stars - Epic
+6 Stars - Legendary
+
+
+----- AFFINITY ----
+Dark
+Earth
+Fire
+Light
+Water
+
+----- TYPE -----
+Attacker
+Balanced
+Defender
+Guardian
+Healer
+Mage
+Warrior
+
+----- SPECIES -----
+
+Corrupt
+Creature
+Demigod
+Dragon
+Dren
+Fable
+Giant
+God
+Human
+Legend
+Spirit
+
+----- EVENT SKILL -----
+Slayer
+Commander
+Bounty Hunter
+
+The 4-star Legends are 2x: Slayers, Bounty Hunters and Commander
+The 5-star Legends are 3x
+The 6-star Legends are 4x.
+
+----- COUNTER SKILL -----
+Cleanse I
+Cleanse II
+Cleanse III
+Cure Blind
+Cure Panic
+Cure Poison
+Cure Siphon
+Cure Traitor
+Cure Vessel
+Cure Weaken
+Cure Zombie
+Dispel Absorb
+Dispel Armor
+Dispel Dodge
+Dispel Drain
+Dispel Judgment
+Dispel Might
+Dispel Regen
+Dispel Thorns
+
+PWR = round(ATT/3 + REC + HP/5)
+
+
+----- LEADER ABLILITY -----
+Attacker Might II: 120% Damage for all Attacker Heroes
+Attacker Might III: 140% Damage for all Attacker Heroes
+Balanced Armor IV: 160% HP for all Balanced Heroes
+Balanced Armor V: 180% HP for all Balanced Heroes
+Balanced Armor VI: 200% HP for all Balanced Heroes
+Balanced Might I: 110% Damage for all Balanced Heroes
+Balanced Might II: 120% Damage for all Balanced Heroes
+Corrupt Blessing IV: 160% REC for all Corrupt Heroes
+Corrupt Blessing V: 180% REC for all Corrupt Heroes
+Corrupt Blessing VI: 200% REC for all Corrupt Heroes
+Corrupt Might IV: 160% Damage for all Corrupt Heroes
+Corrupt Might V: 180% Damage for all Corrupt Heroes
+Corrupt Might VI: 200% Damage for all Corrupt Heroes
+Creature Armor IV: 160% HP for all Creature Heroes
+Creature Armor V: 180% HP for all Creature Heroes
+Creature Armor VI: 200% HP for all Creature Heroes
+Creature Might IV: 160% Damage for all Creature Heroes
+Creature Might V: 180% Damage for all Creature Heroes
+Creature Might VI: 200% Damage for all Creature Heroes
+Dark Armor I: 110% HP for all Dark Heroes
+Dark Armor II: 120% HP for all Dark Heroes
+Dark Armor III: 140% HP for all Dark Heroes
+Dark Armor IV: 160% HP for all Dark Heroes
+Dark Armor V: 180% HP for all Dark Heroes
+Dark Armor VI: 200% HP for all Dark Heroes
+Dark Blessing I: 110% REC for all Dark Heroes
+Dark Blessing II: 120% REC for all Dark Heroes
+Dark Blessing III: 140% REC for all Dark Heroes
+Dark Blessing IV: 160% REC for all Dark Heroes
+Dark Blessing V: 180% REC for all Dark Heroes
+Dark Blessing VI: 200% REC for all Dark Heroes
+Dark Might I: 110% Damage for all Dark Heroes
+Dark Might II: 120% Damage for all Dark Heroes
+Dark Might III: 140% Damage for all Dark Heroes
+Dark Might IV: 160% Damage for all Dark Heroes
+Dark Might V - 180% Damage for all dark heroes
+Dark Might V: 180% Damage for all Dark Heroes
+Dark Might VI: 200% Damage for all Dark Heroes
+Defender Armor III: 140% HP for all Defender Heroes
+Defender Armor IV: 160% HP for all Defender Heroes
+Defender Armor V: 180% HP for all Defender Heroes
+Defender Armor VI: 200% HP for all Defender Heroes
+Demigod Might IV: 160% Damage for all Demigod Heroes
+Demigod Might V: 180% Damage for all Demigod Heroes
+Demigod Might VI: 200% Damage for all Demigod Heroes
+Dragon Might IV: 160% Damage for all Dragon Heroes
+Dragon Might V: 180% Damage for all Dragon Heroes
+Dragon Might VI: 200% Damage for all Dragon Heroes
+Earth Armor I: 110% HP for all Earth Heroes
+Earth Armor II: 120% HP for all Earth Heroes
+Earth Armor III: 140% HP for all Earth Heroes
+Earth Armor IV: 160% HP for all Earth Heroes
+Earth Armor V: 180% HP for all Earth Heroes
+Earth Armor VI: 200% HP for all Earth Heroes
+Earth Blessing I: 110% REC for all Earth Heroes
+Earth Blessing II: 120% REC for all Earth Heroes
+Earth Blessing III: 140% REC for all Earth Heroes
+Earth Blessing IV: 160% REC for all Earth Heroes
+Earth Blessing V: 180% REC for all Earth Heroes
+Earth Blessing VI: 200% REC for all Earth Heroes
+Earth Might I: 110% Damage for all Earth Heroes
+Earth Might II: 120% Damage for all Earth Heroes
+Earth Might III: 140% Damage for all Earth Heroes
+Earth Might IV: 160% Damage for all Earth Heroes
+Earth Might V: 180% Damage for all Earth Heroes
+Earth Might VI: 200% Damage for all Earth Heroes
+Fire Armor I: 110% HP for all Fire Heroes
+Fire Armor II: 120% HP for all Fire Heroes
+Fire Armor III: 140% HP for all Fire Heroes
+Fire Armor IV: 160% HP for all Fire Heroes
+Fire Armor V: 180% HP for all Fire Heroes
+Fire Armor VI: 260% HP for all Fire Heroes
+Fire Blessing I: 110% REC for all Fire Heroes
+Fire Blessing II: 120% REC for all Fire Heroes
+Fire Blessing III: 140% REC for all Fire Heroes
+Fire Blessing IV: 160% REC for all Fire Heroes
+Fire Blessing V: 180% REC for all Fire Heroes
+Fire Blessing VI: 160% REC for all Fire Heroes
+Fire Might I: 110% damage for all Fire Heroes
+Fire Might II: 120% damage for all Fire Heroes
+Fire Might III: 140% damage for all Fire Heroes
+Fire Might IV: 160% damage for all Fire Heroes
+Fire Might V: 180% damage for all Fire Heroes
+Fire Might VI: 200% damage for all Fire Heroes
+Giant Armor IV: 160% HP for all Giant Heroes
+Giant Armor V: 180% HP for all Giant Heroes
+Giant Armor VI: 200% HP for all Giant Heroes
+Giant Might IV: 160% Damage for all Giant Heroes
+Giant Might V: 180% Damage for all Giant Heroes
+Giant Might VI: 200% Damage for all Giant Heroes
+God Armor IV: 160% HP for all God Heroes
+God Armor V: 180% HP for all God Heroes
+God Armor VI: 200% HP for all God Heroes
+God Might IV: 160% Damage for all God Heroes
+God Might V: 180% Damage for all God Heroes
+God Might VI: 200% Damage for all God Heroes
+Guardian Armor II: 120% HP for all Guardian Heroes
+Guardian Armor III: 140% HP for all Guardian Heroes
+Guardian Blessing IV: 160% REC for all Guardian Heroes
+Human Armor IV: 160% HP for all Human Heroes
+Human Armor V: 180% HP for all Human Heroes
+Human Armor VI: 200% HP for all Human Heroes
+Human Might I: 110% Damage for all Human Heroes
+Human Might II: 120% Damage for all Human Heroes
+Human Might III: 140% Damage for all Human Heroes
+Human Might IV: 160% Damage for all Human Heroes
+Human Might V: 180% Damage for all Human Heroes
+Human Might VI: 200% Damage for all Human Heroes
+Light Armor I: 110% HP for all Light Heroes
+Light Armor II: 120% HP for all Light Heroes
+Light Armor III: 140% HP for all Light Heroes
+Light Armor IV: 160% HP for all Light Heroes
+Light Armor V: 180% HP for all Light Heroes
+Light Armor VI: 200% HP for all Light Heroes
+Light Blessing I: 110% REC for all Light Heroes
+Light Blessing II: 120% REC for all Light Heroes
+Light Blessing III: 140% REC for all Light Heroes
+Light Blessing IV: 160% REC for all Light Heroes
+Light Blessing V: 180% REC for all Light Heroes
+Light Blessing VI: 200% REC for all Light Heroes
+Light Might I: 110% Damage for all Light Heroes
+Light Might II: 120% Damage for all Light Heroes
+Light Might III: 140% Damage for all Light Heroes
+Light Might IV: 160% Damage for all Light Heroes
+Light Might V: 180% Damage for all Light Heroes
+Light Might VI: 200% Damage for all Light Heroes
+Mage Might III: 140% Damage for all Mage Heroes
+Mage Might IV: 160% Damage for all Mage Heroes
+Mage Might V: 180% Damage for all Mage Heroes
+Mage Might VI: 200% Damage for all Mage Heroes
+Power of Love I: 175% Damage for all God Heroes
+Power of Love II: 200% Damage for all God Heroes
+Power of Love III: 225% Damage for all God Heroes
+Power of Love IV: 300% Damage for all God Heroes
+Spirit Armor I: 110% HP for all Spirit Heroes
+Spirit Armor II: 120% HP for all Spirit Heroes
+Spirit Armor III: 140% HP for all Spirit Heroes
+Spirit Armor IV: 160% HP for all Spirit Heroes
+Spirit Armor V: 180% HP for all Spirit Heroes
+Spirit Armor VI: 200% HP for all Spirit Heroes
+Spirit Might IV: 160% Damage for all Spirit Heroes
+Spirit Might V: 180% Damage for all Spirit Heroes
+Spirit Might VI: 200% Damage for all Spirit Heroes
+Warrior Armor II: 120% HP for all Warrior Heroes
+Warrior Armor III: 140% HP for all Warrior Heroes
+Warrior Might IV: 160% Damage for all Warrior Heroes
+Warrior Might V: 180% Damage for all Warrior Heroes
+
+----- COMBAT ABILITY -----
+10,000 Suns: Increase self ATK by 50% for 2 turns. Charges extremely fast.
+???: Attack all enemies for 200% of ATK
+???: Attack all enemies for 300% of ATK
+???: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns
+Acid Breath: Attack all enemies for 240% of HP for 2 turns
+Acid Sting: Attack all enemies for 220% of HP
+Acidic Puss: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns
+Adrenaline: Attack all enemies for 1200% of REC and Convert 3 Dark Gems into Health Gems
+Altera's Flames: Attack all enemies for 400% of ATK, ignoring Armor
+Altera's Rage: Attack all enemies for 500% of ATK, ignoring Armor
+Animal Rage: Attack all enemies for 500% of ATK
+Aria of Sorrow: Attack all enemies for 220% of HP for 3 turns
+Armor of Dharmir: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns
+Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 10% of ATK
+Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 15% of ATK
+Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 25% of ATK
+Arrow of Love: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 5% of ATK
+Arrow of Lust: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 10% of ATK
+Arrow of Lust: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 25% of ATK
+Arrow of Lust: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 50% of ATK
+Attacker Might II: 120% Damage for all Attacker Heroes
+Attacker Might III: 140% Damage for all Attacker Heroes
+Axe of Dharmir: Attack an enemy for 350% of ATK and Convert 4 Water Gems into Fire Gems
+Backstab: Attack an enemy for 260% of HP and Slow for 2 turns
+Balanced Armor IV: 160% HP for all Balanced Heroes
+Balanced Armor V: 180% HP for all Balanced Heroes
+Balanced Armor VI: 200% HP for all Balanced Heroes
+Balanced Might I: 110% Damage for all Balanced Heroes
+Balanced Might II: 120% Damage for all Balanced Heroes
+Bastard's Resolve: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 Turns
+Bastard's Revenge: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 Turns
+Beastly Fury: Attack all enemies for 600% of ATK
+Black Hole Sun: Transform 10 Gems to Light
+Blades of Shadow: Attack an enemy for 350% of ATK and Upgrade 1 Light Gem
+Blister: Attack all enemies for 300% of ATK and Convert 5 Dark Gems into Light Gems
+Blossom: Attack all enemies for 400% of ATK
+Brambles: Attack all enemies for 180% of HP
+Budding: Attack all enemies for 300% of ATK
+Burning Touch: Attack an enemy for 800% of REC and Heal for 200% of REC
+Cauterize: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
+Celestial Assault: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK
+Celestial Strike: Attack an enemy for 850% of ATK
+Chain Lightning: Attack all enemies for 180% of HP and 600% of REC
+Chant of Coals: Attack all enemies for 300% of ATK
+Chant of Embers: Attack all enemies for 300% of ATK
+Chant of Flames: Attack all enemies for 400% of ATK
+Charge: Attack an enemy for 260% of HP for 2 turns
+Charred Flesh: Attack all enemies for 260% of HP for 3 turns
+Cleansing Inferno: Attack all enemies for 1200% of REC and Convert 3 Fire Gems into Health Gems
+Cloud Walker: Matches after the first match have moderately increased time to make gem matches for 2 turns
+Conditioning: Attack all enemies for 800% of REC and Convert 3 Dark Gems into Health Gems
+Cone of Embers: Attack all enemies for 300% of ATK
+Cone of Flames: Attack all enemies for 400% of ATK
+Cone of Hellfire: Attack all enemies for 500% of ATK
+Conqueror's Stampede: Attack all enemies for 300% of HP and Convert 3 Water Gems into Fire Gems
+Contented Sigh: Attack all enemies for 1000% of REC and Convert 3 Earth Gems into Health Gems
+Corrosive Spray: Attack all enemies for 260% of HP for 5 turns
+Corrupt Blessing IV: 160% REC for all Corrupt Heroes
+Corrupt Blessing V: 180% REC for all Corrupt Heroes
+Corrupt Blessing VI: 200% REC for all Corrupt Heroes
+Corrupt Might IV: 160% Damage for all Corrupt Heroes
+Corrupt Might V: 180% Damage for all Corrupt Heroes
+Corrupt Might VI: 200% Damage for all Corrupt Heroes
+Cosmic Flames: Attack all enemies for 220% of HP and 700% of REC
+Cosmic Judgement: Attack all enemies for 600% of ATK
+Cosmic Protector: Attack all enemies for 440% of HP, ignoring armor
+Creature Armor IV: 160% HP for all Creature Heroes
+Creature Armor V: 180% HP for all Creature Heroes
+Creature Armor VI: 200% HP for all Creature Heroes
+Creature Might IV: 160% Damage for all Creature Heroes
+Creature Might V: 180% Damage for all Creature Heroes
+Creature Might VI: 200% Damage for all Creature Heroes
+Cruel Battle Axe: Attack all enemies for 200% of HP and Convert 3 Water Gems into Fire Gems
+Curse of Famine: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
+Curse of Flames: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
+Curse of Spirit: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
+Cursed Blade: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
+Dagda's Hand: Attack all enemies for 300% of ATK and Convert 4 Fire Gems into Earth Gems
+Damaged Pride: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns
+Dark Breath: Attack all enemies for 240% of HP for 2 turns
+Dark Claw: Attack all enemies for 220% of HP
+Dark Rider: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
+Dark Seduction: Attack an enemy for 600% of ATK and Convert 3 Light Gems into Dark Gems
+Dark Spell: Attack an enemy for 450% of ATK and Convert 3 Light Gems into Dark Gems
+Dawnroot: Attack all enemies for 400% of ATK and Convert 5 Fire Gems into Earth Gems
+Deadeye: Attack an enemy for 350% of ATK, ignoring armor
+Death Storm: Attack all enemies for 260% of HP for 5 turns
+Death Wing: Attack all enemies for 260% of HP for 3 turns
+Death's Herald: Increase all heroes RCV by 50% for 2 turns
+Death: Attack all enemies for 600% of ATK and Heal for 300% of RCV
+Deepmoss Call: Attack all enemies for 250% of ATK and Convert 4 Fire Gems into Earth Gems
+Deepmoss Song: Attack all enemies for 300% of ATK and Convert 5 Fire Gems into Earth Gems
+Defender Armor III: 140% HP for all Defender Heroes
+Defender Armor IV: 160% HP for all Defender Heroes
+Demigod Might IV: 160% Damage for all Demigod Heroes
+Demigod Might V: 180% Damage for all Demigod Heroes
+Demigod Might VI: 200% Damage for all Demigod Heroes
+Demon Blade: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
+Derendel's Charge: Attack an enemy for 400% of ATK and Convert 5 Dark Gems into Light Gems
+Derendel's Favor: Attack an enemy for 350% of ATK and Convert 4 Dark Gems into Light Gems
+Derendel's Shield: Heal for 400% of REC and Team is immune to damage this turn
+Desire's Embrace: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns
+Devil's Bargain: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns
+Dragon Bash: Attack an enemy for 850% of ATK
+Dragon Might IV: 160% Damage for all Dragon Heroes
+Dragon Might V: 180% Damage for all Dragon Heroes
+Dragon Might VI: 200% Damage for all Dragon Heroes
+Drain Blood: Attack an enemy for 260% of HP and Slow for 2 turns
+Drain Life: Heal for 300% of REC and Convert 3 Dark Gems into Heart Gems
+Drain Soul: Attack an enemy for 260% of HP and Slow for 2 turns
+Drink Souls: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
+Earth Embrace: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns
+Earthquake: Attack all enemies for 440% of HP, ignoring armor
+Electric Fang: Attack all enemies for 220% of HP
+Electric Smash: Attack all enemies for 140% of HP and 500% of REC
+Ember Claw: Attack an enemy for 260% of HP for 2 turns
+Embers of Mirscend: Attack an enemy for 350% of ATK, ignoring armor
+Emerald Crush: Attack all enemies for 360% of HP, ignoring armor
+Emerald Fist: Attack all enemies for 280% of HP, ignoring armor
+Empyrean Blast: Upgrades 1 Dark gem into a Power III Gem. Charges extremely fast.
+Empyrean Ember: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK
+Empyrean Fire: Attack all enemies for 180% of HP and 600% of REC
+Empyrean Flames: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK
+Empyrean Roar: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK
+Energy Saber: Attack an enemy for 650% of ATK, ignoring armor
+Expert Quick Draw: Attack an enemy for 350% of ATK, ignoring armor
+Expert Slice: Attack an enemy for 350% of ATK, ignoring armor
+Expert Spread Shot: Attack an enemy for 450% of ATK, ignoring armor
+Farsight: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK
+Fearsome Roar: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
+Final Blaze: Attack all enemies for 400% of ATK and Convert 5 Water Gems into Fire Gems
+Fire Breath: Attack all enemies for 220% of HP
+Fire Spinner: Attack an enemy for 350% of ATK and Upgrade 1 Fire Gem
+Fire Starter: Attack all enemies for 300% of ATK and Convert 5 Water Gems into Fire Gems
+Five Blade Strike: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns
+Flame Bash: Attack an enemy for 350% of ATK, ignoring armor
+Flame Dancer: Attack an enemy for 300% of ATK and Upgrade 1 Fire Gem
+Flame Punch: Attack an enemy for 350% of ATK, ignoring armor
+Flame Tongue: Heal for 400% of REC and Team is immune to damage this turn
+Flames of Absolution: Attack all enemies for 1000% of REC and Convert 3 Fire Gems into Health Gems
+Flames of Dharmir: Attack all enemies for 240% of HP for 2 turns
+Flames of Mirscend: Attack an enemy for 450% of ATK, ignoring armor
+Flames of Rage: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns
+Flaming Battle Axe: Attack all enemies for 260% of HP and Convert 3 Water Gems into Fire Gems
+Flaming Bolt: Attack all enemies for 250% of ATK for 2 turns
+Flaming Dagger: Attack all enemies for 200% of ATK for 2 turns
+Flaming Mace: Attack all enemies for 140% of HP and 500% of REC
+Flaming Stars: Increase self ATK by 25% for 2 turns. Charges extremely fast.
+Flash Bang: Attack an enemy for 350% of ATK and Upgrade 1 Dark Gem
+Flash Powder: Attack an enemy for 300% of ATK and Upgrade 1 Dark Gem
+Flurry of Arrows: Attack an enemy for 350% of ATK, ignoring armor
+Forge of Gods: Attack all Earth enemies for 500% of ATK and Attack an enemy for 500% of ATK
+Fragment Grenade: Attack an enemy for 260% of HP and Slow for 2 turns
+Frighten: Attack all enemies for 300% of ATK
+Frozen Rain: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
+Furor: Attack all enemies for 400% of ATK
+Gaze of the Prophet: Attack an enemy for 850% of ATK
+Giant Armor IV: 160% HP for all Giant Heroes
+Giant Armor V: 180% HP for all Giant Heroes
+Giant Armor VI: 200% HP for all Giant Heroes
+Giant Might IV: 160% Damage for all Giant Heroes
+Giant Might V: 180% Damage for all Giant Heroes
+Giant Might VI: 200% Damage for all Giant Heroes
+God Eater: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
+God-King's Rite: Attack an enemy for 650% of ATK
+Golden Hoof: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 7 turns.
+Golden Voice: Attack all enemies for 160% of HP for 3 turns
+Gore: Attack an enemy for 350% of ATK and Convert 4 Fire Gems into Earth Gems
+Gouging Blades: Attack an enemy for 260% of HP and Slow for 2 turns
+Grand Manipulation: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns
+Guardian Armor II: 120% HP for all Guardian Heroes
+Guardian Armor III: 140% HP for all Guardian Heroes
+Guardian Blessing IV: 160% REC for all Guardian Heroes
+Gungnir's Thirst: Attack all Water enemies for 500% of ATK and Attack an enemy for 500% of ATK
+Hammer of Derend: Attack all enemies for 220% of HP and 700% of REC
+Hand of Derend: Attack all enemies for 400% of ATK
+Haunt: Attack all enemies for 300% of ATK
+Healing Flame: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
+Healing Ooze: Heal for 400% of REC and Team is immune to damage this turn
+Healing Touch: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
+Healthy Cheer: Attack all enemies for 800% of REC and Convert 3 Earth Gems into Health Gems
+Heart of Gold: Attack all enemies for 1200% of REC and Convert 3 Light Gems into Health Gems
+Hidden Strike: Attack an enemy for 260% of HP and Slow for 2 turns
+Hide in Shadows: Heal for 400% of REC and Team is immune to damage this turn
+High King: Attack all enemies for 400% of ATK and Convert 6 Fire Gems into Earth Gems
+High Note: Attack all enemies for 260% of HP for 3 turns
+Horntree: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns
+Human Might II: 120% Damage for all Human Heroes
+Human Might III: 140% Damage for all Human Heroes
+Human Might IV: 160% Damage for all Human Heroes
+Human Might V: 180% Damage for all Human Heroes
+Human Might VI: 200% Damage for all Human Heroes
+Hunger For Vengeance: Attack an enemy for 400% of ATK for 2 turns
+Hunger's Bite: Attack an enemy for 300% of ATK for 2 turns
+Immolation: Attack all enemies for 300% of ATK and Convert 4 Water Gems into Fire Gems
+Immortal Flames: Attack all enemies for 260% of HP for 5 turns
+Impale: Attack an enemy for 400% of ATK and Convert 5 Fire Gems into Earth Gems
+Intimidate: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns
+It's Elementary: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 turns
+Jealous Rage: Attack all enemies for 350% of ATK and 220% of HP for 2 turns
+Joyous Burst: Attack all enemies for 1200% of REC and Convert 3 Earth Gems into Health Gems
+Kindling: Attack all enemies for 250% of ATK and Convert 4 Water Gems into Fire Gems
+King of Blades: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
+King's Blade: Attack an enemy for 650% of ATK, ignoring Armor
+King's Staff: Matches after the first match have massively increased time to make gem matches for 2 turns
+Krismas Cheer: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
+Krismas Cheer: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
+Krismas Joy: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
+Lava Punch: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns
+Lava Wave: Attack all enemies for 240% of HP
+Leech Blood: Heal for 300% of REC and Convert 3 Dark Gems into Heart Gems
+Light Path: Attack an enemy for 500% of ATK, ignoring armor
+Lightning Blast: Attack all enemies for 260% of HP for 3 turns
+Lightning Shock: Attack all enemies for 240% of HP
+Lightning Storm: Attack all enemies for 260% of HP for 5 turns
+Longnight Embrace: Attack all enemies for 300% of ATK and Convert 5 Light Gems into Dark Gems
+Longnight Kiss: Attack all enemies for 250% of ATK and Convert 4 Light Gems into Dark Gems
+Love's Guard: Upgrades 1 Dark gem into a Power I Gem. Charges extremely fast.
+Love's Protector: Upgrades 1 Dark gem into a Power II Gem. Charges extremely fast.
+Lunic Ooze: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns
+Lunic Touch: Attack an enemy for 350% of ATK and Convert 4 Light Gems into Dark Gems
+Mage Might III: 140% Damage for all Mage Heroes
+Mage Might IV: 160% Damage for all Mage Heroes
+Mage Might V: 180% Damage for all Mage Heroes
+Mage Might VI: 200% Damage for all Mage Heroes
+Magma Drinker: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns
+Mane of Flames: Attack an enemy for 380% of HP for 2 turns
+Massive Bolder: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns
+Maul: Attack all enemies for 200% of ATK
+Mephisto's Fire: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 turns
+Mephisto's Hand: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 turns
+Meteoric Assault: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK
+Meteorite Strike: Attack an enemy for 850% of ATK
+Micro Missiles: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
+Micro Missiles: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
+Minera's Blessing: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems
+Minera's Favor: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems
+Minera's Kiss: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems
+Molten Spew: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns
+Molten Tongue: Attack all enemies for 180% of HP
+Molten Touch: Attack all enemies for 180% of HP
+Multi-Staff Strike: Matches after the first match have moderately increased time to make gem matches for 2 turns
+Night Terrors: Attack all enemies for 400% of ATK and Convert 5 Light Gems into Dark Gems
+Night's Cleanse: Attack all enemies for 400% of ATK and Convert 6 Light Gems into Dark Gems
+Onyx Crush: Attack all enemies for 360% of HP, ignoring armor
+Onyx Fist: Attack all enemies for 280% of HP, ignoring armor
+Oozing Bite: Attack an enemy for 320% of HP for 2 turns
+Pangs of Desire: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns
+Path of Ashes: Attack all enemies for 400% of ATK and Convert 6 Water Gems into Fire Gems
+Pendragon's Blade: Attack all enemies for 500% of ATK, ignoring armor
+Pestilence: Attack all enemies for 500% of ATK and Heal for 300% of RCV
+Phantom's Song: Attack an enemy for 700% of ATK and Convert 3 Light Gems into Dark Gems
+Piercing Tail: Attack an enemy for 320% of HP for 2 turns
+Pixie Dust: Attack all enemies for 250% of ATK and 140% of HP for 2 turns
+Pixie Glamour: Attack all enemies for 300% of ATK and 180% of HP for 2 turns
+Plasma Grenade: Attack an enemy for 850% of ATK, Attack self for 500% of REC. Can kill the player.
+Poison Blade: Attack all enemies for 200% of ATK for 2 turns
+Poison Cloud: Attack all enemies for 250%of ATK for 2 turns
+Poison Darts: Attack all enemies for 250% of ATK for 2 turns
+Poison Hoof: Attack an enemy for 380% of HP for 2 turns
+Poison Web: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
+Powder Keg: Attack all enemies for 300% of ATK and Upgrade 1 Fire Gem
+Power Of Deduction: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns
+Power Of Logic: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 turns
+Power of Giving: Attack all enemies for 350% of ATK and 220% of HP for 2 turns
+Pressure Point: Attack an enemy for 650% of ATK
+Prime Beam: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK
+Prismatic Strike: Attack all enemies for 400% of ATK and Convert 5 Dark Gems into Light Gems
+Psadrian Chant: Attack an enemy for 800% of REC and Heal for 200% of REC
+Pumpkin Bomb: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
+Puppet Master: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1600% of REC
+Pure Flame: Attack all enemies for 800% of REC and Convert 3 Fire Gems into Health Gems
+Pure Heart: Attack all enemies for 1000% of REC and Convert 3 Light Gems into Health Gems
+Pure Mind: Attack all enemies for 800% of REC and Convert 3 Light Gems into Health Gems
+Queen's Rite: Attack all Dark enemies for 600% of ATK and Attack an enemy for 600% of ATK
+Radiant Breath: Attack all enemies for 400% of ATK, ignoring armor
+Radiant Fury: Attack all enemies for 500% of ATK, ignoring armor
+Rage of Dharmir: Attack an enemy for 400% of ATK and Convert 5 Water Gems into Fire Gems
+Rage: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns
+Ragnarok: Attack all Water enemies for 600% of ATK and Attack an enemy for 600% of ATK
+Rain Dance: Attack all enemies for 300% of ATK and Upgrade 1 Earth Gem
+Rain Dance: Attack all enemies for 400% of ATK and Upgrade 1 Earth Gem
+Rain of Icicles: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
+Rays of Olympus: Attack all Dark enemies for 500% of ATK and Attack an enemy for 500% of ATK
+Razor Gore: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 3 turns.
+Reap: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns
+Red Dwarf: Reduce all enemy DEF by 75% for 3 turns and Attack an enemy for 900% of ATK
+Rend Flesh: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
+Renewed Vigor: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK
+Repulser Beam: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
+Revenge Feast: Attack an enemy for 450% of ATK for 2 turns
+Righteous Blade: Attack an enemy for 300% of ATK and Upgrade 1 Light Gem
+River of Magma: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK
+Roar: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns
+Rock Armor: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns
+Roots of Deepmoss: Attack an enemy for 650% of ATK
+Rotting Flesh: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns
+Royal Strike: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
+Savior and Destroyer: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
+Scare: Attack all enemies for 300% of ATK
+Scythe of Justice: Attack all enemies for 500% of ATK
+Scythe: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns
+Second Wind: Attack all enemies for 1000% of REC and Convert 3 Dark Gems into Health Gems
+Seven Blade Strike: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns
+Shadow Fang: Attack an enemy for 260% of HP for 2 turns
+Shadow Maul: Attack all enemies for 500% of ATK, ignoring armor
+Shadow Pounce: Attack all enemies for 400% of ATK, ignoring armor
+Shadowlight Arrow: Attack an enemy for 350% of ATK, ignoring armor
+Shadowlight Aura: Attack all enemies for 400% of ATK
+Shadowlight Beam: Attack all enemies for 300% of ATK
+Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns
+Shadowlight Jab: Attack all enemies for 300% of ATK and Upgrade 1 Light Gem
+Shadowlight Lure: Attack all enemies for 250% of ATK for 2 turns
+Shadowlight Ray: Attack all enemies for 300% of ATK
+Shadowlight Smash: Attack all enemies for 600% of ATK
+Shepherd Of Souls: Increase all heroes RCV by 100% for 2 turns
+Shining Stampede: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 5 turns.
+Sight Beyond Sight: Attack an enemy for 850% of ATK
+Siphon Blood: Heal for 300% of REC and Convert 3 Dark Gems into Heart Gems
+Slice: Attack an enemy for 350% of ATK, ignoring armor
+Slithering Maw: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1100% of REC
+Snarl: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns
+Snipe: Attack an enemy for 350% of ATK, ignoring armor
+Soil and Flame: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
+Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK
+Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK
+Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK
+Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK
+Solar Flare: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 700% of ATK
+Soul Blaze: Attack all Light enemies for 500% of ATK and Attack an enemy for 500% of ATK
+Soul Corruption: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1400% of REC
+Soul Drain: Attack an enemy for 800% of REC and Heal for 200% of REC
+Soul Eater: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1600% of REC
+Soul Fire: Attack all enemies for 400% of ATK and Upgrade 1 Dark Gem
+Soul Flare: Attack all enemies for 300% of ATK and Upgrade 1 Dark Gem
+Soul Madness: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1100% of REC
+Soul Sap: Attack an enemy for 800% of REC and Heal for 200% of REC
+Spark Breath: Attack all enemies for 240% of HP for 2 turns
+Spectral Essence: Attack all enemies for 180% of HP
+Spectral Power: Attack all enemies for 180% of HP
+Spirit Armor IV: 160% HP for all Spirit Heroes
+Spirit Armor V: 180% HP for all Spirit Heroes
+Spirit Armor VI: 200% HP for all Spirit Heroes
+Spirit Might IV: 160% Damage for all Spirit Heroes
+Spirit Might V: 180% Damage for all Spirit Heroes
+Spirit Might VI: 200% Damage for all Spirit Heroes
+Spirit of Anger: Attack all enemies for 300% of ATK and 180% of HP for 2 turns
+Spirit of Envy: Attack all enemies for 250% of ATK and 140% of HP for 2 turns
+Spirit of Vengeance: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
+Spread Shot: Attack an enemy for 350% of ATK, ignoring armor
+Sprouting Vines: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK
+Staff of Flames: Attack all enemies for 200% of ATK
+Stampede: Attack an enemy for 320% of HP for 2 turns
+Star Beam: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK
+Star Blood: Transform 5 Gems to Light
+Starblade Strike: Attack all enemies for 300% of ATK and Convert 4 Dark Gems into Light Gems
+Starborn Slash: Attack an enemy for 500% of ATK
+Starborn Slash: Attack an enemy for 650% of ATK
+Starcaller Slash: Attack an enemy for 260% of HP and Slow for 2 turns
+Stardust Balm: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems
+Stardust Blades: Attack all enemies for 400% of ATK and Convert 6 Dark Gems into Light Gems
+Stardust Potion: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems
+Stardust Salve: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems
+Startling Roar: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
+Static Shock: Attack all enemies for 180% of HP
+Steam Charge: Attack an enemy for 750% of ATK, ignoring armor
+Steam Rush: Attack an enemy for 500% of ATK, ignoring armor
+Stone Gaze: Attack all enemies for 500% of ATK, ignoring armor
+Stonefist Jab: Attack an enemy for 300% of ATK and Upgrade 1 Earth Gem
+Stonefist Strike: Attack an enemy for 350% of ATK and Upgrade 1 Earth Gem
+Storm of Arrows: Attack an enemy for 450% of ATK, ignoring armor
+Strike First: Attack an enemy for 750% of ATK, ignoring armor
+Stun Grenade: Attack an enemy for 260% of HP and Slow for 2 turns
+Stunning Gaze: Attack all enemies for 400% of ATK, ignoring armor
+Sunburn: Attack all enemies for 250% of ATK and Convert 4 Dark Gems into Light Gems
+Sword of Derend: Attack all enemies for 500% of ATK
+Sword of Stars: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK
+Sword of the Stone: Attack an enemy for 750% of ATK, ignoring Armor
+Syphon Souls: Attack all Light enemies for 600% of ATK and Attack an enemy for 600% of ATK
+Tail Swipe: Attack an enemy for 450% of ATK, ignoring armor
+Tentacle Swipe: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1400% of REC
+Tesla Coil: Attack an enemy for 650% of ATK, ignoring armor
+The Darkness: Attack all enemies for 300% of ATK and Convert 4 Light Gems into Dark Gems
+Thirst of Desire: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns
+Thorns: Attack all enemies for 240% of HP
+Total Eclipse: Attack an enemy for 380% of HP for 2 turns
+Toxic Blade: Attack all enemies for 200% of ATK for 2 turns
+Toxic Spew: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns
+Toxic Spray: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns
+Traitor King: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 Turns
+Trample: Increase all heroes RCV by 25% for 2 turns
+Tree Trunk Slam: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns
+True Blade: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
+Twirling Hammers: Attack all enemies for 300% of ATK
+Undergrowth: Attack all enemies for 300% of ATK
+Uppercut: Attack all enemies for 400% of ATK and Upgrade 1 Light Gem
+Urspark: Attack all Earth enemies for 600% of ATK and Attack an enemy for 600% of ATK
+Venomous Bite: Attack all enemies for 260% of HP for 3 turns
+Venomous Web: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
+Vicious Bite: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
+Vile Secretion: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns
+Volcanic Armor: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns
+War: Attack all enemies for 400% of ATK and Heal for 300% of RCV
+Warrior Armor II: 120% HP for all Warrior Heroes
+Warrior Armor III: 140% HP for all Warrior Heroes
+Warrior Might IV: 160% Damage for all Warrior Heroes
+Warrior Might V: 180% Damage for all Warrior Heroes
+Water Armor I: 110% HP for all Water Heroes
+Water Armor II: 120% HP for all Water Heroes
+Water Armor III: 140% HP for all Water Heroes
+Water Armor IV: 160% HP for all Water Heroes
+Water Armor V: 180% HP for all Water Heroes
+Water Armor VI: 200% HP for all Water Heroes
+Water Blessing I: 110% REC for all Water Heroes
+Water Blessing II: 120% REC for all Water Heroes
+Water Blessing III: 140% REC for all Water Heroes
+Water Blessing IV: 160% REC for all Water Heroes
+Water Blessing V: 180% REC for all Water Heroes
+Water Blessing VI: 200% REC for all Water Heroes
+Water Might I: 110% Damage for all Water Heroes
+Water Might II: 120% Damage for all Water Heroes
+Water Might III: 140% Damage for all Water Heroes
+Water Might IV: 160% Damage for all Water Heroes
+Water Might V: 180% Damage for all Water Heroes
+Water Might VI: 200% Damage for all Water Heroes
+Whirling Blades: Attack all enemies for 400% of ATK
+Whirling Slash: Attack an enemy for 350% of ATK, ignoring armor
+Whiteout: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
+Wildfire: Attack all enemies for 400% of ATK and Upgrade 1 Fire Gem
+Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
+Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
+Wounded Pride: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns
+Wrath of Dragons: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK
+Wrath of Quarl: Attack all enemies for 600% of ATK
+Zodiac Strike: Increase self ATK by 10% for 2 turns. Charges extremely fast.
+Zodiac Thunder: Transform 7 Gems to Light

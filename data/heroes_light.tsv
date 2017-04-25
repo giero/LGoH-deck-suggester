@@ -1,0 +1,86 @@
+number	affinity	name	stars	power level	class	race	evolve from number	evolve into number	leader ability	combat ability	defender skill	counter skill	Art
+288	light	Aline, The Zealot	*****	15	Balanced	Legend			Light Might V: 180% Damage for all Light Heroes	Sword of Derend: Attack all enemies for 500% of ATK	Might	Unknown	
+238	light	Apocalypse, Ascendant	*****	15	Balanced	God			God Armor V: 180% HP for all God Heroes	Pestilence: Attack all enemies for 500% of ATK and Heal for 300% of RCV	Panic	Dispel Judgment	
+314	light	Chevalier Gallione	*****	15	Balanced	Human			Human Armor V: 180% HP for all Human Heroes	Chain Lightning: Attack all enemies for 180% of HP and 600% of REC	Regen	Cure Poison	
+347	light	Christine, Chori Girl	*****	15	Defender	Human			Defender Armor V: 180% HP for all Defender Heroes	Aria of Sorrow: Attack all enemies for 220% of HP for 3 turns	Drain	Cure Traitor	
+335	light	Excalibur, Savior's Sword	*****	15	Attacker	Spirit			Spirit Armor V: 180% HP for all Spirit Heroes	True Blade: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+380	light	Father Kristof	*****	15	Mage	Demigod			Demigod Might V: 180% Damage for all Demigod Heroes	Krismas Cheer: Attack all enemies for 250% of ATK and 800% of REC for 2 turns	Dodge	Dispel Regen	
+422	light	Guilded Taurus *****	*****	15	Warrior	Creature			Light Armor V: 180% HP for all Light Heroes	Shining Stampede: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 5 turns.	Autoheal	None	
+188	light	Hera The Vengeful	*****	15	Attacker	God			Light Might V: 180% Damage for all Light Heroes	Rays of Olympus: Attack all Dark enemies for 500% of ATK and Attack an enemy for 500% of ATK	Judgement	Cure Zombie	
+371	light	Indale, Zodiac King	*****	15	Attacker	Giant			Spirit Armor V: 180% HP for all Spirit Heroes	Zodiac Thunder: Transform 7 Gems to Light	Drain	Cure Zombie	
+262	light	Pride Ifrit	*****	15	Balanced	Spirit			Spirit Might V: 180% Damage for all Spirit Heroes	Wounded Pride: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+401	light	Sherlock, The Detective	*****	15	Defender	Fable			Light Armor V: 180% HP for all Light Heroes	Power Of Logic: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+232	light	Starblade General	*****	15	Mage	Dren			Mage Might V: 180% Damage for all Mage Heroes	Prismatic Strike: Attack all enemies for 400% of ATK and Convert 5 Dark Gems into Light Gems	Siphon	Dispel Armor	
+174	light	Starhaven Guardian	*****	15	Defender	Giant			Giant Armor V: 180% HP for all Giant Heroes	Seven Blade Strike: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns	Weaken	Cure Poison	
+302	light	Stellaris Prime	*****	15	Mage	God			Dragon Might V: 180% Damage for all Dragon Heroes	Prime Beam: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK	Blind	Dispel Absorb	
+217	light	Thunderback Alpha	*****	15	Guardian	Giant			Giant Armor V: 180% HP for all Giant Heroes	Snarl: Attack an enemy for 280% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+202	light	Tovar, the Grounded	*****	15	Attacker	Demigod			Human Might V: 180% Damage for all Human Heroes	Sight Beyond Sight: Attack an enemy for 850% of ATK	Dodge	Cure Siphon	
+100	light	Vritra	*****	15	Warrior	Dragon			Warrior Might V: 180% Damage for all Warrior Heroes	Radiant Fury: Attack all enemies for 500% of ATK, ignoring armor	Armor	Cure Siphon	
+241	light	Wendolyn, Protector	*****	15	Healer	Human			Light Blessing V: 180% REC for all Light Heroes	Pure Heart: Attack all enemies for 1000% of REC and Convert 3 Light Gems into Health Gems	Absorb	Cleanse II	
+150	light	Yordra	*****	15	Warrior	Dragon			Light Armor V: 180% HP for all Light Heroes	Lightning Blast: Attack all enemies for 260% of HP for 3 turns	Poison	Dispel Drain	
+289	light	Aline, Hand of Fate	******	30	Balanced	Legend			Light Might VI: 200% Damage for all Light Heroes	Shadowlight Smash: Attack all enemies for 600% of ATK	Might	Unknown	
+239	light	Apocalypse, Herald Of Doom	******	30	Balanced	God			God Armor VI: 200% HP for all God Heroes	Death: Attack all enemies for 600% of ATK and Heal for 300% of RCV	Panic	Dispel Judgment	
+263	light	Avatar of Pride	******	30	Balanced	Spirit			Spirit Might VI: 200% Damage for all Spirit Heroes	Grand Manipulation: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+233	light	Carvig Derendson	******	30	Mage	Dren			Mage Might VI: 200% Damage for all Mage Heroes	Stardust Blades: Attack all enemies for 400% of ATK and Convert 6 Dark Gems into Light Gems	Siphon	Dispel Armor	
+348	light	Christine, Star Soprano	******	30	Defender	Human			Defender Armor VI: 200% HP for all Defender Heroes	High Note: Attack all enemies for 260% of HP for 3 turns	Drain	Cure Traitor	
+303	light	Empyrean Stellaris	******	30	Mage	God			Dragon Might VI: 200% Damage for all Dragon Heroes	Sword of Stars: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK	Blind	Dispel Absorb	
+336	light	Excalibur, Blade Of Kings	******	30	Attacker	Spirit			Spirit Armor VI: 200% HP for all Spirit Heroes	King of Blades: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+315	light	Hammer Of Derend	******	30	Balanced	Human			Human Armor VI: 200% HP for all Human Heroes	Hammer of Derend: Attack all enemies for 220% of HP and 700% of REC	Regen	Cure Poison	
+189	light	Hera, Queen Of Gods	******	30	Attacker	God			Light Might VI: 200% Damage for all Light Heroes	Queen's Rite: Attack all Dark enemies for 600% of ATK and Attack an enemy for 600% of ATK	Judgement	Cure Zombie	
+372	light	Indale, The Dark Star	******	30	Attacker	Giant			Spirit Armor VI: 200% HP for all Spirit Heroes	Black Hole Sun: Transform 10 Gems to Light	Drain	Cure Zombie	
+381	light	Kristof and Rufus	******	30	Mage	Demigod			Demigod Might VI: 200% Damage for all Demigod Heroes	Krismas Cheer: Attack all enemies for 300% of ATK and 900% of REC for 2 turns	Dodge	Dispel Regen	
+218	light	Mighty Klabe	******	30	Guardian	Giant			Giant Armor VI: 200% HP for all Giant Heroes	Roar: Attack an enemy for 340% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+402	light	Sherlock Holmes	******	30	Defender	Fable			Light Armor VI: 200% HP for all Light Heroes	It's Elementary: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+203	light	Tovar Farsight	******	30	Attacker	Demigod			Human Might VI: 200% Damage for all Human Heroes	Farsight: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK	Dodge	Cure Siphon	
+423	light	Tur, The Golden Hoof ******	******	30	Warrior	Creature			Light Armor VI: 200% HP for all Light Heroes	Razor Gore: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 3 turns.	Autoheal	None	
+242	light	Wendolyn Songheart	******	30	Healer	Human			Light Blessing VI: 200% REC for all Light Heroes	Heart of Gold: Attack all enemies for 1200% of REC and Convert 3 Light Gems into Health Gems	Absorb	Cleanse III	
+151	light	Yordra The Swift	******	30	Warrior	Dragon			Light Armor VI: 200% HP for all Light Heroes	Lightning Storm: Attack all enemies for 260% of HP for 5 turns	Poison	Dispel Drain	
+33	light	Griffin	****	9	Defender	Creature			Defender Armor IV: 160% HP for all Defender Heroes	Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP	Blind	Dispel Regen	
+42	light	Shadowlight Elite	****	9	Attacker	Dren			Light Armor IV: 160% HP for all Light Heroes	Expert Spread Shot: Attack an enemy for 450% of ATK, ignoring armor	Weaken	Cure Poison	
+99	light	Vritrta Spawn	****	9	Warrior	Dragon			Warrior Might IV: 160% Damage for all Warrior Heroes	Radiant Breath: Attack all enemies for 400% of ATK, ignoring armor	Armor	Cure Siphon	
+102	light	Holy Bird Garuda	****	9	Attacker	Creature			Light Might IV: 160% Damage for all Light Heroes	Derendel's Charge: Attack an enemy for 400% of ATK and Convert 5 Dark Gems into Light Gems	Regen	Cure Zombie	
+103	light	Kinnara	****	9	Guardian	Creature			Guardian Blessing IV: 160% REC for all Guardian Heroes	Derendel's Shield: Heal for 400% of REC and Team is immune to damage this turn	Poison	Cure Weaken	
+149	light	Carmal Dragon	****	9	Warrior	Dragon			Light Armor IV: 160% HP for all Light Heroes	Spark Breath: Attack all enemies for 240% of HP for 2 turns	Poison	Dispel Drain	
+163	light	Shadowlight Bruiser	****	9	Mage	Dren			Mage Might IV: 160% Damage for all Mage Heroes	Uppercut: Attack all enemies for 400% of ATK and Upgrade 1 Light Gem	Zombie	Cure Blind	
+173	light	Starhaven Attendant	****	9	Defender	Giant			Giant Armor IV: 160% HP for all Giant Heroes	Five Blade Strike: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns	Weaken	Cure Poison	
+180	light	Carmal Djinn	****	9	Healer	Spirit			Light Blessing IV: 160% REC for all Light Heroes	Soul Drain: Attack an enemy for 800% of REC and Heal for 200% of REC	Siphon	Unknown	
+201	light	Tovar, the Wingless	****	9	Attacker	Demigod			Human Might IV: 160% Damage for all Human Heroes	Pressure Point: Attack an enemy for 650% of ATK	Dodge	Cure Siphon	
+216	light	Carmal Thunderback	****	9	Guardian	Giant			Giant Armor IV: 160% HP for all Giant Heroes	Intimidate: Attack an enemy for 220% of HP and Defend 40% of all damage for 2 turns	Armor	Cure Vessel	
+231	light	Starblade Champion	****	9	Mage	Dren			Mage Might IV: 160% Damage for all Mage Heroes	Starblade Strike: Attack all enemies for 300% of ATK and Convert 4 Dark Gems into Light Gems	Siphon	Dispel Armor	
+237	light	Apocalypse, Arisen	****	9	Balanced	God			God Armor IV: 160% HP for all God Heroes	War: Attack all enemies for 400% of ATK and Heal for 300% of RCV	Panic	Dispel Judgment	
+240	light	Wendolyn, Youngling	****	9	Healer	Human			Light Blessing IV: 160% REC for all Light Heroes	Pure Mind: Attack all enemies for 800% of REC and Convert 3 Light Gems into Health Gems	Absorb	Cleanse I	
+261	light	Pride Spirit	****	9	Balanced	Spirit			Spirit Might IV: 160% Damage for all Spirit Heroes	Damaged Pride: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns	Drain	Dispel Dodge	
+287	light	Aline, The Tactician	****	9	Balanced	Legend			Light Might IV: 160% Damage for all Light Heroes	Hand of Derend: Attack all enemies for 400% of ATK	Might	Unknown	
+301	light	Stellaris	****	9	Mage	God			Dragon Might IV: 160% Damage for all Dragon Heroes	Star Beam: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK	Blind	Dispel Absorb	
+313	light	Squire Gallione	****	9	Balanced	Human			Human Armor IV: 160% HP for all Human Heroes	Electric Smash: Attack all enemies for 140% of HP and 500% of REC	Regen	Cure Poison	
+334	light	Excalibur	****	9	Attacker	Spirit			Spirit Armor IV: 160% HP for all Spirit Heroes	Royal Strike: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.	Vessel	Cure Weaken	
+346	light	Christine, The Lost	****	9	Defender	Human			Defender Armor IV: 160% HP for all Defender Heroes	Golden Voice: Attack all enemies for 160% of HP for 3 turns	Drain	Cure Traitor	
+379	light	Kristof, Joy Bringer	****	9	Mage	Demigod			Demigod Might IV: 160% Damage for all Demigod Heroes	Krismas Joy: Attack all enemies for 200% of ATK and 600% of REC for 2 turns	Dodge	Dispel Regen	
+400	light	Sherlock, The Deductive	****	9	Defender	Fable			Light Armor IV: 160% HP for all Light Heroes	Power Of Deduction: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns	Weaken	Cure Traitor	
+370	light	Indale, Star Eater	****	9	Attacker	Giant			Spirit Armor IV: 160% HP for all Spirit Heroes	Star Blood: Transform 5 Gems to Light	Drain	Cure Zombie	
+421	light	Shining Bull ****	****	9	Warrior	Creature			Light Armor IV: 160% HP for all Light Heroes	Golden Hoof: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 7 turns.	Autoheal	None	
+32	light	Griffin Pup	***	6	Defender	Creature			Defender Armor III: 140% HP for all Defender Heroes	Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP	Blind	Dispel Regen	
+38	light	Starhaven Priestess	***	6	Healer	Dren			Light Blessing III: 140% REC for all Light Heroes	Stardust Potion: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems	Regen	Cure Poison	
+41	light	Shadowlight Captain	***	6	Attacker	Dren			Light Armor III: 140% HP for all Light Heroes	Expert Quick Draw: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Cure Poison	
+66	light	Starhaven Envoy	***	6	Warrior	Dren			Warrior Armor III: 140% HP for all Warrior Heroes	Backstab: Attack an enemy for 260% of HP and Slow for 2 turns	Might	Dispel Dodge	
+86	light	Starblade Protector	***	6	Attacker	Dren			Human Might III: 140% Damage for all Human Heroes	Blister: Attack all enemies for 300% of ATK and Convert 5 Dark Gems into Light Gems	Poison	Cure Zombie	
+101	light	Garuda	***	6	Attacker	Creature			Light Might III: 140% Damage for all Light Heroes	Derendel's Favor: Attack an enemy for 350% of ATK and Convert 4 Dark Gems into Light Gems	Regen	Cure Zombie	
+118	light	Shadowlight Kinetic	***	6	Mage	Dren			Light Might III: 140% Damage for all Light Heroes	Shadowlight Aura: Attack all enemies for 400% of ATK	Drain	Dispel Armor	
+129	light	Shadowlight Vanguard	***	6	Balanced	Dren			Attacker Might III: 140% Damage for all Attacker Heroes	Blades of Shadow: Attack an enemy for 350% of ATK and Upgrade 1 Light Gem	Dodge	Cure Siphon	
+133	light	Carmal Demon	***	6	Guardian	Spirit			Guardian Armor III: 140% HP for all Guardian Heroes	Lightning Shock: Attack all enemies for 240% of HP	Armor	Cure Weaken	
+148	light	Carmal Dragonling	***	6	Warrior	Dragon			Light Armor III: 140% HP for all Light Heroes	Electric Fang: Attack all enemies for 220% of HP	Poison	Dispel Drain	
+162	light	Shadowlight Brawler	***	6	Mage	Dren			Mage Might III: 140% Damage for all Mage Heroes	Shadowlight Jab: Attack all enemies for 300% of ATK and Upgrade 1 Light Gem	Zombie	Cure Blind	
+286	light	???	***	6	Balanced	Legend			Light Might III: 140% Damage for all Light Heroes	???: Attack all enemies for 300% of ATK	Might	Unknown	
+35	light	Shadowlight Herald	**	4	Balanced	Dren			Balanced Might II: 120% Damage for all Balanced Heroes	Shadowlight Lure: Attack all enemies for 250% of ATK for 2 turns	Poison	Dispel Dodge	
+37	light	Starhaven Sister	**	4	Healer	Dren			Light Blessing II: 120% REC for all Light Heroes	Stardust Balm: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems	Regen	Cure Poison	
+40	light	Shadowlight Valkyrie	**	4	Attacker	Dren			Light Armor II: 120% HP for all Light Heroes	Spread Shot: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Cure Poison	
+65	light	Starhaven Servant	**	4	Warrior	Dren			Warrior Armor II: 120% HP for all Warrior Heroes	Hidden Strike: Attack an enemy for 260% of HP and Slow for 2 turns	Might	Dispel Dodge	
+85	light	Starblade Defender	**	4	Attacker	Dren			Human Might II: 120% Damage for all Human Heroes	Sunburn: Attack all enemies for 250% of ATK and Convert 4 Dark Gems into Light Gems	Poison	Cure Zombie	
+117	light	Shadowlight Psionic	**	4	Mage	Dren			Light Might II: 120% Damage for all Light Heroes	Shadowlight Beam: Attack all enemies for 300% of ATK	Drain	Dispel Armor	
+128	light	Shadowlight Guard	**	4	Balanced	Dren			Attacker Might II: 120% Damage for all Attacker Heroes	Righteous Blade: Attack an enemy for 300% of ATK and Upgrade 1 Light Gem	Dodge	Cure Siphon	
+132	light	Carmal Fiend	**	4	Guardian	Spirit			Guardian Armor II: 120% HP for all Guardian Heroes	Static Shock: Attack all enemies for 180% of HP	Armor	Cure Weaken	
+285	light	???	**	4	Balanced	Legend			Light Might II: 120% Damage for all Light Heroes	???: Attack all enemies for 200% of ATK	Might	Unknown	
+34	light	Shadowlight Pilgrim	*	2	Balanced	Dren			Balanced Might I: 110% Damage for all Balanced Heroes	Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns	Poison	Unknown	
+36	light	Starhaven Acolyte	*	2	Healer	Dren			Light Blessing I: 110% REC for all Light Heroes	Stardust Salve: Heal for 300% of REC and Convert 3 Light Gems into Heart Gems	Regen	Unknown	
+39	light	Shadowlight Recruit	*	2	Attacker	Dren			Light Armor I: 110% HP for all Light Heroes	Shadowlight Arrow: Attack an enemy for 350% of ATK, ignoring armor	Weaken	Unknown	
+116	light	Shadowlight Psychic	*	2	Mage	Dren			Light Might I: 110% Damage for all Light Heroes	Shadowlight Ray: Attack all enemies for 300% of ATK	Drain	Unknown	
