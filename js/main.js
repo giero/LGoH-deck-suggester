@@ -1,5 +1,8 @@
 var teamHeroes = new Team();
 var allHeroes = new Team();
+var staredName = function (name, rarity) {
+    return name + "&nbsp;" + "<span style='color: #FFB404;' class='glyphicon glyphicon-star'></span>".repeat(rarity);
+};
 
 Number.prototype.format = function (n, x) {
     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
@@ -26,6 +29,16 @@ function getHeroesTableComponent(team) {
                     return hero.name.toLowerCase().indexOf(self.searchKey.toLowerCase()) !== -1;
                 });
             }
+        },
+        methods: {
+            removeHeroFromList: function (e) {
+                if (e.target.dataset.hasOwnProperty('heroId')) {
+                    team.removeHero(e.target.dataset.heroId);
+                }
+            }
+        },
+        filters: {
+            staredName: staredName
         }
     }
 }
@@ -129,7 +142,7 @@ Vue.component('team-adding-form', {
             });
 
             teamHeroes.addHero(
-                $.extend({}, allHeroes.heroes[formParams.id], formParams)
+                $.extend({}, allHeroes.find(formParams.id), formParams, {id: teamHeroes.heroes.length})
             );
 
             $form[0].reset();
@@ -145,6 +158,7 @@ Vue.component('team-adding-form', {
                     {},
                     allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
                     {
+                        id: teamHeroes.heroes.length,
                         attack: Math.floor(Math.random() * 1200) + 100,
                         recovery: Math.floor(Math.random() * 900) + 100,
                         health: Math.floor(Math.random() * 2400) + 100
@@ -153,6 +167,9 @@ Vue.component('team-adding-form', {
                 teamHeroes.addHero(hero);
             }
         }
+    },
+    filters: {
+        staredName: staredName
     }
 });
 
@@ -223,6 +240,9 @@ Vue.component('computed-decks', {
             e.preventDefault();
             $(this).tab('show');
         });
+    },
+    filters: {
+        staredName: staredName
     }
 });
 

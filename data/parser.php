@@ -38,7 +38,7 @@ function csvToArray($filename = '', $delimiter = ',')
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
 
-        if (!preg_match('/([\w ]+): (\d+)% (\w+) for all (\w+( \w+)*) Heroes/',
+        if (!preg_match('/([\w ]+): ((\d+)% (\w+) for all (\w+( \w+)*) Heroes)/',
             $row['leader ability'],
             $leaderAbilityMatches)
         ) {
@@ -67,13 +67,14 @@ function csvToArray($filename = '', $delimiter = ',')
             'leaderAbility' => [
                 'fullName' => $row['leader ability'],
                 'name' => $leaderAbilityMatches[1],
-                'value' => $leaderAbilityMatches[2],
-                'stat' => $leaderAbilityMatches[3],
-                'target' => strpos(' ', $leaderAbilityMatches[4]) !== false
+                'description' => $leaderAbilityMatches[2],
+                'value' => $leaderAbilityMatches[3],
+                'stat' => $leaderAbilityMatches[4],
+                'target' => strpos(' ', $leaderAbilityMatches[5]) !== false
                     ? array_map(function ($target) {
                         return ucfirst($target);
-                    }, explode(' ', $leaderAbilityMatches[4]))
-                    : ucfirst($leaderAbilityMatches[4]),
+                    }, explode(' ', $leaderAbilityMatches[5]))
+                    : ucfirst($leaderAbilityMatches[5]),
             ],
             'evolveFrom' => '',
             'evolveTo' => '',
