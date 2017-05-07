@@ -1,5 +1,8 @@
 var teamHeroes = new Team();
 var allHeroes = new Team();
+var staredName = function (name, rarity) {
+    return name + "&nbsp;" + "<span style='color: #FFB404;' class='glyphicon glyphicon-star'></span>".repeat(rarity);
+};
 
 Number.prototype.format = function (n, x) {
     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
@@ -26,6 +29,16 @@ function getHeroesTableComponent(team) {
                     return hero.name.toLowerCase().indexOf(self.searchKey.toLowerCase()) !== -1;
                 });
             }
+        },
+        methods: {
+            removeHeroFromList: function (e) {
+                if (e.target.dataset.hasOwnProperty('heroId')) {
+                    team.removeHero(e.target.dataset.heroId);
+                }
+            }
+        },
+        filters: {
+            staredName: staredName
         }
     }
 }
@@ -129,7 +142,7 @@ Vue.component('team-adding-form', {
             });
 
             teamHeroes.addHero(
-                $.extend({}, allHeroes.heroes[formParams.id], formParams)
+                $.extend({}, allHeroes.find(formParams.id), formParams, {id: teamHeroes.heroes.length})
             );
 
             $form[0].reset();
@@ -145,23 +158,43 @@ Vue.component('team-adding-form', {
                     {},
                     allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
                     {
+                        id: teamHeroes.heroes.length,
                         attack: Math.floor(Math.random() * 1200) + 100,
-                        recovery:Math.floor(Math.random() * 900) + 100,
+                        recovery: Math.floor(Math.random() * 900) + 100,
                         health: Math.floor(Math.random() * 2400) + 100
                     }
                 );
                 teamHeroes.addHero(hero);
             }
         }
+    },
+    mounted: function () {
+        var self = this;
+
+        // fill by default hero stats values
+        $('#team-adding').find('select').on('hidden.bs.select', function (e) {
+            var heroId = $(this).find('option:selected').val();
+            var hero = self.allHeroes.find(heroId);
+
+            for (var stat in {'attack': null, 'recovery': null, 'health': null}) {
+                $('#team-hero-' + stat).val(hero[stat]);
+            }
+        });
+    },
+    filters: {
+        staredName: staredName
     }
 });
 
-new Vue({
-    el: '#app',
-    data: {
-        teamHeroes: teamHeroes,
-        bestDecks: {},
-        progress: -1
+Vue.component('computed-decks', {
+    template: '#computed-decks',
+    data: function () {
+        return {
+            teamHeroes: teamHeroes,
+            bestDecks: {},
+            progress: -1,
+            worker: undefined
+        }
     },
     computed: {
         possibilities: function () {
@@ -170,29 +203,49 @@ new Vue({
         },
         deckWorker: function () {
             var self = this;
-            var deckWorker = new Worker('js/deck_worker.js');
 
-            deckWorker.onmessage = function(e) {
+            if (this.worker instanceof Worker) {
+                this.worker.terminate();
+                this.worker = undefined;
+            }
+
+            this.worker = new Worker('js/deck_worker.js');
+
+            this.worker.onmessage = function (e) {
                 var data = JSON.parse(e.data);
                 if (data.hasOwnProperty('progress')) {
                     self.progress = data.progress;
-                } else if (data.hasOwnProperty('Fire')){
+                } else if (data.hasOwnProperty('Fire')) {
                     self.bestDecks = data;
+                    self.stopCalculations();
                 } else {
                     console.log('error?', e.data);
                 }
             };
 
-            return deckWorker;
+            return this.worker;
         }
     },
-    updated: function() {
+    updated: function () {
         $('[data-toggle="popover"]').popover();
     },
     methods: {
-        calculateDecks: function () {
+        calculateDecks: function (e) {
+            $('#calculate-decks').hide();
+            $('#stop-calculations').show();
+
             this.bestDecks = {};
             this.deckWorker.postMessage(this.teamHeroes.getHeroes());
+        },
+        stopCalculations: function () {
+            $('#calculate-decks').show();
+            $('#stop-calculations').hide();
+
+            if (this.worker instanceof Worker) {
+                this.worker.terminate();
+                this.worker = undefined;
+                this.progress = -1;
+            }
         }
     },
     mounted: function () {
@@ -200,5 +253,15 @@ new Vue({
             e.preventDefault();
             $(this).tab('show');
         });
+    },
+    filters: {
+        staredName: staredName
+    }
+});
+
+new Vue({
+    el: '#app',
+    data: {
+        teamHeroes: teamHeroes
     }
 });

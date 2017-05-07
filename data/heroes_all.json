@@ -15,6 +15,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor I: 110% HP for all Dark Heroes",
             "name": "Dark Armor I",
+            "description": "110% HP for all Dark Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Dark"
@@ -38,6 +39,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor II: 120% HP for all Dark Heroes",
             "name": "Dark Armor II",
+            "description": "120% HP for all Dark Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Dark"
@@ -61,6 +63,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor III: 140% HP for all Dark Heroes",
             "name": "Dark Armor III",
+            "description": "140% HP for all Dark Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Dark"
@@ -84,6 +87,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor IV: 160% HP for all Dark Heroes",
             "name": "Dark Armor IV",
+            "description": "160% HP for all Dark Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Dark"
@@ -107,6 +111,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing I: 110% REC for all Dark Heroes",
             "name": "Dark Blessing I",
+            "description": "110% REC for all Dark Heroes",
             "value": "110",
             "stat": "REC",
             "target": "Dark"
@@ -130,6 +135,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing II: 120% REC for all Dark Heroes",
             "name": "Dark Blessing II",
+            "description": "120% REC for all Dark Heroes",
             "value": "120",
             "stat": "REC",
             "target": "Dark"
@@ -153,6 +159,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing III: 140% REC for all Dark Heroes",
             "name": "Dark Blessing III",
+            "description": "140% REC for all Dark Heroes",
             "value": "140",
             "stat": "REC",
             "target": "Dark"
@@ -176,6 +183,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might II: 120% Damage for all Attacker Heroes",
             "name": "Attacker Might II",
+            "description": "120% Damage for all Attacker Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Attacker"
@@ -199,6 +207,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might III: 140% Damage for all Attacker Heroes",
             "name": "Attacker Might III",
+            "description": "140% Damage for all Attacker Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Attacker"
@@ -222,6 +231,7 @@
         "leaderAbility": {
             "fullName": "Dark Might I: 110% Damage for all Dark Heroes",
             "name": "Dark Might I",
+            "description": "110% Damage for all Dark Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Dark"
@@ -245,6 +255,7 @@
         "leaderAbility": {
             "fullName": "Dark Might II: 120% Damage for all Dark Heroes",
             "name": "Dark Might II",
+            "description": "120% Damage for all Dark Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Dark"
@@ -268,6 +279,7 @@
         "leaderAbility": {
             "fullName": "Dark Might III: 140% Damage for all Dark Heroes",
             "name": "Dark Might III",
+            "description": "140% Damage for all Dark Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Dark"
@@ -291,6 +303,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor II: 120% HP for all Guardian Heroes",
             "name": "Guardian Armor II",
+            "description": "120% HP for all Guardian Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Guardian"
@@ -314,6 +327,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor III: 140% HP for all Guardian Heroes",
             "name": "Guardian Armor III",
+            "description": "140% HP for all Guardian Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Guardian"
@@ -337,6 +351,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor III: 140% HP for all Defender Heroes",
             "name": "Defender Armor III",
+            "description": "140% HP for all Defender Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Defender"
@@ -360,6 +375,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -383,6 +399,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -406,6 +423,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -429,6 +447,7 @@
         "leaderAbility": {
             "fullName": "Dark Might III: 140% Damage for all Dark Heroes",
             "name": "Dark Might III",
+            "description": "140% Damage for all Dark Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Dark"
@@ -452,6 +471,7 @@
         "leaderAbility": {
             "fullName": "Dark Might IV: 160% Damage for all Dark Heroes",
             "name": "Dark Might IV",
+            "description": "160% Damage for all Dark Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dark"
@@ -475,6 +495,7 @@
         "leaderAbility": {
             "fullName": "Guardian Blessing IV: 160% REC for all Guardian Heroes",
             "name": "Guardian Blessing IV",
+            "description": "160% REC for all Guardian Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Guardian"
@@ -498,6 +519,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -521,6 +543,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing V: 180% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing V",
+            "description": "180% REC for all Corrupt Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Corrupt"
@@ -544,6 +567,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might IV: 160% Damage for all Warrior Heroes",
             "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Warrior"
@@ -567,6 +591,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing VI: 200% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing VI",
+            "description": "200% REC for all Corrupt Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Corrupt"
@@ -590,6 +615,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might I: 110% Damage for all Balanced Heroes",
             "name": "Balanced Might I",
+            "description": "110% Damage for all Balanced Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Balanced"
@@ -613,6 +639,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might II: 120% Damage for all Balanced Heroes",
             "name": "Balanced Might II",
+            "description": "120% Damage for all Balanced Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Balanced"
@@ -636,6 +663,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor II: 120% HP for all Warrior Heroes",
             "name": "Warrior Armor II",
+            "description": "120% HP for all Warrior Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Warrior"
@@ -659,6 +687,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor III: 140% HP for all Warrior Heroes",
             "name": "Warrior Armor III",
+            "description": "140% HP for all Warrior Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Warrior"
@@ -682,6 +711,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor III: 140% HP for all Dark Heroes",
             "name": "Dark Armor III",
+            "description": "140% HP for all Dark Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Dark"
@@ -705,6 +735,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor IV: 160% HP for all Dark Heroes",
             "name": "Dark Armor IV",
+            "description": "160% HP for all Dark Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Dark"
@@ -728,6 +759,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might V: 180% Damage for all Corrupt Heroes",
             "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Corrupt"
@@ -751,6 +783,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might VI: 200% Damage for all Corrupt Heroes",
             "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Corrupt"
@@ -774,6 +807,7 @@
         "leaderAbility": {
             "fullName": "Mage Might III: 140% Damage for all Mage Heroes",
             "name": "Mage Might III",
+            "description": "140% Damage for all Mage Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Mage"
@@ -797,6 +831,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -820,6 +855,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing IV: 160% REC for all Dark Heroes",
             "name": "Dark Blessing IV",
+            "description": "160% REC for all Dark Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Dark"
@@ -843,6 +879,7 @@
         "leaderAbility": {
             "fullName": "Creature Might V: 180% Damage for all Creature Heroes",
             "name": "Creature Might V",
+            "description": "180% Damage for all Creature Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Creature"
@@ -866,6 +903,7 @@
         "leaderAbility": {
             "fullName": "Creature Might VI: 200% Damage for all Creature Heroes",
             "name": "Creature Might VI",
+            "description": "200% Damage for all Creature Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Creature"
@@ -889,6 +927,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -912,6 +951,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor V: 180% HP for all Dark Heroes",
             "name": "Dark Armor V",
+            "description": "180% HP for all Dark Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Dark"
@@ -935,6 +975,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor V: 180% HP for all Dark Heroes",
             "name": "Dark Armor V",
+            "description": "180% HP for all Dark Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Dark"
@@ -958,6 +999,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -981,6 +1023,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor VI: 200% HP for all Dark Heroes",
             "name": "Dark Armor VI",
+            "description": "200% HP for all Dark Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Dark"
@@ -1004,6 +1047,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor VI: 200% HP for all Dark Heroes",
             "name": "Dark Armor VI",
+            "description": "200% HP for all Dark Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Dark"
@@ -1027,6 +1071,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -1050,6 +1095,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing V: 180% REC for all Dark Heroes",
             "name": "Dark Blessing V",
+            "description": "180% REC for all Dark Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Dark"
@@ -1073,6 +1119,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing VI: 200% REC for all Dark Heroes",
             "name": "Dark Blessing VI",
+            "description": "200% REC for all Dark Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Dark"
@@ -1096,6 +1143,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might IV: 160% Damage for all Spirit Heroes",
             "name": "Spirit Might IV",
+            "description": "160% Damage for all Spirit Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Spirit"
@@ -1123,6 +1171,7 @@
         "leaderAbility": {
             "fullName": "Dark Might V: 180% Damage for all Dark Heroes",
             "name": "Dark Might V",
+            "description": "180% Damage for all Dark Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dark"
@@ -1146,6 +1195,7 @@
         "leaderAbility": {
             "fullName": "Dark Might V: 180% Damage for all Dark Heroes",
             "name": "Dark Might V",
+            "description": "180% Damage for all Dark Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dark"
@@ -1169,6 +1219,7 @@
         "leaderAbility": {
             "fullName": "Dark Blessing IV: 160% REC for all Dark Heroes",
             "name": "Dark Blessing IV",
+            "description": "160% REC for all Dark Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Dark"
@@ -1192,6 +1243,7 @@
         "leaderAbility": {
             "fullName": "Dark Might VI: 200% Damage for all Dark Heroes",
             "name": "Dark Might VI",
+            "description": "200% Damage for all Dark Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dark"
@@ -1219,6 +1271,7 @@
         "leaderAbility": {
             "fullName": "Dark Might VI: 200% Damage for all Dark Heroes",
             "name": "Dark Might VI",
+            "description": "200% Damage for all Dark Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dark"
@@ -1242,6 +1295,7 @@
         "leaderAbility": {
             "fullName": "Dark Might II: 120% Damage for all Dark Heroes",
             "name": "Dark Might II",
+            "description": "120% Damage for all Dark Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Dark"
@@ -1265,6 +1319,7 @@
         "leaderAbility": {
             "fullName": "Dark Might III: 140% Damage for all Dark Heroes",
             "name": "Dark Might III",
+            "description": "140% Damage for all Dark Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Dark"
@@ -1292,6 +1347,7 @@
         "leaderAbility": {
             "fullName": "Dark Might IV: 160% Damage for all Dark Heroes",
             "name": "Dark Might IV",
+            "description": "160% Damage for all Dark Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dark"
@@ -1315,6 +1371,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might V: 180% Damage for all Demigod Heroes",
             "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Demigod"
@@ -1338,6 +1395,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might V: 180% Damage for all Demigod Heroes",
             "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Demigod"
@@ -1361,6 +1419,7 @@
         "leaderAbility": {
             "fullName": "Creature Might IV: 160% Damage for all Creature Heroes",
             "name": "Creature Might IV",
+            "description": "160% Damage for all Creature Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Creature"
@@ -1384,6 +1443,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might VI: 200% Damage for all Demigod Heroes",
             "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Demigod"
@@ -1407,6 +1467,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might VI: 200% Damage for all Demigod Heroes",
             "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Demigod"
@@ -1430,6 +1491,7 @@
         "leaderAbility": {
             "fullName": "Giant Might IV: 160% Damage for all Giant Heroes",
             "name": "Giant Might IV",
+            "description": "160% Damage for all Giant Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Giant"
@@ -1453,6 +1515,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -1476,6 +1539,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -1499,6 +1563,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing IV: 160% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing IV",
+            "description": "160% REC for all Corrupt Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Corrupt"
@@ -1522,6 +1587,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor VI: 200% HP for all Giant Heroes",
             "name": "Giant Armor VI",
+            "description": "200% HP for all Giant Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Giant"
@@ -1545,6 +1611,7 @@
         "leaderAbility": {
             "fullName": "Giant Might V: 180% Damage for all Giant Heroes",
             "name": "Giant Might V",
+            "description": "180% Damage for all Giant Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Giant"
@@ -1568,6 +1635,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might IV: 160% Damage for all Corrupt Heroes",
             "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Corrupt"
@@ -1591,6 +1659,7 @@
         "leaderAbility": {
             "fullName": "Giant Might VI: 200% Damage for all Giant Heroes",
             "name": "Giant Might VI",
+            "description": "200% Damage for all Giant Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Giant"
@@ -1614,6 +1683,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -1637,6 +1707,7 @@
         "leaderAbility": {
             "fullName": "Human Might I: 110% Damage for all Human Heroes",
             "name": "Human Might I",
+            "description": "110% Damage for all Human Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Human"
@@ -1660,6 +1731,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -1683,6 +1755,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -1706,6 +1779,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -1729,6 +1803,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -1752,6 +1827,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -1775,6 +1851,7 @@
         "leaderAbility": {
             "fullName": "Power of Love I: 175% Damage for all God Heroes",
             "name": "Power of Love I",
+            "description": "175% Damage for all God Heroes",
             "value": "175",
             "stat": "Damage",
             "target": "God"
@@ -1798,6 +1875,7 @@
         "leaderAbility": {
             "fullName": "Power of Love II: 200% Damage for all God Heroes",
             "name": "Power of Love II",
+            "description": "200% Damage for all God Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "God"
@@ -1821,6 +1899,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -1844,6 +1923,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might IV: 160% Damage for all Demigod Heroes",
             "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Demigod"
@@ -1867,6 +1947,7 @@
         "leaderAbility": {
             "fullName": "Mage Might V: 180% Damage for all Mage Heroes",
             "name": "Mage Might V",
+            "description": "180% Damage for all Mage Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Mage"
@@ -1890,6 +1971,7 @@
         "leaderAbility": {
             "fullName": "Mage Might VI: 200% Damage for all Mage Heroes",
             "name": "Mage Might VI",
+            "description": "200% Damage for all Mage Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Mage"
@@ -1913,6 +1995,7 @@
         "leaderAbility": {
             "fullName": "Power of Love III: 225% Damage for all God Heroes",
             "name": "Power of Love III",
+            "description": "225% Damage for all God Heroes",
             "value": "225",
             "stat": "Damage",
             "target": "God"
@@ -1936,6 +2019,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might IV: 160% Damage for all Demigod Heroes",
             "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Demigod"
@@ -1959,6 +2043,7 @@
         "leaderAbility": {
             "fullName": "Power of Love IV: 300% Damage for all God Heroes",
             "name": "Power of Love IV",
+            "description": "300% Damage for all God Heroes",
             "value": "300",
             "stat": "Damage",
             "target": "God"
@@ -1982,6 +2067,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might V: 180% Damage for all Spirit Heroes",
             "name": "Spirit Might V",
+            "description": "180% Damage for all Spirit Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Spirit"
@@ -2005,6 +2091,7 @@
         "leaderAbility": {
             "fullName": "Dark Armor IV: 160% HP for all Dark Heroes",
             "name": "Dark Armor IV",
+            "description": "160% HP for all Dark Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Dark"
@@ -2028,6 +2115,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might VI: 200% Damage for all Spirit Heroes",
             "name": "Spirit Might VI",
+            "description": "200% Damage for all Spirit Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Spirit"
@@ -2051,6 +2139,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might V: 180% Damage for all Warrior Heroes",
             "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Warrior"
@@ -2078,6 +2167,7 @@
         "leaderAbility": {
             "fullName": "Light Might V: 180% Damage for all Light Heroes",
             "name": "Light Might V",
+            "description": "180% Damage for all Light Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Light"
@@ -2101,6 +2191,7 @@
         "leaderAbility": {
             "fullName": "God Armor V: 180% HP for all God Heroes",
             "name": "God Armor V",
+            "description": "180% HP for all God Heroes",
             "value": "180",
             "stat": "HP",
             "target": "God"
@@ -2124,6 +2215,7 @@
         "leaderAbility": {
             "fullName": "Human Armor V: 180% HP for all Human Heroes",
             "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Human"
@@ -2147,6 +2239,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor V: 180% HP for all Defender Heroes",
             "name": "Defender Armor V",
+            "description": "180% HP for all Defender Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Defender"
@@ -2170,6 +2263,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -2193,6 +2287,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might V: 180% Damage for all Demigod Heroes",
             "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Demigod"
@@ -2216,6 +2311,7 @@
         "leaderAbility": {
             "fullName": "Light Armor V: 180% HP for all Light Heroes",
             "name": "Light Armor V",
+            "description": "180% HP for all Light Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Light"
@@ -2239,6 +2335,7 @@
         "leaderAbility": {
             "fullName": "Light Might V: 180% Damage for all Light Heroes",
             "name": "Light Might V",
+            "description": "180% Damage for all Light Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Light"
@@ -2262,6 +2359,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -2285,6 +2383,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might V: 180% Damage for all Spirit Heroes",
             "name": "Spirit Might V",
+            "description": "180% Damage for all Spirit Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Spirit"
@@ -2308,6 +2407,7 @@
         "leaderAbility": {
             "fullName": "Light Armor V: 180% HP for all Light Heroes",
             "name": "Light Armor V",
+            "description": "180% HP for all Light Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Light"
@@ -2331,6 +2431,7 @@
         "leaderAbility": {
             "fullName": "Mage Might V: 180% Damage for all Mage Heroes",
             "name": "Mage Might V",
+            "description": "180% Damage for all Mage Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Mage"
@@ -2354,6 +2455,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -2377,6 +2479,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might V: 180% Damage for all Dragon Heroes",
             "name": "Dragon Might V",
+            "description": "180% Damage for all Dragon Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dragon"
@@ -2400,6 +2503,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -2423,6 +2527,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -2446,6 +2551,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might V: 180% Damage for all Warrior Heroes",
             "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Warrior"
@@ -2469,6 +2575,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing V: 180% REC for all Light Heroes",
             "name": "Light Blessing V",
+            "description": "180% REC for all Light Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Light"
@@ -2492,6 +2599,7 @@
         "leaderAbility": {
             "fullName": "Light Armor V: 180% HP for all Light Heroes",
             "name": "Light Armor V",
+            "description": "180% HP for all Light Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Light"
@@ -2519,6 +2627,7 @@
         "leaderAbility": {
             "fullName": "Light Might VI: 200% Damage for all Light Heroes",
             "name": "Light Might VI",
+            "description": "200% Damage for all Light Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Light"
@@ -2542,6 +2651,7 @@
         "leaderAbility": {
             "fullName": "God Armor VI: 200% HP for all God Heroes",
             "name": "God Armor VI",
+            "description": "200% HP for all God Heroes",
             "value": "200",
             "stat": "HP",
             "target": "God"
@@ -2565,6 +2675,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might VI: 200% Damage for all Spirit Heroes",
             "name": "Spirit Might VI",
+            "description": "200% Damage for all Spirit Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Spirit"
@@ -2588,6 +2699,7 @@
         "leaderAbility": {
             "fullName": "Mage Might VI: 200% Damage for all Mage Heroes",
             "name": "Mage Might VI",
+            "description": "200% Damage for all Mage Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Mage"
@@ -2611,6 +2723,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor VI: 200% HP for all Defender Heroes",
             "name": "Defender Armor VI",
+            "description": "200% HP for all Defender Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Defender"
@@ -2634,6 +2747,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might VI: 200% Damage for all Dragon Heroes",
             "name": "Dragon Might VI",
+            "description": "200% Damage for all Dragon Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dragon"
@@ -2657,6 +2771,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -2680,6 +2795,7 @@
         "leaderAbility": {
             "fullName": "Human Armor VI: 200% HP for all Human Heroes",
             "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Human"
@@ -2703,6 +2819,7 @@
         "leaderAbility": {
             "fullName": "Light Might VI: 200% Damage for all Light Heroes",
             "name": "Light Might VI",
+            "description": "200% Damage for all Light Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Light"
@@ -2726,6 +2843,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -2749,6 +2867,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might VI: 200% Damage for all Demigod Heroes",
             "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Demigod"
@@ -2772,6 +2891,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor VI: 200% HP for all Giant Heroes",
             "name": "Giant Armor VI",
+            "description": "200% HP for all Giant Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Giant"
@@ -2795,6 +2915,7 @@
         "leaderAbility": {
             "fullName": "Light Armor VI: 200% HP for all Light Heroes",
             "name": "Light Armor VI",
+            "description": "200% HP for all Light Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Light"
@@ -2818,6 +2939,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -2841,6 +2963,7 @@
         "leaderAbility": {
             "fullName": "Light Armor VI: 200% HP for all Light Heroes",
             "name": "Light Armor VI",
+            "description": "200% HP for all Light Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Light"
@@ -2864,6 +2987,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing VI: 200% REC for all Light Heroes",
             "name": "Light Blessing VI",
+            "description": "200% REC for all Light Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Light"
@@ -2887,6 +3011,7 @@
         "leaderAbility": {
             "fullName": "Light Armor VI: 200% HP for all Light Heroes",
             "name": "Light Armor VI",
+            "description": "200% HP for all Light Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Light"
@@ -2910,6 +3035,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -2933,6 +3059,7 @@
         "leaderAbility": {
             "fullName": "Light Armor IV: 160% HP for all Light Heroes",
             "name": "Light Armor IV",
+            "description": "160% HP for all Light Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Light"
@@ -2956,6 +3083,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might IV: 160% Damage for all Warrior Heroes",
             "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Warrior"
@@ -2979,6 +3107,7 @@
         "leaderAbility": {
             "fullName": "Light Might IV: 160% Damage for all Light Heroes",
             "name": "Light Might IV",
+            "description": "160% Damage for all Light Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Light"
@@ -3002,6 +3131,7 @@
         "leaderAbility": {
             "fullName": "Guardian Blessing IV: 160% REC for all Guardian Heroes",
             "name": "Guardian Blessing IV",
+            "description": "160% REC for all Guardian Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Guardian"
@@ -3025,6 +3155,7 @@
         "leaderAbility": {
             "fullName": "Light Armor IV: 160% HP for all Light Heroes",
             "name": "Light Armor IV",
+            "description": "160% HP for all Light Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Light"
@@ -3048,6 +3179,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -3071,6 +3203,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -3094,6 +3227,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing IV: 160% REC for all Light Heroes",
             "name": "Light Blessing IV",
+            "description": "160% REC for all Light Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Light"
@@ -3117,6 +3251,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -3140,6 +3275,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -3163,6 +3299,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -3186,6 +3323,7 @@
         "leaderAbility": {
             "fullName": "God Armor IV: 160% HP for all God Heroes",
             "name": "God Armor IV",
+            "description": "160% HP for all God Heroes",
             "value": "160",
             "stat": "HP",
             "target": "God"
@@ -3209,6 +3347,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing IV: 160% REC for all Light Heroes",
             "name": "Light Blessing IV",
+            "description": "160% REC for all Light Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Light"
@@ -3232,6 +3371,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might IV: 160% Damage for all Spirit Heroes",
             "name": "Spirit Might IV",
+            "description": "160% Damage for all Spirit Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Spirit"
@@ -3259,6 +3399,7 @@
         "leaderAbility": {
             "fullName": "Light Might IV: 160% Damage for all Light Heroes",
             "name": "Light Might IV",
+            "description": "160% Damage for all Light Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Light"
@@ -3282,6 +3423,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might IV: 160% Damage for all Dragon Heroes",
             "name": "Dragon Might IV",
+            "description": "160% Damage for all Dragon Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dragon"
@@ -3305,6 +3447,7 @@
         "leaderAbility": {
             "fullName": "Human Armor IV: 160% HP for all Human Heroes",
             "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Human"
@@ -3328,6 +3471,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -3351,6 +3495,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -3374,6 +3519,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might IV: 160% Damage for all Demigod Heroes",
             "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Demigod"
@@ -3397,6 +3543,7 @@
         "leaderAbility": {
             "fullName": "Light Armor IV: 160% HP for all Light Heroes",
             "name": "Light Armor IV",
+            "description": "160% HP for all Light Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Light"
@@ -3420,6 +3567,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -3443,6 +3591,7 @@
         "leaderAbility": {
             "fullName": "Light Armor IV: 160% HP for all Light Heroes",
             "name": "Light Armor IV",
+            "description": "160% HP for all Light Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Light"
@@ -3466,6 +3615,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor III: 140% HP for all Defender Heroes",
             "name": "Defender Armor III",
+            "description": "140% HP for all Defender Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Defender"
@@ -3489,6 +3639,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing III: 140% REC for all Light Heroes",
             "name": "Light Blessing III",
+            "description": "140% REC for all Light Heroes",
             "value": "140",
             "stat": "REC",
             "target": "Light"
@@ -3512,6 +3663,7 @@
         "leaderAbility": {
             "fullName": "Light Armor III: 140% HP for all Light Heroes",
             "name": "Light Armor III",
+            "description": "140% HP for all Light Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Light"
@@ -3535,6 +3687,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor III: 140% HP for all Warrior Heroes",
             "name": "Warrior Armor III",
+            "description": "140% HP for all Warrior Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Warrior"
@@ -3558,6 +3711,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -3581,6 +3735,7 @@
         "leaderAbility": {
             "fullName": "Light Might III: 140% Damage for all Light Heroes",
             "name": "Light Might III",
+            "description": "140% Damage for all Light Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Light"
@@ -3604,6 +3759,7 @@
         "leaderAbility": {
             "fullName": "Light Might III: 140% Damage for all Light Heroes",
             "name": "Light Might III",
+            "description": "140% Damage for all Light Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Light"
@@ -3627,6 +3783,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might III: 140% Damage for all Attacker Heroes",
             "name": "Attacker Might III",
+            "description": "140% Damage for all Attacker Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Attacker"
@@ -3650,6 +3807,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor III: 140% HP for all Guardian Heroes",
             "name": "Guardian Armor III",
+            "description": "140% HP for all Guardian Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Guardian"
@@ -3673,6 +3831,7 @@
         "leaderAbility": {
             "fullName": "Light Armor III: 140% HP for all Light Heroes",
             "name": "Light Armor III",
+            "description": "140% HP for all Light Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Light"
@@ -3696,6 +3855,7 @@
         "leaderAbility": {
             "fullName": "Mage Might III: 140% Damage for all Mage Heroes",
             "name": "Mage Might III",
+            "description": "140% Damage for all Mage Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Mage"
@@ -3719,6 +3879,7 @@
         "leaderAbility": {
             "fullName": "Light Might III: 140% Damage for all Light Heroes",
             "name": "Light Might III",
+            "description": "140% Damage for all Light Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Light"
@@ -3742,6 +3903,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might II: 120% Damage for all Balanced Heroes",
             "name": "Balanced Might II",
+            "description": "120% Damage for all Balanced Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Balanced"
@@ -3765,6 +3927,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing II: 120% REC for all Light Heroes",
             "name": "Light Blessing II",
+            "description": "120% REC for all Light Heroes",
             "value": "120",
             "stat": "REC",
             "target": "Light"
@@ -3788,6 +3951,7 @@
         "leaderAbility": {
             "fullName": "Light Armor II: 120% HP for all Light Heroes",
             "name": "Light Armor II",
+            "description": "120% HP for all Light Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Light"
@@ -3811,6 +3975,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor II: 120% HP for all Warrior Heroes",
             "name": "Warrior Armor II",
+            "description": "120% HP for all Warrior Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Warrior"
@@ -3834,6 +3999,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -3857,6 +4023,7 @@
         "leaderAbility": {
             "fullName": "Light Might II: 120% Damage for all Light Heroes",
             "name": "Light Might II",
+            "description": "120% Damage for all Light Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Light"
@@ -3880,6 +4047,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might II: 120% Damage for all Attacker Heroes",
             "name": "Attacker Might II",
+            "description": "120% Damage for all Attacker Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Attacker"
@@ -3903,6 +4071,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor II: 120% HP for all Guardian Heroes",
             "name": "Guardian Armor II",
+            "description": "120% HP for all Guardian Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Guardian"
@@ -3926,6 +4095,7 @@
         "leaderAbility": {
             "fullName": "Light Might II: 120% Damage for all Light Heroes",
             "name": "Light Might II",
+            "description": "120% Damage for all Light Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Light"
@@ -3949,6 +4119,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might I: 110% Damage for all Balanced Heroes",
             "name": "Balanced Might I",
+            "description": "110% Damage for all Balanced Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Balanced"
@@ -3972,6 +4143,7 @@
         "leaderAbility": {
             "fullName": "Light Blessing I: 110% REC for all Light Heroes",
             "name": "Light Blessing I",
+            "description": "110% REC for all Light Heroes",
             "value": "110",
             "stat": "REC",
             "target": "Light"
@@ -3995,6 +4167,7 @@
         "leaderAbility": {
             "fullName": "Light Armor I: 110% HP for all Light Heroes",
             "name": "Light Armor I",
+            "description": "110% HP for all Light Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Light"
@@ -4018,6 +4191,7 @@
         "leaderAbility": {
             "fullName": "Light Might I: 110% Damage for all Light Heroes",
             "name": "Light Might I",
+            "description": "110% Damage for all Light Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Light"
@@ -4041,6 +4215,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing III: 140% REC for all Earth Heroes",
             "name": "Earth Blessing III",
+            "description": "140% REC for all Earth Heroes",
             "value": "140",
             "stat": "REC",
             "target": "Earth"
@@ -4064,6 +4239,7 @@
         "leaderAbility": {
             "fullName": "Earth Might III: 140% Damage for all Earth Heroes",
             "name": "Earth Might III",
+            "description": "140% Damage for all Earth Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Earth"
@@ -4087,6 +4263,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor III: 140% HP for all Defender Heroes",
             "name": "Defender Armor III",
+            "description": "140% HP for all Defender Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Defender"
@@ -4110,6 +4287,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing V: 180% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing V",
+            "description": "180% REC for all Corrupt Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Corrupt"
@@ -4133,6 +4311,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -4156,6 +4335,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor III: 140% HP for all Guardian Heroes",
             "name": "Guardian Armor III",
+            "description": "140% HP for all Guardian Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Guardian"
@@ -4179,6 +4359,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing VI: 200% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing VI",
+            "description": "200% REC for all Corrupt Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Corrupt"
@@ -4202,6 +4383,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor V: 180% HP for all Creature Heroes",
             "name": "Creature Armor V",
+            "description": "180% HP for all Creature Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Creature"
@@ -4225,6 +4407,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -4248,6 +4431,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor VI: 200% HP for all Creature Heroes",
             "name": "Creature Armor VI",
+            "description": "200% HP for all Creature Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Creature"
@@ -4271,6 +4455,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -4294,6 +4479,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing II: 120% REC for all Earth Heroes",
             "name": "Earth Blessing II",
+            "description": "120% REC for all Earth Heroes",
             "value": "120",
             "stat": "REC",
             "target": "Earth"
@@ -4317,6 +4503,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -4340,6 +4527,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing I: 110% REC for all Earth Heroes",
             "name": "Earth Blessing I",
+            "description": "110% REC for all Earth Heroes",
             "value": "110",
             "stat": "REC",
             "target": "Earth"
@@ -4363,6 +4551,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might IV: 160% Damage for all Warrior Heroes",
             "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Warrior"
@@ -4386,6 +4575,7 @@
         "leaderAbility": {
             "fullName": "Earth Might III: 140% Damage for all Earth Heroes",
             "name": "Earth Might III",
+            "description": "140% Damage for all Earth Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Earth"
@@ -4409,6 +4599,7 @@
         "leaderAbility": {
             "fullName": "Earth Might II: 120% Damage for all Earth Heroes",
             "name": "Earth Might II",
+            "description": "120% Damage for all Earth Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Earth"
@@ -4432,6 +4623,7 @@
         "leaderAbility": {
             "fullName": "Earth Might I: 110% Damage for all Earth Heroes",
             "name": "Earth Might I",
+            "description": "110% Damage for all Earth Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Earth"
@@ -4455,6 +4647,7 @@
         "leaderAbility": {
             "fullName": "Earth Might IV: 160% Damage for all Earth Heroes",
             "name": "Earth Might IV",
+            "description": "160% Damage for all Earth Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Earth"
@@ -4478,6 +4671,7 @@
         "leaderAbility": {
             "fullName": "Creature Might V: 180% Damage for all Creature Heroes",
             "name": "Creature Might V",
+            "description": "180% Damage for all Creature Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Creature"
@@ -4501,6 +4695,7 @@
         "leaderAbility": {
             "fullName": "Creature Might VI: 200% Damage for all Creature Heroes",
             "name": "Creature Might VI",
+            "description": "200% Damage for all Creature Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Creature"
@@ -4524,6 +4719,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor III: 140% HP for all Earth Heroes",
             "name": "Earth Armor III",
+            "description": "140% HP for all Earth Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Earth"
@@ -4547,6 +4743,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor IV: 160% HP for all Earth Heroes",
             "name": "Earth Armor IV",
+            "description": "160% HP for all Earth Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Earth"
@@ -4570,6 +4767,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might V: 180% Damage for all Dragon Heroes",
             "name": "Dragon Might V",
+            "description": "180% Damage for all Dragon Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dragon"
@@ -4593,6 +4791,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might III: 140% Damage for all Attacker Heroes",
             "name": "Attacker Might III",
+            "description": "140% Damage for all Attacker Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Attacker"
@@ -4616,6 +4815,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor III: 140% HP for all Warrior Heroes",
             "name": "Warrior Armor III",
+            "description": "140% HP for all Warrior Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Warrior"
@@ -4639,6 +4839,7 @@
         "leaderAbility": {
             "fullName": "Earth Might II: 120% Damage for all Earth Heroes",
             "name": "Earth Might II",
+            "description": "120% Damage for all Earth Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Earth"
@@ -4662,6 +4863,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might VI: 200% Damage for all Dragon Heroes",
             "name": "Dragon Might VI",
+            "description": "200% Damage for all Dragon Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dragon"
@@ -4685,6 +4887,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor III: 140% HP for all Earth Heroes",
             "name": "Earth Armor III",
+            "description": "140% HP for all Earth Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Earth"
@@ -4708,6 +4911,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor V: 180% HP for all Earth Heroes",
             "name": "Earth Armor V",
+            "description": "180% HP for all Earth Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Earth"
@@ -4731,6 +4935,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor IV: 160% HP for all Earth Heroes",
             "name": "Earth Armor IV",
+            "description": "160% HP for all Earth Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Earth"
@@ -4754,6 +4959,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor V: 180% HP for all Earth Heroes",
             "name": "Earth Armor V",
+            "description": "180% HP for all Earth Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Earth"
@@ -4777,6 +4983,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor V: 180% HP for all Earth Heroes",
             "name": "Earth Armor V",
+            "description": "180% HP for all Earth Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Earth"
@@ -4800,6 +5007,7 @@
         "leaderAbility": {
             "fullName": "Mage Might III: 140% Damage for all Mage Heroes",
             "name": "Mage Might III",
+            "description": "140% Damage for all Mage Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Mage"
@@ -4823,6 +5031,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -4846,6 +5055,7 @@
         "leaderAbility": {
             "fullName": "Guardian Blessing IV: 160% REC for all Guardian Heroes",
             "name": "Guardian Blessing IV",
+            "description": "160% REC for all Guardian Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Guardian"
@@ -4869,6 +5079,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor VI: 200% HP for all Earth Heroes",
             "name": "Earth Armor VI",
+            "description": "200% HP for all Earth Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Earth"
@@ -4892,6 +5103,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing IV: 160% REC for all Earth Heroes",
             "name": "Earth Blessing IV",
+            "description": "160% REC for all Earth Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Earth"
@@ -4915,6 +5127,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor VI: 200% HP for all Earth Heroes",
             "name": "Earth Armor VI",
+            "description": "200% HP for all Earth Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Earth"
@@ -4938,6 +5151,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -4961,6 +5175,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor VI: 200% HP for all Earth Heroes",
             "name": "Earth Armor VI",
+            "description": "200% HP for all Earth Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Earth"
@@ -4984,6 +5199,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing V: 180% REC for all Earth Heroes",
             "name": "Earth Blessing V",
+            "description": "180% REC for all Earth Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Earth"
@@ -5007,6 +5223,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor I: 110% HP for all Earth Heroes",
             "name": "Earth Armor I",
+            "description": "110% HP for all Earth Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Earth"
@@ -5030,6 +5247,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -5053,6 +5271,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing VI: 200% REC for all Earth Heroes",
             "name": "Earth Blessing VI",
+            "description": "200% REC for all Earth Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Earth"
@@ -5076,6 +5295,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -5099,6 +5319,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor II: 120% HP for all Earth Heroes",
             "name": "Earth Armor II",
+            "description": "120% HP for all Earth Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Earth"
@@ -5122,6 +5343,7 @@
         "leaderAbility": {
             "fullName": "Earth Might V: 180% Damage for all Earth Heroes",
             "name": "Earth Might V",
+            "description": "180% Damage for all Earth Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Earth"
@@ -5145,6 +5367,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might IV: 160% Damage for all Spirit Heroes",
             "name": "Spirit Might IV",
+            "description": "160% Damage for all Spirit Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Spirit"
@@ -5172,6 +5395,7 @@
         "leaderAbility": {
             "fullName": "Earth Might V: 180% Damage for all Earth Heroes",
             "name": "Earth Might V",
+            "description": "180% Damage for all Earth Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Earth"
@@ -5195,6 +5419,7 @@
         "leaderAbility": {
             "fullName": "Earth Might V: 180% Damage for all Earth Heroes",
             "name": "Earth Might V",
+            "description": "180% Damage for all Earth Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Earth"
@@ -5218,6 +5443,7 @@
         "leaderAbility": {
             "fullName": "Earth Blessing IV: 160% REC for all Earth Heroes",
             "name": "Earth Blessing IV",
+            "description": "160% REC for all Earth Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Earth"
@@ -5241,6 +5467,7 @@
         "leaderAbility": {
             "fullName": "Earth Might VI: 200% Damage for all Earth Heroes",
             "name": "Earth Might VI",
+            "description": "200% Damage for all Earth Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Earth"
@@ -5268,6 +5495,7 @@
         "leaderAbility": {
             "fullName": "Earth Might VI: 200% Damage for all Earth Heroes",
             "name": "Earth Might VI",
+            "description": "200% Damage for all Earth Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Earth"
@@ -5291,6 +5519,7 @@
         "leaderAbility": {
             "fullName": "Earth Might III: 140% Damage for all Earth Heroes",
             "name": "Earth Might III",
+            "description": "140% Damage for all Earth Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Earth"
@@ -5318,6 +5547,7 @@
         "leaderAbility": {
             "fullName": "Earth Might IV: 160% Damage for all Earth Heroes",
             "name": "Earth Might IV",
+            "description": "160% Damage for all Earth Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Earth"
@@ -5341,6 +5571,7 @@
         "leaderAbility": {
             "fullName": "Earth Might VI: 200% Damage for all Earth Heroes",
             "name": "Earth Might VI",
+            "description": "200% Damage for all Earth Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Earth"
@@ -5364,6 +5595,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -5387,6 +5619,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing IV: 160% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing IV",
+            "description": "160% REC for all Corrupt Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Corrupt"
@@ -5410,6 +5643,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -5433,6 +5667,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor VI: 200% HP for all Giant Heroes",
             "name": "Giant Armor VI",
+            "description": "200% HP for all Giant Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Giant"
@@ -5456,6 +5691,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -5479,6 +5715,7 @@
         "leaderAbility": {
             "fullName": "Giant Might V: 180% Damage for all Giant Heroes",
             "name": "Giant Might V",
+            "description": "180% Damage for all Giant Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Giant"
@@ -5502,6 +5739,7 @@
         "leaderAbility": {
             "fullName": "Giant Might VI: 200% Damage for all Giant Heroes",
             "name": "Giant Might VI",
+            "description": "200% Damage for all Giant Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Giant"
@@ -5525,6 +5763,7 @@
         "leaderAbility": {
             "fullName": "Giant Might IV: 160% Damage for all Giant Heroes",
             "name": "Giant Might IV",
+            "description": "160% Damage for all Giant Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Giant"
@@ -5548,6 +5787,7 @@
         "leaderAbility": {
             "fullName": "God Might V: 180% Damage for all God Heroes",
             "name": "God Might V",
+            "description": "180% Damage for all God Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "God"
@@ -5571,6 +5811,7 @@
         "leaderAbility": {
             "fullName": "Creature Might IV: 160% Damage for all Creature Heroes",
             "name": "Creature Might IV",
+            "description": "160% Damage for all Creature Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Creature"
@@ -5594,6 +5835,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might II: 120% Damage for all Attacker Heroes",
             "name": "Attacker Might II",
+            "description": "120% Damage for all Attacker Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Attacker"
@@ -5617,6 +5859,7 @@
         "leaderAbility": {
             "fullName": "God Might VI: 200% Damage for all God Heroes",
             "name": "God Might VI",
+            "description": "200% Damage for all God Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "God"
@@ -5640,6 +5883,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor II: 120% HP for all Guardian Heroes",
             "name": "Guardian Armor II",
+            "description": "120% HP for all Guardian Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Guardian"
@@ -5663,6 +5907,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor IV: 160% HP for all Creature Heroes",
             "name": "Creature Armor IV",
+            "description": "160% HP for all Creature Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Creature"
@@ -5686,6 +5931,7 @@
         "leaderAbility": {
             "fullName": "Human Armor V: 180% HP for all Human Heroes",
             "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Human"
@@ -5709,6 +5955,7 @@
         "leaderAbility": {
             "fullName": "Human Armor VI: 200% HP for all Human Heroes",
             "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Human"
@@ -5732,6 +5979,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor IV: 160% HP for all Earth Heroes",
             "name": "Earth Armor IV",
+            "description": "160% HP for all Earth Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Earth"
@@ -5755,6 +6003,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -5778,6 +6027,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -5801,6 +6051,7 @@
         "leaderAbility": {
             "fullName": "Earth Might IV: 160% Damage for all Earth Heroes",
             "name": "Earth Might IV",
+            "description": "160% Damage for all Earth Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Earth"
@@ -5824,6 +6075,7 @@
         "leaderAbility": {
             "fullName": "Mage Might V: 180% Damage for all Mage Heroes",
             "name": "Mage Might V",
+            "description": "180% Damage for all Mage Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Mage"
@@ -5847,6 +6099,7 @@
         "leaderAbility": {
             "fullName": "Earth Armor IV: 160% HP for all Earth Heroes",
             "name": "Earth Armor IV",
+            "description": "160% HP for all Earth Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Earth"
@@ -5870,6 +6123,7 @@
         "leaderAbility": {
             "fullName": "Mage Might VI: 200% Damage for all Mage Heroes",
             "name": "Mage Might VI",
+            "description": "200% Damage for all Mage Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Mage"
@@ -5893,6 +6147,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -5916,6 +6171,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -5939,6 +6195,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might IV: 160% Damage for all Dragon Heroes",
             "name": "Dragon Might IV",
+            "description": "160% Damage for all Dragon Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dragon"
@@ -5962,6 +6219,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might V: 180% Damage for all Spirit Heroes",
             "name": "Spirit Might V",
+            "description": "180% Damage for all Spirit Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Spirit"
@@ -5985,6 +6243,7 @@
         "leaderAbility": {
             "fullName": "God Might IV: 160% Damage for all God Heroes",
             "name": "God Might IV",
+            "description": "160% Damage for all God Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "God"
@@ -6008,6 +6267,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might I: 110% Damage for all Balanced Heroes",
             "name": "Balanced Might I",
+            "description": "110% Damage for all Balanced Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Balanced"
@@ -6031,6 +6291,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor II: 120% HP for all Warrior Heroes",
             "name": "Warrior Armor II",
+            "description": "120% HP for all Warrior Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Warrior"
@@ -6054,6 +6315,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might II: 120% Damage for all Balanced Heroes",
             "name": "Balanced Might II",
+            "description": "120% Damage for all Balanced Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Balanced"
@@ -6077,6 +6339,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might VI: 200% Damage for all Spirit Heroes",
             "name": "Spirit Might VI",
+            "description": "200% Damage for all Spirit Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Spirit"
@@ -6100,6 +6363,7 @@
         "leaderAbility": {
             "fullName": "Human Armor IV: 160% HP for all Human Heroes",
             "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Human"
@@ -6123,6 +6387,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might V: 180% Damage for all Warrior Heroes",
             "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Warrior"
@@ -6146,6 +6411,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor V: 180% HP for all Balanced Heroes",
             "name": "Balanced Armor V",
+            "description": "180% HP for all Balanced Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Balanced"
@@ -6169,6 +6435,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor VI: 200% HP for all Balanced Heroes",
             "name": "Balanced Armor VI",
+            "description": "200% HP for all Balanced Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Balanced"
@@ -6192,6 +6459,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might V: 180% Damage for all Corrupt Heroes",
             "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Corrupt"
@@ -6215,6 +6483,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might V: 180% Damage for all Corrupt Heroes",
             "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Corrupt"
@@ -6238,6 +6507,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might VI: 200% Damage for all Corrupt Heroes",
             "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Corrupt"
@@ -6261,6 +6531,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might VI: 200% Damage for all Corrupt Heroes",
             "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Corrupt"
@@ -6284,6 +6555,7 @@
         "leaderAbility": {
             "fullName": "Creature Might V: 180% Damage for all Creature Heroes",
             "name": "Creature Might V",
+            "description": "180% Damage for all Creature Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Creature"
@@ -6307,6 +6579,7 @@
         "leaderAbility": {
             "fullName": "Creature Might VI: 200% Damage for all Creature Heroes",
             "name": "Creature Might VI",
+            "description": "200% Damage for all Creature Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Creature"
@@ -6330,6 +6603,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might V: 180% Damage for all Demigod Heroes",
             "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Demigod"
@@ -6353,6 +6627,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might VI: 200% Damage for all Demigod Heroes",
             "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Demigod"
@@ -6376,6 +6651,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might V: 180% Damage for all Dragon Heroes",
             "name": "Dragon Might V",
+            "description": "180% Damage for all Dragon Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dragon"
@@ -6399,6 +6675,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might VI: 200% Damage for all Dragon Heroes",
             "name": "Dragon Might VI",
+            "description": "200% Damage for all Dragon Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dragon"
@@ -6422,6 +6699,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor V: 180% HP for all Fire Heroes",
             "name": "Fire Armor V",
+            "description": "180% HP for all Fire Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Fire"
@@ -6445,6 +6723,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor V: 180% HP for all Fire Heroes",
             "name": "Fire Armor V",
+            "description": "180% HP for all Fire Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Fire"
@@ -6468,6 +6747,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor V: 180% HP for all Fire Heroes",
             "name": "Fire Armor V",
+            "description": "180% HP for all Fire Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Fire"
@@ -6491,6 +6771,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor VI: 260% HP for all Fire Heroes",
             "name": "Fire Armor VI",
+            "description": "260% HP for all Fire Heroes",
             "value": "260",
             "stat": "HP",
             "target": "Fire"
@@ -6514,6 +6795,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor VI: 260% HP for all Fire Heroes",
             "name": "Fire Armor VI",
+            "description": "260% HP for all Fire Heroes",
             "value": "260",
             "stat": "HP",
             "target": "Fire"
@@ -6537,6 +6819,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor VI: 260% HP for all Fire Heroes",
             "name": "Fire Armor VI",
+            "description": "260% HP for all Fire Heroes",
             "value": "260",
             "stat": "HP",
             "target": "Fire"
@@ -6560,6 +6843,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing V: 180% REC for all Fire Heroes",
             "name": "Fire Blessing V",
+            "description": "180% REC for all Fire Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Fire"
@@ -6583,6 +6867,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing VI: 160% REC for all Fire Heroes",
             "name": "Fire Blessing VI",
+            "description": "160% REC for all Fire Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Fire"
@@ -6606,6 +6891,7 @@
         "leaderAbility": {
             "fullName": "Fire Might V: 180% damage for all Fire Heroes",
             "name": "Fire Might V",
+            "description": "180% damage for all Fire Heroes",
             "value": "180",
             "stat": "damage",
             "target": "Fire"
@@ -6633,6 +6919,7 @@
         "leaderAbility": {
             "fullName": "Fire Might V: 180% damage for all Fire Heroes",
             "name": "Fire Might V",
+            "description": "180% damage for all Fire Heroes",
             "value": "180",
             "stat": "damage",
             "target": "Fire"
@@ -6660,6 +6947,7 @@
         "leaderAbility": {
             "fullName": "Fire Might VI: 200% damage for all Fire Heroes",
             "name": "Fire Might VI",
+            "description": "200% damage for all Fire Heroes",
             "value": "200",
             "stat": "damage",
             "target": "Fire"
@@ -6683,6 +6971,7 @@
         "leaderAbility": {
             "fullName": "Fire Might VI: 200% damage for all Fire Heroes",
             "name": "Fire Might VI",
+            "description": "200% damage for all Fire Heroes",
             "value": "200",
             "stat": "damage",
             "target": "Fire"
@@ -6706,6 +6995,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -6729,6 +7019,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -6752,6 +7043,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor VI: 200% HP for all Giant Heroes",
             "name": "Giant Armor VI",
+            "description": "200% HP for all Giant Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Giant"
@@ -6775,6 +7067,7 @@
         "leaderAbility": {
             "fullName": "God Might V: 180% Damage for all God Heroes",
             "name": "God Might V",
+            "description": "180% Damage for all God Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "God"
@@ -6798,6 +7091,7 @@
         "leaderAbility": {
             "fullName": "God Might VI: 200% Damage for all God Heroes",
             "name": "God Might VI",
+            "description": "200% Damage for all God Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "God"
@@ -6821,6 +7115,7 @@
         "leaderAbility": {
             "fullName": "Human Armor V: 180% HP for all Human Heroes",
             "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Human"
@@ -6844,6 +7139,7 @@
         "leaderAbility": {
             "fullName": "Human Armor VI: 200% HP for all Human Heroes",
             "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Human"
@@ -6867,6 +7163,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -6890,6 +7187,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -6913,6 +7211,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -6936,6 +7235,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -6959,6 +7259,7 @@
         "leaderAbility": {
             "fullName": "Mage Might V: 180% Damage for all Mage Heroes",
             "name": "Mage Might V",
+            "description": "180% Damage for all Mage Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Mage"
@@ -6982,6 +7283,7 @@
         "leaderAbility": {
             "fullName": "Mage Might VI: 200% Damage for all Mage Heroes",
             "name": "Mage Might VI",
+            "description": "200% Damage for all Mage Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Mage"
@@ -7005,6 +7307,7 @@
         "leaderAbility": {
             "fullName": "Power of Love III: 225% Damage for all God Heroes",
             "name": "Power of Love III",
+            "description": "225% Damage for all God Heroes",
             "value": "225",
             "stat": "Damage",
             "target": "God"
@@ -7028,6 +7331,7 @@
         "leaderAbility": {
             "fullName": "Power of Love IV: 300% Damage for all God Heroes",
             "name": "Power of Love IV",
+            "description": "300% Damage for all God Heroes",
             "value": "300",
             "stat": "Damage",
             "target": "God"
@@ -7051,6 +7355,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -7074,6 +7379,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -7097,6 +7403,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -7120,6 +7427,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -7143,6 +7451,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might V: 180% Damage for all Spirit Heroes",
             "name": "Spirit Might V",
+            "description": "180% Damage for all Spirit Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Spirit"
@@ -7166,6 +7475,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might VI: 200% Damage for all Spirit Heroes",
             "name": "Spirit Might VI",
+            "description": "200% Damage for all Spirit Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Spirit"
@@ -7189,6 +7499,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might V: 180% Damage for all Warrior Heroes",
             "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Warrior"
@@ -7212,6 +7523,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor IV: 160% HP for all Fire Heroes",
             "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Fire"
@@ -7235,6 +7547,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -7258,6 +7571,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor IV: 160% HP for all Fire Heroes",
             "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Fire"
@@ -7281,6 +7595,7 @@
         "leaderAbility": {
             "fullName": "Guardian Blessing IV: 160% REC for all Guardian Heroes",
             "name": "Guardian Blessing IV",
+            "description": "160% REC for all Guardian Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Guardian"
@@ -7304,6 +7619,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -7327,6 +7643,7 @@
         "leaderAbility": {
             "fullName": "Fire Might IV: 160% damage for all Fire Heroes",
             "name": "Fire Might IV",
+            "description": "160% damage for all Fire Heroes",
             "value": "160",
             "stat": "damage",
             "target": "Fire"
@@ -7350,6 +7667,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might IV: 160% Damage for all Warrior Heroes",
             "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Warrior"
@@ -7373,6 +7691,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -7396,6 +7715,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing IV: 160% REC for all Fire Heroes",
             "name": "Fire Blessing IV",
+            "description": "160% REC for all Fire Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Fire"
@@ -7419,6 +7739,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -7442,6 +7763,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -7465,6 +7787,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -7488,6 +7811,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might IV: 160% Damage for all Spirit Heroes",
             "name": "Spirit Might IV",
+            "description": "160% Damage for all Spirit Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Spirit"
@@ -7511,6 +7835,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing IV: 160% REC for all Fire Heroes",
             "name": "Fire Blessing IV",
+            "description": "160% REC for all Fire Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Fire"
@@ -7538,6 +7863,7 @@
         "leaderAbility": {
             "fullName": "Fire Might IV: 160% damage for all Fire Heroes",
             "name": "Fire Might IV",
+            "description": "160% damage for all Fire Heroes",
             "value": "160",
             "stat": "damage",
             "target": "Fire"
@@ -7561,6 +7887,7 @@
         "leaderAbility": {
             "fullName": "Creature Might IV: 160% Damage for all Creature Heroes",
             "name": "Creature Might IV",
+            "description": "160% Damage for all Creature Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Creature"
@@ -7584,6 +7911,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -7607,6 +7935,7 @@
         "leaderAbility": {
             "fullName": "Human Armor IV: 160% HP for all Human Heroes",
             "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Human"
@@ -7630,6 +7959,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might IV: 160% Damage for all Corrupt Heroes",
             "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Corrupt"
@@ -7653,6 +7983,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might IV: 160% Damage for all Corrupt Heroes",
             "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Corrupt"
@@ -7676,6 +8007,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might IV: 160% Damage for all Dragon Heroes",
             "name": "Dragon Might IV",
+            "description": "160% Damage for all Dragon Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dragon"
@@ -7699,6 +8031,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might IV: 160% Damage for all Demigod Heroes",
             "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Demigod"
@@ -7722,6 +8055,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor IV: 160% HP for all Balanced Heroes",
             "name": "Balanced Armor IV",
+            "description": "160% HP for all Balanced Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Balanced"
@@ -7745,6 +8079,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -7768,6 +8103,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -7791,6 +8127,7 @@
         "leaderAbility": {
             "fullName": "Power of Love II: 200% Damage for all God Heroes",
             "name": "Power of Love II",
+            "description": "200% Damage for all God Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "God"
@@ -7814,6 +8151,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor IV: 160% HP for all Fire Heroes",
             "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Fire"
@@ -7837,6 +8175,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor IV: 160% HP for all Fire Heroes",
             "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Fire"
@@ -7860,6 +8199,7 @@
         "leaderAbility": {
             "fullName": "God Might IV: 160% Damage for all God Heroes",
             "name": "God Might IV",
+            "description": "160% Damage for all God Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "God"
@@ -7883,6 +8223,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor III: 140% HP for all Fire Heroes",
             "name": "Fire Armor III",
+            "description": "140% HP for all Fire Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Fire"
@@ -7906,6 +8247,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing III: 140% REC for all Fire Heroes",
             "name": "Fire Blessing III",
+            "description": "140% REC for all Fire Heroes",
             "value": "140",
             "stat": "REC",
             "target": "Fire"
@@ -7929,6 +8271,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor III: 140% HP for all Defender Heroes",
             "name": "Defender Armor III",
+            "description": "140% HP for all Defender Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Defender"
@@ -7952,6 +8295,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor III: 140% HP for all Warrior Heroes",
             "name": "Warrior Armor III",
+            "description": "140% HP for all Warrior Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Warrior"
@@ -7975,6 +8319,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might III: 140% Damage for all Attacker Heroes",
             "name": "Attacker Might III",
+            "description": "140% Damage for all Attacker Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Attacker"
@@ -7998,6 +8343,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor III: 140% HP for all Guardian Heroes",
             "name": "Guardian Armor III",
+            "description": "140% HP for all Guardian Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Guardian"
@@ -8021,6 +8367,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor III: 140% HP for all Fire Heroes",
             "name": "Fire Armor III",
+            "description": "140% HP for all Fire Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Fire"
@@ -8044,6 +8391,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -8067,6 +8415,7 @@
         "leaderAbility": {
             "fullName": "Fire Might III: 140% damage for all Fire Heroes",
             "name": "Fire Might III",
+            "description": "140% damage for all Fire Heroes",
             "value": "140",
             "stat": "damage",
             "target": "Fire"
@@ -8090,6 +8439,7 @@
         "leaderAbility": {
             "fullName": "Mage Might III: 140% Damage for all Mage Heroes",
             "name": "Mage Might III",
+            "description": "140% Damage for all Mage Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Mage"
@@ -8113,6 +8463,7 @@
         "leaderAbility": {
             "fullName": "Fire Might III: 140% damage for all Fire Heroes",
             "name": "Fire Might III",
+            "description": "140% damage for all Fire Heroes",
             "value": "140",
             "stat": "damage",
             "target": "Fire"
@@ -8136,6 +8487,7 @@
         "leaderAbility": {
             "fullName": "Fire Might III: 140% damage for all Fire Heroes",
             "name": "Fire Might III",
+            "description": "140% damage for all Fire Heroes",
             "value": "140",
             "stat": "damage",
             "target": "Fire"
@@ -8159,6 +8511,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor III: 140% HP for all Spirit Heroes",
             "name": "Spirit Armor III",
+            "description": "140% HP for all Spirit Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Spirit"
@@ -8182,6 +8535,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -8205,6 +8559,7 @@
         "leaderAbility": {
             "fullName": "Power of Love I: 175% Damage for all God Heroes",
             "name": "Power of Love I",
+            "description": "175% Damage for all God Heroes",
             "value": "175",
             "stat": "Damage",
             "target": "God"
@@ -8228,6 +8583,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor II: 120% HP for all Fire Heroes",
             "name": "Fire Armor II",
+            "description": "120% HP for all Fire Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Fire"
@@ -8251,6 +8607,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing II: 120% REC for all Fire Heroes",
             "name": "Fire Blessing II",
+            "description": "120% REC for all Fire Heroes",
             "value": "120",
             "stat": "REC",
             "target": "Fire"
@@ -8274,6 +8631,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor II: 120% HP for all Warrior Heroes",
             "name": "Warrior Armor II",
+            "description": "120% HP for all Warrior Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Warrior"
@@ -8297,6 +8655,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might II: 120% Damage for all Attacker Heroes",
             "name": "Attacker Might II",
+            "description": "120% Damage for all Attacker Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Attacker"
@@ -8320,6 +8679,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor II: 120% HP for all Guardian Heroes",
             "name": "Guardian Armor II",
+            "description": "120% HP for all Guardian Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Guardian"
@@ -8333,9 +8693,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Human",
-        "attack": "",
-        "recovery": "",
-        "health": "",
+        "attack": "570",
+        "recovery": "79",
+        "health": "395",
         "rarity": 2,
         "eventSkills": [],
         "defenderSkill": "Poison",
@@ -8343,6 +8703,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -8366,6 +8727,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might II: 120% Damage for all Balanced Heroes",
             "name": "Balanced Might II",
+            "description": "120% Damage for all Balanced Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Balanced"
@@ -8389,6 +8751,7 @@
         "leaderAbility": {
             "fullName": "Fire Might II: 120% damage for all Fire Heroes",
             "name": "Fire Might II",
+            "description": "120% damage for all Fire Heroes",
             "value": "120",
             "stat": "damage",
             "target": "Fire"
@@ -8412,6 +8775,7 @@
         "leaderAbility": {
             "fullName": "Fire Might II: 120% damage for all Fire Heroes",
             "name": "Fire Might II",
+            "description": "120% damage for all Fire Heroes",
             "value": "120",
             "stat": "damage",
             "target": "Fire"
@@ -8435,6 +8799,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor II: 120% HP for all Spirit Heroes",
             "name": "Spirit Armor II",
+            "description": "120% HP for all Spirit Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Spirit"
@@ -8458,6 +8823,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -8481,6 +8847,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor I: 110% HP for all Fire Heroes",
             "name": "Fire Armor I",
+            "description": "110% HP for all Fire Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Fire"
@@ -8504,6 +8871,7 @@
         "leaderAbility": {
             "fullName": "Fire Blessing I: 110% REC for all Fire Heroes",
             "name": "Fire Blessing I",
+            "description": "110% REC for all Fire Heroes",
             "value": "110",
             "stat": "REC",
             "target": "Fire"
@@ -8527,6 +8895,7 @@
         "leaderAbility": {
             "fullName": "Fire Armor I: 110% HP for all Fire Heroes",
             "name": "Fire Armor I",
+            "description": "110% HP for all Fire Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Fire"
@@ -8550,6 +8919,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might I: 110% Damage for all Balanced Heroes",
             "name": "Balanced Might I",
+            "description": "110% Damage for all Balanced Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Balanced"
@@ -8573,6 +8943,7 @@
         "leaderAbility": {
             "fullName": "Fire Might I: 110% damage for all Fire Heroes",
             "name": "Fire Might I",
+            "description": "110% damage for all Fire Heroes",
             "value": "110",
             "stat": "damage",
             "target": "Fire"
@@ -8596,6 +8967,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor I: 110% HP for all Spirit Heroes",
             "name": "Spirit Armor I",
+            "description": "110% HP for all Spirit Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Spirit"
@@ -8619,6 +8991,7 @@
         "leaderAbility": {
             "fullName": "Human Might I: 110% Damage for all Human Heroes",
             "name": "Human Might I",
+            "description": "110% Damage for all Human Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Human"
@@ -8642,6 +9015,7 @@
         "leaderAbility": {
             "fullName": "Water Might I: 110% Damage for all Water Heroes",
             "name": "Water Might I",
+            "description": "110% Damage for all Water Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Water"
@@ -8665,6 +9039,7 @@
         "leaderAbility": {
             "fullName": "Water Might II: 120% Damage for all Water Heroes",
             "name": "Water Might II",
+            "description": "120% Damage for all Water Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Water"
@@ -8688,6 +9063,7 @@
         "leaderAbility": {
             "fullName": "Water Might III: 140% Damage for all Water Heroes",
             "name": "Water Might III",
+            "description": "140% Damage for all Water Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Water"
@@ -8711,6 +9087,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might I: 110% Damage for all Balanced Heroes",
             "name": "Balanced Might I",
+            "description": "110% Damage for all Balanced Heroes",
             "value": "110",
             "stat": "Damage",
             "target": "Balanced"
@@ -8734,6 +9111,7 @@
         "leaderAbility": {
             "fullName": "Balanced Might II: 120% Damage for all Balanced Heroes",
             "name": "Balanced Might II",
+            "description": "120% Damage for all Balanced Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Balanced"
@@ -8757,6 +9135,7 @@
         "leaderAbility": {
             "fullName": "Water Armor I: 110% HP for all Water Heroes",
             "name": "Water Armor I",
+            "description": "110% HP for all Water Heroes",
             "value": "110",
             "stat": "HP",
             "target": "Water"
@@ -8780,6 +9159,7 @@
         "leaderAbility": {
             "fullName": "Water Armor II: 120% HP for all Water Heroes",
             "name": "Water Armor II",
+            "description": "120% HP for all Water Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Water"
@@ -8803,6 +9183,7 @@
         "leaderAbility": {
             "fullName": "Water Armor III: 140% HP for all Water Heroes",
             "name": "Water Armor III",
+            "description": "140% HP for all Water Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Water"
@@ -8826,6 +9207,7 @@
         "leaderAbility": {
             "fullName": "Water Armor IV: 160% HP for all Water Heroes",
             "name": "Water Armor IV",
+            "description": "160% HP for all Water Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Water"
@@ -8849,6 +9231,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor II: 120% HP for all Warrior Heroes",
             "name": "Warrior Armor II",
+            "description": "120% HP for all Warrior Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Warrior"
@@ -8872,6 +9255,7 @@
         "leaderAbility": {
             "fullName": "Warrior Armor III: 140% HP for all Warrior Heroes",
             "name": "Warrior Armor III",
+            "description": "140% HP for all Warrior Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Warrior"
@@ -8895,6 +9279,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor III: 140% HP for all Defender Heroes",
             "name": "Defender Armor III",
+            "description": "140% HP for all Defender Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Defender"
@@ -8918,6 +9303,7 @@
         "leaderAbility": {
             "fullName": "Defender Armor IV: 160% HP for all Defender Heroes",
             "name": "Defender Armor IV",
+            "description": "160% HP for all Defender Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Defender"
@@ -8941,6 +9327,7 @@
         "leaderAbility": {
             "fullName": "Human Might II: 120% Damage for all Human Heroes",
             "name": "Human Might II",
+            "description": "120% Damage for all Human Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Human"
@@ -8964,6 +9351,7 @@
         "leaderAbility": {
             "fullName": "Human Might III: 140% Damage for all Human Heroes",
             "name": "Human Might III",
+            "description": "140% Damage for all Human Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Human"
@@ -8987,6 +9375,7 @@
         "leaderAbility": {
             "fullName": "Guardian Blessing IV: 160% REC for all Guardian Heroes",
             "name": "Guardian Blessing IV",
+            "description": "160% REC for all Guardian Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Guardian"
@@ -9010,6 +9399,7 @@
         "leaderAbility": {
             "fullName": "Water Might III: 140% Damage for all Water Heroes",
             "name": "Water Might III",
+            "description": "140% Damage for all Water Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Water"
@@ -9033,6 +9423,7 @@
         "leaderAbility": {
             "fullName": "Water Might IV: 160% Damage for all Water Heroes",
             "name": "Water Might IV",
+            "description": "160% Damage for all Water Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Water"
@@ -9056,6 +9447,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might IV: 160% Damage for all Warrior Heroes",
             "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Warrior"
@@ -9079,6 +9471,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might V: 180% Damage for all Dragon Heroes",
             "name": "Dragon Might V",
+            "description": "180% Damage for all Dragon Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Dragon"
@@ -9102,6 +9495,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing I: 110% REC for all Water Heroes",
             "name": "Water Blessing I",
+            "description": "110% REC for all Water Heroes",
             "value": "110",
             "stat": "REC",
             "target": "Water"
@@ -9125,6 +9519,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing II: 120% REC for all Water Heroes",
             "name": "Water Blessing II",
+            "description": "120% REC for all Water Heroes",
             "value": "120",
             "stat": "REC",
             "target": "Water"
@@ -9148,6 +9543,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing III: 140% REC for all Water Heroes",
             "name": "Water Blessing III",
+            "description": "140% REC for all Water Heroes",
             "value": "140",
             "stat": "REC",
             "target": "Water"
@@ -9171,6 +9567,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might II: 120% Damage for all Attacker Heroes",
             "name": "Attacker Might II",
+            "description": "120% Damage for all Attacker Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Attacker"
@@ -9194,6 +9591,7 @@
         "leaderAbility": {
             "fullName": "Attacker Might III: 140% Damage for all Attacker Heroes",
             "name": "Attacker Might III",
+            "description": "140% Damage for all Attacker Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Attacker"
@@ -9217,6 +9615,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor II: 120% HP for all Guardian Heroes",
             "name": "Guardian Armor II",
+            "description": "120% HP for all Guardian Heroes",
             "value": "120",
             "stat": "HP",
             "target": "Guardian"
@@ -9240,6 +9639,7 @@
         "leaderAbility": {
             "fullName": "Guardian Armor III: 140% HP for all Guardian Heroes",
             "name": "Guardian Armor III",
+            "description": "140% HP for all Guardian Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Guardian"
@@ -9263,6 +9663,7 @@
         "leaderAbility": {
             "fullName": "Water Armor III: 140% HP for all Water Heroes",
             "name": "Water Armor III",
+            "description": "140% HP for all Water Heroes",
             "value": "140",
             "stat": "HP",
             "target": "Water"
@@ -9286,6 +9687,7 @@
         "leaderAbility": {
             "fullName": "Water Armor IV: 160% HP for all Water Heroes",
             "name": "Water Armor IV",
+            "description": "160% HP for all Water Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Water"
@@ -9309,6 +9711,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might VI: 200% Damage for all Spirit Heroes",
             "name": "Spirit Might VI",
+            "description": "200% Damage for all Spirit Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Spirit"
@@ -9332,6 +9735,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing VI: 200% REC for all Water Heroes",
             "name": "Water Blessing VI",
+            "description": "200% REC for all Water Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Water"
@@ -9355,6 +9759,7 @@
         "leaderAbility": {
             "fullName": "Mage Might III: 140% Damage for all Mage Heroes",
             "name": "Mage Might III",
+            "description": "140% Damage for all Mage Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Mage"
@@ -9378,6 +9783,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -9401,6 +9807,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -9424,6 +9831,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing V: 180% REC for all Water Heroes",
             "name": "Water Blessing V",
+            "description": "180% REC for all Water Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Water"
@@ -9447,6 +9855,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing IV: 160% REC for all Water Heroes",
             "name": "Water Blessing IV",
+            "description": "160% REC for all Water Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Water"
@@ -9470,6 +9879,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor VI: 200% HP for all Giant Heroes",
             "name": "Giant Armor VI",
+            "description": "200% HP for all Giant Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Giant"
@@ -9493,6 +9903,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might V: 180% Damage for all Corrupt Heroes",
             "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Corrupt"
@@ -9516,6 +9927,7 @@
         "leaderAbility": {
             "fullName": "Human Might IV: 160% Damage for all Human Heroes",
             "name": "Human Might IV",
+            "description": "160% Damage for all Human Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Human"
@@ -9539,6 +9951,7 @@
         "leaderAbility": {
             "fullName": "Creature Might VI: 200% Damage for all Creature Heroes",
             "name": "Creature Might VI",
+            "description": "200% Damage for all Creature Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Creature"
@@ -9562,6 +9975,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing VI: 200% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing VI",
+            "description": "200% REC for all Corrupt Heroes",
             "value": "200",
             "stat": "REC",
             "target": "Corrupt"
@@ -9585,6 +9999,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor IV: 160% HP for all Giant Heroes",
             "name": "Giant Armor IV",
+            "description": "160% HP for all Giant Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Giant"
@@ -9608,6 +10023,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing V: 180% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing V",
+            "description": "180% REC for all Corrupt Heroes",
             "value": "180",
             "stat": "REC",
             "target": "Corrupt"
@@ -9631,6 +10047,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might V: 180% Damage for all Spirit Heroes",
             "name": "Spirit Might V",
+            "description": "180% Damage for all Spirit Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Spirit"
@@ -9654,6 +10071,7 @@
         "leaderAbility": {
             "fullName": "Mage Might IV: 160% Damage for all Mage Heroes",
             "name": "Mage Might IV",
+            "description": "160% Damage for all Mage Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Mage"
@@ -9677,6 +10095,7 @@
         "leaderAbility": {
             "fullName": "Human Might VI: 200% Damage for all Human Heroes",
             "name": "Human Might VI",
+            "description": "200% Damage for all Human Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Human"
@@ -9700,6 +10119,7 @@
         "leaderAbility": {
             "fullName": "Human Might V: 180% Damage for all Human Heroes",
             "name": "Human Might V",
+            "description": "180% Damage for all Human Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Human"
@@ -9723,6 +10143,7 @@
         "leaderAbility": {
             "fullName": "Water Blessing IV: 160% REC for all Water Heroes",
             "name": "Water Blessing IV",
+            "description": "160% REC for all Water Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Water"
@@ -9746,6 +10167,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might VI: 200% Damage for all Dragon Heroes",
             "name": "Dragon Might VI",
+            "description": "200% Damage for all Dragon Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Dragon"
@@ -9769,6 +10191,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor V: 180% HP for all Spirit Heroes",
             "name": "Spirit Armor V",
+            "description": "180% HP for all Spirit Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Spirit"
@@ -9792,6 +10215,7 @@
         "leaderAbility": {
             "fullName": "Spirit Might IV: 160% Damage for all Spirit Heroes",
             "name": "Spirit Might IV",
+            "description": "160% Damage for all Spirit Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Spirit"
@@ -9815,6 +10239,7 @@
         "leaderAbility": {
             "fullName": "Water Might V: 180% Damage for all Water Heroes",
             "name": "Water Might V",
+            "description": "180% Damage for all Water Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Water"
@@ -9838,6 +10263,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might VI: 200% Damage for all Demigod Heroes",
             "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Demigod"
@@ -9861,6 +10287,7 @@
         "leaderAbility": {
             "fullName": "Water Might II: 120% Damage for all Water Heroes",
             "name": "Water Might II",
+            "description": "120% Damage for all Water Heroes",
             "value": "120",
             "stat": "Damage",
             "target": "Water"
@@ -9884,6 +10311,7 @@
         "leaderAbility": {
             "fullName": "Water Might III: 140% Damage for all Water Heroes",
             "name": "Water Might III",
+            "description": "140% Damage for all Water Heroes",
             "value": "140",
             "stat": "Damage",
             "target": "Water"
@@ -9911,6 +10339,7 @@
         "leaderAbility": {
             "fullName": "Water Might IV: 160% Damage for all Water Heroes",
             "name": "Water Might IV",
+            "description": "160% Damage for all Water Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Water"
@@ -9934,6 +10363,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might V: 180% Damage for all Demigod Heroes",
             "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Demigod"
@@ -9957,6 +10387,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor VI: 200% HP for all Creature Heroes",
             "name": "Creature Armor VI",
+            "description": "200% HP for all Creature Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Creature"
@@ -9980,6 +10411,7 @@
         "leaderAbility": {
             "fullName": "Dragon Might IV: 160% Damage for all Dragon Heroes",
             "name": "Dragon Might IV",
+            "description": "160% Damage for all Dragon Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Dragon"
@@ -10003,6 +10435,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor V: 180% HP for all Creature Heroes",
             "name": "Creature Armor V",
+            "description": "180% HP for all Creature Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Creature"
@@ -10026,6 +10459,7 @@
         "leaderAbility": {
             "fullName": "Creature Might V: 180% Damage for all Creature Heroes",
             "name": "Creature Might V",
+            "description": "180% Damage for all Creature Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Creature"
@@ -10049,6 +10483,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Blessing IV: 160% REC for all Corrupt Heroes",
             "name": "Corrupt Blessing IV",
+            "description": "160% REC for all Corrupt Heroes",
             "value": "160",
             "stat": "REC",
             "target": "Corrupt"
@@ -10072,6 +10507,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor VI: 200% HP for all Balanced Heroes",
             "name": "Balanced Armor VI",
+            "description": "200% HP for all Balanced Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Balanced"
@@ -10095,6 +10531,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor V: 180% HP for all Balanced Heroes",
             "name": "Balanced Armor V",
+            "description": "180% HP for all Balanced Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Balanced"
@@ -10118,6 +10555,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might IV: 160% Damage for all Corrupt Heroes",
             "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Corrupt"
@@ -10145,6 +10583,7 @@
         "leaderAbility": {
             "fullName": "Water Might VI: 200% Damage for all Water Heroes",
             "name": "Water Might VI",
+            "description": "200% Damage for all Water Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Water"
@@ -10172,6 +10611,7 @@
         "leaderAbility": {
             "fullName": "Water Might V: 180% Damage for all Water Heroes",
             "name": "Water Might V",
+            "description": "180% Damage for all Water Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Water"
@@ -10195,6 +10635,7 @@
         "leaderAbility": {
             "fullName": "Creature Armor IV: 160% HP for all Creature Heroes",
             "name": "Creature Armor IV",
+            "description": "160% HP for all Creature Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Creature"
@@ -10218,6 +10659,7 @@
         "leaderAbility": {
             "fullName": "Water Might VI: 200% Damage for all Water Heroes",
             "name": "Water Might VI",
+            "description": "200% Damage for all Water Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Water"
@@ -10241,6 +10683,7 @@
         "leaderAbility": {
             "fullName": "Giant Might V: 180% Damage for all Giant Heroes",
             "name": "Giant Might V",
+            "description": "180% Damage for all Giant Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Giant"
@@ -10264,6 +10707,7 @@
         "leaderAbility": {
             "fullName": "Balanced Armor IV: 160% HP for all Balanced Heroes",
             "name": "Balanced Armor IV",
+            "description": "160% HP for all Balanced Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Balanced"
@@ -10287,6 +10731,7 @@
         "leaderAbility": {
             "fullName": "Water Might V: 180% Damage for all Water Heroes",
             "name": "Water Might V",
+            "description": "180% Damage for all Water Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Water"
@@ -10310,6 +10755,7 @@
         "leaderAbility": {
             "fullName": "Water Might VI: 200% Damage for all Water Heroes",
             "name": "Water Might VI",
+            "description": "200% Damage for all Water Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Water"
@@ -10333,6 +10779,7 @@
         "leaderAbility": {
             "fullName": "Water Might IV: 160% Damage for all Water Heroes",
             "name": "Water Might IV",
+            "description": "160% Damage for all Water Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Water"
@@ -10356,6 +10803,7 @@
         "leaderAbility": {
             "fullName": "Warrior Might V: 180% Damage for all Warrior Heroes",
             "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Warrior"
@@ -10379,6 +10827,7 @@
         "leaderAbility": {
             "fullName": "Mage Might VI: 200% Damage for all Mage Heroes",
             "name": "Mage Might VI",
+            "description": "200% Damage for all Mage Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Mage"
@@ -10402,6 +10851,7 @@
         "leaderAbility": {
             "fullName": "Creature Might IV: 160% Damage for all Creature Heroes",
             "name": "Creature Might IV",
+            "description": "160% Damage for all Creature Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Creature"
@@ -10425,6 +10875,7 @@
         "leaderAbility": {
             "fullName": "Mage Might V: 180% Damage for all Mage Heroes",
             "name": "Mage Might V",
+            "description": "180% Damage for all Mage Heroes",
             "value": "180",
             "stat": "Damage",
             "target": "Mage"
@@ -10448,6 +10899,7 @@
         "leaderAbility": {
             "fullName": "Water Armor V: 180% HP for all Water Heroes",
             "name": "Water Armor V",
+            "description": "180% HP for all Water Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Water"
@@ -10471,6 +10923,7 @@
         "leaderAbility": {
             "fullName": "Demigod Might IV: 160% Damage for all Demigod Heroes",
             "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Demigod"
@@ -10494,6 +10947,7 @@
         "leaderAbility": {
             "fullName": "Water Armor VI: 200% HP for all Water Heroes",
             "name": "Water Armor VI",
+            "description": "200% HP for all Water Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Water"
@@ -10517,6 +10971,7 @@
         "leaderAbility": {
             "fullName": "Corrupt Might VI: 200% Damage for all Corrupt Heroes",
             "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Corrupt"
@@ -10540,6 +10995,7 @@
         "leaderAbility": {
             "fullName": "Giant Might IV: 160% Damage for all Giant Heroes",
             "name": "Giant Might IV",
+            "description": "160% Damage for all Giant Heroes",
             "value": "160",
             "stat": "Damage",
             "target": "Giant"
@@ -10563,6 +11019,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor VI: 200% HP for all Spirit Heroes",
             "name": "Spirit Armor VI",
+            "description": "200% HP for all Spirit Heroes",
             "value": "200",
             "stat": "HP",
             "target": "Spirit"
@@ -10586,6 +11043,7 @@
         "leaderAbility": {
             "fullName": "Giant Might VI: 200% Damage for all Giant Heroes",
             "name": "Giant Might VI",
+            "description": "200% Damage for all Giant Heroes",
             "value": "200",
             "stat": "Damage",
             "target": "Giant"
@@ -10609,6 +11067,7 @@
         "leaderAbility": {
             "fullName": "Spirit Armor IV: 160% HP for all Spirit Heroes",
             "name": "Spirit Armor IV",
+            "description": "160% HP for all Spirit Heroes",
             "value": "160",
             "stat": "HP",
             "target": "Spirit"
@@ -10632,6 +11091,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"
@@ -10655,6 +11115,7 @@
         "leaderAbility": {
             "fullName": "Giant Armor V: 180% HP for all Giant Heroes",
             "name": "Giant Armor V",
+            "description": "180% HP for all Giant Heroes",
             "value": "180",
             "stat": "HP",
             "target": "Giant"

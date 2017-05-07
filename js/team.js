@@ -10,6 +10,16 @@ Team.prototype.addHero = function (hero) {
     this.heroes.push(hero);
 };
 
+Team.prototype.removeHero = function (id) {
+    console.log('remove id ' + id);
+    for (var i = this.heroes.length - 1; i >= 0 ; --i) {
+        if (this.heroes[i].id == id) {
+            this.heroes.splice(i, 1);
+            break;
+        }
+    }
+};
+
 Team.prototype.getHeroes = function (filters) {
     var heroes = this.heroes.slice();
 
@@ -52,4 +62,14 @@ Team.prototype.getUniqueHeroesProperties = function (property) {
             return value && self.indexOf(value) === index;
         })
         .sort();
+};
+
+Team.prototype.find = function (id) {
+    for (var i = 0; i < this.heroes.length; ++i) {
+        if (this.heroes[i].id == id) {
+            return this.heroes[i];
+        }
+    }
+
+    return null;
 };

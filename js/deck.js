@@ -19,34 +19,38 @@ function Deck(heroes) {
 }
 
 Deck.prototype.calculate = function (property, affinity) {
-    var result = 0;
-    var leaderTarget = this.leaderAblility.target;
-    var leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat];
-    var debug = [];
+    var result = 0,
+        leaderTarget = this.leaderAblility.target,
+        leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat],
+        heroCountersOpponent,
+        opponentCountersHero,
+        debug = [];
+
     for (var i = 0; i < this.heroes.length; i++) {
-        var hero = {
-            name: this.heroes[i].name,
-            affinity: this.heroes[i].affinity,
-            attack: this.heroes[i].attack,
-            recovery: this.heroes[i].recovery,
-            health: this.heroes[i].health,
-            type: this.heroes[i].type,
-            species: this.heroes[i].species
-        };
+        var hero = new Hero(this.heroes[i]);
 
-        debug.push(hero.name + ': ' + hero.affinity + ' vs ' + affinity + '(' + (this.affinityCounterMap[hero.affinity] === affinity) + ', ' + (this.affinityCounterMap[affinity] === hero.affinity) + ')');
-        if (this.affinityCounterMap[hero.affinity] === affinity) {
-            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 1.5));
-            hero.attack = Math.round(hero.attack * 1.5);
-        } else if (this.affinityCounterMap[affinity] === hero.affinity) {
-            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + Math.round(hero.attack * 0.5));
-            hero.attack = Math.round(hero.attack * 0.5);
+        heroCountersOpponent = this.affinityCounterMap[hero.affinity] === affinity;
+        opponentCountersHero = this.affinityCounterMap[affinity] === hero.affinity;
+
+        debug.push(hero.name + ': ' + hero.affinity + ' vs ' + affinity + '(' + (heroCountersOpponent) + ', ' + (opponentCountersHero) + ')');
+
+        if (heroCountersOpponent) {
+            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + (hero.attack << 1));
+            hero.attack <<= 1;
+        } else if (opponentCountersHero) {
+            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + (hero.attack >> 1));
+            hero.attack >>= 1;
         }
 
+        // apply leader ability
         if ([hero.affinity, hero.type, hero.species].indexOf(leaderTarget) > -1) {
-            debug.push(hero.name + ': ' + leaderStat + ' ' + hero[leaderStat] + ' -> ' + Math.round(hero[leaderStat] * (this.leaderAblility.value / 100)) + ' by leaders ' + leaderStat + ' x'+ (this.leaderAblility.value / 100));
-            hero[leaderStat] = Math.round(hero[leaderStat] * (this.leaderAblility.value / 100));
+            var newStatValue = Math.round(hero[leaderStat] * (this.leaderAblility.value / 100));
+            debug.push(
+                hero.name + ': ' + leaderStat + ' ' + hero[leaderStat] + ' -> ' + newStatValue + ' by leaders ' + leaderStat + ' x'+ (this.leaderAblility.value / 100)
+            );
+            hero[leaderStat] = newStatValue;
         }
+
         result += hero[property];
     }
     return {

@@ -41,30 +41,7 @@
                 <team-heroes-list></team-heroes-list>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="decks">
-                <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks - possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity)</button>
-                <hr />
-                <div v-if="progress > -1" class="progress">
-                    <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
-                        {{ progress }}%
-                    </div>
-                </div>
-                <fieldset v-for="(deck, affinity) in bestDecks">
-                    <legend>Against: {{ affinity }}</legend>
-                    <p>attack score: {{ deck.value.format(0, 3) }}</p>
-                    <ul>
-                        <li v-for="(hero, key) in deck.heroes">
-                            <span v-bind:class="key === 0 ? 'text-danger': ''">
-                                {{ hero.name }} ({{ hero.affinity }} {{ hero.type }} {{ hero.species }} :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
-                            </span>
-                            <span v-if="key === 0"
-                                  class="glyphicon glyphicon-info-sign"
-                                  data-toggle="popover"
-                                  data-trigger="hover"
-                                  title="Leader ability"
-                                  :data-content="hero.leaderAbility.fullName"></span>
-                        </li>
-                    </ul>
-                </fieldset>
+                <computed-decks></computed-decks>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="heroes">
                 <all-heroes-list></all-heroes-list>
@@ -130,10 +107,11 @@
             </thead>
             <tbody>
             <tr v-for="hero in filteredHeroes">
-                <td>{{ hero.name }} <span style="color: #FFB404;" class="glyphicon glyphicon-star" v-for="n in hero.rarity "></span></td>
+                <td v-html="$options.filters.staredName(hero.name, hero.rarity)"></td>
                 <td>{{ hero.attack }}</td>
                 <td>{{ hero.recovery }}</td>
                 <td>{{ hero.health }}</td>
+                <td><span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" :data-hero-id="hero.id" @click="removeHeroFromList"></span></td>
             </tr>
             </tbody>
         </table>
@@ -142,14 +120,17 @@
 
 <template id="team-adding-form">
     <div class="jumbotron">
-        <form id="team-adding" role="form" method="post" class="form-horizontal" v-on:submit="addHeroToTeam">
+        <form id="team-adding" role="form" method="post" class="form-horizontal" @submit="addHeroToTeam">
             <fieldset>
                 <legend>Add hero to team</legend>
                 <div class='form-group'>
                     <div class='col-sm-12'>
                         <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true">
                             <optgroup v-for="affinity in affinities" :label="affinity">
-                                <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id">{{ hero.name }}</option>
+                                <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id"
+                                        :data-content="hero.name|staredName(hero.rarity)"
+                                >{{ hero.name }}
+                                </option>
                             </optgroup>
                         </select>
                     </div>
@@ -170,6 +151,38 @@
             </fieldset>
         </form>
     </div>
+</template>
+
+<template id="computed-decks">
+    <section>
+        <span v-if="teamHeroes.heroes.length < 5">Add some more heroes to your team</span>
+        <button v-if="teamHeroes.heroes.length >= 5" id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks<br /><small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small></button>
+        <button id="stop-calculations" style="display: none" class="btn btn-danger" v-on:click="stopCalculations">Stop calculations</button>
+        <hr />
+        <div v-if="progress > -1" class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
+                {{ progress }}%
+            </div>
+        </div>
+        <fieldset v-for="(deck, affinity) in bestDecks">
+            <legend>Against: {{ affinity }}</legend>
+            <p>attack score: {{ deck.value.format(0, 3) }}</p>
+            <ul>
+                <li v-for="(hero, key) in deck.heroes">
+                            <span v-bind:class="key === 0 ? 'text-danger': ''">
+                                <span v-html="$options.filters.staredName(hero.name, hero.rarity)"></span>
+                                ({{ hero.affinity }} {{ hero.type }} {{ hero.species }} :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
+                            </span>
+                    <span v-if="key === 0"
+                          class="glyphicon glyphicon-info-sign"
+                          data-toggle="popover"
+                          data-trigger="hover"
+                          :title="hero.leaderAbility.name"
+                          :data-content="hero.leaderAbility.description"></span>
+                </li>
+            </ul>
+        </fieldset>
+    </section>
 </template>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
