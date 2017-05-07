@@ -5,23 +5,24 @@ function DeckGenerator(heroes) {
 DeckGenerator.prototype.generate = function () {
     console.log('GENERATOR STARTED');
     var possibilities = this.countPossibilities();
+    var onePercentOfPossibilities = Math.round(possibilities/100);
     var counter = 0;
     var bestDeck = {};
     var affinities = {'Fire': null, 'Water': null, 'Earth': null, 'Light': null, 'Dark': null};
-    var combinations = function (heroes, len, offset, result) {
+    var combinations = function (leaderHero, heroes, len, offset, result) {
         if (len === 0) {
-            if (!(++counter % 100) || counter === possibilities) {
+            if (!(++counter % onePercentOfPossibilities) || counter === possibilities) {
                 this.postMessage(JSON.stringify({progress: Math.round(counter / possibilities * 100)}));
             }
 
-            var d = new Deck(result);
+            var d = new Deck([leaderHero].concat(result));
             for (var affinity in affinities) {
                 var calculated = d.calculate('attack', affinity);
 
                 if (!bestDeck.hasOwnProperty(affinity) || calculated.result > bestDeck[affinity].value) {
                     bestDeck[affinity] = {
                         value: calculated.result,
-                        heroes: JSON.parse(JSON.stringify(result)),
+                        heroes: d.heroes.slice(),
                         debug: calculated.debug
                     };
                 }
@@ -32,11 +33,20 @@ DeckGenerator.prototype.generate = function () {
 
         for (var i = offset; i <= heroes.length - len; i++) {
             result[result.length - len] = heroes[i];
-            combinations(heroes, len - 1, i + 1, result);
+            combinations(leaderHero, heroes, len - 1, i + 1, result);
         }
     };
 
-    combinations(this.heroes, 5, 0, new Array(5));
+    // for every hero as leader check every four other cards possibilities
+    for (var i = 0; i < this.heroes.length; ++i) {
+        var start = new Date();
+        var heroes = this.heroes.slice();
+        var leaderHero = heroes[i];
+        heroes.splice(i, 1);
+        combinations(leaderHero, heroes, 4, 0, new Array(4));
+        var time = new Date() - start;
+        console.log(time);
+    }
 
     console.log('GENERATOR ENDED');
 
@@ -44,12 +54,15 @@ DeckGenerator.prototype.generate = function () {
 };
 
 DeckGenerator.prototype.countPossibilities = function () {
+    // for every hero as leader check every four other cards possibilities
+    // n * (n-1 choose 4)
+
     var result = 1;
     var heroesCount = this.heroes.length;
 
-    for (var i = 1; i <= 5; ++i) {
-        result *= (heroesCount - i + 1) / i;
+    for (var i = 1; i <= 4; ++i) {
+        result *= (heroesCount - i) / i;
     }
 
-    return result;
+    return heroesCount * result;
 };

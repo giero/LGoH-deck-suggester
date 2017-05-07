@@ -168,6 +168,19 @@ Vue.component('team-adding-form', {
             }
         }
     },
+    mounted: function () {
+        var self = this;
+
+        // fill by default hero stats values
+        $('#team-adding').find('select').on('hidden.bs.select', function (e) {
+            var heroId = $(this).find('option:selected').val();
+            var hero = self.allHeroes.find(heroId);
+
+            for (var stat in {'attack': null, 'recovery': null, 'health': null}) {
+                $('#team-hero-' + stat).val(hero[stat]);
+            }
+        });
+    },
     filters: {
         staredName: staredName
     }

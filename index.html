@@ -155,7 +155,8 @@
 
 <template id="computed-decks">
     <section>
-        <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks<br /><small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small></button>
+        <span v-if="teamHeroes.heroes.length < 5">Add some more heroes to your team</span>
+        <button v-if="teamHeroes.heroes.length >= 5" id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">Calculate decks<br /><small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small></button>
         <button id="stop-calculations" style="display: none" class="btn btn-danger" v-on:click="stopCalculations">Stop calculations</button>
         <hr />
         <div v-if="progress > -1" class="progress">
