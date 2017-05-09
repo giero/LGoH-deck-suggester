@@ -4,5 +4,5 @@ onmessage = function(e) {
     var dg = new DeckGenerator(e.data);
     var generated = dg.generate();
     console.log(generated);
-    this.postMessage(JSON.stringify(generated));
+    this.postMessage(generated);
 };
