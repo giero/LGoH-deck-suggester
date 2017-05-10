@@ -4,11 +4,12 @@ function DeckGenerator(heroes) {
 
 DeckGenerator.prototype.generate = function () {
     console.log('GENERATOR STARTED');
+    var generatorStart = new Date();
     var possibilities = this.countPossibilities();
-    var onePercentOfPossibilities = Math.round(possibilities / 100);
+    var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
-    var bestDecks = {};
-    var affinities = {'Fire': null, 'Water': null, 'Earth': null, 'Light': null, 'Dark': null};
+    var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}};
+
     var combinations = function (leaderHero, heroes, len, offset, result) {
         if (len === 0) {
             if (!(++counter % onePercentOfPossibilities)) {
@@ -16,22 +17,26 @@ DeckGenerator.prototype.generate = function () {
             }
 
             var deck = new Deck([leaderHero].concat(result));
-            for (var affinity in affinities) {
-                var calculatedResult = deck.calculate('attack', affinity);
+            for (var affinity in bestDecks) {
+                var deckValues = deck.calculate(affinity);
 
-                if (!bestDecks.hasOwnProperty(affinity) || calculatedResult > bestDecks[affinity].value) {
-                    bestDecks[affinity] = {
-                        value: calculatedResult,
-                        heroes: deck.heroes
-                    };
+                for (var stat in deckValues) {
+                    if (deckValues.hasOwnProperty(stat)) {
+                        if (!bestDecks[affinity].hasOwnProperty(stat) || deckValues[stat] > bestDecks[affinity][stat].value) {
+                            bestDecks[affinity][stat] = {
+                                value: deckValues[stat],
+                                heroes: deck.heroes
+                            };
+                        }
+                    }
                 }
             }
 
             return;
         }
 
-        for (var i = offset; i <= heroes.length - len; i++) {
-            result[result.length - len] = heroes[i];
+        for (var i = offset, rl = result.length, hl = heroes.length; i <= hl - len; i++) {
+            result[rl - len] = heroes[i];
             combinations(leaderHero, heroes, len - 1, i + 1, result);
         }
     };
@@ -49,7 +54,7 @@ DeckGenerator.prototype.generate = function () {
         console.log(time);
     }
 
-    console.log('GENERATOR ENDED');
+    console.log('GENERATOR ENDED after ' + (new Date() - generatorStart));
 
     return bestDecks;
 };
