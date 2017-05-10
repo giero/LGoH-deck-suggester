@@ -11,7 +11,6 @@ Team.prototype.addHero = function (hero) {
 };
 
 Team.prototype.removeHero = function (id) {
-    console.log('remove id ' + id);
     for (var i = this.heroes.length - 1; i >= 0 ; --i) {
         if (this.heroes[i].id == id) {
             this.heroes.splice(i, 1);

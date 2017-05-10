@@ -37,7 +37,6 @@
 
 <div id="app" class="container" role="main">
     <div class="row">
-
         <div class="tab-content" id="page-content">
             <div class="tab-pane fade active in" role="tabpanel" id="team">
                 <team-adding-form></team-adding-form>
@@ -181,7 +180,7 @@
             <div class="panel panel-body">
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" v-bind:class="stat == 'attack' ? 'active' : ''" v-for="(deck, stat) in decksByStat">
-                        <a :href="'#computed-' + affinity + '-' + stat" aria-controls="home" role="tab" data-toggle="tab">
+                        <a :href="'#computed-' + affinity + '-' + stat" role="tab" data-toggle="tab">
                             {{ stat }} (score: {{ deck.value.format(0, 3) }})
                         </a>
                     </li>
@@ -197,12 +196,12 @@
                                 <span v-html="$options.filters.staredName(hero.name, hero.rarity)"></span>
                                 ({{ hero.affinity }} {{ hero.type }} {{ hero.species }} :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
                             </span>
-                                <span v-if="key === 0"
-                                      class="glyphicon glyphicon-info-sign"
-                                      data-toggle="popover"
-                                      data-trigger="hover"
-                                      :title="hero.leaderAbility.name"
-                                      :data-content="hero.leaderAbility.description"></span>
+                            <span v-if="key === 0"
+                                  class="glyphicon glyphicon-info-sign"
+                                  data-toggle="popover"
+                                  data-trigger="hover"
+                                  :title="hero.leaderAbility.name"
+                                  :data-content="hero.leaderAbility.description"></span>
                             </li>
                         </ul>
                     </div>

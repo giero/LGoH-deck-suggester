@@ -3,12 +3,23 @@ function DeckGenerator(heroes) {
 }
 
 DeckGenerator.prototype.generate = function () {
-    console.log('GENERATOR STARTED');
-    var generatorStart = new Date();
     var possibilities = this.countPossibilities();
     var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
+
     var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}};
+    for (var affinity in bestDecks) {
+        bestDecks[affinity] = {
+            power: {
+                value: 0,
+                heroes: []
+            },
+            attack: {
+                value: 0,
+                heroes: []
+            }
+        };
+    }
 
     var combinations = function (leaderHero, heroes, len, offset, result) {
         if (len === 0) {
@@ -20,15 +31,21 @@ DeckGenerator.prototype.generate = function () {
             for (var affinity in bestDecks) {
                 var deckValues = deck.calculate(affinity);
 
-                for (var stat in deckValues) {
-                    if (deckValues.hasOwnProperty(stat)) {
-                        if (!bestDecks[affinity].hasOwnProperty(stat) || deckValues[stat] > bestDecks[affinity][stat].value) {
-                            bestDecks[affinity][stat] = {
-                                value: deckValues[stat],
-                                heroes: deck.heroes
-                            };
-                        }
-                    }
+                // Array-type access of object's property is slow
+                // and I need this code to run as fast as it can be - remember it's called millions of times
+                // (for 70 cards it's over 300.000.000 times)
+
+                if (deckValues.power > bestDecks[affinity].power.value) {
+                    bestDecks[affinity].power = {
+                        value: deckValues.power,
+                        heroes: deck.heroes
+                    };
+                }
+                if (deckValues.attack > bestDecks[affinity].attack.value) {
+                    bestDecks[affinity].attack = {
+                        value: deckValues.attack,
+                        heroes: deck.heroes
+                    };
                 }
             }
 
@@ -42,19 +59,12 @@ DeckGenerator.prototype.generate = function () {
     };
 
     // for every hero as leader check every four other cards possibilities
-    for (var i = 0; i < this.heroes.length; ++i) {
-        var start = new Date();
-
+    for (var i = this.heroes.length - 1; i >= 0; --i) {
         var heroes = this.heroes.slice();
         var leaderHero = heroes[i];
         heroes.splice(i, 1);
         combinations(leaderHero, heroes, 4, 0, new Array(4));
-
-        var time = new Date() - start;
-        console.log(time);
     }
-
-    console.log('GENERATOR ENDED after ' + (new Date() - generatorStart));
 
     return bestDecks;
 };

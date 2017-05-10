@@ -37,21 +37,18 @@ function Deck(heroes) {
 Deck.prototype.calculate = function (affinity) {
     var deckValues = {
         power: 0,
-        attack: 0,
-        recovery: 0,
-        health: 0
+        attack: 0
     };
 
     for (var i = this.heroes.length - 1; i >= 0; --i) {
         var hero = new Hero(this.heroes[i]); // copy for local stats modifications
 
-        var heroCountersOpponent = this.affinityCounterMap[hero.affinity] === affinity;
-        var opponentCountersHero = this.affinityCounterMap[affinity] === hero.affinity;
-
         // apply affinity bonus / counter bonus
-        if (heroCountersOpponent) {
+        if (this.affinityCounterMap[hero.affinity] === affinity) {
+            // hero counters opponent
             hero.attack <<= 1;
-        } else if (opponentCountersHero) {
+        } else if (this.affinityCounterMap[affinity] === hero.affinity) {
+            // opponent counters hero
             hero.attack >>= 1;
         }
 
@@ -65,8 +62,6 @@ Deck.prototype.calculate = function (affinity) {
         // it's faster than doing the same thing in a loop - believe me :?
         deckValues.power += hero.power;
         deckValues.attack += hero.attack;
-        deckValues.recovery += hero.recovery;
-        deckValues.health += hero.health;
     }
     return deckValues;
 };
