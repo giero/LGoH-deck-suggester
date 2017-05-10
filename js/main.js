@@ -212,9 +212,9 @@ Vue.component('computed-decks', {
             this.worker = new Worker('js/deck_worker.js');
 
             this.worker.onmessage = function (e) {
-                var data = JSON.parse(e.data);
-                if (data.hasOwnProperty('progress')) {
-                    self.progress = data.progress;
+                var data = e.data;
+                if (!(data instanceof Object)) {
+                    self.progress = data;
                 } else if (data.hasOwnProperty('Fire')) {
                     self.bestDecks = data;
                     self.stopCalculations();

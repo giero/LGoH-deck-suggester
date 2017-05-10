@@ -1,12 +1,5 @@
 function Deck(heroes) {
     this.heroes = heroes;
-    this.leaderAblility = heroes[0].leaderAbility;
-
-    this.leaderAblilityStatMap = {
-        'Damage': 'attack',
-        'REC': 'recovery',
-        'HP': 'health'
-    };
 
     this.affinityCounterMap = {
         'Fire': 'Earth',
@@ -16,45 +9,43 @@ function Deck(heroes) {
         'Dark': 'Light'
     };
 
+    this.leaderTarget = this.heroes[0].leaderAbility.target;
+    this.leaderStat = {
+        'Damage': 'attack',
+        'REC': 'recovery',
+        'HP': 'health'
+    }[this.heroes[0].leaderAbility.stat];
+    this.leaderStatValue = this.heroes[0].leaderAbility.value / 100;
 }
 
 Deck.prototype.calculate = function (property, affinity) {
-    var result = 0,
-        leaderTarget = this.leaderAblility.target,
-        leaderStat = this.leaderAblilityStatMap[this.leaderAblility.stat],
-        heroCountersOpponent,
-        opponentCountersHero,
-        debug = [];
+    var deckValue = 0;
 
     for (var i = 0; i < this.heroes.length; i++) {
-        var hero = new Hero(this.heroes[i]);
+        var hero = new Hero(this.heroes[i]); // copy for local stats modifications
 
-        heroCountersOpponent = this.affinityCounterMap[hero.affinity] === affinity;
-        opponentCountersHero = this.affinityCounterMap[affinity] === hero.affinity;
+        var heroCountersOpponent = this.affinityCounterMap[hero.affinity] === affinity;
+        var opponentCountersHero = this.affinityCounterMap[affinity] === hero.affinity;
 
-        debug.push(hero.name + ': ' + hero.affinity + ' vs ' + affinity + '(' + (heroCountersOpponent) + ', ' + (opponentCountersHero) + ')');
-
+        // apply affinity bonus or counter bonus
         if (heroCountersOpponent) {
-            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + (hero.attack << 1));
             hero.attack <<= 1;
         } else if (opponentCountersHero) {
-            debug.push(hero.name + ': attack ' + hero.attack + ' -> ' + (hero.attack >> 1));
             hero.attack >>= 1;
         }
 
-        // apply leader ability
-        if ([hero.affinity, hero.type, hero.species].indexOf(leaderTarget) > -1) {
-            var newStatValue = Math.round(hero[leaderStat] * (this.leaderAblility.value / 100));
-            debug.push(
-                hero.name + ': ' + leaderStat + ' ' + hero[leaderStat] + ' -> ' + newStatValue + ' by leaders ' + leaderStat + ' x'+ (this.leaderAblility.value / 100)
-            );
-            hero[leaderStat] = newStatValue;
+        if (this.leaderStat === 'attack' || property === 'power') {
+            // apply leader ability
+            switch (this.leaderTarget) {
+                case hero.affinity:
+                case hero.type:
+                case hero.species:
+                    hero[this.leaderStat] = Math.round(hero[this.leaderStat] * this.leaderStatValue);
+                    break;
+            }
         }
 
-        result += hero[property];
+        deckValue += hero[property];
     }
-    return {
-        result: result,
-        debug: debug
-    };
+    return deckValue;
 };
