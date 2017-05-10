@@ -70,11 +70,7 @@ function csvToArray($filename = '', $delimiter = ',')
                 'description' => $leaderAbilityMatches[2],
                 'value' => $leaderAbilityMatches[3],
                 'stat' => $leaderAbilityMatches[4],
-                'target' => strpos(' ', $leaderAbilityMatches[5]) !== false
-                    ? array_map(function ($target) {
-                        return ucfirst($target);
-                    }, explode(' ', $leaderAbilityMatches[5]))
-                    : ucfirst($leaderAbilityMatches[5]),
+                'target' => $leaderAbilityMatches[5],
             ],
             'evolveFrom' => '',
             'evolveTo' => '',

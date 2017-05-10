@@ -3,6 +3,12 @@ body {
 	padding-bottom: 30px;
 }
 
+@media screen and (max-width: 991px) {
+	body {
+		padding-top: 140px;
+	}
+}
+
 .theme-dropdown .dropdown-menu {
 	position: static;
 	display: block;
