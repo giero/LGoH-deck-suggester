@@ -31,10 +31,6 @@ DeckGenerator.prototype.generate = function () {
             for (var affinity in bestDecks) {
                 var deckValues = deck.calculate(affinity);
 
-                // Array-type access of object's property is slow
-                // and I need this code to run as fast as it can be - remember it's called millions of times
-                // (for 70 cards it's over 300.000.000 times)
-
                 if (deckValues.power > bestDecks[affinity].power.value) {
                     bestDecks[affinity].power = {
                         value: deckValues.power,
@@ -73,13 +69,13 @@ DeckGenerator.prototype.countPossibilities = function () {
     // for every hero as leader check every four other cards possibilities
     // n * (n-1 choose 4)
 
-    var result = 1;
+    var combinations = 1;
     var heroesCount = this.heroes.length;
 
-    // (n-1) * (n-2) * (n-3) * (n-4) / (1 * 2 * 3 * 4)
+    // (n-1) * (n-2) * (n-3) * (n-4) / 4!
     for (var i = 1; i <= 4; ++i) {
-        result = result * (heroesCount - i) / i;
+        combinations = combinations * (heroesCount - i) / i;
     }
 
-    return heroesCount * result;
+    return heroesCount * combinations;
 };
