@@ -7,7 +7,7 @@ DeckGenerator.prototype.generate = function () {
     var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
 
-    var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}};
+    var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}, 'No affinity bonus': {}};
     for (var affinity in bestDecks) {
         bestDecks[affinity] = {
             power: {
