@@ -138,7 +138,7 @@ Vue.component('team-adding-form', {
                 formParams = {};
 
             $.each($form.serializeArray(), function (_, kv) {
-                formParams[kv.name] = kv.value;
+                formParams[kv.name] = parseInt(kv.value);
             });
 
             teamHeroes.addHero(
