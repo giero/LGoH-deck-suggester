@@ -88,11 +88,21 @@ dark	Professor Moriarty	******	30	Attacker	Fable				Demigod Might VI: 200% Damag
 dark	Bella, Heart Guard	****	9	Mage	God				Dark Armor IV: 160% HP for all Dark Heroes	Love's Guard: Upgrades 1 Dark gem into a Power I Gem. Charges extremely fast.	Weaken	Cure Blind
 dark	Bella, Protector Of Venus	*****	15	Mage	God				Dark Armor V: 180% HP for all Dark Heroes	Love's Protector: Upgrades 1 Dark gem into a Power II Gem. Charges extremely fast.	Weaken	Cure Blind
 dark	Empyrean Bella	******	30	Mage	God				Dark Armor VI: 200% HP for all Dark Heroes	Empyrean Blast: Upgrades 1 Dark gem into a Power III Gem. Charges extremely fast.	Weaken	Cure Blind
+dark	Masamune, Shadow Forged	***	6	Attacker	Spirit	1152	156	781	Spirit Armor III: 140% HP for all Spirit Heroes	Dark Void: If the target is Light, attack for 300% ATK. Damage self for 100% RCV.	Vessel	Cure Weaken
+dark	Masamune, Assassin's Friend	****	9	Attacker	Spirit	1875	251	1260	Spirit Armor IV: 160% HP for all Spirit Heroes	Dark Void: If the target is Light, attack for 300% ATK. Damage self for 100% RCV.	Vessel	Cure Weaken
 dark	Lord Dracula	****	9	Defender	Fable	759	253	3132	Dark Armor IV: 160% HP for all Dark Heroes	Dark Seduction: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 10% of ATK.	Weaken	Cure Traitor
 dark	Dhala, Avenging Angel	***	6	Attacker	Demigod	1140	152	761	Thrill of the Hunt I: 175% Damage for Water Bounty Hunters			
 dark	Dhala, Avenging Angel	****	9	Attacker	Demigod	1881	253	1266	Thrill of the Hunt II: 200% Damage for Water Bounty Hunters			
 dark	Dhala, Avenging Angel	*****	15	Attacker	Demigod	3181	426	2136	Thrill of the Hunt III: 225% Damage for Water Bounty Hunters			
 dark	Dhala, Avenging Angel	******	30	Attacker	Demigod	4626	618	3097	Thrill of the Hunt IV: 300% Damage for Water Bounty Hunters			
+dark	Lady Egestas	***	6	Attacker	Spirit	1202	162	815	Eggceptional Power I: 175% Damage and HP for all Dark Attacker Heroes	Rite of Spring: Fully heals yourself. Usable once every 7 turns.	Thorns	Cure Panic
+dark	Lady Egestas	****	9	Attacker	Spirit	1955	261	1312	Eggceptional Power II: 200% Damage and HP for all Dark Attacker Heroes	Rite of Spring: Fully heals yourself. Usable once every 7 turns.	Thorns	Cure Panic
+dark	Lady Egestas	*****	15	Attacker	Spirit	3313	444	2220	Eggceptional Power II: 225% Damage and HP for all Dark Attacker Heroes	Rite of Spring: Fully heals yourself. Increase the number of turns until the target attack by 1. Usable once every 7 turns.	Thorns	Cure Panic
+dark	Lady Egestas	******	30	Attacker	Spirit	4818	642	3217	Eggceptional Power III: 300% Damage and HP for all Dark Attacker Heroes	Rite of Spring: Fully heals yourself. Increase the number of turns until the target attack by 2. Usable once every 7 turns.	Thorns	Cure Panic
+dark	Wicked Queen	****	9	Mage	Human	1506	501	642	Mage Might IV: 160% Damage for all Mage Heroes	Dark Mirror: Remove 1 Debuff from a Hero. Heal for 10% of max HP.	Siphon	Dispel Armor
+dark	Archdemon Lucifel	****	9	Balanced	Corrupt	1168	388	1947	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Morningstar: Sacrifice 50% of your current HP to increase Lucifel's ATK by 50% for the rest of the battle.	Zombie	Dispel Might
+dark	Archdemon Lucifel	*****	15	Balanced	Corrupt	1990	662	3315	Corrupt Might V: 180% Damage for all Corrupt Heroes	Morningstar: Sacrifice 40% of your current HP to increase Lucifel's ATK by 100% for the rest of the battle.	Zombie	Dispel Might
+dark	Archdemon Lucifel	******	30	Balanced	Corrupt	2904	968	4840	Corrupt Might VI: 200% Damage for all Corrupt Heroes	Morningstar: Sacrifice 25% of your current HP to increase Lucifel's ATK by 250% for the rest of the battle.	Zombie	Dispel Might
 light	Griffin Pup	***	6	Defender	Creature	402	134	1665	Defender Armor III: 140% HP for all Defender Heroes	Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP	Blind	Dispel Regen
 light	Griffin	****	9	Defender	Creature	649	215	2706	Defender Armor IV: 160% HP for all Defender Heroes	Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP	Blind	Dispel Regen
 light	Shadowlight Pilgrim	*	2	Balanced	Dren	200	66	334	Balanced Might I: 110% Damage for all Balanced Heroes	Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns	Poison	Unknown

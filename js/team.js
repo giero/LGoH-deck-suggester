@@ -1,4 +1,5 @@
-function Team() {
+function Team(name) {
+    this.name = name;
     this.heroes = [];
 }
 
@@ -8,30 +9,34 @@ Team.prototype.addHero = function (hero) {
     }
 
     this.heroes.push(hero);
+    this.save();
 };
 
 Team.prototype.removeHero = function (id) {
     for (var i = this.heroes.length - 1; i >= 0 ; --i) {
         if (this.heroes[i].id == id) {
             this.heroes.splice(i, 1);
+            this.save();
             break;
         }
     }
 };
 
-Team.prototype.getHeroes = function (filters) {
+Team.prototype.getHeroes = function (filters, sort) {
     var heroes = this.heroes.slice();
 
-    heroes.sort(function (a, b) {
-        if ( a.name < b.name ) {
-            return -1;
-        } else if ( a.name > b.name ) {
-            return 1;
-        }
-        return 0;
-    });
+    if (!!sort) {
+        heroes.sort(function (a, b) {
+            if ( a.name < b.name ) {
+                return -1;
+            } else if ( a.name > b.name ) {
+                return 1;
+            }
+            return 0;
+        });
+    }
 
-    if (filters) {
+    if (filters && Object.keys(filters).length !== 0) {
         return heroes.filter(function (hero) {
             for(var filter in filters){
                 if (filters.hasOwnProperty(filter)) {
@@ -71,4 +76,22 @@ Team.prototype.find = function (id) {
     }
 
     return null;
+};
+
+Team.prototype.save = function () {
+    if (typeof(Storage) === "undefined") {
+        return;
+    }
+
+    localStorage.setItem('team::' + this.name , JSON.stringify(this.heroes));
+};
+
+Team.prototype.load = function () {
+    if (typeof(Storage) === "undefined") {
+        return;
+    }
+
+    var savedTeam = localStorage.getItem('team::' + this.name);
+
+    this.heroes = savedTeam ? JSON.parse(savedTeam) : [];
 };
