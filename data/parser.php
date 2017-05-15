@@ -29,6 +29,8 @@ function csvToArray($filename = '', $delimiter = ',')
 
     $dbData = [];
     $legendMap = [
+        2 => 2,
+        3 => 2,
         4 => 2,
         5 => 3,
         6 => 4,
@@ -38,11 +40,27 @@ function csvToArray($filename = '', $delimiter = ',')
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
 
-        if (!preg_match('/([\w ]+): ((\d+)% (\w+) for all (\w+( \w+)*) Heroes)/',
+        if (!preg_match('/^([^:]+): ((\d+)% ((\w+)( and (\w+))?) for (all )?((\w+( \w+)?) Heroes|\w+ Bounty Hunters))$/',
             $row['leader ability'],
             $leaderAbilityMatches)
         ) {
-            die('Invalid leader ability format for '.$row['name'].'('.$row['leader ability'].')');
+            var_dump(
+                'Invalid leader ability format for '.$row['name'].' ('.$row['leader ability'].')',
+                $leaderAbilityMatches
+            );
+            die();
+        }
+
+        if (isset($leaderAbilityMatches[10])) {
+            $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
+            $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
+                ? explode(' ', $leaderAbilityTarget)
+                : $leaderAbilityTarget;
+        } else {
+            $leaderAbilityTarget = rtrim($leaderAbilityMatches[9], 's');
+            $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
+                ? explode(' ', $leaderAbilityTarget, 2)
+                : $leaderAbilityTarget;
         }
 
         $dbData[] = [
@@ -51,15 +69,15 @@ function csvToArray($filename = '', $delimiter = ',')
             'affinity' => $affinity,
             'type' => $row['class'],
             'species' => $row['race'],
-            'attack' => '',
-            'recovery' => '',
-            'health' => '',
+            'attack' => (int)$row['attack'],
+            'recovery' => (int)$row['recovery'],
+            'health' => (int)$row['health'],
             'rarity' => $rarity,
-            'eventSkills' => $row['race'] == 'Legend' && $rarity > 3
+            'eventSkills' => $row['race'] == 'Legend' && $rarity >= 2
                 ? [
-                    $legendMap[$rarity].'x Slayer',
-                    $legendMap[$rarity].'x Bounty Hunter',
-                    $legendMap[$rarity].'x '.$affinity.' Commander',
+                    'Slayer' => "{$legendMap[$rarity]}x",
+                    'Bounty Hunter' => "{$legendMap[$rarity]}x",
+                    'Commander' => "{$affinity} {$legendMap[$rarity]}x",
                 ]
                 : [],
             'defenderSkill' => $row['defender skill'],
@@ -68,9 +86,16 @@ function csvToArray($filename = '', $delimiter = ',')
                 'fullName' => $row['leader ability'],
                 'name' => $leaderAbilityMatches[1],
                 'description' => $leaderAbilityMatches[2],
-                'value' => $leaderAbilityMatches[3],
-                'stat' => $leaderAbilityMatches[4],
-                'target' => $leaderAbilityMatches[5],
+                'value' => (int)$leaderAbilityMatches[3],
+                'stats' => explode(
+                    ' and ',
+                    str_replace(
+                        ['Damage', 'REC', 'HP'],
+                        ['attack', 'recovery', 'health'],
+                        $leaderAbilityMatches[4]
+                    )
+                ),
+                'target' => $leaderAbilityTarget
             ],
             'evolveFrom' => '',
             'evolveTo' => '',

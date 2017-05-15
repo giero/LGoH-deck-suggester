@@ -9,14 +9,8 @@ function Deck(heroes) {
         'Dark': 'Light'
     };
 
-    this.leaderTarget = this.heroes[0].leaderAbility.target.indexOf(' ') >= 0
-        ? this.heroes[0].leaderAbility.target.split(' ')
-        : this.heroes[0].leaderAbility.target;
-    this.leaderStat = {
-        'Damage': 'attack',
-        'REC': 'recovery',
-        'HP': 'health'
-    }[this.heroes[0].leaderAbility.stat];
+    this.leaderTarget = this.heroes[0].leaderAbility.target;
+    this.leaderStats = this.heroes[0].leaderAbility.stats;
     this.leaderStatValue = this.heroes[0].leaderAbility.value / 100;
 
     this.canApplyLeaderStat = (function (hero) {
@@ -27,7 +21,9 @@ function Deck(heroes) {
                 || this.leaderTarget === hero.species;
         } else {
             return this.leaderTarget.every(function (value) {
-                return ([hero.affinity, hero.type, hero.species].indexOf(value) >= 0);
+                return ([hero.affinity, hero.type, hero.species]
+                    .concat(Object.keys(hero.eventSkills))
+                    .indexOf(value) >= 0);
             });
         }
 
@@ -54,15 +50,18 @@ Deck.prototype.calculate = function (affinity) {
 
         // apply leader ability
         if (this.canApplyLeaderStat(hero)) {
-            hero[this.leaderStat] = Math.floor(hero[this.leaderStat] * this.leaderStatValue);
+            for (var ls = this.leaderStats.length - 1; ls >= 0; --ls) {
+                var leaderStat = this.leaderStats[ls];
+                hero[leaderStat] = Math.floor(hero[leaderStat] * this.leaderStatValue);
+            }
         }
 
         // TODO: apply Slayer event
 
-        // it's faster than doing the same thing in a loop - believe me :?
-        deckValues.power += hero.power;
         deckValues.attack += hero.attack;
+        deckValues.power += hero.power;
     }
+
     return deckValues;
 };
 
