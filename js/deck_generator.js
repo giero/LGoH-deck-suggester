@@ -2,7 +2,7 @@ function DeckGenerator(heroes) {
     this.heroes = heroes;
 }
 
-DeckGenerator.prototype.generate = function () {
+DeckGenerator.prototype.generate = function (options) {
     var possibilities = this.countPossibilities();
     var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
@@ -27,7 +27,7 @@ DeckGenerator.prototype.generate = function () {
                 this.postMessage(Math.round(counter / possibilities * 100));
             }
 
-            var deck = new Deck([leaderHero].concat(result));
+            var deck = new Deck([leaderHero].concat(result), options);
             for (var affinity in bestDecks) {
                 var deckValues = deck.calculate(affinity);
 

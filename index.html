@@ -161,12 +161,35 @@
 <template id="computed-decks">
     <section class="container">
         <div class="row">
-            <span v-if="teamHeroes.heroes.length < 5">Add some more heroes to your team</span>
-            <button v-if="teamHeroes.heroes.length >= 5" id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">
-                <p>Calculate decks</p>
-                <small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
-            </button>
-            <button id="stop-calculations" style="display: none" class="btn btn-danger" v-on:click="stopCalculations">Stop calculations</button>
+            <div v-show="teamHeroes.heroes.length < 5">
+                <span>Add some more heroes to your team</span>
+            </div>
+            <div v-show="teamHeroes.heroes.length >= 5" class="row" style="display: flex; align-items: center">
+                <div class="col-sm-5">
+                    <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">
+                        <span>Calculate decks</span>
+                        <br />
+                        <small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
+                    </button>
+                    <button id="stop-calculations" style="display: none" class="btn btn-danger" v-on:click="stopCalculations">Stop calculations</button>
+                </div>
+
+                <div class="col-sm-7">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Computation options</h3>
+                        </div>
+                        <div class="panel-body">
+                            <label for="calculation-event-type">Enable event:</label>
+                            <select id="calculation-event-type" class="selectpicker" v-model="event">
+                                <option value="">None</option>
+                                <option value="Slayer">Slayer</option>
+                                <option value="Commander">Commander</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <hr />
             <div v-if="progress > -1" class="progress">
                 <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
@@ -195,7 +218,16 @@
                             <li v-for="(hero, key) in deck.heroes">
                             <span v-bind:class="key === 0 ? 'text-danger': ''">
                                 <span v-html="$options.filters.staredName(hero.name, hero.rarity)"></span>
-                                ({{ hero.affinity }} {{ hero.type }} {{ hero.species }} :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
+                                ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
+                                :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
+                                <span v-if="Object.keys(hero.eventSkills).length !== 0">
+                                    <span v-if="hero.eventSkills.hasOwnProperty('Slayer')">
+                                        :: Slayer {{ hero.eventSkills.Slayer }}x
+                                    </span>
+                                    <span v-if="hero.eventSkills.hasOwnProperty('Commander')">
+                                        :: {{ hero.affinity }} Commander {{ hero.eventSkills.Commander }}x
+                                    </span>
+                                </span>
                             </span>
                             <span v-if="key === 0"
                                   class="glyphicon glyphicon-info-sign"

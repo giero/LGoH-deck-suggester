@@ -14112,10 +14112,10 @@
         "affinity": "Earth",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 3,
+        "attack": 4626,
+        "recovery": 618,
+        "health": 3097,
+        "rarity": 6,
         "eventSkills": {
             "Slayer": 4
         },

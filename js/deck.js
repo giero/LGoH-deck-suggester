@@ -1,5 +1,6 @@
-function Deck(heroes) {
+function Deck(heroes, options) {
     this.heroes = heroes;
+    this.options = options;
 
     this.affinityCounterMap = {
         'Fire': 'Earth',
@@ -28,6 +29,23 @@ function Deck(heroes) {
         }
 
     }).bind(this);
+
+    this.commanderBonuses = {};
+    if (options.hasOwnProperty('event') && options.event === 'Commander') {
+        for (var i = this.heroes.length - 1; i >= 0; --i) {
+            var hero = this.heroes[i];
+
+            if (!hero.eventSkills.hasOwnProperty('Commander')) {
+                continue;
+            }
+
+            if (!this.commanderBonuses.hasOwnProperty(hero.affinity)) {
+                this.commanderBonuses[hero.affinity] = 0;
+            }
+
+            this.commanderBonuses[hero.affinity] += hero.eventSkills.Commander;
+        }
+    }
 }
 
 Deck.prototype.calculate = function (affinity) {
@@ -56,7 +74,13 @@ Deck.prototype.calculate = function (affinity) {
             }
         }
 
-        // TODO: apply Slayer event
+        if (this.options.hasOwnProperty('event')) {
+            if (this.options.event === 'Slayer' && hero.eventSkills.hasOwnProperty('Slayer')) {
+                hero.attack *= hero.eventSkills.Slayer;
+            } else if (this.options.event === 'Commander' && this.commanderBonuses.hasOwnProperty(hero.affinity)) {
+                hero.attack *= this.commanderBonuses[hero.affinity];
+            }
+        }
 
         deckValues.attack += hero.attack;
         deckValues.power += hero.power;

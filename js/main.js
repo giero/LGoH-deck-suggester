@@ -173,6 +173,7 @@ Vue.component('team-adding-form', {
             e.preventDefault();
 
             teamHeroes.heroes = [];
+            teamHeroes.save();
         }
     },
     mounted: function () {
@@ -200,7 +201,8 @@ Vue.component('computed-decks', {
             teamHeroes: teamHeroes,
             bestDecks: {},
             progress: -1,
-            worker: undefined
+            worker: undefined,
+            event: ''
         }
     },
     computed: {
@@ -241,8 +243,18 @@ Vue.component('computed-decks', {
             $('#calculate-decks').hide();
             $('#stop-calculations').show();
 
+            var options = {};
+            if (this.event) {
+                options = {
+                    event: this.event
+                };
+            }
+
             this.bestDecks = {};
-            this.deckWorker.postMessage(this.teamHeroes.getHeroes());
+            this.deckWorker.postMessage({
+                heroes: this.teamHeroes.getHeroes(),
+                options: options
+            });
         },
         stopCalculations: function () {
             $('#calculate-decks').show();
