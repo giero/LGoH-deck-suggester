@@ -230,6 +230,7 @@ Vue.component('computed-decks', {
                     if (typeof(Storage) !== "undefined") {
                         localStorage.setItem('calculated::data', JSON.stringify(data));
                     }
+                    ga('send', 'event', 'Decks', 'calculations', 'possibilities', self.possibilities);
 
                     self.stopCalculations();
                 } else {
