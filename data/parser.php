@@ -28,13 +28,6 @@ function csvToArray($filename = '', $delimiter = ',')
     }
 
     $dbData = [];
-    $legendMap = [
-        2 => 2,
-        3 => 2,
-        4 => 2,
-        5 => 3,
-        6 => 4,
-    ];
 
     foreach ($data as $index => $row) {
         $rarity = strlen($row['stars']);
@@ -73,13 +66,11 @@ function csvToArray($filename = '', $delimiter = ',')
             'recovery' => (int)$row['recovery'],
             'health' => (int)$row['health'],
             'rarity' => $rarity,
-            'eventSkills' => $row['race'] == 'Legend' && $rarity >= 2
-                ? [
-                    'Slayer' => "{$legendMap[$rarity]}x",
-                    'Bounty Hunter' => "{$legendMap[$rarity]}x",
-                    'Commander' => "{$affinity} {$legendMap[$rarity]}x",
-                ]
-                : [],
+            'eventSkills' => array_merge(
+                !empty($row['slayer']) && preg_match('/^(\d)x$/', $row['slayer'], $sMatches) ? ['Slayer' => (int)$sMatches[1]] : [],
+                !empty($row['bounty hunter']) && preg_match('/^(\d)x$/', $row['bounty hunter'], $bhMatches) ? ['Bounty Hunter' => (int)$bhMatches[1]] : [],
+                !empty($row['commander']) && preg_match('/^(\d)x$/', $row['commander'], $cMatches) ? ['Commander' => (int)$cMatches[1]] : []
+            ),
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],
             'leaderAbility' => [
