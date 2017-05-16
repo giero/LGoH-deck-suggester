@@ -226,6 +226,11 @@ Vue.component('computed-decks', {
                     self.progress = data;
                 } else if (data.hasOwnProperty('Fire')) {
                     self.bestDecks = data;
+
+                    if (typeof(Storage) !== "undefined") {
+                        localStorage.setItem('calculated::data', JSON.stringify(data));
+                    }
+
                     self.stopCalculations();
                 } else {
                     console.log('error?', e.data);
@@ -237,6 +242,7 @@ Vue.component('computed-decks', {
     },
     updated: function () {
         $('[data-toggle="popover"]').popover();
+        $('[data-toggle="tooltip"]').tooltip();
     },
     methods: {
         calculateDecks: function (e) {
@@ -272,6 +278,10 @@ Vue.component('computed-decks', {
             e.preventDefault();
             $(this).tab('show');
         });
+
+        if (typeof(Storage) !== "undefined" && localStorage.hasOwnProperty('calculated::data')) {
+            this.bestDecks = JSON.parse(localStorage.getItem('calculated::data'))
+        }
     },
     filters: {
         staredName: staredName

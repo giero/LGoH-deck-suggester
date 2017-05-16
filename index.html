@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+        .popover {
+            color: #000
+        }
+    </style>
 </head>
 <body>
 
@@ -46,9 +52,14 @@
                 <computed-decks></computed-decks>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="heroes">
+                <p class="bg-danger" style="padding: 15px">
+                    This list is based on <strong><a href="https://goo.gl/e2ql9O">this spreadsheet</a></strong> - feel free to update it, if something is missing.
+                </p>
                 <all-heroes-list></all-heroes-list>
             </div>
-            <div class="tab-pane fade" role="tabpanel" id="contact"></div>
+            <div class="tab-pane fade" role="tabpanel" id="contact">
+                <p>Soon ;)</p>
+            </div>
         </div>
     </div>
 </div>
@@ -149,10 +160,10 @@
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
-                <button id="add-random-to-team" v-on:click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">
+                <button id="add-random-to-team" @click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">
                     Add random hero to team (for tests)
                 </button>
-                <button id="clear-team" v-on:click="clearTeam" class="btn btn-danger pull-right">Clear your team</button>
+                <button id="clear-team" @click="clearTeam" class="btn btn-danger pull-right">Clear your team</button>
             </fieldset>
         </form>
     </div>
@@ -166,18 +177,18 @@
             </div>
             <div v-show="teamHeroes.heroes.length >= 5" class="row" style="display: flex; align-items: center">
                 <div class="col-sm-5">
-                    <button id="calculate-decks" class="btn btn-primary" v-on:click="calculateDecks">
+                    <button id="calculate-decks" class="btn btn-primary" @click="calculateDecks">
                         <span>Calculate decks</span>
                         <br />
                         <small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
                     </button>
-                    <button id="stop-calculations" style="display: none" class="btn btn-danger" v-on:click="stopCalculations">Stop calculations</button>
+                    <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
                 </div>
 
                 <div class="col-sm-7">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Computation options</h3>
+                            <h3 class="panel-title">Calculation options</h3>
                         </div>
                         <div class="panel-body">
                             <label for="calculation-event-type">Enable event:</label>
@@ -203,20 +214,26 @@
 
             <div class="panel panel-body">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" v-bind:class="stat == 'attack' ? 'active' : ''" v-for="(deck, stat) in decksByStat">
+                    <li role="presentation" :class="stat == 'attack' ? 'active' : ''" v-for="(deck, stat) in decksByStat">
                         <a :href="'#computed-' + affinity + '-' + stat" role="tab" data-toggle="tab">
                             {{ stat }} (score: {{ deck.value.format(0, 3) }})
+                            <span class="glyphicon glyphicon-info-sign text-info"
+                                  data-toggle="popover"
+                                  data-trigger="hover"
+                                  data-placement="top"
+                                  data-container="body"
+                                  :data-content="'Sum of all heroes \'' + stat + '\' stats after all bonuses are applied'"></span>
                         </a>
                     </li>
                 </ul>
 
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade" v-bind:class="stat == 'attack' ? 'in active' : ''"
+                    <div role="tabpanel" class="tab-pane fade" :class="stat == 'attack' ? 'in active' : ''"
                          :id="'computed-' + affinity + '-' + stat" v-for="(deck, stat) in decksByStat">
 
                         <ul>
                             <li v-for="(hero, key) in deck.heroes">
-                            <span v-bind:class="key === 0 ? 'text-danger': ''">
+                            <span :class="key === 0 ? 'text-danger': ''">
                                 <span v-html="$options.filters.staredName(hero.name, hero.rarity)"></span>
                                 ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
                                 :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
@@ -230,7 +247,7 @@
                                 </span>
                             </span>
                             <span v-if="key === 0"
-                                  class="glyphicon glyphicon-info-sign"
+                                  class="glyphicon glyphicon-info-sign text-info"
                                   data-toggle="popover"
                                   data-trigger="hover"
                                   :title="hero.leaderAbility.name"
