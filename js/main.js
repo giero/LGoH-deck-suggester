@@ -173,6 +173,7 @@ Vue.component('team-adding-form', {
             e.preventDefault();
 
             teamHeroes.heroes = [];
+            teamHeroes.save();
         }
     },
     mounted: function () {
@@ -200,7 +201,8 @@ Vue.component('computed-decks', {
             teamHeroes: teamHeroes,
             bestDecks: {},
             progress: -1,
-            worker: undefined
+            worker: undefined,
+            event: ''
         }
     },
     computed: {
@@ -224,6 +226,11 @@ Vue.component('computed-decks', {
                     self.progress = data;
                 } else if (data.hasOwnProperty('Fire')) {
                     self.bestDecks = data;
+
+                    if (typeof(Storage) !== "undefined") {
+                        localStorage.setItem('calculated::data', JSON.stringify(data));
+                    }
+
                     self.stopCalculations();
                 } else {
                     console.log('error?', e.data);
@@ -235,14 +242,25 @@ Vue.component('computed-decks', {
     },
     updated: function () {
         $('[data-toggle="popover"]').popover();
+        $('[data-toggle="tooltip"]').tooltip();
     },
     methods: {
         calculateDecks: function (e) {
             $('#calculate-decks').hide();
             $('#stop-calculations').show();
 
+            var options = {};
+            if (this.event) {
+                options = {
+                    event: this.event
+                };
+            }
+
             this.bestDecks = {};
-            this.deckWorker.postMessage(this.teamHeroes.getHeroes());
+            this.deckWorker.postMessage({
+                heroes: this.teamHeroes.getHeroes(),
+                options: options
+            });
         },
         stopCalculations: function () {
             $('#calculate-decks').show();
@@ -260,6 +278,10 @@ Vue.component('computed-decks', {
             e.preventDefault();
             $(this).tab('show');
         });
+
+        if (typeof(Storage) !== "undefined" && localStorage.hasOwnProperty('calculated::data')) {
+            this.bestDecks = JSON.parse(localStorage.getItem('calculated::data'))
+        }
     },
     filters: {
         staredName: staredName
