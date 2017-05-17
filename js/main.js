@@ -1,12 +1,15 @@
-var teamHeroes = new Team('user');
+var teamHeroes = new Team('user', localStorage);
 teamHeroes.load();
 
-var allHeroes = new Team('all');
-$.getJSON("data/heroes_all.json", function (json) {
-    json.forEach(function (heroStat) {
-        allHeroes.addHero(heroStat);
+var allHeroes = new Team('all', sessionStorage);
+if (false === allHeroes.load()) {
+    $.getJSON("data/heroes_all.json", function (json) {
+        json.forEach(function (heroStat) {
+            allHeroes.addHero(heroStat);
+        });
+        allHeroes.save();
     });
-});
+}
 
 var staredName = function (name, rarity) {
     return name + "&nbsp;" + "<span style='color: #FFB404;' class='glyphicon glyphicon-star'></span>".repeat(rarity);
@@ -182,6 +185,11 @@ Vue.component('team-adding-form', {
         // fill by default hero stats values
         $('#team-adding').find('select').on('hidden.bs.select', function (e) {
             var heroId = $(this).find('option:selected').val();
+
+            if (!heroId) {
+                return;
+            }
+
             var hero = self.allHeroes.find(heroId);
 
             for (var stat in {'attack': null, 'recovery': null, 'health': null}) {

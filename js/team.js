@@ -1,5 +1,6 @@
-function Team(name) {
+function Team(name, dataStorage) {
     this.name = name;
+    this.storage = dataStorage;
     this.heroes = [];
 }
 
@@ -79,19 +80,19 @@ Team.prototype.find = function (id) {
 };
 
 Team.prototype.save = function () {
-    if (typeof(Storage) === "undefined") {
+    if (typeof(Storage) === 'undefined') {
         return;
     }
 
-    localStorage.setItem('team::' + this.name , JSON.stringify(this.heroes));
+    this.storage.setItem('heroes::' + this.name , JSON.stringify(this.heroes));
 };
 
 Team.prototype.load = function () {
-    if (typeof(Storage) === "undefined") {
+    if (typeof(Storage) === 'undefined') {
         return;
     }
 
-    var savedTeam = localStorage.getItem('team::' + this.name);
+    this.heroes = JSON.parse(this.storage.getItem('heroes::' + this.name)) || [];
 
-    this.heroes = savedTeam ? JSON.parse(savedTeam) : [];
+    return !!this.heroes.length;
 };
