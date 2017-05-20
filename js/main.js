@@ -143,7 +143,17 @@ Vue.component('team-adding-form', {
                 formParams = {};
 
             $.each($form.serializeArray(), function (_, kv) {
-                formParams[kv.name] = parseInt(kv.value);
+                var eventSkill = kv.name.match(/^eventSkills\[([A-Za-z ]+)\]$/);
+
+                if (eventSkill !== null) {
+                    if (!formParams.hasOwnProperty('eventSkills')) {
+                        formParams.eventSkills = {};
+                    }
+
+                    formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
+                } else {
+                    formParams[kv.name] = parseInt(kv.value);
+                }
             });
 
             teamHeroes.addHero(
@@ -183,7 +193,7 @@ Vue.component('team-adding-form', {
         var self = this;
 
         // fill by default hero stats values
-        $('#team-adding').find('select').on('hidden.bs.select', function (e) {
+        $('#team-hero-id').on('hidden.bs.select', function (e) {
             var heroId = $(this).find('option:selected').val();
 
             if (!heroId) {
@@ -194,6 +204,14 @@ Vue.component('team-adding-form', {
 
             for (var stat in {'attack': null, 'recovery': null, 'health': null}) {
                 $('#team-hero-' + stat).val(parseInt(hero[stat]) >> 1);
+            }
+
+            var eventSkillsMap = {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'};
+            for (var skill in eventSkillsMap) {
+                if (hero.eventSkills.hasOwnProperty(skill)) {
+                    $('#team-hero-' + eventSkillsMap[skill]).val(hero.eventSkills[skill]);
+                    $('#team-hero-' + eventSkillsMap[skill]).selectpicker('refresh');
+                }
             }
         });
     },

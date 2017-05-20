@@ -116,6 +116,10 @@
                 <th>Attack</th>
                 <th>Recovery</th>
                 <th>Health</th>
+                <th>Event Skills</th>
+                <th>Defender Skill</th>
+                <th>Counter Skill</th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
@@ -124,7 +128,16 @@
                 <td>{{ hero.attack }}</td>
                 <td>{{ hero.recovery }}</td>
                 <td>{{ hero.health }}</td>
-                <td><span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" :data-hero-id="hero.id" @click="removeHeroFromList"></span></td>
+                <td>
+                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Slayer')">Slayer {{ hero.eventSkills.Slayer }}x</span>
+                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Bounty Hunter')">Bounty Hunter {{ hero.eventSkills['Bounty Hunter'] }}x</span>
+                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Commander')">Commander {{ hero.eventSkills.Commander }}x</span>
+                </td>
+                <td>{{ hero.defenderSkill }}</td>
+                <td>{{ hero.counterSkill }}</td>
+                <td>
+                    <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" :data-hero-id="hero.id" @click="removeHeroFromList"></span>
+                </td>
             </tr>
             </tbody>
         </table>
@@ -157,6 +170,19 @@
                     </div>
                     <div class="col-sm-4">
                         <input type="number" class="form-control" id="team-hero-health" name="health" required placeholder="Health"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4" v-for="(id, skill) in {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'}">
+                        <select class="form-control selectpicker" :id="'team-hero-' + id" :name="'eventSkills['+skill+']'" :title="skill">
+                            <option value=""></option>
+                            <option value="2">2x</option>
+                            <option value="3">3x</option>
+                            <option value="4">4x</option>
+                            <option value="5">5x</option>
+                            <option value="7">7x</option>
+                            <option value="10">10x</option>
+                        </select>
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
