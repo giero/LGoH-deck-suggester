@@ -31,3 +31,7 @@ body {
 	font-size: 25px;
 	color: #FFB404;
 }
+
+#team-heroes-list-content .event-skill {
+	margin: 0 2px;
+}

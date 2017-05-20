@@ -8,6 +8,15 @@ DeckGenerator.prototype.generate = function (options) {
     var counter = 0;
 
     var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}, 'No affinity bonus': {}};
+
+    if (options.hasOwnProperty('affinitiesLimit')) {
+        for (var affinity in bestDecks) {
+            if (options.affinitiesLimit.indexOf(affinity) === -1) {
+                delete bestDecks[affinity];
+            }
+        }
+    }
+
     for (var affinity in bestDecks) {
         bestDecks[affinity] = {
             power: {

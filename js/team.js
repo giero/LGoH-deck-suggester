@@ -54,7 +54,11 @@ Team.prototype.getHeroes = function (filters, sort) {
     return heroes;
 };
 
-Team.prototype.getUniqueHeroesProperties = function (property) {
+Team.prototype.getUniqueHeroesProperties = function (property, filter) {
+    if (!this.heroes.length) {
+        return [];
+    }
+
     if (!property || !this.heroes[0].hasOwnProperty(property)) {
         throw new Error('Unknown hero property (' + property + ')');
     }
@@ -64,7 +68,11 @@ Team.prototype.getUniqueHeroesProperties = function (property) {
             return hero[property];
         })
         .filter(function (value, index, self) {
-            return value && self.indexOf(value) === index;
+            if (Array.isArray(filter)) {
+                return value && self.indexOf(value) === index && filter.indexOf(value) === -1;
+            } else {
+                return value && self.indexOf(value) === index;
+            }
         })
         .sort();
 };

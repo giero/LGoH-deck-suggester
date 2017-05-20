@@ -129,9 +129,11 @@
                 <td>{{ hero.recovery }}</td>
                 <td>{{ hero.health }}</td>
                 <td>
-                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Slayer')">Slayer {{ hero.eventSkills.Slayer }}x</span>
-                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Bounty Hunter')">Bounty Hunter {{ hero.eventSkills['Bounty Hunter'] }}x</span>
-                    <span class="label label-primary" v-if="hero.eventSkills.hasOwnProperty('Commander')">Commander {{ hero.eventSkills.Commander }}x</span>
+                    <span class="label label-primary event-skill"
+                          v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
+                          v-if="hero.eventSkills.hasOwnProperty(eventSkill)">
+                        {{ eventSkill }} {{ hero.eventSkills[eventSkill] }}x
+                    </span>
                 </td>
                 <td>{{ hero.defenderSkill }}</td>
                 <td>{{ hero.counterSkill }}</td>
@@ -216,13 +218,51 @@
                         <div class="panel-heading">
                             <h3 class="panel-title">Calculation options</h3>
                         </div>
-                        <div class="panel-body">
-                            <label for="calculation-event-type">Enable event:</label>
-                            <select id="calculation-event-type" class="selectpicker" v-model="event">
-                                <option value="">None</option>
-                                <option value="Slayer">Slayer</option>
-                                <option value="Commander">Commander</option>
-                            </select>
+                        <div class="panel-body row">
+                            <div class="col-sm-6">
+
+                                <div class="form-group">
+                                    <label for="calculation-event-type">Enable event:</label>
+                                    <select id="calculation-event-type" class="selectpicker" v-model="event">
+                                        <option value="">None</option>
+                                        <option value="Slayer">Slayer</option>
+                                        <option value="Commander">Commander</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="calculation-counter-skill">Team counter skills:</label>
+                                    <select id="calculation-counter-skill" class="selectpicker" v-model="counterSkills"
+                                            multiple data-max-options="5" data-selected-text-format="count > 2">
+                                        <option v-for="option in counterSkillsOptions">
+                                            {{ option }}
+                                        </option>
+                                    </select>
+                                    <span class="glyphicon glyphicon-info-sign text-info"
+                                          data-toggle="popover"
+                                          data-trigger="hover"
+                                          data-placement="top"
+                                          data-container="body"
+                                          data-content="If you don't see some skill that means none of your team card has it."></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="calculation-affinity">Limit opponent affinities:</label>
+                                    <select id="calculation-affinity" class="selectpicker" v-model="affinitiesLimit"
+                                            multiple data-max-options="5" data-selected-text-format="count > 2">
+                                        <option v-for="option in affinityOptions">
+                                            {{ option }}
+                                        </option>
+                                    </select>
+                                    <span class="glyphicon glyphicon-info-sign text-info"
+                                          data-toggle="popover"
+                                          data-trigger="hover"
+                                          data-placement="top"
+                                          data-container="body"
+                                          data-content="Limiting this will speed up your calculations."></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -241,7 +281,7 @@
             <div class="panel panel-body">
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" :class="stat == 'attack' ? 'active' : ''" v-for="(deck, stat) in decksByStat">
-                        <a :href="'#computed-' + affinity + '-' + stat" role="tab" data-toggle="tab">
+                        <a :href="'#computed-' + affinity.replace(/ /g, '-') + '-' + stat" role="tab" data-toggle="tab">
                             {{ stat }} (score: {{ deck.value.format(0, 3) }})
                             <span class="glyphicon glyphicon-info-sign text-info"
                                   data-toggle="popover"
@@ -255,7 +295,7 @@
 
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade" :class="stat == 'attack' ? 'in active' : ''"
-                         :id="'computed-' + affinity + '-' + stat" v-for="(deck, stat) in decksByStat">
+                         :id="'computed-' + affinity.replace(/ /g, '-') + '-' + stat" v-for="(deck, stat) in decksByStat">
 
                         <ul>
                             <li v-for="(hero, key) in deck.heroes">
