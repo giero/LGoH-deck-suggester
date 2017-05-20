@@ -32,6 +32,6 @@ body {
 	color: #FFB404;
 }
 
-#team-heroes-list-content .event-skill {
+.heroes-table .event-skill {
 	margin: 0 2px;
 }
