@@ -1,5 +1,6 @@
-function Team(name) {
+function Team(name, dataStorage) {
     this.name = name;
+    this.storage = dataStorage;
     this.heroes = [];
 }
 
@@ -53,7 +54,11 @@ Team.prototype.getHeroes = function (filters, sort) {
     return heroes;
 };
 
-Team.prototype.getUniqueHeroesProperties = function (property) {
+Team.prototype.getUniqueHeroesProperties = function (property, filter) {
+    if (!this.heroes.length) {
+        return [];
+    }
+
     if (!property || !this.heroes[0].hasOwnProperty(property)) {
         throw new Error('Unknown hero property (' + property + ')');
     }
@@ -63,7 +68,11 @@ Team.prototype.getUniqueHeroesProperties = function (property) {
             return hero[property];
         })
         .filter(function (value, index, self) {
-            return value && self.indexOf(value) === index;
+            if (Array.isArray(filter)) {
+                return value && self.indexOf(value) === index && filter.indexOf(value) === -1;
+            } else {
+                return value && self.indexOf(value) === index;
+            }
         })
         .sort();
 };
@@ -79,19 +88,19 @@ Team.prototype.find = function (id) {
 };
 
 Team.prototype.save = function () {
-    if (typeof(Storage) === "undefined") {
+    if (typeof(Storage) === 'undefined') {
         return;
     }
 
-    localStorage.setItem('team::' + this.name , JSON.stringify(this.heroes));
+    this.storage.setItem('heroes::' + this.name , JSON.stringify(this.heroes));
 };
 
 Team.prototype.load = function () {
-    if (typeof(Storage) === "undefined") {
+    if (typeof(Storage) === 'undefined') {
         return;
     }
 
-    var savedTeam = localStorage.getItem('team::' + this.name);
+    this.heroes = JSON.parse(this.storage.getItem('heroes::' + this.name)) || [];
 
-    this.heroes = savedTeam ? JSON.parse(savedTeam) : [];
+    return !!this.heroes.length;
 };

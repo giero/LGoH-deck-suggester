@@ -1,12 +1,15 @@
-var teamHeroes = new Team('user');
+var teamHeroes = new Team('user', localStorage);
 teamHeroes.load();
 
-var allHeroes = new Team('all');
-$.getJSON("data/heroes_all.json", function (json) {
-    json.forEach(function (heroStat) {
-        allHeroes.addHero(heroStat);
+var allHeroes = new Team('all', sessionStorage);
+if (false === allHeroes.load()) {
+    $.getJSON("data/heroes_all.json", function (json) {
+        json.forEach(function (heroStat) {
+            allHeroes.addHero(heroStat);
+        });
+        allHeroes.save();
     });
-});
+}
 
 var staredName = function (name, rarity) {
     return name + "&nbsp;" + "<span style='color: #FFB404;' class='glyphicon glyphicon-star'></span>".repeat(rarity);
@@ -140,7 +143,17 @@ Vue.component('team-adding-form', {
                 formParams = {};
 
             $.each($form.serializeArray(), function (_, kv) {
-                formParams[kv.name] = parseInt(kv.value);
+                var eventSkill = kv.name.match(/^eventSkills\[([A-Za-z ]+)\]$/);
+
+                if (eventSkill !== null && !!kv.value) {
+                    if (!formParams.hasOwnProperty('eventSkills')) {
+                        formParams.eventSkills = {};
+                    }
+
+                    formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
+                } else {
+                    formParams[kv.name] = parseInt(kv.value);
+                }
             });
 
             teamHeroes.addHero(
@@ -180,12 +193,25 @@ Vue.component('team-adding-form', {
         var self = this;
 
         // fill by default hero stats values
-        $('#team-adding').find('select').on('hidden.bs.select', function (e) {
+        $('#team-hero-id').on('hidden.bs.select', function (e) {
             var heroId = $(this).find('option:selected').val();
+
+            if (!heroId) {
+                return;
+            }
+
             var hero = self.allHeroes.find(heroId);
 
             for (var stat in {'attack': null, 'recovery': null, 'health': null}) {
                 $('#team-hero-' + stat).val(parseInt(hero[stat]) >> 1);
+            }
+
+            var eventSkillsMap = {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'};
+            for (var skill in eventSkillsMap) {
+                if (hero.eventSkills.hasOwnProperty(skill)) {
+                    $('#team-hero-' + eventSkillsMap[skill]).val(hero.eventSkills[skill]);
+                    $('#team-hero-' + eventSkillsMap[skill]).selectpicker('refresh');
+                }
             }
         });
     },
@@ -202,7 +228,11 @@ Vue.component('computed-decks', {
             bestDecks: {},
             progress: -1,
             worker: undefined,
-            event: ''
+            event: '',
+            counterSkills: [],
+            counterSkillsOptions: teamHeroes.getUniqueHeroesProperties('counterSkill', ['None', 'Unknown']),
+            affinitiesLimit: [],
+            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
         }
     },
     computed: {
@@ -224,7 +254,7 @@ Vue.component('computed-decks', {
                 var data = e.data;
                 if (!(data instanceof Object)) {
                     self.progress = data;
-                } else if (data.hasOwnProperty('Fire')) {
+                } else {
                     self.bestDecks = data;
 
                     if (typeof(Storage) !== "undefined") {
@@ -233,8 +263,6 @@ Vue.component('computed-decks', {
                     ga('send', 'event', 'Decks', 'calculations', 'possibilities', self.possibilities);
 
                     self.stopCalculations();
-                } else {
-                    console.log('error?', e.data);
                 }
             };
 
@@ -252,9 +280,14 @@ Vue.component('computed-decks', {
 
             var options = {};
             if (this.event) {
-                options = {
-                    event: this.event
-                };
+                options.event = this.event;
+            }
+            if (this.counterSkills.length) {
+                options.counterSkills = this.counterSkills;
+            }
+
+            if (this.affinitiesLimit.length) {
+                options.affinitiesLimit = this.affinitiesLimit;
             }
 
             this.bestDecks = {};
@@ -283,6 +316,9 @@ Vue.component('computed-decks', {
         if (typeof(Storage) !== "undefined" && localStorage.hasOwnProperty('calculated::data')) {
             this.bestDecks = JSON.parse(localStorage.getItem('calculated::data'))
         }
+
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="tooltip"]').tooltip();
     },
     filters: {
         staredName: staredName

@@ -19,7 +19,12 @@ function Deck(heroes, options) {
             // this is faster way than do the same thing as in 'else' statement for every hero
             return this.leaderTarget === hero.affinity
                 || this.leaderTarget === hero.type
-                || this.leaderTarget === hero.species;
+                || (typeof hero.species === 'string'
+                    ? this.leaderTarget === hero.species
+                    : hero.species.some((function (species) {
+                        return this.leaderTarget === species
+                    }).bind(this))
+                );
         } else {
             return this.leaderTarget.every(function (value) {
                 return ([hero.affinity, hero.type, hero.species]
@@ -32,27 +37,25 @@ function Deck(heroes, options) {
 
     this.commanderBonuses = {};
     if (options.hasOwnProperty('event') && options.event === 'Commander') {
-        for (var i = this.heroes.length - 1; i >= 0; --i) {
-            var hero = this.heroes[i];
+        this.collectCommanderBonuses();
+    }
 
-            if (!hero.eventSkills.hasOwnProperty('Commander')) {
-                continue;
-            }
-
-            if (!this.commanderBonuses.hasOwnProperty(hero.affinity)) {
-                this.commanderBonuses[hero.affinity] = 0;
-            }
-
-            this.commanderBonuses[hero.affinity] += hero.eventSkills.Commander;
-        }
+    this.teamMeetsRequirements = true;
+    if (options.hasOwnProperty('counterSkills')) {
+        this.teamMeetsRequirements = this.checkCounterSkillsRequirements();
     }
 }
 
 Deck.prototype.calculate = function (affinity) {
     var deckValues = {
         power: 0,
-        attack: 0
+        attack: 0,
+        'attack and health': 0
     };
+
+    if (!this.teamMeetsRequirements) {
+        return deckValues;
+    }
 
     for (var i = this.heroes.length - 1; i >= 0; --i) {
         var hero = new Hero(this.heroes[i]); // copy for local stats modifications
@@ -84,8 +87,37 @@ Deck.prototype.calculate = function (affinity) {
 
         deckValues.attack += hero.attack;
         deckValues.power += hero.power;
+        deckValues['attack and health'] += hero['attack and health'];
     }
 
     return deckValues;
 };
 
+Deck.prototype.collectCommanderBonuses = function () {
+    for (var i = this.heroes.length - 1; i >= 0; --i) {
+        var hero = this.heroes[i];
+
+        if (!hero.eventSkills.hasOwnProperty('Commander')) {
+            continue;
+        }
+
+        if (!this.commanderBonuses.hasOwnProperty(hero.affinity)) {
+            this.commanderBonuses[hero.affinity] = 0;
+        }
+
+        this.commanderBonuses[hero.affinity] += hero.eventSkills.Commander;
+    }
+};
+
+Deck.prototype.checkCounterSkillsRequirements = function () {
+    var deckCounterSkills = [];
+    for (var i = this.heroes.length - 1; i >= 0; --i) {
+        var hero = this.heroes[i];
+
+        deckCounterSkills.push(hero.counterSkill);
+    }
+
+    return this.options.counterSkills.every(function (skill) {
+        return deckCounterSkills.indexOf(skill) >= 0;
+    });
+};

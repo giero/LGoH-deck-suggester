@@ -8,6 +8,15 @@ DeckGenerator.prototype.generate = function (options) {
     var counter = 0;
 
     var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}, 'No affinity bonus': {}};
+
+    if (options.hasOwnProperty('affinitiesLimit')) {
+        for (var affinity in bestDecks) {
+            if (options.affinitiesLimit.indexOf(affinity) === -1) {
+                delete bestDecks[affinity];
+            }
+        }
+    }
+
     for (var affinity in bestDecks) {
         bestDecks[affinity] = {
             power: {
@@ -15,6 +24,10 @@ DeckGenerator.prototype.generate = function (options) {
                 heroes: []
             },
             attack: {
+                value: 0,
+                heroes: []
+            },
+            'attack and health': {
                 value: 0,
                 heroes: []
             }
@@ -40,6 +53,12 @@ DeckGenerator.prototype.generate = function (options) {
                 if (deckValues.attack > bestDecks[affinity].attack.value) {
                     bestDecks[affinity].attack = {
                         value: deckValues.attack,
+                        heroes: deck.heroes
+                    };
+                }
+                if (deckValues['attack and health'] > bestDecks[affinity]['attack and health'].value) {
+                    bestDecks[affinity]['attack and health'] = {
+                        value: deckValues['attack and health'],
                         heroes: deck.heroes
                     };
                 }

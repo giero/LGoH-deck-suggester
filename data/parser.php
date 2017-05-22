@@ -61,7 +61,9 @@ function csvToArray($filename = '', $delimiter = ',')
             'name' => $row['name'],
             'affinity' => $affinity,
             'type' => $row['class'],
-            'species' => $row['race'],
+            'species' => strpos($row['race'], ' ') !== false
+                ? explode(' ', $row['race'])
+                : $row['race'],
             'attack' => (int)$row['attack'],
             'recovery' => (int)$row['recovery'],
             'health' => (int)$row['health'],
