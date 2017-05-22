@@ -230,7 +230,6 @@ Vue.component('computed-decks', {
             worker: undefined,
             event: '',
             counterSkills: [],
-            counterSkillsOptions: teamHeroes.getUniqueHeroesProperties('counterSkill', ['None', 'Unknown']),
             affinitiesLimit: [],
             affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
         }
@@ -267,6 +266,9 @@ Vue.component('computed-decks', {
             };
 
             return this.worker;
+        },
+        counterSkillsOptions: function () {
+            return this.teamHeroes.getUniqueHeroesProperties('counterSkill', ['None', 'Unknown']);
         }
     },
     updated: function () {
@@ -319,6 +321,10 @@ Vue.component('computed-decks', {
 
         $('[data-toggle="popover"]').popover();
         $('[data-toggle="tooltip"]').tooltip();
+
+        $('#page-nav a[href="#decks"]').on('shown.bs.tab', function (e) {
+            $('#calculation-counter-skill').selectpicker('refresh');
+        })
     },
     filters: {
         staredName: staredName
