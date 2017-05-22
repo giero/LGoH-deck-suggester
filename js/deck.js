@@ -49,7 +49,8 @@ function Deck(heroes, options) {
 Deck.prototype.calculate = function (affinity) {
     var deckValues = {
         power: 0,
-        attack: 0
+        attack: 0,
+        'attack and health': 0
     };
 
     if (!this.teamMeetsRequirements) {
@@ -86,6 +87,7 @@ Deck.prototype.calculate = function (affinity) {
 
         deckValues.attack += hero.attack;
         deckValues.power += hero.power;
+        deckValues['attack and health'] += hero['attack and health'];
     }
 
     return deckValues;

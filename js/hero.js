@@ -27,3 +27,11 @@ Object.defineProperty(Hero.prototype, 'power', {
             : 0;
     }
 });
+
+Object.defineProperty(Hero.prototype, 'attack and health', {
+    get: function () {
+        return this.attack && this.health
+            ? this.attack + this.health
+            : 0;
+    }
+});
