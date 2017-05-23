@@ -33,7 +33,7 @@ function csvToArray($filename = '', $delimiter = ',')
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
 
-        if (!preg_match('/^([^:]+): ((\d+)% ((\w+)( and (\w+))?) for (all )?((\w+( \w+)?) Heroes|\w+ Bounty Hunters))$/',
+        if (!preg_match('/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes|\w+ Bounty Hunters))$/',
             $row['leader ability'],
             $leaderAbilityMatches)
         ) {
@@ -61,9 +61,7 @@ function csvToArray($filename = '', $delimiter = ',')
             'name' => $row['name'],
             'affinity' => $affinity,
             'type' => $row['class'],
-            'species' => strpos($row['race'], ' ') !== false
-                ? explode(' ', $row['race'])
-                : $row['race'],
+            'species' => $row['race'],
             'attack' => (int)$row['attack'],
             'recovery' => (int)$row['recovery'],
             'health' => (int)$row['health'],

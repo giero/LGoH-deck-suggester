@@ -3,6 +3,8 @@ function DeckGenerator(heroes) {
 }
 
 DeckGenerator.prototype.generate = function (options) {
+    var generatorStart = new Date();
+
     var possibilities = this.countPossibilities();
     var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
@@ -19,18 +21,9 @@ DeckGenerator.prototype.generate = function (options) {
 
     for (var affinity in bestDecks) {
         bestDecks[affinity] = {
-            power: {
-                value: 0,
-                heroes: []
-            },
-            attack: {
-                value: 0,
-                heroes: []
-            },
-            'attack and health': {
-                value: 0,
-                heroes: []
-            }
+            power: {value: 0, heroes: []},
+            attack: {value: 0, heroes: []},
+            attack_and_health: {value: 0, heroes: []}
         };
     }
 
@@ -56,9 +49,9 @@ DeckGenerator.prototype.generate = function (options) {
                         heroes: deck.heroes
                     };
                 }
-                if (deckValues['attack and health'] > bestDecks[affinity]['attack and health'].value) {
-                    bestDecks[affinity]['attack and health'] = {
-                        value: deckValues['attack and health'],
+                if (deckValues.attack_and_health > bestDecks[affinity].attack_and_health.value) {
+                    bestDecks[affinity].attack_and_health = {
+                        value: deckValues.attack_and_health,
                         heroes: deck.heroes
                     };
                 }
@@ -75,12 +68,16 @@ DeckGenerator.prototype.generate = function (options) {
 
     // for every hero as leader check every four other cards possibilities
     for (var i = this.heroes.length - 1; i >= 0; --i) {
+        var start = new Date();
+
         var heroes = this.heroes.slice();
         var leaderHero = heroes[i];
         heroes.splice(i, 1);
         combinations(leaderHero, heroes, 4, 0, new Array(4));
-    }
 
+        console.log(leaderHero.name, new Date() - start);
+    }
+    console.log('GENERATOR ENDED after ' + (new Date() - generatorStart));
     return bestDecks;
 };
 
