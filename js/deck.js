@@ -16,23 +16,15 @@ function Deck(heroes, options) {
 
     this.canApplyLeaderStat = (function (hero) {
         if (typeof this.leaderTarget === 'string') {
-            // this is faster way than do the same thing as in 'else' statement for every hero
-            return this.leaderTarget === hero.affinity
-                || this.leaderTarget === hero.type
-                || (typeof hero.species === 'string'
-                    ? this.leaderTarget === hero.species
-                    : hero.species.some((function (species) {
-                        return this.leaderTarget === species
-                    }).bind(this))
-                );
+            return hero.matchesWithStat(this.leaderTarget);
         } else {
-            return this.leaderTarget.every(function (value) {
-                return ([hero.affinity, hero.type, hero.species]
-                    .concat(Object.keys(hero.eventSkills))
-                    .indexOf(value) >= 0);
-            });
+            for (var lt = this.leaderTarget.length; lt >= 0; --lt) {
+                if (!hero.matchesWithStat(this.leaderTarget[lt])) {
+                    return false;
+                }
+            }
+            return true;
         }
-
     }).bind(this);
 
     this.commanderBonuses = {};
@@ -50,7 +42,7 @@ Deck.prototype.calculate = function (affinity) {
     var deckValues = {
         power: 0,
         attack: 0,
-        'attack and health': 0
+        attack_and_health: 0
     };
 
     if (!this.teamMeetsRequirements) {
@@ -72,8 +64,23 @@ Deck.prototype.calculate = function (affinity) {
         // apply leader ability
         if (this.canApplyLeaderStat(hero)) {
             for (var ls = this.leaderStats.length - 1; ls >= 0; --ls) {
-                var leaderStat = this.leaderStats[ls];
-                hero[leaderStat] = Math.floor(hero[leaderStat] * this.leaderStatValue);
+                // this is terrible - I know T_T
+                // but it has to be that way - array access for objects is so slow ...
+                // and I need it to run as fast as it can be
+
+                switch (this.leaderStats[ls]) {
+                    case 'attack':
+                        hero.attack *= this.leaderStatValue;
+                        break;
+                    case 'health':
+                        hero.health *= this.leaderStatValue;
+                        break;
+                    case 'recovery':
+                        hero.recovery *= this.leaderStatValue;
+                        break;
+                    default:
+                        throw new Error("Invalid stat " + this.leaderStats[ls]);
+                }
             }
         }
 
@@ -87,7 +94,7 @@ Deck.prototype.calculate = function (affinity) {
 
         deckValues.attack += hero.attack;
         deckValues.power += hero.power;
-        deckValues['attack and health'] += hero['attack and health'];
+        deckValues.attack_and_health += hero.attack_and_health;
     }
 
     return deckValues;

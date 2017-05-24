@@ -20,6 +20,15 @@ function Hero(props) {
     this.evolveTo = props.evolveTo;
 }
 
+Hero.prototype.matchesWithStat = function (stat) {
+    return this.affinity === stat
+        || this.type === stat
+        // it's required for example for Vulcan Fireshaper - species: "God Honored",
+        // and leader ability can be for God or Honored heroes only
+        || this.species.indexOf(stat) >= 0
+        || Object.keys(this.eventSkills).indexOf(stat) >= 0;
+};
+
 Object.defineProperty(Hero.prototype, 'power', {
     get: function () {
         return this.attack && this.recovery && this.health
@@ -28,7 +37,7 @@ Object.defineProperty(Hero.prototype, 'power', {
     }
 });
 
-Object.defineProperty(Hero.prototype, 'attack and health', {
+Object.defineProperty(Hero.prototype, 'attack_and_health', {
     get: function () {
         return this.attack && this.health
             ? this.attack + this.health

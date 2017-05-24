@@ -188,6 +188,9 @@ light	Indale, The Dark Star	******	30	Attacker	Giant	4424	592	2959	Spirit Armor 
 light	Shining Bull	****	9	Warrior	Creature				Light Armor IV: 160% HP for all Light Heroes	Autoheal	None				Golden Hoof: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 7 turns.
 light	Guilded Taurus	*****	15	Warrior	Creature				Light Armor V: 180% HP for all Light Heroes	Autoheal	None				Shining Stampede: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 5 turns.
 light	Tur, The Golden Hoof	******	30	Warrior	Creature				Light Armor VI: 200% HP for all Light Heroes	Autoheal	None				Razor Gore: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 3 turns.
+light	Van Helsing	****		Attacker	Fable	1871	249	1252	Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison	2x			Through The Heart: Attack for 300% of ATK. If the target is Dark, attack again for 500% of ATK.
+light	Van Helsing	*****		Attacker	Fable				Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	3x			
+light	Van Helsing	******		Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison	4x			
 light	Fate's Revenge	****	9	Warrior	Giant	1506	128	2509	Giant Might IV: 160% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 600% of ATK.
 light	Fate's Revenge	*****	15	Warrior	Giant	2542	214	4238	Giant Might V: 180% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 700% of ATK.
 light	Fate's Revenge	******	30	Warrior	Giant	3702	311	6168	Giant Might VI: 200% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 800% of ATK.
@@ -222,20 +225,20 @@ fire	Alteran Magi	***	6	Attacker	Human	952	128	645	Human Might III: 140% Damage 
 fire	Dharmir Tusk	****	9	Guardian	Creature	320	415	2073	Guardian Blessing IV: 160% REC for all Guardian Heroes	Poison	Cure Weaken				Flame Tongue: Heal for 400% of REC and Team is immune to damage this turn
 fire	Arkenhold Stalker	*	2	Balanced	Human	190	64	318	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Flaming Dagger: Attack all enemies for 200% of ATK for 2 turns
 fire	Arkenhold Huntress	**	4	Balanced	Human	324	107	540	Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge				Flaming Bolt: Attack all enemies for 250% of ATK for 2 turns
-fire	Flamebound Daughter	*	2	Mage	Human	254	84	112	Fire Might I: 110% damage for all Fire Heroes	Drain	Unknown				Chant of Coals: Attack all enemies for 300% of ATK
-fire	Flamebound Maiden	**	4	Mage	Human	427	143	184	Fire Might II: 120% damage for all Fire Heroes	Drain	Dispel Armor				Chant of Embers: Attack all enemies for 300% of ATK
-fire	Flamebound Mistress	***	6	Mage	Human	730	243	322	Fire Might III: 140% damage for all Fire Heroes	Drain	Dispel Armor				Chant of Flames: Attack all enemies for 400% of ATK
+fire	Flamebound Daughter	*	2	Mage	Human	254	84	112	Fire Might I: 110% Damage for all Fire Heroes	Drain	Unknown				Chant of Coals: Attack all enemies for 300% of ATK
+fire	Flamebound Maiden	**	4	Mage	Human	427	143	184	Fire Might II: 120% Damage for all Fire Heroes	Drain	Dispel Armor				Chant of Embers: Attack all enemies for 300% of ATK
+fire	Flamebound Mistress	***	6	Mage	Human	730	243	322	Fire Might III: 140% Damage for all Fire Heroes	Drain	Dispel Armor				Chant of Flames: Attack all enemies for 400% of ATK
 fire	Powderhound	***	6	Mage	Dwarf	728	243	320	Mage Might III: 140% Damage for all Mage Heroes	Zombie	Cure Blind				Powder Keg: Attack all enemies for 300% of ATK and Upgrade 1 Fire Gem
 fire	Wreckless Powderhound	****	9	Mage	Dwarf	1180	393	506	Mage Might IV: 160% Damage for all Mage Heroes	Zombie	Cure Blind				Wildfire: Attack all enemies for 400% of ATK and Upgrade 1 Fire Gem
-fire	Alteran Orc	***	6	Attacker	Giant	1000	134	673	Fire Might III: 140% damage for all Fire Heroes	Regen	Cure Zombie				Axe of Dharmir: Attack an enemy for 350% of ATK and Convert 4 Water Gems into Fire Gems
-fire	Alteran Orc Enforcer	****	9	Attacker	Giant	1629	217	1090	Fire Might IV: 160% damage for all Fire Heroes	Regen	Cure Zombie				Rage of Dharmir: Attack an enemy for 400% of ATK and Convert 5 Water Gems into Fire Gems
+fire	Alteran Orc	***	6	Attacker	Giant	1000	134	673	Fire Might III: 140% Damage for all Fire Heroes	Regen	Cure Zombie				Axe of Dharmir: Attack an enemy for 350% of ATK and Convert 4 Water Gems into Fire Gems
+fire	Alteran Orc Enforcer	****	9	Attacker	Giant	1629	217	1090	Fire Might IV: 160% Damage for all Fire Heroes	Regen	Cure Zombie				Rage of Dharmir: Attack an enemy for 400% of ATK and Convert 5 Water Gems into Fire Gems
 fire	Alteran Manderling	****	9	Warrior	Dragon	1234	102	2055	Warrior Might IV: 160% Damage for all Warrior Heroes	Armor	Cure Siphon				Altera's Flames: Attack all enemies for 400% of ATK, ignoring Armor
 fire	Alteran Mander	*****	15	Warrior	Dragon	2098	176	3496	Warrior Might V: 180% Damage for all Warrior Heroes	Armor	Cure Siphon				Altera's Rage: Attack all enemies for 500% of ATK, ignoring Armor
 fire	Volcanic Golem	****	9	Defender	Giant	593	197	2450	Giant Armor IV: 160% HP for all Giant Heroes	Weaken	Cure Poison				Volcanic Armor: Attack an enemy for 220% of HP and Defend 30% of all damage for 2 turns
 fire	Magma Golem	*****	15	Defender	Giant	1003	334	4147	Giant Armor V: 180% HP for all Giant Heroes	Weaken	Cure Poison	3x			Armor of Dharmir: Attack an enemy for 260% of HP and Defend 30% of all damage for 2 turns
 fire	Alteran Handmaiden	****	9	Healer	Human	617	514	1028	Fire Blessing IV: 160% REC for all Fire Heroes	Siphon	Unknown				Burning Touch: Attack an enemy for 800% of REC and Heal for 200% of REC
-fire	Vulcan Fireshaper	*****	15	Attacker	God Honored	2765	370	1856	Fire Might V: 180% damage for all Fire Heroes	Judgement	Cure Zombie				Forge of Gods: Attack all Earth enemies for 500% of ATK and Attack an enemy for 500% of ATK
-fire	Vulcan Flameblood	******	30	Attacker	God Honored	4020	538	2691	Fire Might VI: 200% damage for all Fire Heroes	Judgement	Cure Zombie				Urspark: Attack all Earth enemies for 600% of ATK and Attack an enemy for 600% of ATK
+fire	Vulcan Fireshaper	*****	15	Attacker	God Honored	2765	370	1856	Fire Might V: 180% Damage for all Fire Heroes	Judgement	Cure Zombie				Forge of Gods: Attack all Earth enemies for 500% of ATK and Attack an enemy for 500% of ATK
+fire	Vulcan Flameblood	******	30	Attacker	God Honored	4020	538	2691	Fire Might VI: 200% Damage for all Fire Heroes	Judgement	Cure Zombie				Urspark: Attack all Earth enemies for 600% of ATK and Attack an enemy for 600% of ATK
 fire	Sum Il Tek, the Ferocious	****	9	Attacker	Demigod				Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon				God-King's Rite: Attack an enemy for 650% of ATK
 fire	Sum Il Tek, Flamewalker	*****	15	Attacker	Demigod	2619	350	1750	Human Might V: 180% Damage for all Human Heroes	Dodge	Cure Siphon				Dragon Bash: Attack an enemy for 850% of ATK
 fire	Sum Il Tek, Fire Legend	******	30	Attacker	Demigod	3826	512	2565	Human Might VI: 200% Damage for all Human Heroes	Dodge	Cure Siphon				Wrath of Dragons: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 850% of ATK
@@ -251,11 +254,11 @@ fire	Avatar of Rage	******	30	Balanced	Spirit	2304	768	3838	Spirit Might VI: 200
 fire	Yessa Fairwing	****	9	Healer	Human				Fire Blessing IV: 160% REC for all Fire Heroes	Absorb	Cleanse I				Pure Flame: Attack all enemies for 800% of REC and Convert 3 Fire Gems into Health Gems
 fire	Yessa, the Absolver	*****	15	Healer	Human	1169	967	1948	Fire Blessing V: 180% REC for all Fire Heroes	Absorb	Cleanse II				Flames of Absolution: Attack all enemies for 1000% of REC and Convert 3 Fire Gems into Health Gems
 fire	Yessa, the Purifier	******	30	Healer	Human	1698	1408	2831	Fire Blessing VI: 160% REC for all Fire Heroes	Absorb	Cleanse III				Cleansing Inferno: Attack all enemies for 1200% of REC and Convert 3 Fire Gems into Health Gems
-fire	Rei Dragonstone	**	4	Balanced	Legend	486	161	808	Fire Might II: 120% damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Staff of Flames: Attack all enemies for 200% of ATK
-fire	Rei, The Bonded	***	6	Balanced	Legend	810	270	1348	Fire Might III: 140% damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Cone of Embers: Attack all enemies for 300% of ATK
-fire	Rei, Dragontalker	****	9	Balanced	Legend	1332	444	2219	Fire Might IV: 160% damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Cone of Flames: Attack all enemies for 400% of ATK
-fire	Rei, Dragonkin	*****	15	Balanced	Legend				Fire Might V: 180% damage for all Fire Heroes	Might	Unknown	3x	3x	3x	Cone of Hellfire: Attack all enemies for 500% of ATK
-fire	Rei and Quarl	******	30	Balanced	Legend	3258	1086	5432	Fire Might VI: 200% damage for all Fire Heroes	Might	Unknown	4x	4x	4x	Wrath of Quarl: Attack all enemies for 600% of ATK
+fire	Rei Dragonstone	**	4	Balanced	Legend	486	161	808	Fire Might II: 120% Damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Staff of Flames: Attack all enemies for 200% of ATK
+fire	Rei, The Bonded	***	6	Balanced	Legend	810	270	1348	Fire Might III: 140% Damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Cone of Embers: Attack all enemies for 300% of ATK
+fire	Rei, Dragontalker	****	9	Balanced	Legend	1332	444	2219	Fire Might IV: 160% Damage for all Fire Heroes	Might	Unknown	2x	2x	2x	Cone of Flames: Attack all enemies for 400% of ATK
+fire	Rei, Dragonkin	*****	15	Balanced	Legend				Fire Might V: 180% Damage for all Fire Heroes	Might	Unknown	3x	3x	3x	Cone of Hellfire: Attack all enemies for 500% of ATK
+fire	Rei and Quarl	******	30	Balanced	Legend	3258	1086	5432	Fire Might VI: 200% Damage for all Fire Heroes	Might	Unknown	4x	4x	4x	Wrath of Quarl: Attack all enemies for 600% of ATK
 fire	Hellfire Cub	****	9	Warrior	Creature				Creature Might IV: 160% Damage for all Creature Heroes	Weaken	Cure Blind				Ember Claw: Attack an enemy for 260% of HP for 2 turns
 fire	Hellfire Manticore	*****	15	Warrior	Creature				Creature Might V: 180% Damage for all Creature Heroes	Weaken	Cure Blind				Piercing Tail: Attack an enemy for 320% of HP for 2 turns
 fire	Fyrion the Ashen	******	30	Warrior	Creature				Creature Might VI: 200% Damage for all Creature Heroes	Weaken	Cure Blind				Mane of Flames: Attack an enemy for 380% of HP for 2 turns
@@ -430,6 +433,10 @@ water	Hermes	***	6	Balanced	Demigod	714	238	1190	Wrath of the Sea I: 175% Damage
 water	Hermes	****	9	Balanced	Demigod	1182	394	1969	Wrath of the Sea II: 200% Damage and HP for all Water Warriors Heroes	Drain	Cure Weaken	2x			Fleet Foot: Hermes randomly sacrifices one of your Heroes to deal 2000% ATK to an enemy.
 water	Hermes	*****	15	Balanced	Demigod	1996	664	3327	Wrath of the Sea III: 225% Damage and HP for all Water Warriors Heroes	Drain	Cure Weaken	3x			Fleet Foot: Hermes randomly sacrifices one of your Heroes to deal 3500% ATK to an enemy.
 water	Hermes	******	30	Balanced	Demigod	2900	966	4834	Wrath of the Sea IV: 300% Damage and HP for all Water Warriors Heroes	Drain	Cure Weaken	4x			Fleet Foot: Hermes randomly sacrifices one of your Heroes to deal 7500% ATK to an enemy.
+water	Youko, Elerium Commander	***	6	Attacker	Technological				Water Armor III: 140% HP for all Water Heroes	Thorns	Dispel Dodge	2x		2x	Elerium Strike: Fires a barrage of missiles, attacking up to 4 times for 500% ATK. A 5th strike attacks for 2500% ATK.
+water	Youko, Elerium Commander	****	9	Attacker	Technological				Water Armor IV: 160% HP for all Water Heroes	Thorns	Dispel Dodge	2x		2x	Elerium Strike: Fires a barrage of missiles, attacking up to 4 times for 500% ATK. A 5th strike attacks for 2500% ATK.
+water	Youko, Elerium Commander	*****	15	Attacker	Technological				Water Armor V: 180% HP for all Water Heroes	Thorns	Dispel Dodge	3x		3x	Elerium Strike: Fires a barrage of missiles, attacking up to 4 times for 500% ATK. A 5th strike attacks for 2500% ATK.
+water	Youko, Elerium Commander	******	30	Attacker	Technological	4826	644	3225	Water Armor VI: 200% HP for all Water Heroes	Thorns	Dispel Dodge	4x		4x	Elerium Strike: Fires a barrage of missiles, attacking up to 4 times for 500% ATK. A 5th strike attacks for 2500% ATK.
 earth	Yoran Nomad	*	2	Balanced	Human	188	62	314	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Poison Blade: Attack all enemies for 200% of ATK for 2 turns
 earth	Yoran Rogue	**	4	Balanced	Human	332	111	552	Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge				Poison Cloud: Attack all enemies for 250%of ATK for 2 turns
 earth	Deepmoss Initiate	*	2	Healer	Human	126	104	210	Earth Blessing I: 110% REC for all Earth Heroes	Regen	Unknown				Minera's Kiss: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems

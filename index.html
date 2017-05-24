@@ -281,14 +281,14 @@
             <div class="panel panel-body">
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" :class="stat == 'attack' ? 'active' : ''" v-for="(deck, stat) in decksByStat">
-                        <a :href="'#computed-' + affinity.replace(/ /g, '-') + '-' + stat.replace(/ /g, '-')" role="tab" data-toggle="tab">
-                            {{ stat }} (score: {{ deck.value.format(0, 3) }})
+                        <a :href="'#computed-' + affinity.replace(/ /g, '-') + '-' + stat" role="tab" data-toggle="tab">
+                            {{ stat.replace(/_/g, ' ') }} (score: {{ deck.value.format(0, 3) }})
                             <span class="glyphicon glyphicon-info-sign text-info"
                                   data-toggle="popover"
                                   data-trigger="hover"
                                   data-placement="top"
                                   data-container="body"
-                                  :data-content="'Sum of all heroes \'' + stat + '\' stats after all bonuses are applied'"></span>
+                                  :data-content="'Sum of all heroes \'' + stat.replace(/_/g, ' ') + '\' stats after all bonuses are applied'"></span>
                         </a>
                     </li>
                 </ul>
