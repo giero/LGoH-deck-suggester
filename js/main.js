@@ -145,12 +145,15 @@ Vue.component('team-adding-form', {
             $.each($form.serializeArray(), function (_, kv) {
                 var eventSkill = kv.name.match(/^eventSkills\[([A-Za-z ]+)\]$/);
 
-                if (eventSkill !== null && !!kv.value) {
+                if (eventSkill !== null) {
                     if (!formParams.hasOwnProperty('eventSkills')) {
                         formParams.eventSkills = {};
                     }
 
-                    formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
+                    if (kv.value !== '') {
+                        formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
+                    }
+
                 } else {
                     formParams[kv.name] = parseInt(kv.value);
                 }
