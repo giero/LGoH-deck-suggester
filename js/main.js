@@ -11,10 +11,6 @@ if (false === allHeroes.load()) {
     });
 }
 
-var staredName = function (name, rarity) {
-    return name + "&nbsp;" + "<span style='color: #FFB404;' class='glyphicon glyphicon-star'></span>".repeat(rarity);
-};
-
 Number.prototype.format = function (n, x) {
     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
     return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
@@ -41,9 +37,6 @@ function getHeroesTableComponent(team) {
                     team.removeHero(e.target.dataset.heroId);
                 }
             }
-        },
-        filters: {
-            staredName: staredName
         }
     }
 }
@@ -217,9 +210,6 @@ Vue.component('team-adding-form', {
                 }
             }
         });
-    },
-    filters: {
-        staredName: staredName
     }
 });
 
@@ -328,9 +318,6 @@ Vue.component('computed-decks', {
         $('#page-nav a[href="#decks"]').on('shown.bs.tab', function (e) {
             $('#calculation-counter-skill').selectpicker('refresh');
         })
-    },
-    filters: {
-        staredName: staredName
     }
 });
 

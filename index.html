@@ -124,7 +124,9 @@
             </thead>
             <tbody>
             <tr v-for="hero in filteredHeroes">
-                <td v-html="$options.filters.staredName(hero.name, hero.rarity)"></td>
+                <td>
+                    {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
+                </td>
                 <td>{{ hero.attack }}</td>
                 <td>{{ hero.recovery }}</td>
                 <td>{{ hero.health }}</td>
@@ -156,7 +158,7 @@
                         <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true">
                             <optgroup v-for="affinity in affinities" :label="affinity">
                                 <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id"
-                                        :data-content="hero.name|staredName(hero.rarity)"
+                                        :data-content="hero.name + ' ' + hero.rarityStarsHTML"
                                 >{{ hero.name }}
                                 </option>
                             </optgroup>
@@ -300,7 +302,7 @@
                         <ul>
                             <li v-for="(hero, key) in deck.heroes">
                             <span :class="key === 0 ? 'text-danger': ''">
-                                <span v-html="$options.filters.staredName(hero.name, hero.rarity)"></span>
+                                {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
                                 ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
                                 :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
                                 <span v-if="Object.keys(hero.eventSkills).length !== 0">
