@@ -49,7 +49,7 @@ dark	Nightbound	******	30	Mage	Corrupt	3062	1021	1294	Mage Might VI: 200% Damage
 dark	Desire Spirit	****	9	Balanced	Spirit				Spirit Might IV: 160% Damage for all Spirit Heroes	Drain	Dispel Dodge				Pangs of Desire: Attack all enemies for 300% of ATK for 2 turns and Slow all enemies for 2 turns
 dark	Desire Ifrit	*****	15	Balanced	Spirit	1582	526	2637	Spirit Might V: 180% Damage for all Spirit Heroes	Drain	Dispel Dodge				Thirst of Desire: Attack all enemies for 350% of ATK for 2 turns and Slow all enemies for 2 turns
 dark	Avatar of Desire	******	30	Balanced	Spirit	2294	764	3824	Spirit Might VI: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge				Desire's Embrace: Attack all enemies for 450% of ATK for 2 turns and Slow all enemies for 2 turns
-dark	Single Strike Tycus	****	9	Healer	Human				Dark Blessing IV: 160% REC for all Dark Heroes	Absorb	Cleanse I				Conditioning: Attack all enemies for 800% of REC and Convert 3 Dark Gems into Health Gems
+dark	Single Strike Tycus	****	9	Healer	Human	699	574	1164	Dark Blessing IV: 160% REC for all Dark Heroes	Absorb	Cleanse I				Conditioning: Attack all enemies for 800% of REC and Convert 3 Dark Gems into Health Gems
 dark	Tycus, The Braggart	*****	15	Healer	Human	1167	967	1946	Dark Blessing V: 180% REC for all Dark Heroes	Absorb	Cleanse II				Second Wind: Attack all enemies for 1000% of REC and Convert 3 Dark Gems into Health Gems
 dark	Tycus, The Humbled	******	30	Healer	Human	1692	1406	2819	Dark Blessing VI: 200% REC for all Dark Heroes	Absorb	Cleanse III				Adrenaline: Attack all enemies for 1200% of REC and Convert 3 Dark Gems into Health Gems
 dark	Almar Klen	**	4	Balanced	Legend	488	163	812	Dark Might II: 120% Damage for all Dark Heroes	Might	Unknown	2x	2x	2x	Sneak Attack: Attack all enemies for 200% of ATK
@@ -186,10 +186,10 @@ light	Christine, Star Soprano	******	30	Defender	Human	1696	564	7039	Defender Ar
 light	Kristof, Joy Bringer	****	9	Mage	Demigod	1438	479	616	Demigod Might IV: 160% Damage for all Demigod Heroes	Dodge	Dispel Regen				Krismas Joy: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
 light	Father Kristof	*****	15	Mage	Demigod				Demigod Might V: 180% Damage for all Demigod Heroes	Dodge	Dispel Regen				Krismas Cheer: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
 light	Kristof and Rufus	******	30	Mage	Demigod				Demigod Might VI: 200% Damage for all Demigod Heroes	Dodge	Dispel Regen				Krismas Cheer: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
-light	Sherlock, The Deductive	****	9	Defender	Fable				Light Armor IV: 160% HP for all Light Heroes	Weaken	Cure Traitor				Power Of Deduction: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns
+light	Sherlock, The Deductive	****	9	Defender	Fable	693	231	2860	Light Armor IV: 160% HP for all Light Heroes	Weaken	Cure Traitor				Power Of Deduction: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 turns
 light	Sherlock, The Detective	*****	15	Defender	Fable				Light Armor V: 180% HP for all Light Heroes	Weaken	Cure Traitor				Power Of Logic: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 turns
 light	Sherlock Holmes	******	30	Defender	Fable				Light Armor VI: 200% HP for all Light Heroes	Weaken	Cure Traitor				It's Elementary: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 turns
-light	Indale, Star Eater	****	9	Attacker	Giant				Spirit Armor IV: 160% HP for all Spirit Heroes	Drain	Cure Zombie				Star Blood: Transform 5 Gems to Light
+light	Indale, Star Eater	****	9	Attacker	Giant	1791	239	1202	Spirit Armor IV: 160% HP for all Spirit Heroes	Drain	Cure Zombie				Star Blood: Transform 5 Gems to Light
 light	Indale, Zodiac King	*****	15	Attacker	Giant	3031	404	2026	Spirit Armor V: 180% HP for all Spirit Heroes	Drain	Cure Zombie				Zodiac Thunder: Transform 7 Gems to Light
 light	Indale, The Dark Star	******	30	Attacker	Giant	4424	592	2959	Spirit Armor VI: 200% HP for all Spirit Heroes	Drain	Cure Zombie				Black Hole Sun: Transform 10 Gems to Light
 light	Shining Bull	****	9	Warrior	Creature	368	479	2399	Light Armor IV: 160% HP for all Light Heroes	Autoheal	None				Golden Hoof: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 7 turns.
@@ -205,7 +205,7 @@ light	Fate's Revenge	******	30	Warrior	Giant	3702	311	6168	Giant Might VI: 200% 
 light	Archangel Uriel	***	6	Attacker	Dren	1196	160	801	Sword of Heaven I: 175% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 5 * your remaining HP % (maximum 500% ATK).
 light	Archangel Uriel	****	9	Attacker	Dren	1951	261	1306	Sword of Heaven II: 200% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 10 * your remaining HP % (maximum 1000% ATK).
 light	Archangel Uriel	*****	15	Attacker	Dren	3317	4444	2226	Sword of Heaven III: 225% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			3x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 20 * your remaining HP % (maximum 2000% ATK).
-light	Archangel Uriel	******	30	Attacker	Dren				Sword of Heaven IV: 300% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			4x	
+light	Archangel Uriel	******	30	Attacker	Dren	4814	642	3209	Sword of Heaven IV: 300% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			4x	
 light	Archangel Mythriel	******	30	Attacker	Dren	4824	644	3225	Guardian Might VI: 200% Damage for all Guardian Heroes	Might	Dispel Dodge				Derend's Justice: Greatly increase the drop rate of Light gems until your next turn. Cast 'Focus Laser' on a Dark enemy for 1 turn. Only usable once every 7 turns.
 light	Cooper T. Missiles	******	30	Attacker	Creature	4826	646	3229	Creature Might VI: 200% Damage for all Creature Heroes	Zombie	Cure Vessel				Galactic Guardian: If laser is focused, attack for 7500% ATK and remove 'Focus Laser'. Attack an enemy for 700% ATK.
 fire	Flamebound Initiate	*	2	Attacker	Corrupt	346	46	234	Fire Armor I: 110% HP for all Fire Heroes	Weaken	Unknown				Flame Punch: Attack an enemy for 350% of ATK, ignoring armor
@@ -213,7 +213,7 @@ fire	Flamebound Knight	**	4	Attacker	Corrupt	600	83	415	Fire Armor II: 120% HP f
 fire	Flamebound Captain	***	6	Attacker	Corrupt	1006	136	685	Fire Armor III: 140% HP for all Fire Heroes	Weaken	Cure Poison				Embers of Mirscend: Attack an enemy for 350% of ATK, ignoring armor
 fire	Flamebound General	****	9	Attacker	Corrupt	1629	217	1092	Fire Armor IV: 160% HP for all Fire Heroes	Weaken	Cure Poison				Flames of Mirscend: Attack an enemy for 450% of ATK, ignoring armor
 fire	Flamebound Monk	*	2	Healer	Human	136	108	228	Fire Blessing I: 110% REC for all Fire Heroes	Regen	Unknown				Healing Touch: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
-fire	Flamebound Seer	**	4	Healer	Human				Fire Blessing II: 120% REC for all Fire Heroes	Regen	Cure Poison				Healing Flame: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
+fire	Flamebound Seer	**	4	Healer	Human	222	178	371	Fire Blessing II: 120% REC for all Fire Heroes	Regen	Cure Poison				Healing Flame: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
 fire	Flamebound Ascetic	***	6	Healer	Human	370	302	617	Fire Blessing III: 140% REC for all Fire Heroes	Regen	Cure Poison				Cauterize: Heal for 300% of REC and Convert 3 Fire Gems into Heart Gems
 fire	Varg Pup	***	6	Defender	Creature	412	136	1679	Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen				Vicious Bite: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
 fire	Varg	****	9	Defender	Creature	659	219	2720	Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen				Rend Flesh: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
@@ -306,7 +306,7 @@ fire	Mecha Muramasa	******	30	Attacker	Spirit				Spirit Armor VI: 200% HP for al
 fire	Celestial Sum Il Tek	*	2	Attacker	Demigod	20	20	20	Human Might I: 110% Damage for all Human Heroes	Dodge	Unknown	2x	2x		Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK
 fire	Celestial Sum Il Tek	**	4	Attacker	Demigod	686	93	471	Human Might II: 120% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK
 fire	Celestial Sum Il Tek	***	6	Attacker	Demigod	1146	154	769	Human Might III: 140% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK
-fire	Celestial Sum Il Tek	****	9	Attacker	Demigod				Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK
+fire	Celestial Sum Il Tek	****	9	Attacker	Demigod	1879	253	1266	Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK
 fire	Celestial Sum Il Tek	*****	15	Attacker	Demigod				Human Might V: 180% Damage for all Human Heroes	Dodge	Cure Siphon	3x	3x		Solar Flare: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 700% of ATK
 fire	Celestial Sum Il Tek	******	30	Attacker	Demigod				Human Might VI: 200% Damage for all Human Heroes	Dodge	Cure Siphon	4x	4x		Red Dwarf: Reduce all enemy DEF by 75% for 3 turns and Attack an enemy for 900% of ATK
 fire	Ji, Sun Born	****	9	Balanced	God				God Might IV: 160% Damage for all God Heroes	Blind	Cure Panic				Zodiac Strike: Increase self ATK by 10% for 2 turns. Charges extremely fast.
@@ -338,6 +338,10 @@ fire	Junko, Oni Hunter	*****	15	Attacker	Honored				Attacker Armor V: 180% HP fo
 fire	Junko, Oni Hunter	******	30	Attacker	Honored	4824	644	3225	Attacker Armor VI: 200% HP for all Attacker Heroes	Absorb	Cure Blind				Dance of Death: Attack for 500% ATK. if the enemy is raid boss, attack again for 2000% ATK. Cast Banisher for 3 turns.
 fire	Basan, The Destroyer	****	9	Warrior	Ancient	1564	132	2607	Ancient Armor IV: 160% HP for all Ancient Heroes	Weaken	Cure Blind				Fire Claw: Attack all enemies for 100% ATK. Attack all earth enemies for 500% ATK
 fire	Basan, The Destroyer	*****	15	Warrior	Ancient	2658	226	4430	Ancient Armor IV: 180% HP for all Ancient Heroes	Weaken	Cure Blind				Fire Claw: Attack all enemies for 150% ATK. Attack all earth enemies for 750% ATK
+fire	Cthulhu, Dream Eater	***		Balanced	Corrupt	688	230	1146	Power of the Deep I: 175% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 3 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
+fire	Cthulhu, Dream Eater	****	9	Balanced	Corrupt	1124	374	1871	Power of the Deep II: 200% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 5 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
+fire	Cthulhu, Dream Eater	*****	15	Balanced	Corrupt	1904	634	3171	Power of the Deep III: 225% Damage for all Human Heroes	Zombie	Dispel MIght	3x			Dream Eater: Transform 7 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
+fire	Cthulhu, Dream Eater	******	30	Balanced	Corrupt	2772	924	4618	Power of the Deep IV: 300% Damage for all Human Heroes	Zombie	Dispel MIght	4x			Dream Eater: Transform 10 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 water	Frostvein Cultist	*	2	Mage	Corrupt	256	86	118	Water Might I: 110% Damage for all Water Heroes	Drain	Unknown				
 water	Frostvein Devout	**	4	Mage	Corrupt	431	143	190	Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor				
 water	Frostvein Enforcer	***	6	Mage	Corrupt	724	241	312	Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor				
@@ -455,6 +459,8 @@ water	Takumi, Elerium Warrior	***	6	Attacker	Technological				Deluge of Power I:
 water	Takumi, Elerium Warrior	****	9	Attacker	Technological				Deluge of Power II: 200% Damage and HP for all Water Attackers Heroes	Traitor	Cure Traitor	2x		2x	
 water	Takumi, Elerium Warrior	*****	15	Attacker	Technological				Deluge of Power III: 225% Damage and HP for all Water Attackers Heroes	Traitor	Cure Traitor	3x		3x	
 water	Takumi, Elerium Warrior	******	30	Attacker	Technological	4814	642	3209	Deluge of Power IV: 300% Damage and HP for all Water Attackers Heroes	Traitor	Cure Traitor	4x		4x	Elerium Tonic: Water Technological heroes deal 15% more damage.
+water	Dark Mirror Alice	****	9	Attacker	Human	1963	265	1326	Human Armor IV: 160% HP for all Human Heroes	Drain	Dispel Judgement			2x	Vorpal Command: Upgrades 1 Water gem into a Power I Gem. Charges extremely fast. Can only be used once on every turns.
+water	Vision Swept Alice	*****	15	Attacker	Human	3317	444	2224	Human Armor V: 180% HP for all Human Heroes	Drain	Dispel Judgement			3x	Vorpal Command: Upgrades 1 Water gem into a Power II Gem. Charges extremely fast. Can only be used once on every turns.
 earth	Yoran Nomad	*	2	Balanced	Human	188	62	314	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Poison Blade: Attack all enemies for 200% of ATK for 2 turns
 earth	Yoran Rogue	**	4	Balanced	Human	332	111	552	Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge				Poison Cloud: Attack all enemies for 250%of ATK for 2 turns
 earth	Deepmoss Initiate	*	2	Healer	Human	126	104	210	Earth Blessing I: 110% REC for all Earth Heroes	Regen	Unknown				Minera's Kiss: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems
@@ -481,14 +487,14 @@ earth	Ilodran Sniper	***	6	Attacker	Human	1004	136	681	Earth Armor III: 140% HP 
 earth	Ilodran Deadeye	****	9	Attacker	Human				Earth Armor IV: 160% HP for all Earth Heroes	Weaken	Cure Poison				Storm of Arrows: Attack an enemy for 450% of ATK, ignoring armor
 earth	Stonesister	**	4	Balanced	Dwarf	346	115	576	Attacker Might II: 120% Damage for all Attacker Heroes	Dodge	Cure Siphon				Stonefist Jab: Attack an enemy for 300% of ATK and Upgrade 1 Earth Gem
 earth	Stonesister Elite	***	6	Balanced	Dwarf	576	192	960	Attacker Might III: 140% Damage for all Attacker Heroes	Dodge	Cure Siphon				Stonefist Strike: Attack an enemy for 350% of ATK and Upgrade 1 Earth Gem
-earth	Yoran Pests	**	4	Warrior	Spirit				Warrior Armor II: 120% HP for all Warrior Heroes	Might	Dispel Dodge				Drain Blood: Attack an enemy for 260% of HP and Slow for 2 turns
+earth	Yoran Pests	**	4	Warrior	Spirit	463	43	771	Warrior Armor II: 120% HP for all Warrior Heroes	Might	Dispel Dodge				Drain Blood: Attack an enemy for 260% of HP and Slow for 2 turns
 earth	Yoran Swarmers	***	6	Warrior	Spirit	762	65	1270	Warrior Armor III: 140% HP for all Warrior Heroes	Might	Dispel Dodge				Drain Soul: Attack an enemy for 260% of HP and Slow for 2 turns
 earth	Yoran Hydraling	***	6	Warrior	Dragon	728	63	1212	Earth Armor III: 140% HP for all Earth Heroes	Poison	Dispel Drain				Acid Sting: Attack all enemies for 220% of HP
 earth	Yoran Hydra	****	9	Warrior	Dragon	1170	98	1949	Earth Armor IV: 160% HP for all Earth Heroes	Poison	Dispel Drain				Acid Breath: Attack all enemies for 240% of HP for 2 turns
 earth	Quetzl	*****	15	Warrior	Dragon	1986	166	3310	Earth Armor V: 180% HP for all Earth Heroes	Poison	Dispel Drain				Venomous Bite: Attack all enemies for 260% of HP for 3 turns
 earth	Quetzl the Vicious	******	30	Warrior	Dragon				Earth Armor VI: 200% HP for all Earth Heroes	Poison	Dispel Drain				Corrosive Spray: Attack all enemies for 260% of HP for 5 turns
 earth	Yoran Shaman	***	6	Mage	Human	730	243	322	Mage Might III: 140% Damage for all Mage Heroes	Zombie	Cure Blind				Rain Dance: Attack all enemies for 300% of ATK and Upgrade 1 Earth Gem
-earth	Yoran Shaman Elder	****	9	Mage	Human				Mage Might IV: 160% Damage for all Mage Heroes	Zombie	Cure Blind				Rain Dance: Attack all enemies for 400% of ATK and Upgrade 1 Earth Gem
+earth	Yoran Shaman Elder	****	9	Mage	Human	1172	391	494	Mage Might IV: 160% Damage for all Mage Heroes	Zombie	Cure Blind				Rain Dance: Attack all enemies for 400% of ATK and Upgrade 1 Earth Gem
 earth	Deepmoss Jaguar	****	9	Guardian	Creature	308	411	2053	Guardian Blessing IV: 160% REC for all Guardian Heroes	Poison	Cure Weaken				Hide in Shadows: Heal for 400% of REC and Team is immune to damage this turn
 earth	Psadrian Healer	****	9	Healer	Creature	621	514	1036	Earth Blessing IV: 160% REC for all Earth Heroes	Siphon	Unknown				Psadrian Chant: Attack an enemy for 800% of REC and Heal for 200% of REC
 earth	Battle Wolf Odin	*****	15	Attacker	God	2767	372	1858	Earth Might V: 180% Damage for all Earth Heroes	Judgement	Cure Zombie				Gungnir's Thirst: Attack all Water enemies for 500% of ATK and Attack an enemy for 500% of ATK
@@ -540,8 +546,8 @@ earth	Spirit of Krismas Past	******	30	Balanced	Spirit	2658	886	4430	Earth Armor
 earth	Djema, Bringer Of Seed	****	9	Mage	God	1304	435	550	Dragon Might IV: 160% Damage for all Dragon Heroes	Blind	Dispel Armor	2x			Sprouting Vines: Reduce all enemy ATK by 30% for 2 turns and Attack an enemy for 550% of ATK
 earth	Djema, The Perceptive	*****	15	Mage	God	2208	736	927	Dragon Might V: 180% Damage for all Dragon Heroes	Blind	Dispel Armor	3x			Renewed Vigor: Reduce all enemy ATK by 35% for 2 turns and Attack an enemy for 650% of ATK
 earth	Empyrean Djema	******	30	Mage	God	3222	1073	1360	Dragon Might VI: 200% Damage for all Dragon Heroes	Blind	Dispel Armor	4x			Empyrean Roar: Reduce all enemy ATK by 40% for 2 turns and Attack an enemy for 750% of ATK
-earth	Wu Kong, Stone Born	****	9	Balanced	God				God Might IV: 160% Damage for all God Heroes	Absorb	Cure Weaken				Multi-Staff Strike: Matches after the first match have moderately increased time to make gem matches for 2 turns
-earth	Wu Kong, Cloud Walker	*****	15	Balanced	God				God Might V: 180% Damage for all God Heroes	Absorb	Cure Weaken				Cloud Walker: Matches after the first match have moderately increased time to make gem matches for 2 turns
+earth	Wu Kong, Stone Born	****	9	Balanced	God	1072	356	1787	God Might IV: 160% Damage for all God Heroes	Absorb	Cure Weaken	2x	2x		Multi-Staff Strike: Matches after the first match have moderately increased time to make gem matches for 2 turns
+earth	Wu Kong, Cloud Walker	*****	15	Balanced	God	1828	608	3045	God Might V: 180% Damage for all God Heroes	Absorb	Cure Weaken	3x	3x		Cloud Walker: Matches after the first match have moderately increased time to make gem matches for 2 turns
 earth	Wu Kong, Monkey King	******	30	Balanced	God				God Might VI: 200% Damage for all God Heroes	Absorb	Cure Weaken				King's Staff: Matches after the first match have massively increased time to make gem matches for 2 turns
 earth	Squire Dorin	****	9	Balanced	Human				Human Armor IV: 160% HP for all Human Heroes	Regen	Cure Poison				Trample: Increase all heroes RCV by 25% for 2 turns
 earth	Chevalier Dorin	*****	15	Balanced	Human				Human Armor V: 180% HP for all Human Heroes	Regen	Cure Poison				Death's Herald: Increase all heroes RCV by 50% for 2 turns
@@ -569,3 +575,4 @@ earth	Vulcan, Copper Blood	******	30	Warrior	Demigod				Gaia's Flame IV: 300% Da
 earth	Jade Dragon	****	9	Defender	Ancient	793	263	3268	Attacker Armor IV: 160% HP for all Attacker Heroes	Gem Silence	Cure Blind				Jade Fist: Attack for 500% HP.
 earth	Jade Dragon	*****	15	Defender	Ancient	1335	444	5529	Attacker Armor V: 180% HP for all Attacker Heroes	Gem Silence	Cure Blind				
 earth	Jade Dragon	******	30	Defender	Ancient				Attacker Armor VI: 200% HP for all Attacker Heroes	Gem Silence	Cure Blind				
+earth	Large-Clawed Wolf	****	9	Attacker	Corrupt	1795	241	1210	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Autoheal	None				What Sharp Teeth: Destroy 1/3 of all Gems on the board
