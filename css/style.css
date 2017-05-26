@@ -35,3 +35,7 @@ body {
 .heroes-table .event-skill {
 	margin: 0 2px;
 }
+
+span.rarity-star {
+    color: #FFB404;
+}

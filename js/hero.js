@@ -29,6 +29,12 @@ Hero.prototype.matchesWithStat = function (stat) {
         || Object.keys(this.eventSkills).indexOf(stat) >= 0;
 };
 
+Object.defineProperty(Hero.prototype, 'rarityStarsHTML', {
+    get: function () {
+        return "<span class='rarity-star glyphicon glyphicon-star'></span>".repeat(this.rarity);
+    }
+});
+
 Object.defineProperty(Hero.prototype, 'power', {
     get: function () {
         return this.attack && this.recovery && this.health
@@ -44,3 +50,4 @@ Object.defineProperty(Hero.prototype, 'attack_and_health', {
             : 0;
     }
 });
+
