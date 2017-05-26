@@ -325,5 +325,23 @@ new Vue({
     el: '#app',
     data: {
         teamHeroes: teamHeroes
+    },
+    mounted: function () {
+        $('.action-menu').on('click', 'a', function (e) {
+            e.preventDefault();
+
+            var $this = $(this);
+            $this.parent('li').removeClass('active');
+            $this.parents('.dropdown-right').addClass('active');
+
+            switch ($this.data('action')) {
+                case 'import':
+                    alert('Will be done soon ;)');
+                    break;
+                case 'export':
+                    alert('Will be done soon ;)');
+                    break;
+            }
+        })
     }
 });

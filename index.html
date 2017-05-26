@@ -32,7 +32,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="page-nav" class="nav navbar-nav pull-right">
-                <li role="presentation" class="active"><a href="#team">Your team</a></li>
+                <li role="presentation" class="dropdown-right active">
+                    <a href="#team" class="pull-left">Your team</a>
+                    <a href="#" class="dropdown-toggle pull-left" data-toggle="dropdown">
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu action-menu">
+                        <li><a href="#" id="team-import" data-action="import">Import team</a></li>
+                        <li><a href="#" id="team-export" data-action="export">Export team</a></li>
+                    </ul></li>
+
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
                 <li role="presentation"><a href="#heroes">List of heroes</a></li>
                 <li role="presentation"><a href="#contact">Contact</a></li>
