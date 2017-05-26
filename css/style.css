@@ -32,10 +32,31 @@ body {
 	color: #FFB404;
 }
 
-.heroes-table .event-skill {
+.heroes-table .event-skill, .list-group-item .event-skill {
 	margin: 0 2px;
 }
 
 span.rarity-star {
     color: #FFB404;
+}
+
+.calculated-heroes-panel .heroes-list {
+	border-right: 1px solid #ddd;
+}
+
+.calculated-heroes-panel .list-group-item {
+	padding: 5px 8px !important;
+}
+
+.calculated-heroes-panel .list-group-item .badge {
+	background-color: #31708f;
+	font-weight: normal;
+}
+
+.calculated-heroes-panel .panel-body {
+	padding-bottom: 0;
+}
+
+.calculated-heroes-panel .heroes-list ul, .calculated-heroes-panel .stats-list ul {
+	margin-bottom: -1px;
 }
