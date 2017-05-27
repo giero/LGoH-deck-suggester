@@ -29,6 +29,19 @@ Hero.prototype.matchesWithStat = function (stat) {
         || Object.keys(this.eventSkills).indexOf(stat) >= 0;
 };
 
+Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
+    if (typeof leaderTarget === 'string') {
+        return this.matchesWithStat(leaderTarget);
+    } else {
+        for (var lt = leaderTarget.length; lt >= 0; --lt) {
+            if (!this.matchesWithStat(leaderTarget[lt])) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
+
 Object.defineProperty(Hero.prototype, 'rarityStarsHTML', {
     get: function () {
         return "<span class='rarity-star glyphicon glyphicon-star'></span>".repeat(this.rarity);
