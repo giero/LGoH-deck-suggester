@@ -1,7 +1,8 @@
 var teamHeroes = new Team('user', localStorage);
+var allHeroes = new Team('all', sessionStorage);
+
 teamHeroes.load();
 
-var allHeroes = new Team('all', sessionStorage);
 if (false === allHeroes.load()) {
     $.getJSON("data/heroes_all.json", function (json) {
         json.forEach(function (heroStat) {
@@ -10,11 +11,6 @@ if (false === allHeroes.load()) {
         allHeroes.save();
     });
 }
-
-Number.prototype.format = function (n, x) {
-    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
-    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
-};
 
 function getHeroesTableComponent(team) {
     return {
@@ -33,9 +29,7 @@ function getHeroesTableComponent(team) {
         },
         methods: {
             removeHeroFromList: function (e) {
-                if (e.target.dataset.hasOwnProperty('heroId')) {
-                    team.removeHero(e.target.dataset.heroId);
-                }
+                team.removeHero($(e.target).parents('tr').attr('data-hero-id'));
             }
         }
     }
@@ -325,5 +319,70 @@ new Vue({
     el: '#app',
     data: {
         teamHeroes: teamHeroes
+    },
+    mounted: function () {
+        $('.team-actions-menu').on('click', 'a', function (e) {
+            e.preventDefault();
+
+            // undo default navigation click behavior
+            var $this = $(this);
+            $this.parent('li').removeClass('active');
+            $this.parents('.dropdown-right').addClass('active');
+
+            switch ($this.data('action')) {
+                case 'import':
+                    var prompt = bootbox.prompt({
+                        title: "Paste previous exported string with your team configuration.",
+                        inputType: 'textarea',
+                        callback: function (result) {
+                            var importedString = LZString.decompressFromEncodedURIComponent(result);
+
+                            if (!teamHeroes.loadFromString(importedString)) {
+                                bootbox.alert({
+                                    message: 'Invalid input string :('
+                                });
+                            }
+                        }
+                    });
+
+                    prompt.init(function (_$) {
+                        var $textarea = $(_$.find('textarea')[0]);
+                        $textarea.css('height', '300px');
+                    });
+                    break;
+
+                case 'export':
+                    var alert = bootbox.alert({
+                        title: "Copy this string to a text file, to save your team configuration.",
+                        message: '<textarea style="margin: 0px; height: 300px; width: 100%;"></textarea>'
+                    });
+                    alert.init(function (_$) {
+                        var $textarea = $(_$.find('textarea')[0]);
+                        $textarea.val(LZString.compressToEncodedURIComponent(localStorage.getItem('heroes::user')));
+                        setTimeout(function () {
+                            $textarea.select();
+                        }, 1000);
+                    });
+                    break;
+            }
+        });
+
+        $('#team').find('.hero-editable-stat').editable({
+            highlight: false,
+            success: function(response, newValue) {
+                var $this = $(this);
+                var heroId = $this.parents('tr').attr('data-hero-id');
+                var hero = teamHeroes.find(heroId);
+                var stat = $this.attr('data-stat');
+
+                hero[stat] = parseInt(newValue);
+                teamHeroes.save();
+            },
+            validate: function(value) {
+                if(!value.match(/^\d+$/)) {
+                    return 'This value should be a number.';
+                }
+            }
+        });
     }
 });

@@ -15,6 +15,18 @@ body {
 	margin-bottom: 20px;
 }
 
+.dropdown.dropdown-split-right a {
+	padding-left: 3px;
+}
+
+.nav.navbar-nav li.dropdown-right a:nth-child(1) {
+	padding-right: 5px !important;
+}
+
+.nav.navbar-nav li.dropdown-right a:nth-child(2) {
+	padding-left: 5px !important;
+}
+
 .theme-showcase > p > .btn {
 	margin: 5px 0;
 }
@@ -59,4 +71,8 @@ span.rarity-star {
 
 .calculated-heroes-panel .heroes-list ul, .calculated-heroes-panel .stats-list ul {
 	margin-bottom: -1px;
+}
+
+#team .hero-editable-stat {
+	cursor: pointer;
 }

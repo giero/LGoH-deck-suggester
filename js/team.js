@@ -104,3 +104,17 @@ Team.prototype.load = function () {
 
     return !!this.heroes.length;
 };
+
+Team.prototype.loadFromString = function(config) {
+    if (typeof config === 'string' && config.length) {
+        try {
+            this.heroes = JSON.parse(config) || [];
+            this.save();
+
+            return true;
+        } catch (e) {
+        }
+    }
+
+    return false;
+};

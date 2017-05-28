@@ -7,6 +7,7 @@
     <meta name="author" content="Giero">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css">
     <link rel="stylesheet" href="css/style.css">
 
     <style type="text/css">
@@ -32,7 +33,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="page-nav" class="nav navbar-nav pull-right">
-                <li role="presentation" class="active"><a href="#team">Your team</a></li>
+                <li role="presentation" class="dropdown-right active">
+                    <a href="#team" class="pull-left">Your team</a>
+                    <a href="#" class="dropdown-toggle pull-left" data-toggle="dropdown">
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu team-actions-menu">
+                        <li><a href="#" id="team-import" data-action="import">Import team</a></li>
+                        <li><a href="#" id="team-export" data-action="export">Export team</a></li>
+                    </ul></li>
+
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
                 <li role="presentation"><a href="#heroes">List of heroes</a></li>
                 <li role="presentation"><a href="#contact">Contact</a></li>
@@ -123,13 +132,13 @@
             </tr>
             </thead>
             <tbody>
-            <tr v-for="hero in filteredHeroes">
+            <tr v-for="hero in filteredHeroes" :data-hero-id="hero.id">
                 <td>
                     {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
                 </td>
-                <td>{{ hero.attack }}</td>
-                <td>{{ hero.recovery }}</td>
-                <td>{{ hero.health }}</td>
+                <td><span class="hero-editable-stat" data-stat="attack">{{ hero.attack }}</span></td>
+                <td><span class="hero-editable-stat" data-stat="recovery">{{ hero.recovery }}</span></td>
+                <td><span class="hero-editable-stat" data-stat="health">{{ hero.health }}</span></td>
                 <td>
                     <span class="label label-primary event-skill"
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
@@ -140,7 +149,7 @@
                 <td>{{ hero.defenderSkill }}</td>
                 <td>{{ hero.counterSkill }}</td>
                 <td>
-                    <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" :data-hero-id="hero.id" @click="removeHeroFromList"></span>
+                    <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" @click="removeHeroFromList"></span>
                 </td>
             </tr>
             </tbody>
@@ -349,8 +358,12 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rating-input/0.4.0/bootstrap-rating-input.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.js"></script>
 
+<script src="js/helpers.js"></script>
 <script src="js/hero.js"></script>
 <script src="js/team.js"></script>
 <script src="js/deck.js"></script>
