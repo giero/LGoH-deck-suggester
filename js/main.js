@@ -29,9 +29,7 @@ function getHeroesTableComponent(team) {
         },
         methods: {
             removeHeroFromList: function (e) {
-                if (e.target.dataset.hasOwnProperty('heroId')) {
-                    team.removeHero(e.target.dataset.heroId);
-                }
+                team.removeHero($(e.target).parents('tr').attr('data-hero-id'));
             }
         }
     }
@@ -367,6 +365,24 @@ new Vue({
                     });
                     break;
             }
-        })
+        });
+
+        $('#team').find('.hero-editable-stat').editable({
+            highlight: false,
+            success: function(response, newValue) {
+                var $this = $(this);
+                var heroId = $this.parents('tr').attr('data-hero-id');
+                var hero = teamHeroes.find(heroId);
+                var stat = $this.attr('data-stat');
+
+                hero[stat] = parseInt(newValue);
+                teamHeroes.save();
+            },
+            validate: function(value) {
+                if(!value.match(/^\d+$/)) {
+                    return 'This value should be a number.';
+                }
+            }
+        });
     }
 });

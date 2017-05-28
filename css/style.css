@@ -72,3 +72,7 @@ span.rarity-star {
 .calculated-heroes-panel .heroes-list ul, .calculated-heroes-panel .stats-list ul {
 	margin-bottom: -1px;
 }
+
+#team .hero-editable-stat {
+	cursor: pointer;
+}
