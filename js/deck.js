@@ -64,7 +64,6 @@ Deck.prototype.collectCommanderBonuses = function () {
 
         commanderBonuses[hero.affinity] += hero.eventSkills.Commander;
     }
-
     return commanderBonuses;
 };
 
@@ -131,7 +130,7 @@ Deck.prototype.applyLeaderAbilityBonus = function (hero) {
 };
 
 Deck.prototype.applyEventBonus = function (hero) {
-    if (this.options.hasOwnProperty('event')) {
+    if (!this.options.hasOwnProperty('event')) {
         return;
     }
 
