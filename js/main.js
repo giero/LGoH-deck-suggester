@@ -321,55 +321,9 @@ new Vue({
         teamHeroes: teamHeroes
     },
     mounted: function () {
-        $('.team-actions-menu').on('click', 'a', function (e) {
-            e.preventDefault();
-
-            // undo default navigation click behavior
-            var $this = $(this);
-            $this.parent('li').removeClass('active');
-            $this.parents('.dropdown-right').addClass('active');
-
-            switch ($this.data('action')) {
-                case 'import':
-                    var prompt = bootbox.prompt({
-                        title: "Paste previous exported string with your team configuration.",
-                        inputType: 'textarea',
-                        callback: function (result) {
-                            var importedString = LZString.decompressFromEncodedURIComponent(result);
-
-                            if (!teamHeroes.loadFromString(importedString)) {
-                                bootbox.alert({
-                                    message: 'Invalid input string :('
-                                });
-                            }
-                        }
-                    });
-
-                    prompt.init(function (_$) {
-                        var $textarea = $(_$.find('textarea')[0]);
-                        $textarea.css('height', '300px');
-                    });
-                    break;
-
-                case 'export':
-                    var alert = bootbox.alert({
-                        title: "Copy this string to a text file, to save your team configuration.",
-                        message: '<textarea style="margin: 0px; height: 300px; width: 100%;"></textarea>'
-                    });
-                    alert.init(function (_$) {
-                        var $textarea = $(_$.find('textarea')[0]);
-                        $textarea.val(LZString.compressToEncodedURIComponent(localStorage.getItem('heroes::user')));
-                        setTimeout(function () {
-                            $textarea.select();
-                        }, 1000);
-                    });
-                    break;
-            }
-        });
-
         $('#team').find('.hero-editable-stat').editable({
             highlight: false,
-            success: function(response, newValue) {
+            success: function (response, newValue) {
                 var $this = $(this);
                 var heroId = $this.parents('tr').attr('data-hero-id');
                 var hero = teamHeroes.find(heroId);
@@ -378,10 +332,38 @@ new Vue({
                 hero[stat] = parseInt(newValue);
                 teamHeroes.save();
             },
-            validate: function(value) {
-                if(!value.match(/^\d+$/)) {
+            validate: function (value) {
+                if (!value.match(/^\d+$/)) {
                     return 'This value should be a number.';
                 }
+            }
+        });
+    }
+});
+
+new Vue({
+    el: '#page-nav',
+    mounted: function () {
+        $('.team-actions-menu').on('click', 'a', function (e) {
+            e.preventDefault();
+
+            // undo default navigation click behavior
+            var $this = $(this);
+            $this.parent('li').removeClass('active');
+            $this.parents('.dropdown-right').addClass('active');
+
+            // do some actions
+            var action = $this.data('action');
+            switch (action) {
+                case 'import':
+                case 'export':
+                case 'save':
+                case 'load':
+                case 'delete':
+                    teamOperations[action]();
+                    break;
+                default:
+                    throw new Error("Unknown/unhandled action '" + action + "'")
             }
         });
     }

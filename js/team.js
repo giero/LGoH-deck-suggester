@@ -92,7 +92,7 @@ Team.prototype.save = function () {
         return;
     }
 
-    this.storage.setItem('heroes::' + this.name , JSON.stringify(this.heroes));
+    this.storage.setItem('heroes::' + this.name , this.serialize());
 };
 
 Team.prototype.load = function () {
@@ -117,4 +117,8 @@ Team.prototype.loadFromString = function(config) {
     }
 
     return false;
+};
+
+Team.prototype.serialize = function () {
+    return JSON.stringify(this.heroes);
 };
