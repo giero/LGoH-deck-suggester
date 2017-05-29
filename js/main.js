@@ -311,7 +311,7 @@ Vue.component('computed-decks', {
 
         $('#page-nav a[href="#decks"]').on('shown.bs.tab', function (e) {
             $('#calculation-counter-skill').selectpicker('refresh');
-        })
+        });
     }
 });
 
@@ -338,12 +338,7 @@ new Vue({
                 }
             }
         });
-    }
-});
 
-new Vue({
-    el: '#page-nav',
-    mounted: function () {
         $('.team-actions-menu').on('click', 'a', function (e) {
             e.preventDefault();
 
