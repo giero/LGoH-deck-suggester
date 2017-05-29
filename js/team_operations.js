@@ -23,7 +23,6 @@ var teamOperations = {
         return savedTeams;
     },
     import: function () {
-        console.log(this);
         bootbox
             .prompt({
                 title: "Paste previous exported string with your team configuration.",
