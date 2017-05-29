@@ -36,12 +36,17 @@
                 <li role="presentation" class="dropdown-right active">
                     <a href="#team" class="pull-left">Your team</a>
                     <a href="#" class="dropdown-toggle pull-left" data-toggle="dropdown">
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu team-actions-menu">
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu team-actions-menu" role="menu">
+                        <li><a href="#" id="team-save" data-action="save">Save team</a></li>
+                        <li><a href="#" id="team-load" data-action="load">Load team</a></li>
+                        <li><a href="#" id="team-delete" data-action="delete">Delete saved teams</a></li>
+                        <li role="separator" class="divider"></li>
                         <li><a href="#" id="team-import" data-action="import">Import team</a></li>
                         <li><a href="#" id="team-export" data-action="export">Export team</a></li>
-                    </ul></li>
-
+                    </ul>
+                </li>
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
                 <li role="presentation"><a href="#heroes">List of heroes</a></li>
                 <li role="presentation"><a href="#contact">Contact</a></li>
@@ -366,6 +371,7 @@
 <script src="js/helpers.js"></script>
 <script src="js/hero.js"></script>
 <script src="js/team.js"></script>
+<script src="js/team_operations.js"></script>
 <script src="js/deck.js"></script>
 <script src="js/deck_generator.js"></script>
 <script src="js/deck_worker.js"></script>
