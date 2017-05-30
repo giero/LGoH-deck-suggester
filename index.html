@@ -164,14 +164,14 @@
 
 <template id="team-adding-form">
     <div class="jumbotron">
-        <form id="team-adding" role="form" method="post" class="form-horizontal" @submit="addHeroToTeam">
+        <form id="team-adding" method="post" class="form-horizontal" @submit="addHeroToTeam">
             <fieldset>
                 <legend>Add hero to team</legend>
                 <div class='form-group'>
                     <div class='col-sm-12'>
                         <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true">
                             <optgroup v-for="affinity in affinities" :label="affinity">
-                                <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id"
+                                <option v-for="hero in allHeroes.heroes" v-if="hero.affinity == affinity" :value="hero.id"
                                         :data-content="hero.name + ' ' + hero.rarityStarsHTML"
                                 >{{ hero.name }}
                                 </option>
@@ -278,6 +278,30 @@
                                           data-container="body"
                                           data-content="Limiting this will speed up your calculations."></span>
                                 </div>
+
+                                <div class="form-group">
+                                    <label for="calculation-friends-leaders">Friends leaders:</label>
+                                    <select id="calculation-friends-leaders" class="selectpicker"
+                                            title="Hero name" v-model="friendsLeaders"
+                                            multiple data-selected-text-format="count > 2" data-live-search="true">
+                                        <optgroup v-for="affinity in affinities" :label="affinity">
+                                            <option v-for="hero in allHeroes.heroes" v-if="hero.affinity == affinity" :value="hero.id"
+                                                    :data-content="hero.name + ' ' + hero.rarityStarsHTML"
+                                            >{{ hero.name }}
+                                            </option>
+                                        </optgroup>
+                                    </select>
+                                    <span class="glyphicon glyphicon-info-sign text-info"
+                                          data-toggle="popover"
+                                          data-trigger="hover"
+                                          data-placement="top"
+                                          data-container="body"
+                                          data-html="true"
+                                          data-content="<p>There are places and situations, where you can choose another leader from your guild/friends heroes (like Trials or Dungeons).</p>
+                                                        <p>Selecting them can completely change calculations results because of their leader abilities
+                                                        ... and slow down calculations even more - keep it in mind</p>
+                                                        <small>(additional leaders will be considered at their max level</small>)"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -310,7 +334,7 @@
                         <div class="heroes-list col-sm-10">
                             <ul class="list-group" >
                                 <li class="list-group-item" v-for="(hero, key) in deck.heroes">
-                                    <span :class="key === 0 ? 'text-danger': ''">
+                                    <span :class="key === 0 || key === 5 ? 'text-danger': ''">
                                         {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
                                         ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
                                         :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
@@ -324,7 +348,7 @@
                                             </span>
                                         </span>
                                     </span>
-                                    <span v-if="key === 0"
+                                    <span v-if="key === 0 || key === 5"
                                           class="glyphicon glyphicon-info-sign text-info"
                                           data-toggle="popover"
                                           data-trigger="hover"

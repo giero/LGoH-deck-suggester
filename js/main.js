@@ -5,9 +5,15 @@ teamHeroes.load();
 
 if (false === allHeroes.load()) {
     $.getJSON("data/heroes_all.json", function (json) {
-        json.forEach(function (heroStat) {
-            allHeroes.addHero(heroStat);
-        });
+        for (var i = 0; i < json.length; ++i) {
+            var hero = new Hero(json[i]);
+            // all imported heroes are awaken at level 5
+            // we don't need such power ;)
+            hero.attack >>= 1;
+            hero.recovery >>= 1;
+            hero.health >>= 1;
+            allHeroes.addHero(hero);
+        }
         allHeroes.save();
     });
 }
@@ -109,9 +115,6 @@ Vue.component('team-adding-form', {
         };
     },
     computed: {
-        heroes: function () {
-            return allHeroes.getHeroes();
-        },
         affinities: function () {
             return ['Fire', 'Water', 'Earth', 'Light', 'Dark'];
         }
@@ -149,6 +152,7 @@ Vue.component('team-adding-form', {
             teamHeroes.addHero(
                 $.extend({}, allHeroes.find(formParams.id), formParams, {id: teamHeroes.heroes.length})
             );
+            teamHeroes.save();
 
             $form[0].reset();
             this.refreshSelect();
@@ -170,6 +174,7 @@ Vue.component('team-adding-form', {
                     }
                 );
                 teamHeroes.addHero(hero);
+                teamHeroes.save();
             }
         },
         clearTeam: function (e) {
@@ -193,7 +198,7 @@ Vue.component('team-adding-form', {
             var hero = self.allHeroes.find(heroId);
 
             for (var stat in {'attack': null, 'recovery': null, 'health': null}) {
-                $('#team-hero-' + stat).val(parseInt(hero[stat]) >> 1);
+                $('#team-hero-' + stat).val(parseInt(hero[stat]));
             }
 
             var eventSkillsMap = {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'};
@@ -212,16 +217,20 @@ Vue.component('computed-decks', {
     data: function () {
         return {
             teamHeroes: teamHeroes,
+            allHeroes: allHeroes,
             bestDecks: {},
             progress: -1,
             worker: undefined,
             event: '',
             counterSkills: [],
+            friendsLeaders: [],
             affinitiesLimit: [],
-            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
+            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus'],
+            affinities: ['Fire', 'Water', 'Earth', 'Light', 'Dark']
         }
     },
     computed: {
+
         possibilities: function () {
             var dg = new DeckGenerator(this.teamHeroes.getHeroes());
             return dg.countPossibilities();
@@ -277,6 +286,13 @@ Vue.component('computed-decks', {
 
             if (this.affinitiesLimit.length) {
                 options.affinitiesLimit = this.affinitiesLimit;
+            }
+
+            if (this.friendsLeaders.length) {
+                options.friendsLeaders = [];
+                for (var i = this.friendsLeaders.length - 1; i >= 0; --i) {
+                    options.friendsLeaders.push(this.allHeroes.find(this.friendsLeaders[i]));
+                }
             }
 
             this.bestDecks = {};

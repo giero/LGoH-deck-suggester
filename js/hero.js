@@ -33,7 +33,7 @@ Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
     if (typeof leaderTarget === 'string') {
         return this.matchesWithStat(leaderTarget);
     } else {
-        for (var lt = leaderTarget.length; lt >= 0; --lt) {
+        for (var lt = leaderTarget.length - 1; lt >= 0; --lt) {
             if (!this.matchesWithStat(leaderTarget[lt])) {
                 return false;
             }

@@ -27,45 +27,45 @@ DeckGenerator.prototype.generate = function (options) {
         };
     }
 
-    var combinations = function (leaderHero, heroes, len, offset, result) {
+    var combinations = function (leaderHero, heroes, len, offset, result, secondLeaderHero) {
         if (len === 0) {
             if (!(++counter % onePercentOfPossibilities)) {
                 this.postMessage(Math.round(counter / possibilities * 100));
             }
 
-            var deck = new Deck([leaderHero].concat(result), options);
-            for (var affinity in bestDecks) {
-                var deckValues = deck.calculate(affinity);
+        var deck = new Deck([leaderHero].concat(result, secondLeaderHero), options);
+        for (var affinity in bestDecks) {
+            var deckValues = deck.calculate(affinity);
 
-                if (deckValues.power > bestDecks[affinity].power.value) {
-                    bestDecks[affinity].power = {
-                        value: deckValues.power,
-                        heroes: deck.heroes,
-                        stats: deck.getStats()
-                    };
-                }
-                if (deckValues.attack > bestDecks[affinity].attack.value) {
-                    bestDecks[affinity].attack = {
-                        value: deckValues.attack,
-                        heroes: deck.heroes,
-                        stats: deck.getStats()
-                    };
-                }
-                if (deckValues.attack_and_health > bestDecks[affinity].attack_and_health.value) {
-                    bestDecks[affinity].attack_and_health = {
-                        value: deckValues.attack_and_health,
-                        heroes: deck.heroes,
-                        stats: deck.getStats()
-                    };
-                }
+            if (deckValues.power > bestDecks[affinity].power.value) {
+                bestDecks[affinity].power = {
+                    value: deckValues.power,
+                    heroes: deck.heroes,
+                    stats: deck.getStats()
+                };
             }
+            if (deckValues.attack > bestDecks[affinity].attack.value) {
+                bestDecks[affinity].attack = {
+                    value: deckValues.attack,
+                    heroes: deck.heroes,
+                    stats: deck.getStats()
+                };
+            }
+            if (deckValues.attack_and_health > bestDecks[affinity].attack_and_health.value) {
+                bestDecks[affinity].attack_and_health = {
+                    value: deckValues.attack_and_health,
+                    heroes: deck.heroes,
+                    stats: deck.getStats()
+                };
+            }
+        }
 
             return;
         }
 
         for (var i = offset, rl = result.length, hl = heroes.length; i <= hl - len; i++) {
             result[rl - len] = heroes[i];
-            combinations(leaderHero, heroes, len - 1, i + 1, result);
+            combinations(leaderHero, heroes, len - 1, i + 1, result, secondLeaderHero);
         }
     };
 
@@ -76,7 +76,15 @@ DeckGenerator.prototype.generate = function (options) {
         var heroes = this.heroes.slice();
         var leaderHero = heroes[i];
         heroes.splice(i, 1);
-        combinations(leaderHero, heroes, 4, 0, new Array(4));
+
+        var friendsLeaders = [{}];
+        if (options.hasOwnProperty('friendsLeaders')) {
+            friendsLeaders = options.friendsLeaders;
+        }
+
+        for (var j = friendsLeaders.length - 1; j >= 0; --j) {
+            combinations(leaderHero, heroes, 4, 0, new Array(4), friendsLeaders[j]);
+        }
 
         // console.log(leaderHero.name, new Date() - start);
     }

@@ -10,11 +10,16 @@ Team.prototype.addHero = function (hero) {
     }
 
     this.heroes.push(hero);
-    this.save();
+};
+
+Team.prototype.addHeroes = function (heroes) {
+    for (var i = 0; i < heroes.length; ++i) {
+        this.addHero(heroes[i]);
+    }
 };
 
 Team.prototype.removeHero = function (id) {
-    for (var i = this.heroes.length - 1; i >= 0 ; --i) {
+    for (var i = this.heroes.length - 1; i >= 0; --i) {
         if (this.heroes[i].id == id) {
             this.heroes.splice(i, 1);
             this.save();
@@ -28,9 +33,9 @@ Team.prototype.getHeroes = function (filters, sort) {
 
     if (!!sort) {
         heroes.sort(function (a, b) {
-            if ( a.name < b.name ) {
+            if (a.name < b.name) {
                 return -1;
-            } else if ( a.name > b.name ) {
+            } else if (a.name > b.name) {
                 return 1;
             }
             return 0;
@@ -39,12 +44,14 @@ Team.prototype.getHeroes = function (filters, sort) {
 
     if (filters && Object.keys(filters).length !== 0) {
         return heroes.filter(function (hero) {
-            for(var filter in filters){
+            for (var filter in filters) {
                 if (filters.hasOwnProperty(filter)) {
                     if (!hero.hasOwnProperty(filter)) {
                         throw new Error('Unknown hero property (' + filter + ')');
                     }
-                    if(hero[filter] !== filters[filter]){ return false; }
+                    if (hero[filter] !== filters[filter]) {
+                        return false;
+                    }
                 }
             }
             return true;
@@ -92,7 +99,7 @@ Team.prototype.save = function () {
         return;
     }
 
-    this.storage.setItem('heroes::' + this.name , this.serialize());
+    this.storage.setItem('heroes::' + this.name, this.serialize());
 };
 
 Team.prototype.load = function () {
@@ -100,12 +107,14 @@ Team.prototype.load = function () {
         return;
     }
 
-    this.heroes = JSON.parse(this.storage.getItem('heroes::' + this.name)) || [];
+    this.addHeroes(
+        JSON.parse(this.storage.getItem('heroes::' + this.name)) || []
+    );
 
     return !!this.heroes.length;
 };
 
-Team.prototype.loadFromString = function(config) {
+Team.prototype.loadFromString = function (config) {
     if (typeof config === 'string' && config.length) {
         try {
             this.heroes = JSON.parse(config) || [];

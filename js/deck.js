@@ -1,10 +1,17 @@
 function Deck(heroes, options) {
+    if (heroes[5] !== undefined && !heroes[5].hasOwnProperty('id')) {
+        heroes.splice(5, 1);
+    }
     this.heroes = heroes;
     this.options = options;
 
     this.leaderTarget = this.heroes[0].leaderAbility.target;
     this.leaderStats = this.heroes[0].leaderAbility.stats;
     this.leaderStatValue = this.heroes[0].leaderAbility.value / 100;
+
+    this.secondLeaderTarget = this.heroes[5] ? this.heroes[5].leaderAbility.target : undefined;
+    this.secondLeaderStats = this.heroes[5] ? this.heroes[5].leaderAbility.stats : undefined;
+    this.secondLeaderStatValue = this.heroes[5] ? this.heroes[5].leaderAbility.value / 100 : undefined;
 
     this.teamMeetsRequirements = this.checkRequirements();
     this.commanderBonuses = this.collectCommanderBonuses();
@@ -17,7 +24,7 @@ Deck.prototype.getStats = function () {
         stats.attack += this.heroes[i].attack;
         stats.recovery += this.heroes[i].recovery;
         stats.health += this.heroes[i].health;
-        stats.power +=  Math.round(this.heroes[i].attack / 3 + this.heroes[i].recovery + this.heroes[i].health / 5);
+        stats.power += Math.round(this.heroes[i].attack / 3 + this.heroes[i].recovery + this.heroes[i].health / 5);
     }
 
     return stats;
@@ -34,7 +41,17 @@ Deck.prototype.calculate = function (affinity) {
         var hero = new Hero(this.heroes[i]); // copy for local stats modifications
 
         this.applyAffinityBonus(hero, affinity);
-        this.applyLeaderAbilityBonus(hero);
+        this.applyLeaderAbilityBonus(
+            hero,
+            {target: this.leaderTarget, stats: this.leaderStats, statValue: this.leaderStatValue}
+        );
+        if (this.heroes[5]) {
+            this.applyLeaderAbilityBonus(
+                hero,
+                {target: this.secondLeaderTarget, stats: this.secondLeaderStats, statValue: this.secondLeaderStatValue}
+            );
+        }
+
         this.applyEventBonus(hero);
 
         deckValues.attack += hero.attack;
@@ -103,28 +120,28 @@ Deck.prototype.applyAffinityBonus = function (hero, affinity) {
     }
 };
 
-Deck.prototype.applyLeaderAbilityBonus = function (hero) {
-    if (!hero.canApplyLeaderStat(this.leaderTarget)) {
+Deck.prototype.applyLeaderAbilityBonus = function (hero, leaderBonus) {
+    if (!hero.canApplyLeaderStat(leaderBonus.target)) {
         return;
     }
 
-    for (var ls = this.leaderStats.length - 1; ls >= 0; --ls) {
+    for (var ls = leaderBonus.stats.length - 1; ls >= 0; --ls) {
         // this is terrible - I know T_T
         // but it has to be that way - array access for objects is so slow ...
         // and I need it to run as fast as it can be
 
-        switch (this.leaderStats[ls]) {
+        switch (leaderBonus.stats[ls]) {
             case 'attack':
-                hero.attack *= this.leaderStatValue;
+                hero.attack *= leaderBonus.statValue;
                 break;
             case 'health':
-                hero.health *= this.leaderStatValue;
+                hero.health *= leaderBonus.statValue;
                 break;
             case 'recovery':
-                hero.recovery *= this.leaderStatValue;
+                hero.recovery *= leaderBonus.statValue;
                 break;
             default:
-                throw new Error("Invalid stat " + this.leaderStats[ls]);
+                throw new Error("Invalid stat " + leaderBonus.stats[ls]);
         }
     }
 };
