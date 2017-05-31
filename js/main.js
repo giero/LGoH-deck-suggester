@@ -12,12 +12,15 @@ if (false === allHeroes.load()) {
     });
 }
 
-function getHeroesTableComponent(team) {
+function getHeroesTableComponent(team, options) {
     return {
         template: '#heroes-table',
         props: ['affinity'],
         data: function () {
-            return {team: team, searchKey: ''};
+            return $.extend({
+                team: team,
+                searchKey: ''
+            }, options);
         },
         computed: {
             filteredHeroes: function () {
@@ -29,7 +32,9 @@ function getHeroesTableComponent(team) {
         },
         methods: {
             removeHeroFromList: function (e) {
-                team.removeHero($(e.target).parents('tr').attr('data-hero-id'));
+                if (team.removeHero($(e.target).parents('tr').attr('data-hero-id'))) {
+                    team.save()
+                }
             }
         }
     }
@@ -48,7 +53,7 @@ Vue.component('team-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(teamHeroes)
+        'heroes-table': getHeroesTableComponent(teamHeroes, {removeRows: true})
     },
     computed: {
         counter: function () {
@@ -78,7 +83,7 @@ Vue.component('all-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(allHeroes)
+        'heroes-table': getHeroesTableComponent(allHeroes, {removeRows: false})
     },
     computed: {
         counter: function () {
@@ -149,6 +154,7 @@ Vue.component('team-adding-form', {
             teamHeroes.addHero(
                 $.extend({}, allHeroes.find(formParams.id), formParams, {id: teamHeroes.heroes.length})
             );
+            teamHeroes.save();
 
             $form[0].reset();
             this.refreshSelect();
@@ -170,6 +176,7 @@ Vue.component('team-adding-form', {
                     }
                 );
                 teamHeroes.addHero(hero);
+                teamHeroes.save();
             }
         },
         clearTeam: function (e) {
@@ -344,8 +351,8 @@ new Vue({
 
             // undo default navigation click behavior
             var $this = $(this);
-            $this.parent('li').removeClass('active');
-            $this.parents('.dropdown-right').addClass('active');
+            // $this.parent('li').removeClass('active');
+            // $this.parents('.dropdown-right').addClass('active');
 
             // do some actions
             var action = $this.data('action');

@@ -20,28 +20,6 @@ function Hero(props) {
     this.evolveTo = props.evolveTo;
 }
 
-Hero.prototype.matchesWithStat = function (stat) {
-    return this.affinity === stat
-        || this.type === stat
-        // it's required for example for Vulcan Fireshaper - species: "God Honored",
-        // and leader ability can be for God or Honored heroes only
-        || this.species.indexOf(stat) >= 0
-        || Object.keys(this.eventSkills).indexOf(stat) >= 0;
-};
-
-Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
-    if (typeof leaderTarget === 'string') {
-        return this.matchesWithStat(leaderTarget);
-    } else {
-        for (var lt = leaderTarget.length - 1; lt >= 0; --lt) {
-            if (!this.matchesWithStat(leaderTarget[lt])) {
-                return false;
-            }
-        }
-        return true;
-    }
-};
-
 Object.defineProperty(Hero.prototype, 'rarityStarsHTML', {
     get: function () {
         return "<span class='rarity-star glyphicon glyphicon-star'></span>".repeat(this.rarity);
@@ -63,4 +41,26 @@ Object.defineProperty(Hero.prototype, 'attack_and_health', {
             : 0;
     }
 });
+
+Hero.prototype.matchesWithStat = function (stat) {
+    return this.affinity === stat
+        || this.type === stat
+        // it's required for example for Vulcan Fireshaper - species: "God Honored",
+        // and leader ability can be for God or Honored heroes only
+        || this.species.indexOf(stat) >= 0
+        || Object.keys(this.eventSkills).indexOf(stat) >= 0;
+};
+
+Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
+    if (typeof leaderTarget === 'string') {
+        return this.matchesWithStat(leaderTarget);
+    } else {
+        for (var lt = leaderTarget.length - 1; lt >= 0; --lt) {
+            if (!this.matchesWithStat(leaderTarget[lt])) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
 

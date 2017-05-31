@@ -10,27 +10,32 @@ Team.prototype.addHero = function (hero) {
     }
 
     this.heroes.push(hero);
-    this.save();
+};
+
+Team.prototype.addHeroes = function (heroes) {
+    for (var i = 0, hl = heroes.length; i < hl; ++i) {
+        this.addHero(heroes[i]);
+    }
 };
 
 Team.prototype.removeHero = function (id) {
-    for (var i = this.heroes.length - 1; i >= 0 ; --i) {
+    for (var i = this.heroes.length - 1; i >= 0; --i) {
         if (this.heroes[i].id == id) {
             this.heroes.splice(i, 1);
-            this.save();
-            break;
+            return true;
         }
     }
+    return false;
 };
 
 Team.prototype.getHeroes = function (filters, sort) {
     var heroes = this.heroes.slice();
 
-    if (!!sort) {
+    if (sort) {
         heroes.sort(function (a, b) {
-            if ( a.name < b.name ) {
+            if (a.name < b.name) {
                 return -1;
-            } else if ( a.name > b.name ) {
+            } else if (a.name > b.name) {
                 return 1;
             }
             return 0;
@@ -39,12 +44,14 @@ Team.prototype.getHeroes = function (filters, sort) {
 
     if (filters && Object.keys(filters).length !== 0) {
         return heroes.filter(function (hero) {
-            for(var filter in filters){
+            for (var filter in filters) {
                 if (filters.hasOwnProperty(filter)) {
                     if (!hero.hasOwnProperty(filter)) {
                         throw new Error('Unknown hero property (' + filter + ')');
                     }
-                    if(hero[filter] !== filters[filter]){ return false; }
+                    if (hero[filter] !== filters[filter]) {
+                        return false;
+                    }
                 }
             }
             return true;
@@ -64,16 +71,19 @@ Team.prototype.getUniqueHeroesProperties = function (property, filter) {
     }
 
     return this.heroes
+    // get all properties
         .map(function (hero) {
             return hero[property];
         })
+        // get unique list
         .filter(function (value, index, self) {
-            if (Array.isArray(filter)) {
+            if (typeof filter === 'Array') {
                 return value && self.indexOf(value) === index && filter.indexOf(value) === -1;
             } else {
                 return value && self.indexOf(value) === index;
             }
         })
+        // obvious ;)
         .sort();
 };
 
@@ -92,7 +102,7 @@ Team.prototype.save = function () {
         return;
     }
 
-    this.storage.setItem('heroes::' + this.name , this.serialize());
+    this.storage.setItem('heroes::' + this.name, this.serialize());
 };
 
 Team.prototype.load = function () {
@@ -100,17 +110,19 @@ Team.prototype.load = function () {
         return;
     }
 
-    this.heroes = JSON.parse(this.storage.getItem('heroes::' + this.name)) || [];
+    this.addHeroes(
+        JSON.parse(this.storage.getItem('heroes::' + this.name)) || []
+    );
 
     return !!this.heroes.length;
 };
 
-Team.prototype.loadFromString = function(config) {
+Team.prototype.loadFromString = function (config) {
     if (typeof config === 'string' && config.length) {
         try {
-            this.heroes = JSON.parse(config) || [];
-            this.save();
-
+            this.heroes = this.addHeroes(
+                JSON.parse(config) || []
+            );
             return true;
         } catch (e) {
         }

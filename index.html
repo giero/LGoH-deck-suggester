@@ -153,7 +153,7 @@
                 </td>
                 <td>{{ hero.defenderSkill }}</td>
                 <td>{{ hero.counterSkill }}</td>
-                <td>
+                <td v-if="removeRows">
                     <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" @click="removeHeroFromList"></span>
                 </td>
             </tr>
@@ -194,12 +194,7 @@
                     <div class="col-sm-4" v-for="(id, skill) in {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'}">
                         <select class="form-control selectpicker" :id="'team-hero-' + id" :name="'eventSkills['+skill+']'" :title="skill">
                             <option value=""></option>
-                            <option value="2">2x</option>
-                            <option value="3">3x</option>
-                            <option value="4">4x</option>
-                            <option value="5">5x</option>
-                            <option value="7">7x</option>
-                            <option value="10">10x</option>
+                            <option v-for="i in [2,3,4,5,7,10]" :value="i">{{ i }}x</option>
                         </select>
                     </div>
                 </div>
@@ -311,7 +306,7 @@
                             <ul class="list-group" >
                                 <li class="list-group-item" v-for="(hero, key) in deck.heroes">
                                     <span :class="key === 0 ? 'text-danger': ''">
-                                        {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
+                                        {{ hero.name }} <span v-html="(new Hero(hero)).rarityStarsHTML"></span>
                                         ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
                                         :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
                                         <span v-if="Object.keys(hero.eventSkills).length !== 0">
@@ -328,6 +323,7 @@
                                           class="glyphicon glyphicon-info-sign text-info"
                                           data-toggle="popover"
                                           data-trigger="hover"
+                                          data-container="body"
                                           :title="hero.leaderAbility.name"
                                           :data-content="hero.leaderAbility.description"></span>
                                 </li>

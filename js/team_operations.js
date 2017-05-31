@@ -37,6 +37,8 @@ var teamOperations = {
                         bootbox.alert({
                             message: 'Invalid input string :('
                         });
+                    } else {
+                        teamHeroes.save();
                     }
                 }
             })
