@@ -212,47 +212,40 @@ Vue.component('computed-decks', {
     data: function () {
         return {
             teamHeroes: teamHeroes,
-            bestDecks: {},
-            progress: -1,
-            worker: undefined,
+            bestDecks: {
+                'Fire': {},
+                'Earth': {},
+                'Water': {},
+                'Light': {},
+                'Dark': {}
+            },
+            workersProgress: {
+                'Fire': -1,
+                'Earth': -1,
+                'Water': -1,
+                'Light': -1,
+                'Dark': -1
+            },
+            workers: {},
+            workersActive: 0,
             event: '',
             counterSkills: [],
             affinitiesLimit: [],
-            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
+            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus'],
+            progressClass: {
+                'Fire': 'progress-bar progress-bar-danger',
+                'Earth': 'progress-bar progress-bar-success',
+                'Water': 'progress-bar progress-bar-info',
+                'Light': 'progress-bar progress-bar-warning',
+                'Dark': 'progress-bar progress-bar-active',
+                'No affinity bonus': 'progress-bar progress-bar-default'
+            }
         }
     },
     computed: {
         possibilities: function () {
             var dg = new DeckGenerator(this.teamHeroes.getHeroes());
             return dg.countPossibilities();
-        },
-        deckWorker: function () {
-            var self = this;
-
-            if (this.worker instanceof Worker) {
-                this.worker.terminate();
-                this.worker = undefined;
-            }
-
-            this.worker = new Worker('js/deck_worker.js');
-
-            this.worker.onmessage = function (e) {
-                var data = e.data;
-                if (!(data instanceof Object)) {
-                    self.progress = data;
-                } else {
-                    self.bestDecks = data;
-
-                    if (typeof(Storage) !== "undefined") {
-                        localStorage.setItem('calculated::data', JSON.stringify(data));
-                    }
-                    ga('send', 'event', 'Decks', 'calculations', 'possibilities', self.possibilities);
-
-                    self.stopCalculations();
-                }
-            };
-
-            return this.worker;
         },
         counterSkillsOptions: function () {
             return this.teamHeroes.getUniqueHeroesProperties('counterSkill', ['None', 'Unknown']);
@@ -263,10 +256,37 @@ Vue.component('computed-decks', {
         $('[data-toggle="tooltip"]').tooltip();
     },
     methods: {
+        deckWorkers: function () {
+            var self = this;
+            var affinities = this.affinitiesLimit.length ? this.affinitiesLimit : this.affinityOptions;
+
+            $.each(affinities, function (index, affinity) {
+                if (self.workers.hasOwnProperty(affinity) && self.workers[affinity] instanceof Worker) {
+                    self.workers[affinity].terminate();
+                    self.workers[affinity] = undefined;
+                }
+
+                self.workers[affinity] = new Worker('js/deck_worker.js');
+
+                self.workers[affinity].onmessage = function (e) {
+                    var data = e.data;
+                    if (!(data instanceof Object)) {
+                        self.workersProgress[affinity] = data;
+                    } else {
+                        self.bestDecks = $.extend(self.bestDecks, data);
+                        self.stopCalculations(affinity);
+                    }
+                };
+
+            });
+
+            return this.workers;
+        },
         calculateDecks: function (e) {
             $('#calculate-decks').hide();
             $('#stop-calculations').show();
 
+            var affinities = this.affinitiesLimit.length ? this.affinitiesLimit : this.affinityOptions;
             var options = {};
             if (this.event) {
                 options.event = this.event;
@@ -275,24 +295,59 @@ Vue.component('computed-decks', {
                 options.counterSkills = this.counterSkills;
             }
 
-            if (this.affinitiesLimit.length) {
-                options.affinitiesLimit = this.affinitiesLimit;
+            this.bestDecks = {
+                'Fire': {},
+                'Earth': {},
+                'Water': {},
+                'Light': {},
+                'Dark': {}
+            };
+            this.workersProgress = {
+                'Fire': -1,
+                'Earth': -1,
+                'Water': -1,
+                'Light': -1,
+                'Dark': -1
+            };
+
+            var deckWorkers = this.deckWorkers();
+            for (var i = 0; i < affinities.length; ++i) {
+                var affinity = affinities[i];
+
+                options.affinitiesLimit = [affinity];
+
+                this.workersActive++;
+                deckWorkers[affinity].postMessage({
+                    heroes: this.teamHeroes.getHeroes(),
+                    options: options
+                });
             }
 
-            this.bestDecks = {};
-            this.deckWorker.postMessage({
-                heroes: this.teamHeroes.getHeroes(),
-                options: options
-            });
-        },
-        stopCalculations: function () {
-            $('#calculate-decks').show();
-            $('#stop-calculations').hide();
 
-            if (this.worker instanceof Worker) {
-                this.worker.terminate();
-                this.worker = undefined;
-                this.progress = -1;
+        },
+        stopCalculations: function (affinity) {
+            var stopAffinityWorker = (function (a) {
+                if (this.workers[a] instanceof Worker) {
+                    this.workers[a].terminate();
+                    this.workers[a] = undefined;
+                    this.workersProgress[a] = -1;
+                    this.workersActive--;
+                }
+            }).bind(this);
+
+            if (affinity) {
+                stopAffinityWorker(affinity);
+            } else {
+                for (var i = 0; i < this.affinityOptions.length; ++i) {
+                    affinity = this.affinityOptions[i];
+                    stopAffinityWorker(affinity);
+                }
+            }
+
+            if (this.workersActive <= 0) {
+                $('#calculate-decks').show();
+                $('#stop-calculations').hide();
+                this.workersActive = 0;
             }
         }
     },

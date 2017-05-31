@@ -284,14 +284,14 @@
                 </div>
             </div>
             <hr />
-            <div v-if="progress > -1" class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
-                    {{ progress }}%
+            <div v-for="(progress, affinity) in workersProgress" v-if="progress > -1 && progress < 100" class="progress">
+                <div :class="progressClass[affinity]" role="progressbar" :style="'width: ' + progress + '%'">
+                    {{affinity}}: {{ progress }}%
                 </div>
             </div>
         </div>
 
-        <div class="calculated-heroes-panel row panel panel-default" v-for="(decksByStat, affinity) in bestDecks">
+        <div class="calculated-heroes-panel row panel panel-default" v-for="(decksByStat, affinity) in bestDecks" v-if="Object.keys(decksByStat).length !== 0">
             <div class="panel-heading">Against: {{ affinity }}</div>
 
             <div class="panel panel-body">
@@ -308,7 +308,7 @@
                          :id="'computed-' + affinity.replace(/ /g, '-') + '-' + stat.replace(/ /g, '-')" v-for="(deck, stat) in decksByStat">
 
                         <div class="heroes-list col-sm-10">
-                            <ul class="list-group" >
+                            <ul class="list-group">
                                 <li class="list-group-item" v-for="(hero, key) in deck.heroes">
                                     <span :class="key === 0 ? 'text-danger': ''">
                                         {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
@@ -366,7 +366,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.js"></script>
 
 <script src="js/helpers.js"></script>
 <script src="js/hero.js"></script>

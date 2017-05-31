@@ -76,3 +76,7 @@ span.rarity-star {
 #team .hero-editable-stat {
 	cursor: pointer;
 }
+
+.progress-bar-default {
+	background-color: #777;
+}
