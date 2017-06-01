@@ -110,6 +110,15 @@ dark	Wicked Queen	****	9	Mage	Human	1506	501	642	Mage Might IV: 160% Damage for 
 dark	Archdemon Lucifel	****	9	Balanced	Corrupt	1168	388	1947	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 50% of your current HP to increase Lucifel's ATK by 50% for the rest of the battle.
 dark	Archdemon Lucifel	*****	15	Balanced	Corrupt	1990	662	3315	Corrupt Might V: 180% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 40% of your current HP to increase Lucifel's ATK by 100% for the rest of the battle.
 dark	Archdemon Lucifel	******	30	Balanced	Corrupt	2904	968	4840	Corrupt Might VI: 200% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 25% of your current HP to increase Lucifel's ATK by 250% for the rest of the battle.
+dark	Loki	******	30	Warrior	Demigod	3862	325	6434	Honored Armor VI: 200% HP for all Honored Heroes	Blind	Cure Weaken	4x			Shape Shifter: Greatly increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
+dark	Woden	***	6	Balanced	Demigod	720	240	1198	Valhallan Might I: 175% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	2x			Gungnir: Attack a Light enemy for 250% ATK.
+dark	Woden	****	9	Balanced	Demigod	1174	390	1955	Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	2x			Gungnir: Attack a Light enemy for 500% ATK.
+dark	Woden	*****	15	Balanced	Demigod				Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	3x			
+dark	Woden	******	30	Balanced	Demigod				Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	4x			
+dark	Tor	***	6	Attacker	Demigod				Valhallan Might I: 175% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	2x			
+dark	Tor	****	9	Attacker	Demigod				Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	2x			
+dark	Tor	*****	15	Attacker	Demigod				Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	3x			
+dark	Tor	******	30	Attacker	Demigod	4814	642	3209	Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	4x			Mjolnir: Attack a Light enemy for 1500% ATK.
 light	Griffin Pup	***	6	Defender	Creature	402	134	1665	Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
 light	Griffin	****	9	Defender	Creature	649	215	2706	Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
 light	Shadowlight Pilgrim	*	2	Balanced	Dren	200	66	334	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns
@@ -197,14 +206,14 @@ light	Guilded Taurus	*****	15	Warrior	Creature				Light Armor V: 180% HP for all
 light	Tur, The Golden Hoof	******	30	Warrior	Creature				Light Armor VI: 200% HP for all Light Heroes	Autoheal	None				Razor Gore: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 3 turns.
 light	Iod, Shining Hunter	****		Balanced	Corrupt	1132	376	1887	Corrupt Blessing IV: 260% REC for all Corrupt Heroes	Zombie	Dispel Might				
 light	Van Helsing	****		Attacker	Fable	1871	249	1252	Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison	2x			Through The Heart: Attack for 300% of ATK. If the target is Dark, attack again for 500% of ATK.
-light	Van Helsing	*****		Attacker	Fable				Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	3x			
+light	Van Helsing	*****		Attacker	Fable	3171	424	2120	Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	3x			
 light	Van Helsing	******		Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison	4x			
 light	Fate's Revenge	****	9	Warrior	Giant	1506	128	2509	Giant Might IV: 160% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 600% of ATK.
 light	Fate's Revenge	*****	15	Warrior	Giant	2542	214	4238	Giant Might V: 180% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 700% of ATK.
 light	Fate's Revenge	******	30	Warrior	Giant	3702	311	6168	Giant Might VI: 200% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 800% of ATK.
 light	Archangel Uriel	***	6	Attacker	Dren	1196	160	801	Sword of Heaven I: 175% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 5 * your remaining HP % (maximum 500% ATK).
 light	Archangel Uriel	****	9	Attacker	Dren	1951	261	1306	Sword of Heaven II: 200% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 10 * your remaining HP % (maximum 1000% ATK).
-light	Archangel Uriel	*****	15	Attacker	Dren	3317	4444	2226	Sword of Heaven III: 225% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			3x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 20 * your remaining HP % (maximum 2000% ATK).
+light	Archangel Uriel	*****	15	Attacker	Dren	3317	444	2226	Sword of Heaven III: 225% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			3x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 20 * your remaining HP % (maximum 2000% ATK).
 light	Archangel Uriel	******	30	Attacker	Dren	4814	642	3209	Sword of Heaven IV: 300% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			4x	
 light	Archangel Mythriel	******	30	Attacker	Dren	4824	644	3225	Guardian Might VI: 200% Damage for all Guardian Heroes	Might	Dispel Dodge				Derend's Justice: Greatly increase the drop rate of Light gems until your next turn. Cast 'Focus Laser' on a Dark enemy for 1 turn. Only usable once every 7 turns.
 light	Cooper T. Missiles	******	30	Attacker	Creature	4826	646	3229	Creature Might VI: 200% Damage for all Creature Heroes	Zombie	Cure Vessel				Galactic Guardian: If laser is focused, attack for 7500% ATK and remove 'Focus Laser'. Attack an enemy for 700% ATK.
@@ -302,7 +311,7 @@ fire	Mecha Muramasa	**	4	Attacker	Spirit	684	93	467	Spirit Armor II: 120% HP for
 fire	Mecha Muramasa	***	6	Attacker	Spirit	1142	152	761	Spirit Armor III: 140% HP for all Spirit Heroes	Vessel	Cure Weaken	2x	2x		Micro Missiles: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Mecha Muramasa	****	9	Attacker	Spirit	1875	251	1256	Spirit Armor IV: 160% HP for all Spirit Heroes	Vessel	Cure Weaken	2x	2x		Micro Missiles: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Mecha Muramasa	*****	15	Attacker	Spirit	3183	428	2138	Spirit Armor V: 180% HP for all Spirit Heroes	Vessel	Cure Weaken	3x	3x		Repulser Beam: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
-fire	Mecha Muramasa	******	30	Attacker	Spirit				Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken	4x	4x		Plasma Grenade: Attack an enemy for 850% of ATK, Attack self for 500% of REC. Can kill the player.
+fire	Mecha Muramasa	******	30	Attacker	Spirit	4628	620	3101	Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken	4x	4x		Plasma Grenade: Attack an enemy for 850% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Celestial Sum Il Tek	*	2	Attacker	Demigod	20	20	20	Human Might I: 110% Damage for all Human Heroes	Dodge	Unknown	2x	2x		Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK
 fire	Celestial Sum Il Tek	**	4	Attacker	Demigod	686	93	471	Human Might II: 120% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK
 fire	Celestial Sum Il Tek	***	6	Attacker	Demigod	1146	154	769	Human Might III: 140% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK
