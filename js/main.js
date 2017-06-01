@@ -328,7 +328,7 @@ new Vue({
         teamHeroes: teamHeroes
     },
     mounted: function () {
-        $('#team').find('.hero-editable-stat').editable({
+        $('.hero-editable-stat').editable({
             highlight: false,
             success: function (response, newValue) {
                 var $this = $(this);
@@ -351,8 +351,8 @@ new Vue({
 
             // undo default navigation click behavior
             var $this = $(this);
-            // $this.parent('li').removeClass('active');
-            // $this.parents('.dropdown-right').addClass('active');
+            $this.parent('li').removeClass('active');
+            $this.parents('.dropdown-right').addClass('active');
 
             // do some actions
             var action = $this.data('action');
