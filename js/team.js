@@ -110,6 +110,7 @@ Team.prototype.load = function () {
         return;
     }
 
+    this.heroes = [];
     this.addHeroes(
         JSON.parse(this.storage.getItem('heroes::' + this.name)) || []
     );
@@ -120,7 +121,8 @@ Team.prototype.load = function () {
 Team.prototype.loadFromString = function (config) {
     if (typeof config === 'string' && config.length) {
         try {
-            this.heroes = this.addHeroes(
+            this.heroes = [];
+            this.addHeroes(
                 JSON.parse(config) || []
             );
             return true;
