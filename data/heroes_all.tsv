@@ -107,16 +107,18 @@ dark	Lady Egestas	****	9	Attacker	Spirit	1955	261	1312	Eggceptional Power II: 20
 dark	Lady Egestas	*****	15	Attacker	Spirit	3313	444	2220	Eggceptional Power II: 225% Damage and HP for all Dark Attacker Heroes	Thorns	Cure Panic			3x	Rite of Spring: Fully heals yourself. Increase the number of turns until the target attack by 1. Usable once every 7 turns.
 dark	Lady Egestas	******	30	Attacker	Spirit	4818	642	3217	Eggceptional Power III: 300% Damage and HP for all Dark Attacker Heroes	Thorns	Cure Panic			4x	Rite of Spring: Fully heals yourself. Increase the number of turns until the target attack by 2. Usable once every 7 turns.
 dark	Wicked Queen	****	9	Mage	Human	1506	501	642	Mage Might IV: 160% Damage for all Mage Heroes	Siphon	Dispel Armor				Dark Mirror: Remove 1 Debuff from a Hero. Heal for 10% of max HP.
+dark	Wicked Queen	*****	15	Mage	Human	2542	846	1071	Mage Might V: 180% Damage for all Mage Heroes	Siphon	Dispel Armor				Dark Mirror: Remove 1 Debuff from a Hero. Heal for 15% of max HP.
+dark	Wicked Queen	******	30	Mage	Human				Mage Might Vi: 200% Damage for all Mage Heroes	Siphon	Dispel Armor				
 dark	Archdemon Lucifel	****	9	Balanced	Corrupt	1168	388	1947	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 50% of your current HP to increase Lucifel's ATK by 50% for the rest of the battle.
 dark	Archdemon Lucifel	*****	15	Balanced	Corrupt	1990	662	3315	Corrupt Might V: 180% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 40% of your current HP to increase Lucifel's ATK by 100% for the rest of the battle.
 dark	Archdemon Lucifel	******	30	Balanced	Corrupt	2904	968	4840	Corrupt Might VI: 200% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 25% of your current HP to increase Lucifel's ATK by 250% for the rest of the battle.
-dark	Loki	****		Warrior	Demigod				Honored Armor IV: 160% HP for all Honored Heroes	Blind	Cure Weaken	2x			
-dark	Loki	*****	15	Warrior	Demigod				Honored Armor V: 180% HP for all Honored Heroes	Blind	Cure Weaken	3x			
+dark	Loki	****		Warrior	Demigod	1570	134	2615	Honored Armor IV: 160% HP for all Honored Heroes	Blind	Cure Weaken	2x			Shape Shifter: Increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
+dark	Loki	*****	15	Warrior	Demigod	2652	224	4420	Honored Armor V: 180% HP for all Honored Heroes	Blind	Cure Weaken	3x			Shape Shifter: Moderately increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
 dark	Loki	******	30	Warrior	Demigod	3862	325	6434	Honored Armor VI: 200% HP for all Honored Heroes	Blind	Cure Weaken	4x			Shape Shifter: Greatly increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
 dark	Woden	***	6	Balanced	Demigod	720	240	1198	Valhallan Might I: 175% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	2x			Gungnir: Attack a Light enemy for 250% ATK.
 dark	Woden	****	9	Balanced	Demigod	1174	390	1955	Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	2x			Gungnir: Attack a Light enemy for 500% ATK.
-dark	Woden	*****	15	Balanced	Demigod				Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	3x			
-dark	Woden	******	30	Balanced	Demigod				Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	4x			
+dark	Woden	*****	15	Balanced	Demigod	1996	664	3327	Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	3x			
+dark	Woden	******	30	Balanced	Demigod	2888	962	4814	Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	4x			
 dark	Tor	***	6	Attacker	Demigod				Valhallan Might I: 175% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	2x			
 dark	Tor	****	9	Attacker	Demigod				Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	2x			
 dark	Tor	*****	15	Attacker	Demigod				Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	3x			

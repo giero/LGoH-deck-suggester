@@ -19,15 +19,21 @@ function getHeroesTableComponent(team, options) {
         data: function () {
             return $.extend({
                 team: team,
-                searchKey: ''
+                searchKey: '',
+                sort: false
             }, options);
         },
         computed: {
             filteredHeroes: function () {
                 var self = this;
-                return self.team.getHeroes(!!this.affinity ? {'affinity': this.affinity} : {}).filter(function (hero) {
-                    return hero.name.toLowerCase().indexOf(self.searchKey.toLowerCase()) !== -1;
-                });
+                return self.team
+                    .getHeroes(
+                        !!this.affinity ? {'affinity': this.affinity} : {},
+                        this.sort
+                    )
+                    .filter(function (hero) {
+                        return hero.name.toLowerCase().indexOf(self.searchKey.toLowerCase()) !== -1;
+                    });
             }
         },
         methods: {
@@ -53,17 +59,17 @@ Vue.component('team-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(teamHeroes, {removeRows: true})
+        'heroes-table': getHeroesTableComponent(teamHeroes, {removeRows: true, listId: 'team-heroes-list'})
     },
     computed: {
         counter: function () {
             return {
-                fire: teamHeroes.getHeroes({'affinity': 'Fire'}, true).length,
-                water: teamHeroes.getHeroes({'affinity': 'Water'}, true).length,
-                earth: teamHeroes.getHeroes({'affinity': 'Earth'}, true).length,
-                light: teamHeroes.getHeroes({'affinity': 'Light'}, true).length,
-                dark: teamHeroes.getHeroes({'affinity': 'Dark'}, true).length,
-                all: teamHeroes.getHeroes({}, true).length
+                fire: teamHeroes.getHeroes({'affinity': 'Fire'}).length,
+                water: teamHeroes.getHeroes({'affinity': 'Water'}).length,
+                earth: teamHeroes.getHeroes({'affinity': 'Earth'}).length,
+                light: teamHeroes.getHeroes({'affinity': 'Light'}).length,
+                dark: teamHeroes.getHeroes({'affinity': 'Dark'}).length,
+                all: teamHeroes.getHeroes().length
             }
         }
     },
@@ -83,7 +89,7 @@ Vue.component('all-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(allHeroes, {removeRows: false})
+        'heroes-table': getHeroesTableComponent(allHeroes, {removeRows: false, listId: 'all-heroes-list'})
     },
     computed: {
         counter: function () {
@@ -205,12 +211,13 @@ Vue.component('team-adding-form', {
 
             var eventSkillsMap = {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'};
             for (var skill in eventSkillsMap) {
-                if (hero.eventSkills.hasOwnProperty(skill)) {
-                    $('#team-hero-' + eventSkillsMap[skill]).val(hero.eventSkills[skill]);
-                    $('#team-hero-' + eventSkillsMap[skill]).selectpicker('refresh');
-                }
+                $('#team-hero-' + eventSkillsMap[skill])
+                    .val(hero.eventSkills.hasOwnProperty(skill) ? hero.eventSkills[skill] : '')
+                    .selectpicker('refresh');
             }
-        });
+
+            $('#team-hero-attack').select();
+        })
     }
 });
 

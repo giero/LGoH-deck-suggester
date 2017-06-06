@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css" />
+    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/style.css">
 
     <style type="text/css">
@@ -118,8 +120,12 @@
     <section>
         <div class="filters row">
             <div class="form-group col-sm-3">
-                <label for="search-element">Hero name</label>
-                <input v-model="searchKey" class="form-control" id="search-element" />
+                <label :for="listId + '-' + affinity + 'name-filter'">Hero name</label>
+                <input v-model="searchKey" class="form-control" :id="listId + '-' + affinity + 'name-filter'" />
+            </div>
+            <div class="checkbox checkbox-primary form-group col-sm-2 pull-right">
+                <input type="checkbox" v-model="sort" class="styled" :id="listId + '-' + affinity + '-sort'">
+                <label :for="listId + '-' + affinity + '-sort'"><strong>sort by name</strong></label>
             </div>
         </div>
 
