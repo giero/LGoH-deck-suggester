@@ -45,10 +45,13 @@ Object.defineProperty(Hero.prototype, 'attack_and_health', {
 Hero.prototype.matchesWithStat = function (stat) {
     return this.affinity === stat
         || this.type === stat
-        // it's required for example for Vulcan Fireshaper - species: "God Honored",
+        || this.species === stat
+        || this.eventSkills.hasOwnProperty(stat)
+        // it's required for example for species like "God Honored"
         // and leader ability can be for God or Honored heroes only
-        || this.species.indexOf(stat) >= 0
-        || Object.keys(this.eventSkills).indexOf(stat) >= 0;
+        // TODO: maybe will be faster to add another attribute for Technological/Honored etc?
+        || (this.name === 'Vulcan Fireshaper' || this.name === 'Vulcan Flameblood') && this.species.indexOf(stat) >= 0;
+
 };
 
 Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
@@ -63,4 +66,3 @@ Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
         return true;
     }
 };
-

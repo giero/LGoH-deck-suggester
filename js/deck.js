@@ -17,7 +17,7 @@ Deck.prototype.getStats = function () {
         stats.attack += this.heroes[i].attack;
         stats.recovery += this.heroes[i].recovery;
         stats.health += this.heroes[i].health;
-        stats.power +=  Math.round(this.heroes[i].attack / 3 + this.heroes[i].recovery + this.heroes[i].health / 5);
+        stats.power += Math.round(this.heroes[i].attack / 3 + this.heroes[i].recovery + this.heroes[i].health / 5);
     }
 
     return stats;
@@ -85,19 +85,29 @@ Deck.prototype.checkRequirements = function () {
 };
 
 Deck.prototype.applyAffinityBonus = function (hero, affinity) {
-    var affinityCounterMap = {
-        'Fire': 'Earth',
-        'Earth': 'Water',
-        'Water': 'Fire',
-        'Light': 'Dark',
-        'Dark': 'Light'
-    };
+    function counters(current, oponent) {
+        // strange construction - I know, but at least it's fast enough ;)
+        switch (current) {
+            case 'Fire':
+                return oponent === 'Earth';
+            case 'Earth':
+                return oponent === 'Water';
+            case 'Water':
+                return oponent === 'Fire';
+            case 'Light':
+                return oponent === 'Dark';
+            case 'Dark':
+                return oponent === 'Light';
+            default:
+                return false;
+        }
+    }
 
     // apply affinity bonus / counter bonus
-    if (affinityCounterMap[hero.affinity] === affinity) {
+    if (counters(hero.affinity, affinity)) {
         // hero counters opponent
         hero.attack <<= 1;
-    } else if (affinityCounterMap[affinity] === hero.affinity) {
+    } else if (counters(affinity, hero.affinity)) {
         // opponent counters hero
         hero.attack >>= 1;
     }
