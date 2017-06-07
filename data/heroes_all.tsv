@@ -589,3 +589,9 @@ earth	Jade Dragon	****	9	Defender	Ancient	793	263	3268	Attacker Armor IV: 160% H
 earth	Jade Dragon	*****	15	Defender	Ancient	1335	444	5529	Attacker Armor V: 180% HP for all Attacker Heroes	Gem Silence	Cure Blind				
 earth	Jade Dragon	******	30	Defender	Ancient				Attacker Armor VI: 200% HP for all Attacker Heroes	Gem Silence	Cure Blind				
 earth	Large-Clawed Wolf	****	9	Attacker	Corrupt	1795	241	1210	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Autoheal	None				What Sharp Teeth: Destroy 1/3 of all Gems on the board
+earth	Hippolyta, Queen Of Amazon	****	9	Attacker	Honored				Technological Blessing IV: 200% REC for all Technological Heroes	Poison	Cure Weaken			2x	
+earth	Hippolyta, Queen Of Amazon	*****	15	Attacker	Honored				Technological Blessing V: 225% REC for all Technological Heroes	Poison	Cure Weaken			3x	
+earth	Hippolyta, Queen Of Amazon	******	30	Attacker	Honored	5028	672	3361	Technological Blessing VI: 300% REC for all Technological Heroes	Poison	Cure Weaken			4x	Born Of War: Upgrades 1 Earth gem into a Power III Gem. Charges extremely fast.
+earth	Perseus	****	9	Attacker	Honored				Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			2x	
+earth	Perseus	*****	15	Attacker	Honored				Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			3x	
+earth	Perseus	******	30	Attacker	Honored	5018	668	3345	Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			4x	Myth Hunter: Increase self ATK by 35% for 1 turn and attack a Water enemy for 1250% ATK. If Myth Slayer is active against Medusa, create 4 Earth gems.

@@ -15903,5 +15903,185 @@
         },
         "evolveFrom": "",
         "evolveTo": ""
+    },
+    {
+        "id": 591,
+        "name": "Hippolyta, Queen Of Amazon",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Cure Weaken",
+        "leaderAbility": {
+            "fullName": "Technological Blessing IV: 200% REC for all Technological Heroes",
+            "name": "Technological Blessing IV",
+            "description": "200% REC for all Technological Heroes",
+            "value": 200,
+            "stats": [
+                "recovery"
+            ],
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 592,
+        "name": "Hippolyta, Queen Of Amazon",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Cure Weaken",
+        "leaderAbility": {
+            "fullName": "Technological Blessing V: 225% REC for all Technological Heroes",
+            "name": "Technological Blessing V",
+            "description": "225% REC for all Technological Heroes",
+            "value": 225,
+            "stats": [
+                "recovery"
+            ],
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 593,
+        "name": "Hippolyta, Queen Of Amazon",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5028,
+        "recovery": 672,
+        "health": 3361,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Cure Weaken",
+        "leaderAbility": {
+            "fullName": "Technological Blessing VI: 300% REC for all Technological Heroes",
+            "name": "Technological Blessing VI",
+            "description": "300% REC for all Technological Heroes",
+            "value": 300,
+            "stats": [
+                "recovery"
+            ],
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 594,
+        "name": "Perseus",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Earth Petrify",
+        "leaderAbility": {
+            "fullName": "Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might II",
+            "description": "200% Damage and HP for all Earth Attackers Heroes",
+            "value": 200,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 595,
+        "name": "Perseus",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Earth Petrify",
+        "leaderAbility": {
+            "fullName": "Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might III",
+            "description": "225% Damage and HP for all Earth Attackers Heroes",
+            "value": 225,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 596,
+        "name": "Perseus",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5018,
+        "recovery": 668,
+        "health": 3345,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Earth Petrify",
+        "leaderAbility": {
+            "fullName": "Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might IV",
+            "description": "300% Damage and HP for all Earth Attackers Heroes",
+            "value": 300,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
     }
 ]
