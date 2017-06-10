@@ -82,10 +82,10 @@ dark	Venus Physica	******	30	Mage	God				Power of Love IV: 300% Damage for all G
 dark	Angry Snowman	****	9	Mage	Demigod				Demigod Might IV: 160% Damage for all Demigod Heroes	Dodge	Dispel Regen				Frozen Rain: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
 dark	Abominable Snowman	*****	15	Mage	Demigod				Demigod Might V: 180% Damage for all Demigod Heroes	Dodge	Dispel Regen				Rain of Icicles: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
 dark	Unstoppable Snowman	******	30	Mage	Demigod				Demigod Might VI: 200% Damage for all Demigod Heroes	Dodge	Dispel Regen				Whiteout: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
-dark	Frost Heart	***		Balanced	Spirit	688	230	1146	Spiritual Strenght I: 175% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 500% of ATK.
-dark	Frost Heart	****		Balanced	Spirit	1124	374	1871	Spiritual Strenght I: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 600% of ATK.
-dark	Frost Heart	*****		Balanced	Spirit	1904	634	3171	Spiritual Strenght I: 225% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 700% of ATK.
-dark	Frost Heart	******		Balanced	Spirit	2772	924	4618	Spiritual Strenght I: 300% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 850% of ATK.
+dark	Frost Heart	***	6	Balanced	Spirit	688	230	1146	Spiritual Strenght I: 175% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 500% of ATK.
+dark	Frost Heart	****	9	Balanced	Spirit	1124	374	1871	Spiritual Strenght I: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 600% of ATK.
+dark	Frost Heart	*****	15	Balanced	Spirit	1904	634	3171	Spiritual Strenght I: 225% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 700% of ATK.
+dark	Frost Heart	******	30	Balanced	Spirit	2772	924	4618	Spiritual Strenght I: 300% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 850% of ATK.
 dark	Moriarty, The Myth	****	9	Attacker	Fable				Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison				Steam Rush: Attack an enemy for 500% of ATK, ignoring armor
 dark	Moriarty, The Mastermind	*****	15	Attacker	Fable				Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison				Tesla Coil: Attack an enemy for 650% of ATK, ignoring armor
 dark	Professor Moriarty	******	30	Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison				Steam Charge: Attack an enemy for 750% of ATK, ignoring armor
@@ -208,10 +208,10 @@ light	Indale, The Dark Star	******	30	Attacker	Giant	4424	592	2959	Spirit Armor 
 light	Shining Bull	****	9	Warrior	Creature	368	479	2399	Light Armor IV: 160% HP for all Light Heroes	Autoheal	None				Golden Hoof: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 7 turns.
 light	Guilded Taurus	*****	15	Warrior	Creature				Light Armor V: 180% HP for all Light Heroes	Autoheal	None				Shining Stampede: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 5 turns.
 light	Tur, The Golden Hoof	******	30	Warrior	Creature				Light Armor VI: 200% HP for all Light Heroes	Autoheal	None				Razor Gore: Cleanse Light Transform, found in the Dark Trials, from all heroes. Usable at most once every 3 turns.
-light	Iod, Shining Hunter	****		Balanced	Corrupt	1132	376	1887	Corrupt Blessing IV: 260% REC for all Corrupt Heroes	Zombie	Dispel Might				
-light	Van Helsing	****		Attacker	Fable	1871	249	1252	Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison	2x			Through The Heart: Attack for 300% of ATK. If the target is Dark, attack again for 500% of ATK.
-light	Van Helsing	*****		Attacker	Fable	3171	424	2120	Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	3x			
-light	Van Helsing	******		Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison	4x			
+light	Iod, Shining Hunter	****	9	Balanced	Corrupt	1132	376	1887	Corrupt Blessing IV: 260% REC for all Corrupt Heroes	Zombie	Dispel Might				
+light	Van Helsing	****	9	Attacker	Fable	1871	249	1252	Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison	2x			Through The Heart: Attack for 300% of ATK. If the target is Dark, attack again for 500% of ATK.
+light	Van Helsing	*****	15	Attacker	Fable	3171	424	2120	Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison	3x			
+light	Van Helsing	******	30	Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison	4x			
 light	Fate's Revenge	****	9	Warrior	Giant	1506	128	2509	Giant Might IV: 160% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 600% of ATK.
 light	Fate's Revenge	*****	15	Warrior	Giant	2542	214	4238	Giant Might V: 180% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 700% of ATK.
 light	Fate's Revenge	******	30	Warrior	Giant	3702	311	6168	Giant Might VI: 200% Damage for all Giant Heroes	Thorns	Dispel Regen				Divine Might: Attack an enemy for 800% of ATK.
@@ -351,7 +351,7 @@ fire	Junko, Oni Hunter	*****	15	Attacker	Honored				Attacker Armor V: 180% HP fo
 fire	Junko, Oni Hunter	******	30	Attacker	Honored	4824	644	3225	Attacker Armor VI: 200% HP for all Attacker Heroes	Absorb	Cure Blind				Dance of Death: Attack for 500% ATK. if the enemy is raid boss, attack again for 2000% ATK. Cast Banisher for 3 turns.
 fire	Basan, The Destroyer	****	9	Warrior	Ancient	1564	132	2607	Ancient Armor IV: 160% HP for all Ancient Heroes	Weaken	Cure Blind				Fire Claw: Attack all enemies for 100% ATK. Attack all earth enemies for 500% ATK
 fire	Basan, The Destroyer	*****	15	Warrior	Ancient	2658	226	4430	Ancient Armor IV: 180% HP for all Ancient Heroes	Weaken	Cure Blind				Fire Claw: Attack all enemies for 150% ATK. Attack all earth enemies for 750% ATK
-fire	Cthulhu, Dream Eater	***		Balanced	Corrupt	688	230	1146	Power of the Deep I: 175% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 3 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
+fire	Cthulhu, Dream Eater	***	6	Balanced	Corrupt	688	230	1146	Power of the Deep I: 175% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 3 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	****	9	Balanced	Corrupt	1124	374	1871	Power of the Deep II: 200% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 5 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	*****	15	Balanced	Corrupt	1904	634	3171	Power of the Deep III: 225% Damage for all Human Heroes	Zombie	Dispel MIght	3x			Dream Eater: Transform 7 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	******	30	Balanced	Corrupt	2772	924	4618	Power of the Deep IV: 300% Damage for all Human Heroes	Zombie	Dispel MIght	4x			Dream Eater: Transform 10 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
@@ -592,6 +592,11 @@ earth	Large-Clawed Wolf	****	9	Attacker	Corrupt	1795	241	1210	Corrupt Might IV: 
 earth	Hippolyta, Queen Of Amazon	****	9	Attacker	Honored				Technological Blessing IV: 200% REC for all Technological Heroes	Poison	Cure Weaken			2x	
 earth	Hippolyta, Queen Of Amazon	*****	15	Attacker	Honored				Technological Blessing V: 225% REC for all Technological Heroes	Poison	Cure Weaken			3x	
 earth	Hippolyta, Queen Of Amazon	******	30	Attacker	Honored	5028	672	3361	Technological Blessing VI: 300% REC for all Technological Heroes	Poison	Cure Weaken			4x	Born Of War: Upgrades 1 Earth gem into a Power III Gem. Charges extremely fast.
-earth	Perseus	****	9	Attacker	Honored				Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			2x	
-earth	Perseus	*****	15	Attacker	Honored				Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			3x	
+earth	Hercules	***	6	Attacker	Honored	1196	160	801	Champion's Might I: 175% Damage and HP for all Earth Attackers Heroes	Drain	Cure Poison			2x	Strength Of Gods: Attack a water enemy for 400% of ATK. Increase the enemy's turn counter by 1.
+earth	Hercules	****	9	Attacker	Honored	1951	261	1306	Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes	Drain	Cure Poison			2x	
+earth	Hercules	*****	15	Attacker	Honored	3317	444	2226	Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes	Drain	Cure Poison			3x	
+earth	Hercules	******	30	Attacker	Honored	4814	642	3209	Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes	Drain	Cure Poison			4x	
+earth	Perseus	***	6	Attacker	Honored				Champion's Might I: 175% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			2x	
+earth	Perseus	****	9	Attacker	Honored	2041	275	1374	Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			2x	
+earth	Perseus	*****	15	Attacker	Honored	3453	462	2314	Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			3x	
 earth	Perseus	******	30	Attacker	Honored	5018	668	3345	Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			4x	Myth Hunter: Increase self ATK by 35% for 1 turn and attack a Water enemy for 1250% ATK. If Myth Slayer is active against Medusa, create 4 Earth gems.

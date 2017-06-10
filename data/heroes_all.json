@@ -15990,6 +15990,134 @@
     },
     {
         "id": 594,
+        "name": "Hercules",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 1196,
+        "recovery": 160,
+        "health": 801,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "fullName": "Champion's Might I: 175% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might I",
+            "description": "175% Damage and HP for all Earth Attackers Heroes",
+            "value": 175,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 595,
+        "name": "Hercules",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 1951,
+        "recovery": 261,
+        "health": 1306,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "fullName": "Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might II",
+            "description": "200% Damage and HP for all Earth Attackers Heroes",
+            "value": 200,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 596,
+        "name": "Hercules",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 3317,
+        "recovery": 444,
+        "health": 2226,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "fullName": "Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might III",
+            "description": "225% Damage and HP for all Earth Attackers Heroes",
+            "value": 225,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 597,
+        "name": "Hercules",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 4814,
+        "recovery": 642,
+        "health": 3209,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "fullName": "Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might IV",
+            "description": "300% Damage and HP for all Earth Attackers Heroes",
+            "value": 300,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 598,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15997,6 +16125,38 @@
         "attack": 0,
         "recovery": 0,
         "health": 0,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Earth Petrify",
+        "leaderAbility": {
+            "fullName": "Champion's Might I: 175% Damage and HP for all Earth Attackers Heroes",
+            "name": "Champion's Might I",
+            "description": "175% Damage and HP for all Earth Attackers Heroes",
+            "value": 175,
+            "stats": [
+                "attack",
+                "health"
+            ],
+            "target": [
+                "Earth",
+                "Attacker"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 599,
+        "name": "Perseus",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 2041,
+        "recovery": 275,
+        "health": 1374,
         "rarity": 4,
         "eventSkills": {
             "Commander": 2
@@ -16021,14 +16181,14 @@
         "evolveTo": ""
     },
     {
-        "id": 595,
+        "id": 600,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3453,
+        "recovery": 462,
+        "health": 2314,
         "rarity": 5,
         "eventSkills": {
             "Commander": 3
@@ -16053,7 +16213,7 @@
         "evolveTo": ""
     },
     {
-        "id": 596,
+        "id": 601,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
