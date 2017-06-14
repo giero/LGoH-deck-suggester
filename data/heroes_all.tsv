@@ -219,8 +219,16 @@ light	Archangel Uriel	***	6	Attacker	Dren	1196	160	801	Sword of Heaven I: 175% D
 light	Archangel Uriel	****	9	Attacker	Dren	1951	261	1306	Sword of Heaven II: 200% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 10 * your remaining HP % (maximum 1000% ATK).
 light	Archangel Uriel	*****	15	Attacker	Dren	3317	444	2226	Sword of Heaven III: 225% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			3x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 20 * your remaining HP % (maximum 2000% ATK).
 light	Archangel Uriel	******	30	Attacker	Dren	4814	642	3209	Sword of Heaven IV: 300% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			4x	
+light	Archangel Mythriel	****	9	Attacker	Dren				Guardian Might IV: 160% Damage for all Guardian Heroes	Might	Dispel Dodge				
+light	Archangel Mythriel	*****	15	Attacker	Dren				Guardian Might V: 180% Damage for all Guardian Heroes	Might	Dispel Dodge				
 light	Archangel Mythriel	******	30	Attacker	Dren	4824	644	3225	Guardian Might VI: 200% Damage for all Guardian Heroes	Might	Dispel Dodge				Derend's Justice: Greatly increase the drop rate of Light gems until your next turn. Cast 'Focus Laser' on a Dark enemy for 1 turn. Only usable once every 7 turns.
+light	Fenrir	****	9	Warrior	Creature	1564	132	2607	Creature Armor IV: 160% HP for all Creature Heroes	Dodge	Cure Poison				God Eater: Very slightly increases Light's effectiveness against Dark for 1 turn for all Heroes. Charges extremely fast. Does not stack with itself.
+light	Fenrir	*****	15	Warrior	Creature				Creature Armor V: 180% HP for all Creature Heroes	Dodge	Cure Poison				
+light	Fenrir	******	30	Warrior	Creature				Creature Armor VI: 200% HP for all Creature Heroes	Dodge	Cure Poison				
 light	Cooper T. Missiles	******	30	Attacker	Creature	4826	646	3229	Creature Might VI: 200% Damage for all Creature Heroes	Zombie	Cure Vessel				Galactic Guardian: If laser is focused, attack for 7500% ATK and remove 'Focus Laser'. Attack an enemy for 700% ATK.
+light	Raquel, Unicorn Princess	****	9	Warrior	Fable				Warrior Might IV: 160% Damage for all Warrior Heroes	Weaken	Dispel Armor	2x			
+light	Raquel, Unicorn Princess	*****	15	Warrior	Fable				Warrior Might V: 180% Damage for all Warrior Heroes	Weaken	Dispel Armor	3x			
+light	Raquel, Unicorn Princess	******	30	Warrior	Fable	4024	337	6706	Warrior Might VI: 200% Damage for all Warrior Heroes	Weaken	Dispel Armor	4x			Double Rainbow: Transforms 2 gems into Light. Attack a Dark enemy for 1500% ATK.
 fire	Flamebound Initiate	*	2	Attacker	Corrupt	346	46	234	Fire Armor I: 110% HP for all Fire Heroes	Weaken	Unknown				Flame Punch: Attack an enemy for 350% of ATK, ignoring armor
 fire	Flamebound Knight	**	4	Attacker	Corrupt	600	83	415	Fire Armor II: 120% HP for all Fire Heroes	Weaken	Cure Poison				Flame Bash: Attack an enemy for 350% of ATK, ignoring armor
 fire	Flamebound Captain	***	6	Attacker	Corrupt	1006	136	685	Fire Armor III: 140% HP for all Fire Heroes	Weaken	Cure Poison				Embers of Mirscend: Attack an enemy for 350% of ATK, ignoring armor
@@ -425,9 +433,9 @@ water	The Headless Horseman	******	30	Mage	Corrupt				Corrupt Might VI: 200% Dam
 water	Harvest King	****	9	Balanced	Creature				Creature Armor IV: 160% HP for all Creature Heroes	Siphon	Dispel Drain				
 water	Harvester Of Spirits	*****	15	Balanced	Creature				Creature Armor V: 180% HP for all Creature Heroes	Siphon	Dispel Drain				
 water	Harvester Of Souls	******	30	Balanced	Creature				Creature Armor VI: 200% HP for all Creature Heroes	Siphon	Dispel Drain				
-water	Defiant Joan	****	9	Balanced	Human	1082	360	1805	Balanced Armor IV: 160% HP for all Balanced Heroes	Armor	Cure Blind				
-water	Joan, Visionary	*****	15	Balanced	Human	1826	608	3043	Balanced Armor V: 180% HP for all Balanced Heroes	Armor	Cure Blind				
-water	Joan Of Arc	******	30	Balanced	Human				Balanced Armor VI: 200% HP for all Balanced Heroes	Armor	Cure Blind				
+water	Defiant Joan	****	9	Balanced	Human	1082	360	1805	Balanced Armor IV: 160% HP for all Balanced Heroes	Armor	Cure Blind	2x			
+water	Joan, Visionary	*****	15	Balanced	Human	1826	608	3043	Balanced Armor V: 180% HP for all Balanced Heroes	Armor	Cure Blind	3x			
+water	Joan Of Arc	******	30	Balanced	Human				Balanced Armor VI: 200% HP for all Balanced Heroes	Armor	Cure Blind	4x			
 water	Commander Dreav	****	9	Warrior	Corrupt	1374	116	2291	Water Might IV: 160% Damage for all Water Heroes	Vessel	Cure Poison				
 water	General Dreav	*****	15	Warrior	Corrupt	2320	196	3868	Water Might V: 180% Damage for all Water Heroes	Vessel	Cure Poison				
 water	Lord Dreav	******	30	Warrior	Corrupt	3382	285	5634	Water Might VI: 200% Damage for all Water Heroes	Vessel	Cure Poison				
