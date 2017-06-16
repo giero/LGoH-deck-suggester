@@ -13,18 +13,12 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css" />
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <style type="text/css">
-        .popover {
-            color: #000
-        }
-    </style>
 </head>
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header text-center">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -32,7 +26,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                Legendary: Game of Heroes - deck suggester
+                Legendary: Game of Heroes<br ><small>deck suggester</small>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -120,8 +114,8 @@
 
 <template id="heroes-table">
     <section>
-        <div class="filters row">
-            <div class="form-group col-sm-3">
+        <div class="row">
+            <div class="form-group col-sm-4">
                 <label :for="listId + '-' + affinity + 'name-filter'">Hero name</label>
                 <input v-model="searchKey" class="form-control" :id="listId + '-' + affinity + 'name-filter'" />
             </div>
@@ -131,7 +125,7 @@
             </div>
         </div>
 
-        <table class="table heroes-table">
+        <table class="table table-condensed heroes-table">
             <thead>
             <tr>
                 <th>Name</th>
@@ -149,14 +143,15 @@
                 <td>
                     {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
                 </td>
-                <td><span class="hero-editable-stat" data-stat="attack">{{ hero.attack }}</span></td>
-                <td><span class="hero-editable-stat" data-stat="recovery">{{ hero.recovery }}</span></td>
-                <td><span class="hero-editable-stat" data-stat="health">{{ hero.health }}</span></td>
+                <td><span class="hero-editable-stat editable-click" data-stat="attack" title="edit stat">{{ hero.attack }}</span></td>
+                <td><span class="hero-editable-stat editable-click" data-stat="recovery" title="edit stat">{{ hero.recovery }}</span></td>
+                <td><span class="hero-editable-stat editable-click" data-stat="health" title="edit stat">{{ hero.health }}</span></td>
                 <td>
                     <span class="label label-primary event-skill"
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
                           v-if="hero.eventSkills.hasOwnProperty(eventSkill)">
                         {{ eventSkill }} {{ hero.eventSkills[eventSkill] }}x
+                        <br />
                     </span>
                 </td>
                 <td>{{ hero.defenderSkill }}</td>
@@ -207,9 +202,9 @@
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
-                <button id="add-random-to-team" @click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">
+                <!--button id="add-random-to-team" @click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">
                     Add random hero to team (for tests)
-                </button>
+                </button-->
                 <button id="clear-team" @click="clearTeam" class="btn btn-danger pull-right">Clear your team</button>
             </fieldset>
         </form>
@@ -218,82 +213,79 @@
 
 <template id="computed-decks">
     <section class="container">
-        <div class="row">
-            <div v-show="teamHeroes.heroes.length < 5">
+        <div class="row" v-show="teamHeroes.heroes.length < 5">
+            <div class="col-sm-12">
                 <span>Add some more heroes to your team</span>
             </div>
-            <div v-show="teamHeroes.heroes.length >= 5" class="row" style="display: flex; align-items: center">
-                <div class="col-sm-5">
-                    <button id="calculate-decks" class="btn btn-primary" @click="calculateDecks">
-                        <span>Calculate decks</span>
-                        <br />
-                        <small>(possible {{ possibilities.format(0, 3) }} decks in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
-                    </button>
-                    <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
-                </div>
+        </div>
 
-                <div class="col-sm-7">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Calculation options</h3>
-                        </div>
-                        <div class="panel-body row">
-                            <div class="col-sm-6">
+        <div class="row" v-show="teamHeroes.heroes.length >= 5">
+            <div class="col-sm-5 text-center" style="margin-bottom: 20px">
+                <button id="calculate-decks" class="btn btn-primary" @click="calculateDecks">
+                    <span>Calculate decks</span>
+                    <br />
+                    <small>possible {{ possibilities.format(0, 3) }} decks<br />in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
+                </button>
+                <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
+            </div>
 
-                                <div class="form-group">
-                                    <label for="calculation-event-type">Enable event:</label>
-                                    <select id="calculation-event-type" class="selectpicker" v-model="event">
-                                        <option value="">None</option>
-                                        <option value="Slayer">Slayer</option>
-                                        <option value="Commander">Commander</option>
-                                    </select>
-                                </div>
+            <div class="col-sm-7">
+                <div class="panel panel-default row">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Calculation options</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="calculation-event-type">Enable event:</label>
+                                <select id="calculation-event-type" class="form-control selectpicker" v-model="event" data-width="89%">
+                                    <option value="">None</option>
+                                    <option value="Slayer">Slayer</option>
+                                    <option value="Commander">Commander</option>
+                                </select>
                             </div>
-
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="calculation-counter-skill">Team counter skills:</label>
-                                    <select id="calculation-counter-skill" class="selectpicker" v-model="counterSkills"
-                                            multiple data-max-options="5" data-selected-text-format="count > 2">
-                                        <option v-for="option in counterSkillsOptions">
-                                            {{ option }}
-                                        </option>
-                                    </select>
-                                    <span class="glyphicon glyphicon-info-sign text-info"
-                                          data-toggle="popover"
-                                          data-trigger="hover"
-                                          data-placement="top"
-                                          data-container="body"
-                                          data-content="If you don't see some skill that means none of your team card has it."></span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="calculation-affinity">Limit opponent affinities:</label>
-                                    <select id="calculation-affinity" class="selectpicker" v-model="affinitiesLimit"
-                                            multiple data-max-options="5" data-selected-text-format="count > 2">
-                                        <option v-for="option in affinityOptions">
-                                            {{ option }}
-                                        </option>
-                                    </select>
-                                    <span class="glyphicon glyphicon-info-sign text-info"
-                                          data-toggle="popover"
-                                          data-trigger="hover"
-                                          data-placement="top"
-                                          data-container="body"
-                                          data-content="Limiting this will speed up your calculations."></span>
-                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="calculation-counter-skill">Team counter skills:</label>
+                                <select id="calculation-counter-skill" class="form-control selectpicker" v-model="counterSkills"
+                                        multiple data-max-options="5" data-selected-text-format="count > 2" data-width="89%">
+                                    <option v-for="option in counterSkillsOptions">
+                                        {{ option }}
+                                    </option>
+                                </select>
+                                <span class="glyphicon glyphicon-info-sign text-info"
+                                      data-toggle="popover"
+                                      data-trigger="hover"
+                                      data-placement="top"
+                                      data-container="body"
+                                      data-content="If you don't see some skill that means none of your team card has it."></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="calculation-affinity">Limit opponent affinities:</label>
+                                <select id="calculation-affinity" class="form-control selectpicker" v-model="affinitiesLimit"
+                                        multiple data-max-options="5" data-selected-text-format="count > 2" data-width="89%">
+                                    <option v-for="option in affinityOptions">
+                                        {{ option }}
+                                    </option>
+                                </select>
+                                <span class="glyphicon glyphicon-info-sign text-info"
+                                      data-toggle="popover"
+                                      data-trigger="hover"
+                                      data-placement="top"
+                                      data-container="body"
+                                      data-content="Limiting this will speed up your calculations."></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr />
-            <div v-if="progress > -1" class="progress">
+            <div v-if="progress > -1" class="col-sm-12 progress">
                 <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
                     {{ progress }}%
                 </div>
             </div>
         </div>
-
         <div class="calculated-heroes-panel row panel panel-default" v-for="(decksByStat, affinity) in bestDecks">
             <div class="panel-heading">Against: {{ affinity }}</div>
 
@@ -311,29 +303,39 @@
                          :id="'computed-' + affinity.replace(/ /g, '-') + '-' + stat.replace(/ /g, '-')" v-for="(deck, stat) in decksByStat">
 
                         <div class="heroes-list col-sm-10">
-                            <ul class="list-group" >
+                            <ul class="list-group">
                                 <li class="list-group-item" v-for="(hero, key) in deck.heroes">
-                                    <span :class="key === 0 ? 'text-danger': ''">
-                                        {{ hero.name }} <span v-html="(new Hero(hero)).rarityStarsHTML"></span>
-                                        ({{ hero.affinity }} {{ hero.type }} {{ hero.species }}
-                                        :: {{ hero.attack }}/{{ hero.recovery }}/{{ hero.health }})
-                                        <span v-if="Object.keys(hero.eventSkills).length !== 0">
-                                            <span v-if="hero.eventSkills.hasOwnProperty('Slayer')" class="label label-primary event-skill">
-                                                Slayer {{ hero.eventSkills.Slayer }}x
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <span :class="key === 0 ? 'text-danger': ''">
+                                                {{ hero.name }}
                                             </span>
-
-                                            <span v-if="hero.eventSkills.hasOwnProperty('Commander')" class="label label-primary event-skill">
+                                            <span v-html="(new Hero(hero)).rarityStarsHTML"></span>
+                                            <span v-if="key === 0"
+                                                  class="glyphicon glyphicon-info-sign text-info"
+                                                  style="display: inline"
+                                                  data-toggle="popover"
+                                                  data-trigger="hover"
+                                                  data-placement="top"
+                                                  data-container="body"
+                                                  :title="hero.leaderAbility.name"
+                                                  :data-content="hero.leaderAbility.description"></span>
+                                            <br />
+                                            <small>
+                                                {{ hero.affinity }}&nbsp;{{ hero.type }}&nbsp;{{ hero.species }}
+                                                &nbsp;::&nbsp;
+                                                {{ hero.attack }}&nbsp;/&nbsp;{{ hero.recovery }}&nbsp;/&nbsp;{{ hero.health }}
+                                            </small>
+                                            <span v-if="hero.eventSkills.hasOwnProperty('Commander')"
+                                                  class="label label-primary event-skill pull-right">
                                                 {{ hero.affinity }} Commander {{ hero.eventSkills.Commander }}x
                                             </span>
-                                        </span>
-                                    </span>
-                                    <span v-if="key === 0"
-                                          class="glyphicon glyphicon-info-sign text-info"
-                                          data-toggle="popover"
-                                          data-trigger="hover"
-                                          data-container="body"
-                                          :title="hero.leaderAbility.name"
-                                          :data-content="hero.leaderAbility.description"></span>
+                                            <span v-if="hero.eventSkills.hasOwnProperty('Slayer')"
+                                                  class="label label-primary event-skill pull-right">
+                                                Slayer {{ hero.eventSkills.Slayer }}x
+                                            </span>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>

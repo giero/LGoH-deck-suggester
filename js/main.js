@@ -335,7 +335,8 @@ new Vue({
         teamHeroes: teamHeroes
     },
     mounted: function () {
-        $('.hero-editable-stat').editable({
+        $(document).editable({
+            selector: '.hero-editable-stat',
             highlight: false,
             success: function (response, newValue) {
                 var $this = $(this);

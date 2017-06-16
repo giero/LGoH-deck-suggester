@@ -3,12 +3,6 @@ body {
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 991px) {
-    body {
-        padding-top: 140px;
-    }
-}
-
 .theme-dropdown .dropdown-menu {
     position: static;
     display: block;
@@ -27,6 +21,10 @@ body {
     padding-left: 5px !important;
 }
 
+.navbar-brand {
+    padding: 7px 15px;
+}
+
 .theme-showcase > p > .btn {
     margin: 5px 0;
 }
@@ -37,6 +35,10 @@ body {
 
 .nav-tabs {
     margin-bottom: 15px;
+}
+
+.popover {
+    color: #000
 }
 
 #hero-creator .rarities-container {
@@ -50,6 +52,7 @@ body {
 
 span.rarity-star {
     color: #FFB404;
+    display: inline;
 }
 
 .calculated-heroes-panel .heroes-list {
@@ -75,4 +78,9 @@ span.rarity-star {
 
 #team .hero-editable-stat {
     cursor: pointer;
+}
+
+#decks > .container > .row {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
 }
