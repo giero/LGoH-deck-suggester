@@ -82,14 +82,14 @@ dark	Venus Physica	******	30	Mage	God				Power of Love IV: 300% Damage for all G
 dark	Angry Snowman	****	9	Mage	Demigod				Demigod Might IV: 160% Damage for all Demigod Heroes	Dodge	Dispel Regen				Frozen Rain: Attack all enemies for 200% of ATK and 600% of REC for 2 turns
 dark	Abominable Snowman	*****	15	Mage	Demigod				Demigod Might V: 180% Damage for all Demigod Heroes	Dodge	Dispel Regen				Rain of Icicles: Attack all enemies for 250% of ATK and 800% of REC for 2 turns
 dark	Unstoppable Snowman	******	30	Mage	Demigod				Demigod Might VI: 200% Damage for all Demigod Heroes	Dodge	Dispel Regen				Whiteout: Attack all enemies for 300% of ATK and 900% of REC for 2 turns
-dark	Frost Heart	***	6	Balanced	Spirit	688	230	1146	Spiritual Strenght I: 175% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 500% of ATK.
-dark	Frost Heart	****	9	Balanced	Spirit	1124	374	1871	Spiritual Strenght I: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 600% of ATK.
-dark	Frost Heart	*****	15	Balanced	Spirit	1904	634	3171	Spiritual Strenght I: 225% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 700% of ATK.
-dark	Frost Heart	******	30	Balanced	Spirit	2772	924	4618	Spiritual Strenght I: 300% Damage for all Spirit Heroes	Drain	Dispel Dodge				Cold Blooded: Attack an enemy for 850% of ATK.
+dark	Frost Heart	***	6	Balanced	Spirit	688	230	1146	Spiritual Strenght I: 175% Damage for all Spirit Heroes	Drain	Dispel Dodge	2x			Cold Blooded: Attack an enemy for 500% of ATK.
+dark	Frost Heart	****	9	Balanced	Spirit	1124	374	1871	Spiritual Strenght I: 200% Damage for all Spirit Heroes	Drain	Dispel Dodge	2x			Cold Blooded: Attack an enemy for 600% of ATK.
+dark	Frost Heart	*****	15	Balanced	Spirit	1904	634	3171	Spiritual Strenght I: 225% Damage for all Spirit Heroes	Drain	Dispel Dodge	3x			Cold Blooded: Attack an enemy for 700% of ATK.
+dark	Frost Heart	******	30	Balanced	Spirit	2772	924	4618	Spiritual Strenght I: 300% Damage for all Spirit Heroes	Drain	Dispel Dodge	4x			Cold Blooded: Attack an enemy for 850% of ATK.
 dark	Moriarty, The Myth	****	9	Attacker	Fable				Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison				Steam Rush: Attack an enemy for 500% of ATK, ignoring armor
 dark	Moriarty, The Mastermind	*****	15	Attacker	Fable				Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison				Tesla Coil: Attack an enemy for 650% of ATK, ignoring armor
 dark	Professor Moriarty	******	30	Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison				Steam Charge: Attack an enemy for 750% of ATK, ignoring armor
-dark	Bella, Heart Guard	****	9	Mage	God				Dark Armor IV: 160% HP for all Dark Heroes	Weaken	Cure Blind				Love's Guard: Upgrades 1 Dark gem into a Power I Gem. Charges extremely fast.
+dark	Bella, Heart Guard	****	9	Mage	God				Dark Armor IV: 160% HP for all Dark Heroes	Weaken	Cure Blind	2x			Love's Guard: Upgrades 1 Dark gem into a Power I Gem. Charges extremely fast.
 dark	Bella, Protector Of Venus	*****	15	Mage	God	3035	406	2034	Dark Armor V: 180% HP for all Dark Heroes	Weaken	Cure Blind	3x			Love's Protector: Upgrades 1 Dark gem into a Power II Gem. Charges extremely fast.
 dark	Empyrean Bella	******	30	Mage	God	4424	592	2959	Dark Armor VI: 200% HP for all Dark Heroes	Weaken	Cure Blind	4x			Empyrean Blast: Upgrades 1 Dark gem into a Power III Gem. Charges extremely fast.
 dark	Masamune, Shadow Forged	***	6	Attacker	Spirit	1152	156	781	Spirit Armor III: 140% HP for all Spirit Heroes	Vessel	Cure Weaken	2x			Dark Void: If the target is Light, attack for 300% ATK. Damage self for 100% RCV.
@@ -98,6 +98,7 @@ dark	Masamune, Dark Void	*****	15	Attacker	Spirit	3177	426	2128	Spirit Armor V: 
 dark	Masamune, Demon Blade	******	30	Attacker	Spirit	4624	618	3093	Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken	4x			Dark Void: If the target is Light, attack four times for 300% ATK. Damage self for 100% RCV.
 dark	Lord Dracula	****	9	Defender	Fable	759	253	3132	Dark Armor IV: 160% HP for all Dark Heroes	Weaken	Cure Traitor				Dark Seduction: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 10% of ATK.
 dark	Lord Dracula	*****	15	Defender	Fable	1275	424	5293	Dark Armor V: 180% HP for all Dark Heroes	Weaken	Cure Traitor				Dark Seduction: Place a counterattack buff on self for 3 turns. Charges extremely fast. Counterattack: When attacked, counterattack for 15% of ATK.
+dark	Lord Dracula	******	30	Defender	Fable				Dark Armor VI: 200% HP for all Dark Heroes	Weaken	Cure Traitor				
 dark	Dhala, Avenging Angel	***	6	Attacker	Demigod	1140	152	761	Thrill of the Hunt I: 175% Damage for Water Bounty Hunters	Thorns	Cure Panic		2x		Avenging Angel: Attack an enemy for 400% of ATK.
 dark	Dhala, Avenging Angel	****	9	Attacker	Demigod	1881	253	1266	Thrill of the Hunt II: 200% Damage for Water Bounty Hunters	Thorns	Cure Panic		2x		Avenging Angel: Attack an enemy for 600% of ATK.
 dark	Dhala, Avenging Angel	*****	15	Attacker	Demigod	3181	426	2136	Thrill of the Hunt III: 225% Damage for Water Bounty Hunters	Thorns	Cure Panic		3x		Avenging Angel: Attack an enemy for 700% of ATK.
@@ -219,16 +220,27 @@ light	Archangel Uriel	***	6	Attacker	Dren	1196	160	801	Sword of Heaven I: 175% D
 light	Archangel Uriel	****	9	Attacker	Dren	1951	261	1306	Sword of Heaven II: 200% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			2x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 10 * your remaining HP % (maximum 1000% ATK).
 light	Archangel Uriel	*****	15	Attacker	Dren	3317	444	2226	Sword of Heaven III: 225% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			3x	Derend's Light: Destroy up to 1 Dark gem on the board. Attack the target for 20 * your remaining HP % (maximum 2000% ATK).
 light	Archangel Uriel	******	30	Attacker	Dren	4814	642	3209	Sword of Heaven IV: 300% Damage and HP for all Light Attacker Heroes	Judgement	Dispel Regen			4x	
-light	Archangel Mythriel	****	9	Attacker	Dren				Guardian Might IV: 160% Damage for all Guardian Heroes	Might	Dispel Dodge				
-light	Archangel Mythriel	*****	15	Attacker	Dren				Guardian Might V: 180% Damage for all Guardian Heroes	Might	Dispel Dodge				
-light	Archangel Mythriel	******	30	Attacker	Dren	4824	644	3225	Guardian Might VI: 200% Damage for all Guardian Heroes	Might	Dispel Dodge				Derend's Justice: Greatly increase the drop rate of Light gems until your next turn. Cast 'Focus Laser' on a Dark enemy for 1 turn. Only usable once every 7 turns.
+light	Archangel Mythriel	****	9	Attacker	Dren				Guardian Might IV: 160% Damage for all Guardian Heroes	Might	Dispel Dodge			2x	
+light	Archangel Mythriel	*****	15	Attacker	Dren				Guardian Might V: 180% Damage for all Guardian Heroes	Might	Dispel Dodge			3x	
+light	Archangel Mythriel	******	30	Attacker	Dren	4824	644	3225	Guardian Might VI: 200% Damage for all Guardian Heroes	Might	Dispel Dodge			4x	Derend's Justice: Greatly increase the drop rate of Light gems until your next turn. Cast 'Focus Laser' on a Dark enemy for 1 turn. Only usable once every 7 turns.
 light	Fenrir	****	9	Warrior	Creature	1564	132	2607	Creature Armor IV: 160% HP for all Creature Heroes	Dodge	Cure Poison				God Eater: Very slightly increases Light's effectiveness against Dark for 1 turn for all Heroes. Charges extremely fast. Does not stack with itself.
 light	Fenrir	*****	15	Warrior	Creature				Creature Armor V: 180% HP for all Creature Heroes	Dodge	Cure Poison				
 light	Fenrir	******	30	Warrior	Creature				Creature Armor VI: 200% HP for all Creature Heroes	Dodge	Cure Poison				
+light	Cooper T. Missiles	***	6	Attacker	Creature				Creature Might III: 140% Damage for all Creature Heroes	Zombie	Cure Vessel				
+light	Cooper T. Missiles	****	9	Attacker	Creature				Creature Might IV: 160% Damage for all Creature Heroes	Zombie	Cure Vessel				
+light	Cooper T. Missiles	*****	15	Attacker	Creature				Creature Might VI: 180% Damage for all Creature Heroes	Zombie	Cure Vessel				
 light	Cooper T. Missiles	******	30	Attacker	Creature	4826	646	3229	Creature Might VI: 200% Damage for all Creature Heroes	Zombie	Cure Vessel				Galactic Guardian: If laser is focused, attack for 7500% ATK and remove 'Focus Laser'. Attack an enemy for 700% ATK.
 light	Raquel, Unicorn Princess	****	9	Warrior	Fable				Warrior Might IV: 160% Damage for all Warrior Heroes	Weaken	Dispel Armor	2x			
 light	Raquel, Unicorn Princess	*****	15	Warrior	Fable				Warrior Might V: 180% Damage for all Warrior Heroes	Weaken	Dispel Armor	3x			
 light	Raquel, Unicorn Princess	******	30	Warrior	Fable	4024	337	6706	Warrior Might VI: 200% Damage for all Warrior Heroes	Weaken	Dispel Armor	4x			Double Rainbow: Transforms 2 gems into Light. Attack a Dark enemy for 1500% ATK.
+light	Catherine, Fairy Queen	***	6	Warrior	Fable	958	81	1594	Strenght of Rainbows I: 175% Damage and HP for all Light Warrior Heroes	Armor	Dispel Dodge	2x			Become immune to damage for 1 turn. Only usable every 13 turns.
+light	Catherine, Fairy Queen	****	9	Warrior	Fable	1562	130	2603	Strenght of Rainbows II: 200% Damage and HP for all Light Warrior Heroes	Armor	Dispel Dodge	2x			Become immune to damage for 1 turn. Only usable every 11 turns.
+light	Catherine, Fairy Queen	*****	15	Warrior	Fable	2656	224	4428	Strenght of Rainbows III: 225% Damage and HP for all Light Warrior Heroes	Armor	Dispel Dodge	3x			Become immune to damage for 1 turn. Only usable every 7 turns.
+light	Catherine, Fairy Queen	******	30	Warrior	Fable	3850	321	6418	Strenght of Rainbows IV: 300% Damage and HP for all Light Warrior Heroes	Armor	Dispel Dodge	4x			Become immune to damage for 1 turn. Only usable every 7 turns.
+light	Solus, Cosmic Wanderer	***	6	Warrior	Dragon				Strenght of Rainbows I: 175% Damage and HP for all Light Warrior Heroes	Dodge	Cure Blind	2x			
+light	Solus, Cosmic Wanderer	****	9	Warrior	Dragon				Strenght of Rainbows II: 200% Damage and HP for all Light Warrior Heroes	Dodge	Cure Blind	2x			
+light	Solus, Cosmic Wanderer	*****	15	Warrior	Dragon				Strenght of Rainbows III: 225% Damage and HP for all Light Warrior Heroes	Dodge	Cure Blind	3x			
+light	Solus, Cosmic Wanderer	******		Warrior	Dragon	4014	335	6690	Strenght of Rainbows IV: 300% Damage and HP for all Light Warrior Heroes	Dodge	Cure Blind	4x			Star Gate: Fully heals yourself. Increase the number of turns until the target attacks by 2. Usable only once every 7 turns.
 fire	Flamebound Initiate	*	2	Attacker	Corrupt	346	46	234	Fire Armor I: 110% HP for all Fire Heroes	Weaken	Unknown				Flame Punch: Attack an enemy for 350% of ATK, ignoring armor
 fire	Flamebound Knight	**	4	Attacker	Corrupt	600	83	415	Fire Armor II: 120% HP for all Fire Heroes	Weaken	Cure Poison				Flame Bash: Attack an enemy for 350% of ATK, ignoring armor
 fire	Flamebound Captain	***	6	Attacker	Corrupt	1006	136	685	Fire Armor III: 140% HP for all Fire Heroes	Weaken	Cure Poison				Embers of Mirscend: Attack an enemy for 350% of ATK, ignoring armor
@@ -291,9 +303,9 @@ fire	Rei and Quarl	******	30	Balanced	Legend	3258	1086	5432	Fire Might VI: 200% 
 fire	Hellfire Cub	****	9	Warrior	Creature				Creature Might IV: 160% Damage for all Creature Heroes	Weaken	Cure Blind				Ember Claw: Attack an enemy for 260% of HP for 2 turns
 fire	Hellfire Manticore	*****	15	Warrior	Creature				Creature Might V: 180% Damage for all Creature Heroes	Weaken	Cure Blind				Piercing Tail: Attack an enemy for 320% of HP for 2 turns
 fire	Fyrion the Ashen	******	30	Warrior	Creature				Creature Might VI: 200% Damage for all Creature Heroes	Weaken	Cure Blind				Mane of Flames: Attack an enemy for 380% of HP for 2 turns
-fire	Muramasa, Nightmare Bane	****	9	Attacker	Spirit				Spirit Armor IV: 160% HP for all Spirit Heroes	Vessel	Cure Weaken				Demon Blade: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
-fire	Muramasa, Thirsty Blade	*****	15	Attacker	Spirit				Spirit Armor V: 180% HP for all Spirit Heroes	Vessel	Cure Weaken				Savior and Destroyer: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
-fire	Muramasa, Soul Drinker	******	30	Attacker	Spirit				Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken				Drink Souls: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
+fire	Muramasa, Nightmare Bane	****	9	Attacker	Spirit				Spirit Armor IV: 160% HP for all Spirit Heroes	Vessel	Cure Weaken	2x			Demon Blade: Attack an enemy for 500% of ATK, Attack self for 500% of REC. Can kill the player.
+fire	Muramasa, Thirsty Blade	*****	15	Attacker	Spirit				Spirit Armor V: 180% HP for all Spirit Heroes	Vessel	Cure Weaken	3x			Savior and Destroyer: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
+fire	Muramasa, Soul Drinker	******	30	Attacker	Spirit				Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken	4x			Drink Souls: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Squire Osimo	****	9	Balanced	Human				Human Armor IV: 160% HP for all Human Heroes	Regen	Cure Poison				Flaming Mace: Attack all enemies for 140% of HP and 500% of REC
 fire	Chevallier Osimo	*****	15	Balanced	Human				Human Armor V: 180% HP for all Human Heroes	Regen	Cure Poison				Empyrean Fire: Attack all enemies for 180% of HP and 600% of REC
 fire	Sir Osimo Of Brin	******	30	Balanced	Human				Human Armor VI: 200% HP for all Human Heroes	Regen	Cure Poison				Cosmic Flames: Attack all enemies for 220% of HP and 700% of REC
@@ -558,9 +570,9 @@ earth	Gourdicous, Revenge Demon	******	30	Balanced	Creature				Creature Armor VI
 earth	Mordred, Bastard Son	****	9	Defender	Fable	687	229	2850	Earth Armor IV: 160% HP for all Earth Heroes	Weaken	Cure Traitor		2x	2x	Bastard's Revenge: Attack all enemies for 180% of HP and Defend 35% of all damage for 2 Turns
 earth	Mordred, The Mutinous	*****	15	Defender	Fable	1161	386	4825	Earth Armor V: 180% HP for all Earth Heroes	Weaken	Cure Traitor		3x	3x	Bastard's Resolve: Attack all enemies for 240% of HP and Defend 35% of all damage for 2 Turns
 earth	Mordred, Traitor King	******	30	Defender	Fable	1696	564	7039	Earth Armor VI: 200% HP for all Earth Heroes	Weaken	Cure Traitor		4x	4x	Traitor King: Attack all enemies for 280% of HP and Defend 35% of all damage for 2 Turns
-earth	Gwyn, Outcast Rogue	****	9	Warrior	Human				Earth Might IV: 160% Damage for all Earth Heroes	Poison	Cure Vessel				Light Path: Attack an enemy for 500% of ATK, ignoring armor
-earth	Gwyn, The Rebellious	*****	15	Warrior	Human				Earth Might V: 180% Damage for all Earth Heroes	Poison	Cure Vessel				Energy Saber: Attack an enemy for 650% of ATK, ignoring armor
-earth	Gwyn, Rogue Queen	******	30	Warrior	Human				Earth Might VI: 200% Damage for all Earth Heroes	Poison	Cure Vessel				Strike First: Attack an enemy for 750% of ATK, ignoring armor
+earth	Gwyn, Outcast Rogue	****	9	Warrior	Human				Earth Might IV: 160% Damage for all Earth Heroes	Poison	Cure Vessel		2x		Light Path: Attack an enemy for 500% of ATK, ignoring armor
+earth	Gwyn, The Rebellious	*****	15	Warrior	Human				Earth Might V: 180% Damage for all Earth Heroes	Poison	Cure Vessel		3x		Energy Saber: Attack an enemy for 650% of ATK, ignoring armor
+earth	Gwyn, Rogue Queen	******	30	Warrior	Human				Earth Might VI: 200% Damage for all Earth Heroes	Poison	Cure Vessel		4x		Strike First: Attack an enemy for 750% of ATK, ignoring armor
 earth	Aggravated Spirit	****	9	Balanced	Spirit	1082	360	1805	Earth Armor IV: 160% HP for all Earth Heroes	Drain	Dispel Thorns				Spirit of Envy: Attack all enemies for 250% of ATK and 140% of HP for 2 turns
 earth	Disgruntled Spirit	*****	15	Balanced	Spirit	1826	608	3043	Earth Armor V: 180% HP for all Earth Heroes	Drain	Dispel Thorns				Spirit of Anger: Attack all enemies for 300% of ATK and 180% of HP for 2 turns
 earth	Spirit of Krismas Past	******	30	Balanced	Spirit	2658	886	4430	Earth Armor VI: 200% HP for all Earth Heroes	Drain	Dispel Thorns				Jealous Rage: Attack all enemies for 350% of ATK and 220% of HP for 2 turns
@@ -570,9 +582,9 @@ earth	Empyrean Djema	******	30	Mage	God	3222	1073	1360	Dragon Might VI: 200% Dam
 earth	Wu Kong, Stone Born	****	9	Balanced	God	1072	356	1787	God Might IV: 160% Damage for all God Heroes	Absorb	Cure Weaken	2x	2x		Multi-Staff Strike: Matches after the first match have moderately increased time to make gem matches for 2 turns
 earth	Wu Kong, Cloud Walker	*****	15	Balanced	God	1828	608	3045	God Might V: 180% Damage for all God Heroes	Absorb	Cure Weaken	3x	3x		Cloud Walker: Matches after the first match have moderately increased time to make gem matches for 2 turns
 earth	Wu Kong, Monkey King	******	30	Balanced	God				God Might VI: 200% Damage for all God Heroes	Absorb	Cure Weaken				King's Staff: Matches after the first match have massively increased time to make gem matches for 2 turns
-earth	Squire Dorin	****	9	Balanced	Human				Human Armor IV: 160% HP for all Human Heroes	Regen	Cure Poison				Trample: Increase all heroes RCV by 25% for 2 turns
-earth	Chevalier Dorin	*****	15	Balanced	Human				Human Armor V: 180% HP for all Human Heroes	Regen	Cure Poison				Death's Herald: Increase all heroes RCV by 50% for 2 turns
-earth	Sir Dorin of Brin	******	30	Balanced	Human				Human Armor VI: 200% HP for all Human Heroes	Regen	Cure Poison				Shepherd Of Souls: Increase all heroes RCV by 100% for 2 turns
+earth	Squire Dorin	****	9	Balanced	Human				Human Armor IV: 160% HP for all Human Heroes	Regen	Cure Poison		3s		Trample: Increase all heroes RCV by 25% for 2 turns
+earth	Chevalier Dorin	*****	15	Balanced	Human				Human Armor V: 180% HP for all Human Heroes	Regen	Cure Poison		3x		Death's Herald: Increase all heroes RCV by 50% for 2 turns
+earth	Sir Dorin of Brin	******	30	Balanced	Human				Human Armor VI: 200% HP for all Human Heroes	Regen	Cure Poison		4x		Shepherd Of Souls: Increase all heroes RCV by 100% for 2 turns
 earth	Robin of Sherwood	***	6	Attacker	Fable	1098	146	737	Demigod Might IV: 160% Damage for all Demigod Heroes	Armor	Cure Blind			2x	Commander's Arrow: Attack all enemies for 400% of ATK
 earth	Robin, Champion Archer	****	9	Attacker	Fable	1789	239	1196	Demigod Might IV: 160% Damage for all Demigod Heroes	Armor	Cure Blind			2x	Commander's Arrow: Attack all enemies for 600% of ATK
 earth	Robin, King of Thieves	*****	15	Attacker	Fable	3031	404	2026	Demigod Might V: 180% Damage for all Demigod Heroes	Armor	Cure Blind			3x	Commander's Arrow: Attack all enemies for 700% of ATK
@@ -608,3 +620,4 @@ earth	Perseus	***	6	Attacker	Honored				Champion's Might I: 175% Damage and HP f
 earth	Perseus	****	9	Attacker	Honored	2041	275	1374	Champion's Might II: 200% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			2x	
 earth	Perseus	*****	15	Attacker	Honored	3453	462	2314	Champion's Might III: 225% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			3x	
 earth	Perseus	******	30	Attacker	Honored	5018	668	3345	Champion's Might IV: 300% Damage and HP for all Earth Attackers Heroes	Judgement	Dispel Earth Petrify			4x	Myth Hunter: Increase self ATK by 35% for 1 turn and attack a Water enemy for 1250% ATK. If Myth Slayer is active against Medusa, create 4 Earth gems.
+earth	Athena	******	30	Warrior	Demigod				Earth Blessing VI: 300% REC for all Earth Heroes	Regen	Dispel armor		4x	4x	Goddess of War: Greatly increase the drop rate of Earth gems until your next turn. Only usable once every 7 turns.
