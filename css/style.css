@@ -13,12 +13,21 @@ body {
     padding-left: 3px;
 }
 
+
+.nav.navbar-nav li.dropdown-right.active {
+    background-color: #080808;
+}
+
 .nav.navbar-nav li.dropdown-right a:nth-child(1) {
     padding-right: 5px !important;
+    display: inline-block;
+    margin-right: -2px;
 }
 
 .nav.navbar-nav li.dropdown-right a:nth-child(2) {
     padding-left: 5px !important;
+    display: inline-block;
+    margin-left: -2px;
 }
 
 .navbar-brand {

@@ -32,8 +32,8 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="page-nav" class="nav navbar-nav pull-right">
                 <li role="presentation" class="dropdown-right active">
-                    <a href="#team" class="pull-left">Your team</a>
-                    <a href="#" class="dropdown-toggle pull-left" data-toggle="dropdown" onclick="$(this).prev().tab('show')">
+                    <a href="#team">Your team</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="$(this).prev().tab('show')">
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu team-actions-menu">
@@ -141,7 +141,7 @@
             <tbody>
             <tr v-for="hero in filteredHeroes" :data-hero-id="hero.id">
                 <td>
-                    {{ hero.name }} <span v-html="hero.rarityStarsHTML"></span>
+                    {{ hero.name }}<br class="visible-sm-block visible-xs-block" /> <span v-html="hero.rarityStarsHTML"></span>
                 </td>
                 <td><span class="hero-editable-stat editable-click" data-stat="attack" title="edit stat">{{ hero.attack }}</span></td>
                 <td><span class="hero-editable-stat editable-click" data-stat="recovery" title="edit stat">{{ hero.recovery }}</span></td>
@@ -151,7 +151,7 @@
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
                           v-if="hero.eventSkills.hasOwnProperty(eventSkill)">
                         {{ eventSkill }} {{ hero.eventSkills[eventSkill] }}x
-                        <br />
+                        <br class="visible-sm-block visible-xs-block" />
                     </span>
                 </td>
                 <td>{{ hero.defenderSkill }}</td>
@@ -342,7 +342,7 @@
 
                         <div class="stats-list col-sm-2">
                             <ul class="list-group">
-                                <li class="list-group-item">
+                                <li class="list-group-item container-fluid">
                                     <strong>score</strong>
                                     <span class="glyphicon glyphicon-info-sign text-info"
                                           data-toggle="popover"
@@ -352,7 +352,7 @@
                                           :data-content="'Sum of all heroes \'' + stat.replace(/_/g, ' ') + '\' stats after all bonuses are applied'"></span>
                                     <span class="badge">{{ deck.value.format(0, 3) }}</span>
                                 </li>
-                                <li class="list-group-item" v-for="(value, stat) in deck.stats">
+                                <li class="list-group-item container-fluid" v-for="(value, stat) in deck.stats">
                                     {{ stat }}
                                     <span class="badge">{{ value.format(0, 3) }}</span>
                                 </li>
