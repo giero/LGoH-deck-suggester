@@ -3,8 +3,7 @@ function Deck(heroes, options) {
     this.options = options;
 
     this.leaderTarget = this.heroes[0].leaderAbility.target;
-    this.leaderStats = this.heroes[0].leaderAbility.stats;
-    this.leaderStatValue = this.heroes[0].leaderAbility.value / 100;
+    this.leaderStatValues = this.heroes[0].leaderAbility.values;
 
     this.teamMeetsRequirements = this.checkRequirements();
     this.commanderBonuses = this.collectCommanderBonuses();
@@ -114,27 +113,27 @@ Deck.prototype.applyAffinityBonus = function (hero, affinity) {
 };
 
 Deck.prototype.applyLeaderAbilityBonus = function (hero) {
-    if (!hero.canApplyLeaderStat(this.leaderTarget)) {
+    if (!hero.canApplyLeaderStats(this.leaderTarget)) {
         return;
     }
 
-    for (var ls = this.leaderStats.length - 1; ls >= 0; --ls) {
+    for (var ls in this.leaderStatValues) {
         // this is terrible - I know T_T
         // but it has to be that way - array access for objects is so slow ...
         // and I need it to run as fast as it can be
 
-        switch (this.leaderStats[ls]) {
+        switch (ls) {
             case 'attack':
-                hero.attack *= this.leaderStatValue;
+                hero.attack *= this.leaderStatValues.attack;
                 break;
             case 'health':
-                hero.health *= this.leaderStatValue;
+                hero.health *= this.leaderStatValues.health;
                 break;
             case 'recovery':
-                hero.recovery *= this.leaderStatValue;
+                hero.recovery *= this.leaderStatValues.recovery;
                 break;
             default:
-                throw new Error("Invalid stat " + this.leaderStats[ls]);
+                throw new Error("Invalid stat " + ls);
         }
     }
 };

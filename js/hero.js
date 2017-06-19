@@ -54,7 +54,7 @@ Hero.prototype.matchesWithStat = function (stat) {
 
 };
 
-Hero.prototype.canApplyLeaderStat = function (leaderTarget) {
+Hero.prototype.canApplyLeaderStats = function (leaderTarget) {
     if (typeof leaderTarget === 'string') {
         return this.matchesWithStat(leaderTarget);
     } else {

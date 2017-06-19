@@ -113,7 +113,7 @@ dark	Wicked Queen	******	30	Mage	Human				Mage Might Vi: 200% Damage for all Mag
 dark	Archdemon Lucifel	****	9	Balanced	Corrupt	1168	388	1947	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 50% of your current HP to increase Lucifel's ATK by 50% for the rest of the battle.
 dark	Archdemon Lucifel	*****	15	Balanced	Corrupt	1990	662	3315	Corrupt Might V: 180% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 40% of your current HP to increase Lucifel's ATK by 100% for the rest of the battle.
 dark	Archdemon Lucifel	******	30	Balanced	Corrupt	2904	968	4840	Corrupt Might VI: 200% Damage for all Corrupt Heroes	Zombie	Dispel Might				Morningstar: Sacrifice 25% of your current HP to increase Lucifel's ATK by 250% for the rest of the battle.
-dark	Loki	****		Warrior	Demigod	1570	134	2615	Honored Armor IV: 160% HP for all Honored Heroes	Blind	Cure Weaken	2x			Shape Shifter: Increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
+dark	Loki	****	9	Warrior	Demigod	1570	134	2615	Honored Armor IV: 160% HP for all Honored Heroes	Blind	Cure Weaken	2x			Shape Shifter: Increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
 dark	Loki	*****	15	Warrior	Demigod	2652	224	4420	Honored Armor V: 180% HP for all Honored Heroes	Blind	Cure Weaken	3x			Shape Shifter: Moderately increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
 dark	Loki	******	30	Warrior	Demigod	3862	325	6434	Honored Armor VI: 200% HP for all Honored Heroes	Blind	Cure Weaken	4x			Shape Shifter: Greatly increse the drop rate of Dark gems until your next turn. Only usable once every 7 turns.
 dark	Woden	***	6	Balanced	Demigod	720	240	1198	Valhallan Might I: 175% Damage and HP for all Dark Demigods Heroes	Siphon	Cure Vessel	2x			Gungnir: Attack a Light enemy for 250% ATK.
@@ -124,6 +124,9 @@ dark	Tor	***	6	Attacker	Demigod				Valhallan Might I: 175% Damage and HP for all
 dark	Tor	****	9	Attacker	Demigod				Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	2x			
 dark	Tor	*****	15	Attacker	Demigod				Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	3x			
 dark	Tor	******	30	Attacker	Demigod	4814	642	3209	Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Panic	Cure Zombie	4x			Mjolnir: Attack a Light enemy for 1500% ATK.
+dark	Gargalank	****	9	Defender	Goblin	250	83	1034	Ancient Talent IV: 260% REC, 160% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 500% HP.
+dark	Gargalank	*****	15	Defender	Goblin	467	156	1927	Ancient Talent V: 280% REC, 180% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 750% HP.
+dark	Gargalank	******	30	Defender	Goblin	688	229	2851	Ancient Talent VI: 300% REC, 200% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 1000% HP.
 light	Griffin Pup	***	6	Defender	Creature	402	134	1665	Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
 light	Griffin	****	9	Defender	Creature	649	215	2706	Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
 light	Shadowlight Pilgrim	*	2	Balanced	Dren	200	66	334	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns
