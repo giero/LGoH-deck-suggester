@@ -1,13 +1,4 @@
 <?php
-function convertStat($stat)
-{
-    return str_replace(
-        ['Damage', 'ATK', 'REC', 'HP'],
-        ['attack', 'attack', 'recovery', 'health'],
-        $stat
-    );
-}
-
 /**
  * @param $filename
  * @param $delimiter
@@ -41,61 +32,19 @@ function csvToArray($filename = '', $delimiter = ',')
     foreach ($data as $index => $row) {
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
+        $name = $row['name'];
+        $liderAbility = $row['leader ability'];
 
-        $leaderAbilityValues = [];
-        if (preg_match(
-            '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes))$/',
-            $row['leader ability'],
-            $leaderAbilityMatches
-        )) {
-            $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
-            $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
-                ? explode(' ', $leaderAbilityTarget)
-                : $leaderAbilityTarget;
-
-            foreach (explode(' and ', convertStat($leaderAbilityMatches[4])) as $stat) {
-                $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
-            }
-        } elseif (preg_match(
-            '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Bounty Hunters))$/',
-            $row['leader ability'],
-            $leaderAbilityMatches
-        )) {
-            $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
-            $leaderAbilityTarget = explode(' ', $leaderAbilityTarget);
-            $leaderAbilityTarget[] = 'Bounty Hunter';
-
-            foreach (explode(' and ', convertStat($leaderAbilityMatches[4])) as $stat) {
-                $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
-            }
-        } elseif (preg_match(
-            '/^([^:]+): ((\d+)% (ATK|HP|REC), (\d+)% (ATK|HP|REC) and (ATK|HP|REC) for (\w+( \w+)?) Heroes)$/',
-            $row['leader ability'],
-            $leaderAbilityMatches
-        )
-        ) {
-            $leaderAbilityTarget = rtrim($leaderAbilityMatches[8], 's');
-            $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
-                ? explode(' ', $leaderAbilityTarget)
-                : $leaderAbilityTarget;
-
-            $leaderAbilityValues[convertStat($leaderAbilityMatches[4])] = $leaderAbilityMatches[3] / 100;
-            $leaderAbilityValues[convertStat($leaderAbilityMatches[6])] = $leaderAbilityMatches[5] / 100;
-            $leaderAbilityValues[convertStat($leaderAbilityMatches[7])] = $leaderAbilityMatches[5] / 100;
-        } else {
-            var_dump(
-                'Invalid leader ability format for '.$row['name'].' ('.$row['leader ability'].')',
-                $leaderAbilityMatches
-            );
-            die();
-        }
-
-        // Honored, Ancient, Technological
-
+        list(
+            $leaderAbilityName,
+            $leaderAbilityDescription,
+            $leaderAbilityValues,
+            $leaderAbilityTarget
+            ) = extractLiderAbility($liderAbility, $name);
 
         $dbData[] = [
             'id' => $index + 1,
-            'name' => $row['name'],
+            'name' => $name,
             'affinity' => $affinity,
             'type' => $row['class'],
             'species' => $row['race'],
@@ -104,27 +53,18 @@ function csvToArray($filename = '', $delimiter = ',')
             'health' => (int)$row['health'],
             'rarity' => $rarity,
             'eventSkills' => array_merge(
-                !empty($row['slayer']) && preg_match(
-                    '/^(\d)x$/',
-                    $row['slayer'],
-                    $sMatches
-                ) ? ['Slayer' => (int)$sMatches[1]] : [],
-                !empty($row['bounty hunter']) && preg_match(
-                    '/^(\d)x$/',
-                    $row['bounty hunter'],
-                    $bhMatches
-                ) ? ['Bounty Hunter' => (int)$bhMatches[1]] : [],
-                !empty($row['commander']) && preg_match(
-                    '/^(\d)x$/',
-                    $row['commander'],
-                    $cMatches
-                ) ? ['Commander' => (int)$cMatches[1]] : []
+                !empty($row['slayer']) && preg_match('/^(\d)x$/', $row['slayer'], $sMatches)
+                    ? ['Slayer' => (int)$sMatches[1]] : [],
+                !empty($row['bounty hunter']) && preg_match('/^(\d)x$/', $row['bounty hunter'], $bhMatches)
+                    ? ['Bounty Hunter' => (int)$bhMatches[1]] : [],
+                !empty($row['commander']) && preg_match('/^(\d)x$/', $row['commander'], $cMatches)
+                    ? ['Commander' => (int)$cMatches[1]] : []
             ),
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],
             'leaderAbility' => [
-                'name' => $leaderAbilityMatches[1],
-                'description' => $leaderAbilityMatches[2],
+                'name' => $leaderAbilityName,
+                'description' => $leaderAbilityDescription,
                 'values' => $leaderAbilityValues,
                 'target' => $leaderAbilityTarget,
             ],
@@ -134,6 +74,78 @@ function csvToArray($filename = '', $delimiter = ',')
     }
 
     return $dbData;
+}
+
+/**
+ * @param string $stats
+ * @return string
+ */
+function convertStats($stats)
+{
+    return str_replace(
+        ['Damage', 'ATK', 'REC', 'HP'],
+        ['attack', 'attack', 'recovery', 'health'],
+        $stats
+    );
+}
+
+/**
+ * @param $liderAbilityData
+ * @param $heroName
+ * @return array
+ */
+function extractLiderAbility($liderAbilityData, $heroName)
+{
+    $leaderAbilityMatches = [];
+    $leaderAbilityValues = [];
+    if (preg_match(
+        '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes))$/',
+        $liderAbilityData,
+        $leaderAbilityMatches
+    )) {
+        $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
+        $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
+            ? explode(' ', $leaderAbilityTarget)
+            : $leaderAbilityTarget;
+
+        foreach (explode(' and ', convertStats($leaderAbilityMatches[4])) as $stat) {
+            $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
+        }
+    } elseif (preg_match(
+        '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Bounty Hunters))$/',
+        $liderAbilityData,
+        $leaderAbilityMatches
+    )) {
+        $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
+        $leaderAbilityTarget = explode(' ', $leaderAbilityTarget);
+        $leaderAbilityTarget[] = 'Bounty Hunter';
+
+        foreach (explode(' and ', convertStats($leaderAbilityMatches[4])) as $stat) {
+            $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
+        }
+    } elseif (preg_match(
+        '/^([^:]+): ((\d+)% (ATK|HP|REC), (\d+)% (ATK|HP|REC) and (ATK|HP|REC) for (\w+( \w+)?) Heroes)$/',
+        $liderAbilityData,
+        $leaderAbilityMatches
+    )
+    ) {
+        $leaderAbilityTarget = rtrim($leaderAbilityMatches[8], 's');
+        $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
+            ? explode(' ', $leaderAbilityTarget)
+            : $leaderAbilityTarget;
+
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[4])] = $leaderAbilityMatches[3] / 100;
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[6])] = $leaderAbilityMatches[5] / 100;
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[7])] = $leaderAbilityMatches[5] / 100;
+    } else {
+        var_dump(
+            'Invalid leader ability format for '.$heroName.' ('.$liderAbilityData.')',
+            $leaderAbilityMatches
+        );
+        die();
+    }
+
+    return array($leaderAbilityMatches[1], $leaderAbilityMatches[2], $leaderAbilityValues, $leaderAbilityTarget);
 }
 
 echo json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT);
