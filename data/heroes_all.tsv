@@ -355,6 +355,9 @@ fire	Heavenly Venus	******	30	Mage	God				Power of Love IV: 300% Damage for all 
 fire	Demon Toad	****	9	Balanced	Corrupt	1070	356	1783	Corrupt Blessing IV: 260% REC for all Corrupt Heroes	Counterattack	None				Burning Madness: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1100% of REC.
 fire	Nightmare Fiend	*****	15	Balanced	Corrupt	1830	610	3049	Corrupt Blessing V: 280% REC for all Corrupt Heroes	Counterattack	None				Burning Madness: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1400% of REC.
 fire	Gol-Goroth	******	30	Balanced	Corrupt	2662	888	4438	Corrupt Blessing VI: 300% REC for all Corrupt Heroes	Counterattack	None				Burning Madness: Reduce all enemy DEF by 40% for 2 turns and Attack all enemies for 1600% of REC.
+fire	Little Red	****	9	Attacker	Human	1789	239	1196	Human Armor IV: 160% HP for all Human Heroes	Drain	Dispel Judgement	2x			
+fire	Red Riding Hood	*****	15	Attacker	Human	3031	404	2026	Human Armor V: 180% HP for all Human Heroes	Drain	Dispel Judgement	3x			Blazing Hood: Increases Fire's effectiveness against Earth for 1 turn for all Heroes. Charges extremely fast. Does not stack with itself.
+fire	Red, Wolf's Bane	******	30	Attacker	Human				Human Armor VI: 200% HP for all Human Heroes	Drain	Dispel Judgement	4x			Blazing Hood: Moderately increases Fire's effectiveness against Earth for 1 turn for all Heroes. Charges extremely fast. Does not stack with itself.
 fire	Queen of Fury	****	9	Warrior	Corrupt	1504	128	2507	Corrupt Might IV: 160% Damage for all Corrupt Heroes	Autoheal	None				Off With Her Head: Attack all enemies for 250% of ATK and 140% of HP for 2 turns.
 fire	Queen of Beheading	*****	15	Warrior	Corrupt	2540	214	4234	Corrupt Might V: 180% Damage for all Corrupt Heroes	Autoheal	None				Off With Her Head: Attack all enemies for 300% of ATK and 180% of HP for 2 turns.
 fire	Queen of Hearts	******	30	Warrior	Corrupt	3694	309	6156	Corrupt Might VI: 200% Damage for all Corrupt Heroes	Autoheal	None				Off With Her Head: Attack all enemies for 350% of ATK and 220% of HP for 2 turns.
@@ -378,6 +381,9 @@ fire	Cthulhu, Dream Eater	***	6	Balanced	Corrupt	688	230	1146	Power of the Deep 
 fire	Cthulhu, Dream Eater	****	9	Balanced	Corrupt	1124	374	1871	Power of the Deep II: 200% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 5 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	*****	15	Balanced	Corrupt	1904	634	3171	Power of the Deep III: 225% Damage for all Human Heroes	Zombie	Dispel MIght	3x			Dream Eater: Transform 7 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	******	30	Balanced	Corrupt	2772	924	4618	Power of the Deep IV: 300% Damage for all Human Heroes	Zombie	Dispel MIght	4x			Dream Eater: Transform 10 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
+fire	Girru, Dragon Hunter	****	9	Attacker	Dragon				Human Blessing IV: 200% REC for all Human Heroes	Traitor	Dispel Thorns			2x	
+fire	Girru, Dragon Hunter	*****	15	Attacker	Dragon				Human Blessing V: 225% REC for all Human Heroes	Traitor	Dispel Thorns			3x	
+fire	Girru, Dragon Hunter	******	30	Attacker	Dragon	5028	672	3361	Human Blessing VI: 300% REC for all Human Heroes	Traitor	Dispel Thorns			4x	Dragon Punch: If there are 10 or more Fire Gems on the board, attack for 2000%. This attack is tripled if Dragon Fury is active. Then attack for 1000% ATK.
 water	Frostvein Cultist	*	2	Mage	Corrupt	256	86	118	Water Might I: 110% Damage for all Water Heroes	Drain	Unknown				
 water	Frostvein Devout	**	4	Mage	Corrupt	431	143	190	Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor				
 water	Frostvein Enforcer	***	6	Mage	Corrupt	724	241	312	Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor				
