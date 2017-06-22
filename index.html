@@ -172,7 +172,7 @@
                 <legend>Add hero to team</legend>
                 <div class='form-group'>
                     <div class='col-sm-12'>
-                        <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true">
+                        <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true" data-size="10">
                             <optgroup v-for="affinity in affinities" :label="affinity">
                                 <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id"
                                         :data-content="hero.name + ' ' + hero.rarityStarsHTML"
@@ -280,9 +280,11 @@
                     </div>
                 </div>
             </div>
-            <div v-if="progress > -1" class="col-sm-12 progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
-                    {{ progress }}%
+            <div class="col-sm-12">
+                <div v-if="progress > -1" class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" :style="'width: ' + progress + '%'">
+                        {{ progress }}%
+                    </div>
                 </div>
             </div>
         </div>
