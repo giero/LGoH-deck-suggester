@@ -381,9 +381,17 @@ fire	Cthulhu, Dream Eater	***	6	Balanced	Corrupt	688	230	1146	Power of the Deep 
 fire	Cthulhu, Dream Eater	****	9	Balanced	Corrupt	1124	374	1871	Power of the Deep II: 200% Damage for all Human Heroes	Zombie	Dispel MIght	2x			Dream Eater: Transform 5 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	*****	15	Balanced	Corrupt	1904	634	3171	Power of the Deep III: 225% Damage for all Human Heroes	Zombie	Dispel MIght	3x			Dream Eater: Transform 7 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
 fire	Cthulhu, Dream Eater	******	30	Balanced	Corrupt	2772	924	4618	Power of the Deep IV: 300% Damage for all Human Heroes	Zombie	Dispel MIght	4x			Dream Eater: Transform 10 Gems to Fire. Charges extremaly fast. Can only be used once every 3 turns
-fire	Girru, Dragon Hunter	****	9	Attacker	Dragon				Human Blessing IV: 200% REC for all Human Heroes	Traitor	Dispel Thorns			2x	
-fire	Girru, Dragon Hunter	*****	15	Attacker	Dragon				Human Blessing V: 225% REC for all Human Heroes	Traitor	Dispel Thorns			3x	
+fire	Girru, Dragon Hunter	****	9	Attacker	Dragon				Human Blessing IV: 260% REC for all Human Heroes	Traitor	Dispel Thorns			2x	
+fire	Girru, Dragon Hunter	*****	15	Attacker	Dragon				Human Blessing V: 280% REC for all Human Heroes	Traitor	Dispel Thorns			3x	Dragon Punch: If there are 10 or more Fire Gems on the board, attack for 1000%. This attack is tripled if Dragon Fury is active. Then attack for 500% ATK.
 fire	Girru, Dragon Hunter	******	30	Attacker	Dragon	5028	672	3361	Human Blessing VI: 300% REC for all Human Heroes	Traitor	Dispel Thorns			4x	Dragon Punch: If there are 10 or more Fire Gems on the board, attack for 2000%. This attack is tripled if Dragon Fury is active. Then attack for 1000% ATK.
+fire	Anatu, Dragon Tamer	***	6	Attacker	Dragon	1196	160	801	Dragonborn I: 175% Damage and HP for all Fire Dragon Heroes	Dodge	Dispel Dodge			2x	Dragon Dance: Attack for 150% ATK. Fully charges after any fire gem match. This is usable every turn.
+fire	Anatu, Dragon Tamer	****	9	Attacker	Dragon	1951	261	1306	Dragonborn II: 200% Damage and HP for all Fire Dragon Heroes	Dodge	Dispel Dodge			2x	Dragon Dance: Attack for 200% ATK. Fully charges after any fire gem match. This is usable every turn.
+fire	Anatu, Dragon Tamer	*****	15	Attacker	Dragon				Dragonborn III: 225% Damage and HP for all Fire Dragon Heroes	Dodge	Dispel Dodge			3x	Dragon Dance: Attack for 400% ATK. Fully charges after any fire gem match. This is usable every turn.
+fire	Anatu, Dragon Tamer	******	30	Attacker	Dragon				Dragonborn IV: 300% Damage and HP for all Fire Dragon Heroes	Dodge	Dispel Dodge			4x	Dragon Dance: Attack for 600% ATK. Fully charges after any fire gem match. This is usable every turn.
+fire	Nusku, The Dragon Born	***	6	Attacker	Dragon				Dragonborn I: 175% Damage and HP for all Fire Dragon Heroes	Vessel	Dispel Fear			2x	
+fire	Nusku, The Dragon Born	****	9	Attacker	Dragon				Dragonborn II: 200% Damage and HP for all Fire Dragon Heroes	Vessel	Dispel Fear			2x	
+fire	Nusku, The Dragon Born	*****	15	Attacker	Dragon				Dragonborn III: 225% Damage and HP for all Fire Dragon Heroes	Vessel	Dispel Fear			3x	Dragon Breath: Greatly increase the drop rate of Fire gems until your next turn. Only usable once every 7 turns.
+fire	Nusku, The Dragon Born	******	30	Attacker	Dragon	5018	668	3345	Dragonborn IV: 300% Damage and HP for all Fire Dragon Heroes	Vessel	Dispel Fear			4x	Dragon Breath: Greatly increase the drop rate of Fire gems until your next turn. Only usable once every 7 turns.
 water	Frostvein Cultist	*	2	Mage	Corrupt	256	86	118	Water Might I: 110% Damage for all Water Heroes	Drain	Unknown				
 water	Frostvein Devout	**	4	Mage	Corrupt	431	143	190	Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor				
 water	Frostvein Enforcer	***	6	Mage	Corrupt	724	241	312	Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor				

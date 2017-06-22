@@ -9592,9 +9592,9 @@
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
             "name": "Human Blessing IV",
-            "description": "200% REC for all Human Heroes",
+            "description": "260% REC for all Human Heroes",
             "values": {
-                "recovery": 2
+                "recovery": 2.6
             },
             "target": "Human"
         },
@@ -9618,9 +9618,9 @@
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
             "name": "Human Blessing V",
-            "description": "225% REC for all Human Heroes",
+            "description": "280% REC for all Human Heroes",
             "values": {
-                "recovery": 2.25
+                "recovery": 2.8
             },
             "target": "Human"
         },
@@ -9655,6 +9655,246 @@
     },
     {
         "id": 386,
+        "name": "Anatu, Dragon Tamer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 1196,
+        "recovery": 160,
+        "health": 801,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dragonborn I",
+            "description": "175% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 387,
+        "name": "Anatu, Dragon Tamer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 1951,
+        "recovery": 261,
+        "health": 1306,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dragonborn II",
+            "description": "200% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 388,
+        "name": "Anatu, Dragon Tamer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dragonborn III",
+            "description": "225% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 389,
+        "name": "Anatu, Dragon Tamer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dragonborn IV",
+            "description": "300% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 390,
+        "name": "Nusku, The Dragon Born",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Dragonborn I",
+            "description": "175% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 391,
+        "name": "Nusku, The Dragon Born",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Dragonborn II",
+            "description": "200% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 392,
+        "name": "Nusku, The Dragon Born",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Dragonborn III",
+            "description": "225% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 393,
+        "name": "Nusku, The Dragon Born",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Dragon",
+        "attack": 5018,
+        "recovery": 668,
+        "health": 3345,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Dragonborn IV",
+            "description": "300% Damage and HP for all Fire Dragon Heroes",
+            "values": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveTo": ""
+    },
+    {
+        "id": 394,
         "name": "Frostvein Cultist",
         "affinity": "Water",
         "type": "Mage",
@@ -9678,7 +9918,7 @@
         "evolveTo": ""
     },
     {
-        "id": 387,
+        "id": 395,
         "name": "Frostvein Devout",
         "affinity": "Water",
         "type": "Mage",
@@ -9702,7 +9942,7 @@
         "evolveTo": ""
     },
     {
-        "id": 388,
+        "id": 396,
         "name": "Frostvein Enforcer",
         "affinity": "Water",
         "type": "Mage",
@@ -9726,7 +9966,7 @@
         "evolveTo": ""
     },
     {
-        "id": 389,
+        "id": 397,
         "name": "Sharhein Clansman",
         "affinity": "Water",
         "type": "Balanced",
@@ -9750,7 +9990,7 @@
         "evolveTo": ""
     },
     {
-        "id": 390,
+        "id": 398,
         "name": "Sharhein Raider",
         "affinity": "Water",
         "type": "Balanced",
@@ -9774,7 +10014,7 @@
         "evolveTo": ""
     },
     {
-        "id": 391,
+        "id": 399,
         "name": "Sharhein Recruit",
         "affinity": "Water",
         "type": "Attacker",
@@ -9798,7 +10038,7 @@
         "evolveTo": ""
     },
     {
-        "id": 392,
+        "id": 400,
         "name": "Sharhein Warrior",
         "affinity": "Water",
         "type": "Attacker",
@@ -9822,7 +10062,7 @@
         "evolveTo": ""
     },
     {
-        "id": 393,
+        "id": 401,
         "name": "Sharhein Taskmaster",
         "affinity": "Water",
         "type": "Attacker",
@@ -9846,7 +10086,7 @@
         "evolveTo": ""
     },
     {
-        "id": 394,
+        "id": 402,
         "name": "Sharhein Crusher",
         "affinity": "Water",
         "type": "Attacker",
@@ -9870,7 +10110,7 @@
         "evolveTo": ""
     },
     {
-        "id": 395,
+        "id": 403,
         "name": "Staj Harbor Brute",
         "affinity": "Water",
         "type": "Warrior",
@@ -9894,7 +10134,7 @@
         "evolveTo": ""
     },
     {
-        "id": 396,
+        "id": 404,
         "name": "Staj Harbor Heavy",
         "affinity": "Water",
         "type": "Warrior",
@@ -9918,7 +10158,7 @@
         "evolveTo": ""
     },
     {
-        "id": 397,
+        "id": 405,
         "name": "Steel Sea Nyad",
         "affinity": "Water",
         "type": "Defender",
@@ -9942,7 +10182,7 @@
         "evolveTo": ""
     },
     {
-        "id": 398,
+        "id": 406,
         "name": "Steel Sea Siren",
         "affinity": "Water",
         "type": "Defender",
@@ -9966,7 +10206,7 @@
         "evolveTo": ""
     },
     {
-        "id": 399,
+        "id": 407,
         "name": "Frostvein Mage",
         "affinity": "Water",
         "type": "Attacker",
@@ -9990,7 +10230,7 @@
         "evolveTo": ""
     },
     {
-        "id": 400,
+        "id": 408,
         "name": "Frostvein Elder",
         "affinity": "Water",
         "type": "Attacker",
@@ -10014,7 +10254,7 @@
         "evolveTo": ""
     },
     {
-        "id": 401,
+        "id": 409,
         "name": "Wavestrom Crab",
         "affinity": "Water",
         "type": "Guardian",
@@ -10038,7 +10278,7 @@
         "evolveTo": ""
     },
     {
-        "id": 402,
+        "id": 410,
         "name": "Wavestrom Orc",
         "affinity": "Water",
         "type": "Attacker",
@@ -10062,7 +10302,7 @@
         "evolveTo": ""
     },
     {
-        "id": 403,
+        "id": 411,
         "name": "Wavestrom Orc Elder",
         "affinity": "Water",
         "type": "Attacker",
@@ -10086,7 +10326,7 @@
         "evolveTo": ""
     },
     {
-        "id": 404,
+        "id": 412,
         "name": "Sharhein Serpent",
         "affinity": "Water",
         "type": "Warrior",
@@ -10110,7 +10350,7 @@
         "evolveTo": ""
     },
     {
-        "id": 405,
+        "id": 413,
         "name": "Sharhein Warbeast",
         "affinity": "Water",
         "type": "Warrior",
@@ -10134,7 +10374,7 @@
         "evolveTo": ""
     },
     {
-        "id": 406,
+        "id": 414,
         "name": "Sharhein Healer",
         "affinity": "Water",
         "type": "Healer",
@@ -10158,7 +10398,7 @@
         "evolveTo": ""
     },
     {
-        "id": 407,
+        "id": 415,
         "name": "Sharhein Cleric",
         "affinity": "Water",
         "type": "Healer",
@@ -10182,7 +10422,7 @@
         "evolveTo": ""
     },
     {
-        "id": 408,
+        "id": 416,
         "name": "Sharhein Monk",
         "affinity": "Water",
         "type": "Healer",
@@ -10206,7 +10446,7 @@
         "evolveTo": ""
     },
     {
-        "id": 409,
+        "id": 417,
         "name": "Wavestrom Cutthroat",
         "affinity": "Water",
         "type": "Balanced",
@@ -10230,7 +10470,7 @@
         "evolveTo": ""
     },
     {
-        "id": 410,
+        "id": 418,
         "name": "Wavestrom Assassin",
         "affinity": "Water",
         "type": "Balanced",
@@ -10254,7 +10494,7 @@
         "evolveTo": ""
     },
     {
-        "id": 411,
+        "id": 419,
         "name": "Urther Damned",
         "affinity": "Water",
         "type": "Guardian",
@@ -10278,7 +10518,7 @@
         "evolveTo": ""
     },
     {
-        "id": 412,
+        "id": 420,
         "name": "Urther Accursed",
         "affinity": "Water",
         "type": "Guardian",
@@ -10302,7 +10542,7 @@
         "evolveTo": ""
     },
     {
-        "id": 413,
+        "id": 421,
         "name": "Urther Dragonling",
         "affinity": "Water",
         "type": "Warrior",
@@ -10326,7 +10566,7 @@
         "evolveTo": ""
     },
     {
-        "id": 414,
+        "id": 422,
         "name": "Urther Dragon",
         "affinity": "Water",
         "type": "Warrior",
@@ -10350,7 +10590,7 @@
         "evolveTo": ""
     },
     {
-        "id": 415,
+        "id": 423,
         "name": "Tarken",
         "affinity": "Water",
         "type": "Warrior",
@@ -10374,7 +10614,7 @@
         "evolveTo": ""
     },
     {
-        "id": 416,
+        "id": 424,
         "name": "Tarken, the Frozen",
         "affinity": "Water",
         "type": "Warrior",
@@ -10398,7 +10638,7 @@
         "evolveTo": ""
     },
     {
-        "id": 417,
+        "id": 425,
         "name": "Steel Sea Vagrant",
         "affinity": "Water",
         "type": "Mage",
@@ -10422,7 +10662,7 @@
         "evolveTo": ""
     },
     {
-        "id": 418,
+        "id": 426,
         "name": "Steel Sea Vagabond",
         "affinity": "Water",
         "type": "Mage",
@@ -10446,7 +10686,7 @@
         "evolveTo": ""
     },
     {
-        "id": 419,
+        "id": 427,
         "name": "Urther Terror",
         "affinity": "Water",
         "type": "Defender",
@@ -10470,7 +10710,7 @@
         "evolveTo": ""
     },
     {
-        "id": 420,
+        "id": 428,
         "name": "Urther Nightmare",
         "affinity": "Water",
         "type": "Defender",
@@ -10494,7 +10734,7 @@
         "evolveTo": ""
     },
     {
-        "id": 421,
+        "id": 429,
         "name": "Redeemer's Acolyte",
         "affinity": "Water",
         "type": "Healer",
@@ -10518,7 +10758,7 @@
         "evolveTo": ""
     },
     {
-        "id": 422,
+        "id": 430,
         "name": "Scylla The Temptress",
         "affinity": "Water",
         "type": "Attacker",
@@ -10544,7 +10784,7 @@
         "evolveTo": ""
     },
     {
-        "id": 423,
+        "id": 431,
         "name": "Scylla, The Huntress",
         "affinity": "Water",
         "type": "Attacker",
@@ -10570,7 +10810,7 @@
         "evolveTo": ""
     },
     {
-        "id": 424,
+        "id": 432,
         "name": "Drosh, the Scoundrel",
         "affinity": "Water",
         "type": "Attacker",
@@ -10594,7 +10834,7 @@
         "evolveTo": ""
     },
     {
-        "id": 425,
+        "id": 433,
         "name": "Drosh, the Stormchaser",
         "affinity": "Water",
         "type": "Attacker",
@@ -10618,7 +10858,7 @@
         "evolveTo": ""
     },
     {
-        "id": 426,
+        "id": 434,
         "name": "Drosh Wavestrom",
         "affinity": "Water",
         "type": "Attacker",
@@ -10642,7 +10882,7 @@
         "evolveTo": ""
     },
     {
-        "id": 427,
+        "id": 435,
         "name": "Wavestrom Clops",
         "affinity": "Water",
         "type": "Guardian",
@@ -10666,7 +10906,7 @@
         "evolveTo": ""
     },
     {
-        "id": 428,
+        "id": 436,
         "name": "Wavestrom Biclops",
         "affinity": "Water",
         "type": "Guardian",
@@ -10690,7 +10930,7 @@
         "evolveTo": ""
     },
     {
-        "id": 429,
+        "id": 437,
         "name": "Braknark Bonegrinder",
         "affinity": "Water",
         "type": "Guardian",
@@ -10714,7 +10954,7 @@
         "evolveTo": ""
     },
     {
-        "id": 430,
+        "id": 438,
         "name": "Steel Sea Witch",
         "affinity": "Water",
         "type": "Mage",
@@ -10738,7 +10978,7 @@
         "evolveTo": ""
     },
     {
-        "id": 431,
+        "id": 439,
         "name": "Steel Sea Seductress",
         "affinity": "Water",
         "type": "Mage",
@@ -10762,7 +11002,7 @@
         "evolveTo": ""
     },
     {
-        "id": 432,
+        "id": 440,
         "name": "Sheriah, Tide Bringer",
         "affinity": "Water",
         "type": "Mage",
@@ -10786,7 +11026,7 @@
         "evolveTo": ""
     },
     {
-        "id": 433,
+        "id": 441,
         "name": "Baird, The Seeker",
         "affinity": "Water",
         "type": "Healer",
@@ -10810,7 +11050,7 @@
         "evolveTo": ""
     },
     {
-        "id": 434,
+        "id": 442,
         "name": "Baird, The Wizened",
         "affinity": "Water",
         "type": "Healer",
@@ -10834,7 +11074,7 @@
         "evolveTo": ""
     },
     {
-        "id": 435,
+        "id": 443,
         "name": "Baird, The Still One",
         "affinity": "Water",
         "type": "Healer",
@@ -10858,7 +11098,7 @@
         "evolveTo": ""
     },
     {
-        "id": 436,
+        "id": 444,
         "name": "Despair Spirit",
         "affinity": "Water",
         "type": "Balanced",
@@ -10882,7 +11122,7 @@
         "evolveTo": ""
     },
     {
-        "id": 437,
+        "id": 445,
         "name": "Despair Ifrit",
         "affinity": "Water",
         "type": "Balanced",
@@ -10906,7 +11146,7 @@
         "evolveTo": ""
     },
     {
-        "id": 438,
+        "id": 446,
         "name": "Avatar of Despair",
         "affinity": "Water",
         "type": "Balanced",
@@ -10930,7 +11170,7 @@
         "evolveTo": ""
     },
     {
-        "id": 439,
+        "id": 447,
         "name": "Keta, The Pirate",
         "affinity": "Water",
         "type": "Balanced",
@@ -10958,7 +11198,7 @@
         "evolveTo": ""
     },
     {
-        "id": 440,
+        "id": 448,
         "name": "Keta, The Bold",
         "affinity": "Water",
         "type": "Balanced",
@@ -10986,7 +11226,7 @@
         "evolveTo": ""
     },
     {
-        "id": 441,
+        "id": 449,
         "name": "Keta, The Schemer",
         "affinity": "Water",
         "type": "Balanced",
@@ -11014,7 +11254,7 @@
         "evolveTo": ""
     },
     {
-        "id": 442,
+        "id": 450,
         "name": "Keta, The Wily",
         "affinity": "Water",
         "type": "Balanced",
@@ -11042,7 +11282,7 @@
         "evolveTo": ""
     },
     {
-        "id": 443,
+        "id": 451,
         "name": "Keta Frostbow",
         "affinity": "Water",
         "type": "Balanced",
@@ -11070,7 +11310,7 @@
         "evolveTo": ""
     },
     {
-        "id": 444,
+        "id": 452,
         "name": "Aequorus, Hatchling",
         "affinity": "Water",
         "type": "Mage",
@@ -11094,7 +11334,7 @@
         "evolveTo": ""
     },
     {
-        "id": 445,
+        "id": 453,
         "name": "Aequorus, Extinguisher",
         "affinity": "Water",
         "type": "Mage",
@@ -11118,7 +11358,7 @@
         "evolveTo": ""
     },
     {
-        "id": 446,
+        "id": 454,
         "name": "Empyrean Aequorus",
         "affinity": "Water",
         "type": "Mage",
@@ -11142,7 +11382,7 @@
         "evolveTo": ""
     },
     {
-        "id": 447,
+        "id": 455,
         "name": "Dreaming Cthulhu",
         "affinity": "Water",
         "type": "Balanced",
@@ -11166,7 +11406,7 @@
         "evolveTo": ""
     },
     {
-        "id": 448,
+        "id": 456,
         "name": "Cthulhu, High Priest",
         "affinity": "Water",
         "type": "Balanced",
@@ -11190,7 +11430,7 @@
         "evolveTo": ""
     },
     {
-        "id": 449,
+        "id": 457,
         "name": "Cthulhu Resurrected",
         "affinity": "Water",
         "type": "Balanced",
@@ -11214,7 +11454,7 @@
         "evolveTo": ""
     },
     {
-        "id": 450,
+        "id": 458,
         "name": "Brom The Cursed",
         "affinity": "Water",
         "type": "Mage",
@@ -11240,7 +11480,7 @@
         "evolveTo": ""
     },
     {
-        "id": 451,
+        "id": 459,
         "name": "Brom The Reanimated",
         "affinity": "Water",
         "type": "Mage",
@@ -11266,7 +11506,7 @@
         "evolveTo": ""
     },
     {
-        "id": 452,
+        "id": 460,
         "name": "The Headless Horseman",
         "affinity": "Water",
         "type": "Mage",
@@ -11292,7 +11532,7 @@
         "evolveTo": ""
     },
     {
-        "id": 453,
+        "id": 461,
         "name": "Harvest King",
         "affinity": "Water",
         "type": "Balanced",
@@ -11316,7 +11556,7 @@
         "evolveTo": ""
     },
     {
-        "id": 454,
+        "id": 462,
         "name": "Harvester Of Spirits",
         "affinity": "Water",
         "type": "Balanced",
@@ -11340,7 +11580,7 @@
         "evolveTo": ""
     },
     {
-        "id": 455,
+        "id": 463,
         "name": "Harvester Of Souls",
         "affinity": "Water",
         "type": "Balanced",
@@ -11364,7 +11604,7 @@
         "evolveTo": ""
     },
     {
-        "id": 456,
+        "id": 464,
         "name": "Defiant Joan",
         "affinity": "Water",
         "type": "Balanced",
@@ -11390,7 +11630,7 @@
         "evolveTo": ""
     },
     {
-        "id": 457,
+        "id": 465,
         "name": "Joan, Visionary",
         "affinity": "Water",
         "type": "Balanced",
@@ -11416,7 +11656,7 @@
         "evolveTo": ""
     },
     {
-        "id": 458,
+        "id": 466,
         "name": "Joan Of Arc",
         "affinity": "Water",
         "type": "Balanced",
@@ -11442,7 +11682,7 @@
         "evolveTo": ""
     },
     {
-        "id": 459,
+        "id": 467,
         "name": "Commander Dreav",
         "affinity": "Water",
         "type": "Warrior",
@@ -11466,7 +11706,7 @@
         "evolveTo": ""
     },
     {
-        "id": 460,
+        "id": 468,
         "name": "General Dreav",
         "affinity": "Water",
         "type": "Warrior",
@@ -11490,7 +11730,7 @@
         "evolveTo": ""
     },
     {
-        "id": 461,
+        "id": 469,
         "name": "Lord Dreav",
         "affinity": "Water",
         "type": "Warrior",
@@ -11514,7 +11754,7 @@
         "evolveTo": ""
     },
     {
-        "id": 462,
+        "id": 470,
         "name": "Brackish Monster",
         "affinity": "Water",
         "type": "Warrior",
@@ -11538,7 +11778,7 @@
         "evolveTo": ""
     },
     {
-        "id": 463,
+        "id": 471,
         "name": "Infernal Crustacean",
         "affinity": "Water",
         "type": "Warrior",
@@ -11562,7 +11802,7 @@
         "evolveTo": ""
     },
     {
-        "id": 464,
+        "id": 472,
         "name": "Cankiri, The Pestilent",
         "affinity": "Water",
         "type": "Warrior",
@@ -11586,7 +11826,7 @@
         "evolveTo": ""
     },
     {
-        "id": 465,
+        "id": 473,
         "name": "Gretchen, Innocent Child",
         "affinity": "Water",
         "type": "Attacker",
@@ -11612,7 +11852,7 @@
         "evolveTo": ""
     },
     {
-        "id": 466,
+        "id": 474,
         "name": "Gretchen, The Ruined",
         "affinity": "Water",
         "type": "Attacker",
@@ -11636,7 +11876,7 @@
         "evolveTo": ""
     },
     {
-        "id": 467,
+        "id": 475,
         "name": "Gretchen, Heaven-Saved",
         "affinity": "Water",
         "type": "Attacker",
@@ -11660,7 +11900,7 @@
         "evolveTo": ""
     },
     {
-        "id": 468,
+        "id": 476,
         "name": "Sapphire Giant",
         "affinity": "Water",
         "type": "Warrior",
@@ -11684,7 +11924,7 @@
         "evolveTo": ""
     },
     {
-        "id": 469,
+        "id": 477,
         "name": "Sapphire Titan",
         "affinity": "Water",
         "type": "Warrior",
@@ -11708,7 +11948,7 @@
         "evolveTo": ""
     },
     {
-        "id": 470,
+        "id": 478,
         "name": "Tzara, Divine Titan",
         "affinity": "Water",
         "type": "Warrior",
@@ -11732,7 +11972,7 @@
         "evolveTo": ""
     },
     {
-        "id": 471,
+        "id": 479,
         "name": "Sword of Piercing",
         "affinity": "Water",
         "type": "Attacker",
@@ -11756,7 +11996,7 @@
         "evolveTo": ""
     },
     {
-        "id": 472,
+        "id": 480,
         "name": "Eversharp",
         "affinity": "Water",
         "type": "Attacker",
@@ -11780,7 +12020,7 @@
         "evolveTo": ""
     },
     {
-        "id": 473,
+        "id": 481,
         "name": "The Vorpal Blade",
         "affinity": "Water",
         "type": "Attacker",
@@ -11804,7 +12044,7 @@
         "evolveTo": ""
     },
     {
-        "id": 474,
+        "id": 482,
         "name": "Gluttonous Sheriff",
         "affinity": "Water",
         "type": "Defender",
@@ -11828,7 +12068,7 @@
         "evolveTo": ""
     },
     {
-        "id": 475,
+        "id": 483,
         "name": "Lecherous Sheriff",
         "affinity": "Water",
         "type": "Defender",
@@ -11852,7 +12092,7 @@
         "evolveTo": ""
     },
     {
-        "id": 476,
+        "id": 484,
         "name": "Sheriff of Nottingham",
         "affinity": "Water",
         "type": "Defender",
@@ -11876,7 +12116,7 @@
         "evolveTo": ""
     },
     {
-        "id": 477,
+        "id": 485,
         "name": "The Beast",
         "affinity": "Water",
         "type": "Defender",
@@ -11900,7 +12140,7 @@
         "evolveTo": ""
     },
     {
-        "id": 478,
+        "id": 486,
         "name": "The Beast",
         "affinity": "Water",
         "type": "Defender",
@@ -11924,7 +12164,7 @@
         "evolveTo": ""
     },
     {
-        "id": 479,
+        "id": 487,
         "name": "The Beast",
         "affinity": "Water",
         "type": "Defender",
@@ -11948,7 +12188,7 @@
         "evolveTo": ""
     },
     {
-        "id": 480,
+        "id": 488,
         "name": "Aphrodite, Life Bringer",
         "affinity": "Water",
         "type": "Attacker",
@@ -11978,7 +12218,7 @@
         "evolveTo": ""
     },
     {
-        "id": 481,
+        "id": 489,
         "name": "Aphrodite, Life Bringer",
         "affinity": "Water",
         "type": "Attacker",
@@ -12008,7 +12248,7 @@
         "evolveTo": ""
     },
     {
-        "id": 482,
+        "id": 490,
         "name": "Aphrodite, Life Bringer",
         "affinity": "Water",
         "type": "Attacker",
@@ -12038,7 +12278,7 @@
         "evolveTo": ""
     },
     {
-        "id": 483,
+        "id": 491,
         "name": "Aphrodite, Life Bringer",
         "affinity": "Water",
         "type": "Attacker",
@@ -12068,7 +12308,7 @@
         "evolveTo": ""
     },
     {
-        "id": 484,
+        "id": 492,
         "name": "Kronos, God Of Time",
         "affinity": "Water",
         "type": "Defender",
@@ -12092,7 +12332,7 @@
         "evolveTo": ""
     },
     {
-        "id": 485,
+        "id": 493,
         "name": "Kronos, God Of Time",
         "affinity": "Water",
         "type": "Defender",
@@ -12116,7 +12356,7 @@
         "evolveTo": ""
     },
     {
-        "id": 486,
+        "id": 494,
         "name": "Kronos, God Of Time",
         "affinity": "Water",
         "type": "Defender",
@@ -12140,7 +12380,7 @@
         "evolveTo": ""
     },
     {
-        "id": 487,
+        "id": 495,
         "name": "Hermes",
         "affinity": "Water",
         "type": "Balanced",
@@ -12170,7 +12410,7 @@
         "evolveTo": ""
     },
     {
-        "id": 488,
+        "id": 496,
         "name": "Hermes",
         "affinity": "Water",
         "type": "Balanced",
@@ -12200,7 +12440,7 @@
         "evolveTo": ""
     },
     {
-        "id": 489,
+        "id": 497,
         "name": "Hermes",
         "affinity": "Water",
         "type": "Balanced",
@@ -12230,7 +12470,7 @@
         "evolveTo": ""
     },
     {
-        "id": 490,
+        "id": 498,
         "name": "Hermes",
         "affinity": "Water",
         "type": "Balanced",
@@ -12260,7 +12500,7 @@
         "evolveTo": ""
     },
     {
-        "id": 491,
+        "id": 499,
         "name": "Youko, Elerium Commander",
         "affinity": "Water",
         "type": "Attacker",
@@ -12287,7 +12527,7 @@
         "evolveTo": ""
     },
     {
-        "id": 492,
+        "id": 500,
         "name": "Youko, Elerium Commander",
         "affinity": "Water",
         "type": "Attacker",
@@ -12314,7 +12554,7 @@
         "evolveTo": ""
     },
     {
-        "id": 493,
+        "id": 501,
         "name": "Youko, Elerium Commander",
         "affinity": "Water",
         "type": "Attacker",
@@ -12341,7 +12581,7 @@
         "evolveTo": ""
     },
     {
-        "id": 494,
+        "id": 502,
         "name": "Youko, Elerium Commander",
         "affinity": "Water",
         "type": "Attacker",
@@ -12368,7 +12608,7 @@
         "evolveTo": ""
     },
     {
-        "id": 495,
+        "id": 503,
         "name": "Ken, Elerium Commando",
         "affinity": "Water",
         "type": "Balanced",
@@ -12399,7 +12639,7 @@
         "evolveTo": ""
     },
     {
-        "id": 496,
+        "id": 504,
         "name": "Ken, Elerium Commando",
         "affinity": "Water",
         "type": "Balanced",
@@ -12430,7 +12670,7 @@
         "evolveTo": ""
     },
     {
-        "id": 497,
+        "id": 505,
         "name": "Ken, Elerium Commando",
         "affinity": "Water",
         "type": "Balanced",
@@ -12461,7 +12701,7 @@
         "evolveTo": ""
     },
     {
-        "id": 498,
+        "id": 506,
         "name": "Ken, Elerium Commando",
         "affinity": "Water",
         "type": "Balanced",
@@ -12492,7 +12732,7 @@
         "evolveTo": ""
     },
     {
-        "id": 499,
+        "id": 507,
         "name": "Takumi, Elerium Warrior",
         "affinity": "Water",
         "type": "Attacker",
@@ -12523,7 +12763,7 @@
         "evolveTo": ""
     },
     {
-        "id": 500,
+        "id": 508,
         "name": "Takumi, Elerium Warrior",
         "affinity": "Water",
         "type": "Attacker",
@@ -12554,7 +12794,7 @@
         "evolveTo": ""
     },
     {
-        "id": 501,
+        "id": 509,
         "name": "Takumi, Elerium Warrior",
         "affinity": "Water",
         "type": "Attacker",
@@ -12585,7 +12825,7 @@
         "evolveTo": ""
     },
     {
-        "id": 502,
+        "id": 510,
         "name": "Takumi, Elerium Warrior",
         "affinity": "Water",
         "type": "Attacker",
@@ -12616,7 +12856,7 @@
         "evolveTo": ""
     },
     {
-        "id": 503,
+        "id": 511,
         "name": "Dark Mirror Alice",
         "affinity": "Water",
         "type": "Attacker",
@@ -12642,7 +12882,7 @@
         "evolveTo": ""
     },
     {
-        "id": 504,
+        "id": 512,
         "name": "Vision Swept Alice",
         "affinity": "Water",
         "type": "Attacker",
@@ -12668,7 +12908,7 @@
         "evolveTo": ""
     },
     {
-        "id": 505,
+        "id": 513,
         "name": "Yoran Nomad",
         "affinity": "Earth",
         "type": "Balanced",
@@ -12692,7 +12932,7 @@
         "evolveTo": ""
     },
     {
-        "id": 506,
+        "id": 514,
         "name": "Yoran Rogue",
         "affinity": "Earth",
         "type": "Balanced",
@@ -12716,7 +12956,7 @@
         "evolveTo": ""
     },
     {
-        "id": 507,
+        "id": 515,
         "name": "Deepmoss Initiate",
         "affinity": "Earth",
         "type": "Healer",
@@ -12740,7 +12980,7 @@
         "evolveTo": ""
     },
     {
-        "id": 508,
+        "id": 516,
         "name": "Deepmoss Druid",
         "affinity": "Earth",
         "type": "Healer",
@@ -12764,7 +13004,7 @@
         "evolveTo": ""
     },
     {
-        "id": 509,
+        "id": 517,
         "name": "Deepmoss Master Druid",
         "affinity": "Earth",
         "type": "Healer",
@@ -12788,7 +13028,7 @@
         "evolveTo": ""
     },
     {
-        "id": 510,
+        "id": 518,
         "name": "Deepmoss Runaway",
         "affinity": "Earth",
         "type": "Mage",
@@ -12812,7 +13052,7 @@
         "evolveTo": ""
     },
     {
-        "id": 511,
+        "id": 519,
         "name": "Deepmoss Orphan",
         "affinity": "Earth",
         "type": "Mage",
@@ -12836,7 +13076,7 @@
         "evolveTo": ""
     },
     {
-        "id": 512,
+        "id": 520,
         "name": "Deepmoss Disciple",
         "affinity": "Earth",
         "type": "Mage",
@@ -12860,7 +13100,7 @@
         "evolveTo": ""
     },
     {
-        "id": 513,
+        "id": 521,
         "name": "Ilodran Grizzly",
         "affinity": "Earth",
         "type": "Defender",
@@ -12884,7 +13124,7 @@
         "evolveTo": ""
     },
     {
-        "id": 514,
+        "id": 522,
         "name": "Ilodran Grizzly Battler",
         "affinity": "Earth",
         "type": "Defender",
@@ -12908,7 +13148,7 @@
         "evolveTo": ""
     },
     {
-        "id": 515,
+        "id": 523,
         "name": "Swampheart",
         "affinity": "Earth",
         "type": "Guardian",
@@ -12932,7 +13172,7 @@
         "evolveTo": ""
     },
     {
-        "id": 516,
+        "id": 524,
         "name": "Ancient Swampheart",
         "affinity": "Earth",
         "type": "Guardian",
@@ -12956,7 +13196,7 @@
         "evolveTo": ""
     },
     {
-        "id": 517,
+        "id": 525,
         "name": "Earthbound Protector",
         "affinity": "Earth",
         "type": "Defender",
@@ -12980,7 +13220,7 @@
         "evolveTo": ""
     },
     {
-        "id": 518,
+        "id": 526,
         "name": "Earthbound Ancient",
         "affinity": "Earth",
         "type": "Defender",
@@ -13004,7 +13244,7 @@
         "evolveTo": ""
     },
     {
-        "id": 519,
+        "id": 527,
         "name": "Deepmoss Dryad",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13028,7 +13268,7 @@
         "evolveTo": ""
     },
     {
-        "id": 520,
+        "id": 528,
         "name": "Deepmoss Songstress",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13052,7 +13292,7 @@
         "evolveTo": ""
     },
     {
-        "id": 521,
+        "id": 529,
         "name": "Wren Bogs Spawnling",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13076,7 +13316,7 @@
         "evolveTo": ""
     },
     {
-        "id": 522,
+        "id": 530,
         "name": "Wren Bogs Basilisk",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13100,7 +13340,7 @@
         "evolveTo": ""
     },
     {
-        "id": 523,
+        "id": 531,
         "name": "Wren Bogs Orc",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13124,7 +13364,7 @@
         "evolveTo": ""
     },
     {
-        "id": 524,
+        "id": 532,
         "name": "Wren Bogs Chieftan",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13148,7 +13388,7 @@
         "evolveTo": ""
     },
     {
-        "id": 525,
+        "id": 533,
         "name": "Ilodran Archer",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13172,7 +13412,7 @@
         "evolveTo": ""
     },
     {
-        "id": 526,
+        "id": 534,
         "name": "Ilodran Marksman",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13196,7 +13436,7 @@
         "evolveTo": ""
     },
     {
-        "id": 527,
+        "id": 535,
         "name": "Ilodran Sniper",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13220,7 +13460,7 @@
         "evolveTo": ""
     },
     {
-        "id": 528,
+        "id": 536,
         "name": "Ilodran Deadeye",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13244,7 +13484,7 @@
         "evolveTo": ""
     },
     {
-        "id": 529,
+        "id": 537,
         "name": "Stonesister",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13268,7 +13508,7 @@
         "evolveTo": ""
     },
     {
-        "id": 530,
+        "id": 538,
         "name": "Stonesister Elite",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13292,7 +13532,7 @@
         "evolveTo": ""
     },
     {
-        "id": 531,
+        "id": 539,
         "name": "Yoran Pests",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13316,7 +13556,7 @@
         "evolveTo": ""
     },
     {
-        "id": 532,
+        "id": 540,
         "name": "Yoran Swarmers",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13340,7 +13580,7 @@
         "evolveTo": ""
     },
     {
-        "id": 533,
+        "id": 541,
         "name": "Yoran Hydraling",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13364,7 +13604,7 @@
         "evolveTo": ""
     },
     {
-        "id": 534,
+        "id": 542,
         "name": "Yoran Hydra",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13388,7 +13628,7 @@
         "evolveTo": ""
     },
     {
-        "id": 535,
+        "id": 543,
         "name": "Quetzl",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13412,7 +13652,7 @@
         "evolveTo": ""
     },
     {
-        "id": 536,
+        "id": 544,
         "name": "Quetzl the Vicious",
         "affinity": "Earth",
         "type": "Warrior",
@@ -13436,7 +13676,7 @@
         "evolveTo": ""
     },
     {
-        "id": 537,
+        "id": 545,
         "name": "Yoran Shaman",
         "affinity": "Earth",
         "type": "Mage",
@@ -13460,7 +13700,7 @@
         "evolveTo": ""
     },
     {
-        "id": 538,
+        "id": 546,
         "name": "Yoran Shaman Elder",
         "affinity": "Earth",
         "type": "Mage",
@@ -13484,7 +13724,7 @@
         "evolveTo": ""
     },
     {
-        "id": 539,
+        "id": 547,
         "name": "Deepmoss Jaguar",
         "affinity": "Earth",
         "type": "Guardian",
@@ -13508,7 +13748,7 @@
         "evolveTo": ""
     },
     {
-        "id": 540,
+        "id": 548,
         "name": "Psadrian Healer",
         "affinity": "Earth",
         "type": "Healer",
@@ -13532,7 +13772,7 @@
         "evolveTo": ""
     },
     {
-        "id": 541,
+        "id": 549,
         "name": "Battle Wolf Odin",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13556,7 +13796,7 @@
         "evolveTo": ""
     },
     {
-        "id": 542,
+        "id": 550,
         "name": "All-Father Odin",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13580,7 +13820,7 @@
         "evolveTo": ""
     },
     {
-        "id": 543,
+        "id": 551,
         "name": "Minera, the Touched",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13604,7 +13844,7 @@
         "evolveTo": ""
     },
     {
-        "id": 544,
+        "id": 552,
         "name": "Minera, the Chosen",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13628,7 +13868,7 @@
         "evolveTo": ""
     },
     {
-        "id": 545,
+        "id": 553,
         "name": "Prophet Minera",
         "affinity": "Earth",
         "type": "Attacker",
@@ -13652,7 +13892,7 @@
         "evolveTo": ""
     },
     {
-        "id": 546,
+        "id": 554,
         "name": "Wren Bogs Trog",
         "affinity": "Earth",
         "type": "Guardian",
@@ -13676,7 +13916,7 @@
         "evolveTo": ""
     },
     {
-        "id": 547,
+        "id": 555,
         "name": "Wren Bogs Troll",
         "affinity": "Earth",
         "type": "Guardian",
@@ -13700,7 +13940,7 @@
         "evolveTo": ""
     },
     {
-        "id": 548,
+        "id": 556,
         "name": "King Treehorn",
         "affinity": "Earth",
         "type": "Guardian",
@@ -13724,7 +13964,7 @@
         "evolveTo": ""
     },
     {
-        "id": 549,
+        "id": 557,
         "name": "Dawnroot Acolyte",
         "affinity": "Earth",
         "type": "Mage",
@@ -13748,7 +13988,7 @@
         "evolveTo": ""
     },
     {
-        "id": 550,
+        "id": 558,
         "name": "Dawnroot Wanderer",
         "affinity": "Earth",
         "type": "Mage",
@@ -13772,7 +14012,7 @@
         "evolveTo": ""
     },
     {
-        "id": 551,
+        "id": 559,
         "name": "The Dagda",
         "affinity": "Earth",
         "type": "Mage",
@@ -13796,7 +14036,7 @@
         "evolveTo": ""
     },
     {
-        "id": 552,
+        "id": 560,
         "name": "Disgust Spirit",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13820,7 +14060,7 @@
         "evolveTo": ""
     },
     {
-        "id": 553,
+        "id": 561,
         "name": "Disgust Ifrit",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13844,7 +14084,7 @@
         "evolveTo": ""
     },
     {
-        "id": 554,
+        "id": 562,
         "name": "Avatar of Disgust",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13868,7 +14108,7 @@
         "evolveTo": ""
     },
     {
-        "id": 555,
+        "id": 563,
         "name": "Happy Atcha",
         "affinity": "Earth",
         "type": "Healer",
@@ -13892,7 +14132,7 @@
         "evolveTo": ""
     },
     {
-        "id": 556,
+        "id": 564,
         "name": "Atcha, The Content",
         "affinity": "Earth",
         "type": "Healer",
@@ -13916,7 +14156,7 @@
         "evolveTo": ""
     },
     {
-        "id": 557,
+        "id": 565,
         "name": "Atcha, The Joyous",
         "affinity": "Earth",
         "type": "Healer",
@@ -13940,7 +14180,7 @@
         "evolveTo": ""
     },
     {
-        "id": 558,
+        "id": 566,
         "name": "Dogen, The Mercenary",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13968,7 +14208,7 @@
         "evolveTo": ""
     },
     {
-        "id": 559,
+        "id": 567,
         "name": "Dogen, The Devoted",
         "affinity": "Earth",
         "type": "Balanced",
@@ -13996,7 +14236,7 @@
         "evolveTo": ""
     },
     {
-        "id": 560,
+        "id": 568,
         "name": "Dogen, The Hammer",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14024,7 +14264,7 @@
         "evolveTo": ""
     },
     {
-        "id": 561,
+        "id": 569,
         "name": "Dogen, The Spurned",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14052,7 +14292,7 @@
         "evolveTo": ""
     },
     {
-        "id": 562,
+        "id": 570,
         "name": "Dogen, Unleashed",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14080,7 +14320,7 @@
         "evolveTo": ""
     },
     {
-        "id": 563,
+        "id": 571,
         "name": "R'lyeh, Brood Lord",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14104,7 +14344,7 @@
         "evolveTo": ""
     },
     {
-        "id": 564,
+        "id": 572,
         "name": "R'lyeh, The Beholder",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14128,7 +14368,7 @@
         "evolveTo": ""
     },
     {
-        "id": 565,
+        "id": 573,
         "name": "R'lyeh, Puppet Master",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14152,7 +14392,7 @@
         "evolveTo": ""
     },
     {
-        "id": 566,
+        "id": 574,
         "name": "Tyrfing, Cursed Blade",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14176,7 +14416,7 @@
         "evolveTo": ""
     },
     {
-        "id": 567,
+        "id": 575,
         "name": "Tyrfing Of Soil & Flame",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14200,7 +14440,7 @@
         "evolveTo": ""
     },
     {
-        "id": 568,
+        "id": 576,
         "name": "Tyrfing, God Eater",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14224,7 +14464,7 @@
         "evolveTo": ""
     },
     {
-        "id": 569,
+        "id": 577,
         "name": "Emerald Giant",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14248,7 +14488,7 @@
         "evolveTo": ""
     },
     {
-        "id": 570,
+        "id": 578,
         "name": "Emerald Titan",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14272,7 +14512,7 @@
         "evolveTo": ""
     },
     {
-        "id": 571,
+        "id": 579,
         "name": "Emetria, Divine Titan",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14296,7 +14536,7 @@
         "evolveTo": ""
     },
     {
-        "id": 572,
+        "id": 580,
         "name": "Rhinarc",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14320,7 +14560,7 @@
         "evolveTo": ""
     },
     {
-        "id": 573,
+        "id": 581,
         "name": "Rhinarc Alpha",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14344,7 +14584,7 @@
         "evolveTo": ""
     },
     {
-        "id": 574,
+        "id": 582,
         "name": "Rhohores, Poison Hoof",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14368,7 +14608,7 @@
         "evolveTo": ""
     },
     {
-        "id": 575,
+        "id": 583,
         "name": "Gourdicous, The Sproutling",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14392,7 +14632,7 @@
         "evolveTo": ""
     },
     {
-        "id": 576,
+        "id": 584,
         "name": "Gourdicous, The Hungry",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14416,7 +14656,7 @@
         "evolveTo": ""
     },
     {
-        "id": 577,
+        "id": 585,
         "name": "Gourdicous, Revenge Demon",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14440,7 +14680,7 @@
         "evolveTo": ""
     },
     {
-        "id": 578,
+        "id": 586,
         "name": "Mordred, Bastard Son",
         "affinity": "Earth",
         "type": "Defender",
@@ -14467,7 +14707,7 @@
         "evolveTo": ""
     },
     {
-        "id": 579,
+        "id": 587,
         "name": "Mordred, The Mutinous",
         "affinity": "Earth",
         "type": "Defender",
@@ -14494,7 +14734,7 @@
         "evolveTo": ""
     },
     {
-        "id": 580,
+        "id": 588,
         "name": "Mordred, Traitor King",
         "affinity": "Earth",
         "type": "Defender",
@@ -14521,7 +14761,7 @@
         "evolveTo": ""
     },
     {
-        "id": 581,
+        "id": 589,
         "name": "Gwyn, Outcast Rogue",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14547,7 +14787,7 @@
         "evolveTo": ""
     },
     {
-        "id": 582,
+        "id": 590,
         "name": "Gwyn, The Rebellious",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14573,7 +14813,7 @@
         "evolveTo": ""
     },
     {
-        "id": 583,
+        "id": 591,
         "name": "Gwyn, Rogue Queen",
         "affinity": "Earth",
         "type": "Warrior",
@@ -14599,7 +14839,7 @@
         "evolveTo": ""
     },
     {
-        "id": 584,
+        "id": 592,
         "name": "Aggravated Spirit",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14623,7 +14863,7 @@
         "evolveTo": ""
     },
     {
-        "id": 585,
+        "id": 593,
         "name": "Disgruntled Spirit",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14647,7 +14887,7 @@
         "evolveTo": ""
     },
     {
-        "id": 586,
+        "id": 594,
         "name": "Spirit of Krismas Past",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14671,7 +14911,7 @@
         "evolveTo": ""
     },
     {
-        "id": 587,
+        "id": 595,
         "name": "Djema, Bringer Of Seed",
         "affinity": "Earth",
         "type": "Mage",
@@ -14697,7 +14937,7 @@
         "evolveTo": ""
     },
     {
-        "id": 588,
+        "id": 596,
         "name": "Djema, The Perceptive",
         "affinity": "Earth",
         "type": "Mage",
@@ -14723,7 +14963,7 @@
         "evolveTo": ""
     },
     {
-        "id": 589,
+        "id": 597,
         "name": "Empyrean Djema",
         "affinity": "Earth",
         "type": "Mage",
@@ -14749,7 +14989,7 @@
         "evolveTo": ""
     },
     {
-        "id": 590,
+        "id": 598,
         "name": "Wu Kong, Stone Born",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14776,7 +15016,7 @@
         "evolveTo": ""
     },
     {
-        "id": 591,
+        "id": 599,
         "name": "Wu Kong, Cloud Walker",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14803,7 +15043,7 @@
         "evolveTo": ""
     },
     {
-        "id": 592,
+        "id": 600,
         "name": "Wu Kong, Monkey King",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14827,7 +15067,7 @@
         "evolveTo": ""
     },
     {
-        "id": 593,
+        "id": 601,
         "name": "Squire Dorin",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14851,7 +15091,7 @@
         "evolveTo": ""
     },
     {
-        "id": 594,
+        "id": 602,
         "name": "Chevalier Dorin",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14877,7 +15117,7 @@
         "evolveTo": ""
     },
     {
-        "id": 595,
+        "id": 603,
         "name": "Sir Dorin of Brin",
         "affinity": "Earth",
         "type": "Balanced",
@@ -14903,7 +15143,7 @@
         "evolveTo": ""
     },
     {
-        "id": 596,
+        "id": 604,
         "name": "Robin of Sherwood",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14929,7 +15169,7 @@
         "evolveTo": ""
     },
     {
-        "id": 597,
+        "id": 605,
         "name": "Robin, Champion Archer",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14955,7 +15195,7 @@
         "evolveTo": ""
     },
     {
-        "id": 598,
+        "id": 606,
         "name": "Robin, King of Thieves",
         "affinity": "Earth",
         "type": "Attacker",
@@ -14981,7 +15221,7 @@
         "evolveTo": ""
     },
     {
-        "id": 599,
+        "id": 607,
         "name": "Robin Hood",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15007,7 +15247,7 @@
         "evolveTo": ""
     },
     {
-        "id": 600,
+        "id": 608,
         "name": "Yasmina, Deepmoss Avenger",
         "affinity": "Earth",
         "type": "Defender",
@@ -15031,7 +15271,7 @@
         "evolveTo": ""
     },
     {
-        "id": 601,
+        "id": 609,
         "name": "Yasmina, Deepmoss Avenger",
         "affinity": "Earth",
         "type": "Defender",
@@ -15055,7 +15295,7 @@
         "evolveTo": ""
     },
     {
-        "id": 602,
+        "id": 610,
         "name": "Yasmina, Deepmoss Avenger",
         "affinity": "Earth",
         "type": "Defender",
@@ -15079,7 +15319,7 @@
         "evolveTo": ""
     },
     {
-        "id": 603,
+        "id": 611,
         "name": "Yasmina, Deepmoss Avenger",
         "affinity": "Earth",
         "type": "Defender",
@@ -15103,7 +15343,7 @@
         "evolveTo": ""
     },
     {
-        "id": 604,
+        "id": 612,
         "name": "Kafziel, Fallen Angel",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15129,7 +15369,7 @@
         "evolveTo": ""
     },
     {
-        "id": 605,
+        "id": 613,
         "name": "Kafziel, Fallen Angel",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15155,7 +15395,7 @@
         "evolveTo": ""
     },
     {
-        "id": 606,
+        "id": 614,
         "name": "Kafziel, Fallen Angel",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15181,7 +15421,7 @@
         "evolveTo": ""
     },
     {
-        "id": 607,
+        "id": 615,
         "name": "Kafziel, Fallen Angel",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15207,7 +15447,7 @@
         "evolveTo": ""
     },
     {
-        "id": 608,
+        "id": 616,
         "name": "Lillith, Invisible Protector",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15233,7 +15473,7 @@
         "evolveTo": ""
     },
     {
-        "id": 609,
+        "id": 617,
         "name": "Lillith, Invisible Protector",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15259,7 +15499,7 @@
         "evolveTo": ""
     },
     {
-        "id": 610,
+        "id": 618,
         "name": "Lillith, Invisible Protector",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15285,7 +15525,7 @@
         "evolveTo": ""
     },
     {
-        "id": 611,
+        "id": 619,
         "name": "Lillith, Invisible Protector",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15311,7 +15551,7 @@
         "evolveTo": ""
     },
     {
-        "id": 612,
+        "id": 620,
         "name": "Vulcan, Copper Blood",
         "affinity": "Earth",
         "type": "Warrior",
@@ -15342,7 +15582,7 @@
         "evolveTo": ""
     },
     {
-        "id": 613,
+        "id": 621,
         "name": "Vulcan, Copper Blood",
         "affinity": "Earth",
         "type": "Warrior",
@@ -15373,7 +15613,7 @@
         "evolveTo": ""
     },
     {
-        "id": 614,
+        "id": 622,
         "name": "Vulcan, Copper Blood",
         "affinity": "Earth",
         "type": "Warrior",
@@ -15404,7 +15644,7 @@
         "evolveTo": ""
     },
     {
-        "id": 615,
+        "id": 623,
         "name": "Vulcan, Copper Blood",
         "affinity": "Earth",
         "type": "Warrior",
@@ -15435,7 +15675,7 @@
         "evolveTo": ""
     },
     {
-        "id": 616,
+        "id": 624,
         "name": "Jade Dragon",
         "affinity": "Earth",
         "type": "Defender",
@@ -15459,7 +15699,7 @@
         "evolveTo": ""
     },
     {
-        "id": 617,
+        "id": 625,
         "name": "Jade Dragon",
         "affinity": "Earth",
         "type": "Defender",
@@ -15483,7 +15723,7 @@
         "evolveTo": ""
     },
     {
-        "id": 618,
+        "id": 626,
         "name": "Jade Dragon",
         "affinity": "Earth",
         "type": "Defender",
@@ -15507,7 +15747,7 @@
         "evolveTo": ""
     },
     {
-        "id": 619,
+        "id": 627,
         "name": "Large-Clawed Wolf",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15531,7 +15771,7 @@
         "evolveTo": ""
     },
     {
-        "id": 620,
+        "id": 628,
         "name": "Hippolyta, Queen Of Amazon",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15557,7 +15797,7 @@
         "evolveTo": ""
     },
     {
-        "id": 621,
+        "id": 629,
         "name": "Hippolyta, Queen Of Amazon",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15583,7 +15823,7 @@
         "evolveTo": ""
     },
     {
-        "id": 622,
+        "id": 630,
         "name": "Hippolyta, Queen Of Amazon",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15609,7 +15849,7 @@
         "evolveTo": ""
     },
     {
-        "id": 623,
+        "id": 631,
         "name": "Hercules",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15639,7 +15879,7 @@
         "evolveTo": ""
     },
     {
-        "id": 624,
+        "id": 632,
         "name": "Hercules",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15669,7 +15909,7 @@
         "evolveTo": ""
     },
     {
-        "id": 625,
+        "id": 633,
         "name": "Hercules",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15699,7 +15939,7 @@
         "evolveTo": ""
     },
     {
-        "id": 626,
+        "id": 634,
         "name": "Hercules",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15729,7 +15969,7 @@
         "evolveTo": ""
     },
     {
-        "id": 627,
+        "id": 635,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15759,7 +15999,7 @@
         "evolveTo": ""
     },
     {
-        "id": 628,
+        "id": 636,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15789,7 +16029,7 @@
         "evolveTo": ""
     },
     {
-        "id": 629,
+        "id": 637,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15819,7 +16059,7 @@
         "evolveTo": ""
     },
     {
-        "id": 630,
+        "id": 638,
         "name": "Perseus",
         "affinity": "Earth",
         "type": "Attacker",
@@ -15849,7 +16089,7 @@
         "evolveTo": ""
     },
     {
-        "id": 631,
+        "id": 639,
         "name": "Athena",
         "affinity": "Earth",
         "type": "Warrior",
