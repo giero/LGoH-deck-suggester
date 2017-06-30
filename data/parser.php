@@ -83,8 +83,8 @@ function csvToArray($filename = '', $delimiter = ',')
 function convertStats($stats)
 {
     return str_replace(
-        ['Damage', 'ATK', 'REC', 'HP'],
-        ['attack', 'attack', 'recovery', 'health'],
+        ['Damage', 'ATK', 'REC', 'RCV', 'HP'],
+        ['attack', 'attack', 'recovery', 'recovery', 'health'],
         $stats
     );
 }
@@ -127,8 +127,7 @@ function extractLiderAbility($liderAbilityData, $heroName)
         '/^([^:]+): ((\d+)% (ATK|HP|REC), (\d+)% (ATK|HP|REC) and (ATK|HP|REC) for (\w+( \w+)?) Heroes)$/',
         $liderAbilityData,
         $leaderAbilityMatches
-    )
-    ) {
+    )) {
         $leaderAbilityTarget = rtrim($leaderAbilityMatches[8], 's');
         $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
             ? explode(' ', $leaderAbilityTarget)
@@ -137,6 +136,19 @@ function extractLiderAbility($liderAbilityData, $heroName)
         $leaderAbilityValues[convertStats($leaderAbilityMatches[4])] = $leaderAbilityMatches[3] / 100;
         $leaderAbilityValues[convertStats($leaderAbilityMatches[6])] = $leaderAbilityMatches[5] / 100;
         $leaderAbilityValues[convertStats($leaderAbilityMatches[7])] = $leaderAbilityMatches[5] / 100;
+    } elseif (preg_match(
+        '/^([^:]+): ((\d+)% (Damage|HP|RCV), (Damage|HP|RCV) and (Damage|HP|RCV) for (\w+( \w+)?) Heroes)$/',
+        $liderAbilityData,
+        $leaderAbilityMatches
+    )) {
+        $leaderAbilityTarget = rtrim(trim($leaderAbilityMatches[8]), 's');
+        $leaderAbilityTarget = strpos($leaderAbilityTarget, ' ') !== false
+            ? explode(' ', $leaderAbilityTarget)
+            : $leaderAbilityTarget;
+
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[4])] = $leaderAbilityMatches[3] / 100;
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[5])] = $leaderAbilityMatches[3] / 100;
+        $leaderAbilityValues[convertStats($leaderAbilityMatches[6])] = $leaderAbilityMatches[3] / 100;
     } else {
         var_dump(
             'Invalid leader ability format for '.$heroName.' ('.$liderAbilityData.')',
