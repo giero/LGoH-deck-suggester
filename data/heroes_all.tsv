@@ -127,6 +127,17 @@ dark	Tor	******	30	Attacker	Demigod	4814	642	3209	Valhallan Might IV: 300% Damag
 dark	Gargalank	****	9	Defender	Goblin	250	83	1034	Ancient Talent IV: 260% REC, 160% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 500% HP.
 dark	Gargalank	*****	15	Defender	Goblin	467	156	1927	Ancient Talent V: 280% REC, 180% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 750% HP.
 dark	Gargalank	******	30	Defender	Goblin	688	229	2851	Ancient Talent VI: 300% REC, 200% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				Goblin Horde: Attack for 1000% HP.
+dark	Osiris	****	9	Attacker	Ancient	2039	273	1372	Ancient Might IV: 160% Damage for all Ancient Heroes	Poison	Dispel Dodge			2x	Eye of Osiris: Create 2 Dark Gems. Destroy 2 Light Gems.
+dark	Osiris	*****	15	Attacker	Ancient	3449	462	2310	Ancient Might V: 180% Damage for all Ancient Heroes	Poison	Dispel Dodge			3x	Eye of Osiris: Create 3 Dark Gems. Destroy 3 Light Gems.
+dark	Osiris	******	30	Attacker	Ancient	5028	672	3361	Ancient Might VI: 200% Damage for all Ancient Heroes	Poison	Dispel Dodge			4x	Eye of Osiris: Create 4 Dark Gems. Destroy 4 Light Gems.
+dark	Sobek	***	6	Warrior	Ancient				Dark Ancient Might I: 175% Damage and HP for all Dark Ancient Heroes	Might	Cure Siphon			2x	
+dark	Sobek	****	9	Warrior	Ancient				Dark Ancient Might II: 200% Damage and HP for all Dark Ancient Heroes	Might	Cure Siphon			2x	
+dark	Sobek	*****	15	Warrior	Ancient				Dark Ancient Might III: 225% Damage and HP for all Dark Ancient Heroes	Might	Cure Siphon			3x	
+dark	Sobek	******	30	Warrior	Ancient	4014	335	6690	Dark Ancient Might IV: 300% Damage and HP for all Dark Ancient Heroes	Might	Cure Siphon			4x	Shifting Sands: Create 1 Dark Power Gem III. If more than 8 Dark Gems exist, this effect is doubled.
+dark	Bastet	***	6	Warrior	Ancient	958	81	1594	Dark Ancient Might I: 175% Damage and HP for all Dark Ancient Heroes	Vessel	Cure Weaken			2x	Ancient Ankh: Attack for 200% ATK. If more than 8 Dark Gems exist, attack again for 600% ATK.
+dark	Bastet	****	9	Warrior	Ancient	1562	130	2603	Dark Ancient Might II: 200% Damage and HP for all Dark Ancient Heroes	Vessel	Cure Weaken			2x	Ancient Ankh: Attack for 400% ATK. If more than 8 Dark Gems exist, attack again for 800% ATK.
+dark	Bastet	*****	15	Warrior	Ancient	2656	224	4428	Dark Ancient Might III: 225% Damage and HP for all Dark Ancient Heroes	Vessel	Cure Weaken			3x	Ancient Ankh: Attack for 600% ATK. If more than 8 Dark Gems exist, attack again for 1200% ATK.
+dark	Bastet	******	30	Warrior	Ancient	3850	321	6418	Dark Ancient Might IV: 300% Damage and HP for all Dark Ancient Heroes	Vessel	Cure Weaken			4x	Ancient Ankh: Attack for 800% ATK. If more than 8 Dark Gems exist, attack again for 2000% ATK.
 light	Griffin Pup	***	6	Defender	Creature	402	134	1665	Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP
 light	Griffin	****	9	Defender	Creature	649	215	2706	Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen				Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP
 light	Shadowlight Pilgrim	*	2	Balanced	Dren	200	66	334	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown				Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns
@@ -324,6 +335,12 @@ fire	Empyrean Korinth	******	30	Mage	God	3218	1073	1352	Dragon Might VI: 200% Da
 fire	Arthur Pendragon	****	9	Attacker	Fable				Demigod Might IV: 160% Damage for all Demigod Heroes	Judgement	Cure Poison		2x		Pendragon's Blade: Attack all enemies for 500% of ATK, ignoring armor
 fire	Arthur Of The Round	*****	15	Attacker	Fable	2907	390	1956	Demigod Might V: 180% Damage for all Demigod Heroes	Judgement	Cure Poison		3x		King's Blade: Attack an enemy for 650% of ATK, ignoring Armor
 fire	King Arthur	******	30	Attacker	Fable				Demigod Might VI: 200% Damage for all Demigod Heroes	Judgement	Cure Poison		4x		Sword of the Stone: Attack an enemy for 750% of ATK, ignoring Armor
+fire	Celestial Sum Il Tek	*	2	Attacker	Demigod	20	20	20	Human Might I: 110% Damage for all Human Heroes	Dodge	Unknown	2x	2x		Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK
+fire	Celestial Sum Il Tek	**	4	Attacker	Demigod	686	93	471	Human Might II: 120% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK
+fire	Celestial Sum Il Tek	***	6	Attacker	Demigod	1146	154	769	Human Might III: 140% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK
+fire	Celestial Sum Il Tek	****	9	Attacker	Demigod	1879	253	1266	Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK
+fire	Celestial Sum Il Tek	*****	15	Attacker	Demigod				Human Might V: 180% Damage for all Human Heroes	Dodge	Cure Siphon	3x	3x		Solar Flare: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 700% of ATK
+fire	Celestial Sum Il Tek	******	30	Attacker	Demigod				Human Might VI: 200% Damage for all Human Heroes	Dodge	Cure Siphon	4x	4x		Red Dwarf: Reduce all enemy DEF by 75% for 3 turns and Attack an enemy for 900% of ATK
 fire	Upstart Hannibal	****	9	Balanced	Human				Balanced Armor IV: 160% HP for all Balanced Heroes	Armor	Cure Blind				Cruel Battle Axe: Attack all enemies for 200% of HP and Convert 3 Water Gems into Fire Gems
 fire	Firebrand Hannibal	*****	15	Balanced	Human	1826	608	3043	Balanced Armor V: 180% HP for all Balanced Heroes	Armor	Cure Blind				Flaming Battle Axe: Attack all enemies for 260% of HP and Convert 3 Water Gems into Fire Gems
 fire	Hannibal The Destroyer	******	30	Balanced	Human				Balanced Armor VI: 200% HP for all Balanced Heroes	Armor	Cure Blind				Conqueror's Stampede: Attack all enemies for 300% of HP and Convert 3 Water Gems into Fire Gems
@@ -339,12 +356,6 @@ fire	Mecha Muramasa	***	6	Attacker	Spirit	1142	152	761	Spirit Armor III: 140% HP
 fire	Mecha Muramasa	****	9	Attacker	Spirit	1875	251	1256	Spirit Armor IV: 160% HP for all Spirit Heroes	Vessel	Cure Weaken	2x	2x		Micro Missiles: Attack an enemy for 650% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Mecha Muramasa	*****	15	Attacker	Spirit	3183	428	2138	Spirit Armor V: 180% HP for all Spirit Heroes	Vessel	Cure Weaken	3x	3x		Repulser Beam: Attack an enemy for 750% of ATK, Attack self for 500% of REC. Can kill the player.
 fire	Mecha Muramasa	******	30	Attacker	Spirit	4628	620	3101	Spirit Armor VI: 200% HP for all Spirit Heroes	Vessel	Cure Weaken	4x	4x		Plasma Grenade: Attack an enemy for 850% of ATK, Attack self for 500% of REC. Can kill the player.
-fire	Celestial Sum Il Tek	*	2	Attacker	Demigod	20	20	20	Human Might I: 110% Damage for all Human Heroes	Dodge	Unknown	2x	2x		Solar Blaze: Reduce all enemy DEF by 10% for 3 turns and Attack an enemy for 150% of ATK
-fire	Celestial Sum Il Tek	**	4	Attacker	Demigod	686	93	471	Human Might II: 120% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 20% for 3 turns and Attack an enemy for 300% of ATK
-fire	Celestial Sum Il Tek	***	6	Attacker	Demigod	1146	154	769	Human Might III: 140% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 30% for 3 turns and Attack an enemy for 450% of ATK
-fire	Celestial Sum Il Tek	****	9	Attacker	Demigod	1879	253	1266	Human Might IV: 160% Damage for all Human Heroes	Dodge	Cure Siphon	2x	2x		Solar Blaze: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 550% of ATK
-fire	Celestial Sum Il Tek	*****	15	Attacker	Demigod				Human Might V: 180% Damage for all Human Heroes	Dodge	Cure Siphon	3x	3x		Solar Flare: Reduce all enemy DEF by 50% for 3 turns and Attack an enemy for 700% of ATK
-fire	Celestial Sum Il Tek	******	30	Attacker	Demigod				Human Might VI: 200% Damage for all Human Heroes	Dodge	Cure Siphon	4x	4x		Red Dwarf: Reduce all enemy DEF by 75% for 3 turns and Attack an enemy for 900% of ATK
 fire	Ji, Sun Born	****	9	Balanced	God				God Might IV: 160% Damage for all God Heroes	Blind	Cure Panic				Zodiac Strike: Increase self ATK by 10% for 2 turns. Charges extremely fast.
 fire	Ji, Fire Rooster	*****	15	Balanced	God				God Might V: 180% Damage for all God Heroes	Blind	Cure Panic				Flaming Stars: Increase self ATK by 25% for 2 turns. Charges extremely fast.
 fire	Ji, King of Birds	******	30	Balanced	God				God Might VI: 200% Damage for all God Heroes	Blind	Cure Panic				10,000 Suns: Increase self ATK by 50% for 2 turns. Charges extremely fast.
