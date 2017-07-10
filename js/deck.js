@@ -3,7 +3,7 @@ function Deck(heroes, options) {
     this.options = options;
 
     this.leaderTarget = this.heroes[0].leaderAbility.target;
-    this.leaderStatValues = this.heroes[0].leaderAbility.values;
+    this.leaderStatModifiers = this.heroes[0].leaderAbility.modifiers;
 
     this.teamMeetsRequirements = this.checkRequirements();
     this.commanderBonuses = this.collectCommanderBonuses();
@@ -23,10 +23,10 @@ Deck.prototype.getStats = function () {
 };
 
 Deck.prototype.calculate = function (affinity) {
-    var deckValues = {power: 0, attack: 0, attack_and_health: 0};
+    var deckStats = {power: 0, attack: 0, attack_and_health: 0};
 
     if (!this.teamMeetsRequirements) {
-        return deckValues;
+        return deckStats;
     }
 
     for (var i = this.heroes.length - 1; i >= 0; --i) {
@@ -36,12 +36,12 @@ Deck.prototype.calculate = function (affinity) {
         this.applyLeaderAbilityBonus(hero);
         this.applyEventBonus(hero);
 
-        deckValues.attack += hero.attack;
-        deckValues.power += hero.power;
-        deckValues.attack_and_health += hero.attack_and_health;
+        deckStats.attack += hero.attack;
+        deckStats.power += hero.power;
+        deckStats.attack_and_health += hero.attack_and_health;
     }
 
-    return deckValues;
+    return deckStats;
 };
 
 Deck.prototype.collectCommanderBonuses = function () {
@@ -117,20 +117,20 @@ Deck.prototype.applyLeaderAbilityBonus = function (hero) {
         return;
     }
 
-    for (var ls in this.leaderStatValues) {
+    for (var ls in this.leaderStatModifiers) {
         // this is terrible - I know T_T
         // but it has to be that way - array access for objects is so slow ...
         // and I need it to run as fast as it can be
 
         switch (ls) {
             case 'attack':
-                hero.attack *= this.leaderStatValues.attack;
+                hero.attack *= this.leaderStatModifiers.attack;
                 break;
             case 'health':
-                hero.health *= this.leaderStatValues.health;
+                hero.health *= this.leaderStatModifiers.health;
                 break;
             case 'recovery':
-                hero.recovery *= this.leaderStatValues.recovery;
+                hero.recovery *= this.leaderStatModifiers.recovery;
                 break;
             default:
                 throw new Error("Invalid stat " + ls);

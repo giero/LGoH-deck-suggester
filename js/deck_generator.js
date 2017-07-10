@@ -35,25 +35,25 @@ DeckGenerator.prototype.generate = function (options) {
 
             var deck = new Deck([leaderHero].concat(result), options);
             for (var affinity in bestDecks) {
-                var deckValues = deck.calculate(affinity);
+                var deckStats = deck.calculate(affinity);
 
-                if (deckValues.power > bestDecks[affinity].power.value) {
+                if (deckStats.power > bestDecks[affinity].power.value) {
                     bestDecks[affinity].power = {
-                        value: deckValues.power,
+                        value: deckStats.power,
                         heroes: deck.heroes,
                         stats: deck.getStats()
                     };
                 }
-                if (deckValues.attack > bestDecks[affinity].attack.value) {
+                if (deckStats.attack > bestDecks[affinity].attack.value) {
                     bestDecks[affinity].attack = {
-                        value: deckValues.attack,
+                        value: deckStats.attack,
                         heroes: deck.heroes,
                         stats: deck.getStats()
                     };
                 }
-                if (deckValues.attack_and_health > bestDecks[affinity].attack_and_health.value) {
+                if (deckStats.attack_and_health > bestDecks[affinity].attack_and_health.value) {
                     bestDecks[affinity].attack_and_health = {
-                        value: deckValues.attack_and_health,
+                        value: deckStats.attack_and_health,
                         heroes: deck.heroes,
                         stats: deck.getStats()
                     };

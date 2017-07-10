@@ -15,7 +15,7 @@
         "leaderAbility": {
             "name": "Dark Armor I",
             "description": "110% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Dark"
@@ -39,7 +39,7 @@
         "leaderAbility": {
             "name": "Dark Armor II",
             "description": "120% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Dark"
@@ -63,7 +63,7 @@
         "leaderAbility": {
             "name": "Dark Armor III",
             "description": "140% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Dark"
@@ -87,7 +87,7 @@
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Dark"
@@ -111,7 +111,7 @@
         "leaderAbility": {
             "name": "Dark Blessing I",
             "description": "110% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.1
             },
             "target": "Dark"
@@ -135,7 +135,7 @@
         "leaderAbility": {
             "name": "Dark Blessing II",
             "description": "120% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.2
             },
             "target": "Dark"
@@ -159,7 +159,7 @@
         "leaderAbility": {
             "name": "Dark Blessing III",
             "description": "140% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.4
             },
             "target": "Dark"
@@ -183,7 +183,7 @@
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Attacker"
@@ -207,7 +207,7 @@
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Attacker"
@@ -231,7 +231,7 @@
         "leaderAbility": {
             "name": "Dark Might I",
             "description": "110% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Dark"
@@ -255,7 +255,7 @@
         "leaderAbility": {
             "name": "Dark Might II",
             "description": "120% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Dark"
@@ -279,7 +279,7 @@
         "leaderAbility": {
             "name": "Dark Might III",
             "description": "140% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Dark"
@@ -303,7 +303,7 @@
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Guardian"
@@ -327,7 +327,7 @@
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Guardian"
@@ -351,7 +351,7 @@
         "leaderAbility": {
             "name": "Defender Armor III",
             "description": "140% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Defender"
@@ -375,7 +375,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -399,7 +399,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -423,7 +423,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -447,7 +447,7 @@
         "leaderAbility": {
             "name": "Dark Might III",
             "description": "140% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Dark"
@@ -471,7 +471,7 @@
         "leaderAbility": {
             "name": "Dark Might IV",
             "description": "160% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dark"
@@ -495,7 +495,7 @@
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Guardian"
@@ -519,7 +519,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -543,7 +543,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -567,7 +567,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -591,7 +591,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -615,7 +615,7 @@
         "leaderAbility": {
             "name": "Balanced Might I",
             "description": "110% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Balanced"
@@ -639,7 +639,7 @@
         "leaderAbility": {
             "name": "Balanced Might II",
             "description": "120% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Balanced"
@@ -663,7 +663,7 @@
         "leaderAbility": {
             "name": "Warrior Armor II",
             "description": "120% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Warrior"
@@ -687,7 +687,7 @@
         "leaderAbility": {
             "name": "Warrior Armor III",
             "description": "140% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Warrior"
@@ -711,7 +711,7 @@
         "leaderAbility": {
             "name": "Dark Armor III",
             "description": "140% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Dark"
@@ -735,7 +735,7 @@
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Dark"
@@ -759,7 +759,7 @@
         "leaderAbility": {
             "name": "Dark Armor V",
             "description": "180% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Dark"
@@ -783,7 +783,7 @@
         "leaderAbility": {
             "name": "Dark Armor VI",
             "description": "200% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Dark"
@@ -807,7 +807,7 @@
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Mage"
@@ -831,7 +831,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -855,7 +855,7 @@
         "leaderAbility": {
             "name": "Dark Blessing IV",
             "description": "160% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Dark"
@@ -879,7 +879,7 @@
         "leaderAbility": {
             "name": "Dark Might V",
             "description": "180% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dark"
@@ -903,7 +903,7 @@
         "leaderAbility": {
             "name": "Dark Might VI",
             "description": "200% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dark"
@@ -927,7 +927,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -951,7 +951,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -975,7 +975,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -999,7 +999,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -1023,7 +1023,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -1047,7 +1047,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -1071,7 +1071,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -1095,7 +1095,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -1119,7 +1119,7 @@
         "leaderAbility": {
             "name": "Mage Might VI",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -1143,7 +1143,7 @@
         "leaderAbility": {
             "name": "Spirit Might IV",
             "description": "160% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Spirit"
@@ -1167,7 +1167,7 @@
         "leaderAbility": {
             "name": "Spirit Might V",
             "description": "180% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Spirit"
@@ -1191,7 +1191,7 @@
         "leaderAbility": {
             "name": "Spirit Might VI",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -1215,7 +1215,7 @@
         "leaderAbility": {
             "name": "Dark Blessing IV",
             "description": "160% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Dark"
@@ -1239,7 +1239,7 @@
         "leaderAbility": {
             "name": "Dark Blessing V",
             "description": "180% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Dark"
@@ -1263,7 +1263,7 @@
         "leaderAbility": {
             "name": "Dark Blessing VI",
             "description": "200% REC for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Dark"
@@ -1291,7 +1291,7 @@
         "leaderAbility": {
             "name": "Dark Might II",
             "description": "120% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Dark"
@@ -1319,7 +1319,7 @@
         "leaderAbility": {
             "name": "Dark Might III",
             "description": "140% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Dark"
@@ -1347,7 +1347,7 @@
         "leaderAbility": {
             "name": "Dark Might IV",
             "description": "160% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dark"
@@ -1375,7 +1375,7 @@
         "leaderAbility": {
             "name": "Dark Might V",
             "description": "180% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dark"
@@ -1403,7 +1403,7 @@
         "leaderAbility": {
             "name": "Dark Might VI",
             "description": "200% Damage for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dark"
@@ -1427,7 +1427,7 @@
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Creature"
@@ -1451,7 +1451,7 @@
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Creature"
@@ -1475,7 +1475,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Creature"
@@ -1499,7 +1499,7 @@
         "leaderAbility": {
             "name": "Giant Might IV",
             "description": "160% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Giant"
@@ -1523,7 +1523,7 @@
         "leaderAbility": {
             "name": "Giant Might V",
             "description": "180% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Giant"
@@ -1547,7 +1547,7 @@
         "leaderAbility": {
             "name": "Giant Might VI",
             "description": "200% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Giant"
@@ -1571,7 +1571,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing IV",
             "description": "160% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Corrupt"
@@ -1595,7 +1595,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing V",
             "description": "180% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Corrupt"
@@ -1619,7 +1619,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing VI",
             "description": "200% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Corrupt"
@@ -1643,7 +1643,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -1667,7 +1667,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -1691,7 +1691,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -1718,7 +1718,7 @@
         "leaderAbility": {
             "name": "Human Might I",
             "description": "110% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Human"
@@ -1745,7 +1745,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -1772,7 +1772,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -1799,7 +1799,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -1826,7 +1826,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -1853,7 +1853,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -1877,7 +1877,7 @@
         "leaderAbility": {
             "name": "Power of Love I",
             "description": "175% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "God"
@@ -1901,7 +1901,7 @@
         "leaderAbility": {
             "name": "Power of Love II",
             "description": "200% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "God"
@@ -1925,7 +1925,7 @@
         "leaderAbility": {
             "name": "Power of Love III",
             "description": "225% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "God"
@@ -1949,7 +1949,7 @@
         "leaderAbility": {
             "name": "Power of Love IV",
             "description": "300% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "God"
@@ -1973,7 +1973,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -1997,7 +1997,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -2021,7 +2021,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -2047,7 +2047,7 @@
         "leaderAbility": {
             "name": "Spiritual Strenght I",
             "description": "175% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "Spirit"
@@ -2073,7 +2073,7 @@
         "leaderAbility": {
             "name": "Spiritual Strenght I",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -2099,7 +2099,7 @@
         "leaderAbility": {
             "name": "Spiritual Strenght I",
             "description": "225% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "Spirit"
@@ -2125,7 +2125,7 @@
         "leaderAbility": {
             "name": "Spiritual Strenght I",
             "description": "300% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "Spirit"
@@ -2149,7 +2149,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -2173,7 +2173,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -2197,7 +2197,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -2223,7 +2223,7 @@
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Dark"
@@ -2249,7 +2249,7 @@
         "leaderAbility": {
             "name": "Dark Armor V",
             "description": "180% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Dark"
@@ -2275,7 +2275,7 @@
         "leaderAbility": {
             "name": "Dark Armor VI",
             "description": "200% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Dark"
@@ -2301,7 +2301,7 @@
         "leaderAbility": {
             "name": "Spirit Armor III",
             "description": "140% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Spirit"
@@ -2327,7 +2327,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -2353,7 +2353,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -2379,7 +2379,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -2403,7 +2403,7 @@
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Dark"
@@ -2427,7 +2427,7 @@
         "leaderAbility": {
             "name": "Dark Armor V",
             "description": "180% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Dark"
@@ -2451,7 +2451,7 @@
         "leaderAbility": {
             "name": "Dark Armor VI",
             "description": "200% HP for all Dark Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Dark"
@@ -2477,7 +2477,7 @@
         "leaderAbility": {
             "name": "Thrill of the Hunt I",
             "description": "175% Damage for Water Bounty Hunters",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": [
@@ -2506,7 +2506,7 @@
         "leaderAbility": {
             "name": "Thrill of the Hunt II",
             "description": "200% Damage for Water Bounty Hunters",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": [
@@ -2535,7 +2535,7 @@
         "leaderAbility": {
             "name": "Thrill of the Hunt III",
             "description": "225% Damage for Water Bounty Hunters",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": [
@@ -2564,7 +2564,7 @@
         "leaderAbility": {
             "name": "Thrill of the Hunt IV",
             "description": "300% Damage for Water Bounty Hunters",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": [
@@ -2593,7 +2593,7 @@
         "leaderAbility": {
             "name": "Eggceptional Power I",
             "description": "175% Damage and HP for all Dark Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -2623,7 +2623,7 @@
         "leaderAbility": {
             "name": "Eggceptional Power II",
             "description": "200% Damage and HP for all Dark Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -2653,7 +2653,7 @@
         "leaderAbility": {
             "name": "Eggceptional Power II",
             "description": "225% Damage and HP for all Dark Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -2683,7 +2683,7 @@
         "leaderAbility": {
             "name": "Eggceptional Power III",
             "description": "300% Damage and HP for all Dark Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -2711,7 +2711,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -2735,7 +2735,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -2759,7 +2759,7 @@
         "leaderAbility": {
             "name": "Mage Might Vi",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -2783,7 +2783,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -2807,7 +2807,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -2831,7 +2831,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -2857,7 +2857,7 @@
         "leaderAbility": {
             "name": "Honored Armor IV",
             "description": "160% HP for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Honored"
@@ -2883,7 +2883,7 @@
         "leaderAbility": {
             "name": "Honored Armor V",
             "description": "180% HP for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Honored"
@@ -2909,7 +2909,7 @@
         "leaderAbility": {
             "name": "Honored Armor VI",
             "description": "200% HP for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Honored"
@@ -2935,7 +2935,7 @@
         "leaderAbility": {
             "name": "Valhallan Might I",
             "description": "175% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -2965,7 +2965,7 @@
         "leaderAbility": {
             "name": "Valhallan Might II",
             "description": "200% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -2995,7 +2995,7 @@
         "leaderAbility": {
             "name": "Valhallan Might III",
             "description": "225% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -3025,7 +3025,7 @@
         "leaderAbility": {
             "name": "Valhallan Might IV",
             "description": "300% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -3055,7 +3055,7 @@
         "leaderAbility": {
             "name": "Valhallan Might I",
             "description": "175% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -3085,7 +3085,7 @@
         "leaderAbility": {
             "name": "Valhallan Might II",
             "description": "200% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -3115,7 +3115,7 @@
         "leaderAbility": {
             "name": "Valhallan Might III",
             "description": "225% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -3145,7 +3145,7 @@
         "leaderAbility": {
             "name": "Valhallan Might IV",
             "description": "300% Damage and HP for all Dark Demigods Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -3173,7 +3173,7 @@
         "leaderAbility": {
             "name": "Ancient Talent IV",
             "description": "260% REC, 160% ATK and HP for Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.6,
                 "attack": 1.6,
                 "health": 1.6
@@ -3199,7 +3199,7 @@
         "leaderAbility": {
             "name": "Ancient Talent V",
             "description": "280% REC, 180% ATK and HP for Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.8,
                 "attack": 1.8,
                 "health": 1.8
@@ -3225,7 +3225,7 @@
         "leaderAbility": {
             "name": "Ancient Talent VI",
             "description": "300% REC, 200% ATK and HP for Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3,
                 "attack": 2,
                 "health": 2
@@ -3253,7 +3253,7 @@
         "leaderAbility": {
             "name": "Ancient Might IV",
             "description": "160% Damage for all Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Ancient"
@@ -3279,7 +3279,7 @@
         "leaderAbility": {
             "name": "Ancient Might V",
             "description": "180% Damage for all Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Ancient"
@@ -3305,7 +3305,7 @@
         "leaderAbility": {
             "name": "Ancient Might VI",
             "description": "200% Damage for all Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Ancient"
@@ -3331,7 +3331,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might I",
             "description": "175% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -3361,7 +3361,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might II",
             "description": "200% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -3391,7 +3391,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might III",
             "description": "225% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -3421,7 +3421,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might IV",
             "description": "300% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -3451,7 +3451,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might I",
             "description": "175% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -3481,7 +3481,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might II",
             "description": "200% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -3511,7 +3511,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might III",
             "description": "225% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -3541,7 +3541,7 @@
         "leaderAbility": {
             "name": "Dark Ancient Might IV",
             "description": "300% Damage and HP for all Dark Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -3569,7 +3569,7 @@
         "leaderAbility": {
             "name": "Defender Armor III",
             "description": "140% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Defender"
@@ -3593,7 +3593,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -3617,7 +3617,7 @@
         "leaderAbility": {
             "name": "Balanced Might I",
             "description": "110% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Balanced"
@@ -3641,7 +3641,7 @@
         "leaderAbility": {
             "name": "Balanced Might II",
             "description": "120% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Balanced"
@@ -3665,7 +3665,7 @@
         "leaderAbility": {
             "name": "Light Blessing I",
             "description": "110% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.1
             },
             "target": "Light"
@@ -3689,7 +3689,7 @@
         "leaderAbility": {
             "name": "Light Blessing II",
             "description": "120% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.2
             },
             "target": "Light"
@@ -3713,7 +3713,7 @@
         "leaderAbility": {
             "name": "Light Blessing III",
             "description": "140% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.4
             },
             "target": "Light"
@@ -3737,7 +3737,7 @@
         "leaderAbility": {
             "name": "Light Armor I",
             "description": "110% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Light"
@@ -3761,7 +3761,7 @@
         "leaderAbility": {
             "name": "Light Armor II",
             "description": "120% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Light"
@@ -3785,7 +3785,7 @@
         "leaderAbility": {
             "name": "Light Armor III",
             "description": "140% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Light"
@@ -3809,7 +3809,7 @@
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Light"
@@ -3833,7 +3833,7 @@
         "leaderAbility": {
             "name": "Warrior Armor II",
             "description": "120% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Warrior"
@@ -3857,7 +3857,7 @@
         "leaderAbility": {
             "name": "Warrior Armor III",
             "description": "140% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Warrior"
@@ -3881,7 +3881,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -3905,7 +3905,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -3929,7 +3929,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -3953,7 +3953,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -3977,7 +3977,7 @@
         "leaderAbility": {
             "name": "Light Might III",
             "description": "140% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Light"
@@ -4001,7 +4001,7 @@
         "leaderAbility": {
             "name": "Light Might IV",
             "description": "160% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Light"
@@ -4025,7 +4025,7 @@
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Guardian"
@@ -4049,7 +4049,7 @@
         "leaderAbility": {
             "name": "Light Might I",
             "description": "110% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Light"
@@ -4073,7 +4073,7 @@
         "leaderAbility": {
             "name": "Light Might II",
             "description": "120% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Light"
@@ -4097,7 +4097,7 @@
         "leaderAbility": {
             "name": "Light Might III",
             "description": "140% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Light"
@@ -4121,7 +4121,7 @@
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Attacker"
@@ -4147,7 +4147,7 @@
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Attacker"
@@ -4171,7 +4171,7 @@
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Guardian"
@@ -4195,7 +4195,7 @@
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Guardian"
@@ -4219,7 +4219,7 @@
         "leaderAbility": {
             "name": "Light Armor III",
             "description": "140% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Light"
@@ -4243,7 +4243,7 @@
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Light"
@@ -4267,7 +4267,7 @@
         "leaderAbility": {
             "name": "Light Armor V",
             "description": "180% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Light"
@@ -4291,7 +4291,7 @@
         "leaderAbility": {
             "name": "Light Armor VI",
             "description": "200% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Light"
@@ -4315,7 +4315,7 @@
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Mage"
@@ -4339,7 +4339,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -4363,7 +4363,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -4387,7 +4387,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -4411,7 +4411,7 @@
         "leaderAbility": {
             "name": "Light Blessing IV",
             "description": "160% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Light"
@@ -4435,7 +4435,7 @@
         "leaderAbility": {
             "name": "Light Might V",
             "description": "180% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Light"
@@ -4459,7 +4459,7 @@
         "leaderAbility": {
             "name": "Light Might VI",
             "description": "200% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Light"
@@ -4483,7 +4483,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -4507,7 +4507,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -4531,7 +4531,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -4555,7 +4555,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -4579,7 +4579,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -4603,7 +4603,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -4627,7 +4627,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -4651,7 +4651,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -4675,7 +4675,7 @@
         "leaderAbility": {
             "name": "Mage Might VI",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -4699,7 +4699,7 @@
         "leaderAbility": {
             "name": "God Armor IV",
             "description": "160% HP for all God Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "God"
@@ -4723,7 +4723,7 @@
         "leaderAbility": {
             "name": "God Armor V",
             "description": "180% HP for all God Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "God"
@@ -4747,7 +4747,7 @@
         "leaderAbility": {
             "name": "God Armor VI",
             "description": "200% HP for all God Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "God"
@@ -4771,7 +4771,7 @@
         "leaderAbility": {
             "name": "Light Blessing IV",
             "description": "160% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Light"
@@ -4795,7 +4795,7 @@
         "leaderAbility": {
             "name": "Light Blessing V",
             "description": "180% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Light"
@@ -4819,7 +4819,7 @@
         "leaderAbility": {
             "name": "Light Blessing VI",
             "description": "200% REC for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Light"
@@ -4843,7 +4843,7 @@
         "leaderAbility": {
             "name": "Spirit Might IV",
             "description": "160% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Spirit"
@@ -4867,7 +4867,7 @@
         "leaderAbility": {
             "name": "Spirit Might V",
             "description": "180% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Spirit"
@@ -4891,7 +4891,7 @@
         "leaderAbility": {
             "name": "Spirit Might VI",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -4919,7 +4919,7 @@
         "leaderAbility": {
             "name": "Light Might II",
             "description": "120% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Light"
@@ -4947,7 +4947,7 @@
         "leaderAbility": {
             "name": "Light Might III",
             "description": "140% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Light"
@@ -4975,7 +4975,7 @@
         "leaderAbility": {
             "name": "Light Might IV",
             "description": "160% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Light"
@@ -5003,7 +5003,7 @@
         "leaderAbility": {
             "name": "Light Might V",
             "description": "180% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Light"
@@ -5031,7 +5031,7 @@
         "leaderAbility": {
             "name": "Light Might VI",
             "description": "200% Damage for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Light"
@@ -5057,7 +5057,7 @@
         "leaderAbility": {
             "name": "Dragon Might IV",
             "description": "160% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dragon"
@@ -5083,7 +5083,7 @@
         "leaderAbility": {
             "name": "Dragon Might V",
             "description": "180% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dragon"
@@ -5109,7 +5109,7 @@
         "leaderAbility": {
             "name": "Dragon Might VI",
             "description": "200% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dragon"
@@ -5135,7 +5135,7 @@
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Human"
@@ -5161,7 +5161,7 @@
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Human"
@@ -5187,7 +5187,7 @@
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Human"
@@ -5211,7 +5211,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -5235,7 +5235,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -5259,7 +5259,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -5283,7 +5283,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -5307,7 +5307,7 @@
         "leaderAbility": {
             "name": "Defender Armor V",
             "description": "180% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Defender"
@@ -5331,7 +5331,7 @@
         "leaderAbility": {
             "name": "Defender Armor VI",
             "description": "200% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Defender"
@@ -5355,7 +5355,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -5379,7 +5379,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -5403,7 +5403,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -5427,7 +5427,7 @@
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Light"
@@ -5451,7 +5451,7 @@
         "leaderAbility": {
             "name": "Light Armor V",
             "description": "180% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Light"
@@ -5475,7 +5475,7 @@
         "leaderAbility": {
             "name": "Light Armor VI",
             "description": "200% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Light"
@@ -5499,7 +5499,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -5523,7 +5523,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -5547,7 +5547,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -5571,7 +5571,7 @@
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Light"
@@ -5595,7 +5595,7 @@
         "leaderAbility": {
             "name": "Light Armor V",
             "description": "180% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Light"
@@ -5619,7 +5619,7 @@
         "leaderAbility": {
             "name": "Light Armor VI",
             "description": "200% HP for all Light Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Light"
@@ -5643,7 +5643,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing IV",
             "description": "260% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.6
             },
             "target": "Corrupt"
@@ -5669,7 +5669,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -5695,7 +5695,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -5721,7 +5721,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -5745,7 +5745,7 @@
         "leaderAbility": {
             "name": "Giant Might IV",
             "description": "160% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Giant"
@@ -5769,7 +5769,7 @@
         "leaderAbility": {
             "name": "Giant Might V",
             "description": "180% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Giant"
@@ -5793,7 +5793,7 @@
         "leaderAbility": {
             "name": "Giant Might VI",
             "description": "200% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Giant"
@@ -5819,7 +5819,7 @@
         "leaderAbility": {
             "name": "Sword of Heaven I",
             "description": "175% Damage and HP for all Light Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -5849,7 +5849,7 @@
         "leaderAbility": {
             "name": "Sword of Heaven II",
             "description": "200% Damage and HP for all Light Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -5879,7 +5879,7 @@
         "leaderAbility": {
             "name": "Sword of Heaven III",
             "description": "225% Damage and HP for all Light Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -5909,7 +5909,7 @@
         "leaderAbility": {
             "name": "Sword of Heaven IV",
             "description": "300% Damage and HP for all Light Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -5939,7 +5939,7 @@
         "leaderAbility": {
             "name": "Guardian Might IV",
             "description": "160% Damage for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Guardian"
@@ -5965,7 +5965,7 @@
         "leaderAbility": {
             "name": "Guardian Might V",
             "description": "180% Damage for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Guardian"
@@ -5991,7 +5991,7 @@
         "leaderAbility": {
             "name": "Guardian Might VI",
             "description": "200% Damage for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Guardian"
@@ -6015,7 +6015,7 @@
         "leaderAbility": {
             "name": "Creature Armor IV",
             "description": "160% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Creature"
@@ -6039,7 +6039,7 @@
         "leaderAbility": {
             "name": "Creature Armor V",
             "description": "180% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Creature"
@@ -6063,7 +6063,7 @@
         "leaderAbility": {
             "name": "Creature Armor VI",
             "description": "200% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Creature"
@@ -6087,7 +6087,7 @@
         "leaderAbility": {
             "name": "Creature Might III",
             "description": "140% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Creature"
@@ -6111,7 +6111,7 @@
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Creature"
@@ -6135,7 +6135,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "180% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Creature"
@@ -6159,7 +6159,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Creature"
@@ -6185,7 +6185,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -6211,7 +6211,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -6237,7 +6237,7 @@
         "leaderAbility": {
             "name": "Warrior Might VI",
             "description": "200% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Warrior"
@@ -6263,7 +6263,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows I",
             "description": "175% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -6293,7 +6293,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows II",
             "description": "200% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -6323,7 +6323,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows III",
             "description": "225% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -6353,7 +6353,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows IV",
             "description": "300% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -6383,7 +6383,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows I",
             "description": "175% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -6413,7 +6413,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows II",
             "description": "200% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -6443,7 +6443,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows III",
             "description": "225% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -6473,7 +6473,7 @@
         "leaderAbility": {
             "name": "Strenght of Rainbows IV",
             "description": "300% Damage and HP for all Light Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -6501,7 +6501,7 @@
         "leaderAbility": {
             "name": "Fire Armor I",
             "description": "110% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Fire"
@@ -6525,7 +6525,7 @@
         "leaderAbility": {
             "name": "Fire Armor II",
             "description": "120% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Fire"
@@ -6549,7 +6549,7 @@
         "leaderAbility": {
             "name": "Fire Armor III",
             "description": "140% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Fire"
@@ -6573,7 +6573,7 @@
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Fire"
@@ -6597,7 +6597,7 @@
         "leaderAbility": {
             "name": "Fire Blessing I",
             "description": "110% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.1
             },
             "target": "Fire"
@@ -6621,7 +6621,7 @@
         "leaderAbility": {
             "name": "Fire Blessing II",
             "description": "120% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.2
             },
             "target": "Fire"
@@ -6645,7 +6645,7 @@
         "leaderAbility": {
             "name": "Fire Blessing III",
             "description": "140% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.4
             },
             "target": "Fire"
@@ -6669,7 +6669,7 @@
         "leaderAbility": {
             "name": "Defender Armor III",
             "description": "140% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Defender"
@@ -6693,7 +6693,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -6717,7 +6717,7 @@
         "leaderAbility": {
             "name": "Warrior Armor II",
             "description": "120% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Warrior"
@@ -6741,7 +6741,7 @@
         "leaderAbility": {
             "name": "Warrior Armor III",
             "description": "140% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Warrior"
@@ -6765,7 +6765,7 @@
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Attacker"
@@ -6789,7 +6789,7 @@
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Attacker"
@@ -6813,7 +6813,7 @@
         "leaderAbility": {
             "name": "Fire Armor I",
             "description": "110% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Fire"
@@ -6837,7 +6837,7 @@
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Guardian"
@@ -6861,7 +6861,7 @@
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Guardian"
@@ -6885,7 +6885,7 @@
         "leaderAbility": {
             "name": "Fire Armor III",
             "description": "140% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Fire"
@@ -6909,7 +6909,7 @@
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Fire"
@@ -6933,7 +6933,7 @@
         "leaderAbility": {
             "name": "Fire Armor V",
             "description": "180% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Fire"
@@ -6957,7 +6957,7 @@
         "leaderAbility": {
             "name": "Fire Armor VI",
             "description": "260% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2.6
             },
             "target": "Fire"
@@ -6981,7 +6981,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -7005,7 +7005,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -7029,7 +7029,7 @@
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Guardian"
@@ -7053,7 +7053,7 @@
         "leaderAbility": {
             "name": "Balanced Might I",
             "description": "110% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Balanced"
@@ -7077,7 +7077,7 @@
         "leaderAbility": {
             "name": "Balanced Might II",
             "description": "120% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Balanced"
@@ -7101,7 +7101,7 @@
         "leaderAbility": {
             "name": "Fire Might I",
             "description": "110% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Fire"
@@ -7125,7 +7125,7 @@
         "leaderAbility": {
             "name": "Fire Might II",
             "description": "120% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Fire"
@@ -7149,7 +7149,7 @@
         "leaderAbility": {
             "name": "Fire Might III",
             "description": "140% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Fire"
@@ -7173,7 +7173,7 @@
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Mage"
@@ -7197,7 +7197,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -7221,7 +7221,7 @@
         "leaderAbility": {
             "name": "Fire Might III",
             "description": "140% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Fire"
@@ -7245,7 +7245,7 @@
         "leaderAbility": {
             "name": "Fire Might IV",
             "description": "160% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Fire"
@@ -7269,7 +7269,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -7293,7 +7293,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -7317,7 +7317,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -7341,7 +7341,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -7365,7 +7365,7 @@
         "leaderAbility": {
             "name": "Fire Blessing IV",
             "description": "160% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Fire"
@@ -7389,7 +7389,7 @@
         "leaderAbility": {
             "name": "Fire Might V",
             "description": "180% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Fire"
@@ -7413,7 +7413,7 @@
         "leaderAbility": {
             "name": "Fire Might VI",
             "description": "200% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Fire"
@@ -7437,7 +7437,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -7461,7 +7461,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -7485,7 +7485,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -7509,7 +7509,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -7533,7 +7533,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -7557,7 +7557,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -7581,7 +7581,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -7605,7 +7605,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -7629,7 +7629,7 @@
         "leaderAbility": {
             "name": "Mage Might VI",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -7653,7 +7653,7 @@
         "leaderAbility": {
             "name": "Spirit Might IV",
             "description": "160% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Spirit"
@@ -7677,7 +7677,7 @@
         "leaderAbility": {
             "name": "Spirit Might V",
             "description": "180% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Spirit"
@@ -7701,7 +7701,7 @@
         "leaderAbility": {
             "name": "Spirit Might VI",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -7725,7 +7725,7 @@
         "leaderAbility": {
             "name": "Fire Blessing IV",
             "description": "160% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Fire"
@@ -7749,7 +7749,7 @@
         "leaderAbility": {
             "name": "Fire Blessing V",
             "description": "180% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Fire"
@@ -7773,7 +7773,7 @@
         "leaderAbility": {
             "name": "Fire Blessing VI",
             "description": "160% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Fire"
@@ -7801,7 +7801,7 @@
         "leaderAbility": {
             "name": "Fire Might II",
             "description": "120% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Fire"
@@ -7829,7 +7829,7 @@
         "leaderAbility": {
             "name": "Fire Might III",
             "description": "140% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Fire"
@@ -7857,7 +7857,7 @@
         "leaderAbility": {
             "name": "Fire Might IV",
             "description": "160% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Fire"
@@ -7885,7 +7885,7 @@
         "leaderAbility": {
             "name": "Fire Might V",
             "description": "180% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Fire"
@@ -7913,7 +7913,7 @@
         "leaderAbility": {
             "name": "Fire Might VI",
             "description": "200% Damage for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Fire"
@@ -7937,7 +7937,7 @@
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Creature"
@@ -7961,7 +7961,7 @@
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Creature"
@@ -7985,7 +7985,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Creature"
@@ -8011,7 +8011,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -8037,7 +8037,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -8063,7 +8063,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -8087,7 +8087,7 @@
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Human"
@@ -8111,7 +8111,7 @@
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Human"
@@ -8135,7 +8135,7 @@
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Human"
@@ -8159,7 +8159,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -8183,7 +8183,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -8207,7 +8207,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -8231,7 +8231,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -8255,7 +8255,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -8279,7 +8279,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -8305,7 +8305,7 @@
         "leaderAbility": {
             "name": "Dragon Might IV",
             "description": "160% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dragon"
@@ -8331,7 +8331,7 @@
         "leaderAbility": {
             "name": "Dragon Might V",
             "description": "180% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dragon"
@@ -8357,7 +8357,7 @@
         "leaderAbility": {
             "name": "Dragon Might VI",
             "description": "200% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dragon"
@@ -8383,7 +8383,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -8409,7 +8409,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -8435,7 +8435,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -8462,7 +8462,7 @@
         "leaderAbility": {
             "name": "Human Might I",
             "description": "110% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Human"
@@ -8489,7 +8489,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -8516,7 +8516,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -8543,7 +8543,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -8570,7 +8570,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -8597,7 +8597,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -8621,7 +8621,7 @@
         "leaderAbility": {
             "name": "Balanced Armor IV",
             "description": "160% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Balanced"
@@ -8645,7 +8645,7 @@
         "leaderAbility": {
             "name": "Balanced Armor V",
             "description": "180% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Balanced"
@@ -8669,7 +8669,7 @@
         "leaderAbility": {
             "name": "Balanced Armor VI",
             "description": "200% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Balanced"
@@ -8693,7 +8693,7 @@
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Fire"
@@ -8717,7 +8717,7 @@
         "leaderAbility": {
             "name": "Fire Armor V",
             "description": "180% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Fire"
@@ -8741,7 +8741,7 @@
         "leaderAbility": {
             "name": "Fire Armor VI",
             "description": "260% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2.6
             },
             "target": "Fire"
@@ -8765,7 +8765,7 @@
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Fire"
@@ -8789,7 +8789,7 @@
         "leaderAbility": {
             "name": "Fire Armor V",
             "description": "180% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Fire"
@@ -8813,7 +8813,7 @@
         "leaderAbility": {
             "name": "Fire Armor VI",
             "description": "260% HP for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2.6
             },
             "target": "Fire"
@@ -8840,7 +8840,7 @@
         "leaderAbility": {
             "name": "Spirit Armor I",
             "description": "110% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Spirit"
@@ -8867,7 +8867,7 @@
         "leaderAbility": {
             "name": "Spirit Armor II",
             "description": "120% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Spirit"
@@ -8894,7 +8894,7 @@
         "leaderAbility": {
             "name": "Spirit Armor III",
             "description": "140% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Spirit"
@@ -8921,7 +8921,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -8948,7 +8948,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -8975,7 +8975,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -8999,7 +8999,7 @@
         "leaderAbility": {
             "name": "God Might IV",
             "description": "160% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "God"
@@ -9023,7 +9023,7 @@
         "leaderAbility": {
             "name": "God Might V",
             "description": "180% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "God"
@@ -9047,7 +9047,7 @@
         "leaderAbility": {
             "name": "God Might VI",
             "description": "200% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "God"
@@ -9073,7 +9073,7 @@
         "leaderAbility": {
             "name": "Power of Love I",
             "description": "175% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "God"
@@ -9099,7 +9099,7 @@
         "leaderAbility": {
             "name": "Power of Love II",
             "description": "200% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "God"
@@ -9125,7 +9125,7 @@
         "leaderAbility": {
             "name": "Power of Love III",
             "description": "225% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "God"
@@ -9151,7 +9151,7 @@
         "leaderAbility": {
             "name": "Power of Love IV",
             "description": "300% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "God"
@@ -9175,7 +9175,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing IV",
             "description": "260% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.6
             },
             "target": "Corrupt"
@@ -9199,7 +9199,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing V",
             "description": "280% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.8
             },
             "target": "Corrupt"
@@ -9223,7 +9223,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing VI",
             "description": "300% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3
             },
             "target": "Corrupt"
@@ -9249,7 +9249,7 @@
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Human"
@@ -9275,7 +9275,7 @@
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Human"
@@ -9301,7 +9301,7 @@
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Human"
@@ -9325,7 +9325,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -9349,7 +9349,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -9373,7 +9373,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -9397,7 +9397,7 @@
         "leaderAbility": {
             "name": "Giant Might IV",
             "description": "160% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Giant"
@@ -9421,7 +9421,7 @@
         "leaderAbility": {
             "name": "Giant Might V",
             "description": "180% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Giant"
@@ -9445,7 +9445,7 @@
         "leaderAbility": {
             "name": "Giant Might VI",
             "description": "200% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Giant"
@@ -9469,7 +9469,7 @@
         "leaderAbility": {
             "name": "Fire Blessing IV",
             "description": "260% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.6
             },
             "target": "Fire"
@@ -9493,7 +9493,7 @@
         "leaderAbility": {
             "name": "Fire Blessing V",
             "description": "280% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.8
             },
             "target": "Fire"
@@ -9517,7 +9517,7 @@
         "leaderAbility": {
             "name": "Fire Blessing VI",
             "description": "300% REC for all Fire Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3
             },
             "target": "Fire"
@@ -9543,7 +9543,7 @@
         "leaderAbility": {
             "name": "Power of Honor I",
             "description": "175% Damage and HP for all Fire Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -9573,7 +9573,7 @@
         "leaderAbility": {
             "name": "Power of Honor II",
             "description": "200% Damage and HP for all Fire Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -9603,7 +9603,7 @@
         "leaderAbility": {
             "name": "Power of Honor III",
             "description": "225% Damage and HP for all Fire Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -9633,7 +9633,7 @@
         "leaderAbility": {
             "name": "Power of Honor IV",
             "description": "300% Damage and HP for all Fire Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -9661,7 +9661,7 @@
         "leaderAbility": {
             "name": "Attacker Armor III",
             "description": "140% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Attacker"
@@ -9685,7 +9685,7 @@
         "leaderAbility": {
             "name": "Attacker Armor IV",
             "description": "160% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Attacker"
@@ -9709,7 +9709,7 @@
         "leaderAbility": {
             "name": "Attacker Armor V",
             "description": "180% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Attacker"
@@ -9733,7 +9733,7 @@
         "leaderAbility": {
             "name": "Attacker Armor VI",
             "description": "200% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Attacker"
@@ -9757,7 +9757,7 @@
         "leaderAbility": {
             "name": "Ancient Armor IV",
             "description": "160% HP for all Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Ancient"
@@ -9781,7 +9781,7 @@
         "leaderAbility": {
             "name": "Ancient Armor IV",
             "description": "180% HP for all Ancient Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Ancient"
@@ -9807,7 +9807,7 @@
         "leaderAbility": {
             "name": "Power of the Deep I",
             "description": "175% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "Human"
@@ -9833,7 +9833,7 @@
         "leaderAbility": {
             "name": "Power of the Deep II",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -9859,7 +9859,7 @@
         "leaderAbility": {
             "name": "Power of the Deep III",
             "description": "225% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "Human"
@@ -9885,7 +9885,7 @@
         "leaderAbility": {
             "name": "Power of the Deep IV",
             "description": "300% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "Human"
@@ -9911,7 +9911,7 @@
         "leaderAbility": {
             "name": "Human Blessing IV",
             "description": "260% REC for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.6
             },
             "target": "Human"
@@ -9937,7 +9937,7 @@
         "leaderAbility": {
             "name": "Human Blessing V",
             "description": "280% REC for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.8
             },
             "target": "Human"
@@ -9963,7 +9963,7 @@
         "leaderAbility": {
             "name": "Human Blessing VI",
             "description": "300% REC for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3
             },
             "target": "Human"
@@ -9989,7 +9989,7 @@
         "leaderAbility": {
             "name": "Dragonborn I",
             "description": "175% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -10019,7 +10019,7 @@
         "leaderAbility": {
             "name": "Dragonborn II",
             "description": "200% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -10049,7 +10049,7 @@
         "leaderAbility": {
             "name": "Dragonborn III",
             "description": "225% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -10079,7 +10079,7 @@
         "leaderAbility": {
             "name": "Dragonborn IV",
             "description": "300% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -10109,7 +10109,7 @@
         "leaderAbility": {
             "name": "Dragonborn I",
             "description": "175% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -10139,7 +10139,7 @@
         "leaderAbility": {
             "name": "Dragonborn II",
             "description": "200% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -10169,7 +10169,7 @@
         "leaderAbility": {
             "name": "Dragonborn III",
             "description": "225% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -10199,7 +10199,7 @@
         "leaderAbility": {
             "name": "Dragonborn IV",
             "description": "300% Damage and HP for all Fire Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -10231,7 +10231,7 @@
         "leaderAbility": {
             "name": "Legendary Might I",
             "description": "125% Damage, RCV and HP for all Legend Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.25,
                 "recovery": 1.25,
                 "health": 1.25
@@ -10261,7 +10261,7 @@
         "leaderAbility": {
             "name": "Legendary Might I",
             "description": "125% Damage, RCV and HP for all Legend Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.25,
                 "recovery": 1.25,
                 "health": 1.25
@@ -10291,7 +10291,7 @@
         "leaderAbility": {
             "name": "Legendary Might IV",
             "description": "200% Damage, RCV and HP for all Legend Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "recovery": 2,
                 "health": 2
@@ -10317,7 +10317,7 @@
         "leaderAbility": {
             "name": "Water Might I",
             "description": "110% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Water"
@@ -10341,7 +10341,7 @@
         "leaderAbility": {
             "name": "Water Might II",
             "description": "120% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Water"
@@ -10365,7 +10365,7 @@
         "leaderAbility": {
             "name": "Water Might III",
             "description": "140% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Water"
@@ -10389,7 +10389,7 @@
         "leaderAbility": {
             "name": "Balanced Might I",
             "description": "110% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Balanced"
@@ -10413,7 +10413,7 @@
         "leaderAbility": {
             "name": "Balanced Might II",
             "description": "120% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Balanced"
@@ -10437,7 +10437,7 @@
         "leaderAbility": {
             "name": "Water Armor I",
             "description": "110% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Water"
@@ -10461,7 +10461,7 @@
         "leaderAbility": {
             "name": "Water Armor II",
             "description": "120% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Water"
@@ -10485,7 +10485,7 @@
         "leaderAbility": {
             "name": "Water Armor III",
             "description": "140% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Water"
@@ -10509,7 +10509,7 @@
         "leaderAbility": {
             "name": "Water Armor IV",
             "description": "160% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Water"
@@ -10533,7 +10533,7 @@
         "leaderAbility": {
             "name": "Warrior Armor II",
             "description": "120% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Warrior"
@@ -10557,7 +10557,7 @@
         "leaderAbility": {
             "name": "Warrior Armor III",
             "description": "140% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Warrior"
@@ -10581,7 +10581,7 @@
         "leaderAbility": {
             "name": "Defender Armor III",
             "description": "140% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Defender"
@@ -10605,7 +10605,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -10629,7 +10629,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -10653,7 +10653,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -10677,7 +10677,7 @@
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Guardian"
@@ -10701,7 +10701,7 @@
         "leaderAbility": {
             "name": "Water Might III",
             "description": "140% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Water"
@@ -10725,7 +10725,7 @@
         "leaderAbility": {
             "name": "Water Might IV",
             "description": "160% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Water"
@@ -10749,7 +10749,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -10773,7 +10773,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -10797,7 +10797,7 @@
         "leaderAbility": {
             "name": "Water Blessing I",
             "description": "110% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.1
             },
             "target": "Water"
@@ -10821,7 +10821,7 @@
         "leaderAbility": {
             "name": "Water Blessing II",
             "description": "120% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.2
             },
             "target": "Water"
@@ -10845,7 +10845,7 @@
         "leaderAbility": {
             "name": "Water Blessing III",
             "description": "140% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.4
             },
             "target": "Water"
@@ -10869,7 +10869,7 @@
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Attacker"
@@ -10893,7 +10893,7 @@
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Attacker"
@@ -10917,7 +10917,7 @@
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Guardian"
@@ -10941,7 +10941,7 @@
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Guardian"
@@ -10965,7 +10965,7 @@
         "leaderAbility": {
             "name": "Water Armor III",
             "description": "140% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Water"
@@ -10989,7 +10989,7 @@
         "leaderAbility": {
             "name": "Water Armor IV",
             "description": "160% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Water"
@@ -11013,7 +11013,7 @@
         "leaderAbility": {
             "name": "Water Armor V",
             "description": "180% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Water"
@@ -11037,7 +11037,7 @@
         "leaderAbility": {
             "name": "Water Armor VI",
             "description": "200% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Water"
@@ -11061,7 +11061,7 @@
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Mage"
@@ -11085,7 +11085,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -11109,7 +11109,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -11133,7 +11133,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -11157,7 +11157,7 @@
         "leaderAbility": {
             "name": "Water Blessing IV",
             "description": "160% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Water"
@@ -11183,7 +11183,7 @@
         "leaderAbility": {
             "name": "Water Might V",
             "description": "180% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Water"
@@ -11209,7 +11209,7 @@
         "leaderAbility": {
             "name": "Water Might VI",
             "description": "200% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Water"
@@ -11233,7 +11233,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -11257,7 +11257,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -11281,7 +11281,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -11305,7 +11305,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -11329,7 +11329,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -11353,7 +11353,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -11377,7 +11377,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -11401,7 +11401,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -11425,7 +11425,7 @@
         "leaderAbility": {
             "name": "Mage Might VI",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -11449,7 +11449,7 @@
         "leaderAbility": {
             "name": "Water Blessing IV",
             "description": "160% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Water"
@@ -11473,7 +11473,7 @@
         "leaderAbility": {
             "name": "Water Blessing V",
             "description": "180% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Water"
@@ -11497,7 +11497,7 @@
         "leaderAbility": {
             "name": "Water Blessing VI",
             "description": "200% REC for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Water"
@@ -11521,7 +11521,7 @@
         "leaderAbility": {
             "name": "Spirit Might IV",
             "description": "160% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Spirit"
@@ -11545,7 +11545,7 @@
         "leaderAbility": {
             "name": "Spirit Might V",
             "description": "180% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Spirit"
@@ -11569,7 +11569,7 @@
         "leaderAbility": {
             "name": "Spirit Might VI",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -11597,7 +11597,7 @@
         "leaderAbility": {
             "name": "Water Might II",
             "description": "120% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Water"
@@ -11625,7 +11625,7 @@
         "leaderAbility": {
             "name": "Water Might III",
             "description": "140% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Water"
@@ -11653,7 +11653,7 @@
         "leaderAbility": {
             "name": "Water Might IV",
             "description": "160% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Water"
@@ -11681,7 +11681,7 @@
         "leaderAbility": {
             "name": "Water Might V",
             "description": "180% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Water"
@@ -11709,7 +11709,7 @@
         "leaderAbility": {
             "name": "Water Might VI",
             "description": "200% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Water"
@@ -11733,7 +11733,7 @@
         "leaderAbility": {
             "name": "Dragon Might IV",
             "description": "160% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dragon"
@@ -11757,7 +11757,7 @@
         "leaderAbility": {
             "name": "Dragon Might V",
             "description": "180% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dragon"
@@ -11781,7 +11781,7 @@
         "leaderAbility": {
             "name": "Dragon Might VI",
             "description": "200% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dragon"
@@ -11805,7 +11805,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing IV",
             "description": "160% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Corrupt"
@@ -11829,7 +11829,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing V",
             "description": "180% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Corrupt"
@@ -11853,7 +11853,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing VI",
             "description": "200% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Corrupt"
@@ -11879,7 +11879,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -11905,7 +11905,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -11931,7 +11931,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -11955,7 +11955,7 @@
         "leaderAbility": {
             "name": "Creature Armor IV",
             "description": "160% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Creature"
@@ -11979,7 +11979,7 @@
         "leaderAbility": {
             "name": "Creature Armor V",
             "description": "180% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Creature"
@@ -12003,7 +12003,7 @@
         "leaderAbility": {
             "name": "Creature Armor VI",
             "description": "200% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Creature"
@@ -12029,7 +12029,7 @@
         "leaderAbility": {
             "name": "Balanced Armor IV",
             "description": "160% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Balanced"
@@ -12055,7 +12055,7 @@
         "leaderAbility": {
             "name": "Balanced Armor V",
             "description": "180% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Balanced"
@@ -12081,7 +12081,7 @@
         "leaderAbility": {
             "name": "Balanced Armor VI",
             "description": "200% HP for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Balanced"
@@ -12105,7 +12105,7 @@
         "leaderAbility": {
             "name": "Water Might IV",
             "description": "160% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Water"
@@ -12129,7 +12129,7 @@
         "leaderAbility": {
             "name": "Water Might V",
             "description": "180% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Water"
@@ -12153,7 +12153,7 @@
         "leaderAbility": {
             "name": "Water Might VI",
             "description": "200% Damage for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Water"
@@ -12177,7 +12177,7 @@
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Creature"
@@ -12201,7 +12201,7 @@
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Creature"
@@ -12225,7 +12225,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Creature"
@@ -12251,7 +12251,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -12275,7 +12275,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -12299,7 +12299,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -12323,7 +12323,7 @@
         "leaderAbility": {
             "name": "Giant Might IV",
             "description": "160% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Giant"
@@ -12347,7 +12347,7 @@
         "leaderAbility": {
             "name": "Giant Might V",
             "description": "180% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Giant"
@@ -12371,7 +12371,7 @@
         "leaderAbility": {
             "name": "Giant Might VI",
             "description": "200% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Giant"
@@ -12395,7 +12395,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -12419,7 +12419,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -12443,7 +12443,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -12467,7 +12467,7 @@
         "leaderAbility": {
             "name": "Water Armor IV",
             "description": "160% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Water"
@@ -12491,7 +12491,7 @@
         "leaderAbility": {
             "name": "Water Armor V",
             "description": "180% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Water"
@@ -12515,7 +12515,7 @@
         "leaderAbility": {
             "name": "Water Armor VI",
             "description": "200% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Water"
@@ -12539,7 +12539,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -12563,7 +12563,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -12587,7 +12587,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -12613,7 +12613,7 @@
         "leaderAbility": {
             "name": "Mortal Charm I",
             "description": "175% Damage and HP for all Light Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -12643,7 +12643,7 @@
         "leaderAbility": {
             "name": "Mortal Charm II",
             "description": "200% Damage and HP for all Light Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -12673,7 +12673,7 @@
         "leaderAbility": {
             "name": "Mortal Charm III",
             "description": "225% Damage and HP for all Light Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -12703,7 +12703,7 @@
         "leaderAbility": {
             "name": "Mortal Charm IV",
             "description": "300% Damage and HP for all Light Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -12731,7 +12731,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -12755,7 +12755,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -12779,7 +12779,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -12805,7 +12805,7 @@
         "leaderAbility": {
             "name": "Wrath of the Sea I",
             "description": "175% Damage and HP for all Water Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -12835,7 +12835,7 @@
         "leaderAbility": {
             "name": "Wrath of the Sea II",
             "description": "200% Damage and HP for all Water Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -12865,7 +12865,7 @@
         "leaderAbility": {
             "name": "Wrath of the Sea III",
             "description": "225% Damage and HP for all Water Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -12895,7 +12895,7 @@
         "leaderAbility": {
             "name": "Wrath of the Sea IV",
             "description": "300% Damage and HP for all Water Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -12926,7 +12926,7 @@
         "leaderAbility": {
             "name": "Water Armor III",
             "description": "140% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Water"
@@ -12953,7 +12953,7 @@
         "leaderAbility": {
             "name": "Water Armor IV",
             "description": "160% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Water"
@@ -12980,7 +12980,7 @@
         "leaderAbility": {
             "name": "Water Armor V",
             "description": "180% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Water"
@@ -13007,7 +13007,7 @@
         "leaderAbility": {
             "name": "Water Armor VI",
             "description": "200% HP for all Water Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Water"
@@ -13034,7 +13034,7 @@
         "leaderAbility": {
             "name": "Deluge of Power I",
             "description": "175% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -13065,7 +13065,7 @@
         "leaderAbility": {
             "name": "Deluge of Power II",
             "description": "200% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -13096,7 +13096,7 @@
         "leaderAbility": {
             "name": "Deluge of Power III",
             "description": "225% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -13127,7 +13127,7 @@
         "leaderAbility": {
             "name": "Deluge of Power IV",
             "description": "300% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -13158,7 +13158,7 @@
         "leaderAbility": {
             "name": "Deluge of Power I",
             "description": "175% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -13189,7 +13189,7 @@
         "leaderAbility": {
             "name": "Deluge of Power II",
             "description": "200% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -13220,7 +13220,7 @@
         "leaderAbility": {
             "name": "Deluge of Power III",
             "description": "225% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -13251,7 +13251,7 @@
         "leaderAbility": {
             "name": "Deluge of Power IV",
             "description": "300% Damage and HP for all Water Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -13281,7 +13281,7 @@
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Human"
@@ -13307,7 +13307,7 @@
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Human"
@@ -13333,7 +13333,7 @@
         "leaderAbility": {
             "name": "Honored Might IV",
             "description": "160% Damage for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Honored"
@@ -13359,7 +13359,7 @@
         "leaderAbility": {
             "name": "Honored Might V",
             "description": "180% Damage for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Honored"
@@ -13385,7 +13385,7 @@
         "leaderAbility": {
             "name": "Honored Might VI",
             "description": "200% Damage for all Honored Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Honored"
@@ -13411,7 +13411,7 @@
         "leaderAbility": {
             "name": "Scent of Blood I",
             "description": "175% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -13441,7 +13441,7 @@
         "leaderAbility": {
             "name": "Scent of Blood II",
             "description": "200% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -13471,7 +13471,7 @@
         "leaderAbility": {
             "name": "Scent of Blood III",
             "description": "225% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -13501,7 +13501,7 @@
         "leaderAbility": {
             "name": "Scent of Blood IV",
             "description": "300% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -13531,7 +13531,7 @@
         "leaderAbility": {
             "name": "Scent of Blood I",
             "description": "175% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -13561,7 +13561,7 @@
         "leaderAbility": {
             "name": "Scent of Blood II",
             "description": "200% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -13591,7 +13591,7 @@
         "leaderAbility": {
             "name": "Scent of Blood III",
             "description": "225% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -13621,7 +13621,7 @@
         "leaderAbility": {
             "name": "Scent of Blood IV",
             "description": "300% Damage and HP for all Water Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -13649,7 +13649,7 @@
         "leaderAbility": {
             "name": "Balanced Might I",
             "description": "110% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Balanced"
@@ -13673,7 +13673,7 @@
         "leaderAbility": {
             "name": "Balanced Might II",
             "description": "120% Damage for all Balanced Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Balanced"
@@ -13697,7 +13697,7 @@
         "leaderAbility": {
             "name": "Earth Blessing I",
             "description": "110% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.1
             },
             "target": "Earth"
@@ -13721,7 +13721,7 @@
         "leaderAbility": {
             "name": "Earth Blessing II",
             "description": "120% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.2
             },
             "target": "Earth"
@@ -13745,7 +13745,7 @@
         "leaderAbility": {
             "name": "Earth Blessing III",
             "description": "140% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.4
             },
             "target": "Earth"
@@ -13769,7 +13769,7 @@
         "leaderAbility": {
             "name": "Earth Might I",
             "description": "110% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.1
             },
             "target": "Earth"
@@ -13793,7 +13793,7 @@
         "leaderAbility": {
             "name": "Earth Might II",
             "description": "120% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Earth"
@@ -13817,7 +13817,7 @@
         "leaderAbility": {
             "name": "Earth Might III",
             "description": "140% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Earth"
@@ -13841,7 +13841,7 @@
         "leaderAbility": {
             "name": "Defender Armor III",
             "description": "140% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Defender"
@@ -13865,7 +13865,7 @@
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Defender"
@@ -13889,7 +13889,7 @@
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Guardian"
@@ -13913,7 +13913,7 @@
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Guardian"
@@ -13937,7 +13937,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -13961,7 +13961,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -13985,7 +13985,7 @@
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Human"
@@ -14009,7 +14009,7 @@
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Human"
@@ -14033,7 +14033,7 @@
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Warrior"
@@ -14057,7 +14057,7 @@
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Warrior"
@@ -14081,7 +14081,7 @@
         "leaderAbility": {
             "name": "Earth Might III",
             "description": "140% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Earth"
@@ -14105,7 +14105,7 @@
         "leaderAbility": {
             "name": "Earth Might IV",
             "description": "160% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Earth"
@@ -14129,7 +14129,7 @@
         "leaderAbility": {
             "name": "Earth Armor I",
             "description": "110% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.1
             },
             "target": "Earth"
@@ -14153,7 +14153,7 @@
         "leaderAbility": {
             "name": "Earth Armor II",
             "description": "120% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Earth"
@@ -14177,7 +14177,7 @@
         "leaderAbility": {
             "name": "Earth Armor III",
             "description": "140% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Earth"
@@ -14201,7 +14201,7 @@
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Earth"
@@ -14225,7 +14225,7 @@
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Attacker"
@@ -14249,7 +14249,7 @@
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Attacker"
@@ -14273,7 +14273,7 @@
         "leaderAbility": {
             "name": "Warrior Armor II",
             "description": "120% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.2
             },
             "target": "Warrior"
@@ -14297,7 +14297,7 @@
         "leaderAbility": {
             "name": "Warrior Armor III",
             "description": "140% HP for all Warrior Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Warrior"
@@ -14321,7 +14321,7 @@
         "leaderAbility": {
             "name": "Earth Armor III",
             "description": "140% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.4
             },
             "target": "Earth"
@@ -14345,7 +14345,7 @@
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Earth"
@@ -14369,7 +14369,7 @@
         "leaderAbility": {
             "name": "Earth Armor V",
             "description": "180% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Earth"
@@ -14393,7 +14393,7 @@
         "leaderAbility": {
             "name": "Earth Armor VI",
             "description": "200% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Earth"
@@ -14417,7 +14417,7 @@
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Mage"
@@ -14441,7 +14441,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -14465,7 +14465,7 @@
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Guardian"
@@ -14489,7 +14489,7 @@
         "leaderAbility": {
             "name": "Earth Blessing IV",
             "description": "160% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Earth"
@@ -14513,7 +14513,7 @@
         "leaderAbility": {
             "name": "Earth Might V",
             "description": "180% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Earth"
@@ -14537,7 +14537,7 @@
         "leaderAbility": {
             "name": "Earth Might VI",
             "description": "200% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Earth"
@@ -14561,7 +14561,7 @@
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Human"
@@ -14585,7 +14585,7 @@
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Human"
@@ -14609,7 +14609,7 @@
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -14633,7 +14633,7 @@
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Giant"
@@ -14657,7 +14657,7 @@
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Giant"
@@ -14681,7 +14681,7 @@
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Giant"
@@ -14705,7 +14705,7 @@
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Mage"
@@ -14729,7 +14729,7 @@
         "leaderAbility": {
             "name": "Mage Might V",
             "description": "180% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Mage"
@@ -14753,7 +14753,7 @@
         "leaderAbility": {
             "name": "Mage Might VI",
             "description": "200% Damage for all Mage Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Mage"
@@ -14777,7 +14777,7 @@
         "leaderAbility": {
             "name": "Spirit Might IV",
             "description": "160% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Spirit"
@@ -14801,7 +14801,7 @@
         "leaderAbility": {
             "name": "Spirit Might V",
             "description": "180% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Spirit"
@@ -14825,7 +14825,7 @@
         "leaderAbility": {
             "name": "Spirit Might VI",
             "description": "200% Damage for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Spirit"
@@ -14849,7 +14849,7 @@
         "leaderAbility": {
             "name": "Earth Blessing IV",
             "description": "160% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Earth"
@@ -14873,7 +14873,7 @@
         "leaderAbility": {
             "name": "Earth Blessing V",
             "description": "180% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Earth"
@@ -14897,7 +14897,7 @@
         "leaderAbility": {
             "name": "Earth Blessing VI",
             "description": "200% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Earth"
@@ -14925,7 +14925,7 @@
         "leaderAbility": {
             "name": "Earth Might II",
             "description": "120% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.2
             },
             "target": "Earth"
@@ -14953,7 +14953,7 @@
         "leaderAbility": {
             "name": "Earth Might III",
             "description": "140% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.4
             },
             "target": "Earth"
@@ -14981,7 +14981,7 @@
         "leaderAbility": {
             "name": "Earth Might IV",
             "description": "160% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Earth"
@@ -15009,7 +15009,7 @@
         "leaderAbility": {
             "name": "Earth Might V",
             "description": "180% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Earth"
@@ -15037,7 +15037,7 @@
         "leaderAbility": {
             "name": "Earth Might VI",
             "description": "200% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Earth"
@@ -15061,7 +15061,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing IV",
             "description": "160% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.6
             },
             "target": "Corrupt"
@@ -15085,7 +15085,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing V",
             "description": "180% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 1.8
             },
             "target": "Corrupt"
@@ -15109,7 +15109,7 @@
         "leaderAbility": {
             "name": "Corrupt Blessing VI",
             "description": "200% REC for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Corrupt"
@@ -15133,7 +15133,7 @@
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Spirit"
@@ -15157,7 +15157,7 @@
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Spirit"
@@ -15181,7 +15181,7 @@
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Spirit"
@@ -15205,7 +15205,7 @@
         "leaderAbility": {
             "name": "Giant Might IV",
             "description": "160% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Giant"
@@ -15229,7 +15229,7 @@
         "leaderAbility": {
             "name": "Giant Might V",
             "description": "180% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Giant"
@@ -15253,7 +15253,7 @@
         "leaderAbility": {
             "name": "Giant Might VI",
             "description": "200% Damage for all Giant Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Giant"
@@ -15277,7 +15277,7 @@
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Creature"
@@ -15301,7 +15301,7 @@
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Creature"
@@ -15325,7 +15325,7 @@
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Creature"
@@ -15349,7 +15349,7 @@
         "leaderAbility": {
             "name": "Creature Armor IV",
             "description": "160% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Creature"
@@ -15373,7 +15373,7 @@
         "leaderAbility": {
             "name": "Creature Armor V",
             "description": "180% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Creature"
@@ -15397,7 +15397,7 @@
         "leaderAbility": {
             "name": "Creature Armor VI",
             "description": "200% HP for all Creature Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Creature"
@@ -15424,7 +15424,7 @@
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Earth"
@@ -15451,7 +15451,7 @@
         "leaderAbility": {
             "name": "Earth Armor V",
             "description": "180% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Earth"
@@ -15478,7 +15478,7 @@
         "leaderAbility": {
             "name": "Earth Armor VI",
             "description": "200% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Earth"
@@ -15504,7 +15504,7 @@
         "leaderAbility": {
             "name": "Earth Might IV",
             "description": "160% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Earth"
@@ -15530,7 +15530,7 @@
         "leaderAbility": {
             "name": "Earth Might V",
             "description": "180% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Earth"
@@ -15556,7 +15556,7 @@
         "leaderAbility": {
             "name": "Earth Might VI",
             "description": "200% Damage for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Earth"
@@ -15580,7 +15580,7 @@
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Earth"
@@ -15604,7 +15604,7 @@
         "leaderAbility": {
             "name": "Earth Armor V",
             "description": "180% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Earth"
@@ -15628,7 +15628,7 @@
         "leaderAbility": {
             "name": "Earth Armor VI",
             "description": "200% HP for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Earth"
@@ -15654,7 +15654,7 @@
         "leaderAbility": {
             "name": "Dragon Might IV",
             "description": "160% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Dragon"
@@ -15680,7 +15680,7 @@
         "leaderAbility": {
             "name": "Dragon Might V",
             "description": "180% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Dragon"
@@ -15706,7 +15706,7 @@
         "leaderAbility": {
             "name": "Dragon Might VI",
             "description": "200% Damage for all Dragon Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Dragon"
@@ -15733,7 +15733,7 @@
         "leaderAbility": {
             "name": "God Might IV",
             "description": "160% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "God"
@@ -15760,7 +15760,7 @@
         "leaderAbility": {
             "name": "God Might V",
             "description": "180% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "God"
@@ -15784,7 +15784,7 @@
         "leaderAbility": {
             "name": "God Might VI",
             "description": "200% Damage for all God Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "God"
@@ -15808,7 +15808,7 @@
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Human"
@@ -15834,7 +15834,7 @@
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Human"
@@ -15860,7 +15860,7 @@
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Human"
@@ -15886,7 +15886,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -15912,7 +15912,7 @@
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Demigod"
@@ -15938,7 +15938,7 @@
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Demigod"
@@ -15964,7 +15964,7 @@
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Demigod"
@@ -15988,7 +15988,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -16012,7 +16012,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -16036,7 +16036,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -16060,7 +16060,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -16086,7 +16086,7 @@
         "leaderAbility": {
             "name": "Heavenly Might I",
             "description": "175% Damage for all Fable Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "Fable"
@@ -16112,7 +16112,7 @@
         "leaderAbility": {
             "name": "Heavenly Might II",
             "description": "200% Damage for all Fable Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Fable"
@@ -16138,7 +16138,7 @@
         "leaderAbility": {
             "name": "Heavenly Might III",
             "description": "225% Damage for all Fable Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "Fable"
@@ -16164,7 +16164,7 @@
         "leaderAbility": {
             "name": "Heavenly Might IV",
             "description": "300% Damage for all Fable Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "Fable"
@@ -16190,7 +16190,7 @@
         "leaderAbility": {
             "name": "Terra Power I",
             "description": "175% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75
             },
             "target": "Human"
@@ -16216,7 +16216,7 @@
         "leaderAbility": {
             "name": "Terra Power II",
             "description": "200% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Human"
@@ -16242,7 +16242,7 @@
         "leaderAbility": {
             "name": "Terra Power III",
             "description": "225% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25
             },
             "target": "Human"
@@ -16268,7 +16268,7 @@
         "leaderAbility": {
             "name": "Terra Power IV",
             "description": "300% Damage for all Human Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3
             },
             "target": "Human"
@@ -16295,7 +16295,7 @@
         "leaderAbility": {
             "name": "Gaia's Flame I",
             "description": "175% Damage and HP for all Earth Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -16326,7 +16326,7 @@
         "leaderAbility": {
             "name": "Gaia's Flame II",
             "description": "200% Damage and HP for all Earth Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -16357,7 +16357,7 @@
         "leaderAbility": {
             "name": "Gaia's Flame III",
             "description": "225% Damage and HP for all Earth Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -16388,7 +16388,7 @@
         "leaderAbility": {
             "name": "Gaia's Flame IV",
             "description": "300% Damage and HP for all Earth Warriors Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -16416,7 +16416,7 @@
         "leaderAbility": {
             "name": "Attacker Armor IV",
             "description": "160% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.6
             },
             "target": "Attacker"
@@ -16440,7 +16440,7 @@
         "leaderAbility": {
             "name": "Attacker Armor V",
             "description": "180% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 1.8
             },
             "target": "Attacker"
@@ -16464,7 +16464,7 @@
         "leaderAbility": {
             "name": "Attacker Armor VI",
             "description": "200% HP for all Attacker Heroes",
-            "values": {
+            "modifiers": {
                 "health": 2
             },
             "target": "Attacker"
@@ -16488,7 +16488,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -16514,7 +16514,7 @@
         "leaderAbility": {
             "name": "Technological Blessing IV",
             "description": "200% REC for all Technological Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2
             },
             "target": "Technological"
@@ -16540,7 +16540,7 @@
         "leaderAbility": {
             "name": "Technological Blessing V",
             "description": "225% REC for all Technological Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 2.25
             },
             "target": "Technological"
@@ -16566,7 +16566,7 @@
         "leaderAbility": {
             "name": "Technological Blessing VI",
             "description": "300% REC for all Technological Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3
             },
             "target": "Technological"
@@ -16592,7 +16592,7 @@
         "leaderAbility": {
             "name": "Champion's Might I",
             "description": "175% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -16622,7 +16622,7 @@
         "leaderAbility": {
             "name": "Champion's Might II",
             "description": "200% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -16652,7 +16652,7 @@
         "leaderAbility": {
             "name": "Champion's Might III",
             "description": "225% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -16682,7 +16682,7 @@
         "leaderAbility": {
             "name": "Champion's Might IV",
             "description": "300% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -16712,7 +16712,7 @@
         "leaderAbility": {
             "name": "Champion's Might I",
             "description": "175% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.75,
                 "health": 1.75
             },
@@ -16742,7 +16742,7 @@
         "leaderAbility": {
             "name": "Champion's Might II",
             "description": "200% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2,
                 "health": 2
             },
@@ -16772,7 +16772,7 @@
         "leaderAbility": {
             "name": "Champion's Might III",
             "description": "225% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2.25,
                 "health": 2.25
             },
@@ -16802,7 +16802,7 @@
         "leaderAbility": {
             "name": "Champion's Might IV",
             "description": "300% Damage and HP for all Earth Attackers Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 3,
                 "health": 3
             },
@@ -16830,7 +16830,7 @@
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.6
             },
             "target": "Corrupt"
@@ -16854,7 +16854,7 @@
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 1.8
             },
             "target": "Corrupt"
@@ -16878,7 +16878,7 @@
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
-            "values": {
+            "modifiers": {
                 "attack": 2
             },
             "target": "Corrupt"
@@ -16905,7 +16905,7 @@
         "leaderAbility": {
             "name": "Earth Blessing VI",
             "description": "300% REC for all Earth Heroes",
-            "values": {
+            "modifiers": {
                 "recovery": 3
             },
             "target": "Earth"

@@ -38,7 +38,7 @@ function csvToArray($filename = '', $delimiter = ',')
         list(
             $leaderAbilityName,
             $leaderAbilityDescription,
-            $leaderAbilityValues,
+            $leaderAbilityModifiers,
             $leaderAbilityTarget
             ) = extractLiderAbility($liderAbility, $name);
 
@@ -65,7 +65,7 @@ function csvToArray($filename = '', $delimiter = ',')
             'leaderAbility' => [
                 'name' => $leaderAbilityName,
                 'description' => $leaderAbilityDescription,
-                'values' => $leaderAbilityValues,
+                'modifiers' => $leaderAbilityModifiers,
                 'target' => $leaderAbilityTarget,
             ],
             'evolveFrom' => '',
