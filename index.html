@@ -80,11 +80,11 @@
     <section>
         <div>
             <ul :id="listId" class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire ({{ counter.fire }})</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-water'">Water ({{ counter.water }})</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-earth'">Earth ({{ counter.earth }})</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-light'">Light ({{ counter.light }})</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-dark'">Dark ({{ counter.dark }})</a></li>
+                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire ({{ counter.Fire }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-water'">Water ({{ counter.Water }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-earth'">Earth ({{ counter.Earth }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-light'">Light ({{ counter.Light }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-dark'">Dark ({{ counter.Dark }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-all'">All ({{ counter.all }})</a></li>
             </ul>
         </div>
@@ -167,16 +167,17 @@
 
 <template id="team-adding-form">
     <div class="jumbotron">
-        <form id="team-adding" role="form" method="post" class="form-horizontal" @submit="addHeroToTeam">
+        <form id="team-adding" method="post" class="form-horizontal" @submit="addHeroToTeam">
             <fieldset>
                 <legend>Add hero to team</legend>
                 <div class='form-group'>
                     <div class='col-sm-12'>
-                        <select class="form-control selectpicker" id="team-hero-id" name="id" required title="Hero name" data-live-search="true" data-size="10">
-                            <optgroup v-for="affinity in affinities" :label="affinity">
-                                <option v-for="hero in heroes" v-if="hero.affinity == affinity" :value="hero.id"
-                                        :data-content="hero.name + ' ' + hero.rarityStarsHTML"
-                                >{{ hero.name }}
+                        <select class="form-control selectpicker" id="team-hero-id" name="coreId" required title="Hero name" data-live-search="true" data-size="10">
+                            <optgroup v-for="(heroes, affinity) in affinityHeroes" :label="affinity">
+                                <option v-for="hero in heroes"
+                                        :value="hero.coreId"
+                                        :data-content="hero.name + ' ' + hero.rarityStarsHTML">
+                                    {{ hero.name }}
                                 </option>
                             </optgroup>
                         </select>
@@ -202,9 +203,6 @@
                     </div>
                 </div>
                 <button id="add-to-team" class="btn btn-primary">Add to team</button>
-                <!--button id="add-random-to-team" @click="addRandomHeroToTeam" class="btn btn-primary" title="Press Shift to add 10 heroes at once">
-                    Add random hero to team (for tests)
-                </button-->
                 <button id="clear-team" @click="clearTeam" class="btn btn-danger pull-right">Clear your team</button>
             </fieldset>
         </form>

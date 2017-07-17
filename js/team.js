@@ -20,7 +20,7 @@ Team.prototype.addHeroes = function (heroes) {
 
 Team.prototype.removeHero = function (id) {
     for (var i = this.heroes.length - 1; i >= 0; --i) {
-        if (this.heroes[i].id == id) {
+        if (this.heroes[i].id === id) {
             this.heroes.splice(i, 1);
             return true;
         }
@@ -28,14 +28,21 @@ Team.prototype.removeHero = function (id) {
     return false;
 };
 
+Team.prototype.getHeroEvolution = function (hero) {
+    return {
+        evolveFrom: !!hero.evolveFrom ? this.find(hero.evolveFrom) : null,
+        evolveInto: !!hero.evolveInto ? this.find(hero.evolveInto) : null
+    };
+};
+
 Team.prototype.getHeroes = function (filters, sort) {
     var heroes = this.heroes.slice();
 
     if (sort) {
         heroes.sort(function (a, b) {
-            if (a.name < b.name) {
+            if (a.name + a.rarity < b.name + b.rarity) {
                 return -1;
-            } else if (a.name > b.name) {
+            } else if (a.name + a.rarity > b.name + b.rarity) {
                 return 1;
             }
             return 0;
@@ -59,6 +66,21 @@ Team.prototype.getHeroes = function (filters, sort) {
     }
 
     return heroes;
+};
+
+Team.prototype.getHeroesByAffinity = function () {
+    var affinityHeroes = {
+        Fire: [],
+        Water: [],
+        Earth: [],
+        Light: [],
+        Dark: []
+    };
+    for (var i = 0, hl = this.heroes.length; i < hl; ++i) {
+        affinityHeroes[this.heroes[i].affinity].push(this.heroes[i]);
+    }
+
+    return affinityHeroes;
 };
 
 Team.prototype.getUniqueHeroesProperties = function (property, filter) {
@@ -89,7 +111,7 @@ Team.prototype.getUniqueHeroesProperties = function (property, filter) {
 
 Team.prototype.find = function (id) {
     for (var i = 0; i < this.heroes.length; ++i) {
-        if (this.heroes[i].id == id) {
+        if (this.heroes[i].id === id || this.heroes[i].coreId === id) {
             return this.heroes[i];
         }
     }

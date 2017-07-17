@@ -1,5 +1,6 @@
 function Hero(props) {
     this.id = props.id;
+    this.coreId = props.coreId;
     this.name = props.name;
     this.rarity = props.rarity;
 
@@ -17,7 +18,7 @@ function Hero(props) {
     this.leaderAbility = props.leaderAbility;
 
     this.evolveFrom = props.evolveFrom;
-    this.evolveTo = props.evolveTo;
+    this.evolveInto = props.evolveInto;
 }
 
 Object.defineProperty(Hero.prototype, 'rarityStarsHTML', {

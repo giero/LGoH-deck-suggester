@@ -28,12 +28,20 @@ function csvToArray($filename = '', $delimiter = ',')
     }
 
     $dbData = [];
+    $ids = [];
 
-    foreach ($data as $index => $row) {
+    foreach ($data as $row) {
         $rarity = strlen($row['stars']);
         $affinity = ucfirst($row['affinity']);
         $name = $row['name'];
         $liderAbility = $row['leader ability'];
+        $id = generateId($row['name'], $row['stars']);
+
+        if (in_array($id, $ids)) {
+            var_dump("Id '{$id}', created by '{$row['name']} {$row['stars']}', already exists");
+            die();
+        }
+        $ids[] = $id;
 
         list(
             $leaderAbilityName,
@@ -43,7 +51,7 @@ function csvToArray($filename = '', $delimiter = ',')
             ) = extractLiderAbility($liderAbility, $name);
 
         $dbData[] = [
-            'id' => $index + 1,
+            'coreId' => $id,
             'name' => $name,
             'affinity' => $affinity,
             'type' => $row['class'],
@@ -68,8 +76,8 @@ function csvToArray($filename = '', $delimiter = ',')
                 'modifiers' => $leaderAbilityModifiers,
                 'target' => $leaderAbilityTarget,
             ],
-            'evolveFrom' => '',
-            'evolveTo' => '',
+            'evolveFrom' => !empty($row['evolve from']) ? generateId($row['evolve from']) : '',
+            'evolveInto' => !empty($row['evolve into']) ? generateId($row['evolve into']) : '',
         ];
     }
 
@@ -90,17 +98,17 @@ function convertStats($stats)
 }
 
 /**
- * @param $liderAbilityData
+ * @param $liderAbilityDescription
  * @param $heroName
  * @return array
  */
-function extractLiderAbility($liderAbilityData, $heroName)
+function extractLiderAbility($liderAbilityDescription, $heroName)
 {
     $leaderAbilityMatches = [];
     $leaderAbilityValues = [];
     if (preg_match(
         '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes))$/',
-        $liderAbilityData,
+        $liderAbilityDescription,
         $leaderAbilityMatches
     )) {
         $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
@@ -113,7 +121,7 @@ function extractLiderAbility($liderAbilityData, $heroName)
         }
     } elseif (preg_match(
         '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Bounty Hunters))$/',
-        $liderAbilityData,
+        $liderAbilityDescription,
         $leaderAbilityMatches
     )) {
         $leaderAbilityTarget = rtrim($leaderAbilityMatches[10], 's');
@@ -125,7 +133,7 @@ function extractLiderAbility($liderAbilityData, $heroName)
         }
     } elseif (preg_match(
         '/^([^:]+): ((\d+)% (ATK|HP|REC), (\d+)% (ATK|HP|REC) and (ATK|HP|REC) for (\w+( \w+)?) Heroes)$/',
-        $liderAbilityData,
+        $liderAbilityDescription,
         $leaderAbilityMatches
     )) {
         $leaderAbilityTarget = rtrim($leaderAbilityMatches[8], 's');
@@ -138,7 +146,7 @@ function extractLiderAbility($liderAbilityData, $heroName)
         $leaderAbilityValues[convertStats($leaderAbilityMatches[7])] = $leaderAbilityMatches[5] / 100;
     } elseif (preg_match(
         '/^([^:]+): ((\d+)% (Damage|HP|RCV), (Damage|HP|RCV) and (Damage|HP|RCV) for (\w+( \w+)?) Heroes)$/',
-        $liderAbilityData,
+        $liderAbilityDescription,
         $leaderAbilityMatches
     )) {
         $leaderAbilityTarget = rtrim(trim($leaderAbilityMatches[8]), 's');
@@ -151,13 +159,24 @@ function extractLiderAbility($liderAbilityData, $heroName)
         $leaderAbilityValues[convertStats($leaderAbilityMatches[6])] = $leaderAbilityMatches[3] / 100;
     } else {
         var_dump(
-            'Invalid leader ability format for '.$heroName.' ('.$liderAbilityData.')',
+            "Invalid leader ability format for {$heroName} ({$liderAbilityDescription})",
             $leaderAbilityMatches
         );
         die();
     }
 
     return array($leaderAbilityMatches[1], $leaderAbilityMatches[2], $leaderAbilityValues, $leaderAbilityTarget);
+}
+
+function generateId($name, $stars = null)
+{
+    $idLen = 8;
+
+    if (null !== $stars) {
+        return substr(md5("{$name} {$stars}"), 0, $idLen);
+    } else {
+        return substr(md5($name), 0, $idLen);
+    }
 }
 
 echo json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT);

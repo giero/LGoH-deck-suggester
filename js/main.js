@@ -38,7 +38,7 @@ function getHeroesTableComponent(team, options) {
         },
         methods: {
             removeHeroFromList: function (e) {
-                if (team.removeHero($(e.target).parents('tr').attr('data-hero-id'))) {
+                if (team.removeHero(parseInt($(e.target).parents('tr').attr('data-hero-id')))) {
                     team.save()
                 }
             }
@@ -63,12 +63,13 @@ Vue.component('team-heroes-list', {
     },
     computed: {
         counter: function () {
+            var affinityHeroes = teamHeroes.getHeroesByAffinity();
             return {
-                fire: teamHeroes.getHeroes({'affinity': 'Fire'}).length,
-                water: teamHeroes.getHeroes({'affinity': 'Water'}).length,
-                earth: teamHeroes.getHeroes({'affinity': 'Earth'}).length,
-                light: teamHeroes.getHeroes({'affinity': 'Light'}).length,
-                dark: teamHeroes.getHeroes({'affinity': 'Dark'}).length,
+                Fire: affinityHeroes['Fire'].length,
+                Water: affinityHeroes['Water'].length,
+                Earth: affinityHeroes['Earth'].length,
+                Light: affinityHeroes['Light'].length,
+                Dark: affinityHeroes['Dark'].length,
                 all: teamHeroes.getHeroes().length
             }
         }
@@ -93,12 +94,13 @@ Vue.component('all-heroes-list', {
     },
     computed: {
         counter: function () {
+            var affinityHeroes = allHeroes.getHeroesByAffinity();
             return {
-                fire: allHeroes.getHeroes({'affinity': 'Fire'}).length,
-                water: allHeroes.getHeroes({'affinity': 'Water'}).length,
-                earth: allHeroes.getHeroes({'affinity': 'Earth'}).length,
-                light: allHeroes.getHeroes({'affinity': 'Light'}).length,
-                dark: allHeroes.getHeroes({'affinity': 'Dark'}).length,
+                Fire: affinityHeroes['Fire'].length,
+                Water: affinityHeroes['Water'].length,
+                Earth: affinityHeroes['Earth'].length,
+                Light: affinityHeroes['Light'].length,
+                Dark: affinityHeroes['Dark'].length,
                 all: allHeroes.getHeroes().length
             }
         }
@@ -120,11 +122,8 @@ Vue.component('team-adding-form', {
         };
     },
     computed: {
-        heroes: function () {
-            return allHeroes.getHeroes();
-        },
-        affinities: function () {
-            return ['Fire', 'Water', 'Earth', 'Light', 'Dark'];
+        affinityHeroes: function () {
+            return allHeroes.getHeroesByAffinity();
         }
     },
     updated: function () {
@@ -153,37 +152,22 @@ Vue.component('team-adding-form', {
                     }
 
                 } else {
-                    formParams[kv.name] = parseInt(kv.value);
+                    if (kv.name === 'coreId') {
+                        formParams[kv.name] = kv.value;
+                    } else {
+                        formParams[kv.name] = parseInt(kv.value);
+                    }
                 }
             });
 
+            var nextId = teamHeroes.heroes.length === 0 ? 1 : teamHeroes.heroes[teamHeroes.heroes.length - 1].id + 1;
             teamHeroes.addHero(
-                $.extend({}, allHeroes.find(formParams.id), formParams, {id: teamHeroes.heroes.length})
+                $.extend({}, allHeroes.find(formParams.coreId), formParams, {id: nextId})
             );
             teamHeroes.save();
 
             $form[0].reset();
             this.refreshSelect();
-        },
-        addRandomHeroToTeam: function (e) {
-            e.preventDefault();
-
-            var n = e.shiftKey ? 10 : 1;
-
-            for (var i = 0; i < n; i++) {
-                var hero = $.extend(
-                    {},
-                    allHeroes.heroes[Math.floor(Math.random() * allHeroes.heroes.length)],
-                    {
-                        id: teamHeroes.heroes.length,
-                        attack: Math.floor(Math.random() * 1200) + 100,
-                        recovery: Math.floor(Math.random() * 900) + 100,
-                        health: Math.floor(Math.random() * 2400) + 100
-                    }
-                );
-                teamHeroes.addHero(hero);
-                teamHeroes.save();
-            }
         },
         clearTeam: function (e) {
             e.preventDefault();
