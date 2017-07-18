@@ -1361,9 +1361,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2246,
+        "recovery": 748,
+        "health": 3714,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3,
@@ -1409,6 +1409,34 @@
             "target": "Dark"
         },
         "evolveFrom": "5cd832d7",
+        "evolveInto": "e578b811"
+    },
+    {
+        "coreId": "e578b811",
+        "name": "Almar, Ascended",
+        "affinity": "Dark",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5830,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Dark Might VI",
+            "description": "200% Damage for all Dark Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Dark"
+        },
+        "evolveFrom": "ef786543",
         "evolveInto": ""
     },
     {
@@ -1456,7 +1484,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "28442f67",
+        "evolveFrom": "",
         "evolveInto": "f801b531"
     },
     {
@@ -1480,7 +1508,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "41a4755e",
+        "evolveFrom": "28442f67",
         "evolveInto": ""
     },
     {
@@ -1528,7 +1556,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "de68bb4b",
+        "evolveFrom": "",
         "evolveInto": "49bb93ce"
     },
     {
@@ -1552,7 +1580,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "74f4149e",
+        "evolveFrom": "de68bb4b",
         "evolveInto": ""
     },
     {
@@ -1600,7 +1628,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "41a90ae6",
+        "evolveFrom": "",
         "evolveInto": "24b2a9e9"
     },
     {
@@ -1624,7 +1652,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "504b1206",
+        "evolveFrom": "41a90ae6",
         "evolveInto": ""
     },
     {
@@ -1672,7 +1700,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "2d27be12",
+        "evolveFrom": "",
         "evolveInto": "42648aef"
     },
     {
@@ -1696,7 +1724,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "616c8e26",
+        "evolveFrom": "2d27be12",
         "evolveInto": ""
     },
     {
@@ -1750,7 +1778,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "91071d30",
+        "evolveFrom": "",
         "evolveInto": "90230c20"
     },
     {
@@ -1777,7 +1805,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "9c20949f",
+        "evolveFrom": "91071d30",
         "evolveInto": "3599248e"
     },
     {
@@ -1804,7 +1832,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "90230c20",
+        "evolveFrom": "9c20949f",
         "evolveInto": "ab25b3e2"
     },
     {
@@ -1831,7 +1859,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "3599248e",
+        "evolveFrom": "90230c20",
         "evolveInto": "e6cc2109"
     },
     {
@@ -1858,7 +1886,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "ab25b3e2",
+        "evolveFrom": "3599248e",
         "evolveInto": ""
     },
     {
@@ -1906,7 +1934,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "2e48f82d",
+        "evolveFrom": "",
         "evolveInto": "ee9062c3"
     },
     {
@@ -1930,7 +1958,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "4d419fa2",
+        "evolveFrom": "2e48f82d",
         "evolveInto": "fb3fb959"
     },
     {
@@ -1954,7 +1982,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "ee9062c3",
+        "evolveFrom": "4d419fa2",
         "evolveInto": ""
     },
     {
@@ -2002,7 +2030,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "a8bf4ea8",
+        "evolveFrom": "",
         "evolveInto": "346edadf"
     },
     {
@@ -2026,7 +2054,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "bc145b92",
+        "evolveFrom": "a8bf4ea8",
         "evolveInto": ""
     },
     {
@@ -2078,7 +2106,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "29887355",
+        "evolveFrom": "",
         "evolveInto": "81eea7ad"
     },
     {
@@ -2104,7 +2132,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ea64f061",
+        "evolveFrom": "29887355",
         "evolveInto": "77a4c008"
     },
     {
@@ -2130,7 +2158,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "81eea7ad",
+        "evolveFrom": "ea64f061",
         "evolveInto": ""
     },
     {
@@ -2139,9 +2167,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1709,
+        "recovery": 229,
+        "health": 1144,
         "rarity": 4,
         "eventSkills": [],
         "defenderSkill": "Judgement",
@@ -2163,9 +2191,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2895,
+        "recovery": 386,
+        "health": 1936,
         "rarity": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
@@ -2178,7 +2206,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "0afc07fd",
+        "evolveFrom": "",
         "evolveInto": "2452dd5d"
     },
     {
@@ -2187,9 +2215,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4228,
+        "recovery": 566,
+        "health": 2831,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Judgement",
@@ -2202,7 +2230,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "92d47881",
+        "evolveFrom": "0afc07fd",
         "evolveInto": ""
     },
     {
@@ -2254,7 +2282,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "0a8e1c82",
+        "evolveFrom": "",
         "evolveInto": "455dd5d0"
     },
     {
@@ -2280,7 +2308,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "ef11144b",
+        "evolveFrom": "0a8e1c82",
         "evolveInto": ""
     },
     {
@@ -2332,7 +2360,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "2a1f16c3",
+        "evolveFrom": "",
         "evolveInto": "dfad7541"
     },
     {
@@ -2358,7 +2386,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "e09ca892",
+        "evolveFrom": "2a1f16c3",
         "evolveInto": "d4595af1"
     },
     {
@@ -2384,7 +2412,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "dfad7541",
+        "evolveFrom": "e09ca892",
         "evolveInto": ""
     },
     {
@@ -2432,7 +2460,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "1a7a7c4f",
+        "evolveFrom": "",
         "evolveInto": "fc435d03"
     },
     {
@@ -2456,7 +2484,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "d5c54e23",
+        "evolveFrom": "1a7a7c4f",
         "evolveInto": ""
     },
     {
@@ -2514,7 +2542,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "fe934a70",
+        "evolveFrom": "",
         "evolveInto": "27676f3e"
     },
     {
@@ -2543,7 +2571,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "6ca83cdc",
+        "evolveFrom": "fe934a70",
         "evolveInto": "7a1c725f"
     },
     {
@@ -2572,7 +2600,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "27676f3e",
+        "evolveFrom": "6ca83cdc",
         "evolveInto": ""
     },
     {
@@ -2624,7 +2652,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "59aefd2c",
+        "evolveFrom": "",
         "evolveInto": "ab74bd71"
     },
     {
@@ -2650,7 +2678,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c5e9d733",
+        "evolveFrom": "59aefd2c",
         "evolveInto": ""
     },
     {
@@ -2710,7 +2738,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "54922024",
+        "evolveFrom": "",
         "evolveInto": "721286f1"
     },
     {
@@ -2740,7 +2768,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "934ba3bf",
+        "evolveFrom": "54922024",
         "evolveInto": "a152b51a"
     },
     {
@@ -2770,7 +2798,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "721286f1",
+        "evolveFrom": "934ba3bf",
         "evolveInto": ""
     },
     {
@@ -2818,7 +2846,7 @@
             },
             "target": "Mage"
         },
-        "evolveFrom": "06370a88",
+        "evolveFrom": "",
         "evolveInto": "bd3dbe32"
     },
     {
@@ -2842,7 +2870,7 @@
             },
             "target": "Mage"
         },
-        "evolveFrom": "0b7171c1",
+        "evolveFrom": "06370a88",
         "evolveInto": ""
     },
     {
@@ -2890,7 +2918,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "2b31944d",
+        "evolveFrom": "",
         "evolveInto": "e4d0a720"
     },
     {
@@ -2914,7 +2942,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "688cff52",
+        "evolveFrom": "2b31944d",
         "evolveInto": ""
     },
     {
@@ -2966,7 +2994,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "5afd2ba0",
+        "evolveFrom": "",
         "evolveInto": "6438b4e0"
     },
     {
@@ -2992,7 +3020,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "f2d4db15",
+        "evolveFrom": "5afd2ba0",
         "evolveInto": ""
     },
     {
@@ -3052,7 +3080,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "366550d9",
+        "evolveFrom": "",
         "evolveInto": "d320fe96"
     },
     {
@@ -3082,7 +3110,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "de32c005",
+        "evolveFrom": "366550d9",
         "evolveInto": "71a2d5d5"
     },
     {
@@ -3112,7 +3140,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "d320fe96",
+        "evolveFrom": "de32c005",
         "evolveInto": ""
     },
     {
@@ -3172,7 +3200,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "9767ec7c",
+        "evolveFrom": "",
         "evolveInto": "a32758ed"
     },
     {
@@ -3202,7 +3230,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "f19b2e3a",
+        "evolveFrom": "9767ec7c",
         "evolveInto": "6d4028d2"
     },
     {
@@ -3232,7 +3260,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "a32758ed",
+        "evolveFrom": "f19b2e3a",
         "evolveInto": ""
     },
     {
@@ -3284,7 +3312,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "e3230c7c",
+        "evolveFrom": "",
         "evolveInto": "e032959c"
     },
     {
@@ -3310,7 +3338,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "5b450ac0",
+        "evolveFrom": "e3230c7c",
         "evolveInto": ""
     },
     {
@@ -3362,7 +3390,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "02792402",
+        "evolveFrom": "",
         "evolveInto": "6472b46d"
     },
     {
@@ -3388,7 +3416,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "c0ef31c6",
+        "evolveFrom": "02792402",
         "evolveInto": ""
     },
     {
@@ -3427,9 +3455,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Ancient",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1636,
+        "recovery": 140,
+        "health": 2725,
         "rarity": 4,
         "eventSkills": {
             "Commander": 2
@@ -3448,7 +3476,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "46d5215b",
+        "evolveFrom": "",
         "evolveInto": "caf4ff04"
     },
     {
@@ -3457,9 +3485,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Ancient",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2764,
+        "recovery": 234,
+        "health": 4608,
         "rarity": 5,
         "eventSkills": {
             "Commander": 3
@@ -3478,7 +3506,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "7af8f049",
+        "evolveFrom": "46d5215b",
         "evolveInto": "0c408bb5"
     },
     {
@@ -3508,7 +3536,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "caf4ff04",
+        "evolveFrom": "7af8f049",
         "evolveInto": ""
     },
     {
@@ -3568,7 +3596,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "36567e7d",
+        "evolveFrom": "",
         "evolveInto": "b29bc31f"
     },
     {
@@ -3598,7 +3626,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "5094d032",
+        "evolveFrom": "36567e7d",
         "evolveInto": "0fa3d1e8"
     },
     {
@@ -3628,7 +3656,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "b29bc31f",
+        "evolveFrom": "5094d032",
         "evolveInto": ""
     },
     {
@@ -4359,9 +4387,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2894,
+        "recovery": 243,
+        "health": 4822,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Poison",
@@ -5067,9 +5095,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2232,
+        "recovery": 744,
+        "health": 3719,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3,
@@ -5115,6 +5143,34 @@
             "target": "Light"
         },
         "evolveFrom": "a0aa7f7e",
+        "evolveInto": "93167935"
+    },
+    {
+        "coreId": "93167935",
+        "name": "Aline, Ascended",
+        "affinity": "Light",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5830,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Light Might VI",
+            "description": "200% Damage for all Light Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "7719afb1",
         "evolveInto": ""
     },
     {
@@ -5166,7 +5222,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "77d15ac0",
+        "evolveFrom": "",
         "evolveInto": "89a40279"
     },
     {
@@ -5192,7 +5248,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "764b01a6",
+        "evolveFrom": "77d15ac0",
         "evolveInto": ""
     },
     {
@@ -5244,7 +5300,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "e2cd6707",
+        "evolveFrom": "",
         "evolveInto": "d589290a"
     },
     {
@@ -5270,7 +5326,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "83e8a1ff",
+        "evolveFrom": "e2cd6707",
         "evolveInto": ""
     },
     {
@@ -5279,9 +5335,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1711,
+        "recovery": 229,
+        "health": 1146,
         "rarity": 4,
         "eventSkills": [],
         "defenderSkill": "Vessel",
@@ -5303,9 +5359,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2895,
+        "recovery": 386,
+        "health": 1934,
         "rarity": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
@@ -5318,7 +5374,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "28cb0780",
+        "evolveFrom": "",
         "evolveInto": "4904ec2d"
     },
     {
@@ -5327,9 +5383,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4228,
+        "recovery": 566,
+        "health": 2833,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Vessel",
@@ -5342,7 +5398,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "4f6c5935",
+        "evolveFrom": "28cb0780",
         "evolveInto": ""
     },
     {
@@ -5390,7 +5446,7 @@
             },
             "target": "Defender"
         },
-        "evolveFrom": "566195c4",
+        "evolveFrom": "",
         "evolveInto": "994cd675"
     },
     {
@@ -5414,151 +5470,7 @@
             },
             "target": "Defender"
         },
-        "evolveFrom": "4d30937b",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "13a6b5a1",
-        "name": "Kristof, Joy Bringer",
-        "affinity": "Light",
-        "type": "Mage",
-        "species": "Demigod",
-        "attack": 1438,
-        "recovery": 479,
-        "health": 616,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Dispel Regen",
-        "leaderAbility": {
-            "name": "Demigod Might IV",
-            "description": "160% Damage for all Demigod Heroes",
-            "modifiers": {
-                "attack": 1.6
-            },
-            "target": "Demigod"
-        },
-        "evolveFrom": "",
-        "evolveInto": "ed71a68b"
-    },
-    {
-        "coreId": "ed71a68b",
-        "name": "Father Kristof",
-        "affinity": "Light",
-        "type": "Mage",
-        "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Dispel Regen",
-        "leaderAbility": {
-            "name": "Demigod Might V",
-            "description": "180% Damage for all Demigod Heroes",
-            "modifiers": {
-                "attack": 1.8
-            },
-            "target": "Demigod"
-        },
-        "evolveFrom": "13a6b5a1",
-        "evolveInto": "1c7d175e"
-    },
-    {
-        "coreId": "1c7d175e",
-        "name": "Kristof and Rufus",
-        "affinity": "Light",
-        "type": "Mage",
-        "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Dispel Regen",
-        "leaderAbility": {
-            "name": "Demigod Might VI",
-            "description": "200% Damage for all Demigod Heroes",
-            "modifiers": {
-                "attack": 2
-            },
-            "target": "Demigod"
-        },
-        "evolveFrom": "ed71a68b",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "242b209a",
-        "name": "Sherlock, The Deductive",
-        "affinity": "Light",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 693,
-        "recovery": 231,
-        "health": 2860,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Light Armor IV",
-            "description": "160% HP for all Light Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Light"
-        },
-        "evolveFrom": "",
-        "evolveInto": "1776b849"
-    },
-    {
-        "coreId": "1776b849",
-        "name": "Sherlock, The Detective",
-        "affinity": "Light",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Light Armor V",
-            "description": "180% HP for all Light Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Light"
-        },
-        "evolveFrom": "242b209a",
-        "evolveInto": "b74b9f2f"
-    },
-    {
-        "coreId": "b74b9f2f",
-        "name": "Sherlock Holmes",
-        "affinity": "Light",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Light Armor VI",
-            "description": "200% HP for all Light Heroes",
-            "modifiers": {
-                "health": 2
-            },
-            "target": "Light"
-        },
-        "evolveFrom": "1776b849",
+        "evolveFrom": "566195c4",
         "evolveInto": ""
     },
     {
@@ -5606,7 +5518,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "f790af59",
+        "evolveFrom": "",
         "evolveInto": "6236e07c"
     },
     {
@@ -5630,7 +5542,151 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "c96dc699",
+        "evolveFrom": "f790af59",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "13a6b5a1",
+        "name": "Kristof, Joy Bringer",
+        "affinity": "Light",
+        "type": "Mage",
+        "species": "Demigod",
+        "attack": 1438,
+        "recovery": 479,
+        "health": 616,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Regen",
+        "leaderAbility": {
+            "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "",
+        "evolveInto": "ed71a68b"
+    },
+    {
+        "coreId": "ed71a68b",
+        "name": "Father Kristof",
+        "affinity": "Light",
+        "type": "Mage",
+        "species": "Demigod",
+        "attack": 2430,
+        "recovery": 810,
+        "health": 1025,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Regen",
+        "leaderAbility": {
+            "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "",
+        "evolveInto": "1c7d175e"
+    },
+    {
+        "coreId": "1c7d175e",
+        "name": "Kristof and Rufus",
+        "affinity": "Light",
+        "type": "Mage",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Regen",
+        "leaderAbility": {
+            "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "13a6b5a1",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "242b209a",
+        "name": "Sherlock, The Deductive",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 693,
+        "recovery": 231,
+        "health": 2860,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Light Armor IV",
+            "description": "160% HP for all Light Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "",
+        "evolveInto": "1776b849"
+    },
+    {
+        "coreId": "1776b849",
+        "name": "Sherlock, The Detective",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Light Armor V",
+            "description": "180% HP for all Light Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b74b9f2f"
+    },
+    {
+        "coreId": "b74b9f2f",
+        "name": "Sherlock Holmes",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Light Armor VI",
+            "description": "200% HP for all Light Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "242b209a",
         "evolveInto": ""
     },
     {
@@ -5678,7 +5734,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "fb38ad12",
+        "evolveFrom": "",
         "evolveInto": "37fa5b9d"
     },
     {
@@ -5702,7 +5758,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "4fba34d7",
+        "evolveFrom": "fb38ad12",
         "evolveInto": ""
     },
     {
@@ -5727,7 +5783,31 @@
             "target": "Corrupt"
         },
         "evolveFrom": "",
-        "evolveInto": ""
+        "evolveInto": "ec463406"
+    },
+    {
+        "coreId": "ec463406",
+        "name": "Iod, Nightmare Pursuer",
+        "affinity": "Light",
+        "type": "Balanced",
+        "species": "Corrupt",
+        "attack": 1910,
+        "recovery": 636,
+        "health": 3183,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Corrupt Blessing V",
+            "description": "280% REC for all Corrupt Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "",
+        "evolveInto": "6cf681ca"
     },
     {
         "coreId": "420633c5",
@@ -5778,7 +5858,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "420633c5",
+        "evolveFrom": "",
         "evolveInto": "8a8aec39"
     },
     {
@@ -5787,9 +5867,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4628,
+        "recovery": 620,
+        "health": 3099,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4
@@ -5804,7 +5884,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "2d33ffce",
+        "evolveFrom": "420633c5",
         "evolveInto": ""
     },
     {
@@ -5852,7 +5932,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "b9e636e8",
+        "evolveFrom": "",
         "evolveInto": "a36102aa"
     },
     {
@@ -5876,7 +5956,163 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "d8ebb447",
+        "evolveFrom": "b9e636e8",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "29bb790b",
+        "name": "Snow White",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 1951,
+        "recovery": 261,
+        "health": 1306,
+        "rarity": 4,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "",
+        "leaderAbility": {
+            "name": "Light Blessing IV",
+            "description": "260% REC for all Light Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "",
+        "evolveInto": "1cf6fff5"
+    },
+    {
+        "coreId": "1cf6fff5",
+        "name": "Snow White",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 3309,
+        "recovery": 442,
+        "health": 2212,
+        "rarity": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "",
+        "leaderAbility": {
+            "name": "Light Blessing V",
+            "description": "280% REC for all Light Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "",
+        "evolveInto": "cada6334"
+    },
+    {
+        "coreId": "cada6334",
+        "name": "Snow White",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 4828,
+        "recovery": 646,
+        "health": 3231,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "",
+        "leaderAbility": {
+            "name": "Light Blessing VI",
+            "description": "300% REC for all Light Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Light"
+        },
+        "evolveFrom": "29bb790b",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "976f29e0",
+        "name": "Archangel Mythriel",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 1959,
+        "recovery": 263,
+        "health": 1318,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "869fd835"
+    },
+    {
+        "coreId": "869fd835",
+        "name": "Archangel Mythriel",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 3313,
+        "recovery": 444,
+        "health": 2218,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "7294f90c"
+    },
+    {
+        "coreId": "7294f90c",
+        "name": "Archangel Mythriel",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 4824,
+        "recovery": 644,
+        "health": 3225,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "976f29e0",
         "evolveInto": ""
     },
     {
@@ -5936,7 +6172,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "da18fa65",
+        "evolveFrom": "",
         "evolveInto": "ac86582e"
     },
     {
@@ -5966,7 +6202,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "4e8d169c",
+        "evolveFrom": "da18fa65",
         "evolveInto": "e4f3b82b"
     },
     {
@@ -5996,157 +6232,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "ac86582e",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "976f29e0",
-        "name": "Archangel Mythriel",
-        "affinity": "Light",
-        "type": "Attacker",
-        "species": "Dren",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 4,
-        "eventSkills": {
-            "Commander": 2
-        },
-        "defenderSkill": "Might",
-        "counterSkill": "Dispel Dodge",
-        "leaderAbility": {
-            "name": "Guardian Might IV",
-            "description": "160% Damage for all Guardian Heroes",
-            "modifiers": {
-                "attack": 1.6
-            },
-            "target": "Guardian"
-        },
-        "evolveFrom": "",
-        "evolveInto": "869fd835"
-    },
-    {
-        "coreId": "869fd835",
-        "name": "Archangel Mythriel",
-        "affinity": "Light",
-        "type": "Attacker",
-        "species": "Dren",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": {
-            "Commander": 3
-        },
-        "defenderSkill": "Might",
-        "counterSkill": "Dispel Dodge",
-        "leaderAbility": {
-            "name": "Guardian Might V",
-            "description": "180% Damage for all Guardian Heroes",
-            "modifiers": {
-                "attack": 1.8
-            },
-            "target": "Guardian"
-        },
-        "evolveFrom": "976f29e0",
-        "evolveInto": "7294f90c"
-    },
-    {
-        "coreId": "7294f90c",
-        "name": "Archangel Mythriel",
-        "affinity": "Light",
-        "type": "Attacker",
-        "species": "Dren",
-        "attack": 4824,
-        "recovery": 644,
-        "health": 3225,
-        "rarity": 6,
-        "eventSkills": {
-            "Commander": 4
-        },
-        "defenderSkill": "Might",
-        "counterSkill": "Dispel Dodge",
-        "leaderAbility": {
-            "name": "Guardian Might VI",
-            "description": "200% Damage for all Guardian Heroes",
-            "modifiers": {
-                "attack": 2
-            },
-            "target": "Guardian"
-        },
-        "evolveFrom": "869fd835",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "d6102fc0",
-        "name": "Fenrir",
-        "affinity": "Light",
-        "type": "Warrior",
-        "species": "Creature",
-        "attack": 1564,
-        "recovery": 132,
-        "health": 2607,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
-        "leaderAbility": {
-            "name": "Creature Armor IV",
-            "description": "160% HP for all Creature Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Creature"
-        },
-        "evolveFrom": "",
-        "evolveInto": "f56c84e4"
-    },
-    {
-        "coreId": "f56c84e4",
-        "name": "Fenrir",
-        "affinity": "Light",
-        "type": "Warrior",
-        "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
-        "leaderAbility": {
-            "name": "Creature Armor V",
-            "description": "180% HP for all Creature Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Creature"
-        },
-        "evolveFrom": "d6102fc0",
-        "evolveInto": "6d6af97a"
-    },
-    {
-        "coreId": "6d6af97a",
-        "name": "Fenrir",
-        "affinity": "Light",
-        "type": "Warrior",
-        "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
-        "leaderAbility": {
-            "name": "Creature Armor VI",
-            "description": "200% HP for all Creature Heroes",
-            "modifiers": {
-                "health": 2
-            },
-            "target": "Creature"
-        },
-        "evolveFrom": "f56c84e4",
+        "evolveFrom": "4e8d169c",
         "evolveInto": ""
     },
     {
@@ -6194,7 +6280,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "5c18c960",
+        "evolveFrom": "",
         "evolveInto": "010ff8ef"
     },
     {
@@ -6218,7 +6304,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "fcf4d9e1",
+        "evolveFrom": "5c18c960",
         "evolveInto": "d889f4a2"
     },
     {
@@ -6242,7 +6328,79 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "010ff8ef",
+        "evolveFrom": "fcf4d9e1",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "d6102fc0",
+        "name": "Fenrir",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 1564,
+        "recovery": 132,
+        "health": 2607,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "name": "Creature Armor IV",
+            "description": "160% HP for all Creature Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": "f56c84e4"
+    },
+    {
+        "coreId": "f56c84e4",
+        "name": "Fenrir",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "name": "Creature Armor V",
+            "description": "180% HP for all Creature Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": "6d6af97a"
+    },
+    {
+        "coreId": "6d6af97a",
+        "name": "Fenrir",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Cure Poison",
+        "leaderAbility": {
+            "name": "Creature Armor VI",
+            "description": "200% HP for all Creature Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "d6102fc0",
         "evolveInto": ""
     },
     {
@@ -6251,9 +6409,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1634,
+        "recovery": 138,
+        "health": 2723,
         "rarity": 4,
         "eventSkills": {
             "Slayer": 2
@@ -6277,9 +6435,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2760,
+        "recovery": 232,
+        "health": 4602,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3
@@ -6294,7 +6452,7 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "eda1d939",
+        "evolveFrom": "",
         "evolveInto": "5150a4e8"
     },
     {
@@ -6320,7 +6478,7 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "d02130ba",
+        "evolveFrom": "eda1d939",
         "evolveInto": ""
     },
     {
@@ -6380,7 +6538,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "77c6c60f",
+        "evolveFrom": "",
         "evolveInto": "988965fb"
     },
     {
@@ -6410,7 +6568,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "34f4b185",
+        "evolveFrom": "77c6c60f",
         "evolveInto": "24625f21"
     },
     {
@@ -6440,7 +6598,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "988965fb",
+        "evolveFrom": "34f4b185",
         "evolveInto": ""
     },
     {
@@ -6500,7 +6658,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "bf41ba8a",
+        "evolveFrom": "",
         "evolveInto": "ff763139"
     },
     {
@@ -6530,7 +6688,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "b4fa771b",
+        "evolveFrom": "bf41ba8a",
         "evolveInto": "d84323c7"
     },
     {
@@ -6560,7 +6718,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "ff763139",
+        "evolveFrom": "b4fa771b",
         "evolveInto": ""
     },
     {
@@ -6608,7 +6766,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "9e1affc2",
+        "evolveFrom": "",
         "evolveInto": "58aa2600"
     },
     {
@@ -6632,7 +6790,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "6c8cfcd9",
+        "evolveFrom": "9e1affc2",
         "evolveInto": ""
     },
     {
@@ -7529,11 +7687,13 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "God Honored",
-        "attack": 2765,
-        "recovery": 370,
-        "health": 1856,
+        "attack": 3451,
+        "recovery": 462,
+        "health": 2314,
         "rarity": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Slayer": 3
+        },
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -7545,7 +7705,7 @@
             "target": "Fire"
         },
         "evolveFrom": "",
-        "evolveInto": "d9734aba"
+        "evolveInto": ""
     },
     {
         "coreId": "d9734aba",
@@ -7553,11 +7713,13 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "God Honored",
-        "attack": 4020,
-        "recovery": 538,
-        "health": 2691,
+        "attack": 5028,
+        "recovery": 672,
+        "health": 3361,
         "rarity": 6,
-        "eventSkills": [],
+        "eventSkills": {
+            "Slayer": 4
+        },
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -7568,7 +7730,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "501f8317",
+        "evolveFrom": "7215ee9c",
         "evolveInto": ""
     },
     {
@@ -8069,6 +8231,34 @@
             "target": "Fire"
         },
         "evolveFrom": "10533993",
+        "evolveInto": "938d2f91"
+    },
+    {
+        "coreId": "938d2f91",
+        "name": "Rei and Quarl, Ascended",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5830,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Fire Might VI",
+            "description": "200% Damage for all Fire Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "4b97e855",
         "evolveInto": ""
     },
     {
@@ -8116,7 +8306,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "4f893fc8",
+        "evolveFrom": "",
         "evolveInto": "d917d89d"
     },
     {
@@ -8140,7 +8330,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "3d1a6555",
+        "evolveFrom": "4f893fc8",
         "evolveInto": ""
     },
     {
@@ -8192,7 +8382,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "e9e219cf",
+        "evolveFrom": "",
         "evolveInto": "7584b8f1"
     },
     {
@@ -8218,7 +8408,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "3b180cd1",
+        "evolveFrom": "e9e219cf",
         "evolveInto": ""
     },
     {
@@ -8266,7 +8456,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c30fe8fa",
+        "evolveFrom": "",
         "evolveInto": "4c161d21"
     },
     {
@@ -8290,7 +8480,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "7b4b68f7",
+        "evolveFrom": "c30fe8fa",
         "evolveInto": ""
     },
     {
@@ -8338,7 +8528,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "adb4c9b4",
+        "evolveFrom": "",
         "evolveInto": "39fc574e"
     },
     {
@@ -8362,7 +8552,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "134339a9",
+        "evolveFrom": "adb4c9b4",
         "evolveInto": ""
     },
     {
@@ -8410,7 +8600,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "a181c2b6",
+        "evolveFrom": "",
         "evolveInto": "c0b7398b"
     },
     {
@@ -8434,7 +8624,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "6db34835",
+        "evolveFrom": "a181c2b6",
         "evolveInto": ""
     },
     {
@@ -8486,7 +8676,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "70f375ad",
+        "evolveFrom": "",
         "evolveInto": "38a91196"
     },
     {
@@ -8512,7 +8702,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "f7716451",
+        "evolveFrom": "70f375ad",
         "evolveInto": ""
     },
     {
@@ -8564,7 +8754,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "4bb09875",
+        "evolveFrom": "",
         "evolveInto": "e54bae35"
     },
     {
@@ -8590,7 +8780,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "cb08fd22",
+        "evolveFrom": "4bb09875",
         "evolveInto": ""
     },
     {
@@ -8644,7 +8834,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c6c719fe",
+        "evolveFrom": "",
         "evolveInto": "ccc2ad18"
     },
     {
@@ -8671,7 +8861,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "a6b1f943",
+        "evolveFrom": "c6c719fe",
         "evolveInto": "fdf82150"
     },
     {
@@ -8698,7 +8888,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "ccc2ad18",
+        "evolveFrom": "a6b1f943",
         "evolveInto": "e74657f1"
     },
     {
@@ -8707,9 +8897,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3169,
+        "recovery": 422,
+        "health": 2114,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3,
@@ -8725,7 +8915,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "fdf82150",
+        "evolveFrom": "ccc2ad18",
         "evolveInto": "69c57cfe"
     },
     {
@@ -8734,9 +8924,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4632,
+        "recovery": 620,
+        "health": 3105,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4,
@@ -8752,7 +8942,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "e74657f1",
+        "evolveFrom": "fdf82150",
         "evolveInto": ""
     },
     {
@@ -8800,7 +8990,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "2bb39ca2",
+        "evolveFrom": "",
         "evolveInto": "5fd60e69"
     },
     {
@@ -8824,151 +9014,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "17609eb3",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "afa2cf43",
-        "name": "Cheerful Pixie",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Drain",
-        "counterSkill": "Dispel Thorns",
-        "leaderAbility": {
-            "name": "Fire Armor IV",
-            "description": "160% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "",
-        "evolveInto": "5df0e86b"
-    },
-    {
-        "coreId": "5df0e86b",
-        "name": "Generous Pixie",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Drain",
-        "counterSkill": "Dispel Thorns",
-        "leaderAbility": {
-            "name": "Fire Armor V",
-            "description": "180% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "afa2cf43",
-        "evolveInto": "24e1b0c3"
-    },
-    {
-        "coreId": "24e1b0c3",
-        "name": "Spirit of Giving",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Drain",
-        "counterSkill": "Dispel Thorns",
-        "leaderAbility": {
-            "name": "Fire Armor VI",
-            "description": "260% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 2.6
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "5df0e86b",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "fe0549ec",
-        "name": "Faust, The Scientist",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 693,
-        "recovery": 231,
-        "health": 2860,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Fire Armor IV",
-            "description": "160% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "",
-        "evolveInto": "de3bf494"
-    },
-    {
-        "coreId": "de3bf494",
-        "name": "Faust, The Necromancer",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 1165,
-        "recovery": 388,
-        "health": 4833,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Fire Armor V",
-            "description": "180% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "fe0549ec",
-        "evolveInto": "d14d681e"
-    },
-    {
-        "coreId": "d14d681e",
-        "name": "Doctor Faust",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 1696,
-        "recovery": 564,
-        "health": 7039,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
-        "leaderAbility": {
-            "name": "Fire Armor VI",
-            "description": "260% HP for all Fire Heroes",
-            "modifiers": {
-                "health": 2.6
-            },
-            "target": "Fire"
-        },
-        "evolveFrom": "de3bf494",
+        "evolveFrom": "2bb39ca2",
         "evolveInto": ""
     },
     {
@@ -9022,7 +9068,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ae9c34fd",
+        "evolveFrom": "",
         "evolveInto": "3908eae8"
     },
     {
@@ -9049,7 +9095,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "da14477c",
+        "evolveFrom": "ae9c34fd",
         "evolveInto": "d1ad9238"
     },
     {
@@ -9076,7 +9122,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "3908eae8",
+        "evolveFrom": "da14477c",
         "evolveInto": "7761f0c0"
     },
     {
@@ -9103,7 +9149,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "d1ad9238",
+        "evolveFrom": "3908eae8",
         "evolveInto": "e0630310"
     },
     {
@@ -9130,79 +9176,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "7761f0c0",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "f071ff8c",
-        "name": "Ji, Sun Born",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
-        "leaderAbility": {
-            "name": "God Might IV",
-            "description": "160% Damage for all God Heroes",
-            "modifiers": {
-                "attack": 1.6
-            },
-            "target": "God"
-        },
-        "evolveFrom": "",
-        "evolveInto": "d96930f2"
-    },
-    {
-        "coreId": "d96930f2",
-        "name": "Ji, Fire Rooster",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
-        "leaderAbility": {
-            "name": "God Might V",
-            "description": "180% Damage for all God Heroes",
-            "modifiers": {
-                "attack": 1.8
-            },
-            "target": "God"
-        },
-        "evolveFrom": "f071ff8c",
-        "evolveInto": "57de9846"
-    },
-    {
-        "coreId": "57de9846",
-        "name": "Ji, King of Birds",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
-        "leaderAbility": {
-            "name": "God Might VI",
-            "description": "200% Damage for all God Heroes",
-            "modifiers": {
-                "attack": 2
-            },
-            "target": "God"
-        },
-        "evolveFrom": "d96930f2",
+        "evolveFrom": "d1ad9238",
         "evolveInto": ""
     },
     {
@@ -9254,7 +9228,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "433912fa",
+        "evolveFrom": "",
         "evolveInto": "84cb765d"
     },
     {
@@ -9280,7 +9254,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "3ca8e94a",
+        "evolveFrom": "433912fa",
         "evolveInto": "ee82722b"
     },
     {
@@ -9289,9 +9263,9 @@
         "affinity": "Fire",
         "type": "Mage",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3536,
+        "recovery": 1179,
+        "health": 1480,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4
@@ -9306,7 +9280,327 @@
             },
             "target": "God"
         },
-        "evolveFrom": "84cb765d",
+        "evolveFrom": "3ca8e94a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7cd0d2f7",
+        "name": "Cthulhu, Dream Eater",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Corrupt",
+        "attack": 688,
+        "recovery": 230,
+        "health": 1146,
+        "rarity": 3,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel MIght",
+        "leaderAbility": {
+            "name": "Power of the Deep I",
+            "description": "175% Damage for all Human Heroes",
+            "modifiers": {
+                "attack": 1.75
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "a2269686"
+    },
+    {
+        "coreId": "a2269686",
+        "name": "Cthulhu, Dream Eater",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Corrupt",
+        "attack": 1124,
+        "recovery": 374,
+        "health": 1871,
+        "rarity": 4,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel MIght",
+        "leaderAbility": {
+            "name": "Power of the Deep II",
+            "description": "200% Damage for all Human Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "8f8146cf"
+    },
+    {
+        "coreId": "8f8146cf",
+        "name": "Cthulhu, Dream Eater",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Corrupt",
+        "attack": 1904,
+        "recovery": 634,
+        "health": 3171,
+        "rarity": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel MIght",
+        "leaderAbility": {
+            "name": "Power of the Deep III",
+            "description": "225% Damage for all Human Heroes",
+            "modifiers": {
+                "attack": 2.25
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "7cd0d2f7",
+        "evolveInto": "8da1fdee"
+    },
+    {
+        "coreId": "8da1fdee",
+        "name": "Cthulhu, Dream Eater",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Corrupt",
+        "attack": 2772,
+        "recovery": 924,
+        "health": 4618,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel MIght",
+        "leaderAbility": {
+            "name": "Power of the Deep IV",
+            "description": "300% Damage for all Human Heroes",
+            "modifiers": {
+                "attack": 3
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "a2269686",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "afa2cf43",
+        "name": "Cheerful Pixie",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "",
+        "evolveInto": "5df0e86b"
+    },
+    {
+        "coreId": "5df0e86b",
+        "name": "Generous Pixie",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Fire Armor V",
+            "description": "180% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "",
+        "evolveInto": "24e1b0c3"
+    },
+    {
+        "coreId": "24e1b0c3",
+        "name": "Spirit of Giving",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Fire Armor VI",
+            "description": "260% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 2.6
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "afa2cf43",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "fe0549ec",
+        "name": "Faust, The Scientist",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 693,
+        "recovery": 231,
+        "health": 2860,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Fire Armor IV",
+            "description": "160% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "",
+        "evolveInto": "de3bf494"
+    },
+    {
+        "coreId": "de3bf494",
+        "name": "Faust, The Necromancer",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 1165,
+        "recovery": 388,
+        "health": 4833,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Fire Armor V",
+            "description": "180% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d14d681e"
+    },
+    {
+        "coreId": "d14d681e",
+        "name": "Doctor Faust",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 1696,
+        "recovery": 564,
+        "health": 7039,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Fire Armor VI",
+            "description": "260% HP for all Fire Heroes",
+            "modifiers": {
+                "health": 2.6
+            },
+            "target": "Fire"
+        },
+        "evolveFrom": "fe0549ec",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f071ff8c",
+        "name": "Ji, Sun Born",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Blind",
+        "counterSkill": "Cure Panic",
+        "leaderAbility": {
+            "name": "God Might IV",
+            "description": "160% Damage for all God Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "God"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d96930f2"
+    },
+    {
+        "coreId": "d96930f2",
+        "name": "Ji, Fire Rooster",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Blind",
+        "counterSkill": "Cure Panic",
+        "leaderAbility": {
+            "name": "God Might V",
+            "description": "180% Damage for all God Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "God"
+        },
+        "evolveFrom": "",
+        "evolveInto": "57de9846"
+    },
+    {
+        "coreId": "57de9846",
+        "name": "Ji, King of Birds",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Blind",
+        "counterSkill": "Cure Panic",
+        "leaderAbility": {
+            "name": "God Might VI",
+            "description": "200% Damage for all God Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "God"
+        },
+        "evolveFrom": "f071ff8c",
         "evolveInto": ""
     },
     {
@@ -9354,7 +9648,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "f93e94c5",
+        "evolveFrom": "",
         "evolveInto": "a43ad9e0"
     },
     {
@@ -9378,7 +9672,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "372f8e9e",
+        "evolveFrom": "f93e94c5",
         "evolveInto": ""
     },
     {
@@ -9430,7 +9724,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6cf7bcb1",
+        "evolveFrom": "",
         "evolveInto": "218efc62"
     },
     {
@@ -9456,7 +9750,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "740931af",
+        "evolveFrom": "6cf7bcb1",
         "evolveInto": ""
     },
     {
@@ -9504,7 +9798,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "d5801436",
+        "evolveFrom": "",
         "evolveInto": "d2ec6691"
     },
     {
@@ -9528,7 +9822,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "ec3e34e2",
+        "evolveFrom": "d5801436",
         "evolveInto": ""
     },
     {
@@ -9576,7 +9870,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "47f81eb1",
+        "evolveFrom": "",
         "evolveInto": "dab2f7e1"
     },
     {
@@ -9600,7 +9894,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "0c6b6f43",
+        "evolveFrom": "47f81eb1",
         "evolveInto": ""
     },
     {
@@ -9633,9 +9927,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2652,
+        "recovery": 224,
+        "health": 4420,
         "rarity": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
@@ -9648,7 +9942,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "f5b75921",
+        "evolveFrom": "",
         "evolveInto": "824be51c"
     },
     {
@@ -9672,7 +9966,79 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "d510e3b6",
+        "evolveFrom": "f5b75921",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "8c16a0aa",
+        "name": "Junko, Oni Hunter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 1959,
+        "recovery": 263,
+        "health": 1318,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Absorb",
+        "counterSkill": "Cure Blind",
+        "leaderAbility": {
+            "name": "Attacker Armor IV",
+            "description": "160% HP for all Attacker Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "",
+        "evolveInto": "0d88e67d"
+    },
+    {
+        "coreId": "0d88e67d",
+        "name": "Junko, Oni Hunter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 3313,
+        "recovery": 444,
+        "health": 2218,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Absorb",
+        "counterSkill": "Cure Blind",
+        "leaderAbility": {
+            "name": "Attacker Armor V",
+            "description": "180% HP for all Attacker Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "",
+        "evolveInto": "5d0d5b46"
+    },
+    {
+        "coreId": "5d0d5b46",
+        "name": "Junko, Oni Hunter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 4824,
+        "recovery": 644,
+        "health": 3225,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Absorb",
+        "counterSkill": "Cure Blind",
+        "leaderAbility": {
+            "name": "Attacker Armor VI",
+            "description": "200% HP for all Attacker Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "8c16a0aa",
         "evolveInto": ""
     },
     {
@@ -9732,7 +10098,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "2f443dfa",
+        "evolveFrom": "",
         "evolveInto": "11c037e1"
     },
     {
@@ -9762,7 +10128,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "10906f99",
+        "evolveFrom": "2f443dfa",
         "evolveInto": "23142109"
     },
     {
@@ -9792,103 +10158,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "11c037e1",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "79b221cc",
-        "name": "Junko, Oni Hunter",
-        "affinity": "Fire",
-        "type": "Attacker",
-        "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 3,
-        "eventSkills": [],
-        "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
-        "leaderAbility": {
-            "name": "Attacker Armor III",
-            "description": "140% HP for all Attacker Heroes",
-            "modifiers": {
-                "health": 1.4
-            },
-            "target": "Attacker"
-        },
-        "evolveFrom": "",
-        "evolveInto": "8c16a0aa"
-    },
-    {
-        "coreId": "8c16a0aa",
-        "name": "Junko, Oni Hunter",
-        "affinity": "Fire",
-        "type": "Attacker",
-        "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
-        "leaderAbility": {
-            "name": "Attacker Armor IV",
-            "description": "160% HP for all Attacker Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Attacker"
-        },
-        "evolveFrom": "79b221cc",
-        "evolveInto": "0d88e67d"
-    },
-    {
-        "coreId": "0d88e67d",
-        "name": "Junko, Oni Hunter",
-        "affinity": "Fire",
-        "type": "Attacker",
-        "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "eventSkills": [],
-        "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
-        "leaderAbility": {
-            "name": "Attacker Armor V",
-            "description": "180% HP for all Attacker Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Attacker"
-        },
-        "evolveFrom": "8c16a0aa",
-        "evolveInto": "5d0d5b46"
-    },
-    {
-        "coreId": "5d0d5b46",
-        "name": "Junko, Oni Hunter",
-        "affinity": "Fire",
-        "type": "Attacker",
-        "species": "Honored",
-        "attack": 4824,
-        "recovery": 644,
-        "health": 3225,
-        "rarity": 6,
-        "eventSkills": [],
-        "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
-        "leaderAbility": {
-            "name": "Attacker Armor VI",
-            "description": "200% HP for all Attacker Heroes",
-            "modifiers": {
-                "health": 2
-            },
-            "target": "Attacker"
-        },
-        "evolveFrom": "0d88e67d",
+        "evolveFrom": "10906f99",
         "evolveInto": ""
     },
     {
@@ -9929,118 +10199,38 @@
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
-            "name": "Ancient Armor IV",
+            "name": "Ancient Armor V",
             "description": "180% HP for all Ancient Heroes",
             "modifiers": {
                 "health": 1.8
             },
             "target": "Ancient"
         },
-        "evolveFrom": "4077b230",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "7cd0d2f7",
-        "name": "Cthulhu, Dream Eater",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Corrupt",
-        "attack": 688,
-        "recovery": 230,
-        "health": 1146,
-        "rarity": 3,
-        "eventSkills": {
-            "Slayer": 2
-        },
-        "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
-        "leaderAbility": {
-            "name": "Power of the Deep I",
-            "description": "175% Damage for all Human Heroes",
-            "modifiers": {
-                "attack": 1.75
-            },
-            "target": "Human"
-        },
         "evolveFrom": "",
-        "evolveInto": "a2269686"
+        "evolveInto": "9c969172"
     },
     {
-        "coreId": "a2269686",
-        "name": "Cthulhu, Dream Eater",
+        "coreId": "9c969172",
+        "name": "Basan, The Destroyer",
         "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Corrupt",
-        "attack": 1124,
-        "recovery": 374,
-        "health": 1871,
-        "rarity": 4,
-        "eventSkills": {
-            "Slayer": 2
-        },
-        "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
-        "leaderAbility": {
-            "name": "Power of the Deep II",
-            "description": "200% Damage for all Human Heroes",
-            "modifiers": {
-                "attack": 2
-            },
-            "target": "Human"
-        },
-        "evolveFrom": "7cd0d2f7",
-        "evolveInto": "8f8146cf"
-    },
-    {
-        "coreId": "8f8146cf",
-        "name": "Cthulhu, Dream Eater",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Corrupt",
-        "attack": 1904,
-        "recovery": 634,
-        "health": 3171,
-        "rarity": 5,
-        "eventSkills": {
-            "Slayer": 3
-        },
-        "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
-        "leaderAbility": {
-            "name": "Power of the Deep III",
-            "description": "225% Damage for all Human Heroes",
-            "modifiers": {
-                "attack": 2.25
-            },
-            "target": "Human"
-        },
-        "evolveFrom": "a2269686",
-        "evolveInto": "8da1fdee"
-    },
-    {
-        "coreId": "8da1fdee",
-        "name": "Cthulhu, Dream Eater",
-        "affinity": "Fire",
-        "type": "Balanced",
-        "species": "Corrupt",
-        "attack": 2772,
-        "recovery": 924,
-        "health": 4618,
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 3864,
+        "recovery": 325,
+        "health": 6440,
         "rarity": 6,
-        "eventSkills": {
-            "Slayer": 4
-        },
-        "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
+        "eventSkills": [],
+        "defenderSkill": "Weaken",
+        "counterSkill": "Cure Blind",
         "leaderAbility": {
-            "name": "Power of the Deep IV",
-            "description": "300% Damage for all Human Heroes",
+            "name": "Ancient Armor VI",
+            "description": "200% HP for all Ancient Heroes",
             "modifiers": {
-                "attack": 3
+                "health": 2
             },
-            "target": "Human"
+            "target": "Ancient"
         },
-        "evolveFrom": "8f8146cf",
+        "evolveFrom": "4077b230",
         "evolveInto": ""
     },
     {
@@ -10049,9 +10239,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2039,
+        "recovery": 273,
+        "health": 1372,
         "rarity": 4,
         "eventSkills": {
             "Commander": 2
@@ -10075,9 +10265,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3449,
+        "recovery": 462,
+        "health": 2310,
         "rarity": 5,
         "eventSkills": {
             "Commander": 3
@@ -10092,7 +10282,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "f15f0fd3",
+        "evolveFrom": "",
         "evolveInto": "d4dfce1a"
     },
     {
@@ -10118,7 +10308,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6581dcad",
+        "evolveFrom": "f15f0fd3",
         "evolveInto": ""
     },
     {
@@ -10178,7 +10368,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "9899619f",
+        "evolveFrom": "",
         "evolveInto": "5428f410"
     },
     {
@@ -10208,7 +10398,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "6d38da19",
+        "evolveFrom": "9899619f",
         "evolveInto": "48297b33"
     },
     {
@@ -10238,7 +10428,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "5428f410",
+        "evolveFrom": "6d38da19",
         "evolveInto": ""
     },
     {
@@ -10298,7 +10488,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "8fc13568",
+        "evolveFrom": "",
         "evolveInto": "4a36d2a1"
     },
     {
@@ -10307,9 +10497,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3453,
+        "recovery": 462,
+        "health": 2314,
         "rarity": 5,
         "eventSkills": {
             "Commander": 3
@@ -10328,7 +10518,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "197f2917",
+        "evolveFrom": "8fc13568",
         "evolveInto": "6540d0bc"
     },
     {
@@ -10358,7 +10548,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "4a36d2a1",
+        "evolveFrom": "197f2917",
         "evolveInto": ""
     },
     {
@@ -10380,7 +10570,7 @@
         "counterSkill": "Unknown",
         "leaderAbility": {
             "name": "Legendary Might I",
-            "description": "125% Damage, RCV and HP for all Legend Heroes",
+            "description": "125% Damage, REC and HP for all Legend Heroes",
             "modifiers": {
                 "attack": 1.25,
                 "recovery": 1.25,
@@ -10390,6 +10580,66 @@
         },
         "evolveFrom": "",
         "evolveInto": "3a90ab44"
+    },
+    {
+        "coreId": "3a90ab44",
+        "name": "Sarah, Eternal Dragon",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Slayer": 3,
+            "Bounty Hunter": 3,
+            "Commander": 3
+        },
+        "defenderSkill": "Unknown",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Legendary Might II",
+            "description": "150% Damage, REC and HP for all Legend Heroes",
+            "modifiers": {
+                "attack": 1.5,
+                "recovery": 1.5,
+                "health": 1.5
+            },
+            "target": "Legend"
+        },
+        "evolveFrom": "",
+        "evolveInto": "2d5ccf46"
+    },
+    {
+        "coreId": "2d5ccf46",
+        "name": "Sarah, Eternal Dragon",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Unknown",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Legendary Might III",
+            "description": "175% Damage, REC and HP for all Legend Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "recovery": 1.75,
+                "health": 1.75
+            },
+            "target": "Legend"
+        },
+        "evolveFrom": "ef78b8d3",
+        "evolveInto": ""
     },
     {
         "coreId": "46487cdf",
@@ -10410,7 +10660,7 @@
         "counterSkill": "Unknown",
         "leaderAbility": {
             "name": "Legendary Might I",
-            "description": "125% Damage, RCV and HP for all Legend Heroes",
+            "description": "125% Damage, REC and HP for all Legend Heroes",
             "modifiers": {
                 "attack": 1.25,
                 "recovery": 1.25,
@@ -10420,6 +10670,65 @@
         },
         "evolveFrom": "",
         "evolveInto": "56e3d6cc"
+    },
+    {
+        "coreId": "56e3d6cc",
+        "name": "Leah, Silent Dragon",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Slayer": 3,
+            "Commander": 3
+        },
+        "defenderSkill": "Unknown",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Legendary Might II",
+            "description": "150% Damage, REC and HP for all Legend Heroes",
+            "modifiers": {
+                "attack": 1.5,
+                "recovery": 1.5,
+                "health": 1.5
+            },
+            "target": "Legend"
+        },
+        "evolveFrom": "",
+        "evolveInto": "3090b771"
+    },
+    {
+        "coreId": "3090b771",
+        "name": "Leah, Silent Dragon",
+        "affinity": "Fire",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Unknown",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Legendary Might III",
+            "description": "175% Damage, REC and HP for all Legend Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "recovery": 1.75,
+                "health": 1.75
+            },
+            "target": "Legend"
+        },
+        "evolveFrom": "46487cdf",
+        "evolveInto": ""
     },
     {
         "coreId": "c19fbbf1",
@@ -10440,7 +10749,7 @@
         "counterSkill": "Unknown",
         "leaderAbility": {
             "name": "Legendary Might IV",
-            "description": "200% Damage, RCV and HP for all Legend Heroes",
+            "description": "200% Damage, REC and HP for all Legend Heroes",
             "modifiers": {
                 "attack": 2,
                 "recovery": 2,
@@ -10481,9 +10790,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2080,
+        "recovery": 692,
+        "health": 3465,
         "rarity": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
@@ -10496,7 +10805,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "874966e8",
+        "evolveFrom": "",
         "evolveInto": "5dd018a3"
     },
     {
@@ -10505,9 +10814,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3024,
+        "recovery": 1008,
+        "health": 5040,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Vessel",
@@ -10520,7 +10829,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "cd5d2b2e",
+        "evolveFrom": "874966e8",
         "evolveInto": ""
     },
     {
@@ -11249,9 +11558,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2896,
+        "recovery": 243,
+        "health": 4826,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Poison",
@@ -11410,7 +11719,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "",
+        "evolveFrom": "7215ee9c",
         "evolveInto": "d7277ba1"
     },
     {
@@ -11937,6 +12246,34 @@
             "target": "Water"
         },
         "evolveFrom": "12fa99e0",
+        "evolveInto": "fe4b5581"
+    },
+    {
+        "coreId": "fe4b5581",
+        "name": "Keta, Ascended",
+        "affinity": "Water",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5830,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Water Might VI",
+            "description": "200% Damage for all Water Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Water"
+        },
+        "evolveFrom": "8eb77d51",
         "evolveInto": ""
     },
     {
@@ -11984,7 +12321,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "997dffed",
+        "evolveFrom": "",
         "evolveInto": "6f8046f8"
     },
     {
@@ -12008,7 +12345,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "e8d6688b",
+        "evolveFrom": "997dffed",
         "evolveInto": ""
     },
     {
@@ -12056,7 +12393,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "5132222d",
+        "evolveFrom": "",
         "evolveInto": "cb3193b4"
     },
     {
@@ -12080,7 +12417,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "a4206a42",
+        "evolveFrom": "5132222d",
         "evolveInto": ""
     },
     {
@@ -12132,7 +12469,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "abb76c97",
+        "evolveFrom": "",
         "evolveInto": "491ce61e"
     },
     {
@@ -12141,9 +12478,9 @@
         "affinity": "Water",
         "type": "Mage",
         "species": "Corrupt",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3378,
+        "recovery": 1125,
+        "health": 1416,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4
@@ -12158,7 +12495,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "6cbc8e71",
+        "evolveFrom": "abb76c97",
         "evolveInto": ""
     },
     {
@@ -12206,7 +12543,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "3a47cb06",
+        "evolveFrom": "",
         "evolveInto": "92e01961"
     },
     {
@@ -12230,7 +12567,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "4769c210",
+        "evolveFrom": "3a47cb06",
         "evolveInto": ""
     },
     {
@@ -12282,7 +12619,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "34c5535a",
+        "evolveFrom": "",
         "evolveInto": "2cdc3344"
     },
     {
@@ -12308,7 +12645,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "a631b86f",
+        "evolveFrom": "34c5535a",
         "evolveInto": ""
     },
     {
@@ -12356,7 +12693,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "bf0e6bf9",
+        "evolveFrom": "",
         "evolveInto": "edb52e06"
     },
     {
@@ -12380,7 +12717,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "d4aac03e",
+        "evolveFrom": "bf0e6bf9",
         "evolveInto": ""
     },
     {
@@ -12428,7 +12765,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "3a72c5f1",
+        "evolveFrom": "",
         "evolveInto": "093aefe6"
     },
     {
@@ -12452,7 +12789,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "31b9ebe6",
+        "evolveFrom": "3a72c5f1",
         "evolveInto": ""
     },
     {
@@ -12487,9 +12824,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2899,
+        "recovery": 388,
+        "health": 1942,
         "rarity": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
@@ -12502,7 +12839,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "0cda019b",
+        "evolveFrom": "",
         "evolveInto": "a72690f0"
     },
     {
@@ -12511,9 +12848,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4224,
+        "recovery": 564,
+        "health": 2825,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Judgement",
@@ -12526,7 +12863,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "d49ecf7c",
+        "evolveFrom": "0cda019b",
         "evolveInto": ""
     },
     {
@@ -12574,7 +12911,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "82a9ea0c",
+        "evolveFrom": "",
         "evolveInto": "391c9ad2"
     },
     {
@@ -12598,7 +12935,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "22df7c22",
+        "evolveFrom": "82a9ea0c",
         "evolveInto": ""
     },
     {
@@ -12607,9 +12944,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1789,
+        "recovery": 239,
+        "health": 1196,
         "rarity": 4,
         "eventSkills": [],
         "defenderSkill": "Dodge",
@@ -12646,7 +12983,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ba6ece50",
+        "evolveFrom": "",
         "evolveInto": "8632b353"
     },
     {
@@ -12670,7 +13007,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "a19a786e",
+        "evolveFrom": "ba6ece50",
         "evolveInto": ""
     },
     {
@@ -12718,7 +13055,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "6cf3db10",
+        "evolveFrom": "",
         "evolveInto": "0646db91"
     },
     {
@@ -12742,7 +13079,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "e4ebd3ba",
+        "evolveFrom": "6cf3db10",
         "evolveInto": ""
     },
     {
@@ -12794,7 +13131,85 @@
             },
             "target": "Human"
         },
+        "evolveFrom": "",
+        "evolveInto": "020d2cc2"
+    },
+    {
+        "coreId": "020d2cc2",
+        "name": "Alice",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 4626,
+        "recovery": 618,
+        "health": 3097,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Human"
+        },
         "evolveFrom": "98197f3b",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "317dae0a",
+        "name": "Dark Mirror Alice",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 1963,
+        "recovery": 265,
+        "health": 1326,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "45085595"
+    },
+    {
+        "coreId": "45085595",
+        "name": "Vision Swept Alice",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 3317,
+        "recovery": 444,
+        "health": 2224,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
         "evolveInto": ""
     },
     {
@@ -12846,7 +13261,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "59d67c3b",
+        "evolveFrom": "",
         "evolveInto": "49b29c17"
     },
     {
@@ -12855,9 +13270,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2782,
+        "recovery": 928,
+        "health": 4636,
         "rarity": 6,
         "eventSkills": {
             "Bounty Hunter": 4
@@ -12872,7 +13287,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "333fa8a1",
+        "evolveFrom": "59d67c3b",
         "evolveInto": ""
     },
     {
@@ -12920,7 +13335,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "0ce786e8",
+        "evolveFrom": "",
         "evolveInto": "f62a2ccd"
     },
     {
@@ -12944,7 +13359,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "48a161d2",
+        "evolveFrom": "0ce786e8",
         "evolveInto": ""
     },
     {
@@ -13004,7 +13419,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "84e61d3c",
+        "evolveFrom": "",
         "evolveInto": "50cbddad"
     },
     {
@@ -13034,7 +13449,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "554ed02e",
+        "evolveFrom": "84e61d3c",
         "evolveInto": "40764b52"
     },
     {
@@ -13064,7 +13479,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "50cbddad",
+        "evolveFrom": "554ed02e",
         "evolveInto": ""
     },
     {
@@ -13112,7 +13527,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "0377e67c",
+        "evolveFrom": "",
         "evolveInto": "7ea166bf"
     },
     {
@@ -13136,7 +13551,85 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "dae62146",
+        "evolveFrom": "0377e67c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "430a6d20",
+        "name": "Poseidon",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1562,
+        "recovery": 130,
+        "health": 2603,
+        "rarity": 4,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Water Blessing IV",
+            "description": "260% REC for all Water Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Water"
+        },
+        "evolveFrom": "",
+        "evolveInto": "75b8aadc"
+    },
+    {
+        "coreId": "75b8aadc",
+        "name": "Poseidon",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 2648,
+        "recovery": 222,
+        "health": 4414,
+        "rarity": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Water Blessing V",
+            "description": "280% REC for all Water Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Water"
+        },
+        "evolveFrom": "",
+        "evolveInto": "a721fa51"
+    },
+    {
+        "coreId": "a721fa51",
+        "name": "Poseidon",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 3864,
+        "recovery": 325,
+        "health": 6440,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Water Blessing VI",
+            "description": "300% REC for all Water Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Water"
+        },
+        "evolveFrom": "430a6d20",
         "evolveInto": ""
     },
     {
@@ -13196,7 +13689,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "fa35c004",
+        "evolveFrom": "",
         "evolveInto": "967419ba"
     },
     {
@@ -13226,7 +13719,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "25c377d6",
+        "evolveFrom": "fa35c004",
         "evolveInto": "ec0b9b27"
     },
     {
@@ -13256,35 +13749,8 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "967419ba",
+        "evolveFrom": "25c377d6",
         "evolveInto": ""
-    },
-    {
-        "coreId": "c10d2892",
-        "name": "Youko, Elerium Commander",
-        "affinity": "Water",
-        "type": "Attacker",
-        "species": "Technological",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 3,
-        "eventSkills": {
-            "Slayer": 2,
-            "Commander": 2
-        },
-        "defenderSkill": "Thorns",
-        "counterSkill": "Dispel Dodge",
-        "leaderAbility": {
-            "name": "Water Armor III",
-            "description": "140% HP for all Water Heroes",
-            "modifiers": {
-                "health": 1.4
-            },
-            "target": "Water"
-        },
-        "evolveFrom": "",
-        "evolveInto": "13e7586a"
     },
     {
         "coreId": "13e7586a",
@@ -13292,9 +13758,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Technological",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1959,
+        "recovery": 263,
+        "health": 1318,
         "rarity": 4,
         "eventSkills": {
             "Slayer": 2,
@@ -13310,7 +13776,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "c10d2892",
+        "evolveFrom": "",
         "evolveInto": "0f2345d0"
     },
     {
@@ -13319,9 +13785,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Technological",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3313,
+        "recovery": 444,
+        "health": 2218,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3,
@@ -13337,7 +13803,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "13e7586a",
+        "evolveFrom": "",
         "evolveInto": "2fee7c67"
     },
     {
@@ -13364,7 +13830,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "0f2345d0",
+        "evolveFrom": "13e7586a",
         "evolveInto": ""
     },
     {
@@ -13426,7 +13892,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "2875626b",
+        "evolveFrom": "",
         "evolveInto": "fd88dd15"
     },
     {
@@ -13457,7 +13923,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "d8fe0e08",
+        "evolveFrom": "2875626b",
         "evolveInto": "cf4fc1c0"
     },
     {
@@ -13488,7 +13954,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "fd88dd15",
+        "evolveFrom": "d8fe0e08",
         "evolveInto": ""
     },
     {
@@ -13550,7 +14016,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "212871e8",
+        "evolveFrom": "",
         "evolveInto": "6703c9a4"
     },
     {
@@ -13581,7 +14047,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "fcd0629f",
+        "evolveFrom": "212871e8",
         "evolveInto": "0569d3fc"
     },
     {
@@ -13612,7 +14078,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "6703c9a4",
+        "evolveFrom": "fcd0629f",
         "evolveInto": ""
     },
     {
@@ -13660,7 +14126,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "af2ead27",
+        "evolveFrom": "",
         "evolveInto": "6f89d251"
     },
     {
@@ -13684,59 +14150,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "71198da3",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "317dae0a",
-        "name": "Dark Mirror Alice",
-        "affinity": "Water",
-        "type": "Attacker",
-        "species": "Human",
-        "attack": 1963,
-        "recovery": 265,
-        "health": 1326,
-        "rarity": 4,
-        "eventSkills": {
-            "Commander": 2
-        },
-        "defenderSkill": "Drain",
-        "counterSkill": "Dispel Judgement",
-        "leaderAbility": {
-            "name": "Human Armor IV",
-            "description": "160% HP for all Human Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Human"
-        },
-        "evolveFrom": "",
-        "evolveInto": "45085595"
-    },
-    {
-        "coreId": "45085595",
-        "name": "Vision Swept Alice",
-        "affinity": "Water",
-        "type": "Attacker",
-        "species": "Human",
-        "attack": 3317,
-        "recovery": 444,
-        "health": 2224,
-        "rarity": 5,
-        "eventSkills": {
-            "Commander": 3
-        },
-        "defenderSkill": "Drain",
-        "counterSkill": "Dispel Judgement",
-        "leaderAbility": {
-            "name": "Human Armor V",
-            "description": "180% HP for all Human Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Human"
-        },
-        "evolveFrom": "317dae0a",
+        "evolveFrom": "af2ead27",
         "evolveInto": ""
     },
     {
@@ -13745,9 +14159,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1634,
+        "recovery": 138,
+        "health": 2723,
         "rarity": 4,
         "eventSkills": {
             "Slayer": 2
@@ -13771,9 +14185,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2760,
+        "recovery": 232,
+        "health": 4602,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3
@@ -13788,7 +14202,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "d9bfd84c",
+        "evolveFrom": "",
         "evolveInto": "4ebf3775"
     },
     {
@@ -13797,9 +14211,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 1024,
-        "recovery": 337,
-        "health": 6706,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4
@@ -13814,7 +14228,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "8cd4f790",
+        "evolveFrom": "d9bfd84c",
         "evolveInto": ""
     },
     {
@@ -13874,7 +14288,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "cc11bc3c",
+        "evolveFrom": "",
         "evolveInto": "7122074f"
     },
     {
@@ -13904,7 +14318,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "c14e5e08",
+        "evolveFrom": "cc11bc3c",
         "evolveInto": "e95467ca"
     },
     {
@@ -13934,7 +14348,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "7122074f",
+        "evolveFrom": "c14e5e08",
         "evolveInto": ""
     },
     {
@@ -13973,9 +14387,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1636,
+        "recovery": 140,
+        "health": 2725,
         "rarity": 4,
         "eventSkills": {
             "Slayer": 2
@@ -13994,7 +14408,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "a3c505e5",
+        "evolveFrom": "",
         "evolveInto": "9b5b2550"
     },
     {
@@ -14003,9 +14417,9 @@
         "affinity": "Water",
         "type": "Attacker",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2764,
+        "recovery": 234,
+        "health": 4608,
         "rarity": 5,
         "eventSkills": {
             "Slayer": 3
@@ -14024,7 +14438,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "cb2012ac",
+        "evolveFrom": "a3c505e5",
         "evolveInto": "186347d5"
     },
     {
@@ -14054,7 +14468,79 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "9b5b2550",
+        "evolveFrom": "cb2012ac",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f3ef2f83",
+        "name": "Frost & Bite",
+        "affinity": "Water",
+        "type": "Balanced",
+        "species": "Creature",
+        "attack": 1274,
+        "recovery": 424,
+        "health": 2123,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Absorb",
+        "leaderAbility": {
+            "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "cac66f0e"
+    },
+    {
+        "coreId": "cac66f0e",
+        "name": "Frost & Bite",
+        "affinity": "Water",
+        "type": "Balanced",
+        "species": "Creature",
+        "attack": 2164,
+        "recovery": 720,
+        "health": 3605,
+        "rarity": 5,
+        "eventSkills": [],
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Absorb",
+        "leaderAbility": {
+            "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "deb59fe6"
+    },
+    {
+        "coreId": "deb59fe6",
+        "name": "Frost & Bite",
+        "affinity": "Water",
+        "type": "Balanced",
+        "species": "Creature",
+        "attack": 3144,
+        "recovery": 1048,
+        "health": 5240,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Vessel",
+        "counterSkill": "Dispel Absorb",
+        "leaderAbility": {
+            "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "f3ef2f83",
         "evolveInto": ""
     },
     {
@@ -14615,9 +15101,9 @@
         "affinity": "Earth",
         "type": "Attacker",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1637,
+        "recovery": 221,
+        "health": 1104,
         "rarity": 4,
         "eventSkills": [],
         "defenderSkill": "Weaken",
@@ -14807,9 +15293,9 @@
         "affinity": "Earth",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2906,
+        "recovery": 247,
+        "health": 4842,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Poison",
@@ -15467,6 +15953,34 @@
             "target": "Earth"
         },
         "evolveFrom": "9a63240f",
+        "evolveInto": "c8b001ba"
+    },
+    {
+        "coreId": "c8b001ba",
+        "name": "Dogen, Ascended",
+        "affinity": "Earth",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5830,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Earth Might VI",
+            "description": "200% Damage for all Earth Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Earth"
+        },
+        "evolveFrom": "48cf8b46",
         "evolveInto": ""
     },
     {
@@ -15514,7 +16028,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "6657d40d",
+        "evolveFrom": "",
         "evolveInto": "c3ee16c1"
     },
     {
@@ -15538,7 +16052,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "098f350b",
+        "evolveFrom": "6657d40d",
         "evolveInto": ""
     },
     {
@@ -15586,7 +16100,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "b347280c",
+        "evolveFrom": "",
         "evolveInto": "2f1ee610"
     },
     {
@@ -15610,7 +16124,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "297b4e56",
+        "evolveFrom": "b347280c",
         "evolveInto": ""
     },
     {
@@ -15658,7 +16172,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "505a6046",
+        "evolveFrom": "",
         "evolveInto": "0c856377"
     },
     {
@@ -15682,7 +16196,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "a59e2008",
+        "evolveFrom": "505a6046",
         "evolveInto": ""
     },
     {
@@ -15730,7 +16244,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "9b2a6f4b",
+        "evolveFrom": "",
         "evolveInto": "2be5ca71"
     },
     {
@@ -15754,7 +16268,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "469fe741",
+        "evolveFrom": "9b2a6f4b",
         "evolveInto": ""
     },
     {
@@ -15802,7 +16316,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "887cb64c",
+        "evolveFrom": "",
         "evolveInto": "fad694f8"
     },
     {
@@ -15826,7 +16340,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "d4fb0579",
+        "evolveFrom": "887cb64c",
         "evolveInto": ""
     },
     {
@@ -15880,7 +16394,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "10aad900",
+        "evolveFrom": "",
         "evolveInto": "df733d8a"
     },
     {
@@ -15907,7 +16421,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "14b996aa",
+        "evolveFrom": "10aad900",
         "evolveInto": ""
     },
     {
@@ -15916,9 +16430,9 @@
         "affinity": "Earth",
         "type": "Warrior",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1374,
+        "recovery": 116,
+        "health": 2291,
         "rarity": 4,
         "eventSkills": {
             "Bounty Hunter": 2
@@ -15959,7 +16473,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "62a236d3",
+        "evolveFrom": "",
         "evolveInto": "e8f8c8a1"
     },
     {
@@ -15985,7 +16499,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "966be073",
+        "evolveFrom": "62a236d3",
         "evolveInto": ""
     },
     {
@@ -16033,7 +16547,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "3a8fac20",
+        "evolveFrom": "",
         "evolveInto": "d20af89f"
     },
     {
@@ -16057,7 +16571,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "53eae0b2",
+        "evolveFrom": "3a8fac20",
         "evolveInto": ""
     },
     {
@@ -16105,7 +16619,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "247cd538",
+        "evolveFrom": "",
         "evolveInto": "5010bb61"
     },
     {
@@ -16126,6 +16640,30 @@
             "description": "225% Damage for all Fable Heroes",
             "modifiers": {
                 "attack": 2.25
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "247cd538",
+        "evolveInto": "20995bee"
+    },
+    {
+        "coreId": "20995bee",
+        "name": "Minera, The World Tree",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 4616,
+        "recovery": 616,
+        "health": 3081,
+        "rarity": 6,
+        "eventSkills": [],
+        "defenderSkill": "Dodge",
+        "counterSkill": "Cure Siphon",
+        "leaderAbility": {
+            "name": "Fables Inspiration IV",
+            "description": "300% Damage for all Fable Heroes",
+            "modifiers": {
+                "attack": 3
             },
             "target": "Fable"
         },
@@ -16181,7 +16719,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "0fd9ff5d",
+        "evolveFrom": "",
         "evolveInto": "56e56314"
     },
     {
@@ -16207,7 +16745,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "e780a7f4",
+        "evolveFrom": "0fd9ff5d",
         "evolveInto": ""
     },
     {
@@ -16261,7 +16799,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "9cf29d6c",
+        "evolveFrom": "",
         "evolveInto": "4a8be89a"
     },
     {
@@ -16285,7 +16823,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "f80e603a",
+        "evolveFrom": "9cf29d6c",
         "evolveInto": ""
     },
     {
@@ -16318,9 +16856,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1826,
+        "recovery": 608,
+        "health": 3043,
         "rarity": 5,
         "eventSkills": {
             "Bounty Hunter": 3
@@ -16335,7 +16873,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "0e4a9fa9",
+        "evolveFrom": "",
         "evolveInto": "e29ec68c"
     },
     {
@@ -16344,9 +16882,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2658,
+        "recovery": 886,
+        "health": 4430,
         "rarity": 6,
         "eventSkills": {
             "Bounty Hunter": 4
@@ -16361,7 +16899,31 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "70e864ac",
+        "evolveFrom": "0e4a9fa9",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "4728c5f1",
+        "name": "Large-Clawed Wolf",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 1795,
+        "recovery": 241,
+        "health": 1210,
+        "rarity": 4,
+        "eventSkills": [],
+        "defenderSkill": "Autoheal",
+        "counterSkill": "None",
+        "leaderAbility": {
+            "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "",
         "evolveInto": ""
     },
     {
@@ -16413,7 +16975,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "ea36d99d",
+        "evolveFrom": "",
         "evolveInto": "67cb19ce"
     },
     {
@@ -16439,7 +17001,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "7f025876",
+        "evolveFrom": "ea36d99d",
         "evolveInto": "bee634cd"
     },
     {
@@ -16465,7 +17027,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "67cb19ce",
+        "evolveFrom": "7f025876",
         "evolveInto": ""
     },
     {
@@ -16474,9 +17036,9 @@
         "affinity": "Earth",
         "type": "Defender",
         "species": "Corrupt",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 488,
+        "recovery": 162,
+        "health": 2005,
         "rarity": 3,
         "eventSkills": [],
         "defenderSkill": "Panic",
@@ -16513,7 +17075,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "c3584db8",
+        "evolveFrom": "",
         "evolveInto": "620e536a"
     },
     {
@@ -16537,7 +17099,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "f6f6402d",
+        "evolveFrom": "c3584db8",
         "evolveInto": "a24bc096"
     },
     {
@@ -16546,9 +17108,9 @@
         "affinity": "Earth",
         "type": "Defender",
         "species": "Corrupt",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1930,
+        "recovery": 642,
+        "health": 8031,
         "rarity": 6,
         "eventSkills": [],
         "defenderSkill": "Panic",
@@ -16561,7 +17123,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "620e536a",
+        "evolveFrom": "f6f6402d",
         "evolveInto": ""
     },
     {
@@ -16613,7 +17175,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "9cfb14bf",
+        "evolveFrom": "",
         "evolveInto": "202363e9"
     },
     {
@@ -16639,7 +17201,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "72640b82",
+        "evolveFrom": "9cfb14bf",
         "evolveInto": "59ef7155"
     },
     {
@@ -16665,7 +17227,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "202363e9",
+        "evolveFrom": "72640b82",
         "evolveInto": ""
     },
     {
@@ -16714,6 +17276,32 @@
             "description": "280% REC for all Guardian Heroes",
             "modifiers": {
                 "recovery": 2.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "cc92463a"
+    },
+    {
+        "coreId": "cc92463a",
+        "name": "Beauty",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Human",
+        "attack": 4628,
+        "recovery": 620,
+        "health": 3099,
+        "rarity": 6,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Cure Traitor",
+        "leaderAbility": {
+            "name": "Guardian Blessing VI",
+            "description": "300% REC for all Guardian Heroes",
+            "modifiers": {
+                "recovery": 3
             },
             "target": "Guardian"
         },
@@ -16769,7 +17357,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c6a74b4d",
+        "evolveFrom": "",
         "evolveInto": "6ec91e18"
     },
     {
@@ -16795,7 +17383,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6cca5b99",
+        "evolveFrom": "c6a74b4d",
         "evolveInto": "1dc52044"
     },
     {
@@ -16821,7 +17409,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6ec91e18",
+        "evolveFrom": "6cca5b99",
         "evolveInto": ""
     },
     {
@@ -16875,7 +17463,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "195c140c",
+        "evolveFrom": "",
         "evolveInto": "8e38454a"
     },
     {
@@ -16902,7 +17490,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "34fef50e",
+        "evolveFrom": "195c140c",
         "evolveInto": ""
     },
     {
@@ -16964,7 +17552,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "771289cc",
+        "evolveFrom": "",
         "evolveInto": "7e09ef0c"
     },
     {
@@ -16995,7 +17583,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "5904bd1f",
+        "evolveFrom": "771289cc",
         "evolveInto": "954671e6"
     },
     {
@@ -17026,7 +17614,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "7e09ef0c",
+        "evolveFrom": "5904bd1f",
         "evolveInto": ""
     },
     {
@@ -17074,7 +17662,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "dbe178df",
+        "evolveFrom": "",
         "evolveInto": "b8709c24"
     },
     {
@@ -17098,31 +17686,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "f3cb4442",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "4728c5f1",
-        "name": "Large-Clawed Wolf",
-        "affinity": "Earth",
-        "type": "Attacker",
-        "species": "Corrupt",
-        "attack": 1795,
-        "recovery": 241,
-        "health": 1210,
-        "rarity": 4,
-        "eventSkills": [],
-        "defenderSkill": "Autoheal",
-        "counterSkill": "None",
-        "leaderAbility": {
-            "name": "Corrupt Might IV",
-            "description": "160% Damage for all Corrupt Heroes",
-            "modifiers": {
-                "attack": 1.6
-            },
-            "target": "Corrupt"
-        },
-        "evolveFrom": "",
+        "evolveFrom": "dbe178df",
         "evolveInto": ""
     },
     {
@@ -17131,9 +17695,9 @@
         "affinity": "Earth",
         "type": "Attacker",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2039,
+        "recovery": 273,
+        "health": 1372,
         "rarity": 4,
         "eventSkills": {
             "Commander": 2
@@ -17157,9 +17721,9 @@
         "affinity": "Earth",
         "type": "Attacker",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3449,
+        "recovery": 462,
+        "health": 2310,
         "rarity": 5,
         "eventSkills": {
             "Commander": 3
@@ -17174,7 +17738,7 @@
             },
             "target": "Technological"
         },
-        "evolveFrom": "2f93d99f",
+        "evolveFrom": "",
         "evolveInto": "37b0b4c8"
     },
     {
@@ -17200,7 +17764,7 @@
             },
             "target": "Technological"
         },
-        "evolveFrom": "86311d85",
+        "evolveFrom": "2f93d99f",
         "evolveInto": ""
     },
     {
@@ -17260,7 +17824,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "65fac5c5",
+        "evolveFrom": "",
         "evolveInto": "7a5b62d0"
     },
     {
@@ -17290,7 +17854,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "e7b336e2",
+        "evolveFrom": "65fac5c5",
         "evolveInto": "b8340bc8"
     },
     {
@@ -17320,7 +17884,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "7a5b62d0",
+        "evolveFrom": "e7b336e2",
         "evolveInto": ""
     },
     {
@@ -17380,7 +17944,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "23ef25df",
+        "evolveFrom": "",
         "evolveInto": "dae0d537"
     },
     {
@@ -17410,7 +17974,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "e87c49ed",
+        "evolveFrom": "23ef25df",
         "evolveInto": "90dbb919"
     },
     {
@@ -17440,7 +18004,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "dae0d537",
+        "evolveFrom": "e87c49ed",
         "evolveInto": ""
     },
     {
@@ -17488,7 +18052,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "bd2d30f1",
+        "evolveFrom": "",
         "evolveInto": "fe1203e4"
     },
     {
@@ -17512,7 +18076,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "376f39e6",
+        "evolveFrom": "bd2d30f1",
         "evolveInto": ""
     },
     {
@@ -17564,7 +18128,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "28575974",
+        "evolveFrom": "",
         "evolveInto": "79ca99cf"
     },
     {
@@ -17590,7 +18154,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "f7c44275",
+        "evolveFrom": "28575974",
         "evolveInto": ""
     },
     {
@@ -17650,7 +18214,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "99a5dbcf",
+        "evolveFrom": "",
         "evolveInto": "028d2d2b"
     },
     {
@@ -17680,7 +18244,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "f197fa77",
+        "evolveFrom": "99a5dbcf",
         "evolveInto": "d54178e2"
     },
     {
@@ -17710,7 +18274,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "028d2d2b",
+        "evolveFrom": "f197fa77",
         "evolveInto": ""
     },
     {
@@ -17770,7 +18334,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "cebc931b",
+        "evolveFrom": "",
         "evolveInto": "1429d24d"
     },
     {
@@ -17800,7 +18364,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "c69a4b56",
+        "evolveFrom": "cebc931b",
         "evolveInto": "e0a065cf"
     },
     {
@@ -17830,7 +18394,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "1429d24d",
+        "evolveFrom": "c69a4b56",
         "evolveInto": ""
     }
 ]

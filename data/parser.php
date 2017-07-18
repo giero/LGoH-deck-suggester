@@ -145,7 +145,7 @@ function extractLiderAbility($liderAbilityDescription, $heroName)
         $leaderAbilityValues[convertStats($leaderAbilityMatches[6])] = $leaderAbilityMatches[5] / 100;
         $leaderAbilityValues[convertStats($leaderAbilityMatches[7])] = $leaderAbilityMatches[5] / 100;
     } elseif (preg_match(
-        '/^([^:]+): ((\d+)% (Damage|HP|RCV), (Damage|HP|RCV) and (Damage|HP|RCV) for (\w+( \w+)?) Heroes)$/',
+        '/^([^:]+): ((\d+)% (Damage|HP|RCV|REC), (Damage|HP|RCV|REC) and (Damage|HP|RCV|REC) for (\w+( \w+)?) Heroes)$/',
         $liderAbilityDescription,
         $leaderAbilityMatches
     )) {
