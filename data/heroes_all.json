@@ -6794,6 +6794,324 @@
         "evolveInto": ""
     },
     {
+        "coreId": "b3e9da5e",
+        "name": "Aladdin",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Balanced Blessing IV",
+            "description": "260% REC for all Balanced Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Balanced"
+        },
+        "evolveFrom": "",
+        "evolveInto": "9a133c22"
+    },
+    {
+        "coreId": "9a133c22",
+        "name": "Aladdin",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Balanced Blessing V",
+            "description": "280% REC for all Balanced Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Balanced"
+        },
+        "evolveFrom": "",
+        "evolveInto": "652efdf5"
+    },
+    {
+        "coreId": "652efdf5",
+        "name": "Aladdin",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 5228,
+        "recovery": 698,
+        "health": 3495,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Balanced Blessing VI",
+            "description": "300% REC for all Balanced Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Balanced"
+        },
+        "evolveFrom": "b3e9da5e",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e37c9a61",
+        "name": "Scheherazade",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Fable Might I",
+            "description": "175% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8e8c4eb2"
+    },
+    {
+        "coreId": "8e8c4eb2",
+        "name": "Scheherazade",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Fable Might II",
+            "description": "200% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "b00981e6"
+    },
+    {
+        "coreId": "b00981e6",
+        "name": "Scheherazade",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Fable Might III",
+            "description": "225% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "e37c9a61",
+        "evolveInto": "5c4696c9"
+    },
+    {
+        "coreId": "5c4696c9",
+        "name": "Scheherazade",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Fable Might IV",
+            "description": "300% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "8e8c4eb2",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "bdcb3667",
+        "name": "Sinbad The Sailor",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Light Fable Might I",
+            "description": "175% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "481e98a2"
+    },
+    {
+        "coreId": "481e98a2",
+        "name": "Sinbad The Sailor",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Light Fable Might II",
+            "description": "200% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "ec94f235"
+    },
+    {
+        "coreId": "ec94f235",
+        "name": "Sinbad The Sailor",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Light Fable Might III",
+            "description": "225% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "bdcb3667",
+        "evolveInto": "bc8fa51d"
+    },
+    {
+        "coreId": "bc8fa51d",
+        "name": "Sinbad The Sailor",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Light Fable Might IV",
+            "description": "300% Damage and HP for all Light Fable Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "481e98a2",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
@@ -14211,9 +14529,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4024,
+        "recovery": 337,
+        "health": 6706,
         "rarity": 6,
         "eventSkills": {
             "Slayer": 4
