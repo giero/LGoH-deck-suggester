@@ -3,6 +3,7 @@ function Hero(props) {
     this.coreId = props.coreId;
     this.name = props.name;
     this.rarity = props.rarity;
+    this.awakening = props.awakening || 0;
 
     this.affinity = props.affinity;
     this.type = props.type;

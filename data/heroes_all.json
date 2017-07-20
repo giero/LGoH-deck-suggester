@@ -9,6 +9,7 @@
         "recovery": 48,
         "health": 236,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
@@ -33,6 +34,7 @@
         "recovery": 83,
         "health": 417,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -57,6 +59,7 @@
         "recovery": 136,
         "health": 681,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -81,6 +84,7 @@
         "recovery": 219,
         "health": 1098,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -105,6 +109,7 @@
         "recovery": 106,
         "health": 218,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
@@ -129,6 +134,7 @@
         "recovery": 176,
         "health": 355,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -153,6 +159,7 @@
         "recovery": 300,
         "health": 607,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -177,6 +184,7 @@
         "recovery": 113,
         "health": 562,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -201,6 +209,7 @@
         "recovery": 192,
         "health": 964,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -225,6 +234,7 @@
         "recovery": 88,
         "health": 128,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
@@ -249,6 +259,7 @@
         "recovery": 141,
         "health": 178,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -273,6 +284,7 @@
         "recovery": 239,
         "health": 304,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -297,6 +309,7 @@
         "recovery": 149,
         "health": 749,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -321,6 +334,7 @@
         "recovery": 255,
         "health": 1279,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -345,6 +359,7 @@
         "recovery": 136,
         "health": 1679,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -369,6 +384,7 @@
         "recovery": 221,
         "health": 2730,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -393,6 +409,7 @@
         "recovery": 79,
         "health": 393,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -417,6 +434,7 @@
         "recovery": 130,
         "health": 655,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -441,6 +459,7 @@
         "recovery": 136,
         "health": 681,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -465,6 +484,7 @@
         "recovery": 219,
         "health": 1096,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -489,6 +509,7 @@
         "recovery": 411,
         "health": 2053,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Weaken",
@@ -513,6 +534,7 @@
         "recovery": 195,
         "health": 2442,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -537,6 +559,7 @@
         "recovery": 330,
         "health": 4131,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -561,6 +584,7 @@
         "recovery": 104,
         "health": 2061,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -585,6 +609,7 @@
         "recovery": 178,
         "health": 3502,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -609,6 +634,7 @@
         "recovery": 64,
         "health": 320,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
@@ -633,6 +659,7 @@
         "recovery": 109,
         "health": 548,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
@@ -657,6 +684,7 @@
         "recovery": 39,
         "health": 759,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -681,6 +709,7 @@
         "recovery": 67,
         "health": 1284,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -705,6 +734,7 @@
         "recovery": 61,
         "health": 1204,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -729,6 +759,7 @@
         "recovery": 102,
         "health": 1973,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -753,6 +784,7 @@
         "recovery": 170,
         "health": 3326,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -777,6 +809,7 @@
         "recovery": 241,
         "health": 4820,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -801,6 +834,7 @@
         "recovery": 243,
         "health": 326,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -825,6 +859,7 @@
         "recovery": 393,
         "health": 502,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -849,6 +884,7 @@
         "recovery": 516,
         "health": 1044,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
@@ -873,6 +909,7 @@
         "recovery": 370,
         "health": 1848,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -897,6 +934,7 @@
         "recovery": 536,
         "health": 2685,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -921,6 +959,7 @@
         "recovery": 207,
         "health": 1040,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -945,6 +984,7 @@
         "recovery": 354,
         "health": 1772,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -969,6 +1009,7 @@
         "recovery": 512,
         "health": 2559,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -993,6 +1034,7 @@
         "recovery": 437,
         "health": 2189,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -1017,6 +1059,7 @@
         "recovery": 738,
         "health": 3690,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -1041,6 +1084,7 @@
         "recovery": 1071,
         "health": 5358,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -1065,6 +1109,7 @@
         "recovery": 415,
         "health": 536,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -1089,6 +1134,7 @@
         "recovery": 696,
         "health": 873,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -1113,6 +1159,7 @@
         "recovery": 1021,
         "health": 1294,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -1137,6 +1184,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -1161,6 +1209,7 @@
         "recovery": 526,
         "health": 2637,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -1185,6 +1234,7 @@
         "recovery": 764,
         "health": 3824,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -1209,6 +1259,7 @@
         "recovery": 574,
         "health": 1164,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
@@ -1233,6 +1284,7 @@
         "recovery": 967,
         "health": 1946,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
@@ -1257,6 +1309,7 @@
         "recovery": 1406,
         "health": 2819,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
@@ -1281,6 +1334,7 @@
         "recovery": 163,
         "health": 812,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -1309,6 +1363,7 @@
         "recovery": 272,
         "health": 1356,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -1337,6 +1392,7 @@
         "recovery": 442,
         "health": 2211,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -1365,6 +1421,7 @@
         "recovery": 748,
         "health": 3714,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -1393,6 +1450,7 @@
         "recovery": 1086,
         "health": 5430,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -1421,6 +1479,7 @@
         "recovery": 1166,
         "health": 5830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -1449,6 +1508,7 @@
         "recovery": 106,
         "health": 2077,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -1473,6 +1533,7 @@
         "recovery": 174,
         "health": 3484,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -1497,6 +1558,7 @@
         "recovery": 255,
         "health": 5088,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -1521,6 +1583,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -1545,6 +1608,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -1569,6 +1633,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -1593,6 +1658,7 @@
         "recovery": 326,
         "health": 1635,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -1617,6 +1683,7 @@
         "recovery": 552,
         "health": 2767,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -1641,6 +1708,7 @@
         "recovery": 804,
         "health": 4018,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -1665,6 +1733,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -1689,6 +1758,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -1713,6 +1783,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -1737,6 +1808,7 @@
         "recovery": 20,
         "health": 20,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -1764,6 +1836,7 @@
         "recovery": 95,
         "health": 475,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -1791,6 +1864,7 @@
         "recovery": 156,
         "health": 785,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -1818,6 +1892,7 @@
         "recovery": 249,
         "health": 1250,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -1845,6 +1920,7 @@
         "recovery": 422,
         "health": 2116,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3
@@ -1872,6 +1948,7 @@
         "recovery": 616,
         "health": 3087,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4
@@ -1899,6 +1976,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "None",
@@ -1923,6 +2001,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "None",
@@ -1947,6 +2026,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "None",
@@ -1971,6 +2051,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "None",
@@ -1995,6 +2076,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -2019,6 +2101,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -2043,6 +2126,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -2067,6 +2151,7 @@
         "recovery": 230,
         "health": 1146,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2093,6 +2178,7 @@
         "recovery": 374,
         "health": 1871,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2119,6 +2205,7 @@
         "recovery": 634,
         "health": 3171,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -2145,6 +2232,7 @@
         "recovery": 924,
         "health": 4618,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -2171,6 +2259,7 @@
         "recovery": 229,
         "health": 1144,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Poison",
@@ -2195,6 +2284,7 @@
         "recovery": 386,
         "health": 1936,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Poison",
@@ -2219,6 +2309,7 @@
         "recovery": 566,
         "health": 2831,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Poison",
@@ -2243,6 +2334,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2269,6 +2361,7 @@
         "recovery": 406,
         "health": 2034,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -2295,6 +2388,7 @@
         "recovery": 592,
         "health": 2959,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -2321,6 +2415,7 @@
         "recovery": 156,
         "health": 781,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2347,6 +2442,7 @@
         "recovery": 251,
         "health": 1260,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2373,6 +2469,7 @@
         "recovery": 426,
         "health": 2128,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -2399,6 +2496,7 @@
         "recovery": 618,
         "health": 3093,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -2425,6 +2523,7 @@
         "recovery": 253,
         "health": 3132,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -2449,6 +2548,7 @@
         "recovery": 424,
         "health": 5293,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -2473,6 +2573,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -2497,6 +2598,7 @@
         "recovery": 152,
         "health": 761,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -2526,6 +2628,7 @@
         "recovery": 253,
         "health": 1266,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -2555,6 +2658,7 @@
         "recovery": 426,
         "health": 2136,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -2584,6 +2688,7 @@
         "recovery": 618,
         "health": 3097,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -2613,6 +2718,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -2639,6 +2745,7 @@
         "recovery": 442,
         "health": 2212,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -2665,6 +2772,7 @@
         "recovery": 646,
         "health": 3231,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -2691,6 +2799,7 @@
         "recovery": 162,
         "health": 815,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -2721,6 +2830,7 @@
         "recovery": 261,
         "health": 1312,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -2751,6 +2861,7 @@
         "recovery": 444,
         "health": 2220,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -2781,6 +2892,7 @@
         "recovery": 642,
         "health": 3217,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -2811,6 +2923,7 @@
         "recovery": 501,
         "health": 642,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -2835,6 +2948,7 @@
         "recovery": 846,
         "health": 1071,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -2859,6 +2973,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -2883,6 +2998,7 @@
         "recovery": 388,
         "health": 1947,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -2907,6 +3023,7 @@
         "recovery": 662,
         "health": 3315,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -2931,6 +3048,7 @@
         "recovery": 968,
         "health": 4840,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -2955,6 +3073,7 @@
         "recovery": 134,
         "health": 2615,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -2981,6 +3100,7 @@
         "recovery": 224,
         "health": 4420,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -3007,6 +3127,7 @@
         "recovery": 325,
         "health": 6434,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -3033,6 +3154,7 @@
         "recovery": 240,
         "health": 1198,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -3063,6 +3185,7 @@
         "recovery": 390,
         "health": 1955,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -3093,6 +3216,7 @@
         "recovery": 664,
         "health": 3327,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -3123,6 +3247,7 @@
         "recovery": 962,
         "health": 4814,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -3153,6 +3278,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -3183,6 +3309,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -3213,6 +3340,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -3243,6 +3371,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -3273,6 +3402,7 @@
         "recovery": 83,
         "health": 1034,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
@@ -3299,6 +3429,7 @@
         "recovery": 156,
         "health": 1927,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
@@ -3325,6 +3456,7 @@
         "recovery": 229,
         "health": 2851,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
@@ -3351,6 +3483,7 @@
         "recovery": 273,
         "health": 1372,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -3377,6 +3510,7 @@
         "recovery": 462,
         "health": 2310,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -3403,6 +3537,7 @@
         "recovery": 672,
         "health": 3361,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -3429,6 +3564,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -3459,6 +3595,7 @@
         "recovery": 140,
         "health": 2725,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -3489,6 +3626,7 @@
         "recovery": 234,
         "health": 4608,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -3519,6 +3657,7 @@
         "recovery": 335,
         "health": 6690,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -3549,6 +3688,7 @@
         "recovery": 81,
         "health": 1594,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -3579,6 +3719,7 @@
         "recovery": 130,
         "health": 2603,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -3609,6 +3750,7 @@
         "recovery": 224,
         "health": 4428,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -3639,6 +3781,7 @@
         "recovery": 321,
         "health": 6418,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -3669,6 +3812,7 @@
         "recovery": 134,
         "health": 1665,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -3693,6 +3837,7 @@
         "recovery": 215,
         "health": 2706,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -3717,6 +3862,7 @@
         "recovery": 66,
         "health": 334,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
@@ -3741,6 +3887,7 @@
         "recovery": 109,
         "health": 548,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
@@ -3765,6 +3912,7 @@
         "recovery": 108,
         "health": 228,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
@@ -3789,6 +3937,7 @@
         "recovery": 180,
         "health": 379,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -3813,6 +3962,7 @@
         "recovery": 298,
         "health": 603,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -3837,6 +3987,7 @@
         "recovery": 50,
         "health": 248,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
@@ -3861,6 +4012,7 @@
         "recovery": 83,
         "health": 417,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -3885,6 +4037,7 @@
         "recovery": 136,
         "health": 687,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -3909,6 +4062,7 @@
         "recovery": 221,
         "health": 1104,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -3933,6 +4087,7 @@
         "recovery": 39,
         "health": 759,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -3957,6 +4112,7 @@
         "recovery": 67,
         "health": 1280,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -3981,6 +4137,7 @@
         "recovery": 77,
         "health": 387,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -4005,6 +4162,7 @@
         "recovery": 126,
         "health": 633,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -4029,6 +4187,7 @@
         "recovery": 106,
         "health": 2077,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -4053,6 +4212,7 @@
         "recovery": 178,
         "health": 3506,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -4077,6 +4237,7 @@
         "recovery": 132,
         "health": 665,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -4101,6 +4262,7 @@
         "recovery": 219,
         "health": 1094,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -4125,6 +4287,7 @@
         "recovery": 413,
         "health": 2069,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Weaken",
@@ -4149,6 +4312,7 @@
         "recovery": 82,
         "health": 104,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
@@ -4173,6 +4337,7 @@
         "recovery": 141,
         "health": 178,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -4197,6 +4362,7 @@
         "recovery": 241,
         "health": 316,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -4221,6 +4387,7 @@
         "recovery": 115,
         "health": 574,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -4245,6 +4412,7 @@
         "recovery": 190,
         "health": 950,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -4271,6 +4439,7 @@
         "recovery": 151,
         "health": 755,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -4295,6 +4464,7 @@
         "recovery": 251,
         "health": 1260,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -4319,6 +4489,7 @@
         "recovery": 61,
         "health": 1196,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -4343,6 +4514,7 @@
         "recovery": 98,
         "health": 1955,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -4367,6 +4539,7 @@
         "recovery": 168,
         "health": 3320,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -4391,6 +4564,7 @@
         "recovery": 243,
         "health": 4822,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -4415,6 +4589,7 @@
         "recovery": 237,
         "health": 298,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -4439,6 +4614,7 @@
         "recovery": 395,
         "health": 514,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -4463,6 +4639,7 @@
         "recovery": 197,
         "health": 2448,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -4487,6 +4664,7 @@
         "recovery": 332,
         "health": 4139,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -4511,6 +4689,7 @@
         "recovery": 518,
         "health": 1048,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
@@ -4535,6 +4714,7 @@
         "recovery": 372,
         "health": 1862,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -4559,6 +4739,7 @@
         "recovery": 534,
         "health": 2677,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -4583,6 +4764,7 @@
         "recovery": 205,
         "health": 1030,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -4607,6 +4789,7 @@
         "recovery": 350,
         "health": 1750,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -4631,6 +4814,7 @@
         "recovery": 512,
         "health": 2559,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -4655,6 +4839,7 @@
         "recovery": 435,
         "health": 2175,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -4679,6 +4864,7 @@
         "recovery": 736,
         "health": 3680,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -4703,6 +4889,7 @@
         "recovery": 1073,
         "health": 5362,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -4727,6 +4914,7 @@
         "recovery": 413,
         "health": 530,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -4751,6 +4939,7 @@
         "recovery": 698,
         "health": 877,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -4775,6 +4964,7 @@
         "recovery": 1019,
         "health": 1288,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -4799,6 +4989,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
@@ -4823,6 +5014,7 @@
         "recovery": 584,
         "health": 2919,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
@@ -4847,6 +5039,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
@@ -4871,6 +5064,7 @@
         "recovery": 570,
         "health": 1150,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
@@ -4895,6 +5089,7 @@
         "recovery": 967,
         "health": 1944,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
@@ -4919,6 +5114,7 @@
         "recovery": 1408,
         "health": 2825,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
@@ -4943,6 +5139,7 @@
         "recovery": 310,
         "health": 1557,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -4967,6 +5164,7 @@
         "recovery": 528,
         "health": 2641,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -4991,6 +5189,7 @@
         "recovery": 764,
         "health": 3818,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -5015,6 +5214,7 @@
         "recovery": 159,
         "health": 794,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -5043,6 +5243,7 @@
         "recovery": 270,
         "health": 1348,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -5071,6 +5272,7 @@
         "recovery": 440,
         "health": 2201,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -5099,6 +5301,7 @@
         "recovery": 744,
         "health": 3719,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -5127,6 +5330,7 @@
         "recovery": 1088,
         "health": 5442,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -5155,6 +5359,7 @@
         "recovery": 1166,
         "health": 5830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -5183,6 +5388,7 @@
         "recovery": 437,
         "health": 562,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -5209,6 +5415,7 @@
         "recovery": 734,
         "health": 921,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -5235,6 +5442,7 @@
         "recovery": 1075,
         "health": 1362,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -5261,6 +5469,7 @@
         "recovery": 344,
         "health": 1725,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -5287,6 +5496,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -5313,6 +5523,7 @@
         "recovery": 848,
         "health": 4236,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -5339,6 +5550,7 @@
         "recovery": 229,
         "health": 1146,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -5363,6 +5575,7 @@
         "recovery": 386,
         "health": 1934,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -5387,6 +5600,7 @@
         "recovery": 566,
         "health": 2833,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -5411,6 +5625,7 @@
         "recovery": 229,
         "health": 2854,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
@@ -5435,6 +5650,7 @@
         "recovery": 390,
         "health": 4845,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
@@ -5459,6 +5675,7 @@
         "recovery": 564,
         "health": 7039,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
@@ -5483,6 +5700,7 @@
         "recovery": 239,
         "health": 1202,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
@@ -5507,6 +5725,7 @@
         "recovery": 404,
         "health": 2026,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
@@ -5531,6 +5750,7 @@
         "recovery": 592,
         "health": 2959,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
@@ -5555,6 +5775,7 @@
         "recovery": 479,
         "health": 616,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -5579,6 +5800,7 @@
         "recovery": 810,
         "health": 1025,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -5603,6 +5825,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
@@ -5627,6 +5850,7 @@
         "recovery": 231,
         "health": 2860,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -5651,6 +5875,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -5675,6 +5900,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -5699,6 +5925,7 @@
         "recovery": 479,
         "health": 2399,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -5723,6 +5950,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -5747,6 +5975,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -5771,6 +6000,7 @@
         "recovery": 376,
         "health": 1887,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -5795,6 +6025,7 @@
         "recovery": 636,
         "health": 3183,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -5819,6 +6050,7 @@
         "recovery": 249,
         "health": 1252,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -5845,6 +6077,7 @@
         "recovery": 424,
         "health": 2120,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -5871,6 +6104,7 @@
         "recovery": 620,
         "health": 3099,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -5897,6 +6131,7 @@
         "recovery": 128,
         "health": 2509,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -5921,6 +6156,7 @@
         "recovery": 214,
         "health": 4238,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -5945,6 +6181,7 @@
         "recovery": 311,
         "health": 6168,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -5969,6 +6206,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -5995,6 +6233,7 @@
         "recovery": 442,
         "health": 2212,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -6021,6 +6260,7 @@
         "recovery": 646,
         "health": 3231,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -6047,6 +6287,7 @@
         "recovery": 263,
         "health": 1318,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6073,6 +6314,7 @@
         "recovery": 444,
         "health": 2218,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -6099,6 +6341,7 @@
         "recovery": 644,
         "health": 3225,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -6125,6 +6368,7 @@
         "recovery": 160,
         "health": 801,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6155,6 +6399,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6185,6 +6430,7 @@
         "recovery": 444,
         "health": 2226,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -6215,6 +6461,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -6245,6 +6492,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Vessel",
@@ -6269,6 +6517,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Vessel",
@@ -6293,6 +6542,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Vessel",
@@ -6317,6 +6567,7 @@
         "recovery": 646,
         "health": 3229,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Vessel",
@@ -6341,6 +6592,7 @@
         "recovery": 132,
         "health": 2607,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
@@ -6365,6 +6617,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
@@ -6389,6 +6642,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
@@ -6413,6 +6667,7 @@
         "recovery": 138,
         "health": 2723,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -6439,6 +6694,7 @@
         "recovery": 232,
         "health": 4602,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -6465,6 +6721,7 @@
         "recovery": 337,
         "health": 6706,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -6491,6 +6748,7 @@
         "recovery": 81,
         "health": 1594,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -6521,6 +6779,7 @@
         "recovery": 130,
         "health": 2603,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -6551,6 +6810,7 @@
         "recovery": 224,
         "health": 4428,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -6581,6 +6841,7 @@
         "recovery": 321,
         "health": 6418,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -6611,6 +6872,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -6641,6 +6903,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -6671,6 +6934,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -6701,6 +6965,7 @@
         "recovery": 335,
         "health": 6690,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -6731,6 +6996,7 @@
         "recovery": 271,
         "health": 1362,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
@@ -6755,6 +7021,7 @@
         "recovery": 464,
         "health": 2318,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
@@ -6779,6 +7046,7 @@
         "recovery": 672,
         "health": 3367,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
@@ -6803,6 +7071,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6829,6 +7098,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -6855,6 +7125,7 @@
         "recovery": 698,
         "health": 3495,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -6881,6 +7152,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6911,6 +7183,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -6941,6 +7214,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -6971,6 +7245,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -7001,6 +7276,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -7031,6 +7307,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -7061,6 +7338,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -7091,6 +7369,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -7121,6 +7400,7 @@
         "recovery": 46,
         "health": 234,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
@@ -7145,6 +7425,7 @@
         "recovery": 83,
         "health": 415,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -7169,6 +7450,7 @@
         "recovery": 136,
         "health": 685,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -7193,6 +7475,7 @@
         "recovery": 217,
         "health": 1092,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -7217,6 +7500,7 @@
         "recovery": 108,
         "health": 228,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
@@ -7241,6 +7525,7 @@
         "recovery": 178,
         "health": 371,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -7265,6 +7550,7 @@
         "recovery": 302,
         "health": 617,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -7289,6 +7575,7 @@
         "recovery": 136,
         "health": 1679,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -7313,6 +7600,7 @@
         "recovery": 219,
         "health": 2720,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -7337,6 +7625,7 @@
         "recovery": 41,
         "health": 769,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -7361,6 +7650,7 @@
         "recovery": 67,
         "health": 1284,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -7385,6 +7675,7 @@
         "recovery": 115,
         "health": 576,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -7409,6 +7700,7 @@
         "recovery": 194,
         "health": 972,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -7433,6 +7725,7 @@
         "recovery": 42,
         "health": 518,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Unknown",
@@ -7457,6 +7750,7 @@
         "recovery": 149,
         "health": 743,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -7481,6 +7775,7 @@
         "recovery": 253,
         "health": 1268,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -7505,6 +7800,7 @@
         "recovery": 59,
         "health": 1194,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -7529,6 +7825,7 @@
         "recovery": 98,
         "health": 1953,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -7553,6 +7850,7 @@
         "recovery": 170,
         "health": 3326,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -7577,6 +7875,7 @@
         "recovery": 243,
         "health": 4830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -7601,6 +7900,7 @@
         "recovery": 79,
         "health": 395,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -7625,6 +7925,7 @@
         "recovery": 128,
         "health": 645,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -7649,6 +7950,7 @@
         "recovery": 415,
         "health": 2073,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Weaken",
@@ -7673,6 +7975,7 @@
         "recovery": 64,
         "health": 318,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
@@ -7697,6 +8000,7 @@
         "recovery": 107,
         "health": 540,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
@@ -7721,6 +8025,7 @@
         "recovery": 84,
         "health": 112,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
@@ -7745,6 +8050,7 @@
         "recovery": 143,
         "health": 184,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -7769,6 +8075,7 @@
         "recovery": 243,
         "health": 322,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -7793,6 +8100,7 @@
         "recovery": 243,
         "health": 320,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -7817,6 +8125,7 @@
         "recovery": 393,
         "health": 506,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -7841,6 +8150,7 @@
         "recovery": 134,
         "health": 673,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -7865,6 +8175,7 @@
         "recovery": 217,
         "health": 1090,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -7889,6 +8200,7 @@
         "recovery": 102,
         "health": 2055,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -7913,6 +8225,7 @@
         "recovery": 176,
         "health": 3496,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -7937,6 +8250,7 @@
         "recovery": 197,
         "health": 2450,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -7961,6 +8275,7 @@
         "recovery": 334,
         "health": 4147,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -7985,6 +8300,7 @@
         "recovery": 514,
         "health": 1028,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
@@ -8009,6 +8325,7 @@
         "recovery": 462,
         "health": 2314,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -8035,6 +8352,7 @@
         "recovery": 672,
         "health": 3361,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -8061,6 +8379,7 @@
         "recovery": 207,
         "health": 1034,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -8085,6 +8404,7 @@
         "recovery": 350,
         "health": 1750,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -8109,6 +8429,7 @@
         "recovery": 512,
         "health": 2565,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -8133,6 +8454,7 @@
         "recovery": 433,
         "health": 2165,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -8157,6 +8479,7 @@
         "recovery": 734,
         "health": 3676,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -8181,6 +8504,7 @@
         "recovery": 1075,
         "health": 5376,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -8205,6 +8529,7 @@
         "recovery": 411,
         "health": 516,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -8229,6 +8554,7 @@
         "recovery": 700,
         "health": 887,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -8253,6 +8579,7 @@
         "recovery": 1017,
         "health": 1276,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -8277,6 +8604,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -8301,6 +8629,7 @@
         "recovery": 528,
         "health": 2639,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -8325,6 +8654,7 @@
         "recovery": 768,
         "health": 3838,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -8349,6 +8679,7 @@
         "recovery": 572,
         "health": 1156,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
@@ -8373,6 +8704,7 @@
         "recovery": 967,
         "health": 1948,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
@@ -8397,6 +8729,7 @@
         "recovery": 1408,
         "health": 2831,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
@@ -8421,6 +8754,7 @@
         "recovery": 161,
         "health": 808,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -8449,6 +8783,7 @@
         "recovery": 270,
         "health": 1348,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -8477,6 +8812,7 @@
         "recovery": 444,
         "health": 2219,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -8505,6 +8841,7 @@
         "recovery": 746,
         "health": 375,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -8533,6 +8870,7 @@
         "recovery": 1086,
         "health": 5432,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -8561,6 +8899,7 @@
         "recovery": 1166,
         "health": 5830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -8589,6 +8928,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -8613,6 +8953,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -8637,6 +8978,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -8661,6 +9003,7 @@
         "recovery": 231,
         "health": 1156,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -8687,6 +9030,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -8713,6 +9057,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -8739,6 +9084,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -8763,6 +9109,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -8787,6 +9134,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -8811,6 +9159,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8835,6 +9184,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8859,6 +9209,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8883,6 +9234,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8907,6 +9259,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8931,6 +9284,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
@@ -8955,6 +9309,7 @@
         "recovery": 437,
         "health": 566,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -8981,6 +9336,7 @@
         "recovery": 736,
         "health": 929,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -9007,6 +9363,7 @@
         "recovery": 1073,
         "health": 1352,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -9033,6 +9390,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -9059,6 +9417,7 @@
         "recovery": 390,
         "health": 1956,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -9085,6 +9444,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -9111,6 +9471,7 @@
         "recovery": 20,
         "health": 20,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9138,6 +9499,7 @@
         "recovery": 93,
         "health": 471,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9165,6 +9527,7 @@
         "recovery": 154,
         "health": 769,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9192,6 +9555,7 @@
         "recovery": 253,
         "health": 1266,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9219,6 +9583,7 @@
         "recovery": 422,
         "health": 2114,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3
@@ -9246,6 +9611,7 @@
         "recovery": 620,
         "health": 3105,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4
@@ -9273,6 +9639,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
@@ -9297,6 +9664,7 @@
         "recovery": 608,
         "health": 3043,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
@@ -9321,6 +9689,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
@@ -9345,6 +9714,7 @@
         "recovery": 20,
         "health": 20,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9372,6 +9742,7 @@
         "recovery": 93,
         "health": 467,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9399,6 +9770,7 @@
         "recovery": 152,
         "health": 761,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9426,6 +9798,7 @@
         "recovery": 251,
         "health": 1256,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -9453,6 +9826,7 @@
         "recovery": 428,
         "health": 2138,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3
@@ -9480,6 +9854,7 @@
         "recovery": 620,
         "health": 3101,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4
@@ -9507,6 +9882,7 @@
         "recovery": 297,
         "health": 388,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -9533,6 +9909,7 @@
         "recovery": 479,
         "health": 618,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -9559,6 +9936,7 @@
         "recovery": 808,
         "health": 1021,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -9585,6 +9963,7 @@
         "recovery": 1179,
         "health": 1480,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -9611,6 +9990,7 @@
         "recovery": 230,
         "health": 1146,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -9637,6 +10017,7 @@
         "recovery": 374,
         "health": 1871,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -9663,6 +10044,7 @@
         "recovery": 634,
         "health": 3171,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -9689,6 +10071,7 @@
         "recovery": 924,
         "health": 4618,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -9715,6 +10098,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -9739,6 +10123,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -9763,6 +10148,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -9787,6 +10173,7 @@
         "recovery": 231,
         "health": 2860,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -9811,6 +10198,7 @@
         "recovery": 388,
         "health": 4833,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -9835,6 +10223,7 @@
         "recovery": 564,
         "health": 7039,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -9859,6 +10248,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -9883,6 +10273,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -9907,6 +10298,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -9931,6 +10323,7 @@
         "recovery": 356,
         "health": 1783,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -9955,6 +10348,7 @@
         "recovery": 610,
         "health": 3049,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -9979,6 +10373,7 @@
         "recovery": 888,
         "health": 4438,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -10003,6 +10398,7 @@
         "recovery": 239,
         "health": 1196,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -10029,6 +10425,7 @@
         "recovery": 404,
         "health": 2026,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -10055,6 +10452,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -10081,6 +10479,7 @@
         "recovery": 128,
         "health": 2507,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -10105,6 +10504,7 @@
         "recovery": 214,
         "health": 4234,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -10129,6 +10529,7 @@
         "recovery": 309,
         "health": 6156,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -10153,6 +10554,7 @@
         "recovery": 128,
         "health": 2509,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10177,6 +10579,7 @@
         "recovery": 214,
         "health": 4238,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10201,6 +10604,7 @@
         "recovery": 311,
         "health": 6168,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10225,6 +10629,7 @@
         "recovery": 134,
         "health": 2615,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10249,6 +10654,7 @@
         "recovery": 224,
         "health": 4420,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10273,6 +10679,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -10297,6 +10704,7 @@
         "recovery": 263,
         "health": 1318,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cure Blind",
@@ -10321,6 +10729,7 @@
         "recovery": 444,
         "health": 2218,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cure Blind",
@@ -10345,6 +10754,7 @@
         "recovery": 644,
         "health": 3225,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cure Blind",
@@ -10369,6 +10779,7 @@
         "recovery": 160,
         "health": 801,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -10399,6 +10810,7 @@
         "recovery": 1261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -10429,6 +10841,7 @@
         "recovery": 4444,
         "health": 2226,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -10459,6 +10872,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -10489,6 +10903,7 @@
         "recovery": 132,
         "health": 2607,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -10513,6 +10928,7 @@
         "recovery": 226,
         "health": 4430,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -10537,6 +10953,7 @@
         "recovery": 325,
         "health": 6440,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -10561,6 +10978,7 @@
         "recovery": 273,
         "health": 1372,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -10587,6 +11005,7 @@
         "recovery": 462,
         "health": 2310,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -10613,6 +11032,7 @@
         "recovery": 672,
         "health": 3361,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -10639,6 +11059,7 @@
         "recovery": 160,
         "health": 801,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -10669,6 +11090,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -10699,6 +11121,7 @@
         "recovery": 444,
         "health": 2226,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -10729,6 +11152,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -10759,6 +11183,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -10789,6 +11214,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -10819,6 +11245,7 @@
         "recovery": 462,
         "health": 2314,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -10849,6 +11276,7 @@
         "recovery": 668,
         "health": 3345,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -10879,6 +11307,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -10909,6 +11338,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -10939,6 +11369,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -10969,6 +11400,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -10999,6 +11431,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Commander": 3
@@ -11028,6 +11461,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -11058,6 +11492,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -11088,6 +11523,7 @@
         "recovery": 408,
         "health": 2039,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
@@ -11112,6 +11548,7 @@
         "recovery": 692,
         "health": 3465,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
@@ -11136,6 +11573,7 @@
         "recovery": 1008,
         "health": 5040,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
@@ -11160,6 +11598,7 @@
         "recovery": 86,
         "health": 118,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
@@ -11184,6 +11623,7 @@
         "recovery": 143,
         "health": 190,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -11208,6 +11648,7 @@
         "recovery": 241,
         "health": 312,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -11232,6 +11673,7 @@
         "recovery": 66,
         "health": 330,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
@@ -11256,6 +11698,7 @@
         "recovery": 107,
         "health": 534,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
@@ -11280,6 +11723,7 @@
         "recovery": 50,
         "health": 254,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
@@ -11304,6 +11748,7 @@
         "recovery": 81,
         "health": 411,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -11328,6 +11773,7 @@
         "recovery": 134,
         "health": 671,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -11352,6 +11798,7 @@
         "recovery": 217,
         "health": 1092,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -11376,6 +11823,7 @@
         "recovery": 37,
         "health": 745,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -11400,6 +11848,7 @@
         "recovery": 65,
         "health": 1268,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -11424,6 +11873,7 @@
         "recovery": 134,
         "health": 1669,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -11448,6 +11898,7 @@
         "recovery": 217,
         "health": 2708,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -11472,6 +11923,7 @@
         "recovery": 79,
         "health": 393,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -11496,6 +11948,7 @@
         "recovery": 130,
         "health": 649,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -11520,6 +11973,7 @@
         "recovery": 413,
         "health": 2063,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Weaken",
@@ -11544,6 +11998,7 @@
         "recovery": 136,
         "health": 679,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -11568,6 +12023,7 @@
         "recovery": 221,
         "health": 1104,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -11592,6 +12048,7 @@
         "recovery": 108,
         "health": 2079,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -11616,6 +12073,7 @@
         "recovery": 178,
         "health": 3500,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -11640,6 +12098,7 @@
         "recovery": 106,
         "health": 216,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
@@ -11664,6 +12123,7 @@
         "recovery": 178,
         "health": 363,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -11688,6 +12148,7 @@
         "recovery": 300,
         "health": 609,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -11712,6 +12173,7 @@
         "recovery": 113,
         "health": 568,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -11736,6 +12198,7 @@
         "recovery": 192,
         "health": 956,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -11760,6 +12223,7 @@
         "recovery": 151,
         "health": 755,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -11784,6 +12248,7 @@
         "recovery": 253,
         "health": 1266,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -11808,6 +12273,7 @@
         "recovery": 63,
         "health": 1212,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -11832,6 +12298,7 @@
         "recovery": 102,
         "health": 1973,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -11856,6 +12323,7 @@
         "recovery": 168,
         "health": 3316,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -11880,6 +12348,7 @@
         "recovery": 243,
         "health": 4826,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -11904,6 +12373,7 @@
         "recovery": 239,
         "health": 306,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -11928,6 +12398,7 @@
         "recovery": 393,
         "health": 506,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -11952,6 +12423,7 @@
         "recovery": 195,
         "health": 2440,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -11976,6 +12448,7 @@
         "recovery": 334,
         "health": 4151,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -12000,6 +12473,7 @@
         "recovery": 516,
         "health": 1036,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
@@ -12024,6 +12498,7 @@
         "recovery": 462,
         "health": 2308,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -12050,6 +12525,7 @@
         "recovery": 672,
         "health": 3359,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -12076,6 +12552,7 @@
         "recovery": 205,
         "health": 1028,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -12100,6 +12577,7 @@
         "recovery": 350,
         "health": 1756,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -12124,6 +12602,7 @@
         "recovery": 514,
         "health": 2569,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -12148,6 +12627,7 @@
         "recovery": 435,
         "health": 2175,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -12172,6 +12652,7 @@
         "recovery": 734,
         "health": 3676,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -12196,6 +12677,7 @@
         "recovery": 1071,
         "health": 5358,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -12220,6 +12702,7 @@
         "recovery": 415,
         "health": 532,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -12244,6 +12727,7 @@
         "recovery": 696,
         "health": 875,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -12268,6 +12752,7 @@
         "recovery": 1019,
         "health": 1286,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -12292,6 +12777,7 @@
         "recovery": 572,
         "health": 1154,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
@@ -12316,6 +12802,7 @@
         "recovery": 965,
         "health": 1936,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
@@ -12340,6 +12827,7 @@
         "recovery": 1410,
         "health": 2835,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
@@ -12364,6 +12852,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -12388,6 +12877,7 @@
         "recovery": 524,
         "health": 2623,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -12412,6 +12902,7 @@
         "recovery": 764,
         "health": 3822,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -12436,6 +12927,7 @@
         "recovery": 163,
         "health": 812,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -12464,6 +12956,7 @@
         "recovery": 247,
         "health": 1370,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -12492,6 +12985,7 @@
         "recovery": 438,
         "health": 2197,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -12520,6 +13014,7 @@
         "recovery": 744,
         "health": 3721,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -12548,6 +13043,7 @@
         "recovery": 1086,
         "health": 5426,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -12576,6 +13072,7 @@
         "recovery": 1166,
         "health": 5830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -12604,6 +13101,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
@@ -12628,6 +13126,7 @@
         "recovery": 736,
         "health": 927,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
@@ -12652,6 +13151,7 @@
         "recovery": 1071,
         "health": 1344,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
@@ -12676,6 +13176,7 @@
         "recovery": 324,
         "health": 1627,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -12700,6 +13201,7 @@
         "recovery": 550,
         "health": 2757,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -12724,6 +13226,7 @@
         "recovery": 808,
         "health": 4038,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -12748,6 +13251,7 @@
         "recovery": 457,
         "health": 580,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -12774,6 +13278,7 @@
         "recovery": 774,
         "health": 981,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -12800,6 +13305,7 @@
         "recovery": 1125,
         "health": 1416,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -12826,6 +13332,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -12850,6 +13357,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -12874,6 +13382,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -12898,6 +13407,7 @@
         "recovery": 360,
         "health": 1805,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -12924,6 +13434,7 @@
         "recovery": 608,
         "health": 3043,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -12950,6 +13461,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -12976,6 +13488,7 @@
         "recovery": 116,
         "health": 2291,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
@@ -13000,6 +13513,7 @@
         "recovery": 196,
         "health": 3868,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
@@ -13024,6 +13538,7 @@
         "recovery": 285,
         "health": 5634,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
@@ -13048,6 +13563,7 @@
         "recovery": 106,
         "health": 2073,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -13072,6 +13588,7 @@
         "recovery": 178,
         "health": 3500,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -13096,6 +13613,7 @@
         "recovery": 257,
         "health": 5096,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -13120,6 +13638,7 @@
         "recovery": 231,
         "health": 1156,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -13146,6 +13665,7 @@
         "recovery": 388,
         "health": 1942,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Poison",
@@ -13170,6 +13690,7 @@
         "recovery": 564,
         "health": 2825,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Poison",
@@ -13194,6 +13715,7 @@
         "recovery": 122,
         "health": 2399,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -13218,6 +13740,7 @@
         "recovery": 204,
         "health": 4052,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -13242,6 +13765,7 @@
         "recovery": 297,
         "health": 5902,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -13266,6 +13790,7 @@
         "recovery": 239,
         "health": 1196,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Traitor",
@@ -13290,6 +13815,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Traitor",
@@ -13314,6 +13840,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Traitor",
@@ -13338,6 +13865,7 @@
         "recovery": 241,
         "health": 2994,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -13362,6 +13890,7 @@
         "recovery": 406,
         "health": 5059,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -13386,6 +13915,7 @@
         "recovery": 592,
         "health": 7373,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
@@ -13410,6 +13940,7 @@
         "recovery": 253,
         "health": 1272,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -13436,6 +13967,7 @@
         "recovery": 426,
         "health": 2134,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -13462,6 +13994,7 @@
         "recovery": 618,
         "health": 3097,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -13488,6 +14021,7 @@
         "recovery": 265,
         "health": 1326,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -13514,6 +14048,7 @@
         "recovery": 444,
         "health": 2224,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -13540,6 +14075,7 @@
         "recovery": 374,
         "health": 1875,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -13566,6 +14102,7 @@
         "recovery": 634,
         "health": 3175,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -13592,6 +14129,7 @@
         "recovery": 928,
         "health": 4636,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -13618,6 +14156,7 @@
         "recovery": 253,
         "health": 3132,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -13642,6 +14181,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -13666,6 +14206,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
@@ -13690,6 +14231,7 @@
         "recovery": 158,
         "health": 795,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -13720,6 +14262,7 @@
         "recovery": 261,
         "health": 1310,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -13750,6 +14293,7 @@
         "recovery": 446,
         "health": 2228,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -13780,6 +14324,7 @@
         "recovery": 646,
         "health": 3233,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -13810,6 +14355,7 @@
         "recovery": 263,
         "health": 3266,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
@@ -13834,6 +14380,7 @@
         "recovery": 4444,
         "health": 5521,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
@@ -13858,6 +14405,7 @@
         "recovery": 644,
         "health": 8039,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
@@ -13882,6 +14430,7 @@
         "recovery": 130,
         "health": 2603,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -13908,6 +14457,7 @@
         "recovery": 222,
         "health": 4414,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -13934,6 +14484,7 @@
         "recovery": 325,
         "health": 6440,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -13960,6 +14511,7 @@
         "recovery": 238,
         "health": 1190,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -13990,6 +14542,7 @@
         "recovery": 394,
         "health": 1969,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14020,6 +14573,7 @@
         "recovery": 664,
         "health": 3327,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -14050,6 +14604,7 @@
         "recovery": 966,
         "health": 4834,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -14080,6 +14635,7 @@
         "recovery": 263,
         "health": 1318,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Commander": 2
@@ -14107,6 +14663,7 @@
         "recovery": 444,
         "health": 2218,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Commander": 3
@@ -14134,6 +14691,7 @@
         "recovery": 644,
         "health": 3225,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Commander": 4
@@ -14161,6 +14719,7 @@
         "recovery": 240,
         "health": 1198,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Commander": 2
@@ -14192,6 +14751,7 @@
         "recovery": 390,
         "health": 1955,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Commander": 2
@@ -14223,6 +14783,7 @@
         "recovery": 664,
         "health": 3327,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Commander": 3
@@ -14254,6 +14815,7 @@
         "recovery": 962,
         "health": 4814,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Commander": 4
@@ -14285,6 +14847,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Commander": 2
@@ -14316,6 +14879,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Commander": 2
@@ -14347,6 +14911,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Commander": 3
@@ -14378,6 +14943,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Commander": 4
@@ -14409,6 +14975,7 @@
         "recovery": 271,
         "health": 1362,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
@@ -14433,6 +15000,7 @@
         "recovery": 464,
         "health": 2318,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
@@ -14457,6 +15025,7 @@
         "recovery": 672,
         "health": 3367,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
@@ -14481,6 +15050,7 @@
         "recovery": 138,
         "health": 2723,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14507,6 +15077,7 @@
         "recovery": 232,
         "health": 4602,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -14533,6 +15104,7 @@
         "recovery": 337,
         "health": 6706,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -14559,6 +15131,7 @@
         "recovery": 160,
         "health": 801,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14589,6 +15162,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14619,6 +15193,7 @@
         "recovery": 444,
         "health": 2226,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -14649,6 +15224,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -14679,6 +15255,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14709,6 +15286,7 @@
         "recovery": 140,
         "health": 2725,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -14739,6 +15317,7 @@
         "recovery": 234,
         "health": 4608,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -14769,6 +15348,7 @@
         "recovery": 335,
         "health": 6690,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -14799,6 +15379,7 @@
         "recovery": 424,
         "health": 2123,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
@@ -14823,6 +15404,7 @@
         "recovery": 720,
         "health": 3605,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
@@ -14847,6 +15429,7 @@
         "recovery": 1048,
         "health": 5240,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
@@ -14871,6 +15454,7 @@
         "recovery": 62,
         "health": 314,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
@@ -14895,6 +15479,7 @@
         "recovery": 111,
         "health": 552,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
@@ -14919,6 +15504,7 @@
         "recovery": 104,
         "health": 210,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
@@ -14943,6 +15529,7 @@
         "recovery": 180,
         "health": 375,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -14967,6 +15554,7 @@
         "recovery": 298,
         "health": 599,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -14991,6 +15579,7 @@
         "recovery": 88,
         "health": 126,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
@@ -15015,6 +15604,7 @@
         "recovery": 143,
         "health": 184,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -15039,6 +15629,7 @@
         "recovery": 241,
         "health": 318,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
@@ -15063,6 +15654,7 @@
         "recovery": 134,
         "health": 1663,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -15087,6 +15679,7 @@
         "recovery": 221,
         "health": 2734,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
@@ -15111,6 +15704,7 @@
         "recovery": 153,
         "health": 765,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -15135,6 +15729,7 @@
         "recovery": 257,
         "health": 1282,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Weaken",
@@ -15159,6 +15754,7 @@
         "recovery": 199,
         "health": 2458,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -15183,6 +15779,7 @@
         "recovery": 334,
         "health": 4145,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -15207,6 +15804,7 @@
         "recovery": 79,
         "health": 401,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -15231,6 +15829,7 @@
         "recovery": 128,
         "health": 647,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Zombie",
@@ -15255,6 +15854,7 @@
         "recovery": 104,
         "health": 2069,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -15279,6 +15879,7 @@
         "recovery": 176,
         "health": 3490,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Siphon",
@@ -15303,6 +15904,7 @@
         "recovery": 134,
         "health": 675,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -15327,6 +15929,7 @@
         "recovery": 219,
         "health": 1100,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Zombie",
@@ -15351,6 +15954,7 @@
         "recovery": 46,
         "health": 232,
         "rarity": 1,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
@@ -15375,6 +15979,7 @@
         "recovery": 79,
         "health": 399,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -15399,6 +16004,7 @@
         "recovery": 136,
         "health": 681,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -15423,6 +16029,7 @@
         "recovery": 221,
         "health": 1104,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Poison",
@@ -15447,6 +16054,7 @@
         "recovery": 115,
         "health": 576,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -15471,6 +16079,7 @@
         "recovery": 192,
         "health": 960,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -15495,6 +16104,7 @@
         "recovery": 43,
         "health": 771,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -15519,6 +16129,7 @@
         "recovery": 65,
         "health": 1270,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
@@ -15543,6 +16154,7 @@
         "recovery": 63,
         "health": 1212,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -15567,6 +16179,7 @@
         "recovery": 98,
         "health": 1949,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -15591,6 +16204,7 @@
         "recovery": 166,
         "health": 3310,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -15615,6 +16229,7 @@
         "recovery": 247,
         "health": 4842,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
@@ -15639,6 +16254,7 @@
         "recovery": 243,
         "health": 322,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -15663,6 +16279,7 @@
         "recovery": 391,
         "health": 494,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Cure Blind",
@@ -15687,6 +16304,7 @@
         "recovery": 411,
         "health": 2053,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
         "counterSkill": "Cure Weaken",
@@ -15711,6 +16329,7 @@
         "recovery": 514,
         "health": 1036,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
@@ -15735,6 +16354,7 @@
         "recovery": 372,
         "health": 1858,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -15759,6 +16379,7 @@
         "recovery": 538,
         "health": 2693,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
         "counterSkill": "Cure Zombie",
@@ -15783,6 +16404,7 @@
         "recovery": 207,
         "health": 1038,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -15807,6 +16429,7 @@
         "recovery": 352,
         "health": 1760,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -15831,6 +16454,7 @@
         "recovery": 512,
         "health": 2561,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -15855,6 +16479,7 @@
         "recovery": 437,
         "health": 2178,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -15879,6 +16504,7 @@
         "recovery": 736,
         "health": 3688,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -15903,6 +16529,7 @@
         "recovery": 1069,
         "health": 5348,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
         "counterSkill": "Cure Vessel",
@@ -15927,6 +16554,7 @@
         "recovery": 411,
         "health": 522,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -15951,6 +16579,7 @@
         "recovery": 696,
         "health": 875,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -15975,6 +16604,7 @@
         "recovery": 1019,
         "health": 1286,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
@@ -15999,6 +16629,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -16023,6 +16654,7 @@
         "recovery": 524,
         "health": 2621,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -16047,6 +16679,7 @@
         "recovery": 766,
         "health": 3828,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
@@ -16071,6 +16704,7 @@
         "recovery": 570,
         "health": 1148,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
@@ -16095,6 +16729,7 @@
         "recovery": 969,
         "health": 1954,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
@@ -16119,6 +16754,7 @@
         "recovery": 1410,
         "health": 2835,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
@@ -16143,6 +16779,7 @@
         "recovery": 163,
         "health": 818,
         "rarity": 2,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -16171,6 +16808,7 @@
         "recovery": 270,
         "health": 1354,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -16199,6 +16837,7 @@
         "recovery": 440,
         "health": 2207,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2,
@@ -16227,6 +16866,7 @@
         "recovery": 746,
         "health": 3731,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3,
@@ -16255,6 +16895,7 @@
         "recovery": 1086,
         "health": 5343,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -16283,6 +16924,7 @@
         "recovery": 1166,
         "health": 5830,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4,
             "Bounty Hunter": 4,
@@ -16311,6 +16953,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -16335,6 +16978,7 @@
         "recovery": 556,
         "health": 2781,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -16359,6 +17003,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
@@ -16383,6 +17028,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -16407,6 +17053,7 @@
         "recovery": 390,
         "health": 1954,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -16431,6 +17078,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Weaken",
@@ -16455,6 +17103,7 @@
         "recovery": 108,
         "health": 2165,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -16479,6 +17128,7 @@
         "recovery": 188,
         "health": 3692,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -16503,6 +17153,7 @@
         "recovery": 273,
         "health": 5372,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
@@ -16527,6 +17178,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -16551,6 +17203,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -16575,6 +17228,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
@@ -16599,6 +17253,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -16623,6 +17278,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -16647,6 +17303,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
@@ -16671,6 +17328,7 @@
         "recovery": 229,
         "health": 2850,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2,
             "Commander": 2
@@ -16698,6 +17356,7 @@
         "recovery": 386,
         "health": 4825,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3,
             "Commander": 3
@@ -16725,6 +17384,7 @@
         "recovery": 564,
         "health": 7039,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4,
             "Commander": 4
@@ -16752,6 +17412,7 @@
         "recovery": 116,
         "health": 2291,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2
         },
@@ -16778,6 +17439,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -16804,6 +17466,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -16830,6 +17493,7 @@
         "recovery": 360,
         "health": 1805,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -16854,6 +17518,7 @@
         "recovery": 608,
         "health": 3043,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -16878,6 +17543,7 @@
         "recovery": 886,
         "health": 4430,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
@@ -16902,6 +17568,7 @@
         "recovery": 152,
         "health": 765,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -16926,6 +17593,7 @@
         "recovery": 249,
         "health": 1250,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -16950,6 +17618,7 @@
         "recovery": 422,
         "health": 2116,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -16974,6 +17643,7 @@
         "recovery": 616,
         "health": 3081,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
@@ -16998,6 +17668,7 @@
         "recovery": 435,
         "health": 550,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17024,6 +17695,7 @@
         "recovery": 736,
         "health": 927,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -17050,6 +17722,7 @@
         "recovery": 1073,
         "health": 1360,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -17076,6 +17749,7 @@
         "recovery": 356,
         "health": 1787,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2,
             "Bounty Hunter": 2
@@ -17103,6 +17777,7 @@
         "recovery": 608,
         "health": 3045,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
             "Bounty Hunter": 3
@@ -17130,6 +17805,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
         "counterSkill": "Cure Weaken",
@@ -17154,6 +17830,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
         "counterSkill": "Cure Poison",
@@ -17178,6 +17855,7 @@
         "recovery": 608,
         "health": 3043,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3
         },
@@ -17204,6 +17882,7 @@
         "recovery": 886,
         "health": 4430,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4
         },
@@ -17230,6 +17909,7 @@
         "recovery": 241,
         "health": 1210,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
@@ -17254,6 +17934,7 @@
         "recovery": 146,
         "health": 737,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -17280,6 +17961,7 @@
         "recovery": 239,
         "health": 1196,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -17306,6 +17988,7 @@
         "recovery": 404,
         "health": 2026,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -17332,6 +18015,7 @@
         "recovery": 592,
         "health": 2965,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -17358,6 +18042,7 @@
         "recovery": 162,
         "health": 2005,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
@@ -17382,6 +18067,7 @@
         "recovery": 261,
         "health": 3260,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
@@ -17406,6 +18092,7 @@
         "recovery": 444,
         "health": 5523,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
@@ -17430,6 +18117,7 @@
         "recovery": 642,
         "health": 8031,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
@@ -17454,6 +18142,7 @@
         "recovery": 152,
         "health": 761,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17480,6 +18169,7 @@
         "recovery": 253,
         "health": 1266,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17506,6 +18196,7 @@
         "recovery": 426,
         "health": 2136,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -17532,6 +18223,7 @@
         "recovery": 618,
         "health": 3097,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -17558,6 +18250,7 @@
         "recovery": 249,
         "health": 1252,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17584,6 +18277,7 @@
         "recovery": 424,
         "health": 2120,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -17610,6 +18304,7 @@
         "recovery": 620,
         "health": 3099,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -17636,6 +18331,7 @@
         "recovery": 152,
         "health": 761,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17662,6 +18358,7 @@
         "recovery": 253,
         "health": 1266,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -17688,6 +18385,7 @@
         "recovery": 426,
         "health": 2136,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -17714,6 +18412,7 @@
         "recovery": 618,
         "health": 3097,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -17740,6 +18439,7 @@
         "recovery": 130,
         "health": 2603,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2,
             "Commander": 2
@@ -17767,6 +18467,7 @@
         "recovery": 222,
         "health": 4414,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3,
             "Commander": 3
@@ -17794,6 +18495,7 @@
         "recovery": 325,
         "health": 6440,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4,
             "Commander": 4
@@ -17821,6 +18523,7 @@
         "recovery": 79,
         "health": 1586,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2,
             "Commander": 2
@@ -17852,6 +18555,7 @@
         "recovery": 134,
         "health": 2617,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2,
             "Commander": 2
@@ -17883,6 +18587,7 @@
         "recovery": 224,
         "health": 4428,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3,
             "Commander": 3
@@ -17914,6 +18619,7 @@
         "recovery": 325,
         "health": 6438,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4,
             "Commander": 4
@@ -17945,6 +18651,7 @@
         "recovery": 263,
         "health": 3268,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
@@ -17969,6 +18676,7 @@
         "recovery": 444,
         "health": 5529,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
@@ -17993,6 +18701,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
@@ -18017,6 +18726,7 @@
         "recovery": 273,
         "health": 1372,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -18043,6 +18753,7 @@
         "recovery": 462,
         "health": 2310,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -18069,6 +18780,7 @@
         "recovery": 672,
         "health": 3361,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -18095,6 +18807,7 @@
         "recovery": 160,
         "health": 801,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -18125,6 +18838,7 @@
         "recovery": 261,
         "health": 1306,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -18155,6 +18869,7 @@
         "recovery": 444,
         "health": 2226,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -18185,6 +18900,7 @@
         "recovery": 642,
         "health": 3209,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -18215,6 +18931,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -18245,6 +18962,7 @@
         "recovery": 275,
         "health": 1374,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 2
         },
@@ -18275,6 +18993,7 @@
         "recovery": 462,
         "health": 2314,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 3
         },
@@ -18305,6 +19024,7 @@
         "recovery": 668,
         "health": 3345,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Commander": 4
         },
@@ -18335,6 +19055,7 @@
         "recovery": 408,
         "health": 2039,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -18359,6 +19080,7 @@
         "recovery": 692,
         "health": 3465,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -18383,6 +19105,7 @@
         "recovery": 1008,
         "health": 5040,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
@@ -18407,6 +19130,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -18433,6 +19157,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -18459,6 +19184,7 @@
         "recovery": 351,
         "health": 6972,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -18485,6 +19211,7 @@
         "recovery": 85,
         "health": 1662,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -18515,6 +19242,7 @@
         "recovery": 136,
         "health": 2711,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -18545,6 +19273,7 @@
         "recovery": 234,
         "health": 4610,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -18575,6 +19304,7 @@
         "recovery": 335,
         "health": 6688,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
@@ -18605,6 +19335,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 3,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -18635,6 +19366,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 4,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 2
         },
@@ -18665,6 +19397,7 @@
         "recovery": 0,
         "health": 0,
         "rarity": 5,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 3
         },
@@ -18695,6 +19428,7 @@
         "recovery": 347,
         "health": 6956,
         "rarity": 6,
+        "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },

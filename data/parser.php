@@ -60,6 +60,7 @@ function csvToArray($filename = '', $delimiter = ',')
             'recovery' => (int)$row['recovery'],
             'health' => (int)$row['health'],
             'rarity' => $rarity,
+            'awakening' => 5,
             'eventSkills' => array_merge(
                 !empty($row['slayer']) && preg_match('/^(\d)x$/', $row['slayer'], $sMatches)
                     ? ['Slayer' => (int)$sMatches[1]] : [],

@@ -59,7 +59,7 @@ Vue.component('team-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(teamHeroes, {removeRows: true, listId: 'team-heroes-list'})
+        'heroes-table': getHeroesTableComponent(teamHeroes, {editable: true, listId: 'team-heroes-list'})
     },
     computed: {
         counter: function () {
@@ -90,7 +90,7 @@ Vue.component('all-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(allHeroes, {removeRows: false, listId: 'all-heroes-list'})
+        'heroes-table': getHeroesTableComponent(allHeroes, {editable: false, listId: 'all-heroes-list'})
     },
     computed: {
         counter: function () {
@@ -150,7 +150,6 @@ Vue.component('team-adding-form', {
                     if (kv.value !== '') {
                         formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
                     }
-
                 } else {
                     if (kv.name === 'coreId') {
                         formParams[kv.name] = kv.value;
@@ -214,6 +213,7 @@ Vue.component('computed-decks', {
             progress: -1,
             worker: undefined,
             event: '',
+            maxStats: false,
             counterSkills: [],
             affinitiesLimit: [],
             affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
@@ -265,6 +265,8 @@ Vue.component('computed-decks', {
             $('#calculate-decks').hide();
             $('#stop-calculations').show();
 
+            this.bestDecks = {};
+
             var options = {};
             if (this.event) {
                 options.event = this.event;
@@ -277,9 +279,33 @@ Vue.component('computed-decks', {
                 options.affinitiesLimit = this.affinitiesLimit;
             }
 
-            this.bestDecks = {};
+            var heroes = this.teamHeroes.getHeroes();
+            if (this.maxStats) {
+                for (var i = heroes.length - 1; i >= 0; --i) {
+                    var hero = heroes[i];
+                    var coreHero = allHeroes.find(hero.coreId);
+                    var coreHeroStats = {
+                        attack: coreHero.attack >> 1,
+                        recovery: coreHero.recovery >> 1,
+                        health: coreHero.health >> 1
+                    };
+
+                    if (coreHeroStats.attack === 0 || coreHeroStats.recovery === 0 || coreHeroStats.health === 0) {
+                        // not all stats are filled in spreadsheet :(
+                        // maybe i'll make some notice for users or sth...
+                        window.console && console.log('No stats for ' + coreHero.name + '(' + coreHero.rarity + '*)');
+                        continue;
+                    }
+
+                    var awakenModifier = hero.awakening !== 0 ? 1 + 0.2 * hero.awakening : 1;
+                    hero.attack = Math.round(coreHeroStats.attack * awakenModifier);
+                    hero.recovery = Math.round(coreHeroStats.recovery * awakenModifier);
+                    hero.health = Math.round(coreHeroStats.health * awakenModifier);
+                }
+            }
+
             this.deckWorker.postMessage({
-                heroes: this.teamHeroes.getHeroes(),
+                heroes: heroes,
                 options: options
             });
         },

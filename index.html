@@ -141,11 +141,13 @@
             <tbody>
             <tr v-for="hero in filteredHeroes" :data-hero-id="hero.id">
                 <td>
-                    {{ hero.name }}<br class="visible-sm-block visible-xs-block" /> <span v-html="hero.rarityStarsHTML"></span>
+                    {{ hero.name }}<br class="visible-sm-block visible-xs-block" />
+                    <span v-if="hero.awakening > 0" class="badge" title="Awakening level" style="cursor: default">{{ hero.awakening }}</span>
+                    <span v-html="hero.rarityStarsHTML"></span>
                 </td>
-                <td><span class="hero-editable-stat editable-click" data-stat="attack" title="edit stat">{{ hero.attack }}</span></td>
-                <td><span class="hero-editable-stat editable-click" data-stat="recovery" title="edit stat">{{ hero.recovery }}</span></td>
-                <td><span class="hero-editable-stat editable-click" data-stat="health" title="edit stat">{{ hero.health }}</span></td>
+                <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="attack" :title="editable ? 'edit stat' : ''">{{ hero.attack }}</span></td>
+                <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="recovery" :title="editable ? 'edit stat' : ''">{{ hero.recovery }}</span></td>
+                <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="health" :title="editable ? 'edit stat' : ''">{{ hero.health }}</span></td>
                 <td>
                     <span class="label label-primary event-skill"
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
@@ -156,7 +158,7 @@
                 </td>
                 <td>{{ hero.defenderSkill }}</td>
                 <td>{{ hero.counterSkill }}</td>
-                <td v-if="removeRows">
+                <td v-if="editable">
                     <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" @click="removeHeroFromList"></span>
                 </td>
             </tr>
@@ -171,7 +173,7 @@
             <fieldset>
                 <legend>Add hero to team</legend>
                 <div class='form-group'>
-                    <div class='col-sm-12'>
+                    <div class='col-sm-10'>
                         <select class="form-control selectpicker" id="team-hero-id" name="coreId" required title="Hero name" data-live-search="true" data-size="10">
                             <optgroup v-for="(heroes, affinity) in affinityHeroes" :label="affinity">
                                 <option v-for="hero in heroes"
@@ -180,6 +182,13 @@
                                     {{ hero.name }}
                                 </option>
                             </optgroup>
+                        </select>
+                    </div>
+                    <div class='col-sm-2'>
+                        <select class="form-control selectpicker" id="team-hero-awakening" name="awakening" required title="Awakening level">
+                            <option v-for="(value, awakening) in {0:'',1:1,2:2,3:3,4:4,5:5}" :value="awakening">
+                                {{ value }}
+                            </option>
                         </select>
                     </div>
                 </div>
@@ -241,6 +250,16 @@
                                     <option value="Slayer">Slayer</option>
                                     <option value="Commander">Commander</option>
                                 </select>
+                            </div>
+                            <div class="checkbox checkbox-primary form-group">
+                                <input type="checkbox" v-model="maxStats" class="styled" id="calculation-max-stats">
+                                <label for="calculation-max-stats"><strong>Calculate at max stats</strong></label>
+                                <span class="glyphicon glyphicon-info-sign text-info"
+                                      data-toggle="popover"
+                                      data-trigger="hover"
+                                      data-placement="top"
+                                      data-container="body"
+                                      data-content="If you would like to know which cards you should level up to max to get best results."></span>
                             </div>
                         </div>
                         <div class="col-sm-6">
