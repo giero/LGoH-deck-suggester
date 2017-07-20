@@ -214,6 +214,8 @@ Vue.component('computed-decks', {
             worker: undefined,
             event: '',
             maxStats: false,
+            maxRarity: false,
+            maxAwakening: false,
             counterSkills: [],
             affinitiesLimit: [],
             affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
@@ -282,7 +284,15 @@ Vue.component('computed-decks', {
             var heroes = this.teamHeroes.getHeroes();
             if (this.maxStats) {
                 for (var i = heroes.length - 1; i >= 0; --i) {
-                    var hero = heroes[i];
+                    var hero = new Hero(heroes[i]);
+
+                    if (this.maxRarity) {
+                        while (hero.evolveInto) {
+                            hero = new Hero(allHeroes.find(hero.evolveInto));
+                            hero.awakening = 0;
+                        }
+                    }
+
                     var coreHero = allHeroes.find(hero.coreId);
                     var coreHeroStats = {
                         attack: coreHero.attack >> 1,
@@ -293,14 +303,20 @@ Vue.component('computed-decks', {
                     if (coreHeroStats.attack === 0 || coreHeroStats.recovery === 0 || coreHeroStats.health === 0) {
                         // not all stats are filled in spreadsheet :(
                         // maybe i'll make some notice for users or sth...
-                        window.console && console.log('No stats for ' + coreHero.name + '(' + coreHero.rarity + '*)');
+                        window.console && console.log('No max stats for ' + coreHero.name + ' (' + coreHero.rarity + '*)');
                         continue;
+                    }
+
+                    if (this.maxAwakening) {
+                        hero.awakening = 5;
                     }
 
                     var awakenModifier = hero.awakening !== 0 ? 1 + 0.2 * hero.awakening : 1;
                     hero.attack = Math.round(coreHeroStats.attack * awakenModifier);
                     hero.recovery = Math.round(coreHeroStats.recovery * awakenModifier);
                     hero.health = Math.round(coreHeroStats.health * awakenModifier);
+
+                    heroes[i] = hero;
                 }
             }
 

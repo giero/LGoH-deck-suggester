@@ -252,14 +252,34 @@
                                 </select>
                             </div>
                             <div class="checkbox checkbox-primary form-group">
-                                <input type="checkbox" v-model="maxStats" class="styled" id="calculation-max-stats">
+                                <input type="checkbox" v-model="maxStats" class="styled" id="calculation-max-stats" @click="if (maxStats === false) maxRarity = maxAwakening = false;">
                                 <label for="calculation-max-stats"><strong>Calculate at max stats</strong></label>
                                 <span class="glyphicon glyphicon-info-sign text-info"
                                       data-toggle="popover"
                                       data-trigger="hover"
                                       data-placement="top"
                                       data-container="body"
-                                      data-content="If you would like to know which cards you should level up to max to get best results."></span>
+                                      data-content="Calculate with all cards temporarily raised to max level (on the same rarity)."></span>
+                            </div>
+                            <div class="checkbox checkbox-primary form-group">
+                                <input type="checkbox" v-model="maxRarity" class="styled" id="calculation-max-rarity" :disabled="!maxStats">
+                                <label for="calculation-max-rarity"><strong>Calculate at max rarity</strong></label>
+                                <span class="glyphicon glyphicon-info-sign text-info"
+                                      data-toggle="popover"
+                                      data-trigger="hover"
+                                      data-placement="top"
+                                      data-container="body"
+                                      data-content="Calculate with all cards temporarily raised to max rarity."></span>
+                            </div>
+                            <div class="checkbox checkbox-primary form-group">
+                                <input type="checkbox" v-model="maxAwakening" class="styled" id="calculation-max-awakening" :disabled="!maxStats">
+                                <label for="calculation-max-awakening"><strong>Calculate at max awakening</strong></label>
+                                <span class="glyphicon glyphicon-info-sign text-info"
+                                      data-toggle="popover"
+                                      data-trigger="hover"
+                                      data-placement="top"
+                                      data-container="body"
+                                      data-content="Calculate with all cards temporarily raised to max awakening level."></span>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -329,6 +349,7 @@
                                             <span :class="key === 0 ? 'text-danger': ''">
                                                 {{ hero.name }}
                                             </span>
+                                            <span v-if="hero.awakening > 0" class="badge" title="Awakening level" style="cursor: default">{{ hero.awakening }}</span>
                                             <span v-html="(new Hero(hero)).rarityStarsHTML"></span>
                                             <span v-if="key === 0"
                                                   class="glyphicon glyphicon-info-sign text-info"

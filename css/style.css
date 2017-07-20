@@ -72,7 +72,7 @@ span.rarity-star {
     padding: 5px 8px !important;
 }
 
-.calculated-heroes-panel .list-group-item .badge {
+.calculated-heroes-panel .stats-list .list-group-item .badge {
     background-color: #31708f;
     font-weight: normal;
 }
