@@ -185,8 +185,9 @@
                         </select>
                     </div>
                     <div class='col-sm-2'>
-                        <select class="form-control selectpicker" id="team-hero-awakening" name="awakening" required title="Awakening level">
-                            <option v-for="(value, awakening) in {0:'',1:1,2:2,3:3,4:4,5:5}" :value="awakening">
+                        <select class="form-control selectpicker" id="team-hero-awakening" name="awakening" title="Awakening level">
+                            <option value=""></option>
+                            <option v-for="(value, awakening) in {1:1,2:2,3:3,4:4,5:5}" :value="awakening">
                                 {{ value }}
                             </option>
                         </select>
