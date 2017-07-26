@@ -1509,7 +1509,9 @@
         "health": 2077,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -1534,7 +1536,9 @@
         "health": 3484,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -1559,7 +1563,9 @@
         "health": 5088,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -1584,7 +1590,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -1609,7 +1617,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -1634,7 +1644,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -1659,7 +1671,9 @@
         "health": 1635,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -1684,7 +1698,9 @@
         "health": 2767,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -1709,7 +1725,9 @@
         "health": 4018,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -2077,7 +2095,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -2102,7 +2122,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -2127,7 +2149,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -2524,7 +2548,9 @@
         "health": 3132,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -2549,7 +2575,9 @@
         "health": 5293,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -2574,7 +2602,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -2924,7 +2954,9 @@
         "health": 642,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -2949,7 +2981,9 @@
         "health": 1071,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -2974,7 +3008,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -2999,7 +3035,9 @@
         "health": 1947,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -3024,7 +3062,9 @@
         "health": 3315,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -3049,7 +3089,9 @@
         "health": 4840,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -3403,7 +3445,9 @@
         "health": 1034,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -3430,7 +3474,9 @@
         "health": 1927,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -3457,7 +3503,9 @@
         "health": 2851,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -3800,6 +3848,87 @@
             ]
         },
         "evolveFrom": "5094d032",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f10e148c",
+        "name": "Al-Dimiryat",
+        "affinity": "Dark",
+        "type": "Defender",
+        "species": "Human",
+        "attack": 851,
+        "recovery": 283,
+        "health": 3528,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Siphon",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "c8355c48"
+    },
+    {
+        "coreId": "c8355c48",
+        "name": "Al-Dimiryat",
+        "affinity": "Dark",
+        "type": "Defender",
+        "species": "Human",
+        "attack": 1447,
+        "recovery": 482,
+        "health": 5991,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Siphon",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "c3ca95d0"
+    },
+    {
+        "coreId": "c3ca95d0",
+        "name": "Al-Dimiryat",
+        "affinity": "Dark",
+        "type": "Defender",
+        "species": "Human",
+        "attack": 2100,
+        "recovery": 700,
+        "health": 8717,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Siphon",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "f10e148c",
         "evolveInto": ""
     },
     {
@@ -4413,9 +4542,7 @@
         "health": 950,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": {
-            "Commander": 3
-        },
+        "eventSkills": [],
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Siphon",
         "leaderAbility": {
@@ -5626,7 +5753,9 @@
         "health": 2854,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5651,7 +5780,9 @@
         "health": 4845,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5676,7 +5807,9 @@
         "health": 7039,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5701,7 +5834,9 @@
         "health": 1202,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -5726,7 +5861,9 @@
         "health": 2026,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -5751,7 +5888,9 @@
         "health": 2959,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -5851,7 +5990,9 @@
         "health": 2860,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5876,7 +6017,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5901,7 +6044,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -5926,7 +6071,9 @@
         "health": 2399,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -5951,7 +6098,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -5976,7 +6125,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -6001,7 +6152,9 @@
         "health": 1887,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -6026,7 +6179,9 @@
         "health": 3183,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -6132,7 +6287,9 @@
         "health": 2509,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -6157,7 +6314,9 @@
         "health": 4238,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -6182,7 +6341,9 @@
         "health": 6168,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -6593,7 +6754,9 @@
         "health": 2607,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -6618,7 +6781,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -6643,7 +6808,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -6868,9 +7035,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1006,
+        "recovery": 87,
+        "health": 1676,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -6899,9 +7066,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1636,
+        "recovery": 140,
+        "health": 1725,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -6930,9 +7097,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2764,
+        "recovery": 234,
+        "health": 4608,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -6997,7 +7164,9 @@
         "health": 1362,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -7022,7 +7191,9 @@
         "health": 2318,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -7047,7 +7218,9 @@
         "health": 3367,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Toxin",
         "counterSkill": "Cure Zombie",
         "leaderAbility": {
@@ -7067,9 +7240,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2123,
+        "recovery": 285,
+        "health": 1426,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -7094,9 +7267,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3589,
+        "recovery": 480,
+        "health": 2402,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -7148,9 +7321,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 998,
+        "recovery": 85,
+        "health": 1662,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -7179,9 +7352,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1626,
+        "recovery": 136,
+        "health": 2711,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -7210,9 +7383,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2766,
+        "recovery": 234,
+        "health": 4610,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -7241,9 +7414,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4014,
+        "recovery": 335,
+        "health": 6688,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -8929,7 +9102,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -8954,7 +9129,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -8979,7 +9156,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -9160,7 +9339,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
         "leaderAbility": {
@@ -9185,7 +9366,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
         "leaderAbility": {
@@ -9210,7 +9393,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Cure Panic",
         "leaderAbility": {
@@ -9640,7 +9825,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -9665,7 +9852,9 @@
         "health": 3043,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -9690,7 +9879,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Armor",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -10174,7 +10365,9 @@
         "health": 2860,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -10199,7 +10392,9 @@
         "health": 4833,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -10224,7 +10419,9 @@
         "health": 7039,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
         "leaderAbility": {
@@ -10324,7 +10521,9 @@
         "health": 1783,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10349,7 +10548,9 @@
         "health": 3049,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10374,7 +10575,9 @@
         "health": 4438,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10480,7 +10683,9 @@
         "health": 2507,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10505,7 +10710,9 @@
         "health": 4234,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10530,7 +10737,9 @@
         "health": 6156,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -10555,7 +10764,9 @@
         "health": 2509,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10580,7 +10791,9 @@
         "health": 4238,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10605,7 +10818,9 @@
         "health": 6168,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10630,7 +10845,9 @@
         "health": 2615,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10655,7 +10872,9 @@
         "health": 4420,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10680,7 +10899,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10904,7 +11125,9 @@
         "health": 2607,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -10929,7 +11152,9 @@
         "health": 4430,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -10954,7 +11179,9 @@
         "health": 6440,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -11524,7 +11751,9 @@
         "health": 2039,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -11549,7 +11778,9 @@
         "health": 3465,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -11574,7 +11805,9 @@
         "health": 5040,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -11586,6 +11819,87 @@
             "target": "Attacker"
         },
         "evolveFrom": "874966e8",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "70609cc5",
+        "name": "Kinich Ahau",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Warrior Armor IV",
+            "description": "160% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "",
+        "evolveInto": "6840bc21"
+    },
+    {
+        "coreId": "6840bc21",
+        "name": "Kinich Ahau",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Warrior Armor V",
+            "description": "180% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b17339fc"
+    },
+    {
+        "coreId": "b17339fc",
+        "name": "Kinich Ahau",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5228,
+        "recovery": 698,
+        "health": 3495,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Warrior Armor VI",
+            "description": "200% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "70609cc5",
         "evolveInto": ""
     },
     {
@@ -13177,7 +13491,9 @@
         "health": 1627,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -13202,7 +13518,9 @@
         "health": 2757,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -13227,7 +13545,9 @@
         "health": 4038,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -13333,7 +13653,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -13358,7 +13680,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -13383,7 +13707,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -13489,7 +13815,9 @@
         "health": 2291,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -13514,7 +13842,9 @@
         "health": 3868,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -13539,7 +13869,9 @@
         "health": 5634,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Cure Poison",
         "leaderAbility": {
@@ -13564,7 +13896,9 @@
         "health": 2073,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -13589,7 +13923,9 @@
         "health": 3500,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -13614,7 +13950,9 @@
         "health": 5096,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -13716,7 +14054,9 @@
         "health": 2399,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -13741,7 +14081,9 @@
         "health": 4052,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -13766,7 +14108,9 @@
         "health": 5902,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -13866,7 +14210,9 @@
         "health": 2994,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -13891,7 +14237,9 @@
         "health": 5059,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -13916,7 +14264,9 @@
         "health": 7373,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Counterattack",
         "counterSkill": "None",
         "leaderAbility": {
@@ -14157,7 +14507,9 @@
         "health": 3132,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -14182,7 +14534,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -14207,7 +14561,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -14356,7 +14712,9 @@
         "health": 3266,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
         "leaderAbility": {
@@ -14381,7 +14739,9 @@
         "health": 5521,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
         "leaderAbility": {
@@ -14406,7 +14766,9 @@
         "health": 8039,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Cure Vessel",
         "leaderAbility": {
@@ -14976,7 +15338,9 @@
         "health": 1362,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
         "leaderAbility": {
@@ -15001,7 +15365,9 @@
         "health": 2318,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
         "leaderAbility": {
@@ -15026,7 +15392,9 @@
         "health": 3367,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Earth Petrify",
         "counterSkill": "Cure Siphon",
         "leaderAbility": {
@@ -15380,7 +15748,9 @@
         "health": 2123,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -15405,7 +15775,9 @@
         "health": 3605,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -15430,7 +15802,9 @@
         "health": 5240,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -16954,7 +17328,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -16979,7 +17355,9 @@
         "health": 2781,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -17004,7 +17382,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -17104,7 +17484,9 @@
         "health": 2165,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -17129,7 +17511,9 @@
         "health": 3692,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -17154,7 +17538,9 @@
         "health": 5372,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Thorns",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -17179,7 +17565,9 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -17204,7 +17592,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -17229,7 +17619,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -17331,7 +17723,8 @@
         "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 2,
-            "Commander": 2
+            "Commander": 2,
+            "Warden": true
         },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -17359,7 +17752,8 @@
         "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 3,
-            "Commander": 3
+            "Commander": 3,
+            "Warden": true
         },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -17387,7 +17781,8 @@
         "awakening": 5,
         "eventSkills": {
             "Bounty Hunter": 4,
-            "Commander": 4
+            "Commander": 4,
+            "Warden": true
         },
         "defenderSkill": "Weaken",
         "counterSkill": "Cure Traitor",
@@ -17494,7 +17889,9 @@
         "health": 1805,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -17519,7 +17916,9 @@
         "health": 3043,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -17544,7 +17943,9 @@
         "health": 4430,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -17910,7 +18311,9 @@
         "health": 1210,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Autoheal",
         "counterSkill": "None",
         "leaderAbility": {
@@ -18043,7 +18446,9 @@
         "health": 2005,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -18068,7 +18473,9 @@
         "health": 3260,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -18093,7 +18500,9 @@
         "health": 5523,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -18118,7 +18527,9 @@
         "health": 8031,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Might",
         "leaderAbility": {
@@ -18652,7 +19063,9 @@
         "health": 3268,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -18677,7 +19090,9 @@
         "health": 5529,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -18702,7 +19117,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Gem Silence",
         "counterSkill": "Cure Blind",
         "leaderAbility": {
@@ -19056,7 +19473,9 @@
         "health": 2039,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
         "leaderAbility": {
@@ -19081,7 +19500,9 @@
         "health": 3465,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
         "leaderAbility": {
@@ -19106,7 +19527,9 @@
         "health": 5040,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Warden": true
+        },
         "defenderSkill": "Blind",
         "counterSkill": "Cure Panic",
         "leaderAbility": {

@@ -67,7 +67,8 @@ function csvToArray($filename = '', $delimiter = ',')
                 !empty($row['bounty hunter']) && preg_match('/^(\d)x$/', $row['bounty hunter'], $bhMatches)
                     ? ['Bounty Hunter' => (int)$bhMatches[1]] : [],
                 !empty($row['commander']) && preg_match('/^(\d)x$/', $row['commander'], $cMatches)
-                    ? ['Commander' => (int)$cMatches[1]] : []
+                    ? ['Commander' => (int)$cMatches[1]] : [],
+                !empty($row['warden']) ? ['Warden' => true] : []
             ),
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],

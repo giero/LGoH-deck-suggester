@@ -80,17 +80,20 @@
     <section>
         <div>
             <ul :id="listId" class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a :href="'#' + listId + '-fire'">Fire ({{ counter.Fire }})</a></li>
+                <li role="presentation" class="active"><a :href="'#' + listId + '-all'">All ({{ counter.all }})</a></li>
+                <li role="presentation"><a :href="'#' + listId + '-fire'">Fire ({{ counter.Fire }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-water'">Water ({{ counter.Water }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-earth'">Earth ({{ counter.Earth }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-light'">Light ({{ counter.Light }})</a></li>
                 <li role="presentation"><a :href="'#' + listId + '-dark'">Dark ({{ counter.Dark }})</a></li>
-                <li role="presentation"><a :href="'#' + listId + '-all'">All ({{ counter.all }})</a></li>
             </ul>
         </div>
 
         <div class="tab-content" :id="listId + '-content'">
-            <div class="tab-pane fade active in" role="tabpanel" :id="listId + '-fire'">
+            <div class="tab-pane fade active in" role="tabpanel" :id="listId + '-all'">
+                <heroes-table></heroes-table>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" :id="listId + '-fire'">
                 <heroes-table affinity="Fire"></heroes-table>
             </div>
             <div class="tab-pane fade" role="tabpanel" :id="listId + '-water'">
@@ -104,9 +107,6 @@
             </div>
             <div class="tab-pane fade" role="tabpanel" :id="listId + '-dark'">
                 <heroes-table affinity="Dark"></heroes-table>
-            </div>
-            <div class="tab-pane fade" role="tabpanel" :id="listId + '-all'">
-                <heroes-table></heroes-table>
             </div>
         </div>
     </section>
@@ -153,6 +153,11 @@
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
                           v-if="hero.eventSkills.hasOwnProperty(eventSkill)">
                         {{ eventSkill }} {{ hero.eventSkills[eventSkill] }}x
+                        <br class="visible-sm-block visible-xs-block" />
+                    </span>
+                    <span class="label label-primary event-skill"
+                          v-if="hero.eventSkills.hasOwnProperty('Warden')">
+                        Warden
                         <br class="visible-sm-block visible-xs-block" />
                     </span>
                 </td>
@@ -374,6 +379,10 @@
                                             <span v-if="hero.eventSkills.hasOwnProperty('Slayer')"
                                                   class="label label-primary event-skill pull-right">
                                                 Slayer {{ hero.eventSkills.Slayer }}x
+                                            </span>
+                                            <span v-if="hero.eventSkills.hasOwnProperty('Warden')"
+                                                  class="label label-primary event-skill pull-right">
+                                                Warden
                                             </span>
                                         </div>
                                     </div>
