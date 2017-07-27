@@ -1549,7 +1549,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "28442f67",
         "evolveInto": "f801b531"
     },
     {
@@ -1576,7 +1576,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "28442f67",
+        "evolveFrom": "41a4755e",
         "evolveInto": ""
     },
     {
@@ -1630,7 +1630,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "de68bb4b",
         "evolveInto": "49bb93ce"
     },
     {
@@ -1657,7 +1657,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "de68bb4b",
+        "evolveFrom": "74f4149e",
         "evolveInto": ""
     },
     {
@@ -1711,7 +1711,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "41a90ae6",
         "evolveInto": "24b2a9e9"
     },
     {
@@ -1738,7 +1738,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "41a90ae6",
+        "evolveFrom": "504b1206",
         "evolveInto": ""
     },
     {
@@ -1788,7 +1788,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2d27be12",
         "evolveInto": "42648aef"
     },
     {
@@ -1813,7 +1813,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "2d27be12",
+        "evolveFrom": "616c8e26",
         "evolveInto": ""
     },
     {
@@ -1869,7 +1869,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "91071d30",
         "evolveInto": "90230c20"
     },
     {
@@ -1897,7 +1897,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "91071d30",
+        "evolveFrom": "9c20949f",
         "evolveInto": "3599248e"
     },
     {
@@ -1925,7 +1925,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "9c20949f",
+        "evolveFrom": "90230c20",
         "evolveInto": "ab25b3e2"
     },
     {
@@ -1953,7 +1953,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "90230c20",
+        "evolveFrom": "3599248e",
         "evolveInto": "e6cc2109"
     },
     {
@@ -1981,7 +1981,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "3599248e",
+        "evolveFrom": "ab25b3e2",
         "evolveInto": ""
     },
     {
@@ -2031,7 +2031,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2e48f82d",
         "evolveInto": "ee9062c3"
     },
     {
@@ -2056,7 +2056,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "2e48f82d",
+        "evolveFrom": "4d419fa2",
         "evolveInto": "fb3fb959"
     },
     {
@@ -2081,7 +2081,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "4d419fa2",
+        "evolveFrom": "ee9062c3",
         "evolveInto": ""
     },
     {
@@ -2135,7 +2135,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "a8bf4ea8",
         "evolveInto": "346edadf"
     },
     {
@@ -2162,7 +2162,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "a8bf4ea8",
+        "evolveFrom": "bc145b92",
         "evolveInto": ""
     },
     {
@@ -2216,7 +2216,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "29887355",
         "evolveInto": "81eea7ad"
     },
     {
@@ -2243,7 +2243,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "29887355",
+        "evolveFrom": "ea64f061",
         "evolveInto": "77a4c008"
     },
     {
@@ -2270,7 +2270,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ea64f061",
+        "evolveFrom": "81eea7ad",
         "evolveInto": ""
     },
     {
@@ -2320,7 +2320,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0afc07fd",
         "evolveInto": "2452dd5d"
     },
     {
@@ -2345,7 +2345,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "0afc07fd",
+        "evolveFrom": "92d47881",
         "evolveInto": ""
     },
     {
@@ -2399,7 +2399,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0a8e1c82",
         "evolveInto": "455dd5d0"
     },
     {
@@ -2426,7 +2426,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "0a8e1c82",
+        "evolveFrom": "ef11144b",
         "evolveInto": ""
     },
     {
@@ -2480,7 +2480,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2a1f16c3",
         "evolveInto": "dfad7541"
     },
     {
@@ -2507,7 +2507,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "2a1f16c3",
+        "evolveFrom": "e09ca892",
         "evolveInto": "d4595af1"
     },
     {
@@ -2534,7 +2534,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "e09ca892",
+        "evolveFrom": "dfad7541",
         "evolveInto": ""
     },
     {
@@ -2588,7 +2588,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "",
+        "evolveFrom": "1a7a7c4f",
         "evolveInto": "fc435d03"
     },
     {
@@ -2615,7 +2615,7 @@
             },
             "target": "Dark"
         },
-        "evolveFrom": "1a7a7c4f",
+        "evolveFrom": "d5c54e23",
         "evolveInto": ""
     },
     {
@@ -2675,7 +2675,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "fe934a70",
         "evolveInto": "27676f3e"
     },
     {
@@ -2705,7 +2705,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "fe934a70",
+        "evolveFrom": "6ca83cdc",
         "evolveInto": "7a1c725f"
     },
     {
@@ -2735,7 +2735,7 @@
                 "Bounty Hunter"
             ]
         },
-        "evolveFrom": "6ca83cdc",
+        "evolveFrom": "27676f3e",
         "evolveInto": ""
     },
     {
@@ -2789,7 +2789,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "59aefd2c",
         "evolveInto": "ab74bd71"
     },
     {
@@ -2816,7 +2816,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "59aefd2c",
+        "evolveFrom": "c5e9d733",
         "evolveInto": ""
     },
     {
@@ -2878,7 +2878,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "54922024",
         "evolveInto": "721286f1"
     },
     {
@@ -2909,7 +2909,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "54922024",
+        "evolveFrom": "934ba3bf",
         "evolveInto": "a152b51a"
     },
     {
@@ -2940,7 +2940,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "934ba3bf",
+        "evolveFrom": "721286f1",
         "evolveInto": ""
     },
     {
@@ -2994,7 +2994,7 @@
             },
             "target": "Mage"
         },
-        "evolveFrom": "",
+        "evolveFrom": "06370a88",
         "evolveInto": "bd3dbe32"
     },
     {
@@ -3021,7 +3021,7 @@
             },
             "target": "Mage"
         },
-        "evolveFrom": "06370a88",
+        "evolveFrom": "0b7171c1",
         "evolveInto": ""
     },
     {
@@ -3075,7 +3075,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2b31944d",
         "evolveInto": "e4d0a720"
     },
     {
@@ -3102,7 +3102,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "2b31944d",
+        "evolveFrom": "688cff52",
         "evolveInto": ""
     },
     {
@@ -3156,7 +3156,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "",
+        "evolveFrom": "5afd2ba0",
         "evolveInto": "6438b4e0"
     },
     {
@@ -3183,7 +3183,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "5afd2ba0",
+        "evolveFrom": "f2d4db15",
         "evolveInto": ""
     },
     {
@@ -3245,7 +3245,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "366550d9",
         "evolveInto": "d320fe96"
     },
     {
@@ -3276,7 +3276,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "366550d9",
+        "evolveFrom": "de32c005",
         "evolveInto": "71a2d5d5"
     },
     {
@@ -3307,7 +3307,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "de32c005",
+        "evolveFrom": "d320fe96",
         "evolveInto": ""
     },
     {
@@ -3369,7 +3369,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "9767ec7c",
         "evolveInto": "a32758ed"
     },
     {
@@ -3400,7 +3400,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "9767ec7c",
+        "evolveFrom": "f19b2e3a",
         "evolveInto": "6d4028d2"
     },
     {
@@ -3431,7 +3431,7 @@
                 "Demigod"
             ]
         },
-        "evolveFrom": "f19b2e3a",
+        "evolveFrom": "a32758ed",
         "evolveInto": ""
     },
     {
@@ -3489,7 +3489,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "",
+        "evolveFrom": "e3230c7c",
         "evolveInto": "e032959c"
     },
     {
@@ -3518,7 +3518,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "e3230c7c",
+        "evolveFrom": "5b450ac0",
         "evolveInto": ""
     },
     {
@@ -3572,7 +3572,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "",
+        "evolveFrom": "02792402",
         "evolveInto": "6472b46d"
     },
     {
@@ -3599,7 +3599,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "02792402",
+        "evolveFrom": "c0ef31c6",
         "evolveInto": ""
     },
     {
@@ -3661,7 +3661,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "46d5215b",
         "evolveInto": "caf4ff04"
     },
     {
@@ -3692,7 +3692,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "46d5215b",
+        "evolveFrom": "7af8f049",
         "evolveInto": "0c408bb5"
     },
     {
@@ -3723,7 +3723,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "7af8f049",
+        "evolveFrom": "caf4ff04",
         "evolveInto": ""
     },
     {
@@ -3785,7 +3785,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "36567e7d",
         "evolveInto": "b29bc31f"
     },
     {
@@ -3816,7 +3816,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "36567e7d",
+        "evolveFrom": "5094d032",
         "evolveInto": "0fa3d1e8"
     },
     {
@@ -3847,7 +3847,7 @@
                 "Ancient"
             ]
         },
-        "evolveFrom": "5094d032",
+        "evolveFrom": "b29bc31f",
         "evolveInto": ""
     },
     {
@@ -3901,7 +3901,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f10e148c",
         "evolveInto": "c3ca95d0"
     },
     {
@@ -3928,7 +3928,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "f10e148c",
+        "evolveFrom": "c8355c48",
         "evolveInto": ""
     },
     {
@@ -5556,7 +5556,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "",
+        "evolveFrom": "77d15ac0",
         "evolveInto": "89a40279"
     },
     {
@@ -5583,7 +5583,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "77d15ac0",
+        "evolveFrom": "764b01a6",
         "evolveInto": ""
     },
     {
@@ -5637,7 +5637,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "e2cd6707",
         "evolveInto": "d589290a"
     },
     {
@@ -5664,7 +5664,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "e2cd6707",
+        "evolveFrom": "83e8a1ff",
         "evolveInto": ""
     },
     {
@@ -5714,7 +5714,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "28cb0780",
         "evolveInto": "4904ec2d"
     },
     {
@@ -5739,7 +5739,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "28cb0780",
+        "evolveFrom": "4f6c5935",
         "evolveInto": ""
     },
     {
@@ -5793,7 +5793,7 @@
             },
             "target": "Defender"
         },
-        "evolveFrom": "",
+        "evolveFrom": "566195c4",
         "evolveInto": "994cd675"
     },
     {
@@ -5820,7 +5820,7 @@
             },
             "target": "Defender"
         },
-        "evolveFrom": "566195c4",
+        "evolveFrom": "4d30937b",
         "evolveInto": ""
     },
     {
@@ -5874,7 +5874,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f790af59",
         "evolveInto": "6236e07c"
     },
     {
@@ -5901,7 +5901,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "f790af59",
+        "evolveFrom": "c96dc699",
         "evolveInto": ""
     },
     {
@@ -5951,7 +5951,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "13a6b5a1",
         "evolveInto": "1c7d175e"
     },
     {
@@ -5976,7 +5976,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "13a6b5a1",
+        "evolveFrom": "ed71a68b",
         "evolveInto": ""
     },
     {
@@ -6030,7 +6030,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "",
+        "evolveFrom": "242b209a",
         "evolveInto": "b74b9f2f"
     },
     {
@@ -6057,7 +6057,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "242b209a",
+        "evolveFrom": "1776b849",
         "evolveInto": ""
     },
     {
@@ -6111,7 +6111,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "",
+        "evolveFrom": "fb38ad12",
         "evolveInto": "37fa5b9d"
     },
     {
@@ -6138,7 +6138,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "fb38ad12",
+        "evolveFrom": "4fba34d7",
         "evolveInto": ""
     },
     {
@@ -6192,7 +6192,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "8f74a24e",
         "evolveInto": "6cf681ca"
     },
     {
@@ -6246,7 +6246,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "420633c5",
         "evolveInto": "8a8aec39"
     },
     {
@@ -6273,7 +6273,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "420633c5",
+        "evolveFrom": "2d33ffce",
         "evolveInto": ""
     },
     {
@@ -6327,7 +6327,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "b9e636e8",
         "evolveInto": "a36102aa"
     },
     {
@@ -6354,7 +6354,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "b9e636e8",
+        "evolveFrom": "d8ebb447",
         "evolveInto": ""
     },
     {
@@ -6408,7 +6408,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "",
+        "evolveFrom": "29bb790b",
         "evolveInto": "cada6334"
     },
     {
@@ -6435,7 +6435,7 @@
             },
             "target": "Light"
         },
-        "evolveFrom": "29bb790b",
+        "evolveFrom": "1cf6fff5",
         "evolveInto": ""
     },
     {
@@ -6489,7 +6489,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "",
+        "evolveFrom": "976f29e0",
         "evolveInto": "7294f90c"
     },
     {
@@ -6516,7 +6516,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "976f29e0",
+        "evolveFrom": "869fd835",
         "evolveInto": ""
     },
     {
@@ -6578,7 +6578,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "da18fa65",
         "evolveInto": "ac86582e"
     },
     {
@@ -6609,7 +6609,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "da18fa65",
+        "evolveFrom": "4e8d169c",
         "evolveInto": "e4f3b82b"
     },
     {
@@ -6640,7 +6640,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "4e8d169c",
+        "evolveFrom": "ac86582e",
         "evolveInto": ""
     },
     {
@@ -6690,7 +6690,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "5c18c960",
         "evolveInto": "010ff8ef"
     },
     {
@@ -6715,7 +6715,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "5c18c960",
+        "evolveFrom": "fcf4d9e1",
         "evolveInto": "d889f4a2"
     },
     {
@@ -6740,7 +6740,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "fcf4d9e1",
+        "evolveFrom": "010ff8ef",
         "evolveInto": ""
     },
     {
@@ -6794,7 +6794,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "d6102fc0",
         "evolveInto": "6d6af97a"
     },
     {
@@ -6821,7 +6821,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "d6102fc0",
+        "evolveFrom": "f56c84e4",
         "evolveInto": ""
     },
     {
@@ -6875,7 +6875,7 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "",
+        "evolveFrom": "eda1d939",
         "evolveInto": "5150a4e8"
     },
     {
@@ -6902,7 +6902,7 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "eda1d939",
+        "evolveFrom": "d02130ba",
         "evolveInto": ""
     },
     {
@@ -6964,7 +6964,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "77c6c60f",
         "evolveInto": "988965fb"
     },
     {
@@ -6995,7 +6995,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "77c6c60f",
+        "evolveFrom": "34f4b185",
         "evolveInto": "24625f21"
     },
     {
@@ -7026,7 +7026,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "34f4b185",
+        "evolveFrom": "988965fb",
         "evolveInto": ""
     },
     {
@@ -7088,7 +7088,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "bf41ba8a",
         "evolveInto": "ff763139"
     },
     {
@@ -7119,7 +7119,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "bf41ba8a",
+        "evolveFrom": "b4fa771b",
         "evolveInto": "d84323c7"
     },
     {
@@ -7150,7 +7150,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "b4fa771b",
+        "evolveFrom": "ff763139",
         "evolveInto": ""
     },
     {
@@ -7204,7 +7204,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "9e1affc2",
         "evolveInto": "58aa2600"
     },
     {
@@ -7231,7 +7231,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "9e1affc2",
+        "evolveFrom": "6c8cfcd9",
         "evolveInto": ""
     },
     {
@@ -7285,7 +7285,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "",
+        "evolveFrom": "b3e9da5e",
         "evolveInto": "652efdf5"
     },
     {
@@ -7312,7 +7312,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "b3e9da5e",
+        "evolveFrom": "9a133c22",
         "evolveInto": ""
     },
     {
@@ -7374,7 +7374,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "e37c9a61",
         "evolveInto": "b00981e6"
     },
     {
@@ -7405,7 +7405,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "e37c9a61",
+        "evolveFrom": "8e8c4eb2",
         "evolveInto": "5c4696c9"
     },
     {
@@ -7436,7 +7436,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "8e8c4eb2",
+        "evolveFrom": "b00981e6",
         "evolveInto": ""
     },
     {
@@ -7498,7 +7498,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "bdcb3667",
         "evolveInto": "ec94f235"
     },
     {
@@ -7529,7 +7529,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "bdcb3667",
+        "evolveFrom": "481e98a2",
         "evolveInto": "bc8fa51d"
     },
     {
@@ -7560,7 +7560,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "481e98a2",
+        "evolveFrom": "ec94f235",
         "evolveInto": ""
     },
     {
@@ -9142,7 +9142,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "4f893fc8",
         "evolveInto": "d917d89d"
     },
     {
@@ -9169,7 +9169,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "4f893fc8",
+        "evolveFrom": "3d1a6555",
         "evolveInto": ""
     },
     {
@@ -9223,7 +9223,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "e9e219cf",
         "evolveInto": "7584b8f1"
     },
     {
@@ -9250,7 +9250,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "e9e219cf",
+        "evolveFrom": "3b180cd1",
         "evolveInto": ""
     },
     {
@@ -9300,7 +9300,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "c30fe8fa",
         "evolveInto": "4c161d21"
     },
     {
@@ -9325,7 +9325,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c30fe8fa",
+        "evolveFrom": "7b4b68f7",
         "evolveInto": ""
     },
     {
@@ -9379,7 +9379,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "adb4c9b4",
         "evolveInto": "39fc574e"
     },
     {
@@ -9406,7 +9406,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "adb4c9b4",
+        "evolveFrom": "134339a9",
         "evolveInto": ""
     },
     {
@@ -9456,7 +9456,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "a181c2b6",
         "evolveInto": "c0b7398b"
     },
     {
@@ -9481,7 +9481,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "a181c2b6",
+        "evolveFrom": "6db34835",
         "evolveInto": ""
     },
     {
@@ -9535,7 +9535,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "",
+        "evolveFrom": "70f375ad",
         "evolveInto": "38a91196"
     },
     {
@@ -9562,7 +9562,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "70f375ad",
+        "evolveFrom": "f7716451",
         "evolveInto": ""
     },
     {
@@ -9616,7 +9616,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "4bb09875",
         "evolveInto": "e54bae35"
     },
     {
@@ -9643,7 +9643,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "4bb09875",
+        "evolveFrom": "cb08fd22",
         "evolveInto": ""
     },
     {
@@ -9699,7 +9699,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "c6c719fe",
         "evolveInto": "ccc2ad18"
     },
     {
@@ -9727,7 +9727,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c6c719fe",
+        "evolveFrom": "a6b1f943",
         "evolveInto": "fdf82150"
     },
     {
@@ -9755,7 +9755,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "a6b1f943",
+        "evolveFrom": "ccc2ad18",
         "evolveInto": "e74657f1"
     },
     {
@@ -9783,7 +9783,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "ccc2ad18",
+        "evolveFrom": "fdf82150",
         "evolveInto": "69c57cfe"
     },
     {
@@ -9811,7 +9811,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "fdf82150",
+        "evolveFrom": "e74657f1",
         "evolveInto": ""
     },
     {
@@ -9865,7 +9865,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2bb39ca2",
         "evolveInto": "5fd60e69"
     },
     {
@@ -9892,7 +9892,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "2bb39ca2",
+        "evolveFrom": "17609eb3",
         "evolveInto": ""
     },
     {
@@ -9948,7 +9948,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "ae9c34fd",
         "evolveInto": "3908eae8"
     },
     {
@@ -9976,7 +9976,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ae9c34fd",
+        "evolveFrom": "da14477c",
         "evolveInto": "d1ad9238"
     },
     {
@@ -10004,7 +10004,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "da14477c",
+        "evolveFrom": "3908eae8",
         "evolveInto": "7761f0c0"
     },
     {
@@ -10032,7 +10032,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "3908eae8",
+        "evolveFrom": "d1ad9238",
         "evolveInto": "e0630310"
     },
     {
@@ -10060,7 +10060,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "d1ad9238",
+        "evolveFrom": "7761f0c0",
         "evolveInto": ""
     },
     {
@@ -10114,7 +10114,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "",
+        "evolveFrom": "433912fa",
         "evolveInto": "84cb765d"
     },
     {
@@ -10141,7 +10141,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "433912fa",
+        "evolveFrom": "3ca8e94a",
         "evolveInto": "ee82722b"
     },
     {
@@ -10168,7 +10168,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "3ca8e94a",
+        "evolveFrom": "84cb765d",
         "evolveInto": ""
     },
     {
@@ -10222,7 +10222,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "7cd0d2f7",
         "evolveInto": "8f8146cf"
     },
     {
@@ -10249,7 +10249,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "7cd0d2f7",
+        "evolveFrom": "a2269686",
         "evolveInto": "8da1fdee"
     },
     {
@@ -10276,7 +10276,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "a2269686",
+        "evolveFrom": "8f8146cf",
         "evolveInto": ""
     },
     {
@@ -10326,7 +10326,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "",
+        "evolveFrom": "afa2cf43",
         "evolveInto": "24e1b0c3"
     },
     {
@@ -10351,7 +10351,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "afa2cf43",
+        "evolveFrom": "5df0e86b",
         "evolveInto": ""
     },
     {
@@ -10405,7 +10405,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "",
+        "evolveFrom": "fe0549ec",
         "evolveInto": "d14d681e"
     },
     {
@@ -10432,7 +10432,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "fe0549ec",
+        "evolveFrom": "de3bf494",
         "evolveInto": ""
     },
     {
@@ -10482,7 +10482,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f071ff8c",
         "evolveInto": "57de9846"
     },
     {
@@ -10507,7 +10507,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "f071ff8c",
+        "evolveFrom": "d96930f2",
         "evolveInto": ""
     },
     {
@@ -10561,7 +10561,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f93e94c5",
         "evolveInto": "a43ad9e0"
     },
     {
@@ -10588,7 +10588,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "f93e94c5",
+        "evolveFrom": "372f8e9e",
         "evolveInto": ""
     },
     {
@@ -10642,7 +10642,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "6cf7bcb1",
         "evolveInto": "218efc62"
     },
     {
@@ -10669,7 +10669,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6cf7bcb1",
+        "evolveFrom": "740931af",
         "evolveInto": ""
     },
     {
@@ -10723,7 +10723,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "d5801436",
         "evolveInto": "d2ec6691"
     },
     {
@@ -10750,7 +10750,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "d5801436",
+        "evolveFrom": "ec3e34e2",
         "evolveInto": ""
     },
     {
@@ -10804,7 +10804,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "47f81eb1",
         "evolveInto": "dab2f7e1"
     },
     {
@@ -10831,7 +10831,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "47f81eb1",
+        "evolveFrom": "0c6b6f43",
         "evolveInto": ""
     },
     {
@@ -10885,7 +10885,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f5b75921",
         "evolveInto": "824be51c"
     },
     {
@@ -10912,7 +10912,7 @@
             },
             "target": "Fire"
         },
-        "evolveFrom": "f5b75921",
+        "evolveFrom": "d510e3b6",
         "evolveInto": ""
     },
     {
@@ -10962,7 +10962,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "",
+        "evolveFrom": "8c16a0aa",
         "evolveInto": "5d0d5b46"
     },
     {
@@ -10987,7 +10987,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "8c16a0aa",
+        "evolveFrom": "0d88e67d",
         "evolveInto": ""
     },
     {
@@ -11049,7 +11049,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "2f443dfa",
         "evolveInto": "11c037e1"
     },
     {
@@ -11080,7 +11080,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "2f443dfa",
+        "evolveFrom": "10906f99",
         "evolveInto": "23142109"
     },
     {
@@ -11111,7 +11111,7 @@
                 "Honored"
             ]
         },
-        "evolveFrom": "10906f99",
+        "evolveFrom": "11c037e1",
         "evolveInto": ""
     },
     {
@@ -11165,7 +11165,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "",
+        "evolveFrom": "4077b230",
         "evolveInto": "9c969172"
     },
     {
@@ -11192,7 +11192,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "4077b230",
+        "evolveFrom": "c086fedc",
         "evolveInto": ""
     },
     {
@@ -11246,7 +11246,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f15f0fd3",
         "evolveInto": "d4dfce1a"
     },
     {
@@ -11273,7 +11273,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "f15f0fd3",
+        "evolveFrom": "6581dcad",
         "evolveInto": ""
     },
     {
@@ -11335,7 +11335,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "9899619f",
         "evolveInto": "5428f410"
     },
     {
@@ -11366,7 +11366,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "9899619f",
+        "evolveFrom": "6d38da19",
         "evolveInto": "48297b33"
     },
     {
@@ -11397,7 +11397,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "6d38da19",
+        "evolveFrom": "5428f410",
         "evolveInto": ""
     },
     {
@@ -11459,7 +11459,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "8fc13568",
         "evolveInto": "4a36d2a1"
     },
     {
@@ -11490,7 +11490,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "8fc13568",
+        "evolveFrom": "197f2917",
         "evolveInto": "6540d0bc"
     },
     {
@@ -11521,7 +11521,7 @@
                 "Dragon"
             ]
         },
-        "evolveFrom": "197f2917",
+        "evolveFrom": "4a36d2a1",
         "evolveInto": ""
     },
     {
@@ -11583,7 +11583,7 @@
             },
             "target": "Legend"
         },
-        "evolveFrom": "",
+        "evolveFrom": "ef78b8d3",
         "evolveInto": "2d5ccf46"
     },
     {
@@ -11614,7 +11614,7 @@
             },
             "target": "Legend"
         },
-        "evolveFrom": "ef78b8d3",
+        "evolveFrom": "3a90ab44",
         "evolveInto": ""
     },
     {
@@ -11675,7 +11675,7 @@
             },
             "target": "Legend"
         },
-        "evolveFrom": "",
+        "evolveFrom": "46487cdf",
         "evolveInto": "3090b771"
     },
     {
@@ -11706,7 +11706,7 @@
             },
             "target": "Legend"
         },
-        "evolveFrom": "46487cdf",
+        "evolveFrom": "56e3d6cc",
         "evolveInto": ""
     },
     {
@@ -11791,7 +11791,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "",
+        "evolveFrom": "874966e8",
         "evolveInto": "5dd018a3"
     },
     {
@@ -11818,7 +11818,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "874966e8",
+        "evolveFrom": "cd5d2b2e",
         "evolveInto": ""
     },
     {
@@ -11872,7 +11872,7 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "",
+        "evolveFrom": "70609cc5",
         "evolveInto": "b17339fc"
     },
     {
@@ -11899,7 +11899,255 @@
             },
             "target": "Warrior"
         },
-        "evolveFrom": "70609cc5",
+        "evolveFrom": "6840bc21",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "280efb1d",
+        "name": "The Night Sun",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 1246,
+        "recovery": 166,
+        "health": 835,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Ancient Might I",
+            "description": "175% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "3a1d12ed"
+    },
+    {
+        "coreId": "3a1d12ed",
+        "name": "The Night Sun",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 2031,
+        "recovery": 271,
+        "health": 1360,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Ancient Might II",
+            "description": "200% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "280efb1d",
+        "evolveInto": "3d2db5be"
+    },
+    {
+        "coreId": "3d2db5be",
+        "name": "The Night Sun",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 3453,
+        "recovery": 462,
+        "health": 2316,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Ancient Might III",
+            "description": "225% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "3a1d12ed",
+        "evolveInto": "b52a7094"
+    },
+    {
+        "coreId": "b52a7094",
+        "name": "The Night Sun",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5016,
+        "recovery": 668,
+        "health": 3345,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Ancient Might IV",
+            "description": "300% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "3d2db5be",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "0a951b9f",
+        "name": "Ixtab, Hanging Goddess",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Ancient Might I",
+            "description": "175% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "c6c08a2c"
+    },
+    {
+        "coreId": "c6c08a2c",
+        "name": "Ixtab, Hanging Goddess",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Ancient Might II",
+            "description": "200% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "0a951b9f",
+        "evolveInto": "c5211bdd"
+    },
+    {
+        "coreId": "c5211bdd",
+        "name": "Ixtab, Hanging Goddess",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Ancient Might III",
+            "description": "225% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "c6c08a2c",
+        "evolveInto": "dc68a6dc"
+    },
+    {
+        "coreId": "dc68a6dc",
+        "name": "Ixtab, Hanging Goddess",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5218,
+        "recovery": 696,
+        "health": 3479,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Ancient Might IV",
+            "description": "300% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "c5211bdd",
         "evolveInto": ""
     },
     {
@@ -13452,7 +13700,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "",
+        "evolveFrom": "997dffed",
         "evolveInto": "6f8046f8"
     },
     {
@@ -13477,7 +13725,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "997dffed",
+        "evolveFrom": "e8d6688b",
         "evolveInto": ""
     },
     {
@@ -13531,7 +13779,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "5132222d",
         "evolveInto": "cb3193b4"
     },
     {
@@ -13558,7 +13806,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "5132222d",
+        "evolveFrom": "a4206a42",
         "evolveInto": ""
     },
     {
@@ -13612,7 +13860,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "abb76c97",
         "evolveInto": "491ce61e"
     },
     {
@@ -13639,7 +13887,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "abb76c97",
+        "evolveFrom": "6cbc8e71",
         "evolveInto": ""
     },
     {
@@ -13693,7 +13941,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "3a47cb06",
         "evolveInto": "92e01961"
     },
     {
@@ -13720,7 +13968,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "3a47cb06",
+        "evolveFrom": "4769c210",
         "evolveInto": ""
     },
     {
@@ -13774,7 +14022,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "",
+        "evolveFrom": "34c5535a",
         "evolveInto": "2cdc3344"
     },
     {
@@ -13801,7 +14049,7 @@
             },
             "target": "Balanced"
         },
-        "evolveFrom": "34c5535a",
+        "evolveFrom": "a631b86f",
         "evolveInto": ""
     },
     {
@@ -13855,7 +14103,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "",
+        "evolveFrom": "bf0e6bf9",
         "evolveInto": "edb52e06"
     },
     {
@@ -13882,7 +14130,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "bf0e6bf9",
+        "evolveFrom": "d4aac03e",
         "evolveInto": ""
     },
     {
@@ -13936,7 +14184,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "3a72c5f1",
         "evolveInto": "093aefe6"
     },
     {
@@ -13963,7 +14211,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "3a72c5f1",
+        "evolveFrom": "31b9ebe6",
         "evolveInto": ""
     },
     {
@@ -14015,7 +14263,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0cda019b",
         "evolveInto": "a72690f0"
     },
     {
@@ -14040,7 +14288,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "0cda019b",
+        "evolveFrom": "d49ecf7c",
         "evolveInto": ""
     },
     {
@@ -14094,7 +14342,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "82a9ea0c",
         "evolveInto": "391c9ad2"
     },
     {
@@ -14121,7 +14369,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "82a9ea0c",
+        "evolveFrom": "22df7c22",
         "evolveInto": ""
     },
     {
@@ -14171,7 +14419,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "ba6ece50",
         "evolveInto": "8632b353"
     },
     {
@@ -14196,7 +14444,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "ba6ece50",
+        "evolveFrom": "a19a786e",
         "evolveInto": ""
     },
     {
@@ -14250,7 +14498,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "",
+        "evolveFrom": "6cf3db10",
         "evolveInto": "0646db91"
     },
     {
@@ -14277,7 +14525,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "6cf3db10",
+        "evolveFrom": "e4ebd3ba",
         "evolveInto": ""
     },
     {
@@ -14331,7 +14579,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "98197f3b",
         "evolveInto": "020d2cc2"
     },
     {
@@ -14358,7 +14606,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "98197f3b",
+        "evolveFrom": "88a6e0e4",
         "evolveInto": ""
     },
     {
@@ -14412,7 +14660,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "317dae0a",
         "evolveInto": ""
     },
     {
@@ -14466,7 +14714,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "59d67c3b",
         "evolveInto": "49b29c17"
     },
     {
@@ -14493,7 +14741,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "59d67c3b",
+        "evolveFrom": "333fa8a1",
         "evolveInto": ""
     },
     {
@@ -14547,7 +14795,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0ce786e8",
         "evolveInto": "f62a2ccd"
     },
     {
@@ -14574,7 +14822,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "0ce786e8",
+        "evolveFrom": "48a161d2",
         "evolveInto": ""
     },
     {
@@ -14636,7 +14884,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "84e61d3c",
         "evolveInto": "50cbddad"
     },
     {
@@ -14667,7 +14915,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "84e61d3c",
+        "evolveFrom": "554ed02e",
         "evolveInto": "40764b52"
     },
     {
@@ -14698,7 +14946,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "554ed02e",
+        "evolveFrom": "50cbddad",
         "evolveInto": ""
     },
     {
@@ -14752,7 +15000,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0377e67c",
         "evolveInto": "7ea166bf"
     },
     {
@@ -14779,7 +15027,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "0377e67c",
+        "evolveFrom": "dae62146",
         "evolveInto": ""
     },
     {
@@ -14833,7 +15081,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "",
+        "evolveFrom": "430a6d20",
         "evolveInto": "a721fa51"
     },
     {
@@ -14860,7 +15108,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "430a6d20",
+        "evolveFrom": "75b8aadc",
         "evolveInto": ""
     },
     {
@@ -14922,7 +15170,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "fa35c004",
         "evolveInto": "967419ba"
     },
     {
@@ -14953,7 +15201,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "fa35c004",
+        "evolveFrom": "25c377d6",
         "evolveInto": "ec0b9b27"
     },
     {
@@ -14984,7 +15232,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "25c377d6",
+        "evolveFrom": "967419ba",
         "evolveInto": ""
     },
     {
@@ -15040,7 +15288,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "",
+        "evolveFrom": "13e7586a",
         "evolveInto": "2fee7c67"
     },
     {
@@ -15068,7 +15316,7 @@
             },
             "target": "Water"
         },
-        "evolveFrom": "13e7586a",
+        "evolveFrom": "0f2345d0",
         "evolveInto": ""
     },
     {
@@ -15132,7 +15380,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "2875626b",
         "evolveInto": "fd88dd15"
     },
     {
@@ -15164,7 +15412,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "2875626b",
+        "evolveFrom": "d8fe0e08",
         "evolveInto": "cf4fc1c0"
     },
     {
@@ -15196,7 +15444,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "d8fe0e08",
+        "evolveFrom": "fd88dd15",
         "evolveInto": ""
     },
     {
@@ -15260,7 +15508,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "212871e8",
         "evolveInto": "6703c9a4"
     },
     {
@@ -15292,7 +15540,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "212871e8",
+        "evolveFrom": "fcd0629f",
         "evolveInto": "0569d3fc"
     },
     {
@@ -15324,7 +15572,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "fcd0629f",
+        "evolveFrom": "6703c9a4",
         "evolveInto": ""
     },
     {
@@ -15378,7 +15626,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "",
+        "evolveFrom": "af2ead27",
         "evolveInto": "6f89d251"
     },
     {
@@ -15405,7 +15653,7 @@
             },
             "target": "Ancient"
         },
-        "evolveFrom": "af2ead27",
+        "evolveFrom": "71198da3",
         "evolveInto": ""
     },
     {
@@ -15459,7 +15707,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "",
+        "evolveFrom": "d9bfd84c",
         "evolveInto": "4ebf3775"
     },
     {
@@ -15486,7 +15734,7 @@
             },
             "target": "Honored"
         },
-        "evolveFrom": "d9bfd84c",
+        "evolveFrom": "8cd4f790",
         "evolveInto": ""
     },
     {
@@ -15548,7 +15796,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "cc11bc3c",
         "evolveInto": "7122074f"
     },
     {
@@ -15579,7 +15827,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "cc11bc3c",
+        "evolveFrom": "c14e5e08",
         "evolveInto": "e95467ca"
     },
     {
@@ -15610,7 +15858,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "c14e5e08",
+        "evolveFrom": "7122074f",
         "evolveInto": ""
     },
     {
@@ -15672,7 +15920,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "a3c505e5",
         "evolveInto": "9b5b2550"
     },
     {
@@ -15703,7 +15951,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "a3c505e5",
+        "evolveFrom": "cb2012ac",
         "evolveInto": "186347d5"
     },
     {
@@ -15734,7 +15982,7 @@
                 "Creature"
             ]
         },
-        "evolveFrom": "cb2012ac",
+        "evolveFrom": "9b5b2550",
         "evolveInto": ""
     },
     {
@@ -15788,7 +16036,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "f3ef2f83",
         "evolveInto": "deb59fe6"
     },
     {
@@ -15815,7 +16063,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "f3ef2f83",
+        "evolveFrom": "cac66f0e",
         "evolveInto": ""
     },
     {
@@ -17368,7 +17616,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "6657d40d",
         "evolveInto": "c3ee16c1"
     },
     {
@@ -17395,7 +17643,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "6657d40d",
+        "evolveFrom": "098f350b",
         "evolveInto": ""
     },
     {
@@ -17445,7 +17693,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "",
+        "evolveFrom": "b347280c",
         "evolveInto": "2f1ee610"
     },
     {
@@ -17470,7 +17718,7 @@
             },
             "target": "Spirit"
         },
-        "evolveFrom": "b347280c",
+        "evolveFrom": "297b4e56",
         "evolveInto": ""
     },
     {
@@ -17524,7 +17772,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "",
+        "evolveFrom": "505a6046",
         "evolveInto": "0c856377"
     },
     {
@@ -17551,7 +17799,7 @@
             },
             "target": "Giant"
         },
-        "evolveFrom": "505a6046",
+        "evolveFrom": "a59e2008",
         "evolveInto": ""
     },
     {
@@ -17605,7 +17853,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "9b2a6f4b",
         "evolveInto": "2be5ca71"
     },
     {
@@ -17632,7 +17880,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "9b2a6f4b",
+        "evolveFrom": "469fe741",
         "evolveInto": ""
     },
     {
@@ -17682,7 +17930,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "",
+        "evolveFrom": "887cb64c",
         "evolveInto": "fad694f8"
     },
     {
@@ -17707,7 +17955,7 @@
             },
             "target": "Creature"
         },
-        "evolveFrom": "887cb64c",
+        "evolveFrom": "d4fb0579",
         "evolveInto": ""
     },
     {
@@ -17765,7 +18013,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "",
+        "evolveFrom": "10aad900",
         "evolveInto": "df733d8a"
     },
     {
@@ -17794,7 +18042,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "10aad900",
+        "evolveFrom": "14b996aa",
         "evolveInto": ""
     },
     {
@@ -17848,7 +18096,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "",
+        "evolveFrom": "62a236d3",
         "evolveInto": "e8f8c8a1"
     },
     {
@@ -17875,7 +18123,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "62a236d3",
+        "evolveFrom": "966be073",
         "evolveInto": ""
     },
     {
@@ -17929,7 +18177,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "",
+        "evolveFrom": "3a8fac20",
         "evolveInto": "d20af89f"
     },
     {
@@ -17956,7 +18204,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "3a8fac20",
+        "evolveFrom": "53eae0b2",
         "evolveInto": ""
     },
     {
@@ -18006,7 +18254,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "",
+        "evolveFrom": "247cd538",
         "evolveInto": "5010bb61"
     },
     {
@@ -18031,7 +18279,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "247cd538",
+        "evolveFrom": "9d5eccf1",
         "evolveInto": "20995bee"
     },
     {
@@ -18056,7 +18304,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "9d5eccf1",
+        "evolveFrom": "5010bb61",
         "evolveInto": ""
     },
     {
@@ -18110,7 +18358,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0fd9ff5d",
         "evolveInto": "56e56314"
     },
     {
@@ -18137,7 +18385,7 @@
             },
             "target": "Dragon"
         },
-        "evolveFrom": "0fd9ff5d",
+        "evolveFrom": "e780a7f4",
         "evolveInto": ""
     },
     {
@@ -18193,7 +18441,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "",
+        "evolveFrom": "9cf29d6c",
         "evolveInto": "4a8be89a"
     },
     {
@@ -18218,7 +18466,7 @@
             },
             "target": "God"
         },
-        "evolveFrom": "9cf29d6c",
+        "evolveFrom": "f80e603a",
         "evolveInto": ""
     },
     {
@@ -18270,7 +18518,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "0e4a9fa9",
         "evolveInto": "e29ec68c"
     },
     {
@@ -18297,7 +18545,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "0e4a9fa9",
+        "evolveFrom": "70e864ac",
         "evolveInto": ""
     },
     {
@@ -18378,7 +18626,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "ea36d99d",
         "evolveInto": "67cb19ce"
     },
     {
@@ -18405,7 +18653,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "ea36d99d",
+        "evolveFrom": "7f025876",
         "evolveInto": "bee634cd"
     },
     {
@@ -18432,7 +18680,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "7f025876",
+        "evolveFrom": "67cb19ce",
         "evolveInto": ""
     },
     {
@@ -18486,7 +18734,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "c3584db8",
         "evolveInto": "620e536a"
     },
     {
@@ -18513,7 +18761,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "c3584db8",
+        "evolveFrom": "f6f6402d",
         "evolveInto": "a24bc096"
     },
     {
@@ -18540,7 +18788,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "f6f6402d",
+        "evolveFrom": "620e536a",
         "evolveInto": ""
     },
     {
@@ -18594,7 +18842,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "",
+        "evolveFrom": "9cfb14bf",
         "evolveInto": "202363e9"
     },
     {
@@ -18621,7 +18869,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "9cfb14bf",
+        "evolveFrom": "72640b82",
         "evolveInto": "59ef7155"
     },
     {
@@ -18648,7 +18896,7 @@
             },
             "target": "Fable"
         },
-        "evolveFrom": "72640b82",
+        "evolveFrom": "202363e9",
         "evolveInto": ""
     },
     {
@@ -18702,7 +18950,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "",
+        "evolveFrom": "1fc1088d",
         "evolveInto": "cc92463a"
     },
     {
@@ -18729,7 +18977,7 @@
             },
             "target": "Guardian"
         },
-        "evolveFrom": "1fc1088d",
+        "evolveFrom": "b005e7b7",
         "evolveInto": ""
     },
     {
@@ -18783,7 +19031,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "",
+        "evolveFrom": "c6a74b4d",
         "evolveInto": "6ec91e18"
     },
     {
@@ -18810,7 +19058,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "c6a74b4d",
+        "evolveFrom": "6cca5b99",
         "evolveInto": "1dc52044"
     },
     {
@@ -18837,7 +19085,7 @@
             },
             "target": "Human"
         },
-        "evolveFrom": "6cca5b99",
+        "evolveFrom": "6ec91e18",
         "evolveInto": ""
     },
     {
@@ -18893,7 +19141,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "",
+        "evolveFrom": "195c140c",
         "evolveInto": "8e38454a"
     },
     {
@@ -18921,7 +19169,7 @@
             },
             "target": "Earth"
         },
-        "evolveFrom": "195c140c",
+        "evolveFrom": "34fef50e",
         "evolveInto": ""
     },
     {
@@ -18985,7 +19233,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "771289cc",
         "evolveInto": "7e09ef0c"
     },
     {
@@ -19017,7 +19265,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "771289cc",
+        "evolveFrom": "5904bd1f",
         "evolveInto": "954671e6"
     },
     {
@@ -19049,7 +19297,7 @@
                 "Warrior"
             ]
         },
-        "evolveFrom": "5904bd1f",
+        "evolveFrom": "7e09ef0c",
         "evolveInto": ""
     },
     {
@@ -19103,7 +19351,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "",
+        "evolveFrom": "dbe178df",
         "evolveInto": "b8709c24"
     },
     {
@@ -19130,7 +19378,7 @@
             },
             "target": "Attacker"
         },
-        "evolveFrom": "dbe178df",
+        "evolveFrom": "f3cb4442",
         "evolveInto": ""
     },
     {
@@ -19184,7 +19432,7 @@
             },
             "target": "Technological"
         },
-        "evolveFrom": "",
+        "evolveFrom": "2f93d99f",
         "evolveInto": "37b0b4c8"
     },
     {
@@ -19211,7 +19459,7 @@
             },
             "target": "Technological"
         },
-        "evolveFrom": "2f93d99f",
+        "evolveFrom": "86311d85",
         "evolveInto": ""
     },
     {
@@ -19273,7 +19521,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "65fac5c5",
         "evolveInto": "7a5b62d0"
     },
     {
@@ -19304,7 +19552,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "65fac5c5",
+        "evolveFrom": "e7b336e2",
         "evolveInto": "b8340bc8"
     },
     {
@@ -19335,7 +19583,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "e7b336e2",
+        "evolveFrom": "7a5b62d0",
         "evolveInto": ""
     },
     {
@@ -19397,7 +19645,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "23ef25df",
         "evolveInto": "dae0d537"
     },
     {
@@ -19428,7 +19676,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "23ef25df",
+        "evolveFrom": "e87c49ed",
         "evolveInto": "90dbb919"
     },
     {
@@ -19459,7 +19707,7 @@
                 "Attacker"
             ]
         },
-        "evolveFrom": "e87c49ed",
+        "evolveFrom": "dae0d537",
         "evolveInto": ""
     },
     {
@@ -19513,7 +19761,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "",
+        "evolveFrom": "bd2d30f1",
         "evolveInto": "fe1203e4"
     },
     {
@@ -19540,7 +19788,7 @@
             },
             "target": "Corrupt"
         },
-        "evolveFrom": "bd2d30f1",
+        "evolveFrom": "376f39e6",
         "evolveInto": ""
     },
     {
@@ -19594,7 +19842,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "",
+        "evolveFrom": "28575974",
         "evolveInto": "79ca99cf"
     },
     {
@@ -19621,7 +19869,7 @@
             },
             "target": "Demigod"
         },
-        "evolveFrom": "28575974",
+        "evolveFrom": "f7c44275",
         "evolveInto": ""
     },
     {
@@ -19683,7 +19931,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "99a5dbcf",
         "evolveInto": "028d2d2b"
     },
     {
@@ -19714,7 +19962,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "99a5dbcf",
+        "evolveFrom": "f197fa77",
         "evolveInto": "d54178e2"
     },
     {
@@ -19745,7 +19993,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "f197fa77",
+        "evolveFrom": "028d2d2b",
         "evolveInto": ""
     },
     {
@@ -19807,7 +20055,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "cebc931b",
         "evolveInto": "1429d24d"
     },
     {
@@ -19838,7 +20086,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "cebc931b",
+        "evolveFrom": "c69a4b56",
         "evolveInto": "e0a065cf"
     },
     {
@@ -19869,7 +20117,7 @@
                 "Fable"
             ]
         },
-        "evolveFrom": "c69a4b56",
+        "evolveFrom": "1429d24d",
         "evolveInto": ""
     }
 ]
