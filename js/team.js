@@ -114,7 +114,7 @@ Team.prototype.getUniqueHeroesProperties = function (property, filter) {
         })
         // get unique list
         .filter(function (value, index, self) {
-            if (typeof filter === 'Array') {
+            if (filter && Array.isArray(filter)) {
                 return value && self.indexOf(value) === index && filter.indexOf(value) === -1;
             } else {
                 return value && self.indexOf(value) === index;
