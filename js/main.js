@@ -20,7 +20,7 @@ function getHeroesTableComponent(team, options) {
             return $.extend({
                 team: team,
                 searchKey: '',
-                sort: false
+                sort: ''
             }, options);
         },
         computed: {
@@ -59,7 +59,7 @@ Vue.component('team-heroes-list', {
         };
     },
     components: {
-        'heroes-table': getHeroesTableComponent(teamHeroes, {editable: true, listId: 'team-heroes-list'})
+        'heroes-table': getHeroesTableComponent(teamHeroes, {editable: true, listId: 'team-heroes-list', sort: 'power'})
     },
     computed: {
         counter: function () {
@@ -361,14 +361,20 @@ new Vue({
         teamHeroes: teamHeroes
     },
     mounted: function () {
-        $(document).editable({
+        $('#team-heroes-list-content').editable({
             selector: '.hero-editable-stat',
             highlight: false,
+            display: false,
             success: function (response, newValue) {
                 var $this = $(this);
-                var heroId = $this.parents('tr').attr('data-hero-id');
+                var heroId = $this.parents('tr').data('hero-id');
                 var hero = teamHeroes.find(heroId);
-                var stat = $this.attr('data-stat');
+
+                if (hero === null) {
+                    return;
+                }
+
+                var stat = $this.data('stat');
 
                 hero[stat] = parseInt(newValue);
                 teamHeroes.save();

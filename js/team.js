@@ -40,9 +40,24 @@ Team.prototype.getHeroes = function (filters, sort) {
 
     if (sort) {
         heroes.sort(function (a, b) {
-            if (a.name + a.rarity < b.name + b.rarity) {
+            var lValue = undefined,
+                rValue = undefined;
+
+            switch (sort) {
+                case 'power':
+                    lValue = b.power;
+                    rValue = a.power;
+                    break;
+                case 'name':
+                default:
+                    lValue = a.name + a.rarity;
+                    rValue = b.name + b.rarity;
+                    break;
+            }
+
+            if (lValue < rValue) {
                 return -1;
-            } else if (a.name + a.rarity > b.name + b.rarity) {
+            } else if (lValue > rValue) {
                 return 1;
             }
             return 0;
