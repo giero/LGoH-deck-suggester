@@ -1,4 +1,17 @@
 <?php
+
+function getSpreadsheetData()
+{
+    // https://docs.google.com/spreadsheets/d/1fAMeBL5d2XfhqOo1QTJjknlfXvoFd91oLsbGiZ5VKnE/pub?gid=160864184&single=true&output=tsv
+    $spreadsheetURL = "https://docs.google.com/spreadsheets/d/1fAMeBL5d2XfhqOo1QTJjknlfXvoFd91oLsbGiZ5VKnE/pub?gid=160864184&single=true&output=tsv";
+
+
+    $data = file_get_contents($spreadsheetURL);
+    $data = mb_convert_encoding($data, 'UTF-8', 'ASCII');
+    $data = str_replace("\r", "", $data);
+    file_put_contents('heroes_all.tsv', $data);
+}
+
 /**
  * @param $filename
  * @param $delimiter
@@ -181,4 +194,5 @@ function generateId($name, $stars = null)
     }
 }
 
-echo json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT);
+getSpreadsheetData();
+file_put_contents('heroes_all.json', json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT));

@@ -16067,6 +16067,335 @@
         "evolveInto": ""
     },
     {
+        "coreId": "49f4706d",
+        "name": "Shaella the Fearless",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Defender Might IV",
+            "description": "200% Damage for all Defender Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "",
+        "evolveInto": "616d5bcb"
+    },
+    {
+        "coreId": "616d5bcb",
+        "name": "Shaella the Fearless",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Defender Might V",
+            "description": "180% Damage for all Defender Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "49f4706d",
+        "evolveInto": "a95642a2"
+    },
+    {
+        "coreId": "a95642a2",
+        "name": "Shaella the Fearless",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 4184,
+        "recovery": 351,
+        "health": 6972,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Defender Might VI",
+            "description": "200% Damage for all Defender Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "616d5bcb",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "5a1214c1",
+        "name": "Urhart Drillfist",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dwarf Might I",
+            "description": "175% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8bde41ee"
+    },
+    {
+        "coreId": "8bde41ee",
+        "name": "Urhart Drillfist",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dwarf Might II",
+            "description": "200% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "5a1214c1",
+        "evolveInto": "3e670f1c"
+    },
+    {
+        "coreId": "3e670f1c",
+        "name": "Urhart Drillfist",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dwarf Might III",
+            "description": "225% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "8bde41ee",
+        "evolveInto": "0316f2dd"
+    },
+    {
+        "coreId": "0316f2dd",
+        "name": "Urhart Drillfist",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dwarf Might IV",
+            "description": "300% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "3e670f1c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "230da186",
+        "name": "Overclocked Urhart",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Dwarf Might I",
+            "description": "175% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "6b307aef"
+    },
+    {
+        "coreId": "6b307aef",
+        "name": "Overclocked Urhart",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Dwarf Might II",
+            "description": "200% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "230da186",
+        "evolveInto": "cd82f430"
+    },
+    {
+        "coreId": "cd82f430",
+        "name": "Overclocked Urhart",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Dwarf Might III",
+            "description": "225% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "6b307aef",
+        "evolveInto": "41bb1188"
+    },
+    {
+        "coreId": "41bb1188",
+        "name": "Overclocked Urhart",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Dwarf",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Dwarf Might IV",
+            "description": "300% Damage and HP for all Water Dwarf Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Dwarf"
+            ]
+        },
+        "evolveFrom": "cd82f430",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",
@@ -20118,6 +20447,87 @@
             ]
         },
         "evolveFrom": "1429d24d",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "abba256c",
+        "name": "Quetzalcoatl",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 851,
+        "recovery": 706,
+        "health": 1418,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Technological Armor IV",
+            "description": "160% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "311592ac"
+    },
+    {
+        "coreId": "311592ac",
+        "name": "Quetzalcoatl",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Technological Armor V",
+            "description": "180% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "abba256c",
+        "evolveInto": "ee2421b9"
+    },
+    {
+        "coreId": "ee2421b9",
+        "name": "Quetzalcoatl",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Technological Armor VI",
+            "description": "200% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "311592ac",
         "evolveInto": ""
     }
 ]
