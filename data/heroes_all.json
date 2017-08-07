@@ -1330,9 +1330,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 488,
-        "recovery": 163,
-        "health": 812,
+        "attack": 524,
+        "recovery": 175,
+        "health": 872,
         "rarity": 2,
         "awakening": 5,
         "eventSkills": {
@@ -1340,13 +1340,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Dark Might II",
-            "description": "120% Damage for all Dark Heroes",
+            "name": "Dark Power II",
+            "description": "120% Damage and HP for all Dark Heroes",
             "modifiers": {
-                "attack": 1.2
+                "attack": 1.2,
+                "health": 1.2
             },
             "target": "Dark"
         },
@@ -1359,9 +1360,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 814,
-        "recovery": 272,
-        "health": 1356,
+        "attack": 874,
+        "recovery": 292,
+        "health": 1456,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -1369,13 +1370,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Dark Might III",
-            "description": "140% Damage for all Dark Heroes",
+            "name": "Dark Power III",
+            "description": "140% Damage and HP for all Dark Heroes",
             "modifiers": {
-                "attack": 1.4
+                "attack": 1.4,
+                "health": 1.4
             },
             "target": "Dark"
         },
@@ -1388,9 +1390,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 1326,
-        "recovery": 442,
-        "health": 2211,
+        "attack": 1422,
+        "recovery": 474,
+        "health": 2371,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -1398,13 +1400,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Dark Might IV",
-            "description": "160% Damage for all Dark Heroes",
+            "name": "Dark Power IV",
+            "description": "160% Damage and HP for all Dark Heroes",
             "modifiers": {
-                "attack": 1.6
+                "attack": 1.6,
+                "health": 1.6
             },
             "target": "Dark"
         },
@@ -1417,9 +1420,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 2246,
-        "recovery": 748,
-        "health": 3714,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -1427,13 +1430,14 @@
             "Bounty Hunter": 3,
             "Commander": 3
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Dark Might V",
-            "description": "180% Damage for all Dark Heroes",
+            "name": "Dark Power V",
+            "description": "180% Damage and HP for all Dark Heroes",
             "modifiers": {
-                "attack": 1.8
+                "attack": 1.8,
+                "health": 1.8
             },
             "target": "Dark"
         },
@@ -1443,35 +1447,6 @@
     {
         "coreId": "ef786543",
         "name": "Almar, Cosmic Judge",
-        "affinity": "Dark",
-        "type": "Balanced",
-        "species": "Legend",
-        "attack": 3258,
-        "recovery": 1086,
-        "health": 5430,
-        "rarity": 6,
-        "awakening": 5,
-        "eventSkills": {
-            "Slayer": 4,
-            "Bounty Hunter": 4,
-            "Commander": 4
-        },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
-        "leaderAbility": {
-            "name": "Dark Might VI",
-            "description": "200% Damage for all Dark Heroes",
-            "modifiers": {
-                "attack": 2
-            },
-            "target": "Dark"
-        },
-        "evolveFrom": "5cd832d7",
-        "evolveInto": "e578b811"
-    },
-    {
-        "coreId": "e578b811",
-        "name": "Almar, Ascended",
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
@@ -1485,13 +1460,44 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Dark Might VI",
-            "description": "200% Damage for all Dark Heroes",
+            "name": "Dark Power VI",
+            "description": "200% Damage and HP for all Dark Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
+            },
+            "target": "Dark"
+        },
+        "evolveFrom": "5cd832d7",
+        "evolveInto": "e578b811"
+    },
+    {
+        "coreId": "e578b811",
+        "name": "Almar, Ascended",
+        "affinity": "Dark",
+        "type": "Balanced",
+        "species": "Legend",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4,
+            "Bounty Hunter": 4,
+            "Commander": 4
+        },
+        "defenderSkill": "Almar's Terror",
+        "counterSkill": "Absolve",
+        "leaderAbility": {
+            "name": "Dark Power VI",
+            "description": "200% Damage and HP for all Dark Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
             },
             "target": "Dark"
         },
@@ -5337,9 +5343,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 476,
-        "recovery": 159,
-        "health": 794,
+        "attack": 512,
+        "recovery": 171,
+        "health": 854,
         "rarity": 2,
         "awakening": 5,
         "eventSkills": {
@@ -5347,13 +5353,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might II",
-            "description": "120% Damage for all Light Heroes",
+            "name": "Light Power II",
+            "description": "120% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 1.2
+                "attack": 1.2,
+                "health": 1.2
             },
             "target": "Light"
         },
@@ -5366,9 +5373,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 808,
-        "recovery": 270,
-        "health": 1348,
+        "attack": 868,
+        "recovery": 290,
+        "health": 1448,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -5376,13 +5383,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might III",
-            "description": "140% Damage for all Light Heroes",
+            "name": "Light Power III",
+            "description": "140% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 1.4
+                "attack": 1.4,
+                "health": 1.4
             },
             "target": "Light"
         },
@@ -5395,9 +5403,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 1320,
-        "recovery": 440,
-        "health": 2201,
+        "attack": 1416,
+        "recovery": 472,
+        "health": 2361,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -5405,13 +5413,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might IV",
-            "description": "160% Damage for all Light Heroes",
+            "name": "Light Power IV",
+            "description": "160% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 1.6
+                "attack": 1.6,
+                "health": 1.6
             },
             "target": "Light"
         },
@@ -5424,9 +5433,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 2232,
-        "recovery": 744,
-        "health": 3719,
+        "attack": 2396,
+        "recovery": 798,
+        "health": 3993,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -5434,13 +5443,14 @@
             "Bounty Hunter": 3,
             "Commander": 3
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might V",
-            "description": "180% Damage for all Light Heroes",
+            "name": "Light Power V",
+            "description": "180% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 1.8
+                "attack": 1.8,
+                "health": 1.8
             },
             "target": "Light"
         },
@@ -5453,9 +5463,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3264,
-        "recovery": 1088,
-        "health": 5442,
+        "attack": 3504,
+        "recovery": 1168,
+        "health": 5842,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -5463,13 +5473,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might VI",
-            "description": "200% Damage for all Light Heroes",
+            "name": "Light Power VI",
+            "description": "200% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Light"
         },
@@ -5482,9 +5493,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3498,
-        "recovery": 1166,
-        "health": 5830,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -5492,13 +5503,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Aline's Blessing",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Light Might VI",
-            "description": "200% Damage for all Light Heroes",
+            "name": "Light Power VI",
+            "description": "200% Damage and HP for all Light Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Light"
         },
@@ -8923,9 +8935,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 486,
-        "recovery": 161,
-        "health": 808,
+        "attack": 522,
+        "recovery": 173,
+        "health": 868,
         "rarity": 2,
         "awakening": 5,
         "eventSkills": {
@@ -8933,13 +8945,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might II",
-            "description": "120% Damage for all Fire Heroes",
+            "name": "Fire Power II",
+            "description": "120% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 1.2
+                "attack": 1.2,
+                "health": 1.2
             },
             "target": "Fire"
         },
@@ -8952,9 +8965,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 810,
-        "recovery": 270,
-        "health": 1348,
+        "attack": 870,
+        "recovery": 290,
+        "health": 1448,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -8962,13 +8975,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might III",
-            "description": "140% Damage for all Fire Heroes",
+            "name": "Fire Power III",
+            "description": "140% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 1.4
+                "attack": 1.4,
+                "health": 1.4
             },
             "target": "Fire"
         },
@@ -8981,9 +8995,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 1332,
-        "recovery": 444,
-        "health": 2219,
+        "attack": 1428,
+        "recovery": 476,
+        "health": 2379,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -8991,13 +9005,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might IV",
-            "description": "160% Damage for all Fire Heroes",
+            "name": "Fire Power IV",
+            "description": "160% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 1.6
+                "attack": 1.6,
+                "health": 1.6
             },
             "target": "Fire"
         },
@@ -9010,9 +9025,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 2240,
-        "recovery": 746,
-        "health": 375,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -9020,13 +9035,14 @@
             "Bounty Hunter": 3,
             "Commander": 3
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might V",
-            "description": "180% Damage for all Fire Heroes",
+            "name": "Fire Power V",
+            "description": "180% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 1.8
+                "attack": 1.8,
+                "health": 1.8
             },
             "target": "Fire"
         },
@@ -9039,9 +9055,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3258,
-        "recovery": 1086,
-        "health": 5432,
+        "attack": 3498,
+        "recovery": 1166,
+        "health": 5832,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -9049,13 +9065,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might VI",
-            "description": "200% Damage for all Fire Heroes",
+            "name": "Fire Power VI",
+            "description": "200% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Fire"
         },
@@ -9068,9 +9085,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3498,
-        "recovery": 1166,
-        "health": 5830,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -9078,13 +9095,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Quarl's Protection",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Fire Might VI",
-            "description": "200% Damage for all Fire Heroes",
+            "name": "Fire Power VI",
+            "description": "200% Damage and HP for all Fire Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Fire"
         },
@@ -13485,9 +13503,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 488,
-        "recovery": 163,
-        "health": 812,
+        "attack": 524,
+        "recovery": 175,
+        "health": 872,
         "rarity": 2,
         "awakening": 5,
         "eventSkills": {
@@ -13495,13 +13513,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might II",
-            "description": "120% Damage for all Water Heroes",
+            "name": "Water Power II",
+            "description": "120% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 1.2
+                "attack": 1.2,
+                "health": 1.2
             },
             "target": "Water"
         },
@@ -13514,9 +13533,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 822,
-        "recovery": 247,
-        "health": 1370,
+        "attack": 882,
+        "recovery": 294,
+        "health": 1470,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -13524,13 +13543,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might III",
-            "description": "140% Damage for all Water Heroes",
+            "name": "Water Power III",
+            "description": "140% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 1.4
+                "attack": 1.4,
+                "health": 1.4
             },
             "target": "Water"
         },
@@ -13543,9 +13563,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 1318,
-        "recovery": 438,
-        "health": 2197,
+        "attack": 1414,
+        "recovery": 470,
+        "health": 2357,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -13553,13 +13573,14 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might IV",
-            "description": "160% Damage for all Water Heroes",
+            "name": "Water Power IV",
+            "description": "160% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 1.6
+                "attack": 1.6,
+                "health": 1.6
             },
             "target": "Water"
         },
@@ -13572,9 +13593,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 2234,
-        "recovery": 744,
-        "health": 3721,
+        "attack": 2398,
+        "recovery": 798,
+        "health": 3995,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -13582,13 +13603,14 @@
             "Bounty Hunter": 3,
             "Commander": 3
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might V",
-            "description": "180% Damage for all Water Heroes",
+            "name": "Water Power V",
+            "description": "180% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 1.8
+                "attack": 1.8,
+                "health": 1.8
             },
             "target": "Water"
         },
@@ -13601,9 +13623,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3256,
-        "recovery": 1086,
-        "health": 5426,
+        "attack": 3496,
+        "recovery": 1166,
+        "health": 5826,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -13611,13 +13633,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might VI",
-            "description": "200% Damage for all Water Heroes",
+            "name": "Water Power VI",
+            "description": "200% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Water"
         },
@@ -13630,9 +13653,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3498,
-        "recovery": 1166,
-        "health": 5830,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -13640,13 +13663,14 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Keta's Resolve",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Water Might VI",
-            "description": "200% Damage for all Water Heroes",
+            "name": "Water Power VI",
+            "description": "200% Damage and HP for all Water Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
             "target": "Water"
         },
@@ -17726,9 +17750,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 490,
-        "recovery": 163,
-        "health": 818,
+        "attack": 526,
+        "recovery": 175,
+        "health": 878,
         "rarity": 2,
         "awakening": 5,
         "eventSkills": {
@@ -17736,15 +17760,16 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might II",
-            "description": "120% Damage for all Earth Heroes",
+            "name": "Earth Power II",
+            "description": "120% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 1.2
+                "attack": 1.2,
+                "health": 1.2
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "",
         "evolveInto": "cf33062e"
@@ -17755,9 +17780,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 812,
-        "recovery": 270,
-        "health": 1354,
+        "attack": 872,
+        "recovery": 290,
+        "health": 1454,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -17765,15 +17790,16 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might III",
-            "description": "140% Damage for all Earth Heroes",
+            "name": "Earth Power III",
+            "description": "140% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 1.4
+                "attack": 1.4,
+                "health": 1.4
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "6edd1bb5",
         "evolveInto": "99b49a11"
@@ -17784,9 +17810,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 1324,
-        "recovery": 440,
-        "health": 2207,
+        "attack": 1420,
+        "recovery": 472,
+        "health": 2367,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -17794,15 +17820,16 @@
             "Bounty Hunter": 2,
             "Commander": 2
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might IV",
-            "description": "160% Damage for all Earth Heroes",
+            "name": "Earth Power IV",
+            "description": "160% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 1.6
+                "attack": 1.6,
+                "health": 1.6
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "cf33062e",
         "evolveInto": "9a63240f"
@@ -17813,9 +17840,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 2240,
-        "recovery": 746,
-        "health": 3731,
+        "attack": 2404,
+        "recovery": 800,
+        "health": 4005,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -17823,15 +17850,16 @@
             "Bounty Hunter": 3,
             "Commander": 3
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might V",
-            "description": "180% Damage for all Earth Heroes",
+            "name": "Earth Power V",
+            "description": "180% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 1.8
+                "attack": 1.8,
+                "health": 1.8
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "99b49a11",
         "evolveInto": "48cf8b46"
@@ -17842,9 +17870,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3260,
-        "recovery": 1086,
-        "health": 5343,
+        "attack": 3500,
+        "recovery": 1166,
+        "health": 5834,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -17852,15 +17880,16 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might VI",
-            "description": "200% Damage for all Earth Heroes",
+            "name": "Earth Power VI",
+            "description": "200% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "9a63240f",
         "evolveInto": "c8b001ba"
@@ -17871,9 +17900,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 3498,
-        "recovery": 1166,
-        "health": 5830,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -17881,15 +17910,16 @@
             "Bounty Hunter": 4,
             "Commander": 4
         },
-        "defenderSkill": "Might",
-        "counterSkill": "Unknown",
+        "defenderSkill": "Dogen's Ferocity",
+        "counterSkill": "Absolve",
         "leaderAbility": {
-            "name": "Earth Might VI",
-            "description": "200% Damage for all Earth Heroes",
+            "name": "Earth Power VI",
+            "description": "200% Damage and HP for all Earh Heroes",
             "modifiers": {
-                "attack": 2
+                "attack": 2,
+                "health": 2
             },
-            "target": "Earth"
+            "target": "Earh"
         },
         "evolveFrom": "48cf8b46",
         "evolveInto": ""
