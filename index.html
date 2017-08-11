@@ -169,7 +169,16 @@
                         <br class="visible-sm-block visible-xs-block" />
                     </span>
                 </td>
-                <td>{{ hero.defenderSkill }}</td>
+                <td>
+                    {{ hero.defenderSkill }}
+                    <span v-show="skills.defenderSkills.hasOwnProperty(hero.defenderSkill)"
+                          class="glyphicon glyphicon-info-sign text-info pull-right"
+                          data-toggle="popover"
+                          data-trigger="hover"
+                          data-placement="top"
+                          data-container="body"
+                          :data-content="skills.defenderSkills[hero.defenderSkill]"></span>
+                </td>
                 <td>{{ hero.counterSkill }}</td>
                 <td v-if="editable">
                     <span class="glyphicon glyphicon-remove text-danger" style="cursor: pointer;" @click="removeHeroFromList"></span>
@@ -435,6 +444,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 
 <script src="js/helpers.js"></script>
+<script src="js/skills.js"></script>
 <script src="js/hero.js"></script>
 <script src="js/team.js"></script>
 <script src="js/team_operations.js"></script>

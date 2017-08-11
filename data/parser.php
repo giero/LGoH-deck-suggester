@@ -1,8 +1,7 @@
 <?php
 
-function getSpreadsheetData()
+function getHeroesSpreadsheetData()
 {
-    // https://docs.google.com/spreadsheets/d/1fAMeBL5d2XfhqOo1QTJjknlfXvoFd91oLsbGiZ5VKnE/pub?gid=160864184&single=true&output=tsv
     $spreadsheetURL = "https://docs.google.com/spreadsheets/d/1fAMeBL5d2XfhqOo1QTJjknlfXvoFd91oLsbGiZ5VKnE/pub?gid=160864184&single=true&output=tsv";
 
 
@@ -18,27 +17,9 @@ function getSpreadsheetData()
  *
  * @return array|bool
  */
-function csvToArray($filename = '', $delimiter = ',')
+function collectHeroesData($filename, $delimiter = ',')
 {
-    if (!file_exists($filename) || !is_readable($filename)) {
-        die('Cannot read the file!');
-    }
-
-    $header = null;
-    $data = array();
-    if (($handle = fopen($filename, 'r')) !== false) {
-        while (($row = fgetcsv($handle, 1000, $delimiter)) !== false) {
-            if (!$header) {
-                $header = $row;
-            } elseif (count($header) != count($row)) {
-                var_dump('Mismatched columns!', $header, $row);
-                die();
-            } else {
-                $data[] = array_combine($header, $row);
-            }
-        }
-        fclose($handle);
-    }
+    $data = parseCSV($filename, $delimiter);
 
     $dbData = [];
     $ids = [];
@@ -97,6 +78,36 @@ function csvToArray($filename = '', $delimiter = ',')
     }
 
     return $dbData;
+}
+
+/**
+ * @param $filename
+ * @param $delimiter
+ * @return array
+ */
+function parseCSV($filename, $delimiter)
+{
+    if (!file_exists($filename) || !is_readable($filename)) {
+        die('Cannot read the file!');
+    }
+
+    $header = null;
+    $data = array();
+    if (($handle = fopen($filename, 'r')) !== false) {
+        while (($row = fgetcsv($handle, 1000, $delimiter)) !== false) {
+            if (!$header) {
+                $header = $row;
+            } elseif (count($header) != count($row)) {
+                var_dump('Mismatched columns!', $header, $row);
+                die();
+            } else {
+                $data[] = array_combine($header, $row);
+            }
+        }
+        fclose($handle);
+    }
+
+    return $data;
 }
 
 /**
@@ -194,5 +205,24 @@ function generateId($name, $stars = null)
     }
 }
 
-getSpreadsheetData();
-file_put_contents('heroes_all.json', json_encode(csvToArray('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT));
+function collectSkillsData($filename, $delimiter = ',')
+{
+    $data = parseCSV($filename, $delimiter);
+
+    $dbData = [];
+    foreach ($data as $row) {
+        if (!empty($row['Defender Skill'])) {
+            $dbData['defenderSkill'][$row['Defender Skill']] = $row['Defender Skill Description'];
+        }
+
+        if (!empty($row['Counter Skill'])) {
+            $dbData['counterSkill'][$row['Counter Skill']] = $row['Counter Skill Description'];
+        }
+    }
+
+    return $dbData;
+}
+
+getHeroesSpreadsheetData();
+file_put_contents('heroes_all.json', json_encode(collectHeroesData('heroes_all.tsv', "\t"), JSON_PRETTY_PRINT));
+file_put_contents('skills_all.json', json_encode(collectSkillsData('heroes_skills.tsv', "\t"), JSON_PRETTY_PRINT));

@@ -37,7 +37,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Dark Armor II",
             "description": "120% HP for all Dark Heroes",
@@ -62,7 +62,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Dark Armor III",
             "description": "140% HP for all Dark Heroes",
@@ -87,7 +87,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
@@ -137,7 +137,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Dark Blessing II",
             "description": "120% REC for all Dark Heroes",
@@ -162,7 +162,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Dark Blessing III",
             "description": "140% REC for all Dark Heroes",
@@ -187,7 +187,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
@@ -212,7 +212,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
@@ -312,7 +312,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
@@ -337,7 +337,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
@@ -360,7 +360,9 @@
         "health": 1679,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -385,7 +387,9 @@
         "health": 2730,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -412,7 +416,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -437,7 +441,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -462,7 +466,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Dark Might III",
             "description": "140% Damage for all Dark Heroes",
@@ -487,7 +491,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Dark Might IV",
             "description": "160% Damage for all Dark Heroes",
@@ -512,7 +516,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
@@ -537,7 +541,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -562,7 +566,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -587,7 +591,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
@@ -612,7 +616,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
@@ -835,9 +839,11 @@
         "health": 326,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
@@ -860,9 +866,11 @@
         "health": 502,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
@@ -912,7 +920,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Dark Might V",
             "description": "180% Damage for all Dark Heroes",
@@ -937,7 +945,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Dark Might VI",
             "description": "200% Damage for all Dark Heroes",
@@ -962,7 +970,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -987,7 +995,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -1012,7 +1020,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -1037,7 +1045,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -1062,7 +1070,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -1087,7 +1095,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -1519,7 +1527,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
@@ -1546,7 +1554,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
@@ -1573,7 +1581,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
@@ -1866,7 +1874,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -1894,7 +1902,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -1922,7 +1930,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -1950,7 +1958,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -1978,7 +1986,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -2292,7 +2300,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -2317,7 +2325,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
@@ -2342,7 +2350,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
@@ -2369,7 +2377,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
@@ -2396,7 +2404,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dark Armor V",
             "description": "180% HP for all Dark Heroes",
@@ -2423,7 +2431,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dark Armor VI",
             "description": "200% HP for all Dark Heroes",
@@ -2450,7 +2458,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor III",
             "description": "140% HP for all Spirit Heroes",
@@ -2477,7 +2485,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -2504,7 +2512,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -2531,7 +2539,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -2558,7 +2566,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Dark Armor IV",
             "description": "160% HP for all Dark Heroes",
@@ -2585,7 +2593,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Dark Armor V",
             "description": "180% HP for all Dark Heroes",
@@ -2612,7 +2620,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Dark Armor VI",
             "description": "200% HP for all Dark Heroes",
@@ -2639,7 +2647,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Thrill of the Hunt I",
             "description": "175% Damage for Water Bounty Hunters",
@@ -2669,7 +2677,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Thrill of the Hunt II",
             "description": "200% Damage for Water Bounty Hunters",
@@ -2699,7 +2707,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Thrill of the Hunt III",
             "description": "225% Damage for Water Bounty Hunters",
@@ -2729,7 +2737,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Thrill of the Hunt IV",
             "description": "300% Damage for Water Bounty Hunters",
@@ -2759,7 +2767,7 @@
             "Commander": 2
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
@@ -2786,7 +2794,7 @@
             "Commander": 3
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
@@ -2813,7 +2821,7 @@
             "Commander": 4
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
@@ -2840,7 +2848,7 @@
             "Commander": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Eggceptional Power I",
             "description": "175% Damage and HP for all Dark Attacker Heroes",
@@ -2871,7 +2879,7 @@
             "Commander": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Eggceptional Power II",
             "description": "200% Damage and HP for all Dark Attacker Heroes",
@@ -2902,7 +2910,7 @@
             "Commander": 3
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Eggceptional Power II",
             "description": "225% Damage and HP for all Dark Attacker Heroes",
@@ -2933,7 +2941,7 @@
             "Commander": 4
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Eggceptional Power III",
             "description": "300% Damage and HP for all Dark Attacker Heroes",
@@ -3126,7 +3134,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Armor IV",
             "description": "160% HP for all Honored Heroes",
@@ -3153,7 +3161,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Armor V",
             "description": "180% HP for all Honored Heroes",
@@ -3180,7 +3188,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Armor VI",
             "description": "200% HP for all Honored Heroes",
@@ -3207,7 +3215,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Valhallan Might I",
             "description": "175% Damage and HP for all Dark Demigods Heroes",
@@ -3238,7 +3246,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Valhallan Might II",
             "description": "200% Damage and HP for all Dark Demigods Heroes",
@@ -3269,7 +3277,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Valhallan Might III",
             "description": "225% Damage and HP for all Dark Demigods Heroes",
@@ -3300,7 +3308,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Valhallan Might IV",
             "description": "300% Damage and HP for all Dark Demigods Heroes",
@@ -3331,7 +3339,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Valhallan Might I",
             "description": "175% Damage and HP for all Dark Demigods Heroes",
@@ -3362,7 +3370,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Valhallan Might II",
             "description": "200% Damage and HP for all Dark Demigods Heroes",
@@ -3393,7 +3401,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Valhallan Might III",
             "description": "225% Damage and HP for all Dark Demigods Heroes",
@@ -3424,7 +3432,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Valhallan Might IV",
             "description": "300% Damage and HP for all Dark Demigods Heroes",
@@ -3623,7 +3631,7 @@
             "Commander": 2
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Dark Ancient Might I",
             "description": "175% Damage and HP for all Dark Ancient Heroes",
@@ -3654,7 +3662,7 @@
             "Commander": 2
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Dark Ancient Might II",
             "description": "200% Damage and HP for all Dark Ancient Heroes",
@@ -3685,7 +3693,7 @@
             "Commander": 3
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Dark Ancient Might III",
             "description": "225% Damage and HP for all Dark Ancient Heroes",
@@ -3716,7 +3724,7 @@
             "Commander": 4
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Dark Ancient Might IV",
             "description": "300% Damage and HP for all Dark Ancient Heroes",
@@ -3747,7 +3755,7 @@
             "Commander": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Dark Ancient Might I",
             "description": "175% Damage and HP for all Dark Ancient Heroes",
@@ -3778,7 +3786,7 @@
             "Commander": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Dark Ancient Might II",
             "description": "200% Damage and HP for all Dark Ancient Heroes",
@@ -3809,7 +3817,7 @@
             "Commander": 3
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Dark Ancient Might III",
             "description": "225% Damage and HP for all Dark Ancient Heroes",
@@ -3840,7 +3848,7 @@
             "Commander": 4
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Dark Ancient Might IV",
             "description": "300% Damage and HP for all Dark Ancient Heroes",
@@ -3935,6 +3943,335 @@
             "target": "Guardian"
         },
         "evolveFrom": "c8355c48",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "ea53db69",
+        "name": "Amy, People's Champion",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Human",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "ee49b856"
+    },
+    {
+        "coreId": "ee49b856",
+        "name": "Amy, People's Champion",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Human",
+        "attack": 2872,
+        "recovery": 242,
+        "health": 4788,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "ea53db69",
+        "evolveInto": "741ab76b"
+    },
+    {
+        "coreId": "741ab76b",
+        "name": "Amy, People's Champion",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Human",
+        "attack": 4184,
+        "recovery": 351,
+        "health": 6972,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Human Armor VI",
+            "description": "200% HP for all Human Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "ee49b856",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "2fbf4866",
+        "name": "Dzoran",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 998,
+        "recovery": 85,
+        "health": 1662,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Warrior Might I",
+            "description": "175% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "36d30786"
+    },
+    {
+        "coreId": "8d454d00",
+        "name": "Dzoran",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 1626,
+        "recovery": 136,
+        "health": 2711,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Warrior Might II",
+            "description": "200% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "2fbf4866",
+        "evolveInto": "36d30786"
+    },
+    {
+        "coreId": "36d30786",
+        "name": "Dzoran",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 2766,
+        "recovery": 234,
+        "health": 4610,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Warrior Might III",
+            "description": "225% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "8d454d00",
+        "evolveInto": "f86b5af9"
+    },
+    {
+        "coreId": "f86b5af9",
+        "name": "Dzoran",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 4014,
+        "recovery": 335,
+        "health": 6688,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Warrior Might IV",
+            "description": "300% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "36d30786",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "9aec2f19",
+        "name": "Astral Savior",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dark Warrior Might I",
+            "description": "175% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "be103a7c"
+    },
+    {
+        "coreId": "be103a7c",
+        "name": "Astral Savior",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dark Warrior Might II",
+            "description": "200% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "9aec2f19",
+        "evolveInto": "356f229d"
+    },
+    {
+        "coreId": "4b66fd8a",
+        "name": "Astral Savior",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dark Warrior Might III",
+            "description": "225% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "be103a7c",
+        "evolveInto": "356f229d"
+    },
+    {
+        "coreId": "356f229d",
+        "name": "Astral Savior",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Dark Warrior Might IV",
+            "description": "300% Damage and HP for all Dark Warrior Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Warrior"
+            ]
+        },
+        "evolveFrom": "4b66fd8a",
         "evolveInto": ""
     },
     {
@@ -4075,7 +4412,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Light Blessing II",
             "description": "120% REC for all Light Heroes",
@@ -4100,7 +4437,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Light Blessing III",
             "description": "140% REC for all Light Heroes",
@@ -4150,7 +4487,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Light Armor II",
             "description": "120% HP for all Light Heroes",
@@ -4175,7 +4512,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Light Armor III",
             "description": "140% HP for all Light Heroes",
@@ -4200,7 +4537,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
@@ -4275,7 +4612,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -4300,7 +4637,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -4325,7 +4662,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
@@ -4350,7 +4687,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
@@ -4375,7 +4712,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Light Might III",
             "description": "140% Damage for all Light Heroes",
@@ -4400,7 +4737,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Light Might IV",
             "description": "160% Damage for all Light Heroes",
@@ -4425,7 +4762,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
@@ -4525,7 +4862,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
@@ -4550,7 +4887,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
@@ -4575,7 +4912,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
@@ -4600,7 +4937,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
@@ -4725,7 +5062,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
@@ -4750,7 +5087,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
@@ -4775,7 +5112,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -4800,7 +5137,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -4850,7 +5187,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Light Might V",
             "description": "180% Damage for all Light Heroes",
@@ -4875,7 +5212,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Light Might VI",
             "description": "200% Damage for all Light Heroes",
@@ -4900,7 +5237,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -4925,7 +5262,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -4950,7 +5287,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -4975,7 +5312,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -5000,7 +5337,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -5025,7 +5362,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -5613,7 +5950,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
@@ -5640,7 +5977,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
@@ -5667,7 +6004,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
@@ -5692,7 +6029,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -5717,7 +6054,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -5742,7 +6079,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -5769,7 +6106,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Defender Armor IV",
             "description": "160% HP for all Defender Heroes",
@@ -5796,7 +6133,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Defender Armor V",
             "description": "180% HP for all Defender Heroes",
@@ -5823,7 +6160,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Defender Armor VI",
             "description": "200% HP for all Defender Heroes",
@@ -5850,7 +6187,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -5877,7 +6214,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -5904,7 +6241,7 @@
             "Warden": true
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -6006,7 +6343,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Light Armor IV",
             "description": "160% HP for all Light Heroes",
@@ -6033,7 +6370,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Light Armor V",
             "description": "180% HP for all Light Heroes",
@@ -6060,7 +6397,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Light Armor VI",
             "description": "200% HP for all Light Heroes",
@@ -6222,7 +6559,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -6249,7 +6586,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
@@ -6276,7 +6613,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
@@ -6668,7 +7005,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Creature Might III",
             "description": "140% Damage for all Creature Heroes",
@@ -6693,7 +7030,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
@@ -6718,7 +7055,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "180% Damage for all Creature Heroes",
@@ -6743,7 +7080,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
@@ -6770,7 +7107,7 @@
             "Warden": true
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Creature Armor IV",
             "description": "160% HP for all Creature Heroes",
@@ -6797,7 +7134,7 @@
             "Warden": true
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Creature Armor V",
             "description": "180% HP for all Creature Heroes",
@@ -6824,7 +7161,7 @@
             "Warden": true
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Creature Armor VI",
             "description": "200% HP for all Creature Heroes",
@@ -7056,7 +7393,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Strenght of Rainbows I",
             "description": "175% Damage and HP for all Light Warrior Heroes",
@@ -7087,7 +7424,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Strenght of Rainbows II",
             "description": "200% Damage and HP for all Light Warrior Heroes",
@@ -7118,7 +7455,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Strenght of Rainbows III",
             "description": "225% Damage and HP for all Light Warrior Heroes",
@@ -7149,7 +7486,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Strenght of Rainbows IV",
             "description": "300% Damage and HP for all Light Warrior Heroes",
@@ -7180,7 +7517,7 @@
             "Warden": true
         },
         "defenderSkill": "Toxin",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Creature Blessing IV",
             "description": "260% REC for all Creature Heroes",
@@ -7207,7 +7544,7 @@
             "Warden": true
         },
         "defenderSkill": "Toxin",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Creature Blessing V",
             "description": "280% REC for all Creature Heroes",
@@ -7234,7 +7571,7 @@
             "Warden": true
         },
         "defenderSkill": "Toxin",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Creature Blessing VI",
             "description": "300% REC for all Creature Heroes",
@@ -7613,7 +7950,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Fire Armor II",
             "description": "120% HP for all Fire Heroes",
@@ -7638,7 +7975,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Fire Armor III",
             "description": "140% HP for all Fire Heroes",
@@ -7663,7 +8000,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
@@ -7713,7 +8050,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Fire Blessing II",
             "description": "120% REC for all Fire Heroes",
@@ -7738,7 +8075,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Fire Blessing III",
             "description": "140% REC for all Fire Heroes",
@@ -7863,7 +8200,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
@@ -7888,7 +8225,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
@@ -7938,7 +8275,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
@@ -7963,7 +8300,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
@@ -8088,7 +8425,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -8113,7 +8450,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -8138,7 +8475,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
@@ -8288,7 +8625,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
@@ -8313,7 +8650,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
@@ -8338,7 +8675,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Fire Might III",
             "description": "140% Damage for all Fire Heroes",
@@ -8363,7 +8700,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Fire Might IV",
             "description": "160% Damage for all Fire Heroes",
@@ -8388,7 +8725,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
@@ -8413,7 +8750,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
@@ -8438,7 +8775,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -8463,7 +8800,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -8515,7 +8852,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Fire Might V",
             "description": "180% Damage for all Fire Heroes",
@@ -8542,7 +8879,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Fire Might VI",
             "description": "200% Damage for all Fire Heroes",
@@ -8567,7 +8904,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -8592,7 +8929,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -8617,7 +8954,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -8642,7 +8979,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -8667,7 +9004,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -8692,7 +9029,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -9124,7 +9461,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
@@ -9151,7 +9488,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
@@ -9178,7 +9515,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
@@ -9205,7 +9542,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -9232,7 +9569,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -9259,7 +9596,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -9284,7 +9621,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
@@ -9309,7 +9646,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
@@ -9334,7 +9671,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
@@ -9361,7 +9698,7 @@
             "Warden": true
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
@@ -9388,7 +9725,7 @@
             "Warden": true
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
@@ -9415,7 +9752,7 @@
             "Warden": true
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
@@ -9440,7 +9777,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
@@ -9465,7 +9802,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
@@ -9490,7 +9827,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
@@ -9598,7 +9935,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -9625,7 +9962,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
@@ -9652,7 +9989,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
@@ -9708,7 +10045,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -9736,7 +10073,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -9764,7 +10101,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -9792,7 +10129,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -9820,7 +10157,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -9847,7 +10184,7 @@
             "Warden": true
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor IV",
             "description": "160% HP for all Balanced Heroes",
@@ -9874,7 +10211,7 @@
             "Warden": true
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor V",
             "description": "180% HP for all Balanced Heroes",
@@ -9901,7 +10238,7 @@
             "Warden": true
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor VI",
             "description": "200% HP for all Balanced Heroes",
@@ -9957,7 +10294,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor II",
             "description": "120% HP for all Spirit Heroes",
@@ -9985,7 +10322,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor III",
             "description": "140% HP for all Spirit Heroes",
@@ -10013,7 +10350,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -10041,7 +10378,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -10069,7 +10406,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -10387,7 +10724,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Fire Armor IV",
             "description": "160% HP for all Fire Heroes",
@@ -10414,7 +10751,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Fire Armor V",
             "description": "180% HP for all Fire Heroes",
@@ -10441,7 +10778,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Fire Armor VI",
             "description": "260% HP for all Fire Heroes",
@@ -10466,7 +10803,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "God Might IV",
             "description": "160% Damage for all God Heroes",
@@ -10491,7 +10828,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "God Might V",
             "description": "180% Damage for all God Heroes",
@@ -10516,7 +10853,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "God Might VI",
             "description": "200% Damage for all God Heroes",
@@ -10946,7 +11283,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor IV",
             "description": "160% HP for all Attacker Heroes",
@@ -10971,7 +11308,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor V",
             "description": "180% HP for all Attacker Heroes",
@@ -10996,7 +11333,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor VI",
             "description": "200% HP for all Attacker Heroes",
@@ -11147,7 +11484,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Ancient Armor IV",
             "description": "160% HP for all Ancient Heroes",
@@ -11174,7 +11511,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Ancient Armor V",
             "description": "180% HP for all Ancient Heroes",
@@ -11201,7 +11538,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Ancient Armor VI",
             "description": "200% HP for all Ancient Heroes",
@@ -11773,7 +12110,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Blessing IV",
             "description": "260% REC for all Attacker Heroes",
@@ -11800,7 +12137,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Blessing V",
             "description": "280% REC for all Attacker Heroes",
@@ -11827,7 +12164,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Blessing VI",
             "description": "300% REC for all Attacker Heroes",
@@ -12169,6 +12506,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "2f84b107",
+        "name": "Juggernaut",
+        "affinity": "Fire",
+        "type": "Guardian",
+        "species": "Goblin",
+        "attack": 428,
+        "recovery": 565,
+        "health": 2825,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Warrior Armor IV",
+            "description": "160% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "",
+        "evolveInto": "bf834609"
+    },
+    {
+        "coreId": "bf834609",
+        "name": "Juggernaut",
+        "affinity": "Fire",
+        "type": "Guardian",
+        "species": "Goblin",
+        "attack": 730,
+        "recovery": 958,
+        "health": 4798,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Warrior Armor V",
+            "description": "180% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "2f84b107",
+        "evolveInto": "a0991697"
+    },
+    {
+        "coreId": "a0991697",
+        "name": "Juggernaut",
+        "affinity": "Fire",
+        "type": "Guardian",
+        "species": "Goblin",
+        "attack": 1058,
+        "recovery": 1395,
+        "health": 6978,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Warrior Armor VI",
+            "description": "200% HP for all Warrior Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "bf834609",
+        "evolveInto": ""
+    },
+    {
         "coreId": "85acea24",
         "name": "Frostvein Cultist",
         "affinity": "Water",
@@ -12331,7 +12749,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Armor II",
             "description": "120% HP for all Water Heroes",
@@ -12356,7 +12774,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Armor III",
             "description": "140% HP for all Water Heroes",
@@ -12381,7 +12799,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Armor IV",
             "description": "160% HP for all Water Heroes",
@@ -12506,7 +12924,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -12531,7 +12949,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -12556,7 +12974,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
@@ -12581,7 +12999,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Water Might III",
             "description": "140% Damage for all Water Heroes",
@@ -12606,7 +13024,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Water Might IV",
             "description": "160% Damage for all Water Heroes",
@@ -12631,7 +13049,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
@@ -12656,7 +13074,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
@@ -12706,7 +13124,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Blessing II",
             "description": "120% REC for all Water Heroes",
@@ -12731,7 +13149,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Blessing III",
             "description": "140% REC for all Water Heroes",
@@ -12756,7 +13174,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
@@ -12781,7 +13199,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
@@ -12806,7 +13224,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
@@ -12831,7 +13249,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
@@ -12956,7 +13374,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
@@ -12981,7 +13399,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
@@ -13006,7 +13424,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -13031,7 +13449,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -13083,7 +13501,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Water Might V",
             "description": "180% Damage for all Water Heroes",
@@ -13110,7 +13528,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Water Might VI",
             "description": "200% Damage for all Water Heroes",
@@ -13135,7 +13553,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -13160,7 +13578,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -13185,7 +13603,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -13210,7 +13628,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -13235,7 +13653,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -13260,7 +13678,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -13848,7 +14266,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
@@ -13875,7 +14293,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
@@ -13902,7 +14320,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
@@ -14010,7 +14428,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor IV",
             "description": "160% HP for all Balanced Heroes",
@@ -14037,7 +14455,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor V",
             "description": "180% HP for all Balanced Heroes",
@@ -14064,7 +14482,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Balanced Armor VI",
             "description": "200% HP for all Balanced Heroes",
@@ -14091,7 +14509,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Might IV",
             "description": "160% Damage for all Water Heroes",
@@ -14118,7 +14536,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Might V",
             "description": "180% Damage for all Water Heroes",
@@ -14145,7 +14563,7 @@
             "Warden": true
         },
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Water Might VI",
             "description": "200% Damage for all Water Heroes",
@@ -14172,7 +14590,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
@@ -14199,7 +14617,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
@@ -14226,7 +14644,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
@@ -14253,7 +14671,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -14276,9 +14694,11 @@
         "health": 1942,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
@@ -14301,9 +14721,11 @@
         "health": 2825,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
@@ -14409,7 +14831,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -14434,7 +14856,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -14459,7 +14881,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -14702,7 +15124,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
@@ -14729,7 +15151,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
@@ -14756,7 +15178,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
@@ -14988,7 +15410,7 @@
             "Warden": true
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -15015,7 +15437,7 @@
             "Warden": true
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -15042,7 +15464,7 @@
             "Warden": true
         },
         "defenderSkill": "Siphon",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -15069,7 +15491,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Water Blessing IV",
             "description": "260% REC for all Water Heroes",
@@ -15096,7 +15518,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Water Blessing V",
             "description": "280% REC for all Water Heroes",
@@ -15123,7 +15545,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Water Blessing VI",
             "description": "300% REC for all Water Heroes",
@@ -15150,7 +15572,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Wrath of the Sea I",
             "description": "175% Damage and HP for all Water Warriors Heroes",
@@ -15181,7 +15603,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Wrath of the Sea II",
             "description": "200% Damage and HP for all Water Warriors Heroes",
@@ -15212,7 +15634,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Wrath of the Sea III",
             "description": "225% Damage and HP for all Water Warriors Heroes",
@@ -15243,7 +15665,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Wrath of the Sea IV",
             "description": "300% Damage and HP for all Water Warriors Heroes",
@@ -15359,7 +15781,7 @@
             "Commander": 2
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Deluge of Power I",
             "description": "175% Damage and HP for all Water Attackers Heroes",
@@ -15391,7 +15813,7 @@
             "Commander": 2
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Deluge of Power II",
             "description": "200% Damage and HP for all Water Attackers Heroes",
@@ -15423,7 +15845,7 @@
             "Commander": 3
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Deluge of Power III",
             "description": "225% Damage and HP for all Water Attackers Heroes",
@@ -15455,7 +15877,7 @@
             "Commander": 4
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Deluge of Power IV",
             "description": "300% Damage and HP for all Water Attackers Heroes",
@@ -15487,7 +15909,7 @@
             "Commander": 2
         },
         "defenderSkill": "Traitor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Deluge of Power I",
             "description": "175% Damage and HP for all Water Attackers Heroes",
@@ -15519,7 +15941,7 @@
             "Commander": 2
         },
         "defenderSkill": "Traitor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Deluge of Power II",
             "description": "200% Damage and HP for all Water Attackers Heroes",
@@ -15551,7 +15973,7 @@
             "Commander": 3
         },
         "defenderSkill": "Traitor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Deluge of Power III",
             "description": "225% Damage and HP for all Water Attackers Heroes",
@@ -15583,7 +16005,7 @@
             "Commander": 4
         },
         "defenderSkill": "Traitor",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Deluge of Power IV",
             "description": "300% Damage and HP for all Water Attackers Heroes",
@@ -15614,7 +16036,7 @@
             "Warden": true
         },
         "defenderSkill": "Earth Petrify",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Ancient Blessing IV",
             "description": "260% REC for all Ancient Heroes",
@@ -15641,7 +16063,7 @@
             "Warden": true
         },
         "defenderSkill": "Earth Petrify",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Ancient Blessing V",
             "description": "280% REC for all Ancient Heroes",
@@ -15668,7 +16090,7 @@
             "Warden": true
         },
         "defenderSkill": "Earth Petrify",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Ancient Blessing VI",
             "description": "300% REC for all Ancient Heroes",
@@ -15695,7 +16117,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Honored Might IV",
             "description": "160% Damage for all Honored Heroes",
@@ -15722,7 +16144,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Honored Might V",
             "description": "180% Damage for all Honored Heroes",
@@ -15749,7 +16171,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Honored Might VI",
             "description": "200% Damage for all Honored Heroes",
@@ -15900,7 +16322,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Scent of Blood I",
             "description": "175% Damage and HP for all Water Creature Heroes",
@@ -15931,7 +16353,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Scent of Blood II",
             "description": "200% Damage and HP for all Water Creature Heroes",
@@ -15962,7 +16384,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Scent of Blood III",
             "description": "225% Damage and HP for all Water Creature Heroes",
@@ -15993,7 +16415,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Panic",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Scent of Blood IV",
             "description": "300% Damage and HP for all Water Creature Heroes",
@@ -16507,7 +16929,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Earth Blessing II",
             "description": "120% REC for all Earth Heroes",
@@ -16532,7 +16954,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Earth Blessing III",
             "description": "140% REC for all Earth Heroes",
@@ -16682,7 +17104,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor II",
             "description": "120% HP for all Guardian Heroes",
@@ -16707,7 +17129,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Armor III",
             "description": "140% HP for all Guardian Heroes",
@@ -16732,7 +17154,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -16757,7 +17179,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -16782,7 +17204,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might II",
             "description": "120% Damage for all Human Heroes",
@@ -16807,7 +17229,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Human Might III",
             "description": "140% Damage for all Human Heroes",
@@ -16832,7 +17254,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might IV",
             "description": "160% Damage for all Warrior Heroes",
@@ -16857,7 +17279,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Warrior Might V",
             "description": "180% Damage for all Warrior Heroes",
@@ -16882,7 +17304,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Earth Might III",
             "description": "140% Damage for all Earth Heroes",
@@ -16907,7 +17329,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Earth Might IV",
             "description": "160% Damage for all Earth Heroes",
@@ -16957,7 +17379,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Earth Armor II",
             "description": "120% HP for all Earth Heroes",
@@ -16982,7 +17404,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Earth Armor III",
             "description": "140% HP for all Earth Heroes",
@@ -17007,7 +17429,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
@@ -17032,7 +17454,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might II",
             "description": "120% Damage for all Attacker Heroes",
@@ -17057,7 +17479,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Attacker Might III",
             "description": "140% Damage for all Attacker Heroes",
@@ -17232,7 +17654,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might III",
             "description": "140% Damage for all Mage Heroes",
@@ -17257,7 +17679,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Zombie",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Mage Might IV",
             "description": "160% Damage for all Mage Heroes",
@@ -17282,7 +17704,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "160% REC for all Guardian Heroes",
@@ -17332,7 +17754,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Earth Might V",
             "description": "180% Damage for all Earth Heroes",
@@ -17357,7 +17779,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Judgement",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Earth Might VI",
             "description": "200% Damage for all Earth Heroes",
@@ -17382,7 +17804,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might IV",
             "description": "160% Damage for all Human Heroes",
@@ -17407,7 +17829,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might V",
             "description": "180% Damage for all Human Heroes",
@@ -17432,7 +17854,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Human Might VI",
             "description": "200% Damage for all Human Heroes",
@@ -17457,7 +17879,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor IV",
             "description": "160% HP for all Giant Heroes",
@@ -17482,7 +17904,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor V",
             "description": "180% HP for all Giant Heroes",
@@ -17507,7 +17929,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Giant Armor VI",
             "description": "200% HP for all Giant Heroes",
@@ -18018,7 +18440,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor IV",
             "description": "160% HP for all Spirit Heroes",
@@ -18043,7 +18465,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor V",
             "description": "180% HP for all Spirit Heroes",
@@ -18068,7 +18490,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Vessel",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Spirit Armor VI",
             "description": "200% HP for all Spirit Heroes",
@@ -18176,7 +18598,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might IV",
             "description": "160% Damage for all Creature Heroes",
@@ -18203,7 +18625,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might V",
             "description": "180% Damage for all Creature Heroes",
@@ -18230,7 +18652,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Creature Might VI",
             "description": "200% Damage for all Creature Heroes",
@@ -18334,7 +18756,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Earth Armor IV",
             "description": "160% HP for all Earth Heroes",
@@ -18363,7 +18785,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Earth Armor V",
             "description": "180% HP for all Earth Heroes",
@@ -18392,7 +18814,7 @@
             "Warden": true
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Earth Armor VI",
             "description": "200% HP for all Earth Heroes",
@@ -18419,7 +18841,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Earth Might IV",
             "description": "160% Damage for all Earth Heroes",
@@ -18446,7 +18868,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Earth Might V",
             "description": "180% Damage for all Earth Heroes",
@@ -18473,7 +18895,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Vessel",
+        "counterSkill": "Dispel Vessel",
         "leaderAbility": {
             "name": "Earth Might VI",
             "description": "200% Damage for all Earth Heroes",
@@ -18579,7 +19001,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Fables Inspiration I",
             "description": "175% Damage for all Fable Heroes",
@@ -18604,7 +19026,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Fables Inspiration II",
             "description": "200% Damage for all Fable Heroes",
@@ -18629,7 +19051,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Fables Inspiration III",
             "description": "225% Damage for all Fable Heroes",
@@ -18654,7 +19076,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Dodge",
-        "counterSkill": "Cure Siphon",
+        "counterSkill": "Dispel Siphon",
         "leaderAbility": {
             "name": "Fables Inspiration IV",
             "description": "300% Damage for all Fable Heroes",
@@ -18763,7 +19185,7 @@
             "Bounty Hunter": 2
         },
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "God Might IV",
             "description": "160% Damage for all God Heroes",
@@ -18791,7 +19213,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "God Might V",
             "description": "180% Damage for all God Heroes",
@@ -18816,7 +19238,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Absorb",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "God Might VI",
             "description": "200% Damage for all God Heroes",
@@ -18841,7 +19263,7 @@
         "awakening": 5,
         "eventSkills": [],
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor IV",
             "description": "160% HP for all Human Heroes",
@@ -18868,7 +19290,7 @@
             "Bounty Hunter": 3
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor V",
             "description": "180% HP for all Human Heroes",
@@ -18895,7 +19317,7 @@
             "Bounty Hunter": 4
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Human Armor VI",
             "description": "200% HP for all Human Heroes",
@@ -18949,7 +19371,7 @@
             "Commander": 2
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -18976,7 +19398,7 @@
             "Commander": 2
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Demigod Might IV",
             "description": "160% Damage for all Demigod Heroes",
@@ -19003,7 +19425,7 @@
             "Commander": 3
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Demigod Might V",
             "description": "180% Damage for all Demigod Heroes",
@@ -19030,7 +19452,7 @@
             "Commander": 4
         },
         "defenderSkill": "Armor",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Demigod Might VI",
             "description": "200% Damage for all Demigod Heroes",
@@ -19165,7 +19587,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Heavenly Might I",
             "description": "175% Damage for all Fable Heroes",
@@ -19192,7 +19614,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Heavenly Might II",
             "description": "200% Damage for all Fable Heroes",
@@ -19219,7 +19641,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Heavenly Might III",
             "description": "225% Damage for all Fable Heroes",
@@ -19246,7 +19668,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Heavenly Might IV",
             "description": "300% Damage for all Fable Heroes",
@@ -19273,7 +19695,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Guardian Blessing IV",
             "description": "260% REC for all Guardian Heroes",
@@ -19300,7 +19722,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Guardian Blessing V",
             "description": "280% REC for all Guardian Heroes",
@@ -19327,7 +19749,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Traitor",
+        "counterSkill": "Dispel Traitor",
         "leaderAbility": {
             "name": "Guardian Blessing VI",
             "description": "300% REC for all Guardian Heroes",
@@ -19354,7 +19776,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Terra Power I",
             "description": "175% Damage for all Human Heroes",
@@ -19381,7 +19803,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Terra Power II",
             "description": "200% Damage for all Human Heroes",
@@ -19408,7 +19830,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Terra Power III",
             "description": "225% Damage for all Human Heroes",
@@ -19435,7 +19857,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Might",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Terra Power IV",
             "description": "300% Damage for all Human Heroes",
@@ -19674,7 +20096,7 @@
             "Warden": true
         },
         "defenderSkill": "Gem Silence",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor IV",
             "description": "160% HP for all Attacker Heroes",
@@ -19701,7 +20123,7 @@
             "Warden": true
         },
         "defenderSkill": "Gem Silence",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor V",
             "description": "180% HP for all Attacker Heroes",
@@ -19728,7 +20150,7 @@
             "Warden": true
         },
         "defenderSkill": "Gem Silence",
-        "counterSkill": "Cure Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor VI",
             "description": "200% HP for all Attacker Heroes",
@@ -19755,7 +20177,7 @@
             "Commander": 2
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Technological Blessing IV",
             "description": "200% REC for all Technological Heroes",
@@ -19782,7 +20204,7 @@
             "Commander": 3
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Technological Blessing V",
             "description": "225% REC for all Technological Heroes",
@@ -19809,7 +20231,7 @@
             "Commander": 4
         },
         "defenderSkill": "Poison",
-        "counterSkill": "Cure Weaken",
+        "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Technological Blessing VI",
             "description": "300% REC for all Technological Heroes",
@@ -19836,7 +20258,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Champion's Might I",
             "description": "175% Damage and HP for all Earth Attackers Heroes",
@@ -19867,7 +20289,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Champion's Might II",
             "description": "200% Damage and HP for all Earth Attackers Heroes",
@@ -19898,7 +20320,7 @@
             "Commander": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Champion's Might III",
             "description": "225% Damage and HP for all Earth Attackers Heroes",
@@ -19929,7 +20351,7 @@
             "Commander": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Cure Poison",
+        "counterSkill": "Dispel Poison",
         "leaderAbility": {
             "name": "Champion's Might IV",
             "description": "300% Damage and HP for all Earth Attackers Heroes",
@@ -20084,7 +20506,7 @@
             "Warden": true
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might IV",
             "description": "160% Damage for all Corrupt Heroes",
@@ -20111,7 +20533,7 @@
             "Warden": true
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might V",
             "description": "180% Damage for all Corrupt Heroes",
@@ -20138,7 +20560,7 @@
             "Warden": true
         },
         "defenderSkill": "Blind",
-        "counterSkill": "Cure Panic",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
             "name": "Corrupt Might VI",
             "description": "200% Damage for all Corrupt Heroes",
@@ -20165,7 +20587,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Demigod Blessing IV",
             "description": "200% REC for all Demigod Heroes",
@@ -20192,7 +20614,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Demigod Blessing V",
             "description": "255% REC for all Demigod Heroes",
@@ -20219,7 +20641,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Cure Zombie",
+        "counterSkill": "Dispel Zombie",
         "leaderAbility": {
             "name": "Demigod Blessing VI",
             "description": "300% REC for all Demigod Heroes",

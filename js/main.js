@@ -3,14 +3,18 @@ var allHeroes = new Team('all', sessionStorage);
 
 teamHeroes.load();
 
-if (false === allHeroes.load()) {
-    $.getJSON("data/heroes_all.json", function (json) {
-        json.forEach(function (heroStat) {
-            allHeroes.addHero(heroStat);
-        });
-        allHeroes.save();
+$.getJSON("data/heroes_all.json", function (json) {
+    json.forEach(function (heroStat) {
+        allHeroes.addHero(heroStat);
     });
-}
+    allHeroes.save();
+});
+
+var skills = new Skills();
+$.getJSON("data/skills_all.json", function (json) {
+    skills.defenderSkills = json.defenderSkill;
+    skills.counterSkill = json.counterSkill;
+});
 
 function getHeroesTableComponent(team, options) {
     return {
@@ -18,6 +22,7 @@ function getHeroesTableComponent(team, options) {
         props: ['affinity'],
         data: function () {
             return $.extend({
+                skills: skills,
                 team: team,
                 searchKey: '',
                 sort: ''
@@ -258,10 +263,6 @@ Vue.component('computed-decks', {
             return this.teamHeroes.getUniqueHeroesProperties('counterSkill', ['None', 'Unknown']);
         }
     },
-    updated: function () {
-        $('[data-toggle="popover"]').popover();
-        $('[data-toggle="tooltip"]').tooltip();
-    },
     methods: {
         calculateDecks: function (e) {
             $('#calculate-decks').hide();
@@ -346,9 +347,6 @@ Vue.component('computed-decks', {
             this.bestDecks = JSON.parse(localStorage.getItem('calculated::data'))
         }
 
-        $('[data-toggle="popover"]').popover();
-        $('[data-toggle="tooltip"]').tooltip();
-
         $('#page-nav a[href="#decks"]').on('shown.bs.tab', function (e) {
             $('#calculation-counter-skill').selectpicker('refresh');
         });
@@ -407,6 +405,16 @@ new Vue({
                 default:
                     throw new Error("Unknown/unhandled action '" + action + "'")
             }
+        });
+
+        $('body')
+            .tooltip({
+            selector: '[data-toggle="tooltip"]',
+            trigger: 'hover'
+        })
+            .popover({
+            selector: '[data-toggle="popover"]',
+            trigger: 'hover | click'
         });
     }
 });
