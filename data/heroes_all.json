@@ -7913,6 +7913,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "a69ab672",
+        "name": "The Electric Swarm",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 2117,
+        "recovery": 283,
+        "health": 1418,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Corrupt Armor IV",
+            "description": "160% HP for all Corrupt Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "",
+        "evolveInto": "68307b7b"
+    },
+    {
+        "coreId": "68307b7b",
+        "name": "The Electric Swarm",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Corrupt Armor V",
+            "description": "180% HP for all Corrupt Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "a69ab672",
+        "evolveInto": "8f0706ef"
+    },
+    {
+        "coreId": "8f0706ef",
+        "name": "The Electric Swarm",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Corrupt Armor VI",
+            "description": "200% HP for all Corrupt Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "68307b7b",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
@@ -20980,6 +21061,335 @@
             "target": "Technological"
         },
         "evolveFrom": "311592ac",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b324d0aa",
+        "name": "Malkia",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Demigod Armor IV",
+            "description": "160% HP for all Demigod Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "",
+        "evolveInto": "a17bb108"
+    },
+    {
+        "coreId": "a17bb108",
+        "name": "Malkia",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Demigod Armor V",
+            "description": "180% HP for all Demigod Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "b324d0aa",
+        "evolveInto": "e8d3956c"
+    },
+    {
+        "coreId": "e8d3956c",
+        "name": "Malkia",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Creature",
+        "attack": 5428,
+        "recovery": 726,
+        "health": 3629,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Demigod Armor VI",
+            "description": "200% HP for all Demigod Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "a17bb108",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f1ee59c6",
+        "name": "Nika the Sly",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Creature Might I",
+            "description": "175% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "82b95005"
+    },
+    {
+        "coreId": "82b95005",
+        "name": "Nika the Sly",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Creature Might II",
+            "description": "200% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "f1ee59c6",
+        "evolveInto": "361fa32d"
+    },
+    {
+        "coreId": "361fa32d",
+        "name": "Nika the Sly",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Creature Might III",
+            "description": "255% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "82b95005",
+        "evolveInto": "33cb941d"
+    },
+    {
+        "coreId": "33cb941d",
+        "name": "Nika the Sly",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Creature Might IV",
+            "description": "300% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "361fa32d",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "70a48243",
+        "name": "Jade Tail",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Creature Might I",
+            "description": "175% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "158e0e4f"
+    },
+    {
+        "coreId": "158e0e4f",
+        "name": "Jade Tail",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Creature Might II",
+            "description": "200% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "70a48243",
+        "evolveInto": "bce8f364"
+    },
+    {
+        "coreId": "bce8f364",
+        "name": "Jade Tail",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Creature Might III",
+            "description": "255% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "158e0e4f",
+        "evolveInto": "3b7d8295"
+    },
+    {
+        "coreId": "3b7d8295",
+        "name": "Jade Tail",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Creature Might IV",
+            "description": "300% Damage and HP for all Earth Creature Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Creature"
+            ]
+        },
+        "evolveFrom": "bce8f364",
         "evolveInto": ""
     }
 ]
