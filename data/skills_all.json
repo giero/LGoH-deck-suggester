@@ -1,6 +1,7 @@
 {
     "defenderSkill": {
         "Absorb": "A portion of damage done to target is converted to health.",
+        "Alacrity": "Skills that delay the enemy's turn are silenced for targeted heroes.",
         "Aline's Blessing": "Chance to apply a Might Buff on self for 5 turns and a Dark Gem Silence Debuff on up to 5 heroes for 3 turns.",
         "Almar's Terror": "Chance to apply a Might Buff on self for 5 turns and a Light Gem Silence Debuff on up to 5 heroes for 3 turns.",
         "Armor": "Increases Armor of target.",
@@ -16,7 +17,7 @@
         "Fire Gem Silence": "Fire Gem placing skills are silenced for targeted heroes.",
         "Gem Silence": "Skills that transform or upgrade Gems are silenced for targeted heroes.",
         "Judgement": "Target automatically deals damage to those that heal.",
-        "Keta's Resolve": "Chance to apply a Might Buff on self for 5 turns and a Earth Gem Silence Debuff on up to 5 heroes for 3 turns.",
+        "Keta's Resolve": "Chance to apply a Might Buff on self for 5 turns and an Earth Gem Silence Debuff on up to 5 heroes for 3 turns.",
         "Light Gem Silence": "Light Gem placing skills are silenced for targeted heroes.",
         "Might": "Increases Attack of target.",
         "Panic": "Target has less time to make gem matches.",

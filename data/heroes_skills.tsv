@@ -1,26 +1,27 @@
 Defender Skill	Defender Skill Description	Counter Skill	Counter Skill Description
 Absorb	A portion of damage done to target is converted to health.	Absolve	Chance to remove Poison and Blind from all allies; Armor and Might from all enemies.
-Aline's Blessing	Chance to apply a Might Buff on self for 5 turns and a Dark Gem Silence Debuff on up to 5 heroes for 3 turns.	Cleanse I	Removes 1 debuff from a hero. Triggers once every 7 turns.
-Almar's Terror	Chance to apply a Might Buff on self for 5 turns and a Light Gem Silence Debuff on up to 5 heroes for 3 turns.	Cleanse II	Removes 1 debuff from a hero. Triggers once every 5 turns.
-Armor	Increases Armor of target.	Cleanse III	Removes 1 debuff from a hero. Triggers once every 3 turns.
-Autoheal	Heals target when HP is about to fall below 50%.	Dispel Absorb	Chance to remove Absorb Buff from all enemies.
-Blind	Attacks of target have a chance to miss.	Dispel Armor	Chance to remove Armor Buff from all enemies.
-Counterattack	Counterattack when attacked.	Dispel Blind	Chance to remove Blind Debuff from all allies.
-Dark Gem Silence	Dark Gem placing skills are silenced for targeted heroes.	Dispel Dodge	Chance to remove Dodge Buff from all enemies.
-Dodge	Attacks made against target have a chance to miss.	Dispel Drain	Chance to remove Drain Buff from all enemies.
-Dogen's Ferocity	Chance to apply a Might Buff on self for 5 turns and a Fire Gem Silence Debuff on up to 5 heroes for 3 turns.	Dispel EarthPetrify	Chance to remove EarthPetrify Debuff from all allies.
-Drain	Target heals for a portion of the damage it deals.	Dispel Fear	
-Earth Gem Silence	Earth Gem placing skills are silenced for targeted heroes.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
-Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Might	Chance to remove Might Buff from all enemies.
-Fire Gem Silence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Panic	Chance to remove Panic Debuff from all allies.
-Gem Silence	Skills that transform or upgrade Gems are silenced for targeted heroes.	Dispel Poison	Chance to remove Poison Debuff from all allies.
-Judgement	Target automatically deals damage to those that heal.	Dispel Regen	Chance to remove Regen Buff from all enemies.
-Keta's Resolve	Chance to apply a Might Buff on self for 5 turns and a Earth Gem Silence Debuff on up to 5 heroes for 3 turns.	Dispel Siphon	Chance to remove Siphon Debuff from all allies.
-Light Gem Silence	Light Gem placing skills are silenced for targeted heroes.	Dispel Thorns	Chance to remove Thorns Buff from all enemies.
-Might	Increases Attack of target.	Dispel Traitor	Chance to remove Traitor Debuff from all allies.
-Panic	Target has less time to make gem matches.	Dispel Vessel	Chance to remove Vessel Debuff from all allies.
-Poison	Damages target at the end of every turn.	Dispel Weaken	Chance to remove Weaken Debuff from all allies.
-Quarl's Protection	Chance to apply a Might Buff on self for 5 turns and a Water Gem Silence Debuff on up to 5 heroes for 3 turns.	Dispel Zombie	Chance to remove Zombie Debuff from all allies.
+Alacrity	Skills that delay the enemy's turn are silenced for targeted heroes.	Cleanse I	Removes 1 debuff from a hero. Triggers once every 7 turns.
+Aline's Blessing	Chance to apply a Might Buff on self for 5 turns and a Dark Gem Silence Debuff on up to 5 heroes for 3 turns.	Cleanse II	Removes 1 debuff from a hero. Triggers once every 5 turns.
+Almar's Terror	Chance to apply a Might Buff on self for 5 turns and a Light Gem Silence Debuff on up to 5 heroes for 3 turns.	Cleanse III	Removes 1 debuff from a hero. Triggers once every 3 turns.
+Armor	Increases Armor of target.	Dispel Absorb	Chance to remove Absorb Buff from all enemies.
+Autoheal	Heals target when HP is about to fall below 50%.	Dispel Armor	Chance to remove Armor Buff from all enemies.
+Blind	Attacks of target have a chance to miss.	Dispel Blind	Chance to remove Blind Debuff from all allies.
+Counterattack	Counterattack when attacked.	Dispel Dodge	Chance to remove Dodge Buff from all enemies.
+Dark Gem Silence	Dark Gem placing skills are silenced for targeted heroes.	Dispel Drain	Chance to remove Drain Buff from all enemies.
+Dodge	Attacks made against target have a chance to miss.	Dispel EarthPetrify	Chance to remove EarthPetrify Debuff from all allies.
+Dogen's Ferocity	Chance to apply a Might Buff on self for 5 turns and a Fire Gem Silence Debuff on up to 5 heroes for 3 turns.	Dispel Fear	
+Drain	Target heals for a portion of the damage it deals.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
+Earth Gem Silence	Earth Gem placing skills are silenced for targeted heroes.	Dispel Might	Chance to remove Might Buff from all enemies.
+Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Panic	Chance to remove Panic Debuff from all allies.
+Fire Gem Silence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Poison	Chance to remove Poison Debuff from all allies.
+Gem Silence	Skills that transform or upgrade Gems are silenced for targeted heroes.	Dispel Regen	Chance to remove Regen Buff from all enemies.
+Judgement	Target automatically deals damage to those that heal.	Dispel Siphon	Chance to remove Siphon Debuff from all allies.
+Keta's Resolve	Chance to apply a Might Buff on self for 5 turns and an Earth Gem Silence Debuff on up to 5 heroes for 3 turns.	Dispel Thorns	Chance to remove Thorns Buff from all enemies.
+Light Gem Silence	Light Gem placing skills are silenced for targeted heroes.	Dispel Traitor	Chance to remove Traitor Debuff from all allies.
+Might	Increases Attack of target.	Dispel Vessel	Chance to remove Vessel Debuff from all allies.
+Panic	Target has less time to make gem matches.	Dispel Weaken	Chance to remove Weaken Debuff from all allies.
+Poison	Damages target at the end of every turn.	Dispel Zombie	Chance to remove Zombie Debuff from all allies.
+Quarl's Protection	Chance to apply a Might Buff on self for 5 turns and a Water Gem Silence Debuff on up to 5 heroes for 3 turns.		
 Regen	Heals target at the end of every turn.		
 Siphon	Health recovered by target recovers caster instead.		
 Thorns	Attacks made against target also damage attacker.		

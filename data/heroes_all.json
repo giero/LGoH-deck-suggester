@@ -16923,6 +16923,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "2bae2b04",
+        "name": "Lothar",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Creature",
+        "attack": 883,
+        "recovery": 293,
+        "health": 3662,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dislpel Blind",
+        "leaderAbility": {
+            "name": "Dren Might IV",
+            "description": "160% Damage for all Dren Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Dren"
+        },
+        "evolveFrom": "",
+        "evolveInto": "63666a0d"
+    },
+    {
+        "coreId": "63666a0d",
+        "name": "Lothar",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Creature",
+        "attack": 1501,
+        "recovery": 500,
+        "health": 6219,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dislpel Blind",
+        "leaderAbility": {
+            "name": "Dren Might V",
+            "description": "180% Damage for all Dren Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Dren"
+        },
+        "evolveFrom": "2bae2b04",
+        "evolveInto": "54cb4356"
+    },
+    {
+        "coreId": "54cb4356",
+        "name": "Lothar",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Creature",
+        "attack": 2180,
+        "recovery": 726,
+        "health": 9051,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dislpel Blind",
+        "leaderAbility": {
+            "name": "Dren Might VI",
+            "description": "200% Damage for all Dren Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Dren"
+        },
+        "evolveFrom": "63666a0d",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",
