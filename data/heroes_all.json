@@ -7994,6 +7994,335 @@
         "evolveInto": ""
     },
     {
+        "coreId": "b2fa0478",
+        "name": "Summoner Kamilah",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dwarf Blessing IV",
+            "description": "200% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 2
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "",
+        "evolveInto": "31cc6fc8"
+    },
+    {
+        "coreId": "31cc6fc8",
+        "name": "Summoner Kamilah",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dwarf Blessing V",
+            "description": "225% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 2.25
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "b2fa0478",
+        "evolveInto": "8627d9df"
+    },
+    {
+        "coreId": "8627d9df",
+        "name": "Summoner Kamilah",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4344,
+        "recovery": 365,
+        "health": 7238,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dwarf Blessing VI",
+            "description": "300% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "31cc6fc8",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7daab088",
+        "name": "Katja, the Protector",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Vessel",
+        "leaderAbility": {
+            "name": "Light Demigod Might I",
+            "description": "175% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "00023c76"
+    },
+    {
+        "coreId": "00023c76",
+        "name": "Katja, the Protector",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Vessel",
+        "leaderAbility": {
+            "name": "Light Demigod Might II",
+            "description": "200% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "7daab088",
+        "evolveInto": "5dc52648"
+    },
+    {
+        "coreId": "5dc52648",
+        "name": "Katja, the Protector",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Vessel",
+        "leaderAbility": {
+            "name": "Light Demigod Might III",
+            "description": "225% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "00023c76",
+        "evolveInto": "2473ab48"
+    },
+    {
+        "coreId": "2473ab48",
+        "name": "Katja, the Protector",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Vessel",
+        "leaderAbility": {
+            "name": "Light Demigod Might IV",
+            "description": "300% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "5dc52648",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "3f47db93",
+        "name": "The Prism Knight",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dislep Dodge",
+        "leaderAbility": {
+            "name": "Light Demigod Might I",
+            "description": "175% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "f99c87a2"
+    },
+    {
+        "coreId": "f99c87a2",
+        "name": "The Prism Knight",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dislep Dodge",
+        "leaderAbility": {
+            "name": "Light Demigod Might II",
+            "description": "200% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "3f47db93",
+        "evolveInto": "05929b13"
+    },
+    {
+        "coreId": "05929b13",
+        "name": "The Prism Knight",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dislep Dodge",
+        "leaderAbility": {
+            "name": "Light Demigod Might III",
+            "description": "225% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "f99c87a2",
+        "evolveInto": "d1ab34ea"
+    },
+    {
+        "coreId": "d1ab34ea",
+        "name": "The Prism Knight",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dislep Dodge",
+        "leaderAbility": {
+            "name": "Light Demigod Might IV",
+            "description": "300% Damage and HP for all Light Demigod Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "05929b13",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
