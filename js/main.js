@@ -7,7 +7,6 @@ $.getJSON("data/heroes_all.json", function (json) {
     json.forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
-    allHeroes.save();
 });
 
 var skills = new Skills();
@@ -142,35 +141,41 @@ Vue.component('team-adding-form', {
             e.preventDefault();
 
             var $form = $(e.target),
-                formParams = {};
+                formParams = {
+                    eventSkills: {}
+                };
 
-            $.each($form.serializeArray(), function (_, kv) {
-                var eventSkill = kv.name.match(/^eventSkills\[([A-Za-z ]+)\]$/);
+            $.each($form.serializeArray(), function (_, formField) {
+                if (formField.value === '') {
+                    return;
+                }
 
+                var eventSkill = formField.name.match(/^eventSkills\[([A-Za-z ]+)\]$/);
                 if (eventSkill !== null) {
-                    if (!formParams.hasOwnProperty('eventSkills')) {
-                        formParams.eventSkills = {};
-                    }
-
-                    if (kv.value !== '') {
-                        formParams.eventSkills[eventSkill[1]] = parseInt(kv.value);
-                    }
+                    formParams.eventSkills[eventSkill[1]] = parseInt(formField.value);
+                } else if (formField.name === 'coreId') {
+                    formParams[formField.name] = formField.value;
                 } else {
-                    if (kv.name === 'coreId') {
-                        formParams[kv.name] = kv.value;
-                    } else {
-                        formParams[kv.name] = parseInt(kv.value);
-                    }
+                    formParams[formField.name] = parseInt(formField.value);
                 }
             });
 
-            var nextId = teamHeroes.heroes.length === 0 ? 1 : teamHeroes.heroes[teamHeroes.heroes.length - 1].id + 1;
+            var nextId = teamHeroes.heroes.length
+                ? teamHeroes.heroes[teamHeroes.heroes.length - 1].id + 1
+                : 1;
+            var coreHero = allHeroes.find(formParams.coreId);
+            coreHero.awakening = 0; //default core hero awakening level is 5
+
+            if (coreHero.eventSkills.hasOwnProperty('Warden') ) {
+                formParams.eventSkills.Warden = true;
+            }
+
             teamHeroes.addHero(
-                $.extend({}, allHeroes.find(formParams.coreId), formParams, {id: nextId})
+                $.extend({}, coreHero, formParams, {id: nextId})
             );
             teamHeroes.save();
 
-            $form[0].reset();
+            $form.get(0).reset();
             this.refreshSelect();
         },
         clearTeam: function (e) {

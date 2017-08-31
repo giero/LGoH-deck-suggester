@@ -63,7 +63,7 @@ function collectHeroesData($filename, $delimiter = ',')
                 !empty($row['commander']) && preg_match('/^(\d)x$/', $row['commander'], $cMatches)
                     ? ['Commander' => (int)$cMatches[1]] : [],
                 !empty($row['warden']) ? ['Warden' => true] : []
-            ),
+            ) ?: new stdClass(), //force object instead of empty array
             'defenderSkill' => $row['defender skill'],
             'counterSkill' => $row['counter skill'],
             'leaderAbility' => [

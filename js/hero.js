@@ -30,9 +30,15 @@ Object.defineProperty(Hero.prototype, 'rarityStarsHTML', {
 
 Object.defineProperty(Hero.prototype, 'power', {
     get: function () {
-        return this.attack && this.recovery && this.health
-            ? Math.round(this.attack / 3 + this.recovery + this.health / 5)
-            : 0;
+        if (!(this.attack && this.recovery && this.health)) {
+            return 0;
+        }
+
+        if (this.eventSkills.hasOwnProperty('Warden')) {
+            return Math.round(this.attack / 2 + this.recovery * 1.5 + this.health * .3);
+        }
+
+        return Math.round(this.attack / 3 + this.recovery + this.health / 5);
     }
 });
 

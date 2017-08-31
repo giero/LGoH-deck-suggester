@@ -10,7 +10,7 @@
         "health": 236,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -35,7 +35,7 @@
         "health": 417,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -60,7 +60,7 @@
         "health": 681,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -85,7 +85,7 @@
         "health": 1098,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -110,7 +110,7 @@
         "health": 218,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -135,7 +135,7 @@
         "health": 355,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -160,7 +160,7 @@
         "health": 607,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -185,7 +185,7 @@
         "health": 562,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -210,7 +210,7 @@
         "health": 964,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -235,7 +235,7 @@
         "health": 128,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -260,7 +260,7 @@
         "health": 178,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -285,7 +285,7 @@
         "health": 304,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -310,7 +310,7 @@
         "health": 749,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -335,7 +335,7 @@
         "health": 1279,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -414,7 +414,7 @@
         "health": 393,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -439,7 +439,7 @@
         "health": 655,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -464,7 +464,7 @@
         "health": 681,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -489,7 +489,7 @@
         "health": 1096,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -514,7 +514,7 @@
         "health": 2053,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -539,7 +539,7 @@
         "health": 2442,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -564,7 +564,7 @@
         "health": 4131,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -589,7 +589,7 @@
         "health": 2061,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -614,7 +614,7 @@
         "health": 3502,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -639,7 +639,7 @@
         "health": 320,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -664,7 +664,7 @@
         "health": 548,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -689,7 +689,7 @@
         "health": 759,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -714,7 +714,7 @@
         "health": 1284,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -739,7 +739,7 @@
         "health": 1204,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -764,7 +764,7 @@
         "health": 1973,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -789,7 +789,7 @@
         "health": 3326,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -814,7 +814,7 @@
         "health": 4820,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -893,7 +893,7 @@
         "health": 1044,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -918,7 +918,7 @@
         "health": 1848,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -943,7 +943,7 @@
         "health": 2685,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -968,7 +968,7 @@
         "health": 1040,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -993,7 +993,7 @@
         "health": 1772,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -1018,7 +1018,7 @@
         "health": 2559,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -1043,7 +1043,7 @@
         "health": 2189,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -1068,7 +1068,7 @@
         "health": 3690,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -1093,7 +1093,7 @@
         "health": 5358,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -1118,7 +1118,7 @@
         "health": 536,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -1143,7 +1143,7 @@
         "health": 873,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -1168,7 +1168,7 @@
         "health": 1294,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -1193,7 +1193,7 @@
         "health": 1567,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -1218,7 +1218,7 @@
         "health": 2637,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -1243,7 +1243,7 @@
         "health": 3824,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -1268,7 +1268,7 @@
         "health": 1164,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
         "leaderAbility": {
@@ -1293,7 +1293,7 @@
         "health": 1946,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
         "leaderAbility": {
@@ -1318,7 +1318,7 @@
         "health": 2819,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
         "leaderAbility": {
@@ -1766,7 +1766,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -1791,7 +1791,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -1816,7 +1816,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Traitor",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -2009,7 +2009,7 @@
         "health": 0,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "None",
         "leaderAbility": {
@@ -2034,7 +2034,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "None",
         "leaderAbility": {
@@ -2059,7 +2059,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "None",
         "leaderAbility": {
@@ -2084,7 +2084,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "None",
         "leaderAbility": {
@@ -2298,7 +2298,7 @@
         "health": 1144,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -2323,7 +2323,7 @@
         "health": 1936,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -2348,7 +2348,7 @@
         "health": 2831,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4366,7 +4366,7 @@
         "health": 1665,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -4391,7 +4391,7 @@
         "health": 2706,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -4416,7 +4416,7 @@
         "health": 334,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -4441,7 +4441,7 @@
         "health": 548,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -4466,7 +4466,7 @@
         "health": 228,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -4491,7 +4491,7 @@
         "health": 379,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4516,7 +4516,7 @@
         "health": 603,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4541,7 +4541,7 @@
         "health": 248,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -4566,7 +4566,7 @@
         "health": 417,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4591,7 +4591,7 @@
         "health": 687,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4616,7 +4616,7 @@
         "health": 1104,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -4641,7 +4641,7 @@
         "health": 759,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -4666,7 +4666,7 @@
         "health": 1280,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -4691,7 +4691,7 @@
         "health": 387,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -4716,7 +4716,7 @@
         "health": 633,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -4741,7 +4741,7 @@
         "health": 2077,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -4766,7 +4766,7 @@
         "health": 3506,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -4791,7 +4791,7 @@
         "health": 665,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -4816,7 +4816,7 @@
         "health": 1094,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -4841,7 +4841,7 @@
         "health": 2069,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -4866,7 +4866,7 @@
         "health": 104,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -4891,7 +4891,7 @@
         "health": 178,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -4916,7 +4916,7 @@
         "health": 316,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -4941,7 +4941,7 @@
         "health": 574,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -4966,7 +4966,7 @@
         "health": 950,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -4991,7 +4991,7 @@
         "health": 755,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -5016,7 +5016,7 @@
         "health": 1260,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -5041,7 +5041,7 @@
         "health": 1196,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -5066,7 +5066,7 @@
         "health": 1955,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -5091,7 +5091,7 @@
         "health": 3320,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -5116,7 +5116,7 @@
         "health": 4822,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -5141,7 +5141,7 @@
         "health": 298,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -5166,7 +5166,7 @@
         "health": 514,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -5191,7 +5191,7 @@
         "health": 2448,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -5216,7 +5216,7 @@
         "health": 4139,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -5241,7 +5241,7 @@
         "health": 1048,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -5266,7 +5266,7 @@
         "health": 1862,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -5291,7 +5291,7 @@
         "health": 2677,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -5316,7 +5316,7 @@
         "health": 1030,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -5341,7 +5341,7 @@
         "health": 1750,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -5366,7 +5366,7 @@
         "health": 2559,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -5391,7 +5391,7 @@
         "health": 2175,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -5416,7 +5416,7 @@
         "health": 3680,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -5441,7 +5441,7 @@
         "health": 5362,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -5466,7 +5466,7 @@
         "health": 530,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -5491,7 +5491,7 @@
         "health": 877,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -5516,7 +5516,7 @@
         "health": 1288,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -5541,7 +5541,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
         "leaderAbility": {
@@ -5566,7 +5566,7 @@
         "health": 2919,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
         "leaderAbility": {
@@ -5591,7 +5591,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Judgment",
         "leaderAbility": {
@@ -5616,7 +5616,7 @@
         "health": 1150,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
         "leaderAbility": {
@@ -5641,7 +5641,7 @@
         "health": 1944,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
         "leaderAbility": {
@@ -5666,7 +5666,7 @@
         "health": 2825,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
         "leaderAbility": {
@@ -5691,7 +5691,7 @@
         "health": 1557,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -5716,7 +5716,7 @@
         "health": 2641,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -5741,7 +5741,7 @@
         "health": 3818,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -6351,7 +6351,7 @@
         "health": 616,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -6376,7 +6376,7 @@
         "health": 1025,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -6401,7 +6401,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -7090,7 +7090,7 @@
         "health": 0,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -7115,7 +7115,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -7140,7 +7140,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -7165,7 +7165,7 @@
         "health": 3229,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -8420,7 +8420,7 @@
         "health": 234,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -8445,7 +8445,7 @@
         "health": 415,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -8470,7 +8470,7 @@
         "health": 685,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -8495,7 +8495,7 @@
         "health": 1092,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -8520,7 +8520,7 @@
         "health": 228,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -8545,7 +8545,7 @@
         "health": 371,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -8570,7 +8570,7 @@
         "health": 617,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -8595,7 +8595,7 @@
         "health": 1679,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -8620,7 +8620,7 @@
         "health": 2720,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -8645,7 +8645,7 @@
         "health": 769,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -8670,7 +8670,7 @@
         "health": 1284,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -8695,7 +8695,7 @@
         "health": 576,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -8720,7 +8720,7 @@
         "health": 972,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -8745,7 +8745,7 @@
         "health": 518,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -8770,7 +8770,7 @@
         "health": 743,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -8795,7 +8795,7 @@
         "health": 1268,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -8820,7 +8820,7 @@
         "health": 1194,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -8845,7 +8845,7 @@
         "health": 1953,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -8870,7 +8870,7 @@
         "health": 3326,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -8895,7 +8895,7 @@
         "health": 4830,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -8920,7 +8920,7 @@
         "health": 395,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -8945,7 +8945,7 @@
         "health": 645,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -8970,7 +8970,7 @@
         "health": 2073,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -8995,7 +8995,7 @@
         "health": 318,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -9020,7 +9020,7 @@
         "health": 540,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -9045,7 +9045,7 @@
         "health": 112,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -9070,7 +9070,7 @@
         "health": 184,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -9095,7 +9095,7 @@
         "health": 322,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -9120,7 +9120,7 @@
         "health": 320,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -9145,7 +9145,7 @@
         "health": 506,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -9170,7 +9170,7 @@
         "health": 673,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -9195,7 +9195,7 @@
         "health": 1090,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -9220,7 +9220,7 @@
         "health": 2055,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9245,7 +9245,7 @@
         "health": 3496,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9270,7 +9270,7 @@
         "health": 2450,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -9295,7 +9295,7 @@
         "health": 4147,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -9320,7 +9320,7 @@
         "health": 1028,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -9399,7 +9399,7 @@
         "health": 1034,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9424,7 +9424,7 @@
         "health": 1750,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9449,7 +9449,7 @@
         "health": 2565,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9474,7 +9474,7 @@
         "health": 2165,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -9499,7 +9499,7 @@
         "health": 3676,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -9524,7 +9524,7 @@
         "health": 5376,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -9549,7 +9549,7 @@
         "health": 516,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -9574,7 +9574,7 @@
         "health": 887,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -9599,7 +9599,7 @@
         "health": 1276,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -9624,7 +9624,7 @@
         "health": 1547,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -9649,7 +9649,7 @@
         "health": 2639,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -9674,7 +9674,7 @@
         "health": 3838,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -9699,7 +9699,7 @@
         "health": 1156,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
         "leaderAbility": {
@@ -9724,7 +9724,7 @@
         "health": 1948,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
         "leaderAbility": {
@@ -9749,7 +9749,7 @@
         "health": 2831,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
         "leaderAbility": {
@@ -10116,7 +10116,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -10141,7 +10141,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -10166,7 +10166,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -10272,7 +10272,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -10297,7 +10297,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -10322,7 +10322,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -11142,7 +11142,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -11167,7 +11167,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -11192,7 +11192,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Thorns",
         "leaderAbility": {
@@ -11298,7 +11298,7 @@
         "health": 1801,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -11323,7 +11323,7 @@
         "health": 3041,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -11348,7 +11348,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Panic",
         "leaderAbility": {
@@ -11778,7 +11778,7 @@
         "health": 1318,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -11803,7 +11803,7 @@
         "health": 2218,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -11828,7 +11828,7 @@
         "health": 3225,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -13423,7 +13423,7 @@
         "health": 118,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -13448,7 +13448,7 @@
         "health": 190,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -13473,7 +13473,7 @@
         "health": 312,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -13498,7 +13498,7 @@
         "health": 330,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -13523,7 +13523,7 @@
         "health": 534,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -13548,7 +13548,7 @@
         "health": 254,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -13573,7 +13573,7 @@
         "health": 411,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -13598,7 +13598,7 @@
         "health": 671,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -13623,7 +13623,7 @@
         "health": 1092,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -13648,7 +13648,7 @@
         "health": 745,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -13673,7 +13673,7 @@
         "health": 1268,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -13698,7 +13698,7 @@
         "health": 1669,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -13723,7 +13723,7 @@
         "health": 2708,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -13748,7 +13748,7 @@
         "health": 393,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -13773,7 +13773,7 @@
         "health": 649,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -13798,7 +13798,7 @@
         "health": 2063,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -13823,7 +13823,7 @@
         "health": 679,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -13848,7 +13848,7 @@
         "health": 1104,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -13873,7 +13873,7 @@
         "health": 2079,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -13898,7 +13898,7 @@
         "health": 3500,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -13923,7 +13923,7 @@
         "health": 216,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -13948,7 +13948,7 @@
         "health": 363,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -13973,7 +13973,7 @@
         "health": 609,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -13998,7 +13998,7 @@
         "health": 568,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -14023,7 +14023,7 @@
         "health": 956,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -14048,7 +14048,7 @@
         "health": 755,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -14073,7 +14073,7 @@
         "health": 1266,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -14098,7 +14098,7 @@
         "health": 1212,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -14123,7 +14123,7 @@
         "health": 1973,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -14148,7 +14148,7 @@
         "health": 3316,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -14173,7 +14173,7 @@
         "health": 4826,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -14198,7 +14198,7 @@
         "health": 306,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -14223,7 +14223,7 @@
         "health": 506,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -14248,7 +14248,7 @@
         "health": 2440,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -14273,7 +14273,7 @@
         "health": 4151,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -14298,7 +14298,7 @@
         "health": 1036,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -14377,7 +14377,7 @@
         "health": 1028,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -14402,7 +14402,7 @@
         "health": 1756,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -14427,7 +14427,7 @@
         "health": 2569,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -14452,7 +14452,7 @@
         "health": 2175,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -14477,7 +14477,7 @@
         "health": 3676,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -14502,7 +14502,7 @@
         "health": 5358,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -14527,7 +14527,7 @@
         "health": 532,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -14552,7 +14552,7 @@
         "health": 875,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -14577,7 +14577,7 @@
         "health": 1286,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -14602,7 +14602,7 @@
         "health": 1154,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
         "leaderAbility": {
@@ -14627,7 +14627,7 @@
         "health": 1936,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
         "leaderAbility": {
@@ -14652,7 +14652,7 @@
         "health": 2835,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
         "leaderAbility": {
@@ -14677,7 +14677,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -14702,7 +14702,7 @@
         "health": 2623,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -14727,7 +14727,7 @@
         "health": 3822,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -14932,7 +14932,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -14957,7 +14957,7 @@
         "health": 927,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -14982,7 +14982,7 @@
         "health": 1344,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Absorb",
         "leaderAbility": {
@@ -15655,7 +15655,7 @@
         "health": 1196,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Traitor",
         "leaderAbility": {
@@ -15680,7 +15680,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Traitor",
         "leaderAbility": {
@@ -15705,7 +15705,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Traitor",
         "leaderAbility": {
@@ -17759,7 +17759,7 @@
         "health": 314,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -17784,7 +17784,7 @@
         "health": 552,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -17809,7 +17809,7 @@
         "health": 210,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -17834,7 +17834,7 @@
         "health": 375,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -17859,7 +17859,7 @@
         "health": 599,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -17884,7 +17884,7 @@
         "health": 126,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -17909,7 +17909,7 @@
         "health": 184,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -17934,7 +17934,7 @@
         "health": 318,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -17959,7 +17959,7 @@
         "health": 1663,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -17984,7 +17984,7 @@
         "health": 2734,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Blind",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -18009,7 +18009,7 @@
         "health": 765,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -18034,7 +18034,7 @@
         "health": 1282,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -18059,7 +18059,7 @@
         "health": 2458,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -18084,7 +18084,7 @@
         "health": 4145,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -18109,7 +18109,7 @@
         "health": 401,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18134,7 +18134,7 @@
         "health": 647,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18159,7 +18159,7 @@
         "health": 2069,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18184,7 +18184,7 @@
         "health": 3490,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18209,7 +18209,7 @@
         "health": 675,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18234,7 +18234,7 @@
         "health": 1100,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18259,7 +18259,7 @@
         "health": 232,
         "rarity": 1,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -18284,7 +18284,7 @@
         "health": 399,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -18309,7 +18309,7 @@
         "health": 681,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -18334,7 +18334,7 @@
         "health": 1104,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Weaken",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -18359,7 +18359,7 @@
         "health": 576,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18384,7 +18384,7 @@
         "health": 960,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18409,7 +18409,7 @@
         "health": 771,
         "rarity": 2,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -18434,7 +18434,7 @@
         "health": 1270,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Might",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -18459,7 +18459,7 @@
         "health": 1212,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -18484,7 +18484,7 @@
         "health": 1949,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -18509,7 +18509,7 @@
         "health": 3310,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -18534,7 +18534,7 @@
         "health": 4842,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -18559,7 +18559,7 @@
         "health": 322,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -18584,7 +18584,7 @@
         "health": 494,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Zombie",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
@@ -18609,7 +18609,7 @@
         "health": 2053,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Poison",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -18634,7 +18634,7 @@
         "health": 1036,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Unknown",
         "leaderAbility": {
@@ -18659,7 +18659,7 @@
         "health": 1858,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18684,7 +18684,7 @@
         "health": 2693,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Judgement",
         "counterSkill": "Dispel Zombie",
         "leaderAbility": {
@@ -18709,7 +18709,7 @@
         "health": 1038,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18734,7 +18734,7 @@
         "health": 1760,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18759,7 +18759,7 @@
         "health": 2561,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -18784,7 +18784,7 @@
         "health": 2178,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -18809,7 +18809,7 @@
         "health": 3688,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -18834,7 +18834,7 @@
         "health": 5348,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Armor",
         "counterSkill": "Dispel Vessel",
         "leaderAbility": {
@@ -18859,7 +18859,7 @@
         "health": 522,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -18884,7 +18884,7 @@
         "health": 875,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -18909,7 +18909,7 @@
         "health": 1286,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Armor",
         "leaderAbility": {
@@ -18934,7 +18934,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -18959,7 +18959,7 @@
         "health": 2621,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -18984,7 +18984,7 @@
         "health": 3828,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Drain",
         "counterSkill": "Dispel Dodge",
         "leaderAbility": {
@@ -19009,7 +19009,7 @@
         "health": 1148,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse I",
         "leaderAbility": {
@@ -19034,7 +19034,7 @@
         "health": 1954,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse II",
         "leaderAbility": {
@@ -19059,7 +19059,7 @@
         "health": 2835,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Cleanse III",
         "leaderAbility": {
@@ -19345,7 +19345,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -19370,7 +19370,7 @@
         "health": 1954,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -19395,7 +19395,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -19582,7 +19582,7 @@
         "health": 0,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -19607,7 +19607,7 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -19632,7 +19632,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -19906,7 +19906,7 @@
         "health": 765,
         "rarity": 3,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -19931,7 +19931,7 @@
         "health": 1250,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -19956,7 +19956,7 @@
         "health": 2116,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -19981,7 +19981,7 @@
         "health": 3081,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -20143,7 +20143,7 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {},
         "defenderSkill": "Absorb",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
