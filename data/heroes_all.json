@@ -1188,9 +1188,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 940,
+        "recovery": 312,
+        "health": 1567,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": [],
@@ -1428,9 +1428,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2410,
+        "recovery": 802,
+        "health": 4015,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -1488,9 +1488,9 @@
         "affinity": "Dark",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4274,
+        "recovery": 1424,
+        "health": 7124,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -1599,9 +1599,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Giant",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1300,
+        "recovery": 108,
+        "health": 2167,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -3017,9 +3017,9 @@
         "affinity": "Dark",
         "type": "Mage",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3702,
+        "recovery": 1233,
+        "health": 1554,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -4272,6 +4272,87 @@
             ]
         },
         "evolveFrom": "4b66fd8a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "5dca1cd5",
+        "name": "Demoness Grenja",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 2197,
+        "recovery": 293,
+        "health": 1472,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "God Armor IV",
+            "description": "160% HP for all God Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "God"
+        },
+        "evolveFrom": "",
+        "evolveInto": "0ff9bb5e"
+    },
+    {
+        "coreId": "0ff9bb5e",
+        "name": "Demoness Grenja",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 3731,
+        "recovery": 500,
+        "health": 2504,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "God Armor V",
+            "description": "180% HP for all God Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "God"
+        },
+        "evolveFrom": "5dca1cd5",
+        "evolveInto": "2f60e65e"
+    },
+    {
+        "coreId": "2f60e65e",
+        "name": "Demoness Grenja",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "God Armor VI",
+            "description": "200% HP for all God Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "God"
+        },
+        "evolveFrom": "0ff9bb5e",
         "evolveInto": ""
     },
     {
@@ -6027,7 +6108,9 @@
         "health": 1146,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -6052,7 +6135,9 @@
         "health": 1934,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -6077,7 +6162,9 @@
         "health": 2833,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
         "defenderSkill": "Vessel",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
@@ -9532,9 +9619,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 928,
+        "recovery": 308,
+        "health": 1547,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": [],
@@ -9772,9 +9859,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2404,
+        "recovery": 800,
+        "health": 4007,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -9916,9 +10003,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3050,
+        "recovery": 255,
+        "health": 5082,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -9970,9 +10057,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2903,
+        "recovery": 390,
+        "health": 1948,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -9997,9 +10084,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4216,
+        "recovery": 562,
+        "health": 2815,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -11206,9 +11293,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1080,
+        "recovery": 360,
+        "health": 1801,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": [],
@@ -11231,9 +11318,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1826,
+        "recovery": 608,
+        "health": 3041,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": [],
@@ -12994,6 +13081,335 @@
             "target": "Warrior"
         },
         "evolveFrom": "bf834609",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b603749c",
+        "name": "Yonica, Queen of Flames",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Gem Silence",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Honored Might IV",
+            "description": "160% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "",
+        "evolveInto": "3900795c"
+    },
+    {
+        "coreId": "3900795c",
+        "name": "Yonica, Queen of Flames",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Gem Silence",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Honored Might V",
+            "description": "180% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "b603749c",
+        "evolveInto": "e33811fd"
+    },
+    {
+        "coreId": "e33811fd",
+        "name": "Yonica, Queen of Flames",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5428,
+        "recovery": 726,
+        "health": 3629,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Gem Silence",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Honored Might VI",
+            "description": "200% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "3900795c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "900a73e3",
+        "name": "Idalia the Bright",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Fire Spirit Might I",
+            "description": "175% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8103c890"
+    },
+    {
+        "coreId": "8103c890",
+        "name": "Idalia the Bright",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Fire Spirit Might II",
+            "description": "200% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "900a73e3",
+        "evolveInto": "0ad0bf7c"
+    },
+    {
+        "coreId": "0ad0bf7c",
+        "name": "Idalia the Bright",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Fire Spirit Might III",
+            "description": "225% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "8103c890",
+        "evolveInto": "1548219c"
+    },
+    {
+        "coreId": "1548219c",
+        "name": "Idalia the Bright",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Fire Spirit Might IV",
+            "description": "300% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "0ad0bf7c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "276a4e30",
+        "name": "Sunspot",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Spirit Might I",
+            "description": "175% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "93c76b58"
+    },
+    {
+        "coreId": "93c76b58",
+        "name": "Sunspot",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Spirit Might II",
+            "description": "200% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "276a4e30",
+        "evolveInto": "4547abbc"
+    },
+    {
+        "coreId": "4547abbc",
+        "name": "Sunspot",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Spirit Might III",
+            "description": "225% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "93c76b58",
+        "evolveInto": "99248f4e"
+    },
+    {
+        "coreId": "99248f4e",
+        "name": "Sunspot",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Fire Spirit Might IV",
+            "description": "300% Damage and HP for all Fire Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "4547abbc",
         "evolveInto": ""
     },
     {
@@ -19747,12 +20163,14 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1082,
+        "recovery": 360,
+        "health": 1805,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": [],
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
