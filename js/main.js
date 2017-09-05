@@ -222,13 +222,18 @@ Vue.component('computed-decks', {
             bestDecks: {},
             progress: -1,
             worker: undefined,
-            event: '',
+
             maxStats: false,
             maxRarity: false,
             maxAwakening: false,
+
+            event: '',
             counterSkills: [],
             affinitiesLimit: [],
-            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus']
+            affinityOptions: ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus'],
+
+            calculationStarted: null,
+            calculationStopped: null
         }
     },
     computed: {
@@ -253,12 +258,15 @@ Vue.component('computed-decks', {
                 } else {
                     self.bestDecks = data;
 
+                    self.calculationStopped = new Date();
+
+                    ga('send', 'timing', 'calculations', 'perform', self.calculationStopped - self.calculationStarted);
+
                     if (typeof(Storage) !== "undefined") {
                         localStorage.setItem('calculated::data', JSON.stringify(data));
                     }
-                    ga('send', 'event', 'Decks', 'calculations', 'possibilities', self.possibilities);
 
-                    self.stopCalculations();
+                    self.cleanupWorker();
                 }
             };
 
@@ -309,7 +317,11 @@ Vue.component('computed-decks', {
                     if (coreHeroStats.attack === 0 || coreHeroStats.recovery === 0 || coreHeroStats.health === 0) {
                         // not all stats are filled in spreadsheet :(
                         // maybe i'll make some notice for users or sth...
-                        window.console && console.log('No max stats for ' + coreHero.name + ' (' + coreHero.rarity + '*)');
+                        var errorMessage = 'No max stats for ' + coreHero.name + ' (' + coreHero.rarity + '*)';
+                        ga('send', 'exception', {
+                            'exDescription': errorMessage,
+                            'exFatal': false
+                        });
                         continue;
                     }
 
@@ -326,12 +338,21 @@ Vue.component('computed-decks', {
                 }
             }
 
+            ga('send', 'event', 'calculations', 'perform', 'cards', teamHeroes.heroes.length);
+            this.calculationStarted = new Date();
+
             this.deckWorker.postMessage({
                 heroes: heroes,
                 options: options
             });
         },
         stopCalculations: function () {
+            this.calculationStopped = new Date();
+            ga('send', 'timing', 'calculations', 'interrupt', this.calculationStopped - this.calculationStarted);
+
+            this.cleanupWorker();
+        },
+        cleanupWorker: function () {
             $('#calculate-decks').show();
             $('#stop-calculations').hide();
 
@@ -346,6 +367,18 @@ Vue.component('computed-decks', {
         $('#page-nav a').click(function (e) {
             e.preventDefault();
             $(this).tab('show');
+        });
+
+        $('#page-nav > li > a:not(.dropdown-toggle)').click(function (e) {
+            e.preventDefault();
+            ga('send', {
+                hitType: 'pageview',
+                title: $(this).text()
+            });
+        });
+
+        $('#heroes > p.bg-danger > strong > a, #contact a').click(function () {
+            ga('send', 'link', 'click', $(this).attr('href'));
         });
 
         if (typeof(Storage) !== "undefined" && localStorage.hasOwnProperty('calculated::data')) {
@@ -380,6 +413,9 @@ new Vue({
                 var stat = $this.data('stat');
 
                 hero[stat] = parseInt(newValue);
+
+                ga('send', 'event', 'card', 'edit');
+
                 teamHeroes.save();
             },
             validate: function (value) {
@@ -406,6 +442,8 @@ new Vue({
                 case 'load':
                 case 'delete':
                     teamOperations[action]();
+
+                    ga('send', 'event', 'action', action);
                     break;
                 default:
                     throw new Error("Unknown/unhandled action '" + action + "'")
