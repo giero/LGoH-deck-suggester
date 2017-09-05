@@ -13,16 +13,18 @@ Deck.prototype.getStats = function () {
     var stats = {attack: 0, recovery: 0, health: 0, power: 0};
 
     for (var i = this.heroes.length - 1; i >= 0; --i) {
-        stats.attack += this.heroes[i].attack;
-        stats.recovery += this.heroes[i].recovery;
-        stats.health += this.heroes[i].health;
-        stats.power += Math.round(this.heroes[i].attack / 3 + this.heroes[i].recovery + this.heroes[i].health / 5);
+        var hero = new Hero(this.heroes[i]);
+
+        stats.attack += hero.attack;
+        stats.recovery += hero.recovery;
+        stats.health += hero.health;
+        stats.power += hero.power;
     }
 
     return stats;
 };
 
-Deck.prototype.calculate = function (affinity) {
+Deck.prototype.calculate = function (opponentAffinity) {
     var deckStats = {power: 0, attack: 0, attack_and_health: 0};
 
     if (!this.teamMeetsRequirements) {
@@ -32,7 +34,7 @@ Deck.prototype.calculate = function (affinity) {
     for (var i = this.heroes.length - 1; i >= 0; --i) {
         var hero = new Hero(this.heroes[i]); // copy for local stats modifications
 
-        this.applyAffinityBonus(hero, affinity);
+        this.applyAffinityBonus(hero, opponentAffinity);
         this.applyLeaderAbilityBonus(hero);
         this.applyEventBonus(hero);
 
@@ -45,7 +47,7 @@ Deck.prototype.calculate = function (affinity) {
 };
 
 Deck.prototype.collectCommanderBonuses = function () {
-    if (!(this.options.hasOwnProperty('event') && this.options.event === 'Commander')) {
+    if (this.options.event !== 'Commander') {
         return {};
     }
 
@@ -53,7 +55,7 @@ Deck.prototype.collectCommanderBonuses = function () {
     for (var i = this.heroes.length - 1; i >= 0; --i) {
         var hero = this.heroes[i];
 
-        if (!hero.eventSkills.hasOwnProperty('Commander')) {
+        if (!hero.eventSkills.Commander) {
             continue;
         }
 
@@ -67,7 +69,7 @@ Deck.prototype.collectCommanderBonuses = function () {
 };
 
 Deck.prototype.checkRequirements = function () {
-    if (!this.options.hasOwnProperty('counterSkills')) {
+    if (!this.options.counterSkills) {
         return true;
     }
 
@@ -83,7 +85,7 @@ Deck.prototype.checkRequirements = function () {
     });
 };
 
-Deck.prototype.applyAffinityBonus = function (hero, affinity) {
+Deck.prototype.applyAffinityBonus = function (hero, opponentAffinity) {
     function counters(current, oponent) {
         // strange construction - I know, but at least it's fast enough ;)
         switch (current) {
@@ -103,10 +105,10 @@ Deck.prototype.applyAffinityBonus = function (hero, affinity) {
     }
 
     // apply affinity bonus / counter bonus
-    if (counters(hero.affinity, affinity)) {
+    if (counters(hero.affinity, opponentAffinity)) {
         // hero counters opponent
         hero.attack <<= 1;
-    } else if (counters(affinity, hero.affinity)) {
+    } else if (counters(opponentAffinity, hero.affinity)) {
         // opponent counters hero
         hero.attack >>= 1;
     }
@@ -139,11 +141,11 @@ Deck.prototype.applyLeaderAbilityBonus = function (hero) {
 };
 
 Deck.prototype.applyEventBonus = function (hero) {
-    if (!this.options.hasOwnProperty('event')) {
+    if (!this.options.event) {
         return;
     }
 
-    if (this.options.event === 'Slayer' && hero.eventSkills.hasOwnProperty('Slayer')) {
+    if (this.options.event === 'Slayer' && hero.eventSkills.Slayer) {
         hero.attack *= hero.eventSkills.Slayer;
     } else if (this.options.event === 'Commander' && this.commanderBonuses.hasOwnProperty(hero.affinity)) {
         hero.attack *= this.commanderBonuses[hero.affinity];

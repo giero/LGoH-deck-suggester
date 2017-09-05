@@ -8,32 +8,31 @@ DeckGenerator.prototype.generate = function (options) {
     var possibilities = this.countPossibilities();
     var onePercentOfPossibilities = Math.floor(possibilities / 100);
     var counter = 0;
+    var affinities = ['Fire', 'Water', 'Earth', 'Light', 'Dark', 'No affinity bonus'];
+    var bestDecks = {};
 
-    var bestDecks = {'Fire': {}, 'Water': {}, 'Earth': {}, 'Light': {}, 'Dark': {}, 'No affinity bonus': {}};
+    for (var i = 0; i < affinities.length; ++i) {
+        var affinity = affinities[i];
 
-    if (options.hasOwnProperty('affinitiesLimit')) {
-        for (var affinity in bestDecks) {
-            if (options.affinitiesLimit.indexOf(affinity) === -1) {
-                delete bestDecks[affinity];
-            }
+        if (!options.affinitiesLimit || options.affinitiesLimit.indexOf(affinity) >= 0) {
+            bestDecks[affinity] = {
+                power: {value: 0, heroes: [], stats: 0},
+                attack: {value: 0, heroes: [], stats: 0},
+                attack_and_health: {value: 0, heroes: [], stats: 0}
+            };
         }
     }
 
-    for (var affinity in bestDecks) {
-        bestDecks[affinity] = {
-            power: {value: 0, heroes: [], stats: 0},
-            attack: {value: 0, heroes: [], stats: 0},
-            attack_and_health: {value: 0, heroes: [], stats: 0}
-        };
-    }
-
-    var combinations = function (leaderHero, heroes, len, offset, result) {
+    function combinations(leaderHero, heroes, len, offset, result) {
         if (len === 0) {
             if (!(++counter % onePercentOfPossibilities)) {
                 this.postMessage(Math.round(counter / possibilities * 100));
             }
 
-            var deck = new Deck([leaderHero].concat(result), options);
+            var deck = new Deck(
+                [leaderHero, result[0], result[1], result[2], result[3]], //way faster way than .concat
+                options
+            );
             for (var affinity in bestDecks) {
                 var deckStats = deck.calculate(affinity);
 
@@ -67,15 +66,31 @@ DeckGenerator.prototype.generate = function (options) {
             result[rl - len] = heroes[i];
             combinations(leaderHero, heroes, len - 1, i + 1, result);
         }
-    };
+    }
+
+    var sortedHeroes = this.heroes.sort(function (a, b) {
+        if (a.coreId === b.coreId) {
+            return a.attack - b.attack;
+        }
+
+        return a.name.localeCompare(b.name);
+    });
 
     // for every hero as leader check every four other cards possibilities
-    for (var i = this.heroes.length - 1; i >= 0; --i) {
+    var sortedHeroesLimit = sortedHeroes.length - 1;
+    for (var h = sortedHeroesLimit; h >= 0; --h) {
         // var start = new Date();
 
-        var heroes = this.heroes.slice();
-        var leaderHero = heroes[i];
-        heroes.splice(i, 1);
+        // if new leader has the same skill as previous, we can skip it,
+        // because result will be the same
+        if (h < sortedHeroesLimit && sortedHeroes[h].coreId === sortedHeroes[h+1].coreId) {
+            counter += onePercentOfPossibilities;
+            continue;
+        }
+
+        var heroes = sortedHeroes.slice();
+        var leaderHero = heroes[h];
+        heroes.splice(h, 1);
         combinations(leaderHero, heroes, 4, 0, new Array(4));
 
         // console.log(leaderHero.name, new Date() - start);

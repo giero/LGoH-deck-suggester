@@ -54,7 +54,7 @@ Hero.prototype.matchesWithStat = function (stat) {
     return this.affinity === stat
         || this.type === stat
         || this.species === stat
-        || this.eventSkills.hasOwnProperty(stat)
+        || this.eventSkills[stat]
         // it's required for example for species like "God Honored"
         // and leader ability can be for God or Honored heroes only
         // TODO: maybe will be faster to add another attribute for Technological/Honored etc?
@@ -65,12 +65,12 @@ Hero.prototype.matchesWithStat = function (stat) {
 Hero.prototype.canApplyLeaderStats = function (leaderTarget) {
     if (typeof leaderTarget === 'string') {
         return this.matchesWithStat(leaderTarget);
-    } else {
-        for (var lt = leaderTarget.length - 1; lt >= 0; --lt) {
-            if (!this.matchesWithStat(leaderTarget[lt])) {
-                return false;
-            }
-        }
-        return true;
     }
+
+    for (var lt = leaderTarget.length - 1; lt >= 0; --lt) {
+        if (!this.matchesWithStat(leaderTarget[lt])) {
+            return false;
+        }
+    }
+    return true;
 };
