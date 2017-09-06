@@ -17749,6 +17749,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "32fb6e32",
+        "name": "Theseus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Gem Silence",
+        "leaderAbility": {
+            "name": "Technological Armor IV",
+            "description": "160% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "dbc7b0c6"
+    },
+    {
+        "coreId": "dbc7b0c6",
+        "name": "Theseus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Gem Silence",
+        "leaderAbility": {
+            "name": "Technological Armor V",
+            "description": "180% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "32fb6e32",
+        "evolveInto": "b5ae02c0"
+    },
+    {
+        "coreId": "b5ae02c0",
+        "name": "Theseus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4344,
+        "recovery": 365,
+        "health": 7238,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Gem Silence",
+        "leaderAbility": {
+            "name": "Technological Armor VI",
+            "description": "200% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "dbc7b0c6",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",
@@ -19577,9 +19658,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1028,
+        "recovery": 342,
+        "health": 1711,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {},
@@ -22218,6 +22299,87 @@
             ]
         },
         "evolveFrom": "bce8f364",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "07ed3ab7",
+        "name": "The Spider Queen",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 883,
+        "recovery": 732,
+        "health": 1472,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Ancient Blessing IV",
+            "description": "260% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "",
+        "evolveInto": "74de721d"
+    },
+    {
+        "coreId": "74de721d",
+        "name": "The Spider Queen",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 1501,
+        "recovery": 1243,
+        "health": 2504,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Ancient Blessing V",
+            "description": "280% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "07ed3ab7",
+        "evolveInto": "6f9b6da7"
+    },
+    {
+        "coreId": "6f9b6da7",
+        "name": "The Spider Queen",
+        "affinity": "Earth",
+        "type": "Healer",
+        "species": "Creature",
+        "attack": 2180,
+        "recovery": 1810,
+        "health": 3635,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Ancient Blessing VI",
+            "description": "300% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "74de721d",
         "evolveInto": ""
     }
 ]
