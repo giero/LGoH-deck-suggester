@@ -17830,6 +17830,254 @@
         "evolveInto": ""
     },
     {
+        "coreId": "40870fc0",
+        "name": "Icarus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Water Demigod Might I",
+            "description": "175% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "4444e0fc"
+    },
+    {
+        "coreId": "4444e0fc",
+        "name": "Icarus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Water Demigod Might II",
+            "description": "200% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "40870fc0",
+        "evolveInto": "ff0e04ce"
+    },
+    {
+        "coreId": "ff0e04ce",
+        "name": "Icarus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Water Demigod Might III",
+            "description": "225% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "4444e0fc",
+        "evolveInto": "2d21453a"
+    },
+    {
+        "coreId": "2d21453a",
+        "name": "Icarus",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Water Demigod Might IV",
+            "description": "300% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "ff0e04ce",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "0b9844b3",
+        "name": "Skybound",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Water Demigod Might I",
+            "description": "175% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "fd166fe5"
+    },
+    {
+        "coreId": "fd166fe5",
+        "name": "Skybound",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Water Demigod Might II",
+            "description": "200% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "0b9844b3",
+        "evolveInto": "55071d6e"
+    },
+    {
+        "coreId": "55071d6e",
+        "name": "Skybound",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Water Demigod Might III",
+            "description": "225% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "fd166fe5",
+        "evolveInto": "7b45b9fb"
+    },
+    {
+        "coreId": "7b45b9fb",
+        "name": "Skybound",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Water Demigod Might IV",
+            "description": "300% Damage and HP for all Water Demigod Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "55071d6e",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",

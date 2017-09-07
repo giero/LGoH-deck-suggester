@@ -655,6 +655,14 @@ water	Lothar	******	30	Defender	Creature	2180	726	9051	Dren Might VI: 200% Damag
 water	Theseus	****	9	Warrior	Demigod				Technological Armor IV: 160% HP for all Technological Heroes	Weaken	Gem Silence	2x						Theseus *****
 water	Theseus	*****	15	Warrior	Demigod				Technological Armor V: 180% HP for all Technological Heroes	Weaken	Gem Silence	3x					Theseus ****	Theseus ******
 water	Theseus	******	30	Warrior	Demigod	4344	365	7238	Technological Armor VI: 200% HP for all Technological Heroes	Weaken	Gem Silence	4x				Black Sail: Turn up to 5 Earth Gems into Water Gems. If 10 Water Gems exist, then deal 1000% ATK to an Fire enemy.	Theseus *****	
+water	Icarus	***	6	Warrior	Demigod	1038	87	1728	Water Demigod Might I: 175% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	2x						Icarus ****
+water	Icarus	****	9	Warrior	Demigod	1692	142	2821	Water Demigod Might II: 200% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	2x					Icarus ***	Icarus *****
+water	Icarus	*****	15	Warrior	Demigod	2878	244	4796	Water Demigod Might III: 225% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	3x					Icarus ****	Icarus ******
+water	Icarus	******	30	Warrior	Demigod	4174	347	6956	Water Demigod Might IV: 300% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	4x				Take Flight: Greatly increase the drop rate of Water gems until your next turn. 	Icarus *****	
+water	Skybound	***	6	Attacker	Demigod				Water Demigod Might I: 175% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	2x						Skybound ****
+water	Skybound	****	9	Attacker	Demigod				Water Demigod Might II: 200% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	2x					Skybound ***	Skybound *****
+water	Skybound	*****	15	Attacker	Demigod				Water Demigod Might III: 225% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	3x					Skybound ****	Skybound ******
+water	Skybound	******	30	Attacker	Demigod	5418	722	3613	Water Demigod Might IV: 300% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	4x				Eternal Flight: Create 4 Water Gems. Destroy 4 Earth Gems.	Skybound *****	
 earth	Yoran Nomad	*	2	Balanced	Human	188	62	314	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown					Poison Blade: Attack all enemies for 200% of ATK for 2 turns		Yoran Rogue **
 earth	Yoran Rogue	**	4	Balanced	Human	332	111	552	Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge					Poison Cloud: Attack all enemies for 250%of ATK for 2 turns	Yoran Nomad *	
 earth	Deepmoss Initiate	*	2	Healer	Human	126	104	210	Earth Blessing I: 110% REC for all Earth Heroes	Regen	Unknown					Minera's Kiss: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems		Deepmoss Druid **
