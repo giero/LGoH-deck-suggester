@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css" />
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -47,7 +49,7 @@
                 </li>
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
                 <li role="presentation"><a href="#heroes">List of heroes</a></li>
-                <li role="presentation"><a href="#contact">Contact</a></li>
+                <li role="presentation"><a href="#contact">Contact / Info</a></li>
             </ul>
         </div>
     </div>
@@ -70,9 +72,34 @@
                 <all-heroes-list></all-heroes-list>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="contact">
-                <p>Soon ...</p>
+                <fieldset>
+                    <legend>Soon ...</legend>
+                    <p>... but project is available on <a href="https://github.com/giero/LGoH-deck-suggester" target="_blank">Github</a>, so you can create an issue (with bugs or propositions) or message me there.</p>
+                </fieldset>
 
-                <p>... but project is available on <a href="https://github.com/giero/LGoH-deck-suggester" target="_blank">Github</a>, so you can create an issue (with found bugs or propositions) or message me there.</p>
+                <fieldset>
+                    <legend>Some description</legend>
+                    <b>What's the purpose?</b>
+                    <p>To analyse all of your cards which you think would be good for fight and based on many many conditions (affinity strength/weakness, leader bonus, event bonus...) combine best decks you can get from them.</p>
+                    <br />
+                    <b>What it does?</b>
+                    <p>First you have to add all your best cards on "Your team" page (all stats are important - you have to do it manually, because it's not possible to "import" it from the game ... yet) and then on "Suggested decks" page you can calculate the best combinations.</p>
+
+                    <p>All calculations are made in your browser and - <span class="text-danger"><strong>WARNING</strong></span> - for many cards ("many" means more than 70) calculations are getting longer. Why? Because page is checking every single cards configurations and then it's choosing the best of all. For 75 cards it's almost 90.000.000 combinations... for single affinity... so it's 5 times more for all...</p>
+                        So my recommendations:
+                    <ol>
+                        <li>limit your team to 80-90 of your best cards,</li>
+                        <li>use it on your pc - not on your mobile,</li>
+                        <li>use Chrome - it seems calculations are much faster on this browser.</li>
+                    </ol>
+
+                    <p>But if you are interested to find the deck only for Slayer event against Earth affinity, you can set it in calculations options - will be faster.</p>
+                    <p>Decks are generated purely based on cards stats (attack/recovery/hp), not on "usefulness" - probably it wont find decks for Gear Bosses, because it requires more complicated mechanics (like mass gem generation, damage immunity, etc) ... but it's good for beginners or for events if you don't have gems for buying event tiers. I will try to figure it out how to promote cards which generate gems or are more useful than the others.</p>
+
+                    <p>It's still in beta - I have lots of ideas to add, but not so much time to update it really often. Feel free to comment and ask questions ... or maybe you have some ideas I could implement :)</p>
+                    <br />
+                    <p>P.S. If somebody would like to test it before entering cards, you can import them from <a href="https://pastebin.com/U8LqL1Yq" target="_blank">this sample</a> ("import" is under the arrow near "your team" menu). There are 50 from my top cards - should be enough to test.</p>
+                </fieldset>
             </div>
         </div>
     </div>

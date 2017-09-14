@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
     padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -13,6 +14,9 @@ body {
     padding-left: 3px;
 }
 
+.nav.navbar-nav li.active > a {
+    font-weight: bold;
+}
 
 .nav.navbar-nav li.dropdown-right.active {
     background-color: #080808;
@@ -92,4 +96,8 @@ span.rarity-star {
 #decks > .container > .row {
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
+}
+
+#contact fieldset:first-child {
+    margin-bottom: 4em;
 }
