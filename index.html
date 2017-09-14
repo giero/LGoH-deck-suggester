@@ -283,9 +283,9 @@
                     <small>possible {{ possibilities.format(0, 3) }} decks<br />in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
                 </button>
                 <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
-                <div id="limitation-warning" v-if="teamHeroes.heroes.length > 90" class="panel panel-danger">
+                <div id="limitation-warning" v-if="teamHeroes.heroes.length > 80" class="panel panel-danger">
                     <div class="panel-heading"><span class="text-danger">WARNING</span></div>
-                    <div class="panel panel-body">You have a lot cards in your team - your calculations may take a very, very long time. Try to limit your cards to 80/90 or prepare some time to spare on waiting.</div>
+                    <div class="panel panel-body">You have a lot cards in your team - your calculations may take a very, very long time. Try to limit your cards to 80 or prepare some time to spare on waiting.</div>
                 </div>
             </div>
 
