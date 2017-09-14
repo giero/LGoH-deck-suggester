@@ -340,6 +340,7 @@ Vue.component('computed-decks', {
 
             ga('send', 'event', 'calculations', 'perform', 'cards', teamHeroes.heroes.length);
             this.calculationStarted = new Date();
+            this.calculationStopped = null;
 
             this.deckWorker.postMessage({
                 heroes: heroes,

@@ -48,7 +48,7 @@
                 </li>
                 <li role="presentation"><a href="#decks">Suggested decks</a></li>
                 <li role="presentation"><a href="#heroes">List of heroes</a></li>
-                <li role="presentation"><a href="#contact">Contact / Info</a></li>
+                <li role="presentation"><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -285,7 +285,7 @@
                 <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
                 <div id="limitation-warning" v-if="teamHeroes.heroes.length > 80" class="panel panel-danger">
                     <div class="panel-heading"><span class="text-danger">WARNING</span></div>
-                    <div class="panel panel-body">You have a lot cards in your team - your calculations may take a very, very long time. Try to limit your cards to 80 or prepare some time to spare on waiting.</div>
+                    <div class="panel panel-body">You have a lot cards in your team - your calculations may take a very, very long time. Try to limit your cards to 80 and/or set some calculations options ... or prepare some time to spare on waiting.</div>
                 </div>
             </div>
 
@@ -376,6 +376,12 @@
                         {{ progress }}%
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row panel panel-default" v-if="calculationStarted !== null && calculationStopped !== null">
+            <div class="panel-body">
+                Calculations ended after {{ Math.round((calculationStopped - calculationStarted) / 1000) }} seconds.
             </div>
         </div>
         <div class="calculated-heroes-panel row panel panel-default" v-for="(decksByStat, affinity) in bestDecks">
