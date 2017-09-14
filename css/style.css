@@ -1,7 +1,6 @@
 body {
     padding-top: 70px;
     padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -16,6 +15,7 @@ body {
 
 .nav.navbar-nav li.active > a {
     font-weight: bold;
+    outline: none;
 }
 
 .nav.navbar-nav li.dropdown-right.active {
@@ -100,4 +100,17 @@ span.rarity-star {
 
 #contact fieldset:first-child {
     margin-bottom: 4em;
+}
+
+#limitation-warning {
+    margin-top: 18px;
+    margin-bottom: 0
+}
+
+#limitation-warning .panel-heading span {
+    font-weight: bold;
+}
+
+#limitation-warning .panel-body {
+    margin-bottom: 0;
 }

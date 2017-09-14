@@ -7,14 +7,13 @@
     <title>Legendary: Game of Heroes deck suggester (beta)</title>
     <meta name="description" content="Legendary: Game of Heroes deck suggester">
     <meta name="author" content="Giero">
+
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css" />
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -67,14 +66,14 @@
             </div>
             <div class="tab-pane fade" role="tabpanel" id="heroes">
                 <p class="bg-danger" style="padding: 15px">
-                    This list is based on <strong><a href="https://goo.gl/e2ql9O" target="_blank">this spreadsheet</a></strong> - feel free to update it, if something is missing.
+                    This list is based on <strong><a href="//goo.gl/e2ql9O" target="_blank">this spreadsheet</a></strong> - feel free to update it, if something is missing.
                 </p>
                 <all-heroes-list></all-heroes-list>
             </div>
             <div class="tab-pane fade" role="tabpanel" id="contact">
                 <fieldset>
                     <legend>Soon ...</legend>
-                    <p>... but project is available on <a href="https://github.com/giero/LGoH-deck-suggester" target="_blank">Github</a>, so you can create an issue (with bugs or propositions) or message me there.</p>
+                    <p>... but project is available on <a href="//github.com/giero/LGoH-deck-suggester" target="_blank">Github</a>, so you can create an issue (with bugs or propositions) or message me there.</p>
                 </fieldset>
 
                 <fieldset>
@@ -98,7 +97,7 @@
 
                     <p>It's still in beta - I have lots of ideas to add, but not so much time to update it really often. Feel free to comment and ask questions ... or maybe you have some ideas I could implement :)</p>
                     <br />
-                    <p>P.S. If somebody would like to test it before entering cards, you can import them from <a href="https://pastebin.com/U8LqL1Yq" target="_blank">this sample</a> ("import" is under the arrow near "your team" menu). There are 50 from my top cards - should be enough to test.</p>
+                    <p>P.S. If somebody would like to test it before entering cards, you can import them from <a href="//pastebin.com/U8LqL1Yq" target="_blank">this sample</a> ("import" is under the arrow near "your team" menu). There are 50 from my top cards - should be enough to test.</p>
                 </fieldset>
             </div>
         </div>
@@ -284,6 +283,10 @@
                     <small>possible {{ possibilities.format(0, 3) }} decks<br />in {{ (possibilities*5).format(0, 3) }} configurations (for every affinity))</small>
                 </button>
                 <button id="stop-calculations" style="display: none" class="btn btn-danger" @click="stopCalculations">Stop calculations</button>
+                <div id="limitation-warning" v-if="teamHeroes.heroes.length > 90" class="panel panel-danger">
+                    <div class="panel-heading"><span class="text-danger">WARNING</span></div>
+                    <div class="panel panel-body">You have a lot cards in your team - your calculations may take a very, very long time. Try to limit your cards to 80/90 or prepare some time to spare on waiting.</div>
+                </div>
             </div>
 
             <div class="col-sm-7">
@@ -483,7 +486,7 @@
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-99018598-1', 'auto');
     ga('send', {
