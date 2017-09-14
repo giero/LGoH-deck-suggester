@@ -159,6 +159,17 @@ dark	Astral Savior	******	30	Warrior	Dragon	4174	347	6956	Dark Warrior Might IV:
 dark	Demoness Grenja	****	9	Attacker	Demigod	2197	293	1472	God Armor IV: 160% HP for all God Heroes	Dodge	Dispel Alacrity				yes	Dark Familiar: Attack all enemies for 600% of ATK.		Demoness Grenja *****
 dark	Demoness Grenja	*****	15	Attacker	Demigod	3731	500	2504	God Armor V: 180% HP for all God Heroes	Dodge	Dispel Alacrity				yes	Dark Familiar: Attack all enemies for 700% of ATK.	Demoness Grenja ****	Demoness Grenja ******
 dark	Demoness Grenja	******	30	Attacker	Demigod				God Armor VI: 200% HP for all God Heroes	Dodge	Dispel Alacrity				yes		Demoness Grenja *****	
+dark	Fallen One	****	9	Attacker	God				Demigod Might IV: 160% Damage for all Dark Demigod Heroes	GemSilence	Dispel Alacrity			2x				Fallen One *****
+dark	Fallen One	*****	15	Attacker	God				Demigod Might V: 180% Damage for all Dark Demigod Heroes	GemSilence	Dispel Alacrity			3x			Fallen One ****	Fallen One ******
+dark	Fallen One	******	30	Attacker	God	5428	726	3629	Demigod Might VI: 200% Damage for all Dark Demigod Heroes	GemSilence	Dispel Alacrity			4x		Angel of Death: Destroy all non-Dark Gems and attack for 1100% ATK.	Fallen One *****	
+dark	The Reaper	***	6	Warrior	God				Dark God Might I: 175% Damage and HP for all Dark God Heroes	Panic	Dispel Poison			2x				The Reaper ****
+dark	The Reaper	****	9	Warrior	God				Dark God Might II: 200% Damage and HP for all Dark God Heroes	Panic	Dispel Poison			2x			The Reaper ***	The Reaper *****
+dark	The Reaper	*****	15	Warrior	God				Dark God Might III: 225% Damage and HP for all Dark God Heroes	Panic	Dispel Poison			3x			The Reaper ****	The Reaper ******
+dark	The Reaper	******	30	Warrior	God	4174	347	6956	Dark God Might IV: 300% Damage and HP for all Dark God Heroes	Panic	Dispel Poison			4x		Time's Up: Attack for 500% of ATK. If the target is Light, attack again for 1500% of ATK.	The Reaper *****	
+dark	Shepherd of Souls	***	6	Attacker	God				Dark God Might I: 175% Damage and HP for all Dark God Heroes	Toxin	Dispel Armor			2x				Shepherd of Souls ****
+dark	Shepherd of Souls	****	9	Attacker	God				Dark God Might II: 200% Damage and HP for all Dark God Heroes	Toxin	Dispel Armor			2x			Shepherd of Souls ***	Shepherd of Souls *****
+dark	Shepherd of Souls	*****	15	Attacker	God				Dark God Might III: 225% Damage and HP for all Dark God Heroes	Toxin	Dispel Armor			3x			Shepherd of Souls ****	Shepherd of Souls ******
+dark	Shepherd of Souls	******	30	Attacker	God	5418	722	3613	Dark God Might IV: 300% Damage and HP for all Dark God Heroes	Toxin	Dispel Armor			4x		Death Overhelming: Increase the drop rate of Dark Gems for the first 3 turns.	Shepherd of Souls *****	
 light	Griffin Pup	***	6	Defender	Creature	402	134	1665	Defender Armor III: 140% HP for all Defender Heroes	Blind	Dispel Regen					Wings of Wrath: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 260% of HP		Griffin ****
 light	Griffin	****	9	Defender	Creature	649	215	2706	Defender Armor IV: 160% HP for all Defender Heroes	Blind	Dispel Regen					Wings of Fury: Reduce all enemy DEF by 40% for 3 turns and Attack an enemy for 340% of HP	Griffin Pup ***	
 light	Shadowlight Pilgrim	*	2	Balanced	Dren	200	66	334	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown					Shadowlight Charm: Attack all enemies for 200% of ATK for 2 turns		Shadowlight Herald **
@@ -482,9 +493,9 @@ fire	Ixtab, Hanging Goddess	******	30	Attacker	Ancient	5218	696	3479	Fire Ancien
 fire	Juggernaut	****	9	Guardian	Goblin	428	565	2825	Warrior Armor IV: 160% HP for all Warrior Heroes	Dodge	Dispel Panic				yes	Unstoppable: Destroy 1/3 of all Gems on the board		Juggernaut *****
 fire	Juggernaut	*****	15	Guardian	Goblin	730	958	4798	Warrior Armor V: 180% HP for all Warrior Heroes	Dodge	Dispel Panic				yes	Unstoppable: Destroy 1/2 of all Gems on the board	Juggernaut ****	Juggernaut ******
 fire	Juggernaut	******	30	Guardian	Goblin	1058	1395	6978	Warrior Armor VI: 200% HP for all Warrior Heroes	Dodge	Dispel Panic				yes	Unstoppable: Destroy all Gems on the board	Juggernaut *****	
-fire	Yonica, Queen of Flames	****	9	Attacker	Spirit				Honored Might IV: 160% Damage for all Honored Heroes	Gem Silence	Dispel Weaken			2x				Yonica, Queen of Flames *****
-fire	Yonica, Queen of Flames	*****	15	Attacker	Spirit				Honored Might V: 180% Damage for all Honored Heroes	Gem Silence	Dispel Weaken			3x			Yonica, Queen of Flames ****	Yonica, Queen of Flames ******
-fire	Yonica, Queen of Flames	******	30	Attacker	Spirit	5428	726	3629	Honored Might VI: 200% Damage for all Honored Heroes	Gem Silence	Dispel Weaken			4x		Blazing Soul: Create 4 to 6 Fire Gems. The number of gems increases as your HP% increases.	Yonica, Queen of Flames *****	
+fire	Yonica, Queen of Flames	****	9	Attacker	Spirit				Honored Might IV: 160% Damage for all Honored Heroes	GemSilence	Dispel Weaken			2x				Yonica, Queen of Flames *****
+fire	Yonica, Queen of Flames	*****	15	Attacker	Spirit				Honored Might V: 180% Damage for all Honored Heroes	GemSilence	Dispel Weaken			3x			Yonica, Queen of Flames ****	Yonica, Queen of Flames ******
+fire	Yonica, Queen of Flames	******	30	Attacker	Spirit	5428	726	3629	Honored Might VI: 200% Damage for all Honored Heroes	GemSilence	Dispel Weaken			4x		Blazing Soul: Create 4 to 6 Fire Gems. The number of gems increases as your HP% increases.	Yonica, Queen of Flames *****	
 fire	Idalia the Bright	***	6	Warrior	Spirit				Fire Spirit Might I: 175% Damage and HP for all Fire Spirit Heroes	Poison	Dispel Armor			2x				Idalia the Bright ****
 fire	Idalia the Bright	****	9	Warrior	Spirit				Fire Spirit Might II: 200% Damage and HP for all Fire Spirit Heroes	Poison	Dispel Armor			2x			Idalia the Bright ***	Idalia the Bright *****
 fire	Idalia the Bright	*****	15	Warrior	Spirit				Fire Spirit Might III: 225% Damage and HP for all Fire Spirit Heroes	Poison	Dispel Armor			3x			Idalia the Bright ****	Idalia the Bright ******
@@ -493,6 +504,9 @@ fire	Sunspot	***	6	Attacker	Spirit				Fire Spirit Might I: 175% Damage and HP fo
 fire	Sunspot	****	9	Attacker	Spirit				Fire Spirit Might II: 200% Damage and HP for all Fire Spirit Heroes	Might	Dispel Fear			2x			Sunspot ***	Sunspot *****
 fire	Sunspot	*****	15	Attacker	Spirit				Fire Spirit Might III: 225% Damage and HP for all Fire Spirit Heroes	Might	Dispel Fear			3x			Sunspot ****	Sunspot ******
 fire	Sunspot	******	30	Attacker	Spirit	5418	722	3613	Fire Spirit Might IV: 300% Damage and HP for all Fire Spirit Heroes	Might	Dispel Fear			4x		Solar Flare: Become immune to enemy damage for 1 turn.	Sunspot *****	
+fire	The Minotaur	****	9	Defender	Fable	883	293	3662	Fable Armor IV: 160% HP for all Fable Heroes	Fear	Dispel GemSilence				yes	Flaming Cleaver: Attack for 500% HP.		The Minotaur *****
+fire	The Minotaur	*****	15	Defender	Fable				Fable Armor V: 180% HP for all Fable Heroes	Fear	Dispel GemSilence				yes		The Minotaur ****	The Minotaur ******
+fire	The Minotaur	******	30	Defender	Fable				Fable Armor VI: 200% HP for all Fable Heroes	Fear	Dispel GemSilence				yes		The Minotaur *****	
 water	Frostvein Cultist	*	2	Mage	Corrupt	256	86	118	Water Might I: 110% Damage for all Water Heroes	Drain	Unknown							Frostvein Devout **
 water	Frostvein Devout	**	4	Mage	Corrupt	431	143	190	Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor						Frostvein Cultist *	Frostvein Enforcer ***
 water	Frostvein Enforcer	***	6	Mage	Corrupt	724	241	312	Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor						Frostvein Devout **	
@@ -652,9 +666,9 @@ water	Overclocked Urhart	******	30	Warrior	Dwarf				Dwarf Might IV: 300% Damage 
 water	Lothar	****	9	Defender	Creature	883	293	3662	Dren Might IV: 160% Damage for all Dren Heroes	Alacrity	Dislpel Blind				yes	Berserker Rage: Attack for 500% HP.		Lothar *****
 water	Lothar	*****	15	Defender	Creature	1501	500	6219	Dren Might V: 180% Damage for all Dren Heroes	Alacrity	Dislpel Blind				yes	Berserker Rage: Attack for 750% HP.	Lothar ****	Lothar ******
 water	Lothar	******	30	Defender	Creature	2180	726	9051	Dren Might VI: 200% Damage for all Dren Heroes	Alacrity	Dislpel Blind				yes	Berserker Rage: Attack for 1000% HP.	Lothar *****	
-water	Theseus	****	9	Warrior	Demigod				Technological Armor IV: 160% HP for all Technological Heroes	Weaken	Gem Silence	2x						Theseus *****
-water	Theseus	*****	15	Warrior	Demigod				Technological Armor V: 180% HP for all Technological Heroes	Weaken	Gem Silence	3x					Theseus ****	Theseus ******
-water	Theseus	******	30	Warrior	Demigod	4344	365	7238	Technological Armor VI: 200% HP for all Technological Heroes	Weaken	Gem Silence	4x				Black Sail: Turn up to 5 Earth Gems into Water Gems. If 10 Water Gems exist, then deal 1000% ATK to an Fire enemy.	Theseus *****	
+water	Theseus	****	9	Warrior	Demigod				Technological Armor IV: 160% HP for all Technological Heroes	Weaken	GemSilence	2x						Theseus *****
+water	Theseus	*****	15	Warrior	Demigod				Technological Armor V: 180% HP for all Technological Heroes	Weaken	GemSilence	3x					Theseus ****	Theseus ******
+water	Theseus	******	30	Warrior	Demigod	4344	365	7238	Technological Armor VI: 200% HP for all Technological Heroes	Weaken	GemSilence	4x				Black Sail: Turn up to 5 Earth Gems into Water Gems. If 10 Water Gems exist, then deal 1000% ATK to an Fire enemy.	Theseus *****	
 water	Icarus	***	6	Warrior	Demigod	1038	87	1728	Water Demigod Might I: 175% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	2x						Icarus ****
 water	Icarus	****	9	Warrior	Demigod	1692	142	2821	Water Demigod Might II: 200% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	2x					Icarus ***	Icarus *****
 water	Icarus	*****	15	Warrior	Demigod	2878	244	4796	Water Demigod Might III: 225% Damage and HP for all Water Demigod Heroes	Armor	Dispel Thorns	3x					Icarus ****	Icarus ******
@@ -786,9 +800,9 @@ earth	Vulcan, Copper Blood	***	6	Warrior	Demigod	952	79	1586	Gaia's Flame I: 175
 earth	Vulcan, Copper Blood	****	9	Warrior	Demigod	1570	134	2617	Gaia's Flame II: 200% Damage and HP for all Earth Warriors Heroes	Panic	Dispel Judgement		2x	2x		Green Flames: Destroy up to 5 Water Gems on the board. Attack a Water enemy for 400% ATK.	Vulcan, Copper Blood ***	Vulcan, Copper Blood *****
 earth	Vulcan, Copper Blood	*****	15	Warrior	Demigod	2656	224	4428	Gaia's Flame III: 225% Damage and HP for all Earth Warriors Heroes	Panic	Dispel Judgement		3x	3x		Green Flames: Destroy up to 10 Water Gems on the board. Attack a Water enemy for 500% ATK.	Vulcan, Copper Blood ****	Vulcan, Copper Blood ******
 earth	Vulcan, Copper Blood	******	30	Warrior	Demigod	3864	325	6438	Gaia's Flame IV: 300% Damage and HP for all Earth Warriors Heroes	Panic	Dispel Judgement		4x	4x		Green Flames: Destroy up to 15 Water Gems on the board. Attack a Water enemy for 600% ATK.	Vulcan, Copper Blood *****	
-earth	Jade Dragon	****	9	Defender	Ancient	793	263	3268	Attacker Armor IV: 160% HP for all Attacker Heroes	Gem Silence	Dispel Blind				yes	Jade Fist: Attack for 500% HP.		Jade Dragon *****
-earth	Jade Dragon	*****	15	Defender	Ancient	1335	444	5529	Attacker Armor V: 180% HP for all Attacker Heroes	Gem Silence	Dispel Blind				yes		Jade Dragon ****	Jade Dragon ******
-earth	Jade Dragon	******	30	Defender	Ancient				Attacker Armor VI: 200% HP for all Attacker Heroes	Gem Silence	Dispel Blind				yes		Jade Dragon *****	
+earth	Jade Dragon	****	9	Defender	Ancient	793	263	3268	Attacker Armor IV: 160% HP for all Attacker Heroes	GemSilence	Dispel Blind				yes	Jade Fist: Attack for 500% HP.		Jade Dragon *****
+earth	Jade Dragon	*****	15	Defender	Ancient	1335	444	5529	Attacker Armor V: 180% HP for all Attacker Heroes	GemSilence	Dispel Blind				yes		Jade Dragon ****	Jade Dragon ******
+earth	Jade Dragon	******	30	Defender	Ancient				Attacker Armor VI: 200% HP for all Attacker Heroes	GemSilence	Dispel Blind				yes		Jade Dragon *****	
 earth	Hippolyta, Queen Of Amazon	****	9	Attacker	Honored	2039	273	1372	Technological Blessing IV: 200% REC for all Technological Heroes	Poison	Dispel Weaken			2x				Hippolyta, Queen Of Amazon *****
 earth	Hippolyta, Queen Of Amazon	*****	15	Attacker	Honored	3449	462	2310	Technological Blessing V: 225% REC for all Technological Heroes	Poison	Dispel Weaken			3x			Hippolyta, Queen Of Amazon ****	Hippolyta, Queen Of Amazon ******
 earth	Hippolyta, Queen Of Amazon	******	30	Attacker	Honored	5028	672	3361	Technological Blessing VI: 300% REC for all Technological Heroes	Poison	Dispel Weaken			4x		Born Of War: Upgrades 1 Earth gem into a Power III Gem. Charges extremely fast.	Hippolyta, Queen Of Amazon *****	

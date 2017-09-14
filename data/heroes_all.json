@@ -4356,6 +4356,344 @@
         "evolveInto": ""
     },
     {
+        "coreId": "8b288516",
+        "name": "Fallen One",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Demigod Might IV",
+            "description": "160% Damage for all Dark Demigod Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": [
+                "Dark",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8a2b333c"
+    },
+    {
+        "coreId": "8a2b333c",
+        "name": "Fallen One",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Demigod Might V",
+            "description": "180% Damage for all Dark Demigod Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": [
+                "Dark",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "8b288516",
+        "evolveInto": "4c6d8274"
+    },
+    {
+        "coreId": "4c6d8274",
+        "name": "Fallen One",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5428,
+        "recovery": 726,
+        "health": 3629,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Demigod Might VI",
+            "description": "200% Damage for all Dark Demigod Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": [
+                "Dark",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "8a2b333c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "21b94f5f",
+        "name": "The Reaper",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Dark God Might I",
+            "description": "175% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "a91080ca"
+    },
+    {
+        "coreId": "a91080ca",
+        "name": "The Reaper",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Dark God Might II",
+            "description": "200% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "21b94f5f",
+        "evolveInto": "7382c4b9"
+    },
+    {
+        "coreId": "7382c4b9",
+        "name": "The Reaper",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Dark God Might III",
+            "description": "225% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "a91080ca",
+        "evolveInto": "5888ca13"
+    },
+    {
+        "coreId": "5888ca13",
+        "name": "The Reaper",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Dark God Might IV",
+            "description": "300% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "7382c4b9",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b3acc450",
+        "name": "Shepherd of Souls",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Dark God Might I",
+            "description": "175% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "c93e9827"
+    },
+    {
+        "coreId": "c93e9827",
+        "name": "Shepherd of Souls",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Dark God Might II",
+            "description": "200% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "b3acc450",
+        "evolveInto": "e40486f9"
+    },
+    {
+        "coreId": "e40486f9",
+        "name": "Shepherd of Souls",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Dark God Might III",
+            "description": "225% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "c93e9827",
+        "evolveInto": "92fc0933"
+    },
+    {
+        "coreId": "92fc0933",
+        "name": "Shepherd of Souls",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Dark God Might IV",
+            "description": "300% Damage and HP for all Dark God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "God"
+            ]
+        },
+        "evolveFrom": "e40486f9",
+        "evolveInto": ""
+    },
+    {
         "coreId": "27f917c6",
         "name": "Griffin Pup",
         "affinity": "Light",
@@ -13097,7 +13435,7 @@
         "eventSkills": {
             "Commander": 2
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Might IV",
@@ -13124,7 +13462,7 @@
         "eventSkills": {
             "Commander": 3
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Might V",
@@ -13151,7 +13489,7 @@
         "eventSkills": {
             "Commander": 4
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Honored Might VI",
@@ -13410,6 +13748,87 @@
             ]
         },
         "evolveFrom": "4547abbc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "c79102f4",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 883,
+        "recovery": 293,
+        "health": 3662,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor IV",
+            "description": "160% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "",
+        "evolveInto": "9d611ef7"
+    },
+    {
+        "coreId": "9d611ef7",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor V",
+            "description": "180% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "c79102f4",
+        "evolveInto": "cd84dc95"
+    },
+    {
+        "coreId": "cd84dc95",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor VI",
+            "description": "200% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "9d611ef7",
         "evolveInto": ""
     },
     {
@@ -17763,7 +18182,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Gem Silence",
+        "counterSkill": "GemSilence",
         "leaderAbility": {
             "name": "Technological Armor IV",
             "description": "160% HP for all Technological Heroes",
@@ -17790,7 +18209,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Gem Silence",
+        "counterSkill": "GemSilence",
         "leaderAbility": {
             "name": "Technological Armor V",
             "description": "180% HP for all Technological Heroes",
@@ -17817,7 +18236,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "Gem Silence",
+        "counterSkill": "GemSilence",
         "leaderAbility": {
             "name": "Technological Armor VI",
             "description": "200% HP for all Technological Heroes",
@@ -21333,7 +21752,7 @@
         "eventSkills": {
             "Warden": true
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor IV",
@@ -21360,7 +21779,7 @@
         "eventSkills": {
             "Warden": true
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor V",
@@ -21387,7 +21806,7 @@
         "eventSkills": {
             "Warden": true
         },
-        "defenderSkill": "Gem Silence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Attacker Armor VI",
