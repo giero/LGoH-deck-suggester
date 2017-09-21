@@ -1626,9 +1626,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Giant",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2216,
+        "recovery": 188,
+        "health": 3694,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -2368,9 +2368,9 @@
         "affinity": "Dark",
         "type": "Mage",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1795,
+        "recovery": 241,
+        "health": 1210,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -3330,9 +3330,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1204,
+        "recovery": 162,
+        "health": 815,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -3361,9 +3361,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1961,
+        "recovery": 263,
+        "health": 1322,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -3392,9 +3392,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3315,
+        "recovery": 444,
+        "health": 2224,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -4451,9 +4451,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -4482,9 +4482,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -4513,9 +4513,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "God",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -8748,6 +8748,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "d6e678b3",
+        "name": "Allmother",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 2197,
+        "recovery": 293,
+        "health": 1472,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Giant Might IV",
+            "description": "160% Damage for all Giant Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Giant"
+        },
+        "evolveFrom": "",
+        "evolveInto": "25ec0371"
+    },
+    {
+        "coreId": "25ec0371",
+        "name": "Allmother",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 3731,
+        "recovery": 500,
+        "health": 2504,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Giant Might V",
+            "description": "180% Damage for all Giant Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Giant"
+        },
+        "evolveFrom": "d6e678b3",
+        "evolveInto": "94e78378"
+    },
+    {
+        "coreId": "94e78378",
+        "name": "Allmother",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5430,
+        "recovery": 726,
+        "health": 3635,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Giant Might VI",
+            "description": "200% Damage for all Giant Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Giant"
+        },
+        "evolveFrom": "25ec0371",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
@@ -10605,9 +10686,9 @@
         "affinity": "Fire",
         "type": "Mage",
         "species": "Corrupt",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1380,
+        "recovery": 459,
+        "health": 598,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {},
@@ -13341,6 +13422,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "c79102f4",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 883,
+        "recovery": 293,
+        "health": 3662,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor IV",
+            "description": "160% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "",
+        "evolveInto": "9d611ef7"
+    },
+    {
+        "coreId": "9d611ef7",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor V",
+            "description": "180% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "c79102f4",
+        "evolveInto": "cd84dc95"
+    },
+    {
+        "coreId": "cd84dc95",
+        "name": "The Minotaur",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Armor VI",
+            "description": "200% HP for all Fable Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "9d611ef7",
+        "evolveInto": ""
+    },
+    {
         "coreId": "2f84b107",
         "name": "Juggernaut",
         "affinity": "Fire",
@@ -13508,9 +13670,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -13539,9 +13701,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -13570,9 +13732,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -13748,87 +13910,6 @@
             ]
         },
         "evolveFrom": "4547abbc",
-        "evolveInto": ""
-    },
-    {
-        "coreId": "c79102f4",
-        "name": "The Minotaur",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 883,
-        "recovery": 293,
-        "health": 3662,
-        "rarity": 4,
-        "awakening": 5,
-        "eventSkills": {
-            "Warden": true
-        },
-        "defenderSkill": "Fear",
-        "counterSkill": "Dispel GemSilence",
-        "leaderAbility": {
-            "name": "Fable Armor IV",
-            "description": "160% HP for all Fable Heroes",
-            "modifiers": {
-                "health": 1.6
-            },
-            "target": "Fable"
-        },
-        "evolveFrom": "",
-        "evolveInto": "9d611ef7"
-    },
-    {
-        "coreId": "9d611ef7",
-        "name": "The Minotaur",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 5,
-        "awakening": 5,
-        "eventSkills": {
-            "Warden": true
-        },
-        "defenderSkill": "Fear",
-        "counterSkill": "Dispel GemSilence",
-        "leaderAbility": {
-            "name": "Fable Armor V",
-            "description": "180% HP for all Fable Heroes",
-            "modifiers": {
-                "health": 1.8
-            },
-            "target": "Fable"
-        },
-        "evolveFrom": "c79102f4",
-        "evolveInto": "cd84dc95"
-    },
-    {
-        "coreId": "cd84dc95",
-        "name": "The Minotaur",
-        "affinity": "Fire",
-        "type": "Defender",
-        "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
-        "rarity": 6,
-        "awakening": 5,
-        "eventSkills": {
-            "Warden": true
-        },
-        "defenderSkill": "Fear",
-        "counterSkill": "Dispel GemSilence",
-        "leaderAbility": {
-            "name": "Fable Armor VI",
-            "description": "200% HP for all Fable Heroes",
-            "modifiers": {
-                "health": 2
-            },
-            "target": "Fable"
-        },
-        "evolveFrom": "9d611ef7",
         "evolveInto": ""
     },
     {
@@ -15583,9 +15664,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1038,
+        "recovery": 346,
+        "health": 1731,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -19677,9 +19758,9 @@
         "affinity": "Earth",
         "type": "Balanced",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 930,
+        "recovery": 310,
+        "health": 1551,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {},
@@ -19841,12 +19922,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power II",
-            "description": "120% Damage and HP for all Earh Heroes",
+            "description": "120% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 1.2,
                 "health": 1.2
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "",
         "evolveInto": "cf33062e"
@@ -19871,12 +19952,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power III",
-            "description": "140% Damage and HP for all Earh Heroes",
+            "description": "140% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 1.4,
                 "health": 1.4
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "6edd1bb5",
         "evolveInto": "99b49a11"
@@ -19901,12 +19982,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power IV",
-            "description": "160% Damage and HP for all Earh Heroes",
+            "description": "160% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 1.6,
                 "health": 1.6
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "cf33062e",
         "evolveInto": "9a63240f"
@@ -19931,12 +20012,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power V",
-            "description": "180% Damage and HP for all Earh Heroes",
+            "description": "180% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 1.8,
                 "health": 1.8
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "99b49a11",
         "evolveInto": "48cf8b46"
@@ -19961,12 +20042,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power VI",
-            "description": "200% Damage and HP for all Earh Heroes",
+            "description": "200% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 2,
                 "health": 2
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "9a63240f",
         "evolveInto": "c8b001ba"
@@ -19991,12 +20072,12 @@
         "counterSkill": "Absolve",
         "leaderAbility": {
             "name": "Earth Power VI",
-            "description": "200% Damage and HP for all Earh Heroes",
+            "description": "200% Damage and HP for all Earth Heroes",
             "modifiers": {
                 "attack": 2,
                 "health": 2
             },
-            "target": "Earh"
+            "target": "Earth"
         },
         "evolveFrom": "48cf8b46",
         "evolveInto": ""
@@ -20298,9 +20379,9 @@
         "affinity": "Earth",
         "type": "Warrior",
         "species": "Creature",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3058,
+        "recovery": 257,
+        "health": 5098,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -21011,6 +21092,60 @@
             "target": "Corrupt"
         },
         "evolveFrom": "",
+        "evolveInto": "921a237c"
+    },
+    {
+        "coreId": "921a237c",
+        "name": "Sharp-Toothed Wolf",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 3035,
+        "recovery": 406,
+        "health": 2034,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Autoheal",
+        "counterSkill": "None",
+        "leaderAbility": {
+            "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "4728c5f1",
+        "evolveInto": "5b69031f"
+    },
+    {
+        "coreId": "5b69031f",
+        "name": "Big Bad Wolf",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 4424,
+        "recovery": 592,
+        "health": 2959,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Autoheal",
+        "counterSkill": "None",
+        "leaderAbility": {
+            "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "921a237c",
         "evolveInto": ""
     },
     {
@@ -23047,6 +23182,335 @@
             "target": "Ancient"
         },
         "evolveFrom": "74de721d",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7594b5c9",
+        "name": "Kazaria",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Technological Blessing IV",
+            "description": "200% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "2ca45016"
+    },
+    {
+        "coreId": "2ca45016",
+        "name": "Kazaria",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Technological Blessing V",
+            "description": "225% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2.25
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "7594b5c9",
+        "evolveInto": "cdcb3979"
+    },
+    {
+        "coreId": "cdcb3979",
+        "name": "Kazaria",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5428,
+        "recovery": 726,
+        "health": 3629,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Technological Blessing VI",
+            "description": "300% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "2ca45016",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e867f829",
+        "name": "Zaldaine",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Ancient Might I",
+            "description": "175% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "31c2bcea"
+    },
+    {
+        "coreId": "31c2bcea",
+        "name": "Zaldaine",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Ancient Might II",
+            "description": "200% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "e867f829",
+        "evolveInto": "6702fb61"
+    },
+    {
+        "coreId": "6702fb61",
+        "name": "Zaldaine",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Ancient Might III",
+            "description": "225% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "31c2bcea",
+        "evolveInto": "e9ab1ca3"
+    },
+    {
+        "coreId": "e9ab1ca3",
+        "name": "Zaldaine",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Ancient Might IV",
+            "description": "300% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "6702fb61",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "dcccdcd5",
+        "name": "Winged Death",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Ancient Might I",
+            "description": "175% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8179dd25"
+    },
+    {
+        "coreId": "8179dd25",
+        "name": "Winged Death",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Ancient Might II",
+            "description": "200% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "dcccdcd5",
+        "evolveInto": "d4c891f6"
+    },
+    {
+        "coreId": "d4c891f6",
+        "name": "Winged Death",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Ancient Might III",
+            "description": "225% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "8179dd25",
+        "evolveInto": "e1babc52"
+    },
+    {
+        "coreId": "e1babc52",
+        "name": "Winged Death",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Ancient Might IV",
+            "description": "300% Damage and HP for all Earth Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "d4c891f6",
         "evolveInto": ""
     }
 ]

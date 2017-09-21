@@ -86,19 +86,19 @@ Deck.prototype.checkRequirements = function () {
 };
 
 Deck.prototype.applyAffinityBonus = function (hero, opponentAffinity) {
-    function counters(current, oponent) {
+    function counters(current, opponent) {
         // strange construction - I know, but at least it's fast enough ;)
         switch (current) {
             case 'Fire':
-                return oponent === 'Earth';
+                return opponent === 'Earth';
             case 'Earth':
-                return oponent === 'Water';
+                return opponent === 'Water';
             case 'Water':
-                return oponent === 'Fire';
+                return opponent === 'Fire';
             case 'Light':
-                return oponent === 'Dark';
+                return opponent === 'Dark';
             case 'Dark':
-                return oponent === 'Light';
+                return opponent === 'Light';
             default:
                 return false;
         }
