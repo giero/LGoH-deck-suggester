@@ -8829,6 +8829,338 @@
         "evolveInto": ""
     },
     {
+        "coreId": "4dff35e6",
+        "name": "Monk Orek",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Defender Might IV",
+            "description": "160% Damage and HP for all Defender Heroes",
+            "modifiers": {
+                "attack": 1.6,
+                "health": 1.6
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "",
+        "evolveInto": "c425f8a7"
+    },
+    {
+        "coreId": "c425f8a7",
+        "name": "Monk Orek",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Defender Might V",
+            "description": "180% Damage and HP for all Defender Heroes",
+            "modifiers": {
+                "attack": 1.8,
+                "health": 1.8
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "4dff35e6",
+        "evolveInto": "e1bfadf9"
+    },
+    {
+        "coreId": "e1bfadf9",
+        "name": "Monk Orek",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5428,
+        "recovery": 726,
+        "health": 3629,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Defender Might VI",
+            "description": "200% Damage and HP for all Defender Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": "Defender"
+        },
+        "evolveFrom": "c425f8a7",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "d828d619",
+        "name": "Sensha, Lady Of Balance",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Honored Might I",
+            "description": "175% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "3490a406"
+    },
+    {
+        "coreId": "3490a406",
+        "name": "Sensha, Lady Of Balance",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Honored Might II",
+            "description": "200% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "d828d619",
+        "evolveInto": "44c72da6"
+    },
+    {
+        "coreId": "44c72da6",
+        "name": "Sensha, Lady Of Balance",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Honored Might III",
+            "description": "225% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "3490a406",
+        "evolveInto": "752b595e"
+    },
+    {
+        "coreId": "752b595e",
+        "name": "Sensha, Lady Of Balance",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Honored Might IV",
+            "description": "300% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "44c72da6",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "98225342",
+        "name": "The Mind Taker",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Honored Might I",
+            "description": "175% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "96d7c5a8"
+    },
+    {
+        "coreId": "96d7c5a8",
+        "name": "The Mind Taker",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Honored Might II",
+            "description": "200% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "98225342",
+        "evolveInto": "a2fa6d7a"
+    },
+    {
+        "coreId": "a2fa6d7a",
+        "name": "The Mind Taker",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Honored Might III",
+            "description": "225% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "96d7c5a8",
+        "evolveInto": "5781d8a9"
+    },
+    {
+        "coreId": "5781d8a9",
+        "name": "The Mind Taker",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5418,
+        "recovery": 722,
+        "health": 3613,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Zombie",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Honored Might IV",
+            "description": "300% Damage and HP for all Light Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "a2fa6d7a",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
@@ -16517,6 +16849,126 @@
         "evolveInto": ""
     },
     {
+        "coreId": "118d38db",
+        "name": "Lyda, Guardian Angel",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 1190,
+        "recovery": 158,
+        "health": 795,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Thrill of the Hunt I",
+            "description": "175% Damage for Water Bounty Hunters",
+            "modifiers": {
+                "attack": 1.75
+            },
+            "target": [
+                "Water",
+                "Bounty Hunter"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "c3cda825"
+    },
+    {
+        "coreId": "c3cda825",
+        "name": "Lyda, Guardian Angel",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 1953,
+        "recovery": 261,
+        "health": 1310,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Thrill of the Hunt II",
+            "description": "200% Damage for Water Bounty Hunters",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": [
+                "Water",
+                "Bounty Hunter"
+            ]
+        },
+        "evolveFrom": "118d38db",
+        "evolveInto": "bf4dcab9"
+    },
+    {
+        "coreId": "bf4dcab9",
+        "name": "Lyda, Guardian Angel",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 3319,
+        "recovery": 446,
+        "health": 2228,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Thrill of the Hunt III",
+            "description": "225% Damage for Water Bounty Hunters",
+            "modifiers": {
+                "attack": 2.25
+            },
+            "target": [
+                "Water",
+                "Bounty Hunter"
+            ]
+        },
+        "evolveFrom": "c3cda825",
+        "evolveInto": "565c2c5e"
+    },
+    {
+        "coreId": "565c2c5e",
+        "name": "Lyda, Guardian Angel",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Thrill of the Hunt IV",
+            "description": "300% Damage for Water Bounty Hunters",
+            "modifiers": {
+                "attack": 3
+            },
+            "target": [
+                "Water",
+                "Bounty Hunter"
+            ]
+        },
+        "evolveFrom": "bf4dcab9",
+        "evolveInto": ""
+    },
+    {
         "coreId": "0ce786e8",
         "name": "The Beast",
         "affinity": "Water",
@@ -17925,9 +18377,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Dwarf",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 998,
+        "recovery": 85,
+        "health": 1662,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -17956,9 +18408,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Dwarf",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1626,
+        "recovery": 136,
+        "health": 2711,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -17987,9 +18439,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Dwarf",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2766,
+        "recovery": 234,
+        "health": 4610,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -18018,9 +18470,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Dwarf",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4014,
+        "recovery": 335,
+        "health": 6688,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
