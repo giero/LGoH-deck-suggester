@@ -3,11 +3,18 @@ var allHeroes = new Team('all', sessionStorage);
 
 teamHeroes.load();
 
-$.getJSON("data/heroes_all.json", function (json) {
-    json.forEach(function (heroStat) {
+var heroLoader = new HeroLoader();
+heroLoader.load(function (heroStats) {
+    heroStats.forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
 });
+
+// $.getJSON("data/heroes_all.json", function (json) {
+//     json.forEach(function (heroStat) {
+//         allHeroes.addHero(heroStat);
+//     });
+// });
 
 var skills = new Skills();
 $.getJSON("data/skills_all.json", function (json) {
