@@ -19030,6 +19030,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "fbb69f6b",
+        "name": "Urru The Unliving",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Ancient",
+        "attack": 883,
+        "recovery": 293,
+        "health": 3662,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Ancient Blessing IV",
+            "description": "260% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "",
+        "evolveInto": "277bcf3f"
+    },
+    {
+        "coreId": "277bcf3f",
+        "name": "Urru The Unliving",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Ancient",
+        "attack": 1501,
+        "recovery": 500,
+        "health": 6219,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Ancient Blessing V",
+            "description": "280% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "fbb69f6b",
+        "evolveInto": "a3564a0e"
+    },
+    {
+        "coreId": "a3564a0e",
+        "name": "Urru The Unliving",
+        "affinity": "Water",
+        "type": "Defender",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Ancient Blessing VI",
+            "description": "300% REC for all Ancient Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Ancient"
+        },
+        "evolveFrom": "277bcf3f",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",

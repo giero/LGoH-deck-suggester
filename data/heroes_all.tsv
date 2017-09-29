@@ -695,6 +695,9 @@ water	Skybound	***	6	Attacker	Demigod				Water Demigod Might I: 175% Damage and 
 water	Skybound	****	9	Attacker	Demigod				Water Demigod Might II: 200% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	2x					Skybound ***	Skybound *****
 water	Skybound	*****	15	Attacker	Demigod				Water Demigod Might III: 225% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	3x					Skybound ****	Skybound ******
 water	Skybound	******	30	Attacker	Demigod	5418	722	3613	Water Demigod Might IV: 300% Damage and HP for all Water Demigod Heroes	Panic	Dispel Dodge	4x				Eternal Flight: Create 4 Water Gems. Destroy 4 Earth Gems.	Skybound *****	
+water	Urru The Unliving	****		Defender	Ancient	883	293	3662	Ancient Blessing IV: 260% REC for all Ancient Heroes	Toxin	Dispel GemSilence				yes	Frost Talon: Attack for 500% HP.		Urru The Unliving *****
+water	Urru The Unliving	*****		Defender	Ancient	1501	500	6219	Ancient Blessing V: 280% REC for all Ancient Heroes	Toxin	Dispel GemSilence				yes	Frost Talon: Attack for 750% HP.	Urru The Unliving ****	Urru The Unliving ******
+water	Urru The Unliving	******		Defender	Ancient				Ancient Blessing VI: 300% REC for all Ancient Heroes	Toxin	Dispel GemSilence				yes	Frost Talon: Attack for 1000% HP.	Urru The Unliving *****	
 earth	Yoran Nomad	*	2	Balanced	Human	188	62	314	Balanced Might I: 110% Damage for all Balanced Heroes	Poison	Unknown					Poison Blade: Attack all enemies for 200% of ATK for 2 turns		Yoran Rogue **
 earth	Yoran Rogue	**	4	Balanced	Human	332	111	552	Balanced Might II: 120% Damage for all Balanced Heroes	Poison	Dispel Dodge					Poison Cloud: Attack all enemies for 250%of ATK for 2 turns	Yoran Nomad *	
 earth	Deepmoss Initiate	*	2	Healer	Human	126	104	210	Earth Blessing I: 110% REC for all Earth Heroes	Regen	Unknown					Minera's Kiss: Heal for 300% of REC and Convert 3 Earth Gems into Heart Gems		Deepmoss Druid **
