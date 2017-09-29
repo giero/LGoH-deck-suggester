@@ -128,9 +128,9 @@ dark	Tor	***	6	Attacker	Demigod	1204	162	815	Valhallan Might I: 175% Damage and 
 dark	Tor	****	9	Attacker	Demigod	1961	263	1322	Valhallan Might II: 200% Damage and HP for all Dark Demigods Heroes	Panic	Dispel Zombie	2x					Tor ***	Tor *****
 dark	Tor	*****	15	Attacker	Demigod	3315	444	2224	Valhallan Might III: 225% Damage and HP for all Dark Demigods Heroes	Panic	Dispel Zombie	3x					Tor ****	Tor ******
 dark	Tor	******	30	Attacker	Demigod	4814	642	3209	Valhallan Might IV: 300% Damage and HP for all Dark Demigods Heroes	Panic	Dispel Zombie	4x				Mjolnir: Attack a Light enemy for 1500% ATK.	Tor *****	
-dark	Gargalank	****	9	Defender	Goblin	250	83	1034	Ancient Talent IV: 260% REC, 160% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 500% HP.		Gargalank *****
-dark	Gargalank	*****	15	Defender	Goblin	467	156	1927	Ancient Talent V: 280% REC, 180% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 750% HP.	Gargalank ****	Gargalank ******
-dark	Gargalank	******	30	Defender	Goblin	688	229	2851	Ancient Talent VI: 300% REC, 200% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 1000% HP.	Gargalank *****	
+dark	Gargalank	****	9	Defender	Goblin	817	271	3390	Ancient Talent IV: 260% REC, 160% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 500% HP.		Gargalank *****
+dark	Gargalank	*****	15	Defender	Goblin				Ancient Talent V: 280% REC, 180% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 750% HP.	Gargalank ****	Gargalank ******
+dark	Gargalank	******	30	Defender	Goblin	2020	672	8385	Ancient Talent VI: 300% REC, 200% ATK and HP for Ancient Heroes	Thorns	Dispel Drain				yes	Goblin Horde: Attack for 1000% HP.	Gargalank *****	
 dark	Osiris	****	9	Attacker	Ancient	2039	273	1372	Ancient Might IV: 160% Damage for all Ancient Heroes	Poison	Dispel Dodge			2x		Eye of Osiris: Create 2 Dark Gems. Destroy 2 Light Gems.		Osiris *****
 dark	Osiris	*****	15	Attacker	Ancient	3449	462	2310	Ancient Might V: 180% Damage for all Ancient Heroes	Poison	Dispel Dodge			3x		Eye of Osiris: Create 3 Dark Gems. Destroy 3 Light Gems.	Osiris ****	Osiris ******
 dark	Osiris	******	30	Attacker	Ancient	5028	672	3361	Ancient Might VI: 200% Damage for all Ancient Heroes	Poison	Dispel Dodge			4x		Eye of Osiris: Create 4 Dark Gems. Destroy 4 Light Gems.	Osiris *****	
