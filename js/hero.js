@@ -34,11 +34,34 @@ Object.defineProperty(Hero.prototype, 'power', {
             return 0;
         }
 
-        if (this.eventSkills.hasOwnProperty('Warden')) {
-            return Math.round(this.attack / 2 + this.recovery * 1.5 + this.health * .3);
+        var power = this.attack + this.recovery + this.health;
+
+        switch (this.type) {
+            case 'Attacker':
+            case 'Balanced':
+            case 'Guardian':
+                power *= 1/3;
+                break;
+
+            case 'Warrior':
+            case 'Defender':
+                power *= 3/11;
+                break;
+
+            case 'Healer':
+            case 'Mage':
+                power *= 3/7;
+                break;
+
+            default:
+                return 0;
         }
 
-        return Math.round(this.attack / 3 + this.recovery + this.health / 5);
+        if (this.eventSkills.hasOwnProperty('Warden')) {
+            power *= 1.5;
+        }
+
+        return Math.floor(power);
     }
 });
 

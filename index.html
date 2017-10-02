@@ -166,6 +166,7 @@
                 <th>Attack</th>
                 <th>Recovery</th>
                 <th>Health</th>
+                <th>Power</th>
                 <th>Event Skills</th>
                 <th>Defender Skill</th>
                 <th>Counter Skill</th>
@@ -182,6 +183,7 @@
                 <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="attack" :title="editable ? 'edit stat' : ''">{{ hero.attack }}</span></td>
                 <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="recovery" :title="editable ? 'edit stat' : ''">{{ hero.recovery }}</span></td>
                 <td><span :class="{'hero-editable-stat editable-click': editable}" data-stat="health" :title="editable ? 'edit stat' : ''">{{ hero.health }}</span></td>
+                <td><span data-stat="power">{{ hero.power }}</span></td>
                 <td>
                     <span class="label label-primary event-skill"
                           v-for="eventSkill in ['Slayer', 'Bounty Hunter', 'Commander']"
