@@ -50,17 +50,19 @@ HeroLoader.prototype.parse = function (heroData) {
 
 
         for (var id in countableSkills) {
-            matches = lvlRegex.exec(row[id]);
-            if (matches === null) {
-                throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
-            }
-            skillValue = parseInt(matches[1]);
+            if (row[id].length) {
+                matches = lvlRegex.exec(row[id]);
+                if (matches === null) {
+                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
+                }
+                skillValue = parseInt(matches[1]);
 
-            if (skillValue < 2 || skillValue > 4) {
-                throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
-            }
+                if (skillValue < 2 || skillValue > 4) {
+                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
+                }
 
-            eventSkills['Slayer'] = skillValue;
+                eventSkills['Slayer'] = skillValue;
+            }
         }
 
         if (row[15].length) {
