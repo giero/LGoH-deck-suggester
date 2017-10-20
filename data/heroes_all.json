@@ -1761,9 +1761,9 @@
         "affinity": "Dark",
         "type": "Attacker",
         "species": "Corrupt",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1717,
+        "recovery": 231,
+        "health": 1158,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {},
@@ -4691,6 +4691,416 @@
             ]
         },
         "evolveFrom": "e40486f9",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "cd5377f6",
+        "name": "Bad Sector",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 2197,
+        "recovery": 293,
+        "health": 1472,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Attacker Blessing IV",
+            "description": "260% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "",
+        "evolveInto": "a46a05be"
+    },
+    {
+        "coreId": "a46a05be",
+        "name": "Bad Sector",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 3731,
+        "recovery": 500,
+        "health": 2504,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Attacker Blessing V",
+            "description": "280% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "cd5377f6",
+        "evolveInto": "50ff9fb2"
+    },
+    {
+        "coreId": "50ff9fb2",
+        "name": "Bad Sector",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5430,
+        "recovery": 726,
+        "health": 3635,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Attacker Blessing VI",
+            "description": "300% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "a46a05be",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "16f645a9",
+        "name": "Leifir",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Human Blessing IV",
+            "description": "260% REC for all Human Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "ad2db3ea"
+    },
+    {
+        "coreId": "ad2db3ea",
+        "name": "Leifir",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Human Blessing V",
+            "description": "280% REC for all Human Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "16f645a9",
+        "evolveInto": "eadf0f47"
+    },
+    {
+        "coreId": "eadf0f47",
+        "name": "Leifir",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 5628,
+        "recovery": 752,
+        "health": 3761,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Human Blessing VI",
+            "description": "300% REC for all Human Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "ad2db3ea",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "debe467a",
+        "name": "Sigrid",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Fable Might I",
+            "description": "175% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "ae476a87"
+    },
+    {
+        "coreId": "ae476a87",
+        "name": "Sigrid",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Fable Might II",
+            "description": "200% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "debe467a",
+        "evolveInto": "61526ffc"
+    },
+    {
+        "coreId": "61526ffc",
+        "name": "Sigrid",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Fable Might III",
+            "description": "225% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "ae476a87",
+        "evolveInto": "8cba595a"
+    },
+    {
+        "coreId": "8cba595a",
+        "name": "Sigrid",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Might",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Fable Might IV",
+            "description": "300% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "61526ffc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "8574ff3a",
+        "name": "Night Saber",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dark Fable Might I",
+            "description": "175% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "b13cd622"
+    },
+    {
+        "coreId": "b13cd622",
+        "name": "Night Saber",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dark Fable Might II",
+            "description": "200% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "8574ff3a",
+        "evolveInto": "306fbff1"
+    },
+    {
+        "coreId": "306fbff1",
+        "name": "Night Saber",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dark Fable Might III",
+            "description": "225% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "b13cd622",
+        "evolveInto": "9a0dca49"
+    },
+    {
+        "coreId": "9a0dca49",
+        "name": "Night Saber",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Fable",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Zombie",
+        "leaderAbility": {
+            "name": "Dark Fable Might IV",
+            "description": "300% Damage and HP for all Dark Fable Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Fable"
+            ]
+        },
+        "evolveFrom": "306fbff1",
         "evolveInto": ""
     },
     {
@@ -8918,9 +9328,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
@@ -8949,9 +9359,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -8980,9 +9390,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Honored",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -10862,12 +11272,14 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Human",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1034,
+        "recovery": 344,
+        "health": 1721,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -10892,7 +11304,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -10917,7 +11331,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
         "defenderSkill": "Regen",
         "counterSkill": "Dispel Poison",
         "leaderAbility": {
@@ -11174,9 +11590,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Fable",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1719,
+        "recovery": 231,
+        "health": 1162,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -11888,9 +12304,9 @@
         "affinity": "Fire",
         "type": "Balanced",
         "species": "Spirit",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 1082,
+        "recovery": 360,
+        "health": 1805,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {},
@@ -13264,6 +13680,7 @@
         "awakening": 5,
         "eventSkills": {
             "Slayer": 3,
+            "Bounty Hunter": 3,
             "Commander": 3
         },
         "defenderSkill": "Unknown",
@@ -14242,6 +14659,211 @@
             ]
         },
         "evolveFrom": "4547abbc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "d844cbf5",
+        "name": "Penelope The Swift",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1038,
+        "recovery": 87,
+        "health": 1728,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Demigod Might I",
+            "description": "175% Damage and HP for all Fire Demigod Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "28615492"
+    },
+    {
+        "coreId": "28615492",
+        "name": "Penelope The Swift",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1692,
+        "recovery": 142,
+        "health": 2821,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Demigod Might II",
+            "description": "200% Damage and HP for all Fire Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "d844cbf5",
+        "evolveInto": "bc271d46"
+    },
+    {
+        "coreId": "bc271d46",
+        "name": "Penelope The Swift",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Demigod Might III",
+            "description": "225% Damage and HP for all Fire Demigod Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "28615492",
+        "evolveInto": "b5674f45"
+    },
+    {
+        "coreId": "b5674f45",
+        "name": "Penelope The Swift",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4174,
+        "recovery": 347,
+        "health": 6956,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Demigod Might IV",
+            "description": "300% Damage and HP for all Fire Demigod Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "bc271d46",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "03ac33cb",
+        "name": "Vulcan's Revenge",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Dragon",
+        "attack": 915,
+        "recovery": 305,
+        "health": 3796,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Human Armor IV",
+            "description": "160% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "",
+        "evolveInto": "9a1fe93c"
+    },
+    {
+        "coreId": "9a1fe93c",
+        "name": "Vulcan's Revenge",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Dragon",
+        "attack": 1557,
+        "recovery": 518,
+        "health": 6447,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Human Armor V",
+            "description": "180% HP for all Human Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "03ac33cb",
+        "evolveInto": "d8ef7391"
+    },
+    {
+        "coreId": "d8ef7391",
+        "name": "Vulcan's Revenge",
+        "affinity": "Fire",
+        "type": "Defender",
+        "species": "Dragon",
+        "attack": 2260,
+        "recovery": 752,
+        "health": 9385,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Human Armor V",
+            "description": "200% HP for all Human Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Human"
+        },
+        "evolveFrom": "9a1fe93c",
         "evolveInto": ""
     },
     {
@@ -19111,6 +19733,335 @@
         "evolveInto": ""
     },
     {
+        "coreId": "ba61297e",
+        "name": "Kw'uk The Hunter",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "",
+        "evolveInto": "6b767d8c"
+    },
+    {
+        "coreId": "6b767d8c",
+        "name": "Kw'uk The Hunter",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "ba61297e",
+        "evolveInto": "9f700057"
+    },
+    {
+        "coreId": "9f700057",
+        "name": "Kw'uk The Hunter",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Warrior Might VI",
+            "description": "200% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "6b767d8c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "da98a41c",
+        "name": "Priestess C'reen",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Water Honored Might I",
+            "description": "175% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "0a2f89ed"
+    },
+    {
+        "coreId": "0a2f89ed",
+        "name": "Priestess C'reen",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Water Honored Might II",
+            "description": "200% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "da98a41c",
+        "evolveInto": "fca48252"
+    },
+    {
+        "coreId": "fca48252",
+        "name": "Priestess C'reen",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Water Honored Might III",
+            "description": "225% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "0a2f89ed",
+        "evolveInto": "389d32fc"
+    },
+    {
+        "coreId": "389d32fc",
+        "name": "Priestess C'reen",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Water Honored Might IV",
+            "description": "300% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "fca48252",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "6d3a35b7",
+        "name": "Tundra Queen",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water Honored Might I",
+            "description": "175% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "7a045322"
+    },
+    {
+        "coreId": "7a045322",
+        "name": "Tundra Queen",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water Honored Might II",
+            "description": "200% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "6d3a35b7",
+        "evolveInto": "e4929cc5"
+    },
+    {
+        "coreId": "e4929cc5",
+        "name": "Tundra Queen",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water Honored Might III",
+            "description": "225% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "7a045322",
+        "evolveInto": "94661cf4"
+    },
+    {
+        "coreId": "94661cf4",
+        "name": "Tundra Queen",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water Honored Might IV",
+            "description": "300% Damage and HP for all Water Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "e4929cc5",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",
@@ -20944,7 +21895,9 @@
         "health": 1711,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 2
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -20969,7 +21922,9 @@
         "health": 0,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 3
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
@@ -20994,7 +21949,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 4
+        },
         "defenderSkill": "Siphon",
         "counterSkill": "Dispel Drain",
         "leaderAbility": {
