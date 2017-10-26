@@ -25002,5 +25002,446 @@
         },
         "evolveFrom": "d4c891f6",
         "evolveInto": ""
+    },
+    {
+        "coreId": "909854ad",
+        "name": "Lady of Brambles",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 1758,
+        "recovery": 148,
+        "health": 2931,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Creature Blessing IV",
+            "description": "260% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": "f06aaecc"
+    },
+    {
+        "coreId": "f06aaecc",
+        "name": "Lady of Brambles",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Creature Blessing V",
+            "description": "280% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "909854ad",
+        "evolveInto": "4e250435"
+    },
+    {
+        "coreId": "4e250435",
+        "name": "Lady of Brambles",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Creature Blessing VI",
+            "description": "300% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "f06aaecc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "0757ca33",
+        "name": "Frankenstein's Monster",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 2283,
+        "recovery": 307,
+        "health": 1534,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Dwarf Blessing IV",
+            "description": "260% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "",
+        "evolveInto": "3f98b8b2"
+    },
+    {
+        "coreId": "3f98b8b2",
+        "name": "Frankenstein's Monster",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Dwarf Blessing V",
+            "description": "280% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "0757ca33",
+        "evolveInto": "246a4123"
+    },
+    {
+        "coreId": "246a4123",
+        "name": "Frankenstein's Monster",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5628,
+        "recovery": 752,
+        "health": 3761,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Dwarf Blessing VI",
+            "description": "300% REC for all Dwarf Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Dwarf"
+        },
+        "evolveFrom": "3f98b8b2",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "2c4fbeff",
+        "name": "Wicked Witch",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might I",
+            "description": "175% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "4084543b"
+    },
+    {
+        "coreId": "4084543b",
+        "name": "Wicked Witch",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might II",
+            "description": "200% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "2c4fbeff",
+        "evolveInto": "15a1ded4"
+    },
+    {
+        "coreId": "15a1ded4",
+        "name": "Wicked Witch",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might III",
+            "description": "225% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "4084543b",
+        "evolveInto": "223eb033"
+    },
+    {
+        "coreId": "223eb033",
+        "name": "Wicked Witch",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might IV",
+            "description": "300% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "15a1ded4",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "399954a2",
+        "name": "The Mummy",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might I",
+            "description": "175% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "c4b3e920"
+    },
+    {
+        "coreId": "c4b3e920",
+        "name": "The Mummy",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might II",
+            "description": "200% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "399954a2",
+        "evolveInto": "608bfd22"
+    },
+    {
+        "coreId": "608bfd22",
+        "name": "The Mummy",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might III",
+            "description": "225% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "c4b3e920",
+        "evolveInto": "002b207d"
+    },
+    {
+        "coreId": "002b207d",
+        "name": "The Mummy",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might IV",
+            "description": "300% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "608bfd22",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7d295f4c",
+        "name": "Vazgore the Merciless",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 5
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might IV",
+            "description": "300% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
     }
 ]
