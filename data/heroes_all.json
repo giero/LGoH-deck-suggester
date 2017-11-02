@@ -1653,9 +1653,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Giant",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3224,
+        "recovery": 273,
+        "health": 5372,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -6659,9 +6659,9 @@
         "affinity": "Light",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4274,
+        "recovery": 1424,
+        "health": 7124,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -8977,9 +8977,9 @@
         "affinity": "Light",
         "type": "Warrior",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2878,
+        "recovery": 244,
+        "health": 4796,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -9568,6 +9568,335 @@
             ]
         },
         "evolveFrom": "a2fa6d7a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7322af1b",
+        "name": "Paladin Ivon",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 2283,
+        "recovery": 307,
+        "health": 1534,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Honored Might IV",
+            "description": "160% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "",
+        "evolveInto": "dc87b0e0"
+    },
+    {
+        "coreId": "dc87b0e0",
+        "name": "Paladin Ivon",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Honored Might V",
+            "description": "180% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "7322af1b",
+        "evolveInto": "9195e10e"
+    },
+    {
+        "coreId": "9195e10e",
+        "name": "Paladin Ivon",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 5628,
+        "recovery": 752,
+        "health": 3761,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Honored Might VI",
+            "description": "200% Damage for all Honored Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Honored"
+        },
+        "evolveFrom": "dc87b0e0",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "4f09cc38",
+        "name": "Cleric Gerin",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Dren",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Dren Might I",
+            "description": "175% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "031ea901"
+    },
+    {
+        "coreId": "031ea901",
+        "name": "Cleric Gerin",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Dren",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Dren Might II",
+            "description": "200% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "4f09cc38",
+        "evolveInto": "e22c86b3"
+    },
+    {
+        "coreId": "e22c86b3",
+        "name": "Cleric Gerin",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Dren",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Dren Might III",
+            "description": "225% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "031ea901",
+        "evolveInto": "65e90b93"
+    },
+    {
+        "coreId": "65e90b93",
+        "name": "Cleric Gerin",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Dren",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Judgement",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Light Dren Might IV",
+            "description": "300% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "e22c86b3",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "79662a9f",
+        "name": "Holy Wing",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Dren Might I",
+            "description": "175% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8095f64a"
+    },
+    {
+        "coreId": "8095f64a",
+        "name": "Holy Wing",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Dren Might II",
+            "description": "200% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "79662a9f",
+        "evolveInto": "3d1de2fc"
+    },
+    {
+        "coreId": "3d1de2fc",
+        "name": "Holy Wing",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Dren Might III",
+            "description": "225% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "8095f64a",
+        "evolveInto": "b3d8e534"
+    },
+    {
+        "coreId": "b3d8e534",
+        "name": "Holy Wing",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Dren Might IV",
+            "description": "300% Damage and HP for all Light Dren Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Dren"
+            ]
+        },
+        "evolveFrom": "3d1de2fc",
         "evolveInto": ""
     },
     {
