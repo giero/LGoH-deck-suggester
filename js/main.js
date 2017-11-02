@@ -1,20 +1,23 @@
+var config = {
+    apiKey: "AIzaSyDynzM8igTMnCKm1FO1rQwrUI5g-HXbCiw",
+    authDomain: "lgoh-deck-suggester.firebaseapp.com",
+    databaseURL: "https://lgoh-deck-suggester.firebaseio.com",
+    projectId: "lgoh-deck-suggester",
+    storageBucket: "",
+    messagingSenderId: "168189621995"
+};
+firebase.initializeApp(config);
+
 var teamHeroes = new Team('user', localStorage);
 var allHeroes = new Team('all', sessionStorage);
 
 teamHeroes.load();
 
-var heroLoader = new HeroLoader();
-heroLoader.load(function (heroStats) {
-    heroStats.forEach(function (heroStat) {
+firebase.database().ref('heroes').once('value').then(function(snapshot) {
+    snapshot.val().forEach(function (heroStat) {
         allHeroes.addHero(heroStat);
     });
 });
-
-// $.getJSON("data/heroes_all.json", function (json) {
-//     json.forEach(function (heroStat) {
-//         allHeroes.addHero(heroStat);
-//     });
-// });
 
 var skills = new Skills();
 $.getJSON("data/skills_all.json", function (json) {
@@ -403,6 +406,23 @@ new Vue({
     el: '#app',
     data: {
         teamHeroes: teamHeroes
+    },
+    methods: {
+        updateHeroesPool: function () {
+            var hl = new HeroLoader();
+            hl.load(function(heroesData) {
+                firebase.database().ref('heroes')
+                    .set(heroesData)
+                    .then(function () {
+                        teamHeroes.heroes = [];
+                        teamHeroes.addHeroes(heroesData);
+                        if (heroesData.name === 'Holy Wing') {
+                            console.log(heroesData);
+                        }
+                        console.log('updated');
+                    });
+            });
+        }
     },
     mounted: function () {
         $('#team-heroes-list-content').editable({

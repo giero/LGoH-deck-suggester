@@ -53,12 +53,12 @@ HeroLoader.prototype.parse = function (heroData) {
             if (row[id].length) {
                 matches = lvlRegex.exec(row[id]);
                 if (matches === null) {
-                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
+                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x', '4x' or '5x' (current event cards will lose their high multiplier eventually).");
                 }
                 skillValue = parseInt(matches[1]);
 
-                if (skillValue < 2 || skillValue > 4) {
-                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x' or '4x'");
+                if (skillValue < 2 || skillValue > 5) {
+                    throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x', '4x' or '5x' (current event cards will lose their high multiplier eventually).");
                 }
 
                 eventSkills['Slayer'] = skillValue;
@@ -67,7 +67,7 @@ HeroLoader.prototype.parse = function (heroData) {
 
         if (row[15].length) {
             if (row[15] !== 'yes') {
-                throw new Error('Invalid Warden value for ' + row[1] + ". Only allowed value is 'yes'");
+                throw new Error('Invalid Warden value for ' + row[1] + ". Only allowed value is 'yes'.");
             }
 
             eventSkills['Warden'] = true;

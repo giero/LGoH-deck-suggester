@@ -13,7 +13,7 @@ function Hero(props) {
     this.recovery = props.recovery;
     this.health = props.health;
 
-    this.eventSkills = props.eventSkills;
+    this.eventSkills = props.eventSkills || {};
     this.defenderSkill = props.defenderSkill;
     this.counterSkill = props.counterSkill;
     this.leaderAbility = props.leaderAbility;
