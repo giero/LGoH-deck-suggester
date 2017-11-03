@@ -61,7 +61,7 @@ HeroLoader.prototype.parse = function (heroData) {
                     throw new Error('Invalid ' + countableSkills[id] + ' value for ' + row[1] + ". Should be '2x', '3x', '4x' or '5x' (current event cards will lose their high multiplier eventually).");
                 }
 
-                eventSkills['Slayer'] = skillValue;
+                eventSkills[countableSkills[id]] = skillValue;
             }
         }
 
@@ -123,7 +123,7 @@ HeroLoader.prototype.parse = function (heroData) {
             leaderAbilityValues[convertStats(leaderAbilityMatches[4])] = parseFloat(leaderAbilityMatches[3]) / 100;
             leaderAbilityValues[convertStats(leaderAbilityMatches[6])] = parseFloat(leaderAbilityMatches[5]) / 100;
             leaderAbilityValues[convertStats(leaderAbilityMatches[7])] = parseFloat(leaderAbilityMatches[5]) / 100;
-        } else if (leaderAbilityMatches = /^([^:]+): ((\d+)% (Damage|HP|RCV|REC), (Damage|HP|RCV|REC) and (Damage|HP|RCV|REC) for (\w+( \w+)?) Heroes)$/.exec(leaderAbilityDescription)) {
+        } else if (leaderAbilityMatches = /^([^:]+): ((\d+)% (Damage|HP|RCV|REC), (Damage|HP|RCV|REC) and (Damage|HP|RCV|REC) for (all )?(\w+( \w+)?) Heroes)$/.exec(leaderAbilityDescription)) {
             leaderAbilityTarget = leaderAbilityMatches[8].replace(/s$/, '');
             leaderAbilityTarget = leaderAbilityTarget.indexOf(' ') >= 0
                 ? leaderAbilityTarget.split(' ')
