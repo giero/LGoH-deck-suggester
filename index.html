@@ -270,7 +270,7 @@
                     <div class="col-sm-4" v-for="(id, skill) in {'Slayer': 'slayer', 'Bounty Hunter': 'bounty-hunter', 'Commander': 'commander'}">
                         <select class="form-control selectpicker" :id="'team-hero-' + id" :name="'eventSkills['+skill+']'" :title="skill">
                             <option value=""></option>
-                            <option v-for="i in [2,3,4,5,7,10]" :value="i">{{ i }}x</option>
+                            <option v-for="i in [2,3,4,5,7,10,13]" :value="i">{{ i }}x</option>
                         </select>
                     </div>
                 </div>

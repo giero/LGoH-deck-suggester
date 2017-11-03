@@ -149,8 +149,14 @@ HeroLoader.prototype.parse = function (heroData) {
             throw new Error('Invalid value or number of stars for ' + heroData[1]);
         }
 
+        var heroName = heroData[1] + ' ' + row[2];
+
         if (['fire', 'earth', 'water', 'light', 'dark'].indexOf(heroData[0]) < 0) {
-            throw new Error('Invalid affinity for ' + heroData[1]);
+            throw new Error('Invalid affinity for ' + heroName);
+        }
+
+        if (['Attacker', 'Balanced', 'Defender', 'Guardian', 'Healer', 'Mage', 'Warrior'].indexOf(heroData[4]) < 0) {
+            throw new Error('Invalid class for ' + heroName);
         }
     })(heroData);
 

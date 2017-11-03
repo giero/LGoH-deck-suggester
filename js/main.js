@@ -409,18 +409,20 @@ new Vue({
     },
     methods: {
         updateHeroesPool: function () {
-            var hl = new HeroLoader();
-            hl.load(function(heroesData) {
-                firebase.database().ref('heroes')
-                    .set(heroesData)
-                    .then(function () {
-                        teamHeroes.heroes = [];
-                        teamHeroes.addHeroes(heroesData);
-                        if (heroesData.name === 'Holy Wing') {
-                            console.log(heroesData);
-                        }
-                        console.log('updated');
-                    });
+            var dialog = bootbox.dialog({
+                title: 'Updating heroes database ...',
+                message: '<p><i class="fa fa-spin fa-spinner"></i>... updating ...</p>'
+            });
+
+            dialog.init(function(){
+                var hl = new HeroLoader();
+                hl.load(function(heroesData) {
+                    firebase.database().ref('heroes')
+                        .set(heroesData)
+                        .then(function () {
+                            dialog.find('.bootbox-body').html("... and it done - refresh page now");
+                        });
+                });
             });
         }
     },
