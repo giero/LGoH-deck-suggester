@@ -7556,7 +7556,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing IV",
             "description": "260% REC for all Light Heroes",
@@ -7583,7 +7583,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing V",
             "description": "280% REC for all Light Heroes",
@@ -7610,7 +7610,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing VI",
             "description": "300% REC for all Light Heroes",
@@ -13242,9 +13242,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3862,
+        "recovery": 325,
+        "health": 6434,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -13785,9 +13785,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2041,
+        "recovery": 275,
+        "health": 1374,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -15193,6 +15193,335 @@
             "target": "Human"
         },
         "evolveFrom": "9a1fe93c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "10cb1077",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor IV",
+            "description": "160% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "3c08b55a"
+    },
+    {
+        "coreId": "3c08b55a",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor V",
+            "description": "180% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "10cb1077",
+        "evolveInto": "e1981428"
+    },
+    {
+        "coreId": "e1981428",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5628,
+        "recovery": 752,
+        "health": 3761,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor VI",
+            "description": "200% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "3c08b55a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "186d5230",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might I",
+            "description": "175% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "e5a1a9e1"
+    },
+    {
+        "coreId": "e5a1a9e1",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might II",
+            "description": "200% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "186d5230",
+        "evolveInto": "9e51a49c"
+    },
+    {
+        "coreId": "9e51a49c",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might III",
+            "description": "255% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "e5a1a9e1",
+        "evolveInto": "51f7e1f0"
+    },
+    {
+        "coreId": "51f7e1f0",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might IV",
+            "description": "300% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "9e51a49c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "59d32bcf",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might I",
+            "description": "175% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "a89ed726"
+    },
+    {
+        "coreId": "a89ed726",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might II",
+            "description": "200% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "59d32bcf",
+        "evolveInto": "23433d5b"
+    },
+    {
+        "coreId": "23433d5b",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might III",
+            "description": "255% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "a89ed726",
+        "evolveInto": "bcb46225"
+    },
+    {
+        "coreId": "bcb46225",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might IV",
+            "description": "300% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "23433d5b",
         "evolveInto": ""
     },
     {
@@ -20388,6 +20717,87 @@
             ]
         },
         "evolveFrom": "e4929cc5",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "4db36d9b",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 915,
+        "recovery": 758,
+        "health": 1524,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "",
+        "evolveInto": "ccb81f86"
+    },
+    {
+        "coreId": "ccb81f86",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 1557,
+        "recovery": 1289,
+        "health": 2594,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "4db36d9b",
+        "evolveInto": "bfd3c9cc"
+    },
+    {
+        "coreId": "bfd3c9cc",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 2260,
+        "recovery": 1876,
+        "health": 3767,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "ccb81f86",
         "evolveInto": ""
     },
     {
@@ -25633,7 +26043,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might I",
             "description": "175% Damage and HP for all Earth Corrupt Heroes",
@@ -25664,7 +26074,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might II",
             "description": "200% Damage and HP for all Earth Corrupt Heroes",
@@ -25695,7 +26105,7 @@
             "Commander": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might III",
             "description": "225% Damage and HP for all Earth Corrupt Heroes",
@@ -25726,7 +26136,7 @@
             "Commander": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might IV",
             "description": "300% Damage and HP for all Earth Corrupt Heroes",
@@ -25757,7 +26167,7 @@
             "Commander": 5
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might IV",
             "description": "300% Damage and HP for all Earth Corrupt Heroes",
