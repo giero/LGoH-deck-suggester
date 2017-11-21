@@ -20972,6 +20972,335 @@
         "evolveInto": ""
     },
     {
+        "coreId": "6f52865e",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b51ec69b"
+    },
+    {
+        "coreId": "b51ec69b",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "6f52865e",
+        "evolveInto": "7efdbe4a"
+    },
+    {
+        "coreId": "7efdbe4a",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "b51ec69b",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e3116ca7",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might I",
+            "description": "175% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "256fcc99"
+    },
+    {
+        "coreId": "256fcc99",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might II",
+            "description": "200% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "e3116ca7",
+        "evolveInto": "06212b24"
+    },
+    {
+        "coreId": "06212b24",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might III",
+            "description": "225% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "256fcc99",
+        "evolveInto": "a9db9080"
+    },
+    {
+        "coreId": "a9db9080",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might IV",
+            "description": "300% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "06212b24",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e3714da3",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might I",
+            "description": "175% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "b5da5758"
+    },
+    {
+        "coreId": "b5da5758",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might II",
+            "description": "200% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "e3714da3",
+        "evolveInto": "cf0ec4f3"
+    },
+    {
+        "coreId": "cf0ec4f3",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might III",
+            "description": "225% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "b5da5758",
+        "evolveInto": "5e6a4f97"
+    },
+    {
+        "coreId": "5e6a4f97",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might IV",
+            "description": "300% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "cf0ec4f3",
+        "evolveInto": ""
+    },
+    {
         "coreId": "b443d34f",
         "name": "Yoran Nomad",
         "affinity": "Earth",
