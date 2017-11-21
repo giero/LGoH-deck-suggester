@@ -5104,6 +5104,87 @@
         "evolveInto": ""
     },
     {
+        "coreId": "fbeb1b96",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 1822,
+        "recovery": 152,
+        "health": 3039,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing IV",
+            "description": "260% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d8501a29"
+    },
+    {
+        "coreId": "d8501a29",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing V",
+            "description": "280% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "fbeb1b96",
+        "evolveInto": "10eaa058"
+    },
+    {
+        "coreId": "10eaa058",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing VI",
+            "description": "300% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "d8501a29",
+        "evolveInto": ""
+    },
+    {
         "coreId": "27f917c6",
         "name": "Griffin Pup",
         "affinity": "Light",
@@ -6064,7 +6145,9 @@
         "health": 1030,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -6089,7 +6172,9 @@
         "health": 1750,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -6114,7 +6199,9 @@
         "health": 2559,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -9897,6 +9984,87 @@
             ]
         },
         "evolveFrom": "3d1de2fc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7804a642",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 1822,
+        "recovery": 152,
+        "health": 3039,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b1564ff5"
+    },
+    {
+        "coreId": "b1564ff5",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "7804a642",
+        "evolveInto": "26063d6c"
+    },
+    {
+        "coreId": "26063d6c",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "b1564ff5",
         "evolveInto": ""
     },
     {
@@ -17767,7 +17935,10 @@
         "health": 1196,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 2,
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Traitor",
         "leaderAbility": {
@@ -26181,6 +26352,87 @@
             ]
         },
         "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7cfaedba",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 915,
+        "recovery": 305,
+        "health": 3796,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing IV",
+            "description": "260% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d46dc4a9"
+    },
+    {
+        "coreId": "d46dc4a9",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 1557,
+        "recovery": 518,
+        "health": 6447,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing V",
+            "description": "280% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "7cfaedba",
+        "evolveInto": "44e89c5f"
+    },
+    {
+        "coreId": "44e89c5f",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 2260,
+        "recovery": 752,
+        "health": 9385,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing VI",
+            "description": "300% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "d46dc4a9",
         "evolveInto": ""
     }
 ]
