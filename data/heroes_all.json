@@ -5104,6 +5104,416 @@
         "evolveInto": ""
     },
     {
+        "coreId": "fbeb1b96",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 1822,
+        "recovery": 152,
+        "health": 3039,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing IV",
+            "description": "260% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d8501a29"
+    },
+    {
+        "coreId": "d8501a29",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing V",
+            "description": "280% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "fbeb1b96",
+        "evolveInto": "10eaa058"
+    },
+    {
+        "coreId": "10eaa058",
+        "name": "Gelbo The Dark",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Attacker Blessing VI",
+            "description": "300% REC for all Attacker Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Attacker"
+        },
+        "evolveFrom": "d8501a29",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "590a909a",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing IV",
+            "description": "200% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b7197e37"
+    },
+    {
+        "coreId": "b7197e37",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing V",
+            "description": "225% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2.25
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "590a909a",
+        "evolveInto": "09eae06f"
+    },
+    {
+        "coreId": "09eae06f",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5828,
+        "recovery": 778,
+        "health": 3895,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing VI",
+            "description": "300% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "b7197e37",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "9a1712f7",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might I",
+            "description": "175% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "806d186e"
+    },
+    {
+        "coreId": "806d186e",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might II",
+            "description": "200% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "9a1712f7",
+        "evolveInto": "16ed54f2"
+    },
+    {
+        "coreId": "16ed54f2",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might III",
+            "description": "225% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "806d186e",
+        "evolveInto": "f4b030f9"
+    },
+    {
+        "coreId": "f4b030f9",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 4494,
+        "recovery": 375,
+        "health": 7488,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might IV",
+            "description": "300% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "16ed54f2",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f7aa1a5e",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might I",
+            "description": "175% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "00a534db"
+    },
+    {
+        "coreId": "00a534db",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might II",
+            "description": "200% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "f7aa1a5e",
+        "evolveInto": "835446ac"
+    },
+    {
+        "coreId": "835446ac",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might III",
+            "description": "225% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "00a534db",
+        "evolveInto": "a033ae4e"
+    },
+    {
+        "coreId": "a033ae4e",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5818,
+        "recovery": 776,
+        "health": 3879,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might IV",
+            "description": "300% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "835446ac",
+        "evolveInto": ""
+    },
+    {
         "coreId": "27f917c6",
         "name": "Griffin Pup",
         "affinity": "Light",
@@ -6064,7 +6474,9 @@
         "health": 1030,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -6089,7 +6501,9 @@
         "health": 1750,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 3
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -6114,7 +6528,9 @@
         "health": 2559,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Bounty Hunter": 4
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Siphon",
         "leaderAbility": {
@@ -7556,7 +7972,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing IV",
             "description": "260% REC for all Light Heroes",
@@ -7583,7 +7999,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing V",
             "description": "280% REC for all Light Heroes",
@@ -7610,7 +8026,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Light Blessing VI",
             "description": "300% REC for all Light Heroes",
@@ -9897,6 +10313,168 @@
             ]
         },
         "evolveFrom": "3d1de2fc",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7804a642",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 1822,
+        "recovery": 152,
+        "health": 3039,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b1564ff5"
+    },
+    {
+        "coreId": "b1564ff5",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "7804a642",
+        "evolveInto": "26063d6c"
+    },
+    {
+        "coreId": "26063d6c",
+        "name": "Queen Astrid",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "b1564ff5",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "677aab4b",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 947,
+        "recovery": 315,
+        "health": 3928,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "4bcdd288"
+    },
+    {
+        "coreId": "4bcdd288",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 1611,
+        "recovery": 536,
+        "health": 6675,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "677aab4b",
+        "evolveInto": "383b788b"
+    },
+    {
+        "coreId": "383b788b",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 2340,
+        "recovery": 780,
+        "health": 9717,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "4bcdd288",
         "evolveInto": ""
     },
     {
@@ -13242,9 +13820,9 @@
         "affinity": "Fire",
         "type": "Warrior",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3862,
+        "recovery": 325,
+        "health": 6434,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -13785,9 +14363,9 @@
         "affinity": "Fire",
         "type": "Attacker",
         "species": "Dragon",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 2041,
+        "recovery": 275,
+        "health": 1374,
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
@@ -15193,6 +15771,335 @@
             "target": "Human"
         },
         "evolveFrom": "9a1fe93c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "10cb1077",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor IV",
+            "description": "160% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.6
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "3c08b55a"
+    },
+    {
+        "coreId": "3c08b55a",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor V",
+            "description": "180% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 1.8
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "10cb1077",
+        "evolveInto": "e1981428"
+    },
+    {
+        "coreId": "e1981428",
+        "name": "Javus, Dragon Protector",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5628,
+        "recovery": 752,
+        "health": 3761,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Technological Armor VI",
+            "description": "200% HP for all Technological Heroes",
+            "modifiers": {
+                "health": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "3c08b55a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "186d5230",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might I",
+            "description": "175% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "e5a1a9e1"
+    },
+    {
+        "coreId": "e5a1a9e1",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might II",
+            "description": "200% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "186d5230",
+        "evolveInto": "9e51a49c"
+    },
+    {
+        "coreId": "9e51a49c",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might III",
+            "description": "255% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "e5a1a9e1",
+        "evolveInto": "51f7e1f0"
+    },
+    {
+        "coreId": "51f7e1f0",
+        "name": "Oracle Shirala",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might IV",
+            "description": "300% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "9e51a49c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "59d32bcf",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might I",
+            "description": "175% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "a89ed726"
+    },
+    {
+        "coreId": "a89ed726",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might II",
+            "description": "200% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "59d32bcf",
+        "evolveInto": "23433d5b"
+    },
+    {
+        "coreId": "23433d5b",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might III",
+            "description": "255% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 2.55,
+                "health": 2.55
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "a89ed726",
+        "evolveInto": "bcb46225"
+    },
+    {
+        "coreId": "bcb46225",
+        "name": "Dragon Dancer",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Fire Corrupt Might IV",
+            "description": "300% Damage and HP for all Fire Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "23433d5b",
         "evolveInto": ""
     },
     {
@@ -17438,7 +18345,10 @@
         "health": 1196,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 2,
+            "Bounty Hunter": 2
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Traitor",
         "leaderAbility": {
@@ -20388,6 +21298,416 @@
             ]
         },
         "evolveFrom": "e4929cc5",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "4db36d9b",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 915,
+        "recovery": 758,
+        "health": 1524,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might IV",
+            "description": "160% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "",
+        "evolveInto": "ccb81f86"
+    },
+    {
+        "coreId": "ccb81f86",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 1557,
+        "recovery": 1289,
+        "health": 2594,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might V",
+            "description": "180% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "4db36d9b",
+        "evolveInto": "bfd3c9cc"
+    },
+    {
+        "coreId": "bfd3c9cc",
+        "name": "Creature Of The Deep",
+        "affinity": "Water",
+        "type": "Healer",
+        "species": "Corrupt",
+        "attack": 2260,
+        "recovery": 1876,
+        "health": 3767,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Corrupt Might VI",
+            "description": "200% Damage for all Corrupt Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Corrupt"
+        },
+        "evolveFrom": "ccb81f86",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "6f52865e",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might IV",
+            "description": "160% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b51ec69b"
+    },
+    {
+        "coreId": "b51ec69b",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might V",
+            "description": "180% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "6f52865e",
+        "evolveInto": "7efdbe4a"
+    },
+    {
+        "coreId": "7efdbe4a",
+        "name": "Thor",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Demigod Might VI",
+            "description": "200% Damage for all Demigod Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Demigod"
+        },
+        "evolveFrom": "b51ec69b",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e3116ca7",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 1078,
+        "recovery": 91,
+        "health": 1794,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might I",
+            "description": "175% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "256fcc99"
+    },
+    {
+        "coreId": "256fcc99",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 1756,
+        "recovery": 146,
+        "health": 2929,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might II",
+            "description": "200% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "e3116ca7",
+        "evolveInto": "06212b24"
+    },
+    {
+        "coreId": "06212b24",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 2986,
+        "recovery": 252,
+        "health": 4978,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might III",
+            "description": "225% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "256fcc99",
+        "evolveInto": "a9db9080"
+    },
+    {
+        "coreId": "a9db9080",
+        "name": "Freyja",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 4334,
+        "recovery": 361,
+        "health": 7222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Water God Might IV",
+            "description": "300% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "06212b24",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e3714da3",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might I",
+            "description": "175% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "b5da5758"
+    },
+    {
+        "coreId": "b5da5758",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might II",
+            "description": "200% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "e3714da3",
+        "evolveInto": "cf0ec4f3"
+    },
+    {
+        "coreId": "cf0ec4f3",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might III",
+            "description": "225% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "b5da5758",
+        "evolveInto": "5e6a4f97"
+    },
+    {
+        "coreId": "5e6a4f97",
+        "name": "Valhalla's Maiden",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5618,
+        "recovery": 748,
+        "health": 3745,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Water God Might IV",
+            "description": "300% Damage and HP for all Water God Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "God"
+            ]
+        },
+        "evolveFrom": "cf0ec4f3",
         "evolveInto": ""
     },
     {
@@ -25633,7 +26953,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might I",
             "description": "175% Damage and HP for all Earth Corrupt Heroes",
@@ -25664,7 +26984,7 @@
             "Commander": 2
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might II",
             "description": "200% Damage and HP for all Earth Corrupt Heroes",
@@ -25695,7 +27015,7 @@
             "Commander": 3
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might III",
             "description": "225% Damage and HP for all Earth Corrupt Heroes",
@@ -25726,7 +27046,7 @@
             "Commander": 4
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might IV",
             "description": "300% Damage and HP for all Earth Corrupt Heroes",
@@ -25757,7 +27077,7 @@
             "Commander": 5
         },
         "defenderSkill": "Drain",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Corrupt Might IV",
             "description": "300% Damage and HP for all Earth Corrupt Heroes",
@@ -25771,6 +27091,87 @@
             ]
         },
         "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "7cfaedba",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 915,
+        "recovery": 305,
+        "health": 3796,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing IV",
+            "description": "260% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": "d46dc4a9"
+    },
+    {
+        "coreId": "d46dc4a9",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 1557,
+        "recovery": 518,
+        "health": 6447,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing V",
+            "description": "280% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "7cfaedba",
+        "evolveInto": "44e89c5f"
+    },
+    {
+        "coreId": "44e89c5f",
+        "name": "Tyborne Of Meido",
+        "affinity": "Earth",
+        "type": "Defender",
+        "species": "Corrupt",
+        "attack": 2260,
+        "recovery": 752,
+        "health": 9385,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Creature Blessing VI",
+            "description": "300% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "d46dc4a9",
         "evolveInto": ""
     }
 ]
