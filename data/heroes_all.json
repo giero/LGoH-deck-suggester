@@ -5185,6 +5185,335 @@
         "evolveInto": ""
     },
     {
+        "coreId": "590a909a",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing IV",
+            "description": "200% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "",
+        "evolveInto": "b7197e37"
+    },
+    {
+        "coreId": "b7197e37",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing V",
+            "description": "225% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 2.25
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "590a909a",
+        "evolveInto": "09eae06f"
+    },
+    {
+        "coreId": "09eae06f",
+        "name": "Luciano Of Karne",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5828,
+        "recovery": 778,
+        "health": 3895,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Fear",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Technological Blessing VI",
+            "description": "300% REC for all Technological Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Technological"
+        },
+        "evolveFrom": "b7197e37",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "9a1712f7",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might I",
+            "description": "175% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "806d186e"
+    },
+    {
+        "coreId": "806d186e",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might II",
+            "description": "200% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "9a1712f7",
+        "evolveInto": "16ed54f2"
+    },
+    {
+        "coreId": "16ed54f2",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might III",
+            "description": "225% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "806d186e",
+        "evolveInto": "f4b030f9"
+    },
+    {
+        "coreId": "f4b030f9",
+        "name": "Sylphie Of Moon Grove",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 4494,
+        "recovery": 375,
+        "health": 7488,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Spirit Might IV",
+            "description": "300% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "16ed54f2",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "f7aa1a5e",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might I",
+            "description": "175% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "00a534db"
+    },
+    {
+        "coreId": "00a534db",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might II",
+            "description": "200% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "f7aa1a5e",
+        "evolveInto": "835446ac"
+    },
+    {
+        "coreId": "835446ac",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might III",
+            "description": "225% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "00a534db",
+        "evolveInto": "a033ae4e"
+    },
+    {
+        "coreId": "a033ae4e",
+        "name": "Simelow",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Spirit",
+        "attack": 5818,
+        "recovery": 776,
+        "health": 3879,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Dark Spirit Might IV",
+            "description": "300% Damage and HP for all Dark Spirit Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        "evolveFrom": "835446ac",
+        "evolveInto": ""
+    },
+    {
         "coreId": "27f917c6",
         "name": "Griffin Pup",
         "affinity": "Light",
@@ -10065,6 +10394,87 @@
             "target": "Guardian"
         },
         "evolveFrom": "b1564ff5",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "677aab4b",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 947,
+        "recovery": 315,
+        "health": 3928,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might IV",
+            "description": "160% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "",
+        "evolveInto": "4bcdd288"
+    },
+    {
+        "coreId": "4bcdd288",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 1611,
+        "recovery": 536,
+        "health": 6675,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might V",
+            "description": "180% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "677aab4b",
+        "evolveInto": "383b788b"
+    },
+    {
+        "coreId": "383b788b",
+        "name": "Rylka The Blinding",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Giant",
+        "attack": 2340,
+        "recovery": 780,
+        "health": 9717,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Alacrity",
+        "counterSkill": "Dispel Alacrity",
+        "leaderAbility": {
+            "name": "Guardian Might VI",
+            "description": "200% Damage for all Guardian Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Guardian"
+        },
+        "evolveFrom": "4bcdd288",
         "evolveInto": ""
     },
     {
