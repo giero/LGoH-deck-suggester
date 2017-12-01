@@ -27173,5 +27173,334 @@
         },
         "evolveFrom": "d46dc4a9",
         "evolveInto": ""
+    },
+    {
+        "coreId": "589da6f4",
+        "name": "Master Wu",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Blessing IV",
+            "description": "260% REC for all Fable Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "",
+        "evolveInto": "e51ccb43"
+    },
+    {
+        "coreId": "e51ccb43",
+        "name": "Master Wu",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Blessing V",
+            "description": "280% REC for all Fable Heroes",
+            "modifiers": {
+                "recovery": 2.8
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "589da6f4",
+        "evolveInto": "41d0e45e"
+    },
+    {
+        "coreId": "41d0e45e",
+        "name": "Master Wu",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5828,
+        "recovery": 778,
+        "health": 3895,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Fable Blessing VI",
+            "description": "300% REC for all Fable Heroes",
+            "modifiers": {
+                "recovery": 3
+            },
+            "target": "Fable"
+        },
+        "evolveFrom": "e51ccb43",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "cf98314c",
+        "name": "Flying Lotus",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 1118,
+        "recovery": 95,
+        "health": 1862,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Honored Might I",
+            "description": "175% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "6a2ee4c9"
+    },
+    {
+        "coreId": "6a2ee4c9",
+        "name": "Flying Lotus",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 1820,
+        "recovery": 152,
+        "health": 3035,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Honored Might II",
+            "description": "200% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "cf98314c",
+        "evolveInto": "7d670f8c"
+    },
+    {
+        "coreId": "7d670f8c",
+        "name": "Flying Lotus",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 3096,
+        "recovery": 262,
+        "health": 5160,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Honored Might III",
+            "description": "225% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "6a2ee4c9",
+        "evolveInto": "f4375788"
+    },
+    {
+        "coreId": "f4375788",
+        "name": "Flying Lotus",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 4494,
+        "recovery": 375,
+        "health": 7488,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Earth Honored Might IV",
+            "description": "300% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "7d670f8c",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "c8e51912",
+        "name": "Jade Protector",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Honored Might I",
+            "description": "175% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "3edc862a"
+    },
+    {
+        "coreId": "3edc862a",
+        "name": "Jade Protector",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Honored Might II",
+            "description": "200% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "c8e51912",
+        "evolveInto": "c9f83ea6"
+    },
+    {
+        "coreId": "c9f83ea6",
+        "name": "Jade Protector",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Honored Might III",
+            "description": "225% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "3edc862a",
+        "evolveInto": "8312be00"
+    },
+    {
+        "coreId": "8312be00",
+        "name": "Jade Protector",
+        "affinity": "Earth",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 5818,
+        "recovery": 776,
+        "health": 3879,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Earth Honored Might IV",
+            "description": "300% Damage and HP for all Earth Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "c9f83ea6",
+        "evolveInto": ""
     }
 ]
