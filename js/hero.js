@@ -80,9 +80,7 @@ Hero.prototype.matchesWithStat = function (stat) {
         || this.eventSkills[stat]
         // it's required for example for species like "God Honored"
         // and leader ability can be for God or Honored heroes only
-        // TODO: maybe will be faster to add another attribute for Technological/Honored etc?
-        || (this.name === 'Vulcan Fireshaper' || this.name === 'Vulcan Flameblood') && this.species.indexOf(stat) >= 0;
-
+        || this.species.indexOf(stat) >= 0;
 };
 
 Hero.prototype.canApplyLeaderStats = function (leaderTarget) {

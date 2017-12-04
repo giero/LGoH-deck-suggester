@@ -1,12 +1,26 @@
+var database = new Database();
+
 var teamHeroes = new Team('user', localStorage);
 var allHeroes = new Team('all', sessionStorage);
 
-var database = new Database();
+teamHeroes.load();
 database
     .init()
-    .loadHeroes(allHeroes);
-teamHeroes.load();
+    .loadHeroes(allHeroes, function () {
+        // overwrite some saved hero stats if sth was changed in db
+        teamHeroes.heroes.forEach(function (hero) {
+            var mainHero = allHeroes.find(hero.coreId);
+            $.extend(hero, {
+                affinity: mainHero.affinity,
+                type: mainHero.type,
+                species: mainHero.species,
 
+                defenderSkill: mainHero.defenderSkill,
+                counterSkill: mainHero.counterSkill,
+                leaderAbility: mainHero.leaderAbility
+            });
+        });
+    });
 
 var skills = new Skills();
 $.getJSON("data/skills_all.json", function (json) {

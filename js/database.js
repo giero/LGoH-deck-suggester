@@ -15,12 +15,14 @@ Database.prototype.init = function () {
     return this;
 };
 
-Database.prototype.loadHeroes = function (team) {
+Database.prototype.loadHeroes = function (team, callback) {
     team.heroes = [];
     firebase.database().ref('heroes').once('value').then(function(snapshot) {
         snapshot.val().forEach(function (heroStat) {
             team.addHero(heroStat);
         });
+
+        callback && callback();
     });
 
     return this;
