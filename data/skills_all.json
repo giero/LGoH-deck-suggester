@@ -30,6 +30,7 @@
         "Toxin": "Skills which heal are completely blocked.",
         "Traitor": "When target attacks it also damages itself.",
         "Vessel": "Attacks of target also heals caster.",
+        "Unknown": "Unknown",
         "Water GemSilence": "Water Gem placing skills are silenced for targeted heroes.",
         "Weaken": "Reduces Attack of target.",
         "Zombie": "Healing target damages target instead."
@@ -41,6 +42,7 @@
         "Cleanse III": "Removes 1 debuff from a hero. Triggers once every 3 turns.",
         "Dispel Absorb": "Chance to remove Absorb Buff from all enemies.",
         "Dispel Armor": "Chance to remove Armor Buff from all enemies.",
+        "Dispel Alacrity": "Chance to remove Alacrity Debuff from all allies.",
         "Dispel Blind": "Chance to remove Blind Debuff from all allies.",
         "Dispel Dodge": "Chance to remove Dodge Buff from all enemies.",
         "Dispel Drain": "Chance to remove Drain Buff from all enemies.",
@@ -55,8 +57,11 @@
         "Dispel Siphon": "Chance to remove Siphon Debuff from all allies.",
         "Dispel Thorns": "Chance to remove Thorns Buff from all enemies.",
         "Dispel Traitor": "Chance to remove Traitor Debuff from all allies.",
+        "Dispel Toxin": "Chance to remove Toxin Debuff from all allies.",
         "Dispel Vessel": "Chance to remove Vessel Debuff from all allies.",
         "Dispel Weaken": "Chance to remove Weaken Debuff from all allies.",
-        "Dispel Zombie": "Chance to remove Zombie Debuff from all allies."
+        "Dispel Zombie": "Chance to remove Zombie Debuff from all allies.",
+        "None": "None",
+        "Unknown": "Unknown"
     }
 }

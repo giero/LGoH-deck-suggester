@@ -6707,7 +6707,7 @@
         "awakening": 5,
         "eventSkills": {},
         "defenderSkill": "Panic",
-        "counterSkill": "Dispel Judgment",
+        "counterSkill": "Dispel Judgement",
         "leaderAbility": {
             "name": "God Armor IV",
             "description": "160% HP for all God Heroes",
@@ -6732,7 +6732,7 @@
         "awakening": 5,
         "eventSkills": {},
         "defenderSkill": "Panic",
-        "counterSkill": "Dispel Judgment",
+        "counterSkill": "Dispel Judgement",
         "leaderAbility": {
             "name": "God Armor V",
             "description": "180% HP for all God Heroes",
@@ -6757,7 +6757,7 @@
         "awakening": 5,
         "eventSkills": {},
         "defenderSkill": "Panic",
-        "counterSkill": "Dispel Judgment",
+        "counterSkill": "Dispel Judgement",
         "leaderAbility": {
             "name": "God Armor VI",
             "description": "200% HP for all God Heroes",
@@ -9464,7 +9464,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Dislep Dodge",
+        "counterSkill": "Dispel Dodge",
         "leaderAbility": {
             "name": "Light Demigod Might I",
             "description": "175% Damage and HP for all Light Demigod Heroes",
@@ -9495,7 +9495,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Dislep Dodge",
+        "counterSkill": "Dispel Dodge",
         "leaderAbility": {
             "name": "Light Demigod Might II",
             "description": "200% Damage and HP for all Light Demigod Heroes",
@@ -9526,7 +9526,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Dislep Dodge",
+        "counterSkill": "Dispel Dodge",
         "leaderAbility": {
             "name": "Light Demigod Might III",
             "description": "225% Damage and HP for all Light Demigod Heroes",
@@ -9557,7 +9557,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Thorns",
-        "counterSkill": "Dislep Dodge",
+        "counterSkill": "Dispel Dodge",
         "leaderAbility": {
             "name": "Light Demigod Might IV",
             "description": "300% Damage and HP for all Light Demigod Heroes",

@@ -1,23 +1,12 @@
-var config = {
-    apiKey: "AIzaSyDynzM8igTMnCKm1FO1rQwrUI5g-HXbCiw",
-    authDomain: "lgoh-deck-suggester.firebaseapp.com",
-    databaseURL: "https://lgoh-deck-suggester.firebaseio.com",
-    projectId: "lgoh-deck-suggester",
-    storageBucket: "",
-    messagingSenderId: "168189621995"
-};
-firebase.initializeApp(config);
-
 var teamHeroes = new Team('user', localStorage);
 var allHeroes = new Team('all', sessionStorage);
 
+var database = new Database();
+database
+    .init()
+    .loadHeroes(allHeroes);
 teamHeroes.load();
 
-firebase.database().ref('heroes').once('value').then(function(snapshot) {
-    snapshot.val().forEach(function (heroStat) {
-        allHeroes.addHero(heroStat);
-    });
-});
 
 var skills = new Skills();
 $.getJSON("data/skills_all.json", function (json) {
@@ -176,7 +165,7 @@ Vue.component('team-adding-form', {
             var coreHero = allHeroes.find(formParams.coreId);
             coreHero.awakening = 0; //default core hero awakening level is 5
 
-            if (coreHero.eventSkills.hasOwnProperty('Warden') ) {
+            if (coreHero.eventSkills.hasOwnProperty('Warden')) {
                 formParams.eventSkills.Warden = true;
             }
 
@@ -414,14 +403,16 @@ new Vue({
                 message: '<p><i class="fa fa-spin fa-spinner"></i>... updating ...</p>'
             });
 
-            dialog.init(function(){
-                var hl = new HeroLoader();
-                hl.load(function(heroesData) {
-                    firebase.database().ref('heroes')
-                        .set(heroesData)
-                        .then(function () {
-                            dialog.find('.bootbox-body').html("... and it done - refresh page now");
+            dialog.init(function () {
+                (new HeroLoader()).load(function (heroesData) {
+                    if (!Array.isArray(heroesData)) {
+                        dialog.find('.bootbox-body').html("... and it's  failed for <strong>" + heroesData + '</strong>');
+                    } else {
+                        database.save(heroesData, function () {
+                            database.loadHeroes(allHeroes);
+                            dialog.find('.bootbox-body').html("... and it's done :)");
                         });
+                    }
                 });
             });
         }
@@ -482,12 +473,12 @@ new Vue({
 
         $('body')
             .tooltip({
-            selector: '[data-toggle="tooltip"]',
-            trigger: 'hover'
-        })
+                selector: '[data-toggle="tooltip"]',
+                trigger: 'hover'
+            })
             .popover({
-            selector: '[data-toggle="popover"]',
-            trigger: 'hover | click'
-        });
+                selector: '[data-toggle="popover"]',
+                trigger: 'hover | click'
+            });
     }
 });
