@@ -194,8 +194,14 @@ Vue.component('team-adding-form', {
         clearTeam: function (e) {
             e.preventDefault();
 
-            teamHeroes.heroes = [];
-            teamHeroes.save();
+            bootbox.confirm(
+                "Are you sure you want to clear your heroes?",
+                function (confirmed) {
+                    if (confirmed) {
+                        teamHeroes.heroes = [];
+                        teamHeroes.save();
+                    }
+                });
         }
     },
     mounted: function () {
