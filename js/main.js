@@ -427,10 +427,14 @@ new Vue({
                 (new HeroLoader()).load(function (heroesData) {
                     if (!Array.isArray(heroesData)) {
                         dialog.find('.bootbox-body').html("... and it's  failed for <strong>" + heroesData + '</strong>');
+
+                        ga('send', 'event', 'db', 'failed');
                     } else {
                         database.save(heroesData, function () {
                             database.loadHeroes(allHeroes);
                             dialog.find('.bootbox-body').html("... and it's done :)");
+
+                            ga('send', 'event', 'db', 'updated');
                         });
                     }
                 });
