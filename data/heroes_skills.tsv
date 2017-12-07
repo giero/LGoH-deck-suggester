@@ -8,24 +8,25 @@ Autoheal	Heals target when HP is about to fall below 50%.	Dispel Armor	Chance to
 Blind	Attacks of target have a chance to miss.	Dispel Alacrity	Chance to remove Alacrity Debuff from all allies.
 Counterattack	Counterattack when attacked.	Dispel Blind	Chance to remove Blind Debuff from all allies.
 Dark GemSilence	Dark Gem placing skills are silenced for targeted heroes.	Dispel Dodge	Chance to remove Dodge Buff from all enemies.
-Dodge	Attacks made against target have a chance to miss.	Dispel Drain	Chance to remove Drain Buff from all enemies.
-Dogen's Ferocity	Chance to apply a Might Buff on self for 5 turns and a Fire GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel EarthPetrify	Chance to remove EarthPetrify Debuff from all allies.
-Drain	Target heals for a portion of the damage it deals.	Dispel Fear	Chance to remove Fear Buff from all enemies.
-Earth GemSilence	Earth Gem placing skills are silenced for targeted heroes.	Dispel GemSilence	Chance to remove GemSilence Debuff from all allies.
-Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
-Fear	At the end of each turn, reduce up to 2 heroes' skill meter to 0%.	Dispel Might	Chance to remove Might Buff from all enemies.
-Fire GemSilence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Panic	Chance to remove Panic Debuff from all allies.
-GemSilence	Skills that transform or upgrade Gems are silenced for targeted heroes.	Dispel Poison	Chance to remove Poison Debuff from all allies.
-Judgement	Target automatically deals damage to those that heal.	Dispel Regen	Chance to remove Regen Buff from all enemies.
-Keta's Resolve	Chance to apply a Might Buff on self for 5 turns and an Earth GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Siphon	Chance to remove Siphon Debuff from all allies.
-Light GemSilence	Light Gem placing skills are silenced for targeted heroes.	Dispel Thorns	Chance to remove Thorns Buff from all enemies.
-Might	Increases Attack of target.	Dispel Traitor	Chance to remove Traitor Debuff from all allies.
-Panic	Target has less time to make gem matches.	Dispel Toxin	Chance to remove Toxin Debuff from all allies.
-Poison	Damages target at the end of every turn.	Dispel Vessel	Chance to remove Vessel Debuff from all allies.
-Quarl's Protection	Chance to apply a Might Buff on self for 5 turns and a Water GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Weaken	Chance to remove Weaken Debuff from all allies.
-Regen	Heals target at the end of every turn.	Dispel Zombie	Chance to remove Zombie Debuff from all allies.
-Siphon	Health recovered by target recovers caster instead.	None	None
-Thorns	Attacks made against target also damage attacker.	Unknown	Unknown
+Dark Gem Suppression	Decreases the drop rate of Dark Gems and skills that increase the drop rate of Dark gems are silenced for targeted heroes.	Dispel Drain	Chance to remove Drain Buff from all enemies.
+Dodge	Attacks made against target have a chance to miss.	Dispel EarthPetrify	Chance to remove EarthPetrify Debuff from all allies.
+Dogen's Ferocity	Chance to apply a Might Buff on self for 5 turns and a Fire GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Fear	Chance to remove Fear Buff from all enemies.
+Drain	Target heals for a portion of the damage it deals.	Dispel GemSilence	Chance to remove GemSilence Debuff from all allies.
+Earth GemSilence	Earth Gem placing skills are silenced for targeted heroes.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
+Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Might	Chance to remove Might Buff from all enemies.
+Fear	At the end of each turn, reduce up to 2 heroes' skill meter to 0%.	Dispel Panic	Chance to remove Panic Debuff from all allies.
+Fire GemSilence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Poison	Chance to remove Poison Debuff from all allies.
+GemSilence	Skills that transform or upgrade Gems are silenced for targeted heroes.	Dispel Regen	Chance to remove Regen Buff from all enemies.
+Judgement	Target automatically deals damage to those that heal.	Dispel Siphon	Chance to remove Siphon Debuff from all allies.
+Keta's Resolve	Chance to apply a Might Buff on self for 5 turns and an Earth GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Thorns	Chance to remove Thorns Buff from all enemies.
+Light GemSilence	Light Gem placing skills are silenced for targeted heroes.	Dispel Traitor	Chance to remove Traitor Debuff from all allies.
+Might	Increases Attack of target.	Dispel Toxin	Chance to remove Toxin Debuff from all allies.
+Panic	Target has less time to make gem matches.	Dispel Vessel	Chance to remove Vessel Debuff from all allies.
+Poison	Damages target at the end of every turn.	Dispel Weaken	Chance to remove Weaken Debuff from all allies.
+Quarl's Protection	Chance to apply a Might Buff on self for 5 turns and a Water GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Zombie	Chance to remove Zombie Debuff from all allies.
+Regen	Heals target at the end of every turn.	None	None
+Siphon	Health recovered by target recovers caster instead.	Unknown	Unknown
+Thorns	Attacks made against target also damage attacker.	Vindicate	Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies.
 Toxin	Skills which heal are completely blocked.		
 Traitor	When target attacks it also damages itself.		
 Vessel	Attacks of target also heals caster.		

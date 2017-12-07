@@ -1835,7 +1835,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 20,
         "recovery": 20,
         "health": 20,
@@ -1863,7 +1863,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 688,
         "recovery": 95,
         "health": 475,
@@ -1891,7 +1891,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 1156,
         "recovery": 156,
         "health": 785,
@@ -1919,7 +1919,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 1871,
         "recovery": 249,
         "health": 1250,
@@ -1947,7 +1947,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 3169,
         "recovery": 422,
         "health": 2116,
@@ -1975,7 +1975,7 @@
         "name": "Celestial Devorah",
         "affinity": "Dark",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 4620,
         "recovery": 616,
         "health": 3087,
@@ -7515,7 +7515,9 @@
         "health": 616,
         "rarity": 4,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 2
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -7540,7 +7542,9 @@
         "health": 1025,
         "rarity": 5,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 3
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -7565,7 +7569,9 @@
         "health": 0,
         "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
+        "eventSkills": {
+            "Slayer": 4
+        },
         "defenderSkill": "Dodge",
         "counterSkill": "Dispel Regen",
         "leaderAbility": {
@@ -10478,6 +10484,366 @@
         "evolveInto": ""
     },
     {
+        "coreId": "b247ffda",
+        "name": "Brutus Mark 3",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Warrior Might IV",
+            "description": "160% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 1.6
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "",
+        "evolveInto": "73a9b2f9"
+    },
+    {
+        "coreId": "73a9b2f9",
+        "name": "Brutus Mark 3",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Warrior Might V",
+            "description": "180% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 1.8
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "b247ffda",
+        "evolveInto": "4d5046f5"
+    },
+    {
+        "coreId": "4d5046f5",
+        "name": "Brutus Mark 3",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 5828,
+        "recovery": 778,
+        "health": 3895,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Warrior Might VI",
+            "description": "200% Damage for all Warrior Heroes",
+            "modifiers": {
+                "attack": 2
+            },
+            "target": "Warrior"
+        },
+        "evolveFrom": "73a9b2f9",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "ede6f135",
+        "name": "Sentinel Of Stars",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Light Technological Might I",
+            "description": "175% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "13ff58d3"
+    },
+    {
+        "coreId": "13ff58d3",
+        "name": "Sentinel Of Stars",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Light Technological Might II",
+            "description": "200% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "ede6f135",
+        "evolveInto": "b4d77250"
+    },
+    {
+        "coreId": "b4d77250",
+        "name": "Sentinel Of Stars",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Light Technological Might III",
+            "description": "225% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "13ff58d3",
+        "evolveInto": "3546adb6"
+    },
+    {
+        "coreId": "3546adb6",
+        "name": "Sentinel Of Stars",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 4494,
+        "recovery": 375,
+        "health": 7488,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Light Technological Might IV",
+            "description": "300% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "b4d77250",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "4f4bddf7",
+        "name": "Astral Martyr",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Light Technological Might I",
+            "description": "175% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "a357a6e1"
+    },
+    {
+        "coreId": "a357a6e1",
+        "name": "Astral Martyr",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Light Technological Might II",
+            "description": "200% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "4f4bddf7",
+        "evolveInto": "2dcaa552"
+    },
+    {
+        "coreId": "2dcaa552",
+        "name": "Astral Martyr",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Light Technological Might III",
+            "description": "225% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "a357a6e1",
+        "evolveInto": "2b426f7e"
+    },
+    {
+        "coreId": "2b426f7e",
+        "name": "Astral Martyr",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Technological",
+        "attack": 5818,
+        "recovery": 776,
+        "health": 3879,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Regen",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Light Technological Might IV",
+            "description": "300% Damage and HP for all Light Technological Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Technological"
+            ]
+        },
+        "evolveFrom": "2dcaa552",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "13d12156",
+        "name": "Ronin-9k",
+        "affinity": "Light",
+        "type": "Balanced",
+        "species": "Legend Technological",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 5,
+            "Bounty Hunter": 5,
+            "Commander": 5
+        },
+        "defenderSkill": "Dark Gem Suppression",
+        "counterSkill": "Vindicate",
+        "leaderAbility": {
+            "name": "Legendary Might III",
+            "description": "175% Damage, REC and HP for all Legend Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "recovery": 1.75,
+                "health": 1.75
+            },
+            "target": "Legend"
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
         "coreId": "9a26d1ee",
         "name": "Flamebound Initiate",
         "affinity": "Fire",
@@ -12577,7 +12943,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 20,
         "recovery": 20,
         "health": 20,
@@ -12605,7 +12971,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 686,
         "recovery": 93,
         "health": 471,
@@ -12633,7 +12999,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 1146,
         "recovery": 154,
         "health": 769,
@@ -12661,7 +13027,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 1879,
         "recovery": 253,
         "health": 1266,
@@ -12689,7 +13055,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 3169,
         "recovery": 422,
         "health": 2114,
@@ -12717,7 +13083,7 @@
         "name": "Celestial Sum Il Tek",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
+        "species": "Demigod Celestial",
         "attack": 4632,
         "recovery": 620,
         "health": 3105,
@@ -13112,7 +13478,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
+        "counterSkill": "Dispel Might",
         "leaderAbility": {
             "name": "Power of the Deep I",
             "description": "175% Damage for all Human Heroes",
@@ -13139,7 +13505,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
+        "counterSkill": "Dispel Might",
         "leaderAbility": {
             "name": "Power of the Deep II",
             "description": "200% Damage for all Human Heroes",
@@ -13166,7 +13532,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
+        "counterSkill": "Dispel Might",
         "leaderAbility": {
             "name": "Power of the Deep III",
             "description": "225% Damage for all Human Heroes",
@@ -13193,7 +13559,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Zombie",
-        "counterSkill": "Dispel MIght",
+        "counterSkill": "Dispel Might",
         "leaderAbility": {
             "name": "Power of the Deep IV",
             "description": "300% Damage for all Human Heroes",
@@ -17587,9 +17953,9 @@
         "affinity": "Water",
         "type": "Balanced",
         "species": "Legend",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 4274,
+        "recovery": 1424,
+        "health": 7124,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -17779,7 +18145,8 @@
         "rarity": 4,
         "awakening": 5,
         "eventSkills": {
-            "Slayer": 2
+            "Slayer": 2,
+            "Commander": 2
         },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
@@ -17806,7 +18173,8 @@
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
-            "Slayer": 3
+            "Slayer": 3,
+            "Commander": 3
         },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
@@ -17833,7 +18201,8 @@
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
-            "Slayer": 4
+            "Slayer": 4,
+            "Commander": 4
         },
         "defenderSkill": "Panic",
         "counterSkill": "Dispel Panic",
@@ -20495,7 +20864,7 @@
             "Warden": true
         },
         "defenderSkill": "Alacrity",
-        "counterSkill": "Dislpel Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dren Might IV",
             "description": "160% Damage for all Dren Heroes",
@@ -20522,7 +20891,7 @@
             "Warden": true
         },
         "defenderSkill": "Alacrity",
-        "counterSkill": "Dislpel Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dren Might V",
             "description": "180% Damage for all Dren Heroes",
@@ -20549,7 +20918,7 @@
             "Warden": true
         },
         "defenderSkill": "Alacrity",
-        "counterSkill": "Dislpel Blind",
+        "counterSkill": "Dispel Blind",
         "leaderAbility": {
             "name": "Dren Might VI",
             "description": "200% Damage for all Dren Heroes",
@@ -20576,7 +20945,7 @@
             "Slayer": 2
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
         "leaderAbility": {
             "name": "Technological Armor IV",
             "description": "160% HP for all Technological Heroes",
@@ -20603,7 +20972,7 @@
             "Slayer": 3
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
         "leaderAbility": {
             "name": "Technological Armor V",
             "description": "180% HP for all Technological Heroes",
@@ -20630,7 +20999,7 @@
             "Slayer": 4
         },
         "defenderSkill": "Weaken",
-        "counterSkill": "GemSilence",
+        "counterSkill": "Dispel GemSilence",
         "leaderAbility": {
             "name": "Technological Armor VI",
             "description": "200% HP for all Technological Heroes",
@@ -24816,7 +25185,7 @@
             "Commander": 2
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Blessing IV",
             "description": "200% REC for all Earth Heroes",
@@ -24844,7 +25213,7 @@
             "Commander": 3
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Blessing V",
             "description": "225% REC for all Earth Heroes",
@@ -24872,7 +25241,7 @@
             "Commander": 4
         },
         "defenderSkill": "Regen",
-        "counterSkill": "Dispel armor",
+        "counterSkill": "Dispel Armor",
         "leaderAbility": {
             "name": "Earth Blessing VI",
             "description": "300% REC for all Earth Heroes",
@@ -25313,7 +25682,7 @@
             "Commander": 2
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Dispel Earth Petrify",
+        "counterSkill": "Dispel EarthPetrify",
         "leaderAbility": {
             "name": "Champion's Might I",
             "description": "175% Damage and HP for all Earth Attackers Heroes",
@@ -25344,7 +25713,7 @@
             "Commander": 2
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Dispel Earth Petrify",
+        "counterSkill": "Dispel EarthPetrify",
         "leaderAbility": {
             "name": "Champion's Might II",
             "description": "200% Damage and HP for all Earth Attackers Heroes",
@@ -25375,7 +25744,7 @@
             "Commander": 3
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Dispel Earth Petrify",
+        "counterSkill": "Dispel EarthPetrify",
         "leaderAbility": {
             "name": "Champion's Might III",
             "description": "225% Damage and HP for all Earth Attackers Heroes",
@@ -25406,7 +25775,7 @@
             "Commander": 4
         },
         "defenderSkill": "Judgement",
-        "counterSkill": "Dispel Earth Petrify",
+        "counterSkill": "Dispel EarthPetrify",
         "leaderAbility": {
             "name": "Champion's Might IV",
             "description": "300% Damage and HP for all Earth Attackers Heroes",

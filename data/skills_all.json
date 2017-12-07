@@ -9,6 +9,7 @@
         "Blind": "Attacks of target have a chance to miss.",
         "Counterattack": "Counterattack when attacked.",
         "Dark GemSilence": "Dark Gem placing skills are silenced for targeted heroes.",
+        "Dark Gem Suppression": "Decreases the drop rate of Dark Gems and skills that increase the drop rate of Dark gems are silenced for targeted heroes.",
         "Dodge": "Attacks made against target have a chance to miss.",
         "Dogen's Ferocity": "Chance to apply a Might Buff on self for 5 turns and a Fire GemSilence Debuff on up to 5 heroes for 3 turns.",
         "Drain": "Target heals for a portion of the damage it deals.",
@@ -62,6 +63,7 @@
         "Dispel Weaken": "Chance to remove Weaken Debuff from all allies.",
         "Dispel Zombie": "Chance to remove Zombie Debuff from all allies.",
         "None": "None",
-        "Unknown": "Unknown"
+        "Unknown": "Unknown",
+        "Vindicate": "Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies."
     }
 }
