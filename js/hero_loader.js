@@ -7,22 +7,18 @@ HeroLoader.prototype.load = function (callback) {
 
     $.get(this.url, function (data) {
         var lines = data.split("\n");
-        var headers = lines[0].split("\t");
+        // var headers = lines[0].split("\t");
         var result = [];
 
         for (var i = 1; i < lines.length; i++) {
-
             var currentLine = lines[i].split("\t");
             var obj;
 
-            for (var j = 0; j < headers.length; j++) {
-                try {
-                    obj = self.parse(currentLine);
-                } catch (e) {
-                    callback && callback(e.message);
-                    return;
-                }
-
+            try {
+                obj = self.parse(currentLine);
+            } catch (e) {
+                callback && callback(e.message);
+                return;
             }
 
             result.push(obj);
@@ -151,6 +147,13 @@ HeroLoader.prototype.parse = function (heroData) {
             leaderAbilityTarget = leaderAbilityTarget.indexOf(' ') >= 0
                 ? leaderAbilityTarget.split(' ')
                 : leaderAbilityTarget;
+
+            convertStats(leaderAbilityMatches[4]).split(' and ').forEach(function (stat) {
+                leaderAbilityValues[stat] = parseFloat(leaderAbilityMatches[3]) / 100;
+            });
+        } else if (leaderAbilityMatches = /^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes in GvG attacks))$/.exec(leaderAbilityDescription)) {
+            // maybe someday
+            leaderAbilityTarget = [];
 
             convertStats(leaderAbilityMatches[4]).split(' and ').forEach(function (stat) {
                 leaderAbilityValues[stat] = parseFloat(leaderAbilityMatches[3]) / 100;
