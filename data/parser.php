@@ -146,6 +146,17 @@ function extractLiderAbility($liderAbilityDescription, $heroName)
             $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
         }
     } elseif (preg_match(
+        '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes in GvG attacks))$/',
+        $liderAbilityDescription,
+        $leaderAbilityMatches
+    )) {
+        // maybe someday
+        $leaderAbilityTarget = [];
+
+        foreach (explode(' and ', convertStats($leaderAbilityMatches[4])) as $stat) {
+            $leaderAbilityValues[$stat] = $leaderAbilityMatches[3] / 100;
+        }
+    } elseif (preg_match(
         '/^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Bounty Hunters))$/',
         $liderAbilityDescription,
         $leaderAbilityMatches

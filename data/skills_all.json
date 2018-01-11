@@ -26,6 +26,7 @@
         "Poison": "Damages target at the end of every turn.",
         "Quarl's Protection": "Chance to apply a Might Buff on self for 5 turns and a Water GemSilence Debuff on up to 5 heroes for 3 turns.",
         "Regen": "Heals target at the end of every turn.",
+        "Shuffle": "Shuffles the board every turn.",
         "Siphon": "Health recovered by target recovers caster instead.",
         "Thorns": "Attacks made against target also damage attacker.",
         "Toxin": "Skills which heal are completely blocked.",
@@ -63,7 +64,7 @@
         "Dispel Weaken": "Chance to remove Weaken Debuff from all allies.",
         "Dispel Zombie": "Chance to remove Zombie Debuff from all allies.",
         "None": "None",
-        "Unknown": "Unknown",
+        "Unknown": "This skill has yet to be revealed.",
         "Vindicate": "Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies."
     }
 }

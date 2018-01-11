@@ -25,8 +25,9 @@ Panic	Target has less time to make gem matches.	Dispel Vessel	Chance to remove V
 Poison	Damages target at the end of every turn.	Dispel Weaken	Chance to remove Weaken Debuff from all allies.
 Quarl's Protection	Chance to apply a Might Buff on self for 5 turns and a Water GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Zombie	Chance to remove Zombie Debuff from all allies.
 Regen	Heals target at the end of every turn.	None	None
-Siphon	Health recovered by target recovers caster instead.	Unknown	Unknown
-Thorns	Attacks made against target also damage attacker.	Vindicate	Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies.
+Shuffle	Shuffles the board every turn.	Unknown	This skill has yet to be revealed.
+Siphon	Health recovered by target recovers caster instead.	Vindicate	Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies.
+Thorns	Attacks made against target also damage attacker.		
 Toxin	Skills which heal are completely blocked.		
 Traitor	When target attacks it also damages itself.		
 Vessel	Attacks of target also heals caster.		
