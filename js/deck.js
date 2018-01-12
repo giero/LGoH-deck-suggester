@@ -115,7 +115,7 @@ Deck.prototype.applyAffinityBonus = function (hero, opponentAffinity) {
 };
 
 Deck.prototype.applyLeaderAbilityBonus = function (hero) {
-    if (!hero.canApplyLeaderStats(this.leaderTarget)) {
+    if (!this.leaderTarget || !hero.canApplyLeaderStats(this.leaderTarget)) {
         return;
     }
 
