@@ -153,7 +153,7 @@ HeroLoader.prototype.parse = function (heroData) {
             });
         } else if (leaderAbilityMatches = /^([^:]+): ((\d+)% ((Damage|HP|REC)( and (Damage|HP|REC))?) for (all )?((\w+( \w+)?) Heroes in GvG attacks))$/.exec(leaderAbilityDescription)) {
             // maybe someday
-            leaderAbilityTarget = [];
+            leaderAbilityTarget = '';
 
             convertStats(leaderAbilityMatches[4]).split(' and ').forEach(function (stat) {
                 leaderAbilityValues[stat] = parseFloat(leaderAbilityMatches[3]) / 100;
