@@ -17944,6 +17944,369 @@
         "evolveInto": ""
     },
     {
+        "coreId": "8ea6d415",
+        "name": "Vinder, Bloodletter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Guild II",
+            "description": "300% Damage and HP for all Fire Ancient Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "9d81bd0d"
+    },
+    {
+        "coreId": "9d81bd0d",
+        "name": "Vinder, Bloodletter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Guild III",
+            "description": "325% Damage and HP for all Fire Ancient Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "8ea6d415",
+        "evolveInto": "11dace0f"
+    },
+    {
+        "coreId": "11dace0f",
+        "name": "Vinder, Bloodletter",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5828,
+        "recovery": 778,
+        "health": 3895,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Guild IV",
+            "description": "400% Damage and HP for all Fire Ancient Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "9d81bd0d",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "660bffe4",
+        "name": "Eva, Forgotten Daughter",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Fire Ancient Might I",
+            "description": "175% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "e4845472"
+    },
+    {
+        "coreId": "e4845472",
+        "name": "Eva, Forgotten Daughter",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Fire Ancient Might II",
+            "description": "200% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "660bffe4",
+        "evolveInto": "a0c296d4"
+    },
+    {
+        "coreId": "a0c296d4",
+        "name": "Eva, Forgotten Daughter",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Fire Ancient Might III",
+            "description": "225% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "e4845472",
+        "evolveInto": "0ac768be"
+    },
+    {
+        "coreId": "0ac768be",
+        "name": "Eva, Forgotten Daughter",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 4494,
+        "recovery": 375,
+        "health": 7488,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Fire Ancient Might IV",
+            "description": "300% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "a0c296d4",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "df01411b",
+        "name": "Crimson, Vengeance",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Might I",
+            "description": "175% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "a030a5e5"
+    },
+    {
+        "coreId": "a030a5e5",
+        "name": "Crimson, Vengeance",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Might II",
+            "description": "200% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "df01411b",
+        "evolveInto": "f08d8007"
+    },
+    {
+        "coreId": "f08d8007",
+        "name": "Crimson, Vengeance",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Might III",
+            "description": "225% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "a030a5e5",
+        "evolveInto": "c37000e2"
+    },
+    {
+        "coreId": "c37000e2",
+        "name": "Crimson, Vengeance",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 4654,
+        "recovery": 387,
+        "health": 7756,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Fire Ancient Might IV",
+            "description": "300% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "f08d8007",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "d365534c",
+        "name": "Valadim",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 5
+        },
+        "defenderSkill": "Siphon",
+        "counterSkill": "Dispel Flatline",
+        "leaderAbility": {
+            "name": "Fire Ancient Might IV",
+            "description": "300% Damage and HP for all Fire Ancient Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
         "coreId": "85acea24",
         "name": "Frostvein Cultist",
         "affinity": "Water",

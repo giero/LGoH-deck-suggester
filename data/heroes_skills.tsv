@@ -11,11 +11,12 @@ Dark GemSilence	Dark Gem placing skills are silenced for targeted heroes.	Dispel
 Dark Gem Suppression	Decreases the drop rate of Dark Gems and skills that increase the drop rate of Dark gems are silenced for targeted heroes.	Dispel Drain	Chance to remove Drain Buff from all enemies.
 Dodge	Attacks made against target have a chance to miss.	Dispel EarthPetrify	Chance to remove EarthPetrify Debuff from all allies.
 Dogen's Ferocity	Chance to apply a Might Buff on self for 5 turns and a Fire GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Fear	Chance to remove Fear Buff from all enemies.
-Drain	Target heals for a portion of the damage it deals.	Dispel GemSilence	Chance to remove GemSilence Debuff from all allies.
-Earth GemSilence	Earth Gem placing skills are silenced for targeted heroes.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
-Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Might	Chance to remove Might Buff from all enemies.
-Fear	At the end of each turn, reduce up to 2 heroes' skill meter to 0%.	Dispel Panic	Chance to remove Panic Debuff from all allies.
-Fire GemSilence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Poison	Chance to remove Poison Debuff from all allies.
+Drain	Target heals for a portion of the damage it deals.	Dispel Flatline	Chance to remove Flatline Debuff from all allies.
+Earth GemSilence	Earth Gem placing skills are silenced for targeted heroes.	Dispel GemSilence	Chance to remove GemSilence Debuff from all allies.
+Earth Petrify	Petrifies Earth Gems at the beginning of the turn.	Dispel Judgement	Chance to remove Judgement Buff from all enemies.
+Fear	At the end of each turn, reduce up to 2 heroes' skill meter to 0%.	Dispel Might	Chance to remove Might Buff from all enemies.
+Fire GemSilence	Fire Gem placing skills are silenced for targeted heroes.	Dispel Panic	Chance to remove Panic Debuff from all allies.
+Flatline	After using a Revive skill, the board is shuffled and all heroes skill meters are reduced to 0%.	Dispel Poison	Chance to remove Poison Debuff from all allies.
 GemSilence	Skills that transform or upgrade Gems are silenced for targeted heroes.	Dispel Regen	Chance to remove Regen Buff from all enemies.
 Judgement	Target automatically deals damage to those that heal.	Dispel Siphon	Chance to remove Siphon Debuff from all allies.
 Keta's Resolve	Chance to apply a Might Buff on self for 5 turns and an Earth GemSilence Debuff on up to 5 heroes for 3 turns.	Dispel Thorns	Chance to remove Thorns Buff from all enemies.

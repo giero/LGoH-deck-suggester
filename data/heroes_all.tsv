@@ -646,6 +646,18 @@ fire	Master Lancer Elsa	******	30	Attacker	Fable				Fire Fable Might IV: 300% Da
 fire	Bad Santa	****	9	Warrior	Spirit	1886	158	3145	Human Blessing IV: 260% REC for all Human Heroes	GemSilence	Dispel Thorns				yes	Naughty List: Attack all enemies for 600% of ATK.		Bad Santa *****
 fire	Bad Santa	*****	15	Warrior	Spirit	3206	270	5346	Human Blessing V: 280% REC for all Human Heroes	GemSilence	Dispel Thorns				yes	Naughty List: Attack all enemies for 700% of ATK.	Bad Santa ****	Bad Santa ******
 fire	Bad Santa	******	30	Warrior	Spirit	4668	393	7778	Human Blessing VI: 300% REC for all Human Heroes	GemSilence	Dispel Thorns				yes	Naughty List: Attack all enemies for 800% of ATK.	Bad Santa *****	
+fire	Vinder, Bloodletter	****	9	Attacker	Ancient				Fire Ancient Guild II: 300% Damage and HP for all Fire Ancient Heroes in GvG attacks	GemSilence	Dispel Judgement			2x				Vinder, Bloodletter *****
+fire	Vinder, Bloodletter	*****	15	Attacker	Ancient				Fire Ancient Guild III: 325% Damage and HP for all Fire Ancient Heroes in GvG attacks	GemSilence	Dispel Judgement			3x			Vinder, Bloodletter ****	Vinder, Bloodletter ******
+fire	Vinder, Bloodletter	******	30	Attacker	Ancient	5828	778	3895	Fire Ancient Guild IV: 400% Damage and HP for all Fire Ancient Heroes in GvG attacks	GemSilence	Dispel Judgement			4x			Vinder, Bloodletter *****	
+fire	Eva, Forgotten Daughter	***	6	Warrior	Ancient				Fire Ancient Might I: 175% Damage and HP for all Fire Ancient Heroes	Traitor	Dispel Panic			2x				Eva, Forgotten Daughter ****
+fire	Eva, Forgotten Daughter	****	9	Warrior	Ancient				Fire Ancient Might II: 200% Damage and HP for all Fire Ancient Heroes	Traitor	Dispel Panic			2x			Eva, Forgotten Daughter ***	Eva, Forgotten Daughter *****
+fire	Eva, Forgotten Daughter	*****	15	Warrior	Ancient				Fire Ancient Might III: 225% Damage and HP for all Fire Ancient Heroes	Traitor	Dispel Panic			3x			Eva, Forgotten Daughter ****	Eva, Forgotten Daughter ******
+fire	Eva, Forgotten Daughter	******	30	Warrior	Ancient	4494	375	7488	Fire Ancient Might IV: 300% Damage and HP for all Fire Ancient Heroes	Traitor	Dispel Panic			4x			Eva, Forgotten Daughter *****	
+fire	Crimson, Vengeance	***	6	Warrior	Ancient				Fire Ancient Might I: 175% Damage and HP for all Fire Ancient Heroes	Siphon	Dispel Judgement			2x				Crimson, Vengeance ****
+fire	Crimson, Vengeance	****	9	Warrior	Ancient				Fire Ancient Might II: 200% Damage and HP for all Fire Ancient Heroes	Siphon	Dispel Judgement			2x			Crimson, Vengeance ***	Crimson, Vengeance *****
+fire	Crimson, Vengeance	*****	15	Warrior	Ancient				Fire Ancient Might III: 225% Damage and HP for all Fire Ancient Heroes	Siphon	Dispel Judgement			3x			Crimson, Vengeance ****	Crimson, Vengeance ******
+fire	Crimson, Vengeance	******	30	Warrior	Ancient	4654	387	7756	Fire Ancient Might IV: 300% Damage and HP for all Fire Ancient Heroes	Siphon	Dispel Judgement			4x			Crimson, Vengeance *****	
+fire	Valadim	******	30	Warrior	Ancient				Fire Ancient Might IV: 300% Damage and HP for all Fire Ancient Heroes	Siphon	Dispel Flatline			5x				
 water	Frostvein Cultist	*	2	Mage	Corrupt	256	86	118	Water Might I: 110% Damage for all Water Heroes	Drain	Unknown							Frostvein Devout **
 water	Frostvein Devout	**	4	Mage	Corrupt	431	143	190	Water Might II: 120% Damage for all Water Heroes	Drain	Dispel Armor						Frostvein Cultist *	Frostvein Enforcer ***
 water	Frostvein Enforcer	***	6	Mage	Corrupt	724	241	312	Water Might III: 140% Damage for all Water Heroes	Drain	Dispel Armor						Frostvein Devout **	
