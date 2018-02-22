@@ -42,32 +42,32 @@ HeroLoader.prototype.validateRow = function (heroData) {
         throw new Error(errorMessage('affinity', heroData[0]));
     }
 
-    if (heroData[4] === 'Attackers') {
+    if (heroData[3] === 'Attackers') {
         console.log(heroData);
     }
-    if (['Attacker', 'Balanced', 'Defender', 'Guardian', 'Healer', 'Mage', 'Warrior'].indexOf(heroData[4]) < 0) {
-        throw new Error(errorMessage('class', heroData[4]));
+    if (['Attacker', 'Balanced', 'Defender', 'Guardian', 'Healer', 'Mage', 'Warrior'].indexOf(heroData[3]) < 0) {
+        throw new Error(errorMessage('class', heroData[3]));
     }
 
     var races = ['Celestial', 'Corrupt', 'Creature', 'Demigod', 'Dragon', 'Dren', 'Dwarf', 'Fable', 'Giant', 'God', 'Human', 'Legend', 'Spirit', 'Honored', 'Ancient', 'Technological', 'Goblin'];
-    if (heroData[5].indexOf(' ') > 0) {
-        var validRace = heroData[5].split(' ').every(function (race) {
+    if (heroData[4].indexOf(' ') > 0) {
+        var validRace = heroData[4].split(' ').every(function (race) {
             return races.indexOf(race) >= 0;
         });
 
         if (!validRace) {
-            throw new Error(errorMessage('race', heroData[5]));
+            throw new Error(errorMessage('race', heroData[4]));
         }
-    } else if (races.indexOf(heroData[5]) < 0) {
-        throw new Error(errorMessage('race', heroData[5]));
+    } else if (races.indexOf(heroData[4]) < 0) {
+        throw new Error(errorMessage('race', heroData[4]));
     }
 
-    if (!skills.defenderSkills.hasOwnProperty(heroData[10])) {
-        throw new Error(errorMessage('defender skill', heroData[10]));
+    if (!skills.defenderSkills.hasOwnProperty(heroData[9])) {
+        throw new Error(errorMessage('defender skill', heroData[9]));
     }
 
-    if (!skills.counterSkill.hasOwnProperty(heroData[11])) {
-        throw new Error(errorMessage('counter skill', heroData[11]));
+    if (!skills.counterSkill.hasOwnProperty(heroData[10])) {
+        throw new Error(errorMessage('counter skill', heroData[10]));
     }
 };
 
@@ -90,7 +90,7 @@ HeroLoader.prototype.parse = function (heroData) {
         var eventSkills = {};
         var lvlRegex = /^(\d)x$/;
         var matches;
-        var countableSkills = {12: 'Slayer', 13: 'Bounty Hunter', 14: 'Commander'};
+        var countableSkills = {11: 'Slayer', 12: 'Bounty Hunter', 13: 'Commander'};
         var skillValue;
 
 
@@ -110,8 +110,8 @@ HeroLoader.prototype.parse = function (heroData) {
             }
         }
 
-        if (row[15].length) {
-            if (row[15] !== 'yes') {
+        if (row[14].length) {
+            if (row[14] !== 'yes') {
                 throw new Error('Invalid Warden value for ' + row[1] + ". Only allowed value is 'yes'.");
             }
 
@@ -202,19 +202,19 @@ HeroLoader.prototype.parse = function (heroData) {
             coreId: generateId(heroData[1], heroData[2]),
             name: heroData[1],
             affinity: ucFirst(heroData[0]),
-            type: heroData[4],
-            species: heroData[5],
-            attack: /^\d+$/.test(heroData[6]) ? parseInt(heroData[6]) : 0,
-            recovery: /^\d+$/.test(heroData[7]) ? parseInt(heroData[7]) : 0,
-            health: /^\d+$/.test(heroData[8]) ? parseInt(heroData[8]) : 0,
+            type: heroData[3],
+            species: heroData[4],
+            attack: /^\d+$/.test(heroData[5]) ? parseInt(heroData[5]) : 0,
+            recovery: /^\d+$/.test(heroData[6]) ? parseInt(heroData[6]) : 0,
+            health: /^\d+$/.test(heroData[7]) ? parseInt(heroData[7]) : 0,
             rarity: heroData[2].length,
             awakening: 5,
             eventSkills: extractEventSkills(heroData),
-            defenderSkill: heroData[10],
-            counterSkill: heroData[11],
-            leaderAbility: extractLeaderAbility(heroData[9]),
-            evolveFrom: heroData[17].length ? generateId(heroData[17]) : '',
-            evolveInto: heroData[18].length ? generateId(heroData[18]) : ''
+            defenderSkill: heroData[9],
+            counterSkill: heroData[10],
+            leaderAbility: extractLeaderAbility(heroData[8]),
+            evolveFrom: heroData[16].length ? generateId(heroData[16]) : '',
+            evolveInto: heroData[17].length ? generateId(heroData[17]) : ''
         };
     } catch (e) {
         throw new Error('[' + heroData[0] + '] ' + heroData[1] + ' ' + heroData[2] + '<br /><br />' + e.message);
