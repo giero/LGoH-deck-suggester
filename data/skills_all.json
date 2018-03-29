@@ -7,6 +7,7 @@
         "Armor": "Increases Armor of target.",
         "Autoheal": "Heals target when HP is about to fall below 50%.",
         "Blind": "Attacks of target have a chance to miss.",
+        "Chaos": "Completely destroys the board every turn.",
         "Counterattack": "Counterattack when attacked.",
         "Dark GemSilence": "Dark Gem placing skills are silenced for targeted heroes.",
         "Dark Gem Suppression": "Decreases the drop rate of Dark Gems and skills that increase the drop rate of Dark gems are silenced for targeted heroes.",
