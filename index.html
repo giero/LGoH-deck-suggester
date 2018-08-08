@@ -159,15 +159,15 @@
                 <label :for="listId + '-' + affinity + 'name-filter'">Hero name</label>
                 <input v-model="searchKey" class="form-control" :id="listId + '-' + affinity + 'name-filter'" />
             </div>
-            <div class="radio radio-primary form-group col-sm-2 pull-right">
-                <input type="radio" :id="listId + '-' + affinity + '-default-sort'" value="" v-model="sort">
-                <label :for="listId + '-' + affinity + '-default-sort'">default sort</label>
-                <br>
-                <input type="radio" :id="listId + '-' + affinity + '-name-sort'" value="name" v-model="sort">
-                <label :for="listId + '-' + affinity + '-name-sort'">sort by name</label>
-                <br>
-                <input type="radio" :id="listId + '-' + affinity + '-power-sort'" value="power" v-model="sort">
-                <label :for="listId + '-' + affinity + '-power-sort'">sort by power</label>
+            <div class="form-group col-sm-2 pull-right">
+                <label :for="listId + '-' + affinity + 'sort'">Sort by</label>
+                <select :id="listId + '-' + affinity + 'sort'" class="form-control selectpicker" v-model="sort">
+                    <option value="" selected="selected">default</option>
+                    <option value="name">name</option>
+                    <option value="power">power</option>
+                    <option value="defender-skill">defender skill</option>
+                    <option value="counter-skill">counter skill</option>
+                </select>
             </div>
         </div>
 

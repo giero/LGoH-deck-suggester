@@ -48,6 +48,14 @@ Team.prototype.getHeroes = function (filters, sort) {
                     lValue = b.power;
                     rValue = a.power;
                     break;
+                case 'defender-skill':
+                    lValue = a.defenderSkill;
+                    rValue = b.defenderSkill;
+                    break;
+                case 'counter-skill':
+                    lValue = a.counterSkill;
+                    rValue = b.counterSkill;
+                    break;
                 case 'name':
                 default:
                     lValue = a.name + a.rarity;
