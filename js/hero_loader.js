@@ -49,7 +49,7 @@ HeroLoader.prototype.validateRow = function (heroData) {
         throw new Error(errorMessage('class', heroData[3]));
     }
 
-    var races = ['Celestial', 'Corrupt', 'Creature', 'Demigod', 'Dragon', 'Dren', 'Dwarf', 'Fable', 'Giant', 'God', 'Human', 'Legend', 'Spirit', 'Honored', 'Ancient', 'Technological', 'Goblin', 'Mystic'];
+    var races = ['Celestial', 'Corrupt', 'Creature', 'Demigod', 'Dragon', 'Dren', 'Dwarf', 'Fable', 'Giant', 'God', 'Human', 'Legend', 'Spirit', 'Honored', 'Ancient', 'Technological', 'Goblin', 'Mystic', 'Special'];
     if (heroData[4].indexOf(' ') > 0) {
         var validRace = heroData[4].split(' ').every(function (race) {
             return races.indexOf(race) >= 0;
