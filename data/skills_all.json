@@ -9,6 +9,7 @@
         "Blind": "Attacks of target have a chance to miss.",
         "Chaos": "Completely destroys the board every turn.",
         "Counterattack": "Counterattack when attacked.",
+        "Doom Debuff": "Bombs are placed on the board.",
         "Dark GemSilence": "Dark Gem placing skills are silenced for targeted heroes.",
         "Dark Gem Suppression": "Decreases the drop rate of Dark Gems and skills that increase the drop rate of Dark gems are silenced for targeted heroes.",
         "Dodge": "Attacks made against target have a chance to miss.",
@@ -37,7 +38,11 @@
         "Unknown": "Unknown",
         "Water GemSilence": "Water Gem placing skills are silenced for targeted heroes.",
         "Weaken": "Reduces Attack of target.",
-        "Zombie": "Healing target damages target instead."
+        "Zombie": "Healing target damages target instead.",
+        "Birthright: Armor": "",
+        "Birthright: Blind": "",
+        "Birthright: Chaos": "Chance on Spawn to apply a Chaos Debuff on 1 hero for 3 turns.",
+        "Birthright: Dodge": ""
     },
     "counterSkill": {
         "Absolve": "Chance to remove Poison and Blind from all allies; Armor and Might from all enemies.",

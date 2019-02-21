@@ -7741,9 +7741,9 @@
         "affinity": "Dark",
         "type": "Warrior",
         "species": "Giant",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3224,
+        "recovery": 273,
+        "health": 5372,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -8183,34 +8183,6 @@
         "evolveInto": ""
     },
     {
-        "coreId": "5a8bad9e",
-        "name": "Engineer Exenka",
-        "affinity": "Dark",
-        "type": "Attacker",
-        "species": "Honored",
-        "attack": 7592,
-        "recovery": 1012,
-        "health": 5067,
-        "rarity": 6,
-        "awakening": 5,
-        "eventSkills": {
-            "Commander": 4
-        },
-        "defenderSkill": "Counterattack",
-        "counterSkill": "Dispel Traitor",
-        "leaderAbility": {
-            "name": "Dark Honored Guild IV",
-            "description": "400% Damage and HP for all Dark Honored Heroes in GvG attacks",
-            "modifiers": {
-                "attack": 4,
-                "health": 4
-            },
-            "target": []
-        },
-        "evolveFrom": "",
-        "evolveInto": ""
-    },
-    {
         "coreId": "5fd7e3f3",
         "name": "Kanin, Mutant Marauder",
         "affinity": "Dark",
@@ -8295,6 +8267,34 @@
             "target": []
         },
         "evolveFrom": "a8bfd052",
+        "evolveInto": "5a8bad9e"
+    },
+    {
+        "coreId": "5a8bad9e",
+        "name": "Engineer Exenka",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 7592,
+        "recovery": 1012,
+        "health": 5067,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Counterattack",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Dark Honored Guild IV",
+            "description": "400% Damage and HP for all Dark Honored Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "396c7ab8",
         "evolveInto": ""
     },
     {
@@ -8482,27 +8482,32 @@
         "evolveInto": ""
     },
     {
-        "coreId": "6245fdf8",
-        "name": "Soul Reaper",
+        "coreId": "77f30523",
+        "name": "Gia, Freed Darkness",
         "affinity": "Dark",
-        "type": "Attacker",
-        "species": "God",
-        "attack": 5203,
-        "recovery": 694,
-        "health": 3474,
-        "rarity": 5,
+        "type": "Warrior",
+        "species": "Human",
+        "attack": 3300,
+        "recovery": 202,
+        "health": 4200,
+        "rarity": 6,
         "awakening": 5,
-        "eventSkills": {},
-        "defenderSkill": "Armor",
-        "counterSkill": "Dispel Blind",
+        "eventSkills": {
+            "Slayer": 5
+        },
+        "defenderSkill": "Chaos",
+        "counterSkill": "Dispel Panic",
         "leaderAbility": {
-            "name": "Dark God Guild III",
-            "description": "325% Damage and HP for all Dark God Heroes in GvG attacks",
+            "name": "Dark Human Might IV",
+            "description": "300% Damage and HP for all Dark Human Heroes",
             "modifiers": {
-                "attack": 3.25,
-                "health": 3.25
+                "attack": 3,
+                "health": 3
             },
-            "target": []
+            "target": [
+                "Dark",
+                "Human"
+            ]
         },
         "evolveFrom": "",
         "evolveInto": ""
@@ -8629,6 +8634,246 @@
             ]
         },
         "evolveFrom": "d9bc8a2a",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "6245fdf8",
+        "name": "Soul Reaper",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 5203,
+        "recovery": 694,
+        "health": 3474,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {},
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Dark God Guild III",
+            "description": "325% Damage and HP for all Dark God Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "e52b037d"
+    },
+    {
+        "coreId": "e52b037d",
+        "name": "Soul Reaper",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "God",
+        "attack": 7592,
+        "recovery": 1012,
+        "health": 5067,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Blind",
+        "leaderAbility": {
+            "name": "Dark God Guild IV",
+            "description": "400% Damage and HP for all Dark God Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "6245fdf8",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "c486bacc",
+        "name": "Lahlo, Rebel Virtuoso",
+        "affinity": "Dark",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 8092,
+        "recovery": 1080,
+        "health": 5401,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Counterattack",
+        "counterSkill": "Dispel Traitor",
+        "leaderAbility": {
+            "name": "Dark Honored Intensify I",
+            "description": "300% Damage and HP for all Dark Honored Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Honored"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "9f27a4d8",
+        "name": "Manananggal the Wicked",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 884,
+        "recovery": 74,
+        "health": 1474,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 5
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Weaken",
+        "leaderAbility": {
+            "name": "Dark Commander Might I",
+            "description": "175% Damage and HP for all Dark Commander Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "e41ebdf9",
+        "name": "Ogilvy, Twilight Hunter",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 2216,
+        "recovery": 185,
+        "health": 3694,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Slayer Might I",
+            "description": "175% Damage and HP for all Dark Slayer Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Dark",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "f0ee8960"
+    },
+    {
+        "coreId": "f0ee8960",
+        "name": "Ogilvy, Twilight Hunter",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 3694,
+        "recovery": 308,
+        "health": 6157,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Slayer Might II",
+            "description": "200% Damage and HP for all Dark Slayer Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Dark",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "e41ebdf9",
+        "evolveInto": "5c18f94d"
+    },
+    {
+        "coreId": "5c18f94d",
+        "name": "Ogilvy, Twilight Hunter",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 6378,
+        "recovery": 532,
+        "health": 10632,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Slayer Might III",
+            "description": "225% Damage and HP for all Dark Slayer Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Dark",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "f0ee8960",
+        "evolveInto": "16a9d748"
+    },
+    {
+        "coreId": "16a9d748",
+        "name": "Ogilvy, Twilight Hunter",
+        "affinity": "Dark",
+        "type": "Warrior",
+        "species": "Creature",
+        "attack": 9326,
+        "recovery": 779,
+        "health": 15542,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Dark Slayer Might IV",
+            "description": "300% Damage and HP for all Dark Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Dark",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "5c18f94d",
         "evolveInto": ""
     },
     {
@@ -11089,9 +11334,9 @@
         "affinity": "Light",
         "type": "Attacker",
         "species": "Demigod",
-        "attack": 0,
-        "recovery": 0,
-        "health": 0,
+        "attack": 3181,
+        "recovery": 426,
+        "health": 2136,
         "rarity": 5,
         "awakening": 5,
         "eventSkills": {
@@ -16059,6 +16304,7 @@
         "rarity": 3,
         "awakening": 5,
         "eventSkills": {
+            "Slayer": 2,
             "Commander": 2
         },
         "defenderSkill": "Poison",
@@ -17008,7 +17254,7 @@
             "target": []
         },
         "evolveFrom": "",
-        "evolveInto": ""
+        "evolveInto": "47720549"
     },
     {
         "coreId": "47720549",
@@ -17036,7 +17282,7 @@
             },
             "target": []
         },
-        "evolveFrom": "",
+        "evolveFrom": "f7883c33",
         "evolveInto": ""
     },
     {
@@ -17195,6 +17441,397 @@
             ]
         },
         "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b8972eef",
+        "name": "Ilona Egderunner",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 5543,
+        "recovery": 740,
+        "health": 3702,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Light Dren Guild III",
+            "description": "325% Damage and HP for all Light Dren Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "f819a620"
+    },
+    {
+        "coreId": "f819a620",
+        "name": "Ilona Egderunner",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Dren",
+        "attack": 8092,
+        "recovery": 1080,
+        "health": 5401,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Light Dren Guild IV",
+            "description": "400% Damage and HP for all Light Dren Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "b8972eef",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "9dbae9b7",
+        "name": "Sugarplum Faerie",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 2216,
+        "recovery": 185,
+        "health": 3694,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Light Commander Might I",
+            "description": "175% Damage and HP for all Light Commander Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "8d329cbc"
+    },
+    {
+        "coreId": "8d329cbc",
+        "name": "Sugarplum Faerie",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 3694,
+        "recovery": 308,
+        "health": 6157,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Light Commander Might II",
+            "description": "200% Damage and HP for all Light Commander Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "9dbae9b7",
+        "evolveInto": "74bf1370"
+    },
+    {
+        "coreId": "74bf1370",
+        "name": "Sugarplum Faerie",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 6378,
+        "recovery": 532,
+        "health": 10632,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Light Commander Might III",
+            "description": "225% Damage and HP for all Light Commander Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "8d329cbc",
+        "evolveInto": "309f6f28"
+    },
+    {
+        "coreId": "309f6f28",
+        "name": "Sugarplum Faerie",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Ancient",
+        "attack": 9326,
+        "recovery": 779,
+        "health": 15542,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Light Commander Might IV",
+            "description": "300% Damage and HP for all Light Commander Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "74bf1370",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "ddac3d9f",
+        "name": "Steadfast Nutcracker",
+        "affinity": "Light",
+        "type": "Attacker",
+        "species": "Ancient",
+        "attack": 5818,
+        "recovery": 776,
+        "health": 3881,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Light Commander Guild IV",
+            "description": "400% Damage and HP for all Light Commander Heroes",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": [
+                "Light",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "78273930",
+        "name": "Swinelord Junfa",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Technological",
+        "attack": 1959,
+        "recovery": 653,
+        "health": 8148,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Light Slayer Guild II",
+            "description": "300% Damage and HP for all Light Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "a51411a1"
+    },
+    {
+        "coreId": "a51411a1",
+        "name": "Swinelord Junfa",
+        "affinity": "Light",
+        "type": "Defender",
+        "species": "Technological",
+        "attack": 3385,
+        "recovery": 1128,
+        "health": 14087,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Thorns",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Light Slayer Guild III",
+            "description": "325% Damage and HP for all Light Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "78273930",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "64f9a1ce",
+        "name": "Assault Unit Yojoo",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 2216,
+        "recovery": 185,
+        "health": 3694,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Light Slayer Might I",
+            "description": "175% Damage and HP for all Light Slayer Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Light",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "31ab62ba"
+    },
+    {
+        "coreId": "31ab62ba",
+        "name": "Assault Unit Yojoo",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 3694,
+        "recovery": 308,
+        "health": 6157,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Light Slayer Might II",
+            "description": "200% Damage and HP for all Light Slayer Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Light",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "64f9a1ce",
+        "evolveInto": "d2ac6462"
+    },
+    {
+        "coreId": "d2ac6462",
+        "name": "Assault Unit Yojoo",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 6378,
+        "recovery": 532,
+        "health": 10632,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Light Slayer Might III",
+            "description": "225% Damage and HP for all Light Slayer Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Light",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "31ab62ba",
+        "evolveInto": "83c33559"
+    },
+    {
+        "coreId": "83c33559",
+        "name": "Assault Unit Yojoo",
+        "affinity": "Light",
+        "type": "Warrior",
+        "species": "Technological",
+        "attack": 9326,
+        "recovery": 779,
+        "health": 15542,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Weaken",
+        "counterSkill": "Dispel GemSilence",
+        "leaderAbility": {
+            "name": "Light Slayer Might IV",
+            "description": "300% Damage and HP for all Light Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Light",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "d2ac6462",
         "evolveInto": ""
     },
     {
@@ -26050,6 +26687,37 @@
         "evolveInto": ""
     },
     {
+        "coreId": "a6db7b65",
+        "name": "Blazing Glory",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Demigod",
+        "attack": 2205,
+        "recovery": 297,
+        "health": 1484,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Dodge",
+        "counterSkill": "Dispel Poison",
+        "leaderAbility": {
+            "name": "Fire Demigod Might II",
+            "description": "200% Damage and HP for all Fire Demigod Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Fire",
+                "Demigod"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
         "coreId": "f0d07bd0",
         "name": "Simargl the Flamewolf",
         "affinity": "Fire",
@@ -26475,38 +27143,35 @@
         "evolveInto": ""
     },
     {
-        "coreId": "a6db7b65",
-        "name": "Blazing Glory",
+        "coreId": "b98cc58e",
+        "name": "Blazing Argoli Polykeph",
         "affinity": "Fire",
         "type": "Attacker",
-        "species": "Demigod",
-        "attack": 2205,
-        "recovery": 297,
-        "health": 1484,
-        "rarity": 4,
+        "species": "Dragon",
+        "attack": 3859,
+        "recovery": 515,
+        "health": 2576,
+        "rarity": 6,
         "awakening": 5,
         "eventSkills": {
-            "Slayer": 2
+            "Commander": 4
         },
-        "defenderSkill": "Dodge",
-        "counterSkill": "Dispel Poison",
+        "defenderSkill": "GemSilence",
+        "counterSkill": "Dispel Counterattack",
         "leaderAbility": {
-            "name": "Fire Demigod Might II",
-            "description": "200% Damage and HP for all Fire Demigod Heroes",
+            "name": "Fire Dragon Guild IV",
+            "description": "400% Damage and HP for all Fire Dragon Heroes in GvG attacks",
             "modifiers": {
-                "attack": 2,
-                "health": 2
+                "attack": 4,
+                "health": 4
             },
-            "target": [
-                "Fire",
-                "Demigod"
-            ]
+            "target": []
         },
         "evolveFrom": "",
         "evolveInto": ""
     },
     {
-        "coreId": "1eaebe72",
+        "coreId": "d21404ae",
         "name": "The Soul Thresher",
         "affinity": "Fire",
         "type": "Attacker",
@@ -26514,12 +27179,12 @@
         "attack": 3084,
         "recovery": 411,
         "health": 2059,
-        "rarity": 5,
+        "rarity": 6,
         "awakening": 5,
         "eventSkills": {
             "Slayer": 4
         },
-        "defenderSkill": "Fire GemSilence",
+        "defenderSkill": "GemSilence",
         "counterSkill": "Dispel Fear",
         "leaderAbility": {
             "name": "Fire Special Guild III",
@@ -26560,6 +27225,127 @@
                 "Fire",
                 "Dragon"
             ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "8d80467a",
+        "name": "Volcanic Quilldrac",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Dragon",
+        "attack": 3771,
+        "recovery": 503,
+        "health": 2516,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 5
+        },
+        "defenderSkill": "Autoheal",
+        "counterSkill": "Dispel Dodge",
+        "leaderAbility": {
+            "name": "Fire Dragon Might IV",
+            "description": "300% Damage and HP for all Fire Dragon Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Dragon"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "f794daa1"
+    },
+    {
+        "coreId": "687b5873",
+        "name": "Alex, Rider on the Storm",
+        "affinity": "Fire",
+        "type": "Attacker",
+        "species": "Special",
+        "attack": 8092,
+        "recovery": 1080,
+        "health": 5401,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 5
+        },
+        "defenderSkill": "Absorb",
+        "counterSkill": "Unknown",
+        "leaderAbility": {
+            "name": "Fire Special Might IV",
+            "description": "300% Damage and HP for all Fire Special Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Special"
+            ]
+        },
+        "evolveFrom": "f794daa1",
+        "evolveInto": "f794daa1"
+    },
+    {
+        "coreId": "7549e398",
+        "name": "Admiral Applewood",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Fable",
+        "attack": 4280,
+        "recovery": 357,
+        "health": 7133,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Chaos",
+        "counterSkill": "Dispel Panic",
+        "leaderAbility": {
+            "name": "Fire Slayer Might IV",
+            "description": "300% Damage and HP for all Fire Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Fire",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "f794daa1",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "2de33f49",
+        "name": "Flarefire Dilophosphera",
+        "affinity": "Fire",
+        "type": "Warrior",
+        "species": "Giant",
+        "attack": 3912,
+        "recovery": 326,
+        "health": 6521,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 5
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Toxin",
+        "leaderAbility": {
+            "name": "Fire Commander Guild II",
+            "description": "300% Damage and HP for all Fire Commander Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
         },
         "evolveFrom": "",
         "evolveInto": ""
@@ -27468,6 +28254,37 @@
                 "recovery": 1.6
             },
             "target": "Water"
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b635b6aa",
+        "name": "Golden Trickster",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Corrupt",
+        "attack": 3329,
+        "recovery": 444,
+        "health": 2222,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Counterattack",
+        "counterSkill": "Dispel Fear",
+        "leaderAbility": {
+            "name": "Water Corrupt Might IV",
+            "description": "300% Damage and HP for all Water Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Corrupt"
+            ]
         },
         "evolveFrom": "",
         "evolveInto": ""
@@ -34698,7 +35515,7 @@
             ]
         },
         "evolveFrom": "",
-        "evolveInto": ""
+        "evolveInto": "303d917a"
     },
     {
         "coreId": "303d917a",
@@ -34728,8 +35545,8 @@
                 "Spirit"
             ]
         },
-        "evolveFrom": "",
-        "evolveInto": ""
+        "evolveFrom": "9b9737bd",
+        "evolveInto": "60767df9"
     },
     {
         "coreId": "60767df9",
@@ -34759,8 +35576,8 @@
                 "Spirit"
             ]
         },
-        "evolveFrom": "",
-        "evolveInto": ""
+        "evolveFrom": "303d917a",
+        "evolveInto": "7cc34716"
     },
     {
         "coreId": "7cc34716",
@@ -34790,7 +35607,7 @@
                 "Spirit"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "60767df9",
         "evolveInto": ""
     },
     {
@@ -35175,7 +35992,7 @@
             "target": []
         },
         "evolveFrom": "e9c5bc1f",
-        "evolveInto": ""
+        "evolveInto": "6e49c45e"
     },
     {
         "coreId": "6e49c45e",
@@ -35202,7 +36019,7 @@
             },
             "target": []
         },
-        "evolveFrom": "",
+        "evolveFrom": "de5fa4d2",
         "evolveInto": ""
     },
     {
@@ -35265,7 +36082,7 @@
             ]
         },
         "evolveFrom": "3a1b7832",
-        "evolveInto": "96649c37"
+        "evolveInto": "f474d07e"
     },
     {
         "coreId": "f474d07e",
@@ -35295,8 +36112,8 @@
                 "Corrupt"
             ]
         },
-        "evolveFrom": "",
-        "evolveInto": "e6ca8bdd"
+        "evolveFrom": "d2bf9cab",
+        "evolveInto": "96649c37"
     },
     {
         "coreId": "96649c37",
@@ -35304,9 +36121,9 @@
         "affinity": "Water",
         "type": "Warrior",
         "species": "Corrupt",
-        "attack": 1366,
-        "recovery": 115,
-        "health": 2276,
+        "attack": 6030,
+        "recovery": 506,
+        "health": 10048,
         "rarity": 6,
         "awakening": 5,
         "eventSkills": {
@@ -35316,17 +36133,17 @@
         "counterSkill": "Dispel Weaken",
         "leaderAbility": {
             "name": "Water Corrupt Might III",
-            "description": "333% Damage and HP for all Water Corrupt Heroes",
+            "description": "300% Damage and HP for all Water Corrupt Heroes",
             "modifiers": {
-                "attack": 3.33,
-                "health": 3.33
+                "attack": 3,
+                "health": 3
             },
             "target": [
                 "Water",
                 "Corrupt"
             ]
         },
-        "evolveFrom": "d2bf9cab",
+        "evolveFrom": "f474d07e",
         "evolveInto": ""
     },
     {
@@ -35445,7 +36262,7 @@
             "target": []
         },
         "evolveFrom": "a755e7de",
-        "evolveInto": ""
+        "evolveInto": "e6ca8bdd"
     },
     {
         "coreId": "e6ca8bdd",
@@ -35472,7 +36289,7 @@
             },
             "target": []
         },
-        "evolveFrom": "",
+        "evolveFrom": "f8c2129f",
         "evolveInto": ""
     },
     {
@@ -35535,7 +36352,7 @@
             ]
         },
         "evolveFrom": "b922ae4b",
-        "evolveInto": "948fe10d"
+        "evolveInto": "caad90b2"
     },
     {
         "coreId": "caad90b2",
@@ -35565,8 +36382,8 @@
                 "Human"
             ]
         },
-        "evolveFrom": "",
-        "evolveInto": ""
+        "evolveFrom": "f325fe30",
+        "evolveInto": "948fe10d"
     },
     {
         "coreId": "948fe10d",
@@ -35596,7 +36413,7 @@
                 "Human"
             ]
         },
-        "evolveFrom": "f325fe30",
+        "evolveFrom": "caad90b2",
         "evolveInto": ""
     },
     {
@@ -35623,6 +36440,422 @@
                 "health": 3.25
             },
             "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "756f622b"
+    },
+    {
+        "coreId": "756f622b",
+        "name": "Iron Spine Nighthorse",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Human",
+        "attack": 2683,
+        "recovery": 224,
+        "health": 4472,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Toxin",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Water Human Guild IV",
+            "description": "400% Damage and HP for all Water Human Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "db36c997",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "1facd87e",
+        "name": "Helga, Icetech Brawler",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 4019,
+        "recovery": 336,
+        "health": 6698,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 5
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Thorns",
+        "leaderAbility": {
+            "name": "Water Slayer Might IV",
+            "description": "300% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "738d1f72",
+        "name": "Esteemed Haldor",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 3912,
+        "recovery": 326,
+        "health": 6521,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Water Slayer Guild II",
+            "description": "300% Damage and HP for all Water Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "3d8916ec"
+    },
+    {
+        "coreId": "3d8916ec",
+        "name": "Esteemed Haldor",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 6762,
+        "recovery": 564,
+        "health": 11272,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Water Slayer Guild III",
+            "description": "325% Damage and HP for all Water Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "738d1f72",
+        "evolveInto": "60c6ad1c"
+    },
+    {
+        "coreId": "60c6ad1c",
+        "name": "Esteemed Haldor",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Honored",
+        "attack": 9888,
+        "recovery": 825,
+        "health": 16480,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Water Slayer Guild IV",
+            "description": "400% Damage and HP for all Water Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "3d8916ec",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "10a3e0e4",
+        "name": "Doctor Nunaat, Reborn",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Honored",
+        "attack": 12360,
+        "recovery": 1648,
+        "health": 8245,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 5
+        },
+        "defenderSkill": "Flatline",
+        "counterSkill": "Dispel Vessel",
+        "leaderAbility": {
+            "name": "Water Slayer Might IV",
+            "description": "300% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "51791050",
+        "name": "Mylio, Lost Baroness",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Demigod",
+        "attack": 4233,
+        "recovery": 353,
+        "health": 7055,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Poison",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Water Commander Might  IV",
+            "description": "300% Damage and HP for all Water Commander Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Commander"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "42bb73e1",
+        "name": "Bewitching Kaliba",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Elf",
+        "attack": 9326,
+        "recovery": 779,
+        "health": 15542,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Water Slayer Might IV",
+            "description": "300% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "c33c2414",
+        "name": "Cupid T. Arrows",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Elf",
+        "attack": 4889,
+        "recovery": 653,
+        "health": 3264,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Chaos",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Water Slayer Guild II",
+            "description": "300% Damage and HP for all Water Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "4ed68632"
+    },
+    {
+        "coreId": "4ed68632",
+        "name": "Cupid T. Arrows",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Elf",
+        "attack": 8453,
+        "recovery": 1128,
+        "health": 5642,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Chaos",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Water Slayer Guild II",
+            "description": "325% Damage and HP for all Water Slayer Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "c33c2414",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "d55394ac",
+        "name": "Bewitching Kaliba",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Elf",
+        "attack": 2216,
+        "recovery": 185,
+        "health": 3694,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Water Slayer Might I",
+            "description": "175% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "0f3b5de1"
+    },
+    {
+        "coreId": "0f3b5de1",
+        "name": "Bewitching Kaliba",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Elf",
+        "attack": 3694,
+        "recovery": 308,
+        "health": 6157,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Water Slayer Might II",
+            "description": "200% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "d55394ac",
+        "evolveInto": "bb5a4df5"
+    },
+    {
+        "coreId": "bb5a4df5",
+        "name": "Bewitching Kaliba",
+        "affinity": "Water",
+        "type": "Warrior",
+        "species": "Elf",
+        "attack": 6378,
+        "recovery": 532,
+        "health": 10632,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Traitor",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Water Slayer Might III",
+            "description": "225% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "0f3b5de1",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "a0ad38eb",
+        "name": "Vinder the Charmed",
+        "affinity": "Water",
+        "type": "Attacker",
+        "species": "Elf",
+        "attack": 13096,
+        "recovery": 1746,
+        "health": 8737,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 5
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Might",
+        "leaderAbility": {
+            "name": "Water Slayer Might IV",
+            "description": "300% Damage and HP for all Water Slayer Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Water",
+                "Slayer"
+            ]
         },
         "evolveFrom": "",
         "evolveInto": ""
@@ -44559,23 +45792,23 @@
         "evolveInto": ""
     },
     {
-        "coreId": "9f962453",
-        "name": "Sugared Sniper",
+        "coreId": "4069a764",
+        "name": "Sweet Steel Hansel",
         "affinity": "Earth",
-        "type": "Warrior",
+        "type": "Attacker",
         "species": "Corrupt",
-        "attack": 6076,
-        "recovery": 507,
-        "health": 10126,
-        "rarity": 6,
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 4,
         "awakening": 5,
         "eventSkills": {
-            "Commander": 4
+            "Commander": 2
         },
-        "defenderSkill": "Panic",
-        "counterSkill": "Dispel Armor",
+        "defenderSkill": "Blind",
+        "counterSkill": "Dispel Dodge",
         "leaderAbility": {
-            "name": "Earth Corrupt Might IV",
+            "name": "Earth Corrupt Might III",
             "description": "300% Damage and HP for all Earth Corrupt Heroes",
             "modifiers": {
                 "attack": 3,
@@ -44587,7 +45820,7 @@
             ]
         },
         "evolveFrom": "",
-        "evolveInto": ""
+        "evolveInto": "9994b0db"
     },
     {
         "coreId": "9994b0db",
@@ -44617,7 +45850,7 @@
                 "Corrupt"
             ]
         },
-        "evolveFrom": "",
+        "evolveFrom": "4069a764",
         "evolveInto": "729f778b"
     },
     {
@@ -44652,6 +45885,33 @@
         "evolveInto": ""
     },
     {
+        "coreId": "476a2227",
+        "name": "Tri'goth Triklu The imposter",
+        "affinity": "Earth",
+        "type": "Guardian",
+        "species": "Special",
+        "attack": 304,
+        "recovery": 402,
+        "health": 2014,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Warden": true
+        },
+        "defenderSkill": "Drain",
+        "counterSkill": "Dispel Chaos",
+        "leaderAbility": {
+            "name": "Creature Blessing IV",
+            "description": "260% REC for all Creature Heroes",
+            "modifiers": {
+                "recovery": 2.6
+            },
+            "target": "Creature"
+        },
+        "evolveFrom": "",
+        "evolveInto": ""
+    },
+    {
         "coreId": "fa1d0ed6",
         "name": "Sugared Sniper",
         "affinity": "Earth",
@@ -44680,6 +45940,246 @@
             ]
         },
         "evolveFrom": "",
+        "evolveInto": "9f962453"
+    },
+    {
+        "coreId": "9f962453",
+        "name": "Sugared Sniper",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Corrupt",
+        "attack": 6076,
+        "recovery": 507,
+        "health": 10126,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Armor",
+        "leaderAbility": {
+            "name": "Earth Corrupt Might IV",
+            "description": "300% Damage and HP for all Earth Corrupt Heroes",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": [
+                "Earth",
+                "Corrupt"
+            ]
+        },
+        "evolveFrom": "fa1d0ed6",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "6fc0e851",
+        "name": "Rudolph Night Star",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 884,
+        "recovery": 74,
+        "health": 1474,
+        "rarity": 3,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Earth Slayer Might I",
+            "description": "175% Damage and HP for all Earth Slayer Heroes",
+            "modifiers": {
+                "attack": 1.75,
+                "health": 1.75
+            },
+            "target": [
+                "Earth",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "90f10644"
+    },
+    {
+        "coreId": "90f10644",
+        "name": "Rudolph Night Star",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 9326,
+        "recovery": 779,
+        "health": 15542,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 4
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Earth Slayer Might III",
+            "description": "250% Damage and HP for all Earth Slayer Heroes",
+            "modifiers": {
+                "attack": 2.5,
+                "health": 2.5
+            },
+            "target": [
+                "Earth",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "6fc0e851",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "6a7909d6",
+        "name": "Rudolph Night Star",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 3694,
+        "recovery": 308,
+        "health": 6157,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Earth Slayer Might II",
+            "description": "200% Damage and HP for all Earth Slayer Heroes",
+            "modifiers": {
+                "attack": 2,
+                "health": 2
+            },
+            "target": [
+                "Earth",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "",
+        "evolveInto": "aba5cf86"
+    },
+    {
+        "coreId": "aba5cf86",
+        "name": "Rudolph Night Star",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "Spirit",
+        "attack": 6378,
+        "recovery": 532,
+        "health": 10632,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 3
+        },
+        "defenderSkill": "Panic",
+        "counterSkill": "Dispel Judgement",
+        "leaderAbility": {
+            "name": "Earth Slayer Might III",
+            "description": "225% Damage and HP for all Earth Slayer Heroes",
+            "modifiers": {
+                "attack": 2.25,
+                "health": 2.25
+            },
+            "target": [
+                "Earth",
+                "Slayer"
+            ]
+        },
+        "evolveFrom": "6a7909d6",
+        "evolveInto": ""
+    },
+    {
+        "coreId": "b531f473",
+        "name": "Masauwu",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 3912,
+        "recovery": 326,
+        "health": 6521,
+        "rarity": 4,
+        "awakening": 5,
+        "eventSkills": {
+            "Slayer": 2,
+            "Commander": 2
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Earth Commander Guild II",
+            "description": "300% Damage and HP for all Earth Commander Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3,
+                "health": 3
+            },
+            "target": []
+        },
+        "evolveFrom": "",
+        "evolveInto": "cc0da05c"
+    },
+    {
+        "coreId": "cc0da05c",
+        "name": "Masauwu",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 0,
+        "recovery": 0,
+        "health": 0,
+        "rarity": 5,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 3
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Earth Commander Guild III",
+            "description": "325% Damage and HP for all Earth Commander Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 3.25,
+                "health": 3.25
+            },
+            "target": []
+        },
+        "evolveFrom": "b531f473",
+        "evolveInto": "7fa9bb97"
+    },
+    {
+        "coreId": "7fa9bb97",
+        "name": "Masauwu",
+        "affinity": "Earth",
+        "type": "Warrior",
+        "species": "God",
+        "attack": 9888,
+        "recovery": 825,
+        "health": 16480,
+        "rarity": 6,
+        "awakening": 5,
+        "eventSkills": {
+            "Commander": 4
+        },
+        "defenderSkill": "Armor",
+        "counterSkill": "Dispel Power GemSilence",
+        "leaderAbility": {
+            "name": "Earth Commander Guild IV",
+            "description": "400% Damage and HP for all Earth Commander Heroes in GvG attacks",
+            "modifiers": {
+                "attack": 4,
+                "health": 4
+            },
+            "target": []
+        },
+        "evolveFrom": "cc0da05c",
         "evolveInto": ""
     }
 ]
