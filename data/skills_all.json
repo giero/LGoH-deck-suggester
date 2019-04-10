@@ -77,5 +77,5 @@
         "None": "None",
         "Unknown": "This skill has yet to be revealed.",
         "Vindicate": "Chance to remove Weaken and Toxin from all allies; Alacrity and Might from all enemies."
-    }
+,	"Dispel Autoheal": "Chance to remove Autoheal Buff from all enemies." }
 }
