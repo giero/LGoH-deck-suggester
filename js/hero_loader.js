@@ -45,11 +45,11 @@ HeroLoader.prototype.validateRow = function (heroData) {
     if (heroData[3] === 'Attackers') {
         console.log(heroData);
     }
-    if (['Attacker', 'Balanced', 'Defender', 'Guardian', 'Healer', 'Mage', 'Warrior'].indexOf(heroData[3]) < 0) {
+    if (['Attacker', 'Balanced', 'Defender', 'Guardian', 'Healer', 'Mage', 'Warrior', 'Seer'].indexOf(heroData[3]) < 0) {
         throw new Error(errorMessage('class', heroData[3]));
     }
 
-    var races = ['Celestial', 'Corrupt', 'Creature', 'Demigod', 'Dragon', 'Dren', 'Dwarf', 'Fable', 'Giant', 'God', 'Human', 'Legend', 'Spirit', 'Honored', 'Ancient', 'Technological', 'Goblin', 'Mystic', 'Special', 'Elf', 'Seer'];
+    var races = ['Celestial', 'Corrupt', 'Creature', 'Demigod', 'Dragon', 'Dren', 'Dwarf', 'Fable', 'Giant', 'God', 'Human', 'Legend', 'Spirit', 'Honored', 'Ancient', 'Technological', 'Goblin', 'Mystic', 'Special', 'Elf'];
     if (heroData[4].indexOf(' ') > 0) {
         var validRace = heroData[4].split(' ').every(function (race) {
             return races.indexOf(race) >= 0;
